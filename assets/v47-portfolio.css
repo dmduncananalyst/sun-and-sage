@@ -1,0 +1,263 @@
+/* Revision 47: parent projects with tabbed smaller-job galleries. */
+
+.portfolioParentGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  width: min(1380px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 0 0 88px;
+}
+
+.portfolioParentCard {
+  position: relative;
+  display: block;
+  min-height: 560px;
+  overflow: hidden;
+  color: #fff;
+  background: #153f43;
+}
+
+.portfolioParentCard img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .7s ease, filter .7s ease;
+}
+
+.portfolioParentCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 25%, rgba(7, 20, 21, .2) 52%, rgba(7, 20, 21, .94) 100%);
+}
+
+.portfolioParentCardContent {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 34px 36px 32px;
+}
+
+.portfolioParentCardContent > span {
+  display: block;
+  margin-bottom: 11px;
+  color: #87cad2;
+  font: 700 10px/1 Arial, sans-serif;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.portfolioParentCardContent h2 {
+  margin: 0 0 16px;
+  font: 400 clamp(38px, 4.2vw, 62px)/.96 Georgia, serif;
+}
+
+.portfolioParentCardContent p {
+  max-width: 590px;
+  margin: 0 0 23px;
+  color: rgba(255, 255, 255, .82);
+  font: 400 14px/1.65 Arial, sans-serif;
+}
+
+.portfolioParentCardContent b {
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #c88d57;
+  color: #dca56e;
+  font: 700 10px/1.2 Arial, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  transition: color .25s ease, border-color .25s ease, transform .25s ease;
+}
+
+.portfolioParentCard:hover img,
+.portfolioParentCard:focus-visible img {
+  transform: scale(1.035);
+  filter: saturate(1.06) contrast(1.02);
+}
+
+.portfolioParentCard:hover b,
+.portfolioParentCard:focus-visible b {
+  color: #fff;
+  border-color: #fff;
+  transform: translateX(6px);
+}
+
+.projectJobTabs {
+  padding: 86px 5vw 100px;
+  background: #f3eee5;
+  color: #151513;
+}
+
+.projectJobTabs > header {
+  display: grid;
+  grid-template-columns: .7fr 1.3fr;
+  gap: 40px;
+  align-items: end;
+  width: min(1320px, 100%);
+  margin: 0 auto 44px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #9d978d;
+}
+
+.projectJobTabs .eyebrow {
+  margin: 0;
+  color: #367d87;
+  font: 700 11px/1.2 Arial, sans-serif;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.projectJobTabs > header h2 {
+  margin: 0;
+  font: 400 clamp(42px, 5vw, 72px)/.96 Georgia, serif;
+}
+
+.jobTabList {
+  display: flex;
+  gap: 0;
+  width: min(1320px, 100%);
+  margin: 0 auto 50px;
+  border: 1px solid #1e4d51;
+  background: #fff;
+}
+
+.jobTabList button {
+  flex: 1 1 0;
+  min-height: 72px;
+  padding: 17px 20px;
+  border: 0;
+  border-right: 1px solid #1e4d51;
+  color: #153f43;
+  background: #fff;
+  font: 700 11px/1.35 Arial, sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color .25s ease, background .25s ease;
+}
+
+.jobTabList button:last-child {
+  border-right: 0;
+}
+
+.jobTabList button:hover,
+.jobTabList button:focus-visible,
+.jobTabList button[aria-selected="true"] {
+  color: #fff;
+  background: #1d5960;
+}
+
+.jobPanel {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+}
+
+.jobPanel[hidden] {
+  display: none;
+}
+
+.jobPanelIntro {
+  display: grid;
+  grid-template-columns: .72fr 1.28fr;
+  gap: 44px;
+  align-items: start;
+  margin-bottom: 36px;
+}
+
+.jobPanelIntro span {
+  color: #c08754;
+  font: 700 11px/1.2 Arial, sans-serif;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.jobPanelIntro h3 {
+  margin: 8px 0 0;
+  font: 400 clamp(34px, 4vw, 58px)/1 Georgia, serif;
+}
+
+.jobPanelIntro p {
+  max-width: 760px;
+  margin: 0;
+  font: 400 16px/1.75 Arial, sans-serif;
+}
+
+.jobGallery {
+  columns: 3 300px;
+  column-gap: 14px;
+}
+
+.jobGallery figure {
+  margin: 0 0 14px;
+  break-inside: avoid;
+  overflow: hidden;
+  background: #d6cec1;
+}
+
+.jobGallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform .55s ease, filter .55s ease;
+}
+
+.jobGallery figure:hover img {
+  transform: scale(1.02);
+  filter: saturate(1.04) contrast(1.02);
+}
+
+@media (max-width: 900px) {
+  .portfolioParentCard {
+    min-height: 470px;
+  }
+
+  .projectJobTabs > header,
+  .jobPanelIntro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .jobTabList {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .jobTabList button {
+    flex: 0 0 min(280px, 78vw);
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-width: 620px) {
+  .portfolioParentGrid {
+    grid-template-columns: 1fr;
+    width: calc(100% - 28px);
+    padding-bottom: 64px;
+  }
+
+  .portfolioParentCard {
+    min-height: 440px;
+  }
+
+  .portfolioParentCardContent {
+    padding: 28px 24px;
+  }
+
+  .projectJobTabs {
+    padding: 62px 16px 74px;
+  }
+
+  .jobTabList {
+    margin-bottom: 38px;
+  }
+
+  .jobGallery {
+    columns: 1;
+  }
+}

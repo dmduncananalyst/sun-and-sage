@@ -1,0 +1,826 @@
+/* Sun and Sage revision 48: distinct editorial typography, richer interaction, and page-specific redesigns. */
+:root{
+  --ss-ink:#151514;
+  --ss-teal:#174c52;
+  --ss-blue:#589ca8;
+  --ss-aqua:#9bd5dc;
+  --ss-copper:#c08754;
+  --ss-paper:#f3eee5;
+  --ss-line:#b8b1a5;
+  --ss-editorial:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+  --ss-sans:Arial,Helvetica,sans-serif;
+}
+
+/* Keep every navigation choice legible on hover and keyboard focus. */
+.desktopNav>a:hover,
+.desktopNav>a:focus-visible,
+.desktopNav>.navHoverItem:hover>.navTopLink,
+.desktopNav>.navHoverItem:focus-within>.navTopLink{
+  background:var(--ss-teal)!important;
+  color:#fff!important;
+}
+.desktopNav>.navHoverItem:hover>.navTopLink b,
+.desktopNav>.navHoverItem:focus-within>.navTopLink b{color:#fff!important}
+
+/* Keep every nested dropdown choice readable against its brand-color hover. */
+.desktopNav .drop a:hover,
+.desktopNav .drop a:focus-visible,
+.desktopNav .flyPanel a:hover,
+.desktopNav .flyPanel a:focus-visible,
+.desktopNav .cityPanel a:hover,
+.desktopNav .cityPanel a:focus-visible,
+.desktopNav .flyTrigger:hover,
+.desktopNav .flyTrigger:focus-visible{
+  background:#589ca8!important;
+  color:#fff!important;
+}
+.desktopNav .drop a:hover b,
+.desktopNav .drop a:focus-visible b,
+.desktopNav .flyPanel a:hover b,
+.desktopNav .flyPanel a:focus-visible b,
+.desktopNav .cityPanel a:hover b,
+.desktopNav .cityPanel a:focus-visible b,
+.desktopNav .flyTrigger:hover b,
+.desktopNav .flyTrigger:focus-visible b{color:#fff!important}
+
+/* A visibly separate, brand-colored final invitation. */
+.footerNextStep,
+.servicePageClose{
+  position:relative;
+  overflow:hidden;
+  background:var(--ss-teal)!important;
+  color:#fff!important;
+}
+.footerNextStep::before,
+.servicePageClose::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(110deg,transparent 0 68%,#2d6970 68% 76%,transparent 76%);
+  opacity:.55;
+  pointer-events:none;
+}
+.footerNextStep>* , .servicePageClose>*{position:relative;z-index:1}
+.footerNextStep p,.servicePageClose p{color:var(--ss-aqua)!important}
+.footerNextStep h2,.servicePageClose h2{
+  color:#fff!important;
+  font-family:var(--ss-editorial)!important;
+  font-size:clamp(31px,3.4vw,45px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.02em!important;
+}
+.footerNextStep a,.servicePageClose a{color:#efb47e!important;border-color:#efb47e!important}
+.footerNextStep a:hover,.footerNextStep a:focus-visible,
+.servicePageClose a:hover,.servicePageClose a:focus-visible{color:#fff!important;border-color:#fff!important}
+
+/* First-time buyer page: retain the photo-led layout but remove oversized, heavy type. */
+.firstBuyerClarity{padding-top:clamp(70px,8vw,110px)!important}
+.firstBuyerClarityHeader{
+  align-items:end!important;
+  grid-template-columns:minmax(260px,.7fr) minmax(300px,1.3fr)!important;
+  gap:8vw!important;
+  padding-bottom:46px!important;
+}
+.firstBuyerClarityHeader h2{
+  max-width:none!important;
+  margin-top:13px!important;
+  font:italic 400 clamp(38px,4.2vw,58px)/1.04 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+.firstBuyerClarityHeader>p{max-width:600px!important;font-size:17px!important;line-height:1.7!important}
+.buyerChapterText h3{
+  max-width:18ch!important;
+  font:400 clamp(27px,2.5vw,38px)/1.08 var(--ss-editorial)!important;
+  letter-spacing:-.02em!important;
+}
+.buyerChapterText>span{font-size:12px!important;letter-spacing:.17em!important}
+
+/* Sell a home: image-led service stories and a cumulative launch path. */
+.sellHeroV48{display:grid;grid-template-columns:minmax(340px,.82fr) minmax(470px,1.18fr);min-height:650px;background:var(--ss-paper)}
+.sellHeroV48Copy{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(42px,7vw,110px)}
+.sellHeroV48 .refTitle{padding:0!important;text-align:left!important;background:transparent!important}
+.sellHeroV48 .refTitle span{color:var(--ss-teal)!important}
+.sellHeroV48 .refTitle h1{margin:20px 0 0!important;font:italic 400 clamp(48px,5.2vw,74px)/1 var(--ss-editorial)!important;letter-spacing:-.025em!important}
+.sellHeroV48 .refIntro{padding:0!important;margin:34px 0 0!important;max-width:490px!important;text-align:left!important;font:400 22px/1.5 var(--ss-sans)!important}
+.sellHeroV48 figure{position:relative;margin:0;min-height:650px;overflow:hidden}
+.sellHeroV48 figure img{width:100%;height:100%;object-fit:cover}
+.sellHeroV48 figcaption{position:absolute;right:0;bottom:0;padding:13px 18px;background:var(--ss-teal);color:#fff;font:700 9px/1 var(--ss-sans);letter-spacing:.16em;text-transform:uppercase}
+.sellPage .refTitle,
+body:has(.sellPositioning) .refTitle{padding-bottom:44px!important}
+.sellHeroV48 .refTitle{padding-bottom:0!important}
+body:has(.sellPositioning) .servicePanels{
+  display:grid!important;
+  grid-template-columns:1.12fr .88fr!important;
+  gap:20px!important;
+  padding:20px max(5vw,calc(50vw - 730px)) 100px!important;
+  background:var(--ss-paper)!important;
+}
+body:has(.sellPositioning) .servicePanels article{
+  min-height:640px!important;
+  padding:0!important;
+  display:grid!important;
+  grid-template-rows:330px auto!important;
+  background:#fff!important;
+  color:var(--ss-ink)!important;
+  border:1px solid #d5cec2!important;
+  overflow:hidden!important;
+}
+body:has(.sellPositioning) .servicePanels figure{height:330px;margin:0;overflow:hidden;background:#d9d2c7}
+body:has(.sellPositioning) .servicePanels figure img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease,filter .4s ease}
+body:has(.sellPositioning) .servicePanels article:hover figure img{transform:scale(1.035);filter:saturate(1.06)}
+body:has(.sellPositioning) .servicePanels .sellerPanelCopy{padding:34px 38px 38px}
+body:has(.sellPositioning) .servicePanels svg{display:none!important}
+body:has(.sellPositioning) .servicePanels h2{
+  margin:0 0 24px!important;
+  font:400 clamp(30px,3vw,43px)/1.03 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+body:has(.sellPositioning) .servicePanels ul{margin-bottom:27px!important}
+body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
+.sellPositioning{
+  display:grid!important;
+  grid-template-columns:minmax(0,1.12fr) minmax(330px,.88fr)!important;
+  gap:clamp(44px,7vw,108px)!important;
+  padding:clamp(80px,9vw,130px) max(5vw,calc(50vw - 730px))!important;
+  background:#ebe6dd!important;
+  align-items:center!important;
+}
+.sellChartPanel{padding:54px!important;background:var(--ss-teal)!important;color:#fff!important}
+.sellWheel{display:none!important}
+.sellChartKicker{color:var(--ss-aqua)!important}
+.sellLegend{
+  display:grid!important;
+  grid-template-columns:1fr!important;
+  gap:0!important;
+  margin:35px 0 0!important;
+  counter-reset:seller-step;
+}
+.sellLegend li{
+  --step:40%;
+  position:relative;
+  display:grid!important;
+  grid-template-columns:58px 1fr!important;
+  gap:20px!important;
+  align-items:center!important;
+  min-height:86px!important;
+  padding:14px 0!important;
+  border-top:1px solid #ffffff38!important;
+}
+.sellLegend li:nth-child(2){--step:58%}.sellLegend li:nth-child(3){--step:77%}.sellLegend li:nth-child(4){--step:100%}
+.sellLegend li::after{
+  content:"";
+  position:absolute;
+  left:78px;
+  bottom:9px;
+  width:var(--step);
+  max-width:calc(100% - 78px);
+  height:3px;
+  background:var(--swatch);
+  transition:width .55s ease;
+}
+.sellLegend li>span{font:700 13px/1 var(--ss-sans)!important;color:var(--ss-aqua)!important}
+.sellLegend li b{font:400 24px/1.1 var(--ss-editorial)!important;color:#fff!important}
+.sellLegend li div>span{font:400 12px/1.45 var(--ss-sans)!important;color:#c9dedf!important}
+.sellMessage>span{font-size:10px!important;letter-spacing:.2em!important}
+.sellMessage h2{
+  margin:22px 0 32px!important;
+  max-width:15ch!important;
+  font:400 clamp(38px,4.25vw,62px)/1.03 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+.sellMessage h2 em{display:inline!important;font-style:italic!important;color:#6b7775!important;font-weight:400!important}
+.sellCount{padding:17px 0!important}
+.sellCount strong{font-size:39px!important}
+
+/* Marketing tabs clearly react and the message ribbon moves at a purposeful pace. */
+.campaignTabs button:hover,
+.campaignTabs button:focus-visible,
+.campaignTabs button.active{
+  background:var(--ss-teal)!important;
+  color:#fff!important;
+}
+.campaignTabs button:hover svg,
+.campaignTabs button:focus-visible svg,
+.campaignTabs button.active svg{stroke:#fff!important}
+.channelRibbon{overflow:hidden!important}
+.channelRibbon span{animation-duration:9.5s!important}
+
+/* Consultation pages: compact editorial introduction beside an actual Sun and Sage image. */
+.consultationHero{
+  min-height:620px!important;
+  padding:0!important;
+  display:grid!important;
+  grid-template-columns:minmax(360px,.9fr) minmax(430px,1.1fr)!important;
+  text-align:left!important;
+  background:var(--ss-teal)!important;
+}
+.consultationHeroCopy{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(38px,6vw,96px)!important}
+.consultationHero figure{min-height:620px;margin:0;overflow:hidden}
+.consultationHero figure img{width:100%;height:100%;object-fit:cover;filter:saturate(.86)}
+.consultationHero h1{
+  margin:20px 0 30px!important;
+  font:400 clamp(43px,5vw,70px)/1.02 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+.consultationHero p{margin:0!important;max-width:620px!important;font:400 18px/1.72 var(--ss-sans)!important}
+.consultationContact{grid-template-columns:minmax(230px,.55fr) minmax(0,1.45fr)!important}
+.consultationContact h2{
+  max-width:14ch!important;
+  font:italic 400 clamp(36px,3.8vw,54px)/1.05 var(--ss-editorial)!important;
+  letter-spacing:-.02em!important;
+}
+.consultationContactCompact{
+  grid-template-columns:minmax(260px,.8fr) minmax(260px,.75fr) auto!important;
+  align-items:center!important;
+  max-width:1460px!important;
+  gap:clamp(32px,5vw,74px)!important;
+  padding-block:clamp(62px,7vw,90px)!important;
+}
+.consultationContactCompact>p{margin:0;max-width:490px;color:#55514a;font:400 16px/1.7 var(--ss-sans)}
+.consultationContactCompact>a{display:inline-flex;align-items:center;gap:20px;padding:19px 24px;background:var(--ss-copper);color:#111!important;white-space:nowrap;font:700 10px/1 var(--ss-sans);letter-spacing:.15em;text-transform:uppercase}
+.consultationContactCompact>a:hover,.consultationContactCompact>a:focus-visible{background:var(--ss-teal)!important;color:#fff!important}
+
+/* Consultation close: a restrained editorial strip, not an oversized split headline. */
+.consultationContactCompact{
+  position:relative!important;
+  grid-template-columns:minmax(250px,.72fr) minmax(320px,1fr) auto!important;
+  padding:52px max(6vw,calc(50vw - 720px))!important;
+  background:#171715!important;
+  color:#fff!important;
+  border-top:5px solid var(--ss-copper)!important;
+}
+.consultationContactCompact::before{
+  content:"SUN AND SAGE";
+  position:absolute;
+  top:18px;
+  left:max(6vw,calc(50vw - 720px));
+  color:var(--ss-aqua);
+  font:700 9px/1 var(--ss-sans);
+  letter-spacing:.24em;
+}
+.consultationContactCompact>div>span{display:none!important}
+.consultationContactCompact h2{
+  margin:0!important;
+  max-width:20ch!important;
+  color:#fff!important;
+  font:italic 400 clamp(27px,2.5vw,36px)/1.08 var(--ss-editorial)!important;
+}
+.consultationContactCompact>p{color:#d2d4cf!important;font-size:15px!important;line-height:1.65!important}
+
+/* Region portraits: compact hero, larger centered city controls, one focused city at a time. */
+.catalogueHero{
+  min-height:440px!important;
+  padding:70px max(6vw,calc(50vw - 740px)) 64px!important;
+  grid-template-columns:minmax(300px,.72fr) minmax(360px,1.28fr)!important;
+  background:
+    linear-gradient(90deg,#174c52f2 0 46%,#174c52c9 70%,#174c52e8 100%),
+    url("real-estate-editorial/valley.jpg") center/cover!important;
+}
+.catalogueHero h1{
+  margin:16px 0 0!important;
+  font:italic 400 clamp(48px,5.4vw,76px)/1 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+.catalogueHero p{font-size:16px!important;line-height:1.7!important}
+.catalogueBack{
+  display:inline-flex;
+  gap:11px;
+  align-items:center;
+  width:max-content;
+  margin-top:32px;
+  padding:9px 0;
+  border-bottom:1px solid var(--ss-aqua);
+  color:#fff!important;
+  font:700 9px/1 var(--ss-sans);
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.cityIndex{
+  justify-content:center!important;
+  gap:12px!important;
+  padding:34px max(5vw,calc(50vw - 740px))!important;
+}
+.cityIndex a{
+  min-width:145px!important;
+  padding:16px 19px!important;
+  text-align:center!important;
+  font-size:10px!important;
+  border-color:#ffffff70!important;
+}
+.cityIndex a:hover,.cityIndex a:focus-visible,.cityIndex a.active{background:var(--ss-copper)!important;color:#111!important;border-color:var(--ss-copper)!important}
+.catalogueSection{padding:clamp(64px,8vw,105px) max(6vw,calc(50vw - 740px))!important}
+.catalogueSection>header{display:none!important}
+.cityCatalogueGrid{display:block!important;border:0!important;max-width:980px!important;margin:0 auto!important}
+.cityEntry{display:none!important;min-height:340px!important;padding:clamp(38px,5vw,70px)!important;border:1px solid var(--ss-line)!important;background:#f8f5ef!important;box-shadow:0 24px 55px #2c29231a!important}
+.cityEntry.active{display:grid!important;grid-template-columns:minmax(315px,.72fr) minmax(0,1.28fr)!important;column-gap:6vw!important;align-items:start!important;animation:ssCityIn .32s ease both}
+.cityEntry>span,.cityEntry h3{grid-column:1!important}
+.cityEntry h3{margin-top:22px!important;white-space:nowrap!important;font:italic 400 clamp(34px,3.45vw,50px)/1 var(--ss-editorial)!important}
+.cityEntry dl{grid-column:2!important;grid-row:1/3!important;gap:0!important}
+.cityEntry dl div{grid-template-columns:110px 1fr!important;padding:19px 0!important;border-top:1px solid #d1cbc0!important}
+.cityEntry dl div:last-child{border-bottom:1px solid #d1cbc0!important}
+@keyframes ssCityIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.catalogueNote{text-align:center!important;padding:25px max(6vw,calc(50vw - 740px))!important}
+.catalogueFaq summary,.catalogueFaq p{font-family:var(--ss-sans)!important}
+.catalogueFaq h2{font:italic 400 clamp(34px,3.6vw,50px)/1.05 var(--ss-editorial)!important}
+
+/* Q&A: an AEO-friendly flip library, with keyboard and touch support. */
+.qaLibrary{padding:clamp(70px,8vw,115px) max(5vw,calc(50vw - 730px));background:#ede8df}
+.qaLibraryHeader{display:none!important}
+.qaLibraryHeader span{color:var(--ss-teal);font:700 10px/1 var(--ss-sans);letter-spacing:.2em;text-transform:uppercase}
+.qaLibraryHeader h2{margin:12px 0 0;font:italic 400 clamp(38px,4vw,56px)/1.05 var(--ss-editorial);letter-spacing:-.02em}
+.qaLibraryHeader p{max-width:620px;margin:0;font:400 16px/1.75 var(--ss-sans);color:#56514a}
+.qaFlipGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.qaFlip{height:290px;perspective:1100px;cursor:pointer}
+.qaFlipInner{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+.qaFlip:hover .qaFlipInner,.qaFlip:focus-within .qaFlipInner,.qaFlip.is-flipped .qaFlipInner{transform:rotateY(180deg)}
+.qaFace{position:absolute;inset:0;padding:30px;backface-visibility:hidden;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #c9c2b6;background:#f8f5ee}
+.qaFaceBack{transform:rotateY(180deg);background:var(--ss-teal);color:#fff}
+.qaFace span{font:700 13px/1.15 var(--ss-sans);letter-spacing:.13em;color:var(--ss-copper)}
+.qaFace h3{margin:0;max-width:19ch;font:400 25px/1.15 var(--ss-editorial);letter-spacing:-.01em}
+.qaFace p{margin:0;font:400 14px/1.65 var(--ss-sans);color:#e6eeee}
+.qaFace b{font:700 12px/1.2 var(--ss-sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ss-blue)}
+
+/* Reviews: a still, curated salon—names select one original review at a time. */
+.reviewGallery{padding:clamp(75px,9vw,125px) max(5vw,calc(50vw - 730px))!important;background:#ebe7df!important}
+.reviewGallery>header{display:none!important}
+.reviewGallery h2{font:italic 400 clamp(38px,4vw,58px)/1.03 var(--ss-editorial)!important;letter-spacing:-.02em!important}
+.reviewGallery>header p{font-size:16px!important;line-height:1.7!important}
+.reviewSalon{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:650px;border:1px solid #b9b2a7;background:#f8f5ee}
+.reviewNames{display:flex;flex-direction:column;border-right:1px solid #b9b2a7;background:var(--ss-teal)}
+.reviewNames button{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 22px;border:0;border-bottom:1px solid #ffffff2e;color:#dce8e8;background:transparent;text-align:left;font:400 17px/1.2 var(--ss-editorial)}
+.reviewNames button::after{content:"View";font:700 8px/1 var(--ss-sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ss-aqua)}
+.reviewNames button:hover,.reviewNames button:focus-visible,.reviewNames button.active{background:var(--ss-copper)!important;color:#111!important;transform:none!important;box-shadow:none!important}
+.reviewNames button:hover::after,.reviewNames button.active::after{color:#111}
+.reviewStage{position:relative;display:grid;place-items:center;padding:42px;overflow:hidden}
+.reviewStage::before{content:"SUN AND SAGE";position:absolute;right:-35px;bottom:44px;transform:rotate(-90deg);color:#d7d1c6;font:700 10px/1 var(--ss-sans);letter-spacing:.32em}
+.reviewStage img{display:none;max-width:min(100%,860px);max-height:570px;width:auto;height:auto;object-fit:contain;box-shadow:0 20px 45px #2b292520}
+.reviewStage img.active{display:block;animation:ssReviewIn .35s ease both}
+@keyframes ssReviewIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.reviewImageGrid{display:none!important}
+
+/* Headings that previously echoed the other site's oversized split formula. */
+.qTitle h1{font-family:var(--ss-editorial)!important;font-size:clamp(44px,5.4vw,76px)!important;line-height:1!important;letter-spacing:-.025em!important}
+.qTypeHero p{font:italic 400 clamp(27px,3vw,42px)/1.16 var(--ss-editorial)!important;letter-spacing:-.015em!important}
+
+/* Community pages: replace the former oversized black split with a compact editorial marker. */
+.quietLuxury.qReal .qEditorial{
+  position:relative!important;
+  display:grid!important;
+  grid-template-columns:minmax(280px,.78fr) minmax(420px,1.22fr)!important;
+  gap:clamp(50px,8vw,120px)!important;
+  align-items:center!important;
+  min-height:0!important;
+  padding:clamp(70px,8vw,110px) max(6vw,calc(50vw - 730px))!important;
+  background:#e8e2d8!important;
+  color:var(--ss-ink)!important;
+}
+.quietLuxury.qReal .qEditorial::before{
+  content:"";
+  position:absolute;
+  inset:28px;
+  border:1px solid #c9c1b5;
+  pointer-events:none;
+}
+.quietLuxury.qReal .qWords,.quietLuxury.qReal .qTypeNotes{position:relative;z-index:1}
+.quietLuxury.qReal .qWords small{color:var(--ss-teal)!important}
+.quietLuxury.qReal .qWords h2{
+  margin:17px 0 24px!important;
+  color:var(--ss-teal)!important;
+  font:italic 400 clamp(38px,4.2vw,56px)/1.02 var(--ss-editorial)!important;
+  letter-spacing:-.025em!important;
+}
+.quietLuxury.qReal .qWords h2 br{display:none!important}
+.quietLuxury.qReal .qWords p{max-width:420px!important;color:#4f4a43!important;font-size:15px!important;line-height:1.7!important}
+.quietLuxury.qReal .qTypeNotes{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:0!important;
+  border-top:1px solid #8d877d!important;
+  border-bottom:1px solid #8d877d!important;
+}
+.quietLuxury.qReal .qTypeNotes span{
+  min-height:150px!important;
+  padding:30px 22px!important;
+  display:flex!important;
+  align-items:flex-end!important;
+  border-right:1px solid #b5aea3!important;
+  color:var(--ss-teal)!important;
+  font:700 11px/1.35 var(--ss-sans)!important;
+  letter-spacing:.16em!important;
+  text-transform:uppercase!important;
+  transition:background .3s ease,color .3s ease,transform .3s ease!important;
+}
+.quietLuxury.qReal .qTypeNotes span:last-child{border-right:0!important}
+.quietLuxury.qReal .qTypeNotes span:hover{background:var(--ss-teal)!important;color:#fff!important;transform:translateY(-7px)}
+
+@media(max-width:900px){
+  .sellHeroV48,body:has(.sellPositioning) .servicePanels,.sellPositioning,.consultationHero,.qaLibraryHeader,.reviewGallery>header,.quietLuxury.qReal .qEditorial{grid-template-columns:1fr!important}
+  .sellHeroV48 figure{min-height:500px}
+  body:has(.sellPositioning) .servicePanels article{min-height:0!important}
+  .consultationHero figure{min-height:430px;order:-1}
+  .qaFlipGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reviewSalon{grid-template-columns:190px 1fr}
+  .catalogueHero{grid-template-columns:1fr!important;gap:35px!important}
+  .consultationContactCompact{grid-template-columns:1fr!important}
+  .cityEntry.active{grid-template-columns:1fr!important}
+  .cityEntry dl{grid-column:1!important;grid-row:auto!important;margin-top:28px!important}
+}
+
+/* Property-management actions: every state stays readable and each choice has its own identity. */
+.actionTriptych{gap:14px!important;background:#111412!important}
+.actionTriptych a{
+  min-height:390px!important;
+  border:1px solid #ffffff42!important;
+  transform:none!important;
+  transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease,filter .28s ease!important;
+}
+.actionTriptych a:nth-child(1){background:var(--ss-teal)!important;color:#fff!important}
+.actionTriptych a:nth-child(2){background:var(--ss-paper)!important;color:var(--ss-ink)!important}
+.actionTriptych a:nth-child(3){background:var(--ss-copper)!important;color:#111!important}
+.actionTriptych a:hover,.actionTriptych a:focus-visible{
+  transform:translateY(-6px)!important;
+  border-color:var(--ss-aqua)!important;
+  box-shadow:0 22px 45px #0007!important;
+  filter:brightness(1.06)!important;
+}
+.actionTriptych a:nth-child(2):hover,.actionTriptych a:nth-child(2):focus-visible{border-color:var(--ss-copper)!important}
+.actionTriptych strong{font:italic 400 clamp(30px,3vw,45px)/1.02 var(--ss-editorial)!important}
+.actionTriptych span{font-size:12px!important}
+
+/* Home-value factors select as soon as a visitor hovers or focuses. */
+.factorWheel button:hover,.factorWheel button:focus-visible,.factorWheel button.active{background:var(--ss-copper)!important;color:#111!important}
+
+/* Portfolio typography and film framing: compact, editorial, and image-led. */
+.portfolioPageV46 .qTitle h1{font-style:italic!important;font-size:clamp(43px,5vw,70px)!important}
+.portfolioParentCardContent h2{font:italic 400 clamp(32px,3.5vw,50px)/1 var(--ss-editorial)!important}
+.portfolioParentCardContent>span{font-size:12px!important}
+.qDesignClose{
+  display:grid!important;
+  grid-template-columns:auto 1fr auto!important;
+  align-items:center!important;
+  gap:38px!important;
+  min-height:0!important;
+  padding:55px max(6vw,calc(50vw - 700px))!important;
+  background:var(--ss-teal)!important;
+  color:#fff!important;
+}
+.qDesignClose h2{margin:0!important;font:italic 400 clamp(28px,3vw,39px)/1.05 var(--ss-editorial)!important}
+.qDesignClose h2 br{display:none!important}
+.qDesignClose small{color:var(--ss-aqua)!important;font-size:11px!important}
+.qDesignClose a{white-space:nowrap;color:#f0b57f!important}
+.projectIntro>div h1{font:italic 400 clamp(45px,5.8vw,76px)/.95 var(--ss-editorial)!important;letter-spacing:-.025em!important}
+.projectIntro>div>p:last-child{max-width:560px!important;font:400 16px/1.68 var(--ss-sans)!important}
+.projectFilm{padding:82px max(4vw,calc(50vw - 760px)) 95px!important;text-align:center!important}
+.projectFilm header{display:block!important;width:min(1080px,100%)!important;margin:0 auto 24px!important;text-align:center!important}
+.projectFilm header .eyebrow{margin:0!important;color:#e7ad78!important;font-size:13px!important}
+.projectFilm video{display:block!important;width:min(1080px,100%)!important;max-width:100%!important;margin:0 auto!important}
+.projectJobTabs>header{display:block!important;margin-bottom:28px!important;padding-bottom:22px!important;text-align:center!important}
+.projectJobTabs>header .eyebrow{display:none!important}
+.projectTabInstruction{margin:0!important;color:var(--ss-teal)!important;font:700 13px/1.4 var(--ss-sans)!important;letter-spacing:.13em!important;text-transform:uppercase!important}
+.jobPanelIntro{
+  grid-template-columns:120px minmax(240px,.65fr) minmax(320px,1.35fr)!important;
+  gap:28px!important;
+  align-items:start!important;
+  padding:26px 0 30px!important;
+  border-top:1px solid #bdb5aa!important;
+  border-bottom:1px solid #bdb5aa!important;
+}
+.jobPanelIntro>div{display:contents!important}
+.jobPanelIntro span{grid-column:1!important;margin-top:5px!important;font-size:12px!important}
+.jobPanelIntro h3{grid-column:2!important;margin:0!important;font:italic 400 clamp(25px,2.5vw,36px)/1.05 var(--ss-editorial)!important}
+.jobPanelIntro p{grid-column:3!important;margin:0!important;font-size:15px!important;line-height:1.65!important}
+.projectNext{padding:62px max(5vw,calc(50vw - 720px))!important}
+.projectNext>p{font-size:11px!important;letter-spacing:.18em!important}
+.projectNext>div a{font:italic 400 clamp(24px,2.4vw,35px)/1.08 var(--ss-editorial)!important}
+
+@media(max-width:900px){
+  .jobPanelIntro{grid-template-columns:90px 1fr!important}
+  .jobPanelIntro p{grid-column:2!important}
+  .qDesignClose{grid-template-columns:1fr!important;gap:20px!important}
+}
+
+@media(max-width:620px){
+  body:has(.sellPositioning) .servicePanels{padding-inline:14px!important}
+  body:has(.sellPositioning) .servicePanels article{grid-template-rows:245px auto!important}
+  body:has(.sellPositioning) .servicePanels figure{height:245px}
+  body:has(.sellPositioning) .servicePanels .sellerPanelCopy{padding:28px 24px 31px}
+  .sellChartPanel{padding:34px 26px!important}
+  .firstBuyerClarityHeader{grid-template-columns:1fr!important}
+  .consultationHeroCopy{padding:58px 24px!important}
+  .consultationHero figure{min-height:82vw}
+  .consultationHero h1{font-size:46px!important}
+  .consultationHero p{font-size:16px!important}
+  .consultationContact{grid-template-columns:1fr!important}
+  .qaFlipGrid{grid-template-columns:1fr}
+  .qaFlip{height:265px}
+  .reviewSalon{display:block;min-height:0}
+  .reviewNames{display:grid;grid-template-columns:repeat(2,1fr);border-right:0}
+  .reviewNames button{padding:18px 15px;font-size:15px}
+  .reviewStage{min-height:460px;padding:24px 16px}
+  .cityIndex a{min-width:calc(50% - 8px)!important}
+  .catalogueHero{padding-inline:22px!important}
+  .cityEntry{padding:34px 25px!important}
+  .cityEntry h3{font-size:clamp(27px,8.5vw,40px)!important}
+  .cityEntry dl div{grid-template-columns:1fr!important;gap:5px!important}
+  .quietLuxury.qReal .qEditorial{padding:65px 24px!important}
+  .quietLuxury.qReal .qEditorial::before{inset:14px}
+  .quietLuxury.qReal .qTypeNotes{grid-template-columns:1fr!important}
+  .quietLuxury.qReal .qTypeNotes span{min-height:86px!important;border-right:0!important;border-bottom:1px solid #b5aea3!important}
+  .quietLuxury.qReal .qTypeNotes span:last-child{border-bottom:0!important}
+  .consultationContactCompact{grid-template-columns:1fr!important;padding:60px 24px 48px!important}
+  .consultationContactCompact::before{left:24px}
+  .actionTriptych a{min-height:260px!important}
+  .projectFilm{padding:58px 14px 70px!important}
+  .jobPanelIntro{grid-template-columns:1fr!important;gap:11px!important}
+  .jobPanelIntro span,.jobPanelIntro h3,.jobPanelIntro p{grid-column:1!important}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .qaFlipInner,.reviewStage img.active,.cityEntry.active{animation:none!important;transition:none!important}
+  .qaFlip:hover .qaFlipInner,.qaFlip:focus-within .qaFlipInner{transform:none}
+  .qaFlip.is-flipped .qaFlipInner{transform:rotateY(180deg)}
+}
+
+/* v53: Center every modal form and keep its typography refined and compact. */
+dialog[open]{
+  position:fixed!important;
+  top:50%!important;
+  left:50%!important;
+  right:auto!important;
+  bottom:auto!important;
+  transform:translate(-50%,-50%)!important;
+  margin:0!important;
+  max-height:min(90vh,760px)!important;
+  overflow:auto!important;
+}
+.contactFormModal{
+  width:min(860px,calc(100vw - 34px))!important;
+}
+.contactFormModalInner{
+  display:block!important;
+}
+.contactFormModalIntro{
+  display:grid!important;
+  grid-template-columns:170px minmax(0,1fr)!important;
+  gap:10px 30px!important;
+  align-items:center!important;
+  padding:28px 38px!important;
+  background:#174c52!important;
+}
+.contactFormModalIntro span{
+  grid-row:1/3!important;
+  writing-mode:horizontal-tb!important;
+  transform:none!important;
+  font-size:10px!important;
+}
+.contactFormModalIntro h2{
+  margin:0!important;
+  font:500 29px/1.18 Georgia,serif!important;
+  letter-spacing:0!important;
+}
+.contactFormModalIntro p{
+  margin:0!important;
+  font:400 13px/1.5 Arial,sans-serif!important;
+}
+.contactFormModal form{
+  padding:30px 38px 34px!important;
+}
+.contactFormModalClose{
+  position:absolute!important;
+  top:13px!important;
+  right:16px!important;
+}
+.evaluationContactDialog{
+  width:min(820px,calc(100vw - 34px))!important;
+}
+.evaluationDialogInner{
+  display:block!important;
+}
+.evaluationDialogIntro{
+  display:grid!important;
+  grid-template-columns:180px minmax(0,1fr)!important;
+  gap:8px 30px!important;
+  align-items:center!important;
+  padding:27px 38px!important;
+  background:#174c52!important;
+}
+.evaluationDialogIntro span{
+  grid-row:1/3!important;
+  font-size:10px!important;
+}
+.evaluationDialogIntro h2{
+  margin:0!important;
+  font:500 29px/1.18 Georgia,serif!important;
+  letter-spacing:0!important;
+}
+.evaluationDialogIntro p{
+  margin:0!important;
+  font:400 13px/1.5 Arial,sans-serif!important;
+}
+.evaluationContactForm{
+  padding:31px 38px 36px!important;
+}
+.propertyRequest h2,
+.emailChoice h2{
+  font-size:clamp(26px,3vw,36px)!important;
+  line-height:1.15!important;
+}
+@media(max-width:720px){
+  dialog[open]{max-height:88vh!important}
+  .contactFormModalIntro,
+  .evaluationDialogIntro{
+    display:block!important;
+    padding:26px 24px!important;
+  }
+  .contactFormModalIntro span,
+  .evaluationDialogIntro span{display:block!important;margin-bottom:10px!important}
+  .contactFormModalIntro h2,
+  .evaluationDialogIntro h2{font-size:25px!important}
+  .contactFormModalIntro p,
+  .evaluationDialogIntro p{margin-top:8px!important}
+  .contactFormModal form,
+  .evaluationContactForm{padding:25px 24px 30px!important}
+}
+
+/* v55 — mobile-only cleanup. Desktop presentation is intentionally unchanged. */
+@media(max-width:800px){
+  html,body{max-width:100%;overflow-x:hidden}
+
+  /* Remove the desktop footer inset that was creating the black dead space. */
+  body>footer,footer{padding:0!important}
+  footer .footerNextStep{margin:0!important;width:100%!important;padding:42px 20px 46px!important}
+  footer .footerGrid{width:100%!important;max-width:none!important;margin:0!important;padding:48px 22px!important}
+  footer .legal{width:100%!important;max-width:none!important;margin:0!important;padding:25px 20px!important}
+
+  /* Keep the final mobile section close to the content instead of leaving desktop-sized gaps. */
+  main>:last-child{margin-bottom:0!important}
+  .designEditorial{padding-bottom:30px!important}
+  .portfolioParentGrid{padding-bottom:28px!important}
+  .qDesignClose{margin-top:0!important}
+  .reviewGallery{padding-bottom:30px!important}
+  .reviewStage{min-height:0!important;padding-bottom:16px!important}
+
+  /* Compact editorial page openings on a phone. */
+  .refTitle{padding:42px 18px 20px!important}
+  .refTitle h1{margin:17px auto 12px!important}
+  .refIntro{padding:0 20px 38px!important;font-size:clamp(21px,6vw,26px)!important;line-height:1.35!important}
+
+  /* The lender steps now visibly announce that every card opens. */
+  .runwayTrack{display:grid!important;grid-template-columns:1fr!important;border:0!important;gap:12px!important}
+  .runwayTrack details{width:100%!important;border:1px solid #5799a2!important}
+  .runwayTrack summary{grid-template-columns:32px 32px minmax(0,1fr)!important;gap:12px!important;min-height:0!important;padding:22px 16px 16px!important}
+  .runwayTrack summary span{min-width:0!important;font-size:25px!important}
+  .runwayTrack summary i{grid-column:1/-1!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:40px!important;margin-top:4px!important;border:1px solid #efb47e!important;color:#efb47e!important;font-size:0!important;font-style:normal!important}
+  .runwayTrack summary i::before{content:"Tap to learn more";font:700 10px/1 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase}
+  .runwayTrack details[open] summary i::before{content:"Tap to close"}
+  .runwayTrack details p{padding:20px!important}
+  .runwayCta{width:100%!important;min-height:54px!important;align-items:center!important;justify-content:center!important;margin-top:22px!important;border:1px solid #efb47e!important;padding:0 14px!important;text-align:center!important}
+
+  /* Make the region property-request submit action unmistakable. */
+  .regionRequestForm button[type="submit"]{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important;margin-top:20px!important;padding:16px 18px!important;border:2px solid #efb47e!important;background:#c08754!important;color:#111!important;font-size:11px!important;letter-spacing:.14em!important;text-align:center!important}
+
+  /* Deep mobile menus use clear, generous arrow controls. */
+  .mobileNavTree details>summary{min-height:54px!important;align-items:center!important}
+  .mobileNavTree details>summary b{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 34px!important;width:34px!important;height:34px!important;margin-left:auto!important;border:1px solid #589ca8!important;border-radius:50%!important;color:#174c52!important;font:700 22px/1 Arial,sans-serif!important}
+  .mobileNavTree details[open]>summary b{background:#174c52!important;color:#fff!important;transform:rotate(90deg)!important}
+
+  /* Smaller-project choices fit inside the phone instead of scrolling off-screen. */
+  .projectJobTabs{width:100%!important;max-width:100%!important;padding-inline:14px!important;overflow:hidden!important}
+  .jobTabList{display:grid!important;grid-template-columns:1fr!important;width:100%!important;max-width:100%!important;margin-bottom:28px!important;overflow:visible!important;border:1px solid #1e4d51!important}
+  .jobTabList button{width:100%!important;max-width:100%!important;min-height:54px!important;flex:none!important;padding:13px 14px!important;border-right:0!important;border-bottom:1px solid #1e4d51!important;white-space:normal!important}
+  .jobTabList button:last-child{border-bottom:0!important}
+  .jobPanel,.jobGallery{width:100%!important;max-width:100%!important}
+
+  /* One consistent mobile type system on both consultation pages. */
+  .consultationPage .consultationHeroCopy,.consultationPage .consultationContactCompact{font-family:Arial,sans-serif!important}
+  .consultationPage .consultationHero h1,.consultationPage .consultationContactCompact h2{font-family:Georgia,serif!important;font-style:normal!important;letter-spacing:-.025em!important}
+  .consultationPage .consultationHero h1{font-size:44px!important;line-height:1!important}
+  .consultationPage .consultationContactCompact h2{font-size:31px!important;line-height:1.12!important}
+  .consultationPage .consultationHero p,.consultationPage .consultationContactCompact p{font-family:Arial,sans-serif!important;font-size:16px!important;line-height:1.65!important}
+
+  /* A phone visitor taps rather than turns a card. */
+  .qaFaceFront>b{font-size:0!important}
+  .qaFaceFront>b::before{content:"Click for the answer";font:700 12px/1.3 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+}
+
+/* v54: shared navigation clarity, accessible form choices, and portfolio viewing. */
+footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underline-offset:4px!important;text-decoration-thickness:1px!important}
+.sellHeroMatched{min-height:700px;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(380px,.92fr);background:#171716;color:#fff;overflow:hidden}
+.sellHeroMatched figure{min-height:700px;margin:0;position:relative;overflow:hidden}
+.sellHeroMatched figure::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 70%,#171716)}
+.sellHeroMatched figure img{width:100%;height:100%;object-fit:cover;filter:saturate(.78);transition:transform 1s ease}
+.sellHeroMatched:hover figure img{transform:scale(1.02)}
+.sellHeroMatched .buyHeroCopy{display:flex;flex-direction:column;justify-content:center;padding:90px clamp(34px,6vw,105px) 90px clamp(40px,5vw,84px)}
+.sellHeroMatched .buyHeroCopy>span{color:#8fd0d7;font:700 11px/1.4 Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
+.sellHeroMatched .buyHeroCopy h1{margin:32px 0 28px;font:italic 500 clamp(72px,7vw,112px)/.82 Georgia,serif!important;letter-spacing:-.06em}
+.sellHeroMatched .buyHeroCopy p{max-width:500px;margin:0;color:#d4d2cb;font:400 17px/1.75 Arial,sans-serif}
+.sellHeroMatched .buyHeroCopy a{display:flex;justify-content:space-between;margin-top:42px;padding:0 0 10px;border-bottom:1px solid #c08754;color:#fff;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none}
+.sellHeroMatched .buyHeroCopy a{width:min(100%,240px)!important}
+.miniLeadForm select,.consultationForm select,.contactPageForm select,.propertyRequest select,.evaluationContactForm select,.contactFormModal select,.contactModalForm select,.valleyLeadForm select,.regionRequestForm select{color:#171714!important;background:#fff!important;color-scheme:light!important}
+.miniLeadForm select option,.consultationForm select option,.contactPageForm select option,.propertyRequest select option,.evaluationContactForm select option,.contactFormModal select option,.contactModalForm select option,.valleyLeadForm select option,.regionRequestForm select option{color:#171714!important;background:#fff!important}
+.mobileBackControl{display:none}
+.portfolioZoomInstruction{margin:0 auto 26px;padding:0 18px;max-width:1480px;color:#174c52;font:700 12px/1.5 Arial,sans-serif;letter-spacing:.13em;text-align:center;text-transform:uppercase}
+.mobileZoomCopy{display:none}
+.portfolioZoomTarget{cursor:zoom-in}
+.portfolioLightbox{position:fixed;z-index:99999;inset:0;display:flex;align-items:center;justify-content:center;padding:5vh 6vw;background:rgba(10,18,18,.82);opacity:0;visibility:hidden;transition:opacity .18s ease,visibility .18s ease}
+.portfolioLightbox.isOpen{opacity:1;visibility:visible}
+.portfolioLightbox img{display:block;width:auto!important;height:auto!important;max-width:min(88vw,1400px)!important;max-height:88vh!important;object-fit:contain!important;box-shadow:0 26px 80px rgba(0,0,0,.42)}
+.portfolioLightboxClose{position:fixed;top:18px;right:20px;width:46px;height:46px;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:#174c52;color:#fff;font:300 30px/1 Arial,sans-serif;cursor:pointer}
+.portfolioLightboxHint{display:none;position:fixed;left:50%;bottom:18px;transform:translateX(-50%);margin:0;color:#fff;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+@media(hover:hover) and (pointer:fine){.portfolioLightbox.desktopHover{pointer-events:none}.portfolioLightbox.desktopHover .portfolioLightboxClose{display:none}}
+@media(max-width:800px){
+  .sellHeroMatched{min-height:0;grid-template-columns:1fr}
+  .sellHeroMatched figure{min-height:78vw;max-height:560px}
+  .sellHeroMatched figure::after{background:linear-gradient(0deg,#171716,transparent 36%)}
+  .sellHeroMatched .buyHeroCopy{padding:58px 23px 68px}
+  .sellHeroMatched .buyHeroCopy h1{font-size:clamp(66px,19vw,92px)!important}
+  .sellHeroMatched .buyHeroCopy p{font-size:16px}
+  .mobileBackControl{position:sticky;z-index:55;top:0;display:flex;align-items:center;gap:9px;width:100%;min-height:45px;padding:0 18px;border:0;border-bottom:1px solid #d7d8d3;background:#f5f6f4;color:#171714;font:700 11px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+  .desktopZoomCopy{display:none}.mobileZoomCopy{display:inline}
+  .portfolioZoomInstruction{margin-bottom:18px;font-size:11px}
+  .portfolioLightbox{padding:70px 14px 58px;background:rgba(10,18,18,.94)}
+  .portfolioLightbox img{max-width:100%!important;max-height:76vh!important}
+  .portfolioLightboxHint{display:block}
+}
+
+/* Contact forms: centered, compact and editorial rather than oversized. */
+.contactFormModal{
+  position:fixed!important;
+  inset:50% auto auto 50%!important;
+  transform:translate(-50%,-50%)!important;
+  width:min(92vw,900px)!important;
+  max-height:90vh!important;
+  margin:0!important;
+  overflow:auto!important;
+  border:1px solid #bcb3a5!important;
+  background:var(--ss-paper)!important;
+}
+.contactFormModalInner{display:block!important}
+.contactFormModalIntro{
+  display:grid!important;
+  grid-template-columns:auto minmax(0,1fr)!important;
+  align-items:center!important;
+  gap:18px 34px!important;
+  padding:30px 42px!important;
+  background:var(--ss-teal)!important;
+}
+.contactFormModalIntro span{grid-row:1/3!important;font-size:10px!important;writing-mode:vertical-rl!important;transform:rotate(180deg)!important}
+.contactFormModalIntro h2{margin:0!important;font:italic 400 clamp(28px,3.3vw,40px)/1.05 var(--ss-editorial)!important;letter-spacing:-.02em!important}
+.contactFormModalIntro p{margin:4px 0 0!important;font-size:14px!important;line-height:1.55!important}
+.contactFormModal form{padding:34px 42px 38px!important}
+.contactFormModalClose{position:fixed!important;right:22px!important;top:17px!important;color:#fff!important}
+
+/* Parker before-and-after pairs receive the same visual weight as the galleries. */
+.jobGallery[data-job="before-afters"]{columns:2 520px!important;column-gap:20px!important}
+.jobGallery[data-job="before-afters"] figure{margin-bottom:20px!important}
+
+/* Buyer consultation: remove the empty framed gap and separate its close from the black footer. */
+.buyerConsultationPage .consultationHero{min-height:540px!important;grid-template-columns:minmax(390px,.86fr) minmax(480px,1.14fr)!important}
+.buyerConsultationPage .consultationHero figure{min-height:540px!important}
+.buyerConsultationPage .consultationContactCompact{
+  max-width:none!important;
+  padding:48px max(7vw,calc(50vw - 690px))!important;
+  background:#d9cfbd!important;
+  color:var(--ss-ink)!important;
+  border-top:0!important;
+  border-left:10px solid var(--ss-copper)!important;
+}
+.buyerConsultationPage .consultationContactCompact::before{color:var(--ss-teal)!important}
+.buyerConsultationPage .consultationContactCompact h2{color:var(--ss-teal)!important}
+.buyerConsultationPage .consultationContactCompact>p{color:#3f3a34!important}
+
+@media(max-width:720px){
+  .contactFormModal{width:min(94vw,620px)!important}
+  .contactFormModalIntro{grid-template-columns:1fr!important;padding:28px 26px!important}
+  .contactFormModalIntro span{grid-row:auto!important;writing-mode:horizontal-tb!important;transform:none!important}
+  .contactFormModal form{padding:27px 26px 32px!important}
+  .buyerConsultationPage .consultationHero{grid-template-columns:1fr!important}
+  .buyerConsultationPage .consultationHero figure{min-height:75vw!important}
+}
+
+/* v53 final modal treatment — deliberately last in the cascade. */
+dialog[open]{position:fixed!important;inset:50% auto auto 50%!important;transform:translate(-50%,-50%)!important;margin:0!important;max-height:min(90vh,760px)!important;overflow:auto!important}
+.contactFormModal{width:min(860px,calc(100vw - 34px))!important}
+.contactFormModalInner{display:block!important}
+.contactFormModalIntro{display:grid!important;grid-template-columns:170px minmax(0,1fr)!important;gap:10px 30px!important;align-items:center!important;padding:28px 38px!important;background:#174c52!important}
+.contactFormModalIntro span{grid-row:1/3!important;writing-mode:horizontal-tb!important;transform:none!important;font-size:10px!important}
+.contactFormModalIntro h2{margin:0!important;font:500 29px/1.18 Georgia,serif!important;letter-spacing:0!important}
+.contactFormModalIntro p{margin:0!important;font:400 13px/1.5 Arial,sans-serif!important}
+.contactFormModal form{padding:30px 38px 34px!important}
+.contactFormModalClose{position:absolute!important;top:13px!important;right:16px!important;color:#fff!important}
+.evaluationContactDialog{width:min(820px,calc(100vw - 34px))!important}
+.evaluationDialogInner{display:block!important}
+.evaluationDialogIntro{display:grid!important;grid-template-columns:180px minmax(0,1fr)!important;gap:8px 30px!important;align-items:center!important;padding:27px 38px!important;background:#174c52!important}
+.evaluationDialogIntro span{grid-row:1/3!important;font-size:10px!important}
+.evaluationDialogIntro h2{margin:0!important;font:500 29px/1.18 Georgia,serif!important;letter-spacing:0!important}
+.evaluationDialogIntro p{margin:0!important;font:400 13px/1.5 Arial,sans-serif!important}
+.evaluationContactForm{padding:31px 38px 36px!important}
+.propertyRequest h2,.emailChoice h2{font-size:clamp(26px,3vw,36px)!important;line-height:1.15!important}
+@media(max-width:720px){
+  dialog[open]{max-height:88vh!important}
+  .contactFormModalIntro,.evaluationDialogIntro{display:block!important;padding:26px 24px!important}
+  .contactFormModalIntro span,.evaluationDialogIntro span{display:block!important;margin-bottom:10px!important}
+  .contactFormModalIntro h2,.evaluationDialogIntro h2{font-size:25px!important}
+  .contactFormModalIntro p,.evaluationDialogIntro p{margin-top:8px!important}
+  .contactFormModal form,.evaluationContactForm{padding:25px 24px 30px!important}
+}

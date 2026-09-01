@@ -1,0 +1,39 @@
+(()=>{
+  const page=location.pathname.split('/').pop()||'index.html';
+  const valleyPages=new Set(['buy-north.html','buy-south.html','buy-east.html','buy-west.html']);
+  if(valleyPages.has(page)){
+    const hero=document.querySelector('.qTypeHero');
+    if(hero&&!hero.querySelector('.v57ExploreNote')){
+      const note=document.createElement('p'); note.className='v57ExploreNote';
+      note.innerHTML='<span>Explore every city</span> Hover over or select a city box to reveal its details. Choose another city at any time to move through the Valley.';
+      const controls=hero.querySelector('div,nav'); controls?controls.insertAdjacentElement('beforebegin',note):hero.appendChild(note);
+    }
+  }
+
+  if(page==='first-time-buyers.html'){
+    const title=document.querySelector('main>.qTitle'), hero=document.querySelector('main>.qTypeHero');
+    if(title&&hero){const section=document.createElement('section');section.className='v57BuyerHero reveal';section.innerHTML='<figure><img src="assets/real-estate-editorial/first-home.jpg" alt="A thoughtfully designed first home interior"></figure><div class="v57BuyerHeroCopy"><small>First time home buyers / San Fernando Valley</small><h1>A first home, approached with clarity.</h1><p>Thoughtful guidance, local perspective, and a calm plan for every step from preparation to closing.</p><a href="first-time-pre-approval.html">Begin with preparation →</a></div>';title.replaceWith(section);hero.remove()}
+  }
+
+  if(page==='sell-marketing-your-property.html'){
+    const ribbon=document.querySelector('.channelRibbon');
+    if(ribbon){const values=[...ribbon.querySelectorAll('span')].map(x=>x.textContent.trim());const group=values.map(v=>'<span>'+v+'</span>').join('');ribbon.classList.add('v57Marquee');ribbon.innerHTML='<div class="v57MarqueeTrack"><div class="v57MarqueeGroup">'+group+'</div><div class="v57MarqueeGroup" aria-hidden="true">'+group+'</div></div>'}
+  }
+
+  if(page==='first-time-pre-approval.html'){
+    const desk=document.querySelector('.readinessDesk');
+    if(desk){desk.className='readinessDesk interactivePage v57Tracker';desk.innerHTML=`<div class="v57TrackerIntro"><span class="v57SectionKicker">Private planning worksheet</span><h2>Prepare a clear lender conversation.</h2><p>Enter the information you already know, then create a clean summary to review or send to a lender.</p></div><p class="v57Privacy"><strong>Private by design:</strong> entries stay on this device and are not submitted to or saved by Sun and Sage. Do not enter Social Security numbers, bank account numbers, passwords, or document images. A lender will confirm the information and documentation they require.</p><form class="v57TrackerForm" id="v57Tracker"><fieldset class="v57Fieldset"><legend>Income</legend><label>Applicant name<input name="Applicant name" autocomplete="name"></label><label>Employment type<select name="Employment type"><option value="">Choose</option><option>Salaried</option><option>Hourly</option><option>Self employed</option><option>Other</option></select></label><label>Gross annual income<input name="Gross annual income" inputmode="decimal" placeholder="$"></label><label>Additional monthly income<input name="Additional monthly income" inputmode="decimal" placeholder="$"></label></fieldset><fieldset class="v57Fieldset"><legend>Monthly obligations</legend><label>Housing payment<input name="Current housing payment" inputmode="decimal" placeholder="$"></label><label>Vehicle payments<input name="Vehicle payments" inputmode="decimal" placeholder="$"></label><label>Student loans<input name="Student loans" inputmode="decimal" placeholder="$"></label><label>Credit cards and other debt<input name="Credit cards and other debt" inputmode="decimal" placeholder="$"></label></fieldset><fieldset class="v57Fieldset"><legend>Available funds</legend><label>Down payment funds<input name="Down payment funds" inputmode="decimal" placeholder="$"></label><label>Closing cost funds<input name="Closing cost funds" inputmode="decimal" placeholder="$"></label><label>Emergency reserves<input name="Emergency reserves" inputmode="decimal" placeholder="$"></label><label>Gift funds, if applicable<input name="Gift funds" inputmode="decimal" placeholder="$"></label></fieldset><fieldset class="v57Fieldset"><legend>Home search</legend><label>Target Valley city<select name="Target Valley city" data-v57-cities></select></label><label>Comfortable price range<input name="Comfortable price range" placeholder="$"></label><label>Property type<input name="Property type" placeholder="Condo, townhome, house"></label><label>Ideal timing<select name="Ideal timing"><option value="">Choose</option><option>Now to 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than 12 months</option></select></label><label class="v57Wide">Questions or notes<textarea name="Questions or notes"></textarea></label></fieldset><div class="v57TrackerActions"><button class="primary" type="button" data-v57-print>Download / Save as PDF</button><button type="reset">Clear worksheet</button></div><p class="v57TrackerHelp">Select “Save as PDF” when the print window opens. Nothing is uploaded or stored by this page.</p></form>`;
+      desk.querySelector('[data-v57-print]').addEventListener('click',()=>{document.body.classList.add('v57Printing');window.print();setTimeout(()=>document.body.classList.remove('v57Printing'),500)});
+      window.addEventListener('afterprint',()=>document.body.classList.remove('v57Printing'));
+    }
+  }
+
+  const cities=['Sylmar','San Fernando','Mission Hills','Granada Hills','Porter Ranch','Chatsworth','Northridge','Pacoima','Sherman Oaks','Studio City','Encino','Tarzana','Toluca Lake','North Hollywood','Valley Village','Valley Glen','Sun Valley','Sunland','Tujunga','Burbank','Woodland Hills','West Hills','Canoga Park','Winnetka','Reseda','Van Nuys'];
+  document.querySelectorAll('[data-v57-cities]').forEach(select=>select.innerHTML='<option value="">Choose any Valley city</option>'+cities.map(c=>'<option>'+c+'</option>').join(''));
+
+  if(page==='first-time-touring.html'){
+    const close=document.querySelector('.servicePageClose');if(close){const section=document.createElement('section');section.className='v57TourStudio';section.innerHTML='<header><span class="v57SectionKicker">Tour with intention</span><h2>See more than the rooms.</h2><p>Hover over or select each image to reveal what to notice during a showing.</p><p class="v57TourInstruction">Hover or tap each card for touring details.</p></header><div class="v57TourCards"><button class="v57TourCard" type="button"><img src="assets/first-buyer-listen-sherman-oaks.jpg" alt="Sherman Oaks home exterior"><div class="v57TourCardCopy"><span>01 / Arrival</span><h3>Read the setting.</h3><p>Notice the street, neighboring homes, access, natural light, and how the location feels before stepping inside.</p></div></button><button class="v57TourCard" type="button"><img src="assets/portfolio-covers/suburban-living-room.webp" alt="Polished living room"><div class="v57TourCardCopy"><span>02 / Observe</span><h3>Look beyond styling.</h3><p>Study flow, storage, condition, noise, and the improvements that would matter to everyday life.</p></div></button><button class="v57TourCard" type="button"><img src="assets/portfolio-covers/suburban-kitchen.webp" alt="Refined kitchen interior"><div class="v57TourCardCopy"><span>03 / Compare</span><h3>Keep useful notes.</h3><p>Separate must haves from preferences so each tour makes the next decision clearer.</p></div></button></div>';close.insertAdjacentElement('beforebegin',section);section.querySelectorAll('.v57TourCard').forEach(card=>card.addEventListener('click',()=>card.classList.toggle('isOpen')))}
+  }
+
+  if(page==='first-time-negotiations.html')document.querySelectorAll('.responseChoices button').forEach(button=>button.addEventListener('mouseenter',()=>button.click()));
+})();
