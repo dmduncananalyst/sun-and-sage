@@ -9,8 +9,6 @@
     <h2 class="v70ConfirmTitle">Thank you.</h2>
     <p class="v70ConfirmContext"></p>
     <div class="v70ConfirmThanks">
-      <span>REQUEST RECEIVED</span>
-      <h3>Thank you.</h3>
       <p>Dominique will follow up personally.</p>
       <button type="button" class="v70ConfirmDone">Close</button>
     </div>`;
