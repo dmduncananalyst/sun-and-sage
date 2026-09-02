@@ -63,6 +63,7 @@
 
         if (!response.ok) throw new Error('HubSpot rejected the submission.');
 
+        window.sunSageShowConfirmation?.(form);
         form.reset();
         if (button) {
           button.textContent = 'Thank you, Dominique will follow up';
@@ -150,6 +151,7 @@
         });
         if (!response.ok) throw new Error('HubSpot rejected the submission.');
 
+        window.sunSageShowConfirmation?.(form);
         form.reset();
         if (button) {
           button.textContent = 'Thank you, Dominique will follow up';
@@ -312,6 +314,7 @@
         });
         if (!response.ok) throw new Error('HubSpot rejected the submission.');
 
+        window.sunSageShowConfirmation?.(form);
         form.reset();
         if (button) {
           button.textContent = 'Thank you, Dominique will follow up';
@@ -408,6 +411,7 @@
       });
       if (!response.ok) throw new Error('HubSpot rejected the submission.');
 
+      window.sunSageShowConfirmation?.(contactForm);
       propertyForm.reset();
       contactForm.reset();
       if (button) {

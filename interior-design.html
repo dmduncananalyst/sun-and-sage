@@ -1256,7 +1256,58 @@ footer .contactPanel{
     padding-top:34px!important;
   }
 }
-</style><link href="assets/sun-sage-key.png" rel="icon" type="image/png"/><link href="assets/sun-sage-key.png" rel="apple-touch-icon"/></head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
+</style><link href="assets/sun-sage-key.png" rel="icon" type="image/png"/><link href="assets/sun-sage-key.png" rel="apple-touch-icon"/><style id="v70-locked-fixes">
+/* V70 submission confirmation — same visual language as property request */
+.v70SubmissionConfirm{
+  width:min(720px,calc(100vw - 28px));max-height:calc(100vh - 28px);
+  border:0;padding:clamp(28px,5vw,58px);background:#f3eee5;color:#171715;
+  box-shadow:0 28px 90px #0008;
+}
+.v70SubmissionConfirm::backdrop{background:#14282bdd;backdrop-filter:blur(5px)}
+.v70ConfirmClose{position:absolute;right:20px;top:14px;border:0;background:transparent;font:300 34px Arial;cursor:pointer}
+.v70ConfirmEyebrow,.v70ConfirmThanks>span{font:600 12px Arial;letter-spacing:.19em;text-transform:uppercase;color:#2a737a}
+.v70SubmissionConfirm h2{font:500 clamp(34px,5vw,54px)/1 Georgia;margin:18px 0}
+.v70ConfirmContext{font:400 15px/1.55 Arial;color:#5a5650;border-left:3px solid #c08754;padding-left:15px;margin:0 0 34px}
+.v70ConfirmThanks{text-align:center;padding:24px 0 8px}
+.v70ConfirmThanks h3{font:500 clamp(34px,5vw,50px)/1 Georgia;margin:18px 0}
+.v70ConfirmThanks p{font:400 15px/1.6 Arial;color:#3f3b37}
+.v70ConfirmDone{margin-top:20px;border:0;border-bottom:1px solid #171715;background:transparent;padding:0 0 5px;cursor:pointer}
+
+.v70FaqHint{
+  margin:10px 0 22px;
+  color:#69706d;
+  font:600 11px/1.5 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+/* V70 — keep CTA text fully visible at narrow desktop widths */
+.footerNextStep a,
+.servicePageClose a,
+.cityConsult a{
+  box-sizing:border-box!important;
+  max-width:100%!important;
+  min-width:0!important;
+}
+@media (min-width:801px) and (max-width:1180px){
+  .footerNextStep a,
+  .servicePageClose a{
+    width:auto!important;
+    max-width:calc(100% - 24px)!important;
+    padding-left:18px!important;
+    padding-right:18px!important;
+    white-space:normal!important;
+    line-height:1.25!important;
+    overflow:visible!important;
+    text-overflow:clip!important;
+  }
+}
+</style><style id="v73-contact-narrow-lock">
+/* V73 — keep desktop Contact dropdown inside viewport on narrow windows */
+@media (min-width:801px) and (max-width:1250px){
+  .megaContact{left:auto!important;right:0!important;max-width:calc(100vw - 24px)!important}
+}
+</style></head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <div class="navHoverItem megaRoot">
@@ -1420,4 +1471,4 @@ document.addEventListener('click',function(e){
   new MutationObserver(cleanDuplicateTopNavigation).observe(document.documentElement,{childList:true,subtree:true});
 })();
 </script>
-</body></html>
+<script src="assets/v70-confirmations.js"></script></body></html>

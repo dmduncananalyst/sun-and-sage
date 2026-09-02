@@ -1236,7 +1236,58 @@ footer .contactPanel{
     padding-top:34px!important;
   }
 }
-</style><link href="assets/sun-sage-key.png" rel="icon" type="image/png"/><link href="assets/sun-sage-key.png" rel="apple-touch-icon"/></head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
+</style><link href="assets/sun-sage-key.png" rel="icon" type="image/png"/><link href="assets/sun-sage-key.png" rel="apple-touch-icon"/><style id="v70-locked-fixes">
+/* V70 submission confirmation — same visual language as property request */
+.v70SubmissionConfirm{
+  width:min(720px,calc(100vw - 28px));max-height:calc(100vh - 28px);
+  border:0;padding:clamp(28px,5vw,58px);background:#f3eee5;color:#171715;
+  box-shadow:0 28px 90px #0008;
+}
+.v70SubmissionConfirm::backdrop{background:#14282bdd;backdrop-filter:blur(5px)}
+.v70ConfirmClose{position:absolute;right:20px;top:14px;border:0;background:transparent;font:300 34px Arial;cursor:pointer}
+.v70ConfirmEyebrow,.v70ConfirmThanks>span{font:600 12px Arial;letter-spacing:.19em;text-transform:uppercase;color:#2a737a}
+.v70SubmissionConfirm h2{font:500 clamp(34px,5vw,54px)/1 Georgia;margin:18px 0}
+.v70ConfirmContext{font:400 15px/1.55 Arial;color:#5a5650;border-left:3px solid #c08754;padding-left:15px;margin:0 0 34px}
+.v70ConfirmThanks{text-align:center;padding:24px 0 8px}
+.v70ConfirmThanks h3{font:500 clamp(34px,5vw,50px)/1 Georgia;margin:18px 0}
+.v70ConfirmThanks p{font:400 15px/1.6 Arial;color:#3f3b37}
+.v70ConfirmDone{margin-top:20px;border:0;border-bottom:1px solid #171715;background:transparent;padding:0 0 5px;cursor:pointer}
+
+.v70FaqHint{
+  margin:10px 0 22px;
+  color:#69706d;
+  font:600 11px/1.5 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+/* V70 — keep CTA text fully visible at narrow desktop widths */
+.footerNextStep a,
+.servicePageClose a,
+.cityConsult a{
+  box-sizing:border-box!important;
+  max-width:100%!important;
+  min-width:0!important;
+}
+@media (min-width:801px) and (max-width:1180px){
+  .footerNextStep a,
+  .servicePageClose a{
+    width:auto!important;
+    max-width:calc(100% - 24px)!important;
+    padding-left:18px!important;
+    padding-right:18px!important;
+    white-space:normal!important;
+    line-height:1.25!important;
+    overflow:visible!important;
+    text-overflow:clip!important;
+  }
+}
+</style><style id="v73-contact-narrow-lock">
+/* V73 — keep desktop Contact dropdown inside viewport on narrow windows */
+@media (min-width:801px) and (max-width:1250px){
+  .megaContact{left:auto!important;right:0!important;max-width:calc(100vw - 24px)!important}
+}
+</style></head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <div class="navHoverItem megaRoot">
@@ -1314,12 +1365,12 @@ footer .contactPanel{
 <nav aria-label="Nearby city pages"><a href="buy-sherman-oaks.html"><span>Sherman Oaks</span><b>View city →</b></a><a href="buy-encino.html"><span>Encino</span><b>View city →</b></a><a href="buy-woodland-hills.html"><span>Woodland Hills</span><b>View city →</b></a></nav>
 </section>
 <section class="cityFaq cityReveal">
-<div class="citySectionIntro"><span>Questions buyers ask</span><h2>Van Nuys at a glance</h2></div>
+<div class="citySectionIntro"><span>Questions buyers ask</span><h2>Van Nuys at a glance</h2><p class="v70FaqHint">Click or tap the + to view each answer.</p></div>
 <div class="cityFaqList"><details open=""><summary>Is Van Nuys a good place to buy a home?<span></span></summary><p>Yes, Van Nuys appeals to buyers wanting a central, well-connected Valley location with attainable pricing relative to surrounding premium submarkets.</p></details><details><summary>What is the average home price in Van Nuys?<span></span></summary><p>As of 2026, Van Nuys' median home price is around $817,000, $830,000, with price per square foot around $538.</p></details><details><summary>What is Van Nuys known for?<span></span></summary><p>Van Nuys is known for Van Nuys Airport, the historic Van Nuys Courthouse, and its role as a civic and government center for the Valley.</p></details></div>
 </section>
 <section class="cityConsult cityReveal">
 <div><span>Personal guidance</span><h2>Want to explore homes in Van Nuys?</h2><p>Tell Dominique what you are looking for and receive a property search shaped around your priorities.</p></div>
-<a href="buyer-consultation.html">Schedule a buyer consultation <span>→</span></a>
+<a data-buyer-consultation-form="" href="#buyer-consultation-form">Schedule a buyer consultation <span>→</span></a>
 </section>
 </main><footer><div class="footerGrid"><section><h3>San Fernando Valley</h3><div class="cityLinks"><a href="buy-sylmar.html">Sylmar</a><a href="buy-san-fernando.html">San Fernando</a><a href="buy-mission-hills.html">Mission Hills</a><a href="buy-granada-hills.html">Granada Hills</a><a href="buy-porter-ranch.html">Porter Ranch</a><a href="buy-chatsworth.html">Chatsworth</a><a href="buy-northridge.html">Northridge</a><a href="buy-pacoima.html">Pacoima</a><a href="buy-sherman-oaks.html">Sherman Oaks</a><a href="buy-studio-city.html">Studio City</a><a href="buy-encino.html">Encino</a><a href="buy-tarzana.html">Tarzana</a><a href="buy-toluca-lake.html">Toluca Lake</a><a href="buy-north-hollywood.html">North Hollywood</a><a href="buy-valley-village.html">Valley Village</a><a href="buy-valley-glen.html">Valley Glen</a><a href="buy-sun-valley.html">Sun Valley</a><a href="buy-sunland.html">Sunland</a><a href="buy-tujunga.html">Tujunga</a><a href="buy-burbank.html">Burbank</a><a href="buy-woodland-hills.html">Woodland Hills</a><a href="buy-west-hills.html">West Hills</a><a href="buy-canoga-park.html">Canoga Park</a><a href="buy-winnetka.html">Winnetka</a><a href="buy-reseda.html">Reseda</a><a href="buy-van-nuys.html">Van Nuys</a></div></section><section class="direct"><h3>Contact</h3><strong>Dominique Duncan-Nelson</strong>
 <span>DRE#02248338</span><a href="mailto:dominique@therise.group">dominique@therise.group</a><a href="tel:8182966896">818-296-6896</a><a href="tel:8188735128">818-873-5128</a></section></div><div class="legal"><span>© 2026 Sun and Sage. All rights reserved.</span><a href="https://guideme2.com/">GuideMe2</a><img alt="Rise Real Estate" class="riseFooter" src="assets/rise-logo.png"/><img alt="Equal Housing Opportunity and REALTOR" class="complianceMarks" src="assets/equal-housing-realtor.png"/><a href="https://startweb7.com/">Website &amp; SEO by StartWeb7</a></div></footer><script>
@@ -1449,4 +1500,21 @@ document.addEventListener('click',function(e){
   new MutationObserver(cleanDuplicateTopNavigation).observe(document.documentElement,{childList:true,subtree:true});
 })();
 </script>
-</body></html>
+<script id="v70-city-buyer-consultation">
+document.addEventListener('click',function(event){
+  const link=event.target.closest('.cityConsult a[data-buyer-consultation-form]');
+  if(!link)return;
+  const dialog=document.querySelector('.contactFormModal');
+  if(!dialog || typeof dialog.showModal!=='function')return;
+  event.preventDefault();
+  event.stopImmediatePropagation();
+  const form=dialog.querySelector('.contactModalForm');
+  const service=form?.querySelector('[name="service"]');
+  if(service) service.value='Buy a Home';
+  const title=dialog.querySelector('#contactFormModalTitle');
+  const intro=dialog.querySelector('.contactFormModalIntro p');
+  if(title) title.textContent='Schedule a buyer consultation.';
+  if(intro) intro.textContent='Tell Dominique how to reach you and what you are looking for in your next home.';
+  if(!dialog.open)dialog.showModal();
+},true);
+</script><script src="assets/v70-confirmations.js"></script></body></html>
