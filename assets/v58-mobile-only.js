@@ -12,15 +12,12 @@
     backdrop.type = 'button';
     backdrop.setAttribute('aria-label', 'Close menu');
     document.body.append(backdrop);
-    const menuTitle = document.createElement('span');
-    menuTitle.className = 'v58-menu-title';
-    menuTitle.textContent = 'Navigation';
     const closeButton = document.createElement('button');
     closeButton.className = 'v58-menu-close';
     closeButton.type = 'button';
     closeButton.setAttribute('aria-label', 'Close menu');
     closeButton.textContent = '×';
-    mobileNav.prepend(menuTitle, closeButton);
+    mobileNav.prepend(closeButton);
     mobileNav.querySelectorAll('summary').forEach(summary => {
       const arrow = summary.querySelector(':scope > b');
       if (!arrow) return;
