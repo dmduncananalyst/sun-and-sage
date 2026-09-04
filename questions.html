@@ -2003,6 +2003,77 @@ nav a:focus-visible,
 }
 .footerNextStep>a span{color:inherit!important}
 </style>
+
+
+
+<style id="v98-qa-answer-text-only">
+/* Q&A card backs: answer copy must be readable, not white/light */
+.flipBack,
+.flipBack *,
+.cardBack,
+.cardBack *,
+.qaBack,
+.qaBack *,
+.answerSide,
+.answerSide *,
+.answer,
+.answer *{
+  color:#41372B!important;
+}
+</style>
+
+<style id="v99-sitewide-readable-light-card-text">
+/* Sitewide: text shown on light/cream answer/back cards must never render white */
+.flipBack,.flipBack *,
+.cardBack,.cardBack *,
+.qaBack,.qaBack *,
+.answerSide,.answerSide *,
+.answerCard,.answerCard *,
+.faqAnswer,.faqAnswer *,
+.accordionAnswer,.accordionAnswer *{
+  color:#41372B!important;
+}
+</style>
+
+<style id="v100-qa-answer-readable">
+/* Q&A answer cards: force all answer-side copy to dark espresso */
+.qaFaceBack,.qaFaceBack *,
+.qaCard.is-flipped .qaCardBack,
+.qaCard.is-flipped .qaCardBack *,
+.qaCard.flipped .qaCardBack,
+.qaCard.flipped .qaCardBack *,
+.qaCardBack,
+.qaCardBack *,
+.flip-card-back,
+.flip-card-back *,
+.flipBack,
+.flipBack *,
+.cardBack,
+.cardBack *,
+.answerCard,
+.answerCard *,
+.answerSide,
+.answerSide *{
+  color:#41372B!important;
+  opacity:1!important;
+}
+</style>
+
+<style id="v100-interior-nav-normal-state">
+@media(min-width:801px){
+  header a[href="interior-design.html"],
+  nav a[href="interior-design.html"],
+  .siteNav a[href="interior-design.html"],
+  .desktopNav a[href="interior-design.html"],
+  nav li:hover>a[href="interior-design.html"],
+  nav li:focus-within>a[href="interior-design.html"],
+  .navItem:hover>a[href="interior-design.html"],
+  .navItem:focus-within>a[href="interior-design.html"]{
+    color:#41372B!important;
+    background:transparent!important;
+  }
+}
+</style>
 </head>
 <body class="antialiased">
 <header class="siteHeader">
