@@ -15,7 +15,7 @@
   min-height: 560px;
   overflow: hidden;
   color: #fff;
-  background: #153f43;
+  background: #6B5945;
 }
 
 .portfolioParentCard img {
@@ -46,7 +46,7 @@
 .portfolioParentCardContent > span {
   display: block;
   margin-bottom: 11px;
-  color: #87cad2;
+  color: #B9A88E;
   font: 700 10px/1 Arial, sans-serif;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -91,7 +91,7 @@
 .projectJobTabs {
   padding: 86px 5vw 100px;
   background: #f3eee5;
-  color: #151513;
+  color: #41372B;
 }
 
 .projectJobTabs > header {
@@ -107,7 +107,7 @@
 
 .projectJobTabs .eyebrow {
   margin: 0;
-  color: #367d87;
+  color: #96856A;
   font: 700 11px/1.2 Arial, sans-serif;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -123,7 +123,7 @@
   gap: 0;
   width: min(1320px, 100%);
   margin: 0 auto 50px;
-  border: 1px solid #1e4d51;
+  border: 1px solid #6B5945;
   background: #fff;
 }
 
@@ -132,8 +132,8 @@
   min-height: 72px;
   padding: 17px 20px;
   border: 0;
-  border-right: 1px solid #1e4d51;
-  color: #153f43;
+  border-right: 1px solid #6B5945;
+  color: #6B5945;
   background: #fff;
   font: 700 11px/1.35 Arial, sans-serif;
   letter-spacing: .1em;
@@ -150,7 +150,7 @@
 .jobTabList button:focus-visible,
 .jobTabList button[aria-selected="true"] {
   color: #fff;
-  background: #1d5960;
+  background: #96856A;
 }
 
 .jobPanel {
@@ -171,7 +171,7 @@
 }
 
 .jobPanelIntro span {
-  color: #c08754;
+  color: #96856A;
   font: 700 11px/1.2 Arial, sans-serif;
   letter-spacing: .2em;
   text-transform: uppercase;

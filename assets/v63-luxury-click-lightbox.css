@@ -77,7 +77,7 @@ body.portfolioLightboxOpen{overflow:hidden!important}
   cursor:pointer!important;
 }
 .portfolioLightbox .portfolioLightboxClose:hover,
-.portfolioLightbox .portfolioLightboxClose:focus{background:#c08754!important;outline:2px solid #fff!important;outline-offset:3px!important}
+.portfolioLightbox .portfolioLightboxClose:focus{background:#96856A!important;outline:2px solid #fff!important;outline-offset:3px!important}
 .portfolioLightboxHint{display:none!important}
 @media(max-width:800px){
   .portfolioZoomLabel{right:10px;bottom:10px;padding:8px 11px 7px;font-size:9px}

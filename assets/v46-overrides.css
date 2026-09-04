@@ -2,7 +2,7 @@
 
 .footerNextStep {
   padding: 56px 24px 60px;
-  background: #151514;
+  background: #41372B;
   color: #fff;
   text-align: center;
 }
@@ -18,7 +18,7 @@
 
 .footerNextStep p {
   margin: 0 0 13px;
-  color: #55a4b1;
+  color: #B9A88E;
   font: 700 11px/1.2 Arial, sans-serif;
   letter-spacing: .22em;
   text-transform: uppercase;
@@ -85,7 +85,7 @@
 
 .portfolioIntroV46 span {
   justify-self: end;
-  color: #276d76;
+  color: #96856A;
   font: 700 11px/1.65 Arial, sans-serif;
   letter-spacing: .18em;
   text-align: right;
@@ -117,21 +117,21 @@
 }
 
 .portfolioCollectionHeader span {
-  color: #32818c;
+  color: #96856A;
   font: 700 11px/1 Arial, sans-serif;
   letter-spacing: .2em;
 }
 
 .portfolioCollectionHeader h2 {
   margin: 0;
-  color: #151513;
+  color: #41372B;
   font: 400 clamp(34px, 4.5vw, 64px)/1 Georgia, serif;
 }
 
 .portfolioCollectionHeader a {
   padding-bottom: 6px;
-  border-bottom: 1px solid #151513;
-  color: #151513;
+  border-bottom: 1px solid #41372B;
+  color: #41372B;
   font: 700 10px/1.2 Arial, sans-serif;
   letter-spacing: .16em;
   text-transform: uppercase;
@@ -140,8 +140,8 @@
 
 .portfolioCollectionHeader a:hover,
 .portfolioCollectionHeader a:focus-visible {
-  color: #2e7882;
-  border-color: #2e7882;
+  color: #96856A;
+  border-color: #96856A;
 }
 
 .portfolioCardGrid {
@@ -153,7 +153,7 @@
 .portfolioCard {
   display: block;
   color: #fff;
-  background: #153f43;
+  background: #6B5945;
   overflow: hidden;
 }
 
@@ -187,7 +187,7 @@
 }
 
 .portfolioCard b {
-  color: #7bc1ca;
+  color: #B9A88E;
   font: 400 22px/1 Georgia, serif;
   transition: transform .25s ease;
 }
@@ -208,7 +208,7 @@
 }
 
 .projectGallery figure[id]:target {
-  outline: 5px solid #58a7b2;
+  outline: 5px solid #B9A88E;
   outline-offset: -5px;
 }
 

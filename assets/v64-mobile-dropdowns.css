@@ -6,8 +6,8 @@
   .mobileNavTree>details>summary::-webkit-details-marker{display:none!important}
   .mobileNavTree summary{display:grid!important;grid-template-columns:minmax(0,1fr) 46px!important;align-items:stretch!important;padding:0!important;min-height:52px!important}
   .mobileNavTree summary>a,.mobileNavTree summary>span{display:flex!important;align-items:center!important;min-height:52px!important;padding:13px 8px!important;color:inherit!important;text-decoration:none!important}
-  .mobileNavTree summary>b{display:grid!important;place-items:center!important;width:42px!important;min-width:42px!important;height:42px!important;align-self:center!important;margin:0 2px!important;border:1px solid #174c5260!important;border-radius:50%!important;background:#fff!important;color:#174c52!important;font:700 15px/1 Arial,sans-serif!important;cursor:pointer!important;pointer-events:auto!important;position:relative!important;z-index:5!important}
-  .mobileNavTree details[open]>summary>b{background:#174c52!important;color:#fff!important;transform:rotate(180deg)}
+  .mobileNavTree summary>b{display:grid!important;place-items:center!important;width:42px!important;min-width:42px!important;height:42px!important;align-self:center!important;margin:0 2px!important;border:1px solid #174c5260!important;border-radius:50%!important;background:#fff!important;color:#6B5945!important;font:700 15px/1 Arial,sans-serif!important;cursor:pointer!important;pointer-events:auto!important;position:relative!important;z-index:5!important}
+  .mobileNavTree details[open]>summary>b{background:#6B5945!important;color:#fff!important;transform:rotate(180deg)}
   .mobileNavTree>details>summary>b{font-size:0!important}
   .mobileNavTree details>.drop,.mobileNavTree details>.flyPanel{display:none!important}
   .mobileNavTree details[open]>.drop,.mobileNavTree details[open]>.flyPanel{display:block!important;position:static!important;width:100%!important;max-width:100%!important}

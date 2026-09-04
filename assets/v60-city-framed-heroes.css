@@ -1,5 +1,5 @@
 /* One consistent framed-image hero for every individual city page. */
-.cityLuxuryHero{min-height:calc(100svh - 118px)!important;position:relative!important;display:block!important;padding:clamp(42px,6vw,76px) 0!important;background:linear-gradient(135deg,#111b19,#29302e)!important;overflow:hidden!important;isolation:isolate}
+.cityLuxuryHero{min-height:calc(100svh - 118px)!important;position:relative!important;display:block!important;padding:clamp(42px,6vw,76px) 0!important;background:linear-gradient(135deg,#6B5945,#29302e)!important;overflow:hidden!important;isolation:isolate}
 .cityLuxuryHero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 72% 32%,rgba(88,156,168,.13),transparent 42%),linear-gradient(90deg,rgba(9,16,15,.55),transparent 65%);z-index:0}
 .cityLuxuryHero .cityHeroMedia{position:absolute!important;z-index:1!important;left:50%!important;top:50%!important;right:auto!important;bottom:auto!important;width:min(860px,64vw)!important;height:min(64vh,640px)!important;transform:translate(-50%,-50%)!important;border-radius:18px!important;overflow:hidden!important;box-shadow:0 34px 80px rgba(0,0,0,.42)!important}
 .cityLuxuryHero .cityHeroMedia img{display:block!important;width:100%!important;height:100%!important;min-height:0!important;object-fit:cover!important;object-position:center!important;transform:none!important}

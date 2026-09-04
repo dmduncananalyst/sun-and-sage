@@ -20,12 +20,12 @@ img{font-size:0;color:transparent}
 
   /* 1944: all 4 property-management collage tiles are actual photos and equal visual tiles. */
   .propertyCollageHero{grid-template-columns:1fr 1fr!important;grid-auto-rows:minmax(180px,1fr)!important}
-  .propertyCollageHero figure{min-height:185px!important;height:auto!important;background:#163f43!important;overflow:hidden!important}
+  .propertyCollageHero figure{min-height:185px!important;height:auto!important;background:#6B5945!important;overflow:hidden!important}
   .propertyCollageHero figure img{width:100%!important;height:100%!important;min-height:185px!important;object-fit:cover!important}
   .propertyCollageTitle{grid-column:1/-1!important;min-height:230px!important}
 
   /* Every mobile interactive control gets a short instruction in parentheses. */
-  .v81MobileHint{display:block!important;text-align:center!important;margin:10px auto 16px!important;color:#23747c!important;font:700 10px/1.4 Arial,sans-serif!important;letter-spacing:.09em!important;text-transform:none!important}
+  .v81MobileHint{display:block!important;text-align:center!important;margin:10px auto 16px!important;color:#96856A!important;font:700 10px/1.4 Arial,sans-serif!important;letter-spacing:.09em!important;text-transform:none!important}
   .v81CityGuideHint{color:#fff!important;margin:14px auto!important}
 
   /* 1949: allow INTRODUCE to wrap instead of being clipped; keep readable. */

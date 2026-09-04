@@ -1,10 +1,10 @@
 /* Sun and Sage revision 48: distinct editorial typography, richer interaction, and page-specific redesigns. */
 :root{
-  --ss-ink:#151514;
-  --ss-teal:#174c52;
-  --ss-blue:#589ca8;
-  --ss-aqua:#9bd5dc;
-  --ss-copper:#c08754;
+  --ss-ink:#41372B;
+  --ss-#96856A:#6B5945;
+  --ss-blue:#B9A88E;
+  --ss-aqua:#E7E0D5;
+  --ss-copper:#96856A;
   --ss-paper:#f3eee5;
   --ss-line:#b8b1a5;
   --ss-editorial:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
@@ -16,7 +16,7 @@
 .desktopNav>a:focus-visible,
 .desktopNav>.navHoverItem:hover>.navTopLink,
 .desktopNav>.navHoverItem:focus-within>.navTopLink{
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
   color:#fff!important;
 }
 .desktopNav>.navHoverItem:hover>.navTopLink b,
@@ -31,7 +31,7 @@
 .desktopNav .cityPanel a:focus-visible,
 .desktopNav .flyTrigger:hover,
 .desktopNav .flyTrigger:focus-visible{
-  background:#589ca8!important;
+  background:#B9A88E!important;
   color:#fff!important;
 }
 .desktopNav .drop a:hover b,
@@ -48,7 +48,7 @@
 .servicePageClose{
   position:relative;
   overflow:hidden;
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
   color:#fff!important;
 }
 .footerNextStep::before,
@@ -56,7 +56,7 @@
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(110deg,transparent 0 68%,#2d6970 68% 76%,transparent 76%);
+  background:linear-gradient(110deg,transparent 0 68%,#96856A 68% 76%,transparent 76%);
   opacity:.55;
   pointer-events:none;
 }
@@ -99,12 +99,12 @@
 .sellHeroV48{display:grid;grid-template-columns:minmax(340px,.82fr) minmax(470px,1.18fr);min-height:650px;background:var(--ss-paper)}
 .sellHeroV48Copy{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(42px,7vw,110px)}
 .sellHeroV48 .refTitle{padding:0!important;text-align:left!important;background:transparent!important}
-.sellHeroV48 .refTitle span{color:var(--ss-teal)!important}
+.sellHeroV48 .refTitle span{color:var(--ss-#96856A)!important}
 .sellHeroV48 .refTitle h1{margin:20px 0 0!important;font:italic 400 clamp(48px,5.2vw,74px)/1 var(--ss-editorial)!important;letter-spacing:-.025em!important}
 .sellHeroV48 .refIntro{padding:0!important;margin:34px 0 0!important;max-width:490px!important;text-align:left!important;font:400 22px/1.5 var(--ss-sans)!important}
 .sellHeroV48 figure{position:relative;margin:0;min-height:650px;overflow:hidden}
 .sellHeroV48 figure img{width:100%;height:100%;object-fit:cover}
-.sellHeroV48 figcaption{position:absolute;right:0;bottom:0;padding:13px 18px;background:var(--ss-teal);color:#fff;font:700 9px/1 var(--ss-sans);letter-spacing:.16em;text-transform:uppercase}
+.sellHeroV48 figcaption{position:absolute;right:0;bottom:0;padding:13px 18px;background:var(--ss-#96856A);color:#fff;font:700 9px/1 var(--ss-sans);letter-spacing:.16em;text-transform:uppercase}
 .sellPage .refTitle,
 body:has(.sellPositioning) .refTitle{padding-bottom:44px!important}
 .sellHeroV48 .refTitle{padding-bottom:0!important}
@@ -136,7 +136,7 @@ body:has(.sellPositioning) .servicePanels h2{
   letter-spacing:-.025em!important;
 }
 body:has(.sellPositioning) .servicePanels ul{margin-bottom:27px!important}
-body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
+body:has(.sellPositioning) .servicePanels a{color:var(--ss-#96856A)!important}
 .sellPositioning{
   display:grid!important;
   grid-template-columns:minmax(0,1.12fr) minmax(330px,.88fr)!important;
@@ -145,7 +145,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   background:#ebe6dd!important;
   align-items:center!important;
 }
-.sellChartPanel{padding:54px!important;background:var(--ss-teal)!important;color:#fff!important}
+.sellChartPanel{padding:54px!important;background:var(--ss-#96856A)!important;color:#fff!important}
 .sellWheel{display:none!important}
 .sellChartKicker{color:var(--ss-aqua)!important}
 .sellLegend{
@@ -196,7 +196,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .campaignTabs button:hover,
 .campaignTabs button:focus-visible,
 .campaignTabs button.active{
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
   color:#fff!important;
 }
 .campaignTabs button:hover svg,
@@ -212,7 +212,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   display:grid!important;
   grid-template-columns:minmax(360px,.9fr) minmax(430px,1.1fr)!important;
   text-align:left!important;
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
 }
 .consultationHeroCopy{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(38px,6vw,96px)!important}
 .consultationHero figure{min-height:620px;margin:0;overflow:hidden}
@@ -237,15 +237,15 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   padding-block:clamp(62px,7vw,90px)!important;
 }
 .consultationContactCompact>p{margin:0;max-width:490px;color:#55514a;font:400 16px/1.7 var(--ss-sans)}
-.consultationContactCompact>a{display:inline-flex;align-items:center;gap:20px;padding:19px 24px;background:var(--ss-copper);color:#111!important;white-space:nowrap;font:700 10px/1 var(--ss-sans);letter-spacing:.15em;text-transform:uppercase}
-.consultationContactCompact>a:hover,.consultationContactCompact>a:focus-visible{background:var(--ss-teal)!important;color:#fff!important}
+.consultationContactCompact>a{display:inline-flex;align-items:center;gap:20px;padding:19px 24px;background:var(--ss-copper);color:#41372B!important;white-space:nowrap;font:700 10px/1 var(--ss-sans);letter-spacing:.15em;text-transform:uppercase}
+.consultationContactCompact>a:hover,.consultationContactCompact>a:focus-visible{background:var(--ss-#96856A)!important;color:#fff!important}
 
 /* Consultation close: a restrained editorial strip, not an oversized split headline. */
 .consultationContactCompact{
   position:relative!important;
   grid-template-columns:minmax(250px,.72fr) minmax(320px,1fr) auto!important;
   padding:52px max(6vw,calc(50vw - 720px))!important;
-  background:#171715!important;
+  background:#41372B!important;
   color:#fff!important;
   border-top:5px solid var(--ss-copper)!important;
 }
@@ -307,7 +307,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   font-size:10px!important;
   border-color:#ffffff70!important;
 }
-.cityIndex a:hover,.cityIndex a:focus-visible,.cityIndex a.active{background:var(--ss-copper)!important;color:#111!important;border-color:var(--ss-copper)!important}
+.cityIndex a:hover,.cityIndex a:focus-visible,.cityIndex a.active{background:var(--ss-copper)!important;color:#41372B!important;border-color:var(--ss-copper)!important}
 .catalogueSection{padding:clamp(64px,8vw,105px) max(6vw,calc(50vw - 740px))!important}
 .catalogueSection>header{display:none!important}
 .cityCatalogueGrid{display:block!important;border:0!important;max-width:980px!important;margin:0 auto!important}
@@ -326,7 +326,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 /* Q&A: an AEO-friendly flip library, with keyboard and touch support. */
 .qaLibrary{padding:clamp(70px,8vw,115px) max(5vw,calc(50vw - 730px));background:#ede8df}
 .qaLibraryHeader{display:none!important}
-.qaLibraryHeader span{color:var(--ss-teal);font:700 10px/1 var(--ss-sans);letter-spacing:.2em;text-transform:uppercase}
+.qaLibraryHeader span{color:var(--ss-#96856A);font:700 10px/1 var(--ss-sans);letter-spacing:.2em;text-transform:uppercase}
 .qaLibraryHeader h2{margin:12px 0 0;font:italic 400 clamp(38px,4vw,56px)/1.05 var(--ss-editorial);letter-spacing:-.02em}
 .qaLibraryHeader p{max-width:620px;margin:0;font:400 16px/1.75 var(--ss-sans);color:#56514a}
 .qaFlipGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
@@ -334,7 +334,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .qaFlipInner{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
 .qaFlip:hover .qaFlipInner,.qaFlip:focus-within .qaFlipInner,.qaFlip.is-flipped .qaFlipInner{transform:rotateY(180deg)}
 .qaFace{position:absolute;inset:0;padding:30px;backface-visibility:hidden;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #c9c2b6;background:#f8f5ee}
-.qaFaceBack{transform:rotateY(180deg);background:var(--ss-teal);color:#fff}
+.qaFaceBack{transform:rotateY(180deg);background:var(--ss-#96856A);color:#fff}
 .qaFace span{font:700 13px/1.15 var(--ss-sans);letter-spacing:.13em;color:var(--ss-copper)}
 .qaFace h3{margin:0;max-width:19ch;font:400 25px/1.15 var(--ss-editorial);letter-spacing:-.01em}
 .qaFace p{margin:0;font:400 14px/1.65 var(--ss-sans);color:#e6eeee}
@@ -346,11 +346,11 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .reviewGallery h2{font:italic 400 clamp(38px,4vw,58px)/1.03 var(--ss-editorial)!important;letter-spacing:-.02em!important}
 .reviewGallery>header p{font-size:16px!important;line-height:1.7!important}
 .reviewSalon{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:650px;border:1px solid #b9b2a7;background:#f8f5ee}
-.reviewNames{display:flex;flex-direction:column;border-right:1px solid #b9b2a7;background:var(--ss-teal)}
+.reviewNames{display:flex;flex-direction:column;border-right:1px solid #b9b2a7;background:var(--ss-#96856A)}
 .reviewNames button{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 22px;border:0;border-bottom:1px solid #ffffff2e;color:#dce8e8;background:transparent;text-align:left;font:400 17px/1.2 var(--ss-editorial)}
 .reviewNames button::after{content:"View";font:700 8px/1 var(--ss-sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ss-aqua)}
-.reviewNames button:hover,.reviewNames button:focus-visible,.reviewNames button.active{background:var(--ss-copper)!important;color:#111!important;transform:none!important;box-shadow:none!important}
-.reviewNames button:hover::after,.reviewNames button.active::after{color:#111}
+.reviewNames button:hover,.reviewNames button:focus-visible,.reviewNames button.active{background:var(--ss-copper)!important;color:#41372B!important;transform:none!important;box-shadow:none!important}
+.reviewNames button:hover::after,.reviewNames button.active::after{color:#41372B}
 .reviewStage{position:relative;display:grid;place-items:center;padding:42px;overflow:hidden}
 .reviewStage::before{content:"SUN AND SAGE";position:absolute;right:-35px;bottom:44px;transform:rotate(-90deg);color:#d7d1c6;font:700 10px/1 var(--ss-sans);letter-spacing:.32em}
 .reviewStage img{display:none;max-width:min(100%,860px);max-height:570px;width:auto;height:auto;object-fit:contain;box-shadow:0 20px 45px #2b292520}
@@ -362,7 +362,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .qTitle h1{font-family:var(--ss-editorial)!important;font-size:clamp(44px,5.4vw,76px)!important;line-height:1!important;letter-spacing:-.025em!important}
 .qTypeHero p{font:italic 400 clamp(27px,3vw,42px)/1.16 var(--ss-editorial)!important;letter-spacing:-.015em!important}
 
-/* Community pages: replace the former oversized black split with a compact editorial marker. */
+/* Community pages: replace the former oversized #41372B split with a compact editorial marker. */
 .quietLuxury.qReal .qEditorial{
   position:relative!important;
   display:grid!important;
@@ -382,10 +382,10 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   pointer-events:none;
 }
 .quietLuxury.qReal .qWords,.quietLuxury.qReal .qTypeNotes{position:relative;z-index:1}
-.quietLuxury.qReal .qWords small{color:var(--ss-teal)!important}
+.quietLuxury.qReal .qWords small{color:var(--ss-#96856A)!important}
 .quietLuxury.qReal .qWords h2{
   margin:17px 0 24px!important;
-  color:var(--ss-teal)!important;
+  color:var(--ss-#96856A)!important;
   font:italic 400 clamp(38px,4.2vw,56px)/1.02 var(--ss-editorial)!important;
   letter-spacing:-.025em!important;
 }
@@ -404,14 +404,14 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   display:flex!important;
   align-items:flex-end!important;
   border-right:1px solid #b5aea3!important;
-  color:var(--ss-teal)!important;
+  color:var(--ss-#96856A)!important;
   font:700 11px/1.35 var(--ss-sans)!important;
   letter-spacing:.16em!important;
   text-transform:uppercase!important;
   transition:background .3s ease,color .3s ease,transform .3s ease!important;
 }
 .quietLuxury.qReal .qTypeNotes span:last-child{border-right:0!important}
-.quietLuxury.qReal .qTypeNotes span:hover{background:var(--ss-teal)!important;color:#fff!important;transform:translateY(-7px)}
+.quietLuxury.qReal .qTypeNotes span:hover{background:var(--ss-#96856A)!important;color:#fff!important;transform:translateY(-7px)}
 
 @media(max-width:900px){
   .sellHeroV48,body:has(.sellPositioning) .servicePanels,.sellPositioning,.consultationHero,.qaLibraryHeader,.reviewGallery>header,.quietLuxury.qReal .qEditorial{grid-template-columns:1fr!important}
@@ -427,16 +427,16 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 }
 
 /* Property-management actions: every state stays readable and each choice has its own identity. */
-.actionTriptych{gap:14px!important;background:#111412!important}
+.actionTriptych{gap:14px!important;background:#41372B!important}
 .actionTriptych a{
   min-height:390px!important;
   border:1px solid #ffffff42!important;
   transform:none!important;
   transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease,filter .28s ease!important;
 }
-.actionTriptych a:nth-child(1){background:var(--ss-teal)!important;color:#fff!important}
+.actionTriptych a:nth-child(1){background:var(--ss-#96856A)!important;color:#fff!important}
 .actionTriptych a:nth-child(2){background:var(--ss-paper)!important;color:var(--ss-ink)!important}
-.actionTriptych a:nth-child(3){background:var(--ss-copper)!important;color:#111!important}
+.actionTriptych a:nth-child(3){background:var(--ss-copper)!important;color:#41372B!important}
 .actionTriptych a:hover,.actionTriptych a:focus-visible{
   transform:translateY(-6px)!important;
   border-color:var(--ss-aqua)!important;
@@ -448,7 +448,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .actionTriptych span{font-size:12px!important}
 
 /* Home-value factors select as soon as a visitor hovers or focuses. */
-.factorWheel button:hover,.factorWheel button:focus-visible,.factorWheel button.active{background:var(--ss-copper)!important;color:#111!important}
+.factorWheel button:hover,.factorWheel button:focus-visible,.factorWheel button.active{background:var(--ss-copper)!important;color:#41372B!important}
 
 /* Portfolio typography and film framing: compact, editorial, and image-led. */
 .portfolioPageV46 .qTitle h1{font-style:italic!important;font-size:clamp(43px,5vw,70px)!important}
@@ -461,7 +461,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
   gap:38px!important;
   min-height:0!important;
   padding:55px max(6vw,calc(50vw - 700px))!important;
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
   color:#fff!important;
 }
 .qDesignClose h2{margin:0!important;font:italic 400 clamp(28px,3vw,39px)/1.05 var(--ss-editorial)!important}
@@ -476,7 +476,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-teal)!important}
 .projectFilm video{display:block!important;width:min(1080px,100%)!important;max-width:100%!important;margin:0 auto!important}
 .projectJobTabs>header{display:block!important;margin-bottom:28px!important;padding-bottom:22px!important;text-align:center!important}
 .projectJobTabs>header .eyebrow{display:none!important}
-.projectTabInstruction{margin:0!important;color:var(--ss-teal)!important;font:700 13px/1.4 var(--ss-sans)!important;letter-spacing:.13em!important;text-transform:uppercase!important}
+.projectTabInstruction{margin:0!important;color:var(--ss-#96856A)!important;font:700 13px/1.4 var(--ss-sans)!important;letter-spacing:.13em!important;text-transform:uppercase!important}
 .jobPanelIntro{
   grid-template-columns:120px minmax(240px,.65fr) minmax(320px,1.35fr)!important;
   gap:28px!important;
@@ -565,7 +565,7 @@ dialog[open]{
   gap:10px 30px!important;
   align-items:center!important;
   padding:28px 38px!important;
-  background:#174c52!important;
+  background:#6B5945!important;
 }
 .contactFormModalIntro span{
   grid-row:1/3!important;
@@ -602,7 +602,7 @@ dialog[open]{
   gap:8px 30px!important;
   align-items:center!important;
   padding:27px 38px!important;
-  background:#174c52!important;
+  background:#6B5945!important;
 }
 .evaluationDialogIntro span{
   grid-row:1/3!important;
@@ -646,7 +646,7 @@ dialog[open]{
 @media(max-width:800px){
   html,body{max-width:100%;overflow-x:hidden}
 
-  /* Remove the desktop footer inset that was creating the black dead space. */
+  /* Remove the desktop footer inset that was creating the #41372B dead space. */
   body>footer,footer{padding:0!important}
   footer .footerNextStep{margin:0!important;width:100%!important;padding:42px 20px 46px!important}
   footer .footerGrid{width:100%!important;max-width:none!important;margin:0!important;padding:48px 22px!important}
@@ -667,7 +667,7 @@ dialog[open]{
 
   /* The lender steps now visibly announce that every card opens. */
   .runwayTrack{display:grid!important;grid-template-columns:1fr!important;border:0!important;gap:12px!important}
-  .runwayTrack details{width:100%!important;border:1px solid #5799a2!important}
+  .runwayTrack details{width:100%!important;border:1px solid #96856A!important}
   .runwayTrack summary{grid-template-columns:32px 32px minmax(0,1fr)!important;gap:12px!important;min-height:0!important;padding:22px 16px 16px!important}
   .runwayTrack summary span{min-width:0!important;font-size:25px!important}
   .runwayTrack summary i{grid-column:1/-1!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:40px!important;margin-top:4px!important;border:1px solid #efb47e!important;color:#efb47e!important;font-size:0!important;font-style:normal!important}
@@ -677,17 +677,17 @@ dialog[open]{
   .runwayCta{width:100%!important;min-height:54px!important;align-items:center!important;justify-content:center!important;margin-top:22px!important;border:1px solid #efb47e!important;padding:0 14px!important;text-align:center!important}
 
   /* Make the region property-request submit action unmistakable. */
-  .regionRequestForm button[type="submit"]{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important;margin-top:20px!important;padding:16px 18px!important;border:2px solid #efb47e!important;background:#c08754!important;color:#111!important;font-size:11px!important;letter-spacing:.14em!important;text-align:center!important}
+  .regionRequestForm button[type="submit"]{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important;margin-top:20px!important;padding:16px 18px!important;border:2px solid #efb47e!important;background:#96856A!important;color:#41372B!important;font-size:11px!important;letter-spacing:.14em!important;text-align:center!important}
 
   /* Deep mobile menus use clear, generous arrow controls. */
   .mobileNavTree details>summary{min-height:54px!important;align-items:center!important}
-  .mobileNavTree details>summary b{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 34px!important;width:34px!important;height:34px!important;margin-left:auto!important;border:1px solid #589ca8!important;border-radius:50%!important;color:#174c52!important;font:700 22px/1 Arial,sans-serif!important}
-  .mobileNavTree details[open]>summary b{background:#174c52!important;color:#fff!important;transform:rotate(90deg)!important}
+  .mobileNavTree details>summary b{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 34px!important;width:34px!important;height:34px!important;margin-left:auto!important;border:1px solid #B9A88E!important;border-radius:50%!important;color:#6B5945!important;font:700 22px/1 Arial,sans-serif!important}
+  .mobileNavTree details[open]>summary b{background:#6B5945!important;color:#fff!important;transform:rotate(90deg)!important}
 
   /* Smaller-project choices fit inside the phone instead of scrolling off-screen. */
   .projectJobTabs{width:100%!important;max-width:100%!important;padding-inline:14px!important;overflow:hidden!important}
-  .jobTabList{display:grid!important;grid-template-columns:1fr!important;width:100%!important;max-width:100%!important;margin-bottom:28px!important;overflow:visible!important;border:1px solid #1e4d51!important}
-  .jobTabList button{width:100%!important;max-width:100%!important;min-height:54px!important;flex:none!important;padding:13px 14px!important;border-right:0!important;border-bottom:1px solid #1e4d51!important;white-space:normal!important}
+  .jobTabList{display:grid!important;grid-template-columns:1fr!important;width:100%!important;max-width:100%!important;margin-bottom:28px!important;overflow:visible!important;border:1px solid #6B5945!important}
+  .jobTabList button{width:100%!important;max-width:100%!important;min-height:54px!important;flex:none!important;padding:13px 14px!important;border-right:0!important;border-bottom:1px solid #6B5945!important;white-space:normal!important}
   .jobTabList button:last-child{border-bottom:0!important}
   .jobPanel,.jobGallery{width:100%!important;max-width:100%!important}
 
@@ -705,37 +705,37 @@ dialog[open]{
 
 /* v54: shared navigation clarity, accessible form choices, and portfolio viewing. */
 footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underline-offset:4px!important;text-decoration-thickness:1px!important}
-.sellHeroMatched{min-height:700px;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(380px,.92fr);background:#171716;color:#fff;overflow:hidden}
+.sellHeroMatched{min-height:700px;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(380px,.92fr);background:#41372B;color:#fff;overflow:hidden}
 .sellHeroMatched figure{min-height:700px;margin:0;position:relative;overflow:hidden}
-.sellHeroMatched figure::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 70%,#171716)}
+.sellHeroMatched figure::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 70%,#41372B)}
 .sellHeroMatched figure img{width:100%;height:100%;object-fit:cover;filter:saturate(.78);transition:transform 1s ease}
 .sellHeroMatched:hover figure img{transform:scale(1.02)}
 .sellHeroMatched .buyHeroCopy{display:flex;flex-direction:column;justify-content:center;padding:90px clamp(34px,6vw,105px) 90px clamp(40px,5vw,84px)}
-.sellHeroMatched .buyHeroCopy>span{color:#8fd0d7;font:700 11px/1.4 Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
+.sellHeroMatched .buyHeroCopy>span{color:#B9A88E;font:700 11px/1.4 Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
 .sellHeroMatched .buyHeroCopy h1{margin:32px 0 28px;font:italic 500 clamp(72px,7vw,112px)/.82 Georgia,serif!important;letter-spacing:-.06em}
 .sellHeroMatched .buyHeroCopy p{max-width:500px;margin:0;color:#d4d2cb;font:400 17px/1.75 Arial,sans-serif}
-.sellHeroMatched .buyHeroCopy a{display:flex;justify-content:space-between;margin-top:42px;padding:0 0 10px;border-bottom:1px solid #c08754;color:#fff;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none}
+.sellHeroMatched .buyHeroCopy a{display:flex;justify-content:space-between;margin-top:42px;padding:0 0 10px;border-bottom:1px solid #96856A;color:#fff;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none}
 .sellHeroMatched .buyHeroCopy a{width:min(100%,240px)!important}
-.miniLeadForm select,.consultationForm select,.contactPageForm select,.propertyRequest select,.evaluationContactForm select,.contactFormModal select,.contactModalForm select,.valleyLeadForm select,.regionRequestForm select{color:#171714!important;background:#fff!important;color-scheme:light!important}
-.miniLeadForm select option,.consultationForm select option,.contactPageForm select option,.propertyRequest select option,.evaluationContactForm select option,.contactFormModal select option,.contactModalForm select option,.valleyLeadForm select option,.regionRequestForm select option{color:#171714!important;background:#fff!important}
+.miniLeadForm select,.consultationForm select,.contactPageForm select,.propertyRequest select,.evaluationContactForm select,.contactFormModal select,.contactModalForm select,.valleyLeadForm select,.regionRequestForm select{color:#41372B!important;background:#fff!important;color-scheme:light!important}
+.miniLeadForm select option,.consultationForm select option,.contactPageForm select option,.propertyRequest select option,.evaluationContactForm select option,.contactFormModal select option,.contactModalForm select option,.valleyLeadForm select option,.regionRequestForm select option{color:#41372B!important;background:#fff!important}
 .mobileBackControl{display:none}
-.portfolioZoomInstruction{margin:0 auto 26px;padding:0 18px;max-width:1480px;color:#174c52;font:700 12px/1.5 Arial,sans-serif;letter-spacing:.13em;text-align:center;text-transform:uppercase}
+.portfolioZoomInstruction{margin:0 auto 26px;padding:0 18px;max-width:1480px;color:#6B5945;font:700 12px/1.5 Arial,sans-serif;letter-spacing:.13em;text-align:center;text-transform:uppercase}
 .mobileZoomCopy{display:none}
 .portfolioZoomTarget{cursor:zoom-in}
 .portfolioLightbox{position:fixed;z-index:99999;inset:0;display:flex;align-items:center;justify-content:center;padding:5vh 6vw;background:rgba(10,18,18,.82);opacity:0;visibility:hidden;transition:opacity .18s ease,visibility .18s ease}
 .portfolioLightbox.isOpen{opacity:1;visibility:visible}
 .portfolioLightbox img{display:block;width:auto!important;height:auto!important;max-width:min(88vw,1400px)!important;max-height:88vh!important;object-fit:contain!important;box-shadow:0 26px 80px rgba(0,0,0,.42)}
-.portfolioLightboxClose{position:fixed;top:18px;right:20px;width:46px;height:46px;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:#174c52;color:#fff;font:300 30px/1 Arial,sans-serif;cursor:pointer}
+.portfolioLightboxClose{position:fixed;top:18px;right:20px;width:46px;height:46px;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:#6B5945;color:#fff;font:300 30px/1 Arial,sans-serif;cursor:pointer}
 .portfolioLightboxHint{display:none;position:fixed;left:50%;bottom:18px;transform:translateX(-50%);margin:0;color:#fff;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
 @media(hover:hover) and (pointer:fine){.portfolioLightbox.desktopHover{pointer-events:none}.portfolioLightbox.desktopHover .portfolioLightboxClose{display:none}}
 @media(max-width:800px){
   .sellHeroMatched{min-height:0;grid-template-columns:1fr}
   .sellHeroMatched figure{min-height:78vw;max-height:560px}
-  .sellHeroMatched figure::after{background:linear-gradient(0deg,#171716,transparent 36%)}
+  .sellHeroMatched figure::after{background:linear-gradient(0deg,#41372B,transparent 36%)}
   .sellHeroMatched .buyHeroCopy{padding:58px 23px 68px}
   .sellHeroMatched .buyHeroCopy h1{font-size:clamp(66px,19vw,92px)!important}
   .sellHeroMatched .buyHeroCopy p{font-size:16px}
-  .mobileBackControl{position:sticky;z-index:55;top:0;display:flex;align-items:center;gap:9px;width:100%;min-height:45px;padding:0 18px;border:0;border-bottom:1px solid #d7d8d3;background:#f5f6f4;color:#171714;font:700 11px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+  .mobileBackControl{position:sticky;z-index:55;top:0;display:flex;align-items:center;gap:9px;width:100%;min-height:45px;padding:0 18px;border:0;border-bottom:1px solid #d7d8d3;background:#f5f6f4;color:#41372B;font:700 11px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
   .desktopZoomCopy{display:none}.mobileZoomCopy{display:inline}
   .portfolioZoomInstruction{margin-bottom:18px;font-size:11px}
   .portfolioLightbox{padding:70px 14px 58px;background:rgba(10,18,18,.94)}
@@ -762,7 +762,7 @@ footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underlin
   align-items:center!important;
   gap:18px 34px!important;
   padding:30px 42px!important;
-  background:var(--ss-teal)!important;
+  background:var(--ss-#96856A)!important;
 }
 .contactFormModalIntro span{grid-row:1/3!important;font-size:10px!important;writing-mode:vertical-rl!important;transform:rotate(180deg)!important}
 .contactFormModalIntro h2{margin:0!important;font:italic 400 clamp(28px,3.3vw,40px)/1.05 var(--ss-editorial)!important;letter-spacing:-.02em!important}
@@ -774,7 +774,7 @@ footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underlin
 .jobGallery[data-job="before-afters"]{columns:2 520px!important;column-gap:20px!important}
 .jobGallery[data-job="before-afters"] figure{margin-bottom:20px!important}
 
-/* Buyer consultation: remove the empty framed gap and separate its close from the black footer. */
+/* Buyer consultation: remove the empty framed gap and separate its close from the #41372B footer. */
 .buyerConsultationPage .consultationHero{min-height:540px!important;grid-template-columns:minmax(390px,.86fr) minmax(480px,1.14fr)!important}
 .buyerConsultationPage .consultationHero figure{min-height:540px!important}
 .buyerConsultationPage .consultationContactCompact{
@@ -785,8 +785,8 @@ footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underlin
   border-top:0!important;
   border-left:10px solid var(--ss-copper)!important;
 }
-.buyerConsultationPage .consultationContactCompact::before{color:var(--ss-teal)!important}
-.buyerConsultationPage .consultationContactCompact h2{color:var(--ss-teal)!important}
+.buyerConsultationPage .consultationContactCompact::before{color:var(--ss-#96856A)!important}
+.buyerConsultationPage .consultationContactCompact h2{color:var(--ss-#96856A)!important}
 .buyerConsultationPage .consultationContactCompact>p{color:#3f3a34!important}
 
 @media(max-width:720px){
@@ -802,7 +802,7 @@ footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underlin
 dialog[open]{position:fixed!important;inset:50% auto auto 50%!important;transform:translate(-50%,-50%)!important;margin:0!important;max-height:min(90vh,760px)!important;overflow:auto!important}
 .contactFormModal{width:min(860px,calc(100vw - 34px))!important}
 .contactFormModalInner{display:block!important}
-.contactFormModalIntro{display:grid!important;grid-template-columns:170px minmax(0,1fr)!important;gap:10px 30px!important;align-items:center!important;padding:28px 38px!important;background:#174c52!important}
+.contactFormModalIntro{display:grid!important;grid-template-columns:170px minmax(0,1fr)!important;gap:10px 30px!important;align-items:center!important;padding:28px 38px!important;background:#6B5945!important}
 .contactFormModalIntro span{grid-row:1/3!important;writing-mode:horizontal-tb!important;transform:none!important;font-size:10px!important}
 .contactFormModalIntro h2{margin:0!important;font:500 29px/1.18 Georgia,serif!important;letter-spacing:0!important}
 .contactFormModalIntro p{margin:0!important;font:400 13px/1.5 Arial,sans-serif!important}
@@ -810,7 +810,7 @@ dialog[open]{position:fixed!important;inset:50% auto auto 50%!important;transfor
 .contactFormModalClose{position:absolute!important;top:13px!important;right:16px!important;color:#fff!important}
 .evaluationContactDialog{width:min(820px,calc(100vw - 34px))!important}
 .evaluationDialogInner{display:block!important}
-.evaluationDialogIntro{display:grid!important;grid-template-columns:180px minmax(0,1fr)!important;gap:8px 30px!important;align-items:center!important;padding:27px 38px!important;background:#174c52!important}
+.evaluationDialogIntro{display:grid!important;grid-template-columns:180px minmax(0,1fr)!important;gap:8px 30px!important;align-items:center!important;padding:27px 38px!important;background:#6B5945!important}
 .evaluationDialogIntro span{grid-row:1/3!important;font-size:10px!important}
 .evaluationDialogIntro h2{margin:0!important;font:500 29px/1.18 Georgia,serif!important;letter-spacing:0!important}
 .evaluationDialogIntro p{margin:0!important;font:400 13px/1.5 Arial,sans-serif!important}

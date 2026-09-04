@@ -2,7 +2,7 @@
    The door/video hero above it is intentionally not touched. */
 @media (min-width:801px){
   main>.heroDominique{background:linear-gradient(105deg,#f1eadc 0 55%,#e5edeb)!important;justify-content:center!important;height:calc(100vh - 164px)!important;min-height:720px!important;display:flex!important;position:relative!important;overflow:hidden!important}
-  main>.heroDominique:before{content:""!important;z-index:0!important;transform-origin:bottom!important;pointer-events:none!important;background:repeating-linear-gradient(90deg,#0000 0 74px,#53615b55 75px 76px),repeating-linear-gradient(0deg,#0000 0 48px,#53615b55 49px 50px)!important;border:1px solid #53615b70!important;height:24%!important;position:absolute!important;bottom:3%!important;left:20%!important;right:20%!important;transform:perspective(620px) rotateX(64deg)!important}
+  main>.heroDominique:before{content:""!important;z-index:0!important;transform-origin:bottom!important;pointer-events:none!important;background:repeating-linear-gradient(90deg,#0000 0 74px,#8E6B5055 75px 76px),repeating-linear-gradient(0deg,#0000 0 48px,#8E6B5055 49px 50px)!important;border:1px solid #53615b70!important;height:24%!important;position:absolute!important;bottom:3%!important;left:20%!important;right:20%!important;transform:perspective(620px) rotateX(64deg)!important}
   main>.heroDominique>.domSectionTitle{z-index:3!important;text-align:center!important;margin:0!important;font:400 clamp(34px,3.5vw,56px)/1 Georgia,'Times New Roman',serif!important;position:absolute!important;top:24%!important;left:5%!important;right:5%!important;white-space:normal!important}
   main>.heroDominique>img{z-index:1!important;object-fit:contain!important;object-position:center bottom!important;filter:drop-shadow(0 20px 24px #0003)!important;width:auto!important;max-width:100%!important;height:74%!important;position:absolute!important;bottom:0!important;left:50%!important;transform:translateX(-50%)!important}
   main>.heroDominique>.heroSearch{z-index:3!important;width:min(1280px,88vw)!important;max-width:none!important;position:absolute!important;top:61%!important;left:50%!important;right:auto!important;margin:0!important;transform:translate(-50%,-50%)!important;overflow:visible!important}
@@ -11,8 +11,8 @@
   main>.heroDominique .searchBar label span{letter-spacing:.15em!important;text-transform:uppercase!important;font-size:9px!important;display:block!important}
   main>.heroDominique .searchBar input,main>.heroDominique .searchBar select{display:block!important;background:#fff!important;border:0!important;outline:0!important;width:100%!important;height:29px!important;margin-top:4px!important;padding:0!important;font-size:15px!important;-webkit-appearance:auto!important;appearance:auto!important;background-image:none!important}
   main>.heroDominique .searchBar label:has(>select):after{display:none!important}
-  main>.heroDominique .searchBar button{display:block!important;background:#171816!important;color:#fff!important;letter-spacing:.14em!important;text-transform:uppercase!important;border:0!important;padding:0 28px!important;min-width:194px!important;font-size:10px!important;font-weight:700!important;white-space:nowrap!important}
-  main>.heroDominique .searchBar button:hover{background:#589ca8!important}
+  main>.heroDominique .searchBar button{display:block!important;background:#41372B!important;color:#fff!important;letter-spacing:.14em!important;text-transform:uppercase!important;border:0!important;padding:0 28px!important;min-width:194px!important;font-size:10px!important;font-weight:700!important;white-space:nowrap!important}
+  main>.heroDominique .searchBar button:hover{background:#B9A88E!important}
 }
 
 /* Every individual city market card uses balanced content spacing. */
