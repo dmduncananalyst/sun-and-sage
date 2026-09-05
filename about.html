@@ -2024,7 +2024,37 @@ nav a:focus-visible,
   }
 }
 </style>
-</head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
+
+<style id="v105-nav-parent-stays-active">
+/* Keep dropdown parent highlighted while its menu is open or being hovered */
+.navHoverItem.megaRoot:hover > .navTopLink,
+.navHoverItem.megaRoot:focus-within > .navTopLink,
+.navHoverItem.megaRoot:hover > a.navTopLink,
+.navHoverItem.megaRoot:focus-within > a.navTopLink{
+  background:#B9A88E!important;
+  color:#FFFFFF!important;
+}
+
+/* Keep the dropdown arrow/icon visible on the active parent */
+.navHoverItem.megaRoot:hover > .navTopLink b,
+.navHoverItem.megaRoot:focus-within > .navTopLink b,
+.navHoverItem.megaRoot:hover > .navTopLink svg,
+.navHoverItem.megaRoot:focus-within > .navTopLink svg{
+  color:#FFFFFF!important;
+  fill:currentColor!important;
+  stroke:currentColor!important;
+}
+
+/* Also support older nav wrappers used on some pages */
+.navItem.hasDropdown:hover > a,
+.navItem.hasDropdown:focus-within > a,
+.dropdown:hover > .navTopLink,
+.dropdown:focus-within > .navTopLink{
+  background:#B9A88E!important;
+  color:#FFFFFF!important;
+}
+</style>
+<style id="v111LendersMenu">@media(min-width:801px){.lendersMegaRoot:hover>.navTopLink,.lendersMegaRoot:focus-within>.navTopLink{background:#B9A88E!important;color:#fff!important}}</style></head><body class="antialiased"><header class="siteHeader"><div class="brandRow"><a class="brand" href="index.html"><img alt="" src="assets/sun-sage-key.png"/><span>SUN AND SAGE</span></a><button class="menuButton">Menu</button><a class="rise" href="https://www.therise.group/"><img alt="Rise Real Estate" src="assets/rise-logo.png"/></a></div><nav class="nav desktopNav newMegaDesktop">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <div class="navHoverItem megaRoot">
@@ -2039,7 +2069,7 @@ nav a:focus-visible,
 </div></div>
 <a href="property-management.html">Property Management</a>
 <div class="navHoverItem megaRoot"><a class="navTopLink" href="interior-design.html">Interior Design <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="portfolio.html">Portfolio</a><a href="project-hosea.html">Hosea</a><a href="project-parker.html">Parker</a><a href="project-sun-lit-modern-home.html">Sun Lit Modern Home</a><a href="project-the-red-door.html">The Red Door</a></section></div></div>
-<a href="lenders.html">Lenders</a><a href="search.html">Search</a>
+<div class="navHoverItem megaRoot lendersMegaRoot"><a class="navTopLink" href="lenders.html">Lenders <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></div><a href="search.html">Search</a>
 <div class="navHoverItem megaRoot contactRoot"><a class="navTopLink" href="contact.html">Contact <b>▾</b></a><div class="megaMenu megaSmall megaContact"><section class="megaSection"><a href="sell-free-home-valuation.html">Free Home Evaluation</a><a href="buyer-consultation.html">Buyer Consultation</a><a href="seller-consultation.html">Seller Consultation</a><a href="reviews.html">Reviews</a><a href="questions.html">Q&amp;A</a></section></div></div>
 </nav>
 <nav class="nav mobileNavTree newMegaMobile">
@@ -2058,11 +2088,11 @@ nav a:focus-visible,
 <a class="mobileSimple" href="property-management.html">Property Management</a>
 <details><summary><a href="interior-design.html">Interior Design</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="interior-design.html">Interior Design</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a class="mobileMegaHeading" href="portfolio.html">Portfolio</a><a href="project-hosea.html">Hosea</a><a href="project-parker.html">Parker</a><a href="project-sun-lit-modern-home.html">Sun Lit Modern Home</a><a href="project-the-red-door.html">The Red Door</a></section></div></details>
 <span class="mobileGroupLabel">More</span>
-<a class="mobileSimple" href="lenders.html">Lenders</a><a class="mobileSimple" href="search.html">Search</a>
+<details class="lendersMobileDetails"><summary><a href="lenders.html">Lenders</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="lenders.html">Lenders</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a class="mobileMegaHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></details><a class="mobileSimple" href="search.html">Search</a>
 <details><summary><a href="contact.html">Contact</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="contact.html">Contact</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a href="sell-free-home-valuation.html">Free Home Evaluation</a><a href="buyer-consultation.html">Buyer Consultation</a><a href="seller-consultation.html">Seller Consultation</a><a href="reviews.html">Reviews</a><a href="questions.html">Q&amp;A</a></section></div></details>
 </nav></header><main class="aboutProfile"><section class="aboutProfileComposition reveal"><figure><img alt="Dominique Duncan-Nelson" src="assets/dominique-standing.jpeg"/></figure><div class="aboutStory"><header><span class="refEyebrow">Sun and Sage</span><h1>About Dominique</h1></header><section class="aboutLetter"><p>I’m Dominique, a seasoned real estate professional with a deep rooted passion for helping clients navigate the complexities of the Southern California real estate market. 
 Having grown up in the San Fernando Valley,
- I have an intimate knowledge of local neighborhoods, market trends, and the intricacies of real estate transactions.</p><p>In addition to my real estate expertise, I’m an interior designer with an eye for detail and a passion for creating spaces that reflect my clients' personal style and needs. My background in design allows me to offer valuable insights on how to enhance a property’s appeal, whether it’s preparing a home for sale or helping buyers envision their dream home. This design experience adds an extra layer of service, ensuring my clients make informed decisions that align with both aesthetic desires and investment potential.</p><p>I’m committed to delivering exceptional service and guide my clients through every step of the home buying and selling process with honesty, diligence, and integrity. Whether you are a first time homebuyer or a seasoned investor, I’m dedicated to helping you achieve your real estate goals.</p><p>Beyond my professional endeavors, I’m a devoted mother, wife, and family oriented individual. My personal experiences with real estate investment have further fueled my passion for helping others secure their financial future. With a Bachelor of Science in Business and a Certification in Small Business Management, I bring a wealth of business acumen and strategic thinking to the real estate and interior design industry.</p><p>Please contact me with any real estate or interior design inquiries. I’d be eager to assist you with your home buying or selling needs.</p></section></div></section></main><footer><section class="footerNextStep"><a href="contact.html">Talk with Dominique <span>→</span></a></section><div class="footerGrid"><section><h3>San Fernando Valley</h3><div class="cityLinks"><a href="buy-sylmar.html">Sylmar</a><a href="buy-san-fernando.html">San Fernando</a><a href="buy-mission-hills.html">Mission Hills</a><a href="buy-granada-hills.html">Granada Hills</a><a href="buy-porter-ranch.html">Porter Ranch</a><a href="buy-chatsworth.html">Chatsworth</a><a href="buy-northridge.html">Northridge</a><a href="buy-pacoima.html">Pacoima</a><a href="buy-sherman-oaks.html">Sherman Oaks</a><a href="buy-studio-city.html">Studio City</a><a href="buy-encino.html">Encino</a><a href="buy-tarzana.html">Tarzana</a><a href="buy-toluca-lake.html">Toluca Lake</a><a href="buy-north-hollywood.html">North Hollywood</a><a href="buy-valley-village.html">Valley Village</a><a href="buy-valley-glen.html">Valley Glen</a><a href="buy-sun-valley.html">Sun Valley</a><a href="buy-sunland.html">Sunland</a><a href="buy-tujunga.html">Tujunga</a><a href="buy-burbank.html">Burbank</a><a href="buy-woodland-hills.html">Woodland Hills</a><a href="buy-west-hills.html">West Hills</a><a href="buy-canoga-park.html">Canoga Park</a><a href="buy-winnetka.html">Winnetka</a><a href="buy-reseda.html">Reseda</a><a href="buy-van-nuys.html">Van Nuys</a></div></section><section class="direct"><h3>Contact</h3><strong>Dominique Duncan-Nelson</strong>
+ I have an intimate knowledge of local neighborhoods, market trends, and the intricacies of real estate transactions.</p><p>In addition to my real estate expertise, I’m an interior designer with an eye for detail and a passion for creating spaces that reflect my clients' personal style and needs. My background in design allows me to offer valuable insights on how to enhance a property’s appeal, whether it’s preparing a home for sale or helping buyers envision their dream home. This design experience adds an extra layer of service, ensuring my clients make informed decisions that align with both aesthetic desires and investment potential.</p><p>I’m committed to delivering exceptional service and guide my clients through every step of the home buying and selling process with honesty, diligence, and integrity. Whether you are a first time homebuyer or a seasoned investor, I’m dedicated to helping you achieve your real estate goals.</p><p>Beyond my professional endeavors, I’m a devoted mother, wife, and family oriented individual. My personal experiences with real estate investment have further fueled my passion for helping others secure their financial future. With a Bachelor of Science in Business and a Certification in Small Business Management, I bring a wealth of business acumen and strategic thinking to the real estate and interior design industry.</p><p>Please contact me with any real estate or interior design inquiries. I’d be eager to assist you with your home buying or selling needs.</p></section></div></section></main><footer><section class="footerNextStep"><a href="#contact-form" data-open-contact-form>Talk with Dominique <span>→</span></a></section><div class="footerGrid"><section><h3>San Fernando Valley</h3><div class="cityLinks"><a href="buy-sylmar.html">Sylmar</a><a href="buy-san-fernando.html">San Fernando</a><a href="buy-mission-hills.html">Mission Hills</a><a href="buy-granada-hills.html">Granada Hills</a><a href="buy-porter-ranch.html">Porter Ranch</a><a href="buy-chatsworth.html">Chatsworth</a><a href="buy-northridge.html">Northridge</a><a href="buy-pacoima.html">Pacoima</a><a href="buy-sherman-oaks.html">Sherman Oaks</a><a href="buy-studio-city.html">Studio City</a><a href="buy-encino.html">Encino</a><a href="buy-tarzana.html">Tarzana</a><a href="buy-toluca-lake.html">Toluca Lake</a><a href="buy-north-hollywood.html">North Hollywood</a><a href="buy-valley-village.html">Valley Village</a><a href="buy-valley-glen.html">Valley Glen</a><a href="buy-sun-valley.html">Sun Valley</a><a href="buy-sunland.html">Sunland</a><a href="buy-tujunga.html">Tujunga</a><a href="buy-burbank.html">Burbank</a><a href="buy-woodland-hills.html">Woodland Hills</a><a href="buy-west-hills.html">West Hills</a><a href="buy-canoga-park.html">Canoga Park</a><a href="buy-winnetka.html">Winnetka</a><a href="buy-reseda.html">Reseda</a><a href="buy-van-nuys.html">Van Nuys</a></div></section><section class="direct"><h3>Contact</h3><strong>Dominique Duncan-Nelson</strong>
 <span>DRE#02248338</span><a href="mailto:dominique@therise.group">dominique@therise.group</a><a href="tel:8182966896">818-296-6896</a><a href="tel:8188735128">818-873-5128</a></section></div><div class="legal"><span>© 2026 Sun and Sage. All rights reserved.</span><a href="https://guideme2.com/">GuideMe2</a><img alt="Rise Real Estate" class="riseFooter" src="assets/rise-logo.png"/><img alt="Equal Housing Opportunity and REALTOR" class="complianceMarks" src="assets/equal-housing-realtor.png"/><a href="https://startweb7.com/">Website &amp; SEO by StartWeb7</a></div></footer><script>
 document.querySelector('.menuButton')?.addEventListener('click',()=>document.querySelector('.mobileNavTree')?.classList.toggle('open'));
 document.querySelectorAll('form').forEach(f=>f.addEventListener('submit',e=>e.preventDefault()));
@@ -2340,6 +2370,42 @@ document.addEventListener('click',function(e){
   /* Restore on normal load and bfcache Back/Forward navigation. */
   document.addEventListener('DOMContentLoaded',restoreScroll);
   window.addEventListener('pageshow',restoreScroll);
+})();
+</script>
+
+
+
+<script id="v127-general-contact-form-trigger">
+(function(){
+  function bind(){
+    const dialog=document.querySelector('.contactFormModal');
+    if(!dialog) return;
+    document.querySelectorAll('[data-open-contact-form]').forEach(function(trigger){
+      if(trigger.dataset.v127Bound==='1') return;
+      trigger.dataset.v127Bound='1';
+      trigger.addEventListener('click',function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        document.querySelectorAll('details[open]').forEach(function(d){d.removeAttribute('open')});
+        if(typeof dialog.showModal==='function'){
+          if(!dialog.open) dialog.showModal();
+        }else{
+          dialog.setAttribute('open','');
+        }
+      });
+    });
+    const close=dialog.querySelector('.contactFormModalClose');
+    if(close && !close.dataset.v127Bound){
+      close.dataset.v127Bound='1';
+      close.addEventListener('click',function(){dialog.close()});
+    }
+    if(!dialog.dataset.v127Backdrop){
+      dialog.dataset.v127Backdrop='1';
+      dialog.addEventListener('click',function(event){if(event.target===dialog) dialog.close()});
+    }
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',bind);
+  else bind();
 })();
 </script>
 </body></html>

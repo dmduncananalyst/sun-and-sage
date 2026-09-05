@@ -2051,7 +2051,37 @@ nav a:focus-visible,
   }
 }
 </style>
-</head>
+
+<style id="v105-nav-parent-stays-active">
+/* Keep dropdown parent highlighted while its menu is open or being hovered */
+.navHoverItem.megaRoot:hover > .navTopLink,
+.navHoverItem.megaRoot:focus-within > .navTopLink,
+.navHoverItem.megaRoot:hover > a.navTopLink,
+.navHoverItem.megaRoot:focus-within > a.navTopLink{
+  background:#B9A88E!important;
+  color:#FFFFFF!important;
+}
+
+/* Keep the dropdown arrow/icon visible on the active parent */
+.navHoverItem.megaRoot:hover > .navTopLink b,
+.navHoverItem.megaRoot:focus-within > .navTopLink b,
+.navHoverItem.megaRoot:hover > .navTopLink svg,
+.navHoverItem.megaRoot:focus-within > .navTopLink svg{
+  color:#FFFFFF!important;
+  fill:currentColor!important;
+  stroke:currentColor!important;
+}
+
+/* Also support older nav wrappers used on some pages */
+.navItem.hasDropdown:hover > a,
+.navItem.hasDropdown:focus-within > a,
+.dropdown:hover > .navTopLink,
+.dropdown:focus-within > .navTopLink{
+  background:#B9A88E!important;
+  color:#FFFFFF!important;
+}
+</style>
+<style id="v111LendersMenu">@media(min-width:801px){.lendersMegaRoot:hover>.navTopLink,.lendersMegaRoot:focus-within>.navTopLink{background:#B9A88E!important;color:#fff!important}}</style></head>
 <body class="antialiased buyerConsultationPage sellerConsultationPage">
 <header class="siteHeader">
 <div class="brandRow">
@@ -2079,7 +2109,7 @@ nav a:focus-visible,
 </div></div>
 <a href="property-management.html">Property Management</a>
 <div class="navHoverItem megaRoot"><a class="navTopLink" href="interior-design.html">Interior Design <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="portfolio.html">Portfolio</a><a href="project-hosea.html">Hosea</a><a href="project-parker.html">Parker</a><a href="project-sun-lit-modern-home.html">Sun Lit Modern Home</a><a href="project-the-red-door.html">The Red Door</a></section></div></div>
-<a href="lenders.html">Lenders</a><a href="search.html">Search</a>
+<div class="navHoverItem megaRoot lendersMegaRoot"><a class="navTopLink" href="lenders.html">Lenders <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></div><a href="search.html">Search</a>
 <div class="navHoverItem megaRoot contactRoot"><a class="navTopLink" href="contact.html">Contact <b>▾</b></a><div class="megaMenu megaSmall megaContact"><section class="megaSection"><a href="sell-free-home-valuation.html">Free Home Evaluation</a><a href="buyer-consultation.html">Buyer Consultation</a><a href="seller-consultation.html">Seller Consultation</a><a href="reviews.html">Reviews</a><a href="questions.html">Q&amp;A</a></section></div></div>
 </nav>
 <nav class="nav mobileNavTree newMegaMobile">
@@ -2098,7 +2128,7 @@ nav a:focus-visible,
 <a class="mobileSimple" href="property-management.html">Property Management</a>
 <details><summary><a href="interior-design.html">Interior Design</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="interior-design.html">Interior Design</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a class="mobileMegaHeading" href="portfolio.html">Portfolio</a><a href="project-hosea.html">Hosea</a><a href="project-parker.html">Parker</a><a href="project-sun-lit-modern-home.html">Sun Lit Modern Home</a><a href="project-the-red-door.html">The Red Door</a></section></div></details>
 <span class="mobileGroupLabel">More</span>
-<a class="mobileSimple" href="lenders.html">Lenders</a><a class="mobileSimple" href="search.html">Search</a>
+<details class="lendersMobileDetails"><summary><a href="lenders.html">Lenders</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="lenders.html">Lenders</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a class="mobileMegaHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></details><a class="mobileSimple" href="search.html">Search</a>
 <details><summary><a href="contact.html">Contact</a><b>＋</b></summary><div class="mobileMega"><div class="mobileSubnavBar"><button class="mobileBackMenu" type="button">← Back</button><a href="contact.html">Contact</a><button aria-label="Close menu" class="mobileSubnavClose" type="button">×</button></div><section><a href="sell-free-home-valuation.html">Free Home Evaluation</a><a href="buyer-consultation.html">Buyer Consultation</a><a href="seller-consultation.html">Seller Consultation</a><a href="reviews.html">Reviews</a><a href="questions.html">Q&amp;A</a></section></div></details>
 </nav>
 </header>
@@ -2550,6 +2580,23 @@ document.addEventListener('click',function(e){
   document.addEventListener('DOMContentLoaded',restoreScroll);
   window.addEventListener('pageshow',restoreScroll);
 })();
+</script>
+
+<script id="v125-talk-with-dominique-modal-sitewide">
+document.addEventListener('click', function(event){
+  const trigger = event.target.closest('[data-open-contact-form]');
+  if(!trigger) return;
+  const dialog = document.querySelector('.contactFormModal');
+  if(!dialog) return;
+  event.preventDefault();
+  event.stopPropagation();
+  document.querySelectorAll('details[open]').forEach(detail=>detail.removeAttribute('open'));
+  if(typeof dialog.showModal === 'function'){
+    if(!dialog.open) dialog.showModal();
+  }else{
+    dialog.setAttribute('open','');
+  }
+}, true);
 </script>
 </body>
 </html>
