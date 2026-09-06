@@ -60,7 +60,27 @@
       back.type='button';
       back.className='mobileBackControl';
       back.innerHTML='<span aria-hidden="true">←</span> Back';
-      back.addEventListener('click',()=>{if(history.length>1)history.back();else location.href='index.html'});
+      back.addEventListener('click',()=>{
+        try{
+          if(sessionStorage.getItem('sw7MenuReturnState')){
+            sessionStorage.setItem('sw7ReturnToMenu','1');
+          }
+        }catch(e){}
+
+        if(history.length>1){
+          history.back();
+          return;
+        }
+
+        try{
+          if(document.referrer){
+            const ref=new URL(document.referrer);
+            if(ref.origin===location.origin && ref.href!==location.href){
+              location.href=ref.href;
+            }
+          }
+        }catch(e){}
+      });
       header.insertAdjacentElement('afterend',back);
     }
   }
@@ -121,3 +141,16 @@
   });
   close.addEventListener('click',hide);
 })();
+
+
+
+
+
+
+
+
+
+
+
+/* v149 use native browser Back and native scroll restoration. */
+try{ history.scrollRestoration='auto'; }catch(e){}

@@ -64,14 +64,5 @@
     });
     document.addEventListener('keydown', event => { if (event.key === 'Escape') setMenu(false); });
   }
-  /* Valley guide cities stay in-page; no city-on-city modal. */
-  const cityIndex = document.querySelector('.cityIndex');
-  if (cityIndex && document.querySelector('.cityEntry') && !document.querySelector('.v80-city-hint')) {
-    const hint = document.createElement('p');
-    hint.className = 'v80-city-hint';
-    hint.textContent = 'Hover over or select a city to explore its details.';
-    cityIndex.before(hint);
-  }
-
   /* Footer phone confirmation prompt removed by request. */
 })();

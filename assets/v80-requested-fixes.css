@@ -7,7 +7,6 @@
 /* 3 home-style reviews on review page */
 .reviewsHomeMatch{background:#ecebe6!important}.reviewsHomeMatch .homeVibeReviews{min-height:70vh;padding-top:100px!important}
 /* 4 Valley guide interaction cue */
-.v80-city-hint,.v80CityHint{margin:24px 7vw 14px;text-align:center;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#B9A88E}
 .cityIndex a{transition:background .25s,color .25s,border-color .25s,transform .25s}.cityIndex a:hover,.cityIndex a:focus{background:#96856A!important;color:#41372B!important;border-color:#96856A!important;transform:translateY(-2px)}
 .cityEntry:target{outline:3px solid #B9A88E;outline-offset:-3px;background:#fff!important}
 /* 7 Search ordering intro */

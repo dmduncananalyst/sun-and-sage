@@ -2381,6 +2381,88 @@ nav a:focus-visible,
   body.sw7-menu-open{overflow:hidden!important}
 }
 </style>
+
+<style id="v139-mobile-text-contrast-fix">
+@media(max-width:800px){
+  .cityExploreHint, .cityExploreInstruction, .cityHelperText, .cityHoverHint, .cityInstruction, .exploreHint, .exploreInstruction, .mobileCityHint, .mobileCityInstruction, .mobileHoverHint, .regionHelper, .regionHint, .regionInstruction, .v80CityHint, .v81CityGuideHint, .v81MobileHint{
+    color:#5A4A3A!important;
+    -webkit-text-fill-color:#5A4A3A!important;
+    opacity:1!important;
+    visibility:visible!important;
+  }
+
+  /* Safety net for muted instructional copy on pale/cream sections */
+  .cityRegionPage [class*="hint"],
+  .cityRegionPage [class*="instruction"],
+  .cityRegionPage [class*="helper"],
+  .regionPage [class*="hint"],
+  .regionPage [class*="instruction"],
+  .regionPage [class*="helper"]{
+    color:#5A4A3A!important;
+    -webkit-text-fill-color:#5A4A3A!important;
+    opacity:1!important;
+  }
+}
+</style>
+
+<style id="v142-mobile-final-fix">
+@media(max-width:800px){
+  /* Keep only the existing cream instruction. Remove the second generated instruction above city buttons. */
+  .cityIndex::before,
+  .cityIndex:before{
+    content:none!important;
+    display:none!important;
+  }
+
+  /* Hidden menu screens are truly gone. */
+  .sw7MobileNav [hidden]{
+    display:none!important;
+    visibility:hidden!important;
+    pointer-events:none!important;
+  }
+
+  /* Back exists only inside the brown submenu header. */
+  .sw7MobileNav .sw7MainScreen [data-sw7-back],
+  .sw7MobileNav .sw7MainScreen .sw7Back,
+  .sw7MobileNav .sw7MobileDrawer > [data-sw7-back],
+  .sw7MobileNav .sw7MobileDrawer > .sw7Back{
+    display:none!important;
+  }
+}
+</style>
+
+<style id="v144-page-back-menu-overlay-fix">
+@media(max-width:800px){
+  /* Keep the normal page Back button, but never let it sit over the mobile menu. */
+  body.sw7-menu-open .mobileBackControl{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+
+  /* Normal state: page Back button remains available. */
+  body:not(.sw7-menu-open) .mobileBackControl{
+    visibility:visible!important;
+    opacity:1!important;
+  }
+}
+</style>
+
+
+
+
+
+<style id="v153-deterministic-menu-back">
+@media(max-width:800px){
+  body.sw7-menu-open .mobileBackControl{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+}
+</style>
 </head>
 <body class="antialiased">
 <header class="siteHeader">
@@ -2409,7 +2491,7 @@ nav a:focus-visible,
 </div></div>
 <a href="property-management.html">Property Management</a>
 <div class="navHoverItem megaRoot"><a class="navTopLink" href="interior-design.html">Interior Design <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="portfolio.html">Portfolio</a><a href="project-hosea.html">Hosea</a><a href="project-parker.html">Parker</a><a href="project-sun-lit-modern-home.html">Sun Lit Modern Home</a><a href="project-the-red-door.html">The Red Door</a></section></div></div>
-<div class="navHoverItem megaRoot lendersMegaRoot"><a class="navTopLink" href="lenders.html">Lenders <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></div><a href="search.html">Search</a>
+<div class="navHoverItem megaRoot lendersMegaRoot"><a class="navTopLink" href="lenders.html">Lenders <b>▾</b></a><div class="megaMenu megaSmall"><section class="megaSection"><a class="megaHeading" href="first-time-pre-approval.html">Connect With a Lender</a><a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a><a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a></section></div></div><a href="search.html">Search</a>
 <div class="navHoverItem megaRoot contactRoot"><a class="navTopLink" href="contact.html">Contact <b>▾</b></a><div class="megaMenu megaSmall megaContact"><section class="megaSection"><a href="sell-free-home-valuation.html">Free Home Evaluation</a><a href="buyer-consultation.html">Buyer Consultation</a><a href="seller-consultation.html">Seller Consultation</a><a href="reviews.html">Reviews</a><a href="questions.html">Q&amp;A</a></section></div></div>
 </nav>
 
@@ -2512,7 +2594,7 @@ nav a:focus-visible,
       </div>
       <div class="sw7SubContent">
         <section>
-          <a class="sw7SectionHeading" href="first-time-pre-approval.html#preapproval-worksheet">Connect With a Lender</a>
+          <a class="sw7SectionHeading" href="first-time-pre-approval.html">Connect With a Lender</a>
           <a href="loan-homebuyer-programs.html">Loan and Homebuyer Programs</a>
           <a href="homebuyer-financing-questions.html">Homebuyer Financing Questions</a>
         </section>
@@ -3052,80 +3134,271 @@ document.addEventListener('click',function(e){
 
 
 
-<script id="v136-complete-mobile-nav">
+
+
+<script id="v142-mobile-menu-controller">
 (function(){
-  function boot(){
-    const nav=document.querySelector('.sw7MobileNav');
-    const drawer=nav && nav.querySelector('.sw7MobileDrawer');
-    if(!nav || !drawer) return;
+  function init(){
+    const nav = document.querySelector('.sw7MobileNav');
+    const menuButton = document.querySelector('.menuButton');
+    if(!nav || !menuButton || nav.dataset.v142Ready==='1') return;
+    nav.dataset.v142Ready='1';
 
-    const menuButton=document.querySelector('.menuButton');
-    const main=nav.querySelector('[data-sw7-screen="main"]');
-    const subs=Array.from(nav.querySelectorAll('.sw7SubScreen'));
+    const main = nav.querySelector('[data-sw7-screen="main"]');
+    const subs = Array.from(nav.querySelectorAll('.sw7SubScreen'));
+    const drawer = nav.querySelector('.sw7MobileDrawer');
 
-    function showMain(){
-      subs.forEach(s=>s.hidden=true);
-      main.hidden=false;
-      main.scrollTop=0;
+    function mainState(){
+      subs.forEach(function(screen){
+        screen.hidden = true;
+        screen.scrollTop = 0;
+      });
+      if(main){
+        main.hidden = false;
+        main.scrollTop = 0;
+      }
+      if(drawer) drawer.scrollTop = 0;
     }
+
     function openMenu(){
-      showMain();
+      mainState();
       nav.classList.add('is-open');
       document.body.classList.add('sw7-menu-open');
     }
+
     function closeMenu(){
       nav.classList.remove('is-open');
       document.body.classList.remove('sw7-menu-open');
-      showMain();
+      mainState();
     }
-    function openScreen(name){
-      const target=nav.querySelector('[data-sw7-screen="'+name+'"]');
+
+    function openSubmenu(name){
+      const target = nav.querySelector('[data-sw7-screen="'+name+'"]');
       if(!target) return;
-      main.hidden=true;
-      subs.forEach(s=>s.hidden=true);
-      target.hidden=false;
-      target.scrollTop=0;
+
+      if(main) main.hidden = true;
+      subs.forEach(function(screen){
+        screen.hidden = true;
+        screen.scrollTop = 0;
+      });
+      target.hidden = false;
+      target.scrollTop = 0;
+      if(drawer) drawer.scrollTop = 0;
     }
 
-    if(menuButton){
-      menuButton.addEventListener('click',function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        openMenu();
-      },true);
-    }
+    menuButton.addEventListener('click', function(event){
+      event.preventDefault();
+      openMenu();
+    });
 
-    nav.querySelectorAll('[data-sw7-close]').forEach(el=>{
-      el.addEventListener('click',function(e){
-        e.preventDefault();
-        e.stopPropagation();
+    nav.querySelectorAll('[data-sw7-open]').forEach(function(button){
+      button.addEventListener('click', function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        openSubmenu(button.getAttribute('data-sw7-open'));
+      });
+    });
+
+    nav.querySelectorAll('[data-sw7-back]').forEach(function(button){
+      button.addEventListener('click', function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        mainState();
+      });
+    });
+
+    nav.querySelectorAll('[data-sw7-close]').forEach(function(button){
+      button.addEventListener('click', function(event){
+        event.preventDefault();
+        event.stopPropagation();
         closeMenu();
       });
     });
 
-    nav.querySelectorAll('[data-sw7-open]').forEach(btn=>{
-      btn.addEventListener('click',function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        openScreen(btn.getAttribute('data-sw7-open'));
-      });
+    document.addEventListener('keydown', function(event){
+      if(event.key==='Escape' && nav.classList.contains('is-open')){
+        closeMenu();
+      }
     });
 
-    nav.querySelectorAll('[data-sw7-back]').forEach(btn=>{
-      btn.addEventListener('click',function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        showMain();
-      });
+    /* Safari can restore page DOM state from cache. Always start clean. */
+    window.addEventListener('pageshow', function(){
+      closeMenu();
     });
 
-    document.addEventListener('keydown',function(e){
-      if(e.key==='Escape' && nav.classList.contains('is-open')) closeMenu();
+    mainState();
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  }else{
+    init();
+  }
+})();
+</script>
+
+
+
+
+
+
+
+<script id="v153-deterministic-menu-back">
+(function(){
+  const PARAM_PAGE='sw7from';
+  const PARAM_MENU='sw7menu';
+  const OPEN_MENU='sw7openmenu';
+
+  function nav(){
+    return document.querySelector('.sw7MobileNav');
+  }
+
+  function currentMenuName(){
+    const menu=nav();
+    if(!menu)return 'main';
+    const open=[...menu.querySelectorAll('.sw7SubScreen')].find(s=>!s.hidden);
+    return open ? (open.getAttribute('data-sw7-screen')||'main') : 'main';
+  }
+
+  function currentAbsoluteUrlWithoutReturnParams(){
+    const u=new URL(location.href);
+    u.searchParams.delete(PARAM_PAGE);
+    u.searchParams.delete(PARAM_MENU);
+    u.searchParams.delete(OPEN_MENU);
+    return u.href;
+  }
+
+  /* A page opened from the approved mobile menu explicitly carries
+     the exact page + menu section it came from. Works on file:/// and live HTTPS. */
+  document.addEventListener('click',function(event){
+    const link=event.target.closest('.sw7MobileNav a[href]');
+    if(!link)return;
+
+    try{
+      const destination=new URL(link.href,location.href);
+      const current=new URL(location.href);
+
+      /* file:/// URLs have origin "null"; compare protocols/hosts safely. */
+      const sameSite =
+        destination.protocol===current.protocol &&
+        destination.host===current.host;
+
+      if(!sameSite)return;
+
+      if(destination.pathname===current.pathname &&
+         destination.search===current.search &&
+         destination.hash===current.hash)return;
+
+      destination.searchParams.set(PARAM_PAGE,currentAbsoluteUrlWithoutReturnParams());
+      destination.searchParams.set(PARAM_MENU,currentMenuName());
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      location.href=destination.href;
+    }catch(e){
+      /* Never block the link if URL handling fails. */
+    }
+  },true);
+
+  function ensureBack(){
+    const filename=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+    if(filename==='index.html' || filename==='')return;
+
+    let back=document.querySelector('.mobileBackControl');
+
+    if(!back){
+      const header=document.querySelector('body>header,header.siteHeader,header');
+      if(!header)return;
+
+      back=document.createElement('button');
+      back.type='button';
+      back.className='mobileBackControl';
+      back.innerHTML='<span aria-hidden="true">←</span> Back';
+      header.insertAdjacentElement('afterend',back);
+    }
+
+    if(back.dataset.v153Bound==='1')return;
+    back.dataset.v153Bound='1';
+
+    back.addEventListener('click',function(event){
+      event.preventDefault();
+      event.stopImmediatePropagation();
+
+      try{
+        const here=new URL(location.href);
+        const from=here.searchParams.get(PARAM_PAGE);
+        const menu=here.searchParams.get(PARAM_MENU)||'main';
+
+        if(from){
+          /* "from" is stored as a complete file:/// or https:// URL.
+             No location.origin is used, so local testing works. */
+          const returnUrl=new URL(from);
+          returnUrl.searchParams.set(OPEN_MENU,menu);
+          location.href=returnUrl.href;
+          return;
+        }
+      }catch(e){}
+
+      /* Only use ordinary browser Back when the page was not entered from the menu. */
+      if(history.length>1){
+        history.back();
+      }
+    },true);
+  }
+
+  function openRequestedMenu(){
+    let here;
+    try{
+      here=new URL(location.href);
+    }catch(e){
+      return;
+    }
+
+    const requested=here.searchParams.get(OPEN_MENU);
+    if(!requested)return;
+
+    const menu=nav();
+    if(!menu)return;
+
+    const main=menu.querySelector('[data-sw7-screen="main"]');
+    const subs=[...menu.querySelectorAll('.sw7SubScreen')];
+
+    menu.classList.add('is-open');
+    document.body.classList.add('sw7-menu-open');
+
+    if(requested==='main'){
+      subs.forEach(s=>s.hidden=true);
+      if(main)main.hidden=false;
+    }else{
+      if(main)main.hidden=true;
+      subs.forEach(function(s){
+        s.hidden=s.getAttribute('data-sw7-screen')!==requested;
+      });
+    }
+
+    /* Clean only the temporary reopen instruction from the address. */
+    here.searchParams.delete(OPEN_MENU);
+    try{
+      history.replaceState(history.state,'',here.href);
+    }catch(e){}
+  }
+
+  function init(){
+    ensureBack();
+
+    /* Reapply after older startup scripts have finished. */
+    [0,80,220,500,900].forEach(function(delay){
+      setTimeout(openRequestedMenu,delay);
     });
   }
 
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot);
-  else boot();
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',init);
+  }else{
+    init();
+  }
+
+  window.addEventListener('pageshow',init);
 })();
 </script>
 </body>
