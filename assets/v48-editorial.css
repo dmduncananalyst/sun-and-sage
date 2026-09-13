@@ -69,7 +69,7 @@
   line-height:1.08!important;
   letter-spacing:-.02em!important;
 }
-.footerNextStep a,.servicePageClose a{color:#efb47e!important;border-color:#efb47e!important}
+.footerNextStep a,.servicePageClose a{color:#d2d4cf!important;border-color:#d2d4cf!important}
 .footerNextStep a:hover,.footerNextStep a:focus-visible,
 .servicePageClose a:hover,.servicePageClose a:focus-visible{color:#fff!important;border-color:#fff!important}
 
@@ -472,7 +472,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-#96856A)!important}
 .projectIntro>div>p:last-child{max-width:560px!important;font:400 16px/1.68 var(--ss-sans)!important}
 .projectFilm{padding:82px max(4vw,calc(50vw - 760px)) 95px!important;text-align:center!important}
 .projectFilm header{display:block!important;width:min(1080px,100%)!important;margin:0 auto 24px!important;text-align:center!important}
-.projectFilm header .eyebrow{margin:0!important;color:#e7ad78!important;font-size:13px!important}
+.projectFilm header .eyebrow{margin:0!important;color:#d2d4cf!important;font-size:13px!important}
 .projectFilm video{display:block!important;width:min(1080px,100%)!important;max-width:100%!important;margin:0 auto!important}
 .projectJobTabs>header{display:block!important;margin-bottom:28px!important;padding-bottom:22px!important;text-align:center!important}
 .projectJobTabs>header .eyebrow{display:none!important}
@@ -650,7 +650,8 @@ dialog[open]{
   body>footer,footer{padding:0!important}
   footer .footerNextStep{margin:0!important;width:100%!important;padding:42px 20px 46px!important}
   footer .footerGrid{width:100%!important;max-width:none!important;margin:0!important;padding:48px 22px!important}
-  footer .legal{width:100%!important;max-width:none!important;margin:0!important;padding:25px 20px!important}
+  footer .legal{box-sizing:border-box!important;width:100vw!important;max-width:100vw!important;margin:0 calc(50% - 50vw)!important;padding:25px 20px!important;background:#fff!important;color:#41372B!important}
+  footer>.legal span,footer>.legal a{color:#41372B!important}
 
   /* Keep the final mobile section close to the content instead of leaving desktop-sized gaps. */
   main>:last-child{margin-bottom:0!important}
@@ -670,14 +671,14 @@ dialog[open]{
   .runwayTrack details{width:100%!important;border:1px solid #96856A!important}
   .runwayTrack summary{grid-template-columns:32px 32px minmax(0,1fr)!important;gap:12px!important;min-height:0!important;padding:22px 16px 16px!important}
   .runwayTrack summary span{min-width:0!important;font-size:25px!important}
-  .runwayTrack summary i{grid-column:1/-1!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:40px!important;margin-top:4px!important;border:1px solid #efb47e!important;color:#efb47e!important;font-size:0!important;font-style:normal!important}
+  .runwayTrack summary i{grid-column:1/-1!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:40px!important;margin-top:4px!important;border:1px solid #d2d4cf!important;color:#d2d4cf!important;font-size:0!important;font-style:normal!important}
   .runwayTrack summary i::before{content:"Tap to learn more";font:700 10px/1 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase}
   .runwayTrack details[open] summary i::before{content:"Tap to close"}
   .runwayTrack details p{padding:20px!important}
-  .runwayCta{width:100%!important;min-height:54px!important;align-items:center!important;justify-content:center!important;margin-top:22px!important;border:1px solid #efb47e!important;padding:0 14px!important;text-align:center!important}
+  .runwayCta{width:100%!important;min-height:54px!important;align-items:center!important;justify-content:center!important;margin-top:22px!important;border:1px solid #d2d4cf!important;padding:0 14px!important;text-align:center!important}
 
   /* Make the region property-request submit action unmistakable. */
-  .regionRequestForm button[type="submit"]{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important;margin-top:20px!important;padding:16px 18px!important;border:2px solid #efb47e!important;background:#96856A!important;color:#41372B!important;font-size:11px!important;letter-spacing:.14em!important;text-align:center!important}
+  .regionRequestForm button[type="submit"]{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important;margin-top:20px!important;padding:16px 18px!important;border:2px solid #d2d4cf!important;background:#96856A!important;color:#41372B!important;font-size:11px!important;letter-spacing:.14em!important;text-align:center!important}
 
   /* Deep mobile menus use clear, generous arrow controls. */
   .mobileNavTree details>summary{min-height:54px!important;align-items:center!important}
@@ -785,8 +786,8 @@ footer a[href*="guideme2.com"]{text-decoration:underline!important;text-underlin
   border-top:0!important;
   border-left:10px solid var(--ss-copper)!important;
 }
-.buyerConsultationPage .consultationContactCompact::before{color:var(--ss-#96856A)!important}
-.buyerConsultationPage .consultationContactCompact h2{color:var(--ss-#96856A)!important}
+.buyerConsultationPage .consultationContactCompact::before{color:#6B5945!important}
+.buyerConsultationPage .consultationContactCompact h2{color:#41372B!important}
 .buyerConsultationPage .consultationContactCompact>p{color:#3f3a34!important}
 
 @media(max-width:720px){

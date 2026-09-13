@@ -1,5 +1,123 @@
 
 /* Sun and Sage requested fixes — scoped and additive only. */
+/* The scroll/flip interaction is self-evident; do not add instructional copy. */
+.loanFront:after{content:none!important;display:none!important;}
+/* Global article typography: one readable editorial face, not a serif/sans mix. */
+.financeArticle .financeOpening p,
+.financeArticle .financeSection p,
+.financeArticle .financeFaqHint,
+.financeArticle .financeFaq details p,
+.financeArticle .financeFaq summary,
+.financeArticle .financeCta p{
+  font-family:Georgia,"Times New Roman",serif!important;
+}
+/* This selector intentionally outranks the old late article override. */
+.financeArticle.financeArticle .financePaper .financeSection p{
+  font-family:Georgia,"Times New Roman",serif!important;
+}
+
+/* Reviews: every card is white with dark writing. */
+.reviewsHomeMatch .compactReview,
+.reviewsHomeMatch .compactReview:nth-child(even),
+.homeVibeReviews .compactReview,
+.homeVibeReviews .compactReview:nth-child(even),
+.reviewSlide,
+.reviewSlide:nth-child(even),
+.reviewCard,
+.reviewCard:nth-child(even){
+  background:#fff!important;
+  color:#111!important;
+}
+.reviewsHomeMatch .compactReview *,
+.homeVibeReviews .compactReview *,
+.reviewSlide *,
+.reviewCard *{color:#111!important;}
+.reviewsHomeMatch .compactReview .stars,
+.homeVibeReviews .compactReview .stars,
+.reviewSlide .stars,
+.reviewCard .stars,
+.reviewSlide .reviewStars,
+.reviewCard .reviewStars{color:#41372B!important;}
+.reviewsHomeMatch .compactReview footer,
+.homeVibeReviews .compactReview footer,
+.reviewSlide footer,
+.reviewCard footer{border-color:#cfc7bb!important;}
+/* These selectors intentionally outrank the old late review-color rules. */
+body .reviewsHomeMatch .homeVibeReviews article.compactReview,
+body .reviewsHomeMatch .homeVibeReviews article.compactReview:nth-child(even){background:#fff!important;color:#111!important;}
+body .reviewsHomeMatch .homeVibeReviews article.compactReview blockquote,
+body .reviewsHomeMatch .homeVibeReviews article.compactReview footer strong,
+body .reviewsHomeMatch .homeVibeReviews article.compactReview footer span{color:#111!important;}
+
+/* Zillow reviews: show the source, the type of service, and a clear path to the complete review. */
+body .compactReview.zillowReview{position:relative;padding:30px!important;}
+body .compactReview.zillowReview .reviewSource{font:600 10px/1.2 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#7b6249;margin-bottom:11px;}
+body .compactReview.zillowReview .reviewType{font:600 11px/1.35 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5e5143;margin:10px 0 20px!important;}
+body .compactReview.zillowReview blockquote{margin:0 0 26px!important;}
+body .compactReview.zillowReview footer{display:flex;flex-direction:column;align-items:flex-start;gap:5px;}
+body .compactReview.zillowReview footer a{display:inline-block;margin-top:9px;padding-bottom:3px;border-bottom:1px solid #8b7358;color:#111!important;font:600 10px/1.35 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;}
+body .compactReview.zillowReview footer a:hover{color:#6a5138!important;border-color:#6a5138;}
+
+/* Full Airbnb reviews need room to read, not a clipped three-card carousel. */
+body .reviewsHomeMatch .airbnbReviews .compactReviewTrack{display:flex!important;max-width:820px!important;overflow-x:auto!important;scroll-snap-type:x mandatory!important;}
+body .reviewsHomeMatch .airbnbReviews .compactReview{display:block!important;flex:0 0 100%!important;min-height:0!important;margin:0!important;padding:34px 38px!important;scroll-snap-align:start!important;}
+body .reviewsHomeMatch .airbnbReviews .reviewSource{font:600 10px/1.2 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#7b6249;margin-bottom:12px;}
+body .reviewsHomeMatch .airbnbReviews .stars{margin-bottom:20px;}
+body .reviewsHomeMatch .airbnbReviews blockquote{display:block!important;margin:0 0 26px!important;font:400 19px/1.62 Georgia,serif!important;overflow:visible!important;}
+body .reviewsHomeMatch .airbnbReviews footer{margin-top:0!important;padding-top:18px!important;}
+@media(max-width:760px){body .reviewsHomeMatch .airbnbReviews .compactReview{padding:26px 23px!important;}body .reviewsHomeMatch .airbnbReviews blockquote{font-size:17px!important;line-height:1.62!important;}}
+
+/* Zillow reviews stay on-site as an arrow carousel; they are never outbound-link cards. */
+body .homeVibeReviews .compactReviewTrack:has(.zillowReview){
+  max-width:820px!important;
+  display:flex!important;
+  overflow-x:auto!important;
+  scroll-snap-type:x mandatory!important;
+}
+body .homeVibeReviews .compactReview.zillowReview{
+  display:block!important;
+  flex:0 0 100%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:34px 38px!important;
+  scroll-snap-align:start!important;
+}
+body .homeVibeReviews .compactReview.zillowReview footer a{display:none!important;}
+@media(max-width:760px){body .homeVibeReviews .compactReview.zillowReview{padding:26px 23px!important;}}
+
+/* Questions & Answers uses the same single hero treatment as every Life Changes hub. */
+.qService .qTitle,
+.qService .qTypeHero{
+  background:#eee5d9!important;
+  text-align:center!important;
+}
+.qService .qTitle{
+  padding:124px 20px 18px!important;
+}
+.qService .qTitle h1{
+  max-width:960px!important;
+  margin:0 auto!important;
+  color:#403529!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-weight:400!important;
+  font-size:clamp(42px,5.2vw,68px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+}
+.qService .qTypeHero{
+  padding:18px 20px 72px!important;
+}
+.qService .qTypeHero p{
+  margin:0 auto!important;
+  color:#403529!important;
+  font:400 17px/1.6 Arial,sans-serif!important;
+}
+.qService .qTypeHero a{display:none!important;}
+@media(max-width:800px){
+  .qService .qTitle{padding:96px 20px 14px!important;}
+  .qService .qTitle h1{font-size:42px!important;}
+  .qService .qTypeHero{padding:14px 20px 56px!important;}
+}
 /* 2 + 23 city pages */
 .cityReasons{padding-bottom:38px!important}.cityDetails{padding-top:38px!important}
 .cityReasons .citySectionIntro,.cityDetails .citySectionIntro,.cityFaq .citySectionIntro{text-align:center!important;margin-left:auto!important;margin-right:auto!important;max-width:900px!important}
@@ -30,3 +148,142 @@
 .servicePageClose,.footerNextStep{border-top:0!important;border-bottom:0!important}.servicePageClose:before,.servicePageClose:after,.footerNextStep:before,.footerNextStep:after{display:none!important}.servicePageClose>a,.footerNextStep>a{border-top:0!important}
 @media(max-width:800px){#panel-before-afters .jobPanelIntro,.v80SellPositioning,.v80WorksheetForm,.v80TourCards{grid-template-columns:1fr!important}.v80SellPositioning .sellChartPanel,.v80SellPositioning .sellMessage{padding:38px 24px!important}.v80SellPositioning .sellLegend{grid-template-columns:1fr!important}.v80Worksheet{padding:48px 20px 60px}.v80WorksheetActions{grid-template-columns:1fr}.v80Touring{padding:58px 18px 70px}.v80TourCards article{min-height:360px}}
 @media print{body *{visibility:hidden!important}.v80Worksheet,.v80Worksheet *{visibility:visible!important}.v80Worksheet{position:absolute!important;left:0!important;top:0!important;width:100%!important;padding:12mm!important;background:#fff!important}.v80WorksheetIntro{margin-bottom:6mm!important}.v80Privacy,.v80WorksheetActions{display:none!important}.v80WorksheetForm{display:grid!important;grid-template-columns:1fr 1fr!important;gap:4mm!important}.v80WorksheetForm fieldset{padding:5mm 4mm 3mm!important;break-inside:avoid!important}.v80WorksheetForm label{gap:1mm!important}.v80WorksheetForm input,.v80WorksheetForm select,.v80WorksheetForm textarea{padding:2mm 0!important;font-size:9pt!important}.v80WorksheetForm textarea{min-height:10mm!important} @page{size:letter portrait;margin:8mm}}
+
+/* Home story: give the italic closing line its own breathing room. */
+.homeStoryCentered h2 em{display:block!important;margin-top:.16em!important;line-height:1.16!important;letter-spacing:-.02em!important;padding-bottom:.05em!important;}
+
+/* The final lender-article section belongs on the same tan paper field as the
+   article above it—not as a full-width white strip. */
+.financeArticle > .financeSection.expandedInfo{
+  background:#eee7dc!important;
+  padding:0 clamp(18px,4vw,64px)!important;
+}
+.financeArticle > .financeSection.expandedInfo .financeSectionInner{
+  max-width:1040px!important;
+  margin:0 auto!important;
+  padding:54px clamp(28px,6vw,92px)!important;
+  background:#fff!important;
+  border-left:1px solid #d8cebf!important;
+  border-right:1px solid #d8cebf!important;
+}
+.financeArticle > .financeSection.expandedInfo h2,
+.financeArticle > .financeSection.expandedInfo p{
+  max-width:760px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+.financeArticle > .financeSection.expandedInfo h2{text-align:center!important;}
+@media(max-width:800px){
+  .financeArticle > .financeSection.expandedInfo{padding:0 14px!important;}
+  .financeArticle > .financeSection.expandedInfo .financeSectionInner{padding:42px 24px!important;}
+}
+
+/* Review carousel: one complete review at a time, never clipped. */
+body .homeVibeReviews .compactReviewTrack:has(.zillowReview),
+body .homeVibeReviews .compactReviewTrack:has(.airbnbReview){
+  display:flex!important;
+  overflow-x:auto!important;
+  scroll-snap-type:x mandatory!important;
+  scrollbar-width:none!important;
+}
+body .homeVibeReviews .compactReviewTrack::-webkit-scrollbar{display:none!important;}
+body .homeVibeReviews .compactReview.zillowReview,
+body .homeVibeReviews .compactReview.airbnbReview{
+  display:block!important;
+  flex:0 0 100%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:34px 38px!important;
+  scroll-snap-align:start!important;
+}
+body .homeVibeReviews .compactReview.zillowReview blockquote,
+body .homeVibeReviews .compactReview.airbnbReview blockquote{
+  display:block!important;
+  overflow:visible!important;
+  -webkit-line-clamp:unset!important;
+  max-height:none!important;
+  margin:24px 0!important;
+}
+
+/* Zillow review-card treatment, matching the supplied review screenshots. */
+body .homeVibeReviews .compactReview.zillowReview{
+  border:1px solid #d5d9df!important;
+  border-radius:3px!important;
+  box-sizing:border-box!important;
+  color:#30343b!important;
+  font-family:Arial,sans-serif!important;
+  opacity:1!important;
+  visibility:visible!important;
+  transform:none!important;
+  transition:none!important;
+}
+body .homeVibeReviews .compactReview.zillowReview:hover,
+body .homeVibeReviews .compactReview.zillowReview:focus-within{
+  background:#fff!important;
+  color:#30343b!important;
+  transform:none!important;
+}
+body .homeVibeReviews .compactReview.zillowReview:hover blockquote,
+body .homeVibeReviews .compactReview.zillowReview:hover .reviewType,
+body .homeVibeReviews .compactReview.zillowReview:hover .zillowDate,
+body .homeVibeReviews .compactReview.zillowReview:hover .zillowScores b{
+  color:inherit!important;
+}
+
+/* Article divider rhythm: identical space on both sides of each line. */
+body .financeArticle .financeBody .financeSection,
+body .financeArticle .financePaper>.financeSection{
+  padding-bottom:48px!important;
+  margin-bottom:48px!important;
+}
+body .financeArticle .financeBody .financeSection p:last-child,
+body .financeArticle .financePaper>.financeSection p:last-child{
+  margin-bottom:0!important;
+}
+body .financeArticle .financeBody .financeSection:last-child,
+body .financeArticle .financePaper>.financeSection:last-child{
+  padding-bottom:48px!important;
+  margin-bottom:0!important;
+}
+body .financeArticle .financeBody .financeSection h2,
+body .financeArticle .financePaper>.financeSection h2{
+  max-width:960px!important;
+  white-space:nowrap!important;
+  font-size:clamp(24px,2.25vw,34px)!important;
+  letter-spacing:-.035em!important;
+}
+body .siteHeader .brand span{
+  font-size:12px!important;
+  letter-spacing:.12em!important;
+  white-space:nowrap!important;
+}
+@media(max-width:800px){
+  body .financeArticle .financeBody .financeSection,
+  body .financeArticle .financePaper>.financeSection{padding-bottom:36px!important;margin-bottom:36px!important;}
+  body .financeArticle .financeBody .financeSection:last-child,
+  body .financeArticle .financePaper>.financeSection:last-child{padding-bottom:36px!important;}
+  body .financeArticle .financeBody .financeSection h2,
+  body .financeArticle .financePaper>.financeSection h2{white-space:normal!important;font-size:28px!important;}
+  body .siteHeader .brand span{font-size:10px!important;letter-spacing:.08em!important;}
+}
+
+/* Every article line spans the full width of the white paper, consistently. */
+body .financeArticle .financeOpening{border-bottom:1px solid #d8cebf!important;}
+body .financeArticle .financeBody{
+  padding-left:0!important;
+  padding-right:0!important;
+}
+
+body .homeVibeReviews .zillowRating{display:flex!important;align-items:center!important;gap:7px!important;font-size:15px!important;color:#30343b!important;}
+body .homeVibeReviews .zillowRating .stars,
+body .homeVibeReviews .zillowScores span{color:#006aff!important;letter-spacing:1px!important;}
+body .homeVibeReviews .zillowDate{margin-top:11px!important;color:#5e7490!important;font:14px/1.35 Arial,sans-serif!important;}
+body .homeVibeReviews .compactReview.zillowReview .reviewType{margin:13px 0 14px!important;color:#30343b!important;font:700 16px/1.4 Arial,sans-serif!important;letter-spacing:0!important;text-transform:none!important;}
+body .homeVibeReviews .compactReview.zillowReview blockquote{color:#434850!important;font:16px/1.48 Arial,sans-serif!important;letter-spacing:0!important;}
+body .homeVibeReviews .zillowScores{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px 32px!important;margin-top:20px!important;}
+body .homeVibeReviews .zillowScores span{font:18px/1 Arial,sans-serif!important;white-space:nowrap!important;}
+body .homeVibeReviews .zillowScores b{color:#5e7490!important;font:14px/1 Arial,sans-serif!important;letter-spacing:0!important;font-weight:400!important;}
+@media(max-width:640px){
+  body .homeVibeReviews .compactReview.zillowReview{padding:26px 20px!important;}
+  body .homeVibeReviews .zillowScores{grid-template-columns:1fr!important;gap:10px!important;}
+}
