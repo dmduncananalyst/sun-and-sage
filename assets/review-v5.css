@@ -1,0 +1,64 @@
+/* Buttons keep a compact, predictable shape regardless of inherited card styles. */
+html body main .sunInlineAction__button,
+html body main a.sunInlineAction__button,
+html body main .ss-solid-button,
+html body main a.v4-button{
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  flex:0 1 auto!important;width:fit-content!important;height:auto!important;
+  min-width:0!important;min-height:50px!important;max-width:100%!important;
+  padding:15px 24px!important;margin-top:16px;
+  border:2px solid #fffaf3!important;border-radius:5px!important;
+  background:#41372b!important;color:#fffaf3!important;
+  font:600 14px/1.45 Arial,Helvetica,sans-serif!important;
+  letter-spacing:.01em!important;text-transform:none!important;text-decoration:none!important;
+  white-space:normal!important;text-align:center!important;box-shadow:0 0 0 1px #41372b40!important;
+  cursor:pointer;transform:none!important;opacity:1!important;
+}
+html body main .sunInlineAction__button:hover,
+html body main .ss-solid-button:hover,
+html body main a.v4-button:hover{background:#625340!important;color:#fffaf3!important;box-shadow:0 0 0 1px #625340!important}
+html body main .sunInlineAction__button:focus-visible,
+html body main .ss-solid-button:focus-visible,
+html body main a.v4-button:focus-visible{outline:3px solid #9b8662!important;outline-offset:4px!important}
+/* The About invitation belongs to the white letter panel, centered on that panel. */
+html body .aboutLetter>.sunInlineAction{margin:34px auto 0!important;padding:0!important;width:100%!important}
+/* Keep the footer visually separate from the invitation above it. */
+html body .v4-cta{background:#e6e8de!important;color:#41372b!important;border-bottom:1px solid #cbcfc0;padding:68px 24px!important}
+html body .v4-cta .ss-cta-copy{max-width:560px;margin:22px auto 16px;font:400 16px/1.8 Arial,Helvetica,sans-serif}
+html body .qDesignClose{background:#e6e8de!important;color:#41372b!important;display:flex!important;flex-direction:column;align-items:center!important;text-align:center;gap:18px!important;padding:60px 24px!important}
+html body .qDesignClose small:empty{display:none!important}
+html body .qDesignClose .sunInlineAction{margin-top:0!important}
+html body .ss-service-close{padding:75px 7vw;background:#e6e8de;color:#41372b}
+html body .ss-service-invitation{text-align:center;max-width:760px;margin:0 auto 48px}
+html body .ss-kicker{font:400 11px/1.7 Arial,Helvetica,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+html body .ss-service-invitation h2{font:400 clamp(36px,4vw,56px)/1.1 Georgia,'Times New Roman',serif;letter-spacing:-.025em;margin:20px auto}
+html body .ss-service-invitation>p:not(.ss-kicker){font:400 16px/1.8 Arial,Helvetica,sans-serif;max-width:540px;margin:20px auto}
+html body .ss-service-links{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1120px;margin:auto}
+html body .ss-service-links article{background:#fffaf3;padding:40px;display:flex;flex-direction:column;align-items:flex-start;border:1px solid #d7d1c6}
+html body .ss-service-links h3{font:400 clamp(26px,2.4vw,36px)/1.2 Georgia,'Times New Roman',serif;margin:0 0 20px;max-width:360px}
+html body .ss-service-links p{font:400 15px/1.8 Arial,Helvetica,sans-serif;margin:0 0 24px;max-width:430px}
+html body .ss-service-links .ss-solid-button{margin-top:auto!important}
+/* Existing dark closing areas are separated from the footer without changing article content. */
+html body main>.ss-footer-separate{border-bottom:20px solid #e6e8de!important}
+@media(max-width:640px){
+  html body .ss-service-close{padding:48px 20px}
+  html body .ss-service-links{grid-template-columns:1fr;gap:18px}
+  html body .ss-service-links article{padding:28px 24px}
+  html body .ss-service-invitation{margin-bottom:32px}
+  html body .ss-service-invitation h2{font-size:37px}
+  html body .v4-cta{padding:48px 24px!important}
+  html body main .sunInlineAction__button,html body main .ss-solid-button,html body main a.v4-button{font-size:14px!important;padding:14px 20px!important;max-width:100%!important}
+}
+/* These three existing closing panels formerly matched the footer exactly. */
+html body .firstBuyerClarity,
+html body .responseRoom,
+html body .lenderRunway{background:#505d50!important}
+/* Avoid a flash of the previous link color when a chat trigger becomes a button. */
+html body main .sunInlineAction__button,
+html body main .ss-solid-button,
+html body main a.v4-button{transition:none!important}
+/* Selected controls and regional search actions also need readable contrast. */
+html body .responseChoices button.active,
+html body button[data-offer].active,
+html body .jobTabList button[aria-selected="true"],
+html body .regionRequestForm button[type="submit"]{background:#41372b!important;color:#fffaf3!important;border:1px solid #fffaf3!important}

@@ -48,7 +48,7 @@
         ]);
         window.sunSageShowConfirmation?.(form);
         form.reset();
-        if(button){ button.textContent='Thank you, Dominique will follow up'; button.disabled=true; }
+        if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){
         status.textContent='Your message could not be sent. Please try again.';
         if(button){ button.innerHTML=original; button.disabled=false; }
@@ -75,6 +75,7 @@
         data.get('city') ? `Preferred community: ${data.get('city')}` : '',
         data.get('budget') ? `Budget: ${data.get('budget')}` : '',
         data.get('timing') ? `Timing: ${data.get('timing')}` : '',
+        data.get('source') ? `How did you find our website? ${data.get('source')}` : '',
         data.get('message') ? `What matters most: ${data.get('message')}` : ''
       ].filter(Boolean).join('\n');
       try{
@@ -86,7 +87,7 @@
         ]);
         window.sunSageShowConfirmation?.(form);
         form.reset();
-        if(button){ button.textContent='Thank you, Dominique will follow up'; button.disabled=true; }
+        if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){
         status.textContent='Your request could not be sent. Please try again.';
         if(button){ button.innerHTML=original; button.disabled=false; }
@@ -116,7 +117,7 @@
         ]);
         window.sunSageShowConfirmation?.(form);
         form.reset();
-        if(button){ button.textContent='Thank you, Dominique will follow up'; button.disabled=true; }
+        if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){
         status.textContent='Your home valuation request could not be sent. Please try again.';
         if(button){ button.innerHTML=original; button.disabled=false; }

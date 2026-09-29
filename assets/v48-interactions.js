@@ -65,7 +65,7 @@
     button.addEventListener('focus', selectFactor);
   });
 
-  /* Every "Ready for your next step" invitation opens the form in place. */
+  /* Every service invitation opens the contact experience in place. */
   document.querySelectorAll('.footerNextStep a, .servicePageClose a').forEach(link => {
     link.addEventListener('click', event => {
       const dialog = document.querySelector('.contactFormModal');

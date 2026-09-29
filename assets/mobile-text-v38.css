@@ -1,0 +1,242 @@
+/* v38: a shared MOBILE text system. No wording, images, interactions, or desktop
+   rules change. Headings keep a clear hierarchy; matching roles use matching
+   typography and centered alignment on every page.
+   The repeated #main increases specificity above older page-local overrides. */
+@media screen and (max-width:800px) {
+  html:root body.ss18 main#main#main {
+    font-family:Arial,Helvetica,sans-serif!important;
+    font-size:16px!important;
+    line-height:1.65!important;
+  }
+
+  /* Standard content text, including answers, introductions, and articles. */
+  html:root body.ss18 main#main#main :is(h1,h2,h3,h4,h5,h6,p,figcaption,blockquote,li,dt,dd),
+  html:root body.ss18 main#main#main :is(a,button,span,strong,em,small,label,input,select,textarea) {
+    font-family:Arial,Helvetica,sans-serif!important;
+  }
+  html:root body.ss18 main#main#main :is(h1,h2,h3,h4,h5,h6,p,figcaption,blockquote):not(.videoHeroTitle *) {
+    text-align:center!important;
+    text-indent:0!important;
+    font-style:normal!important;
+    word-break:normal!important;
+    overflow-wrap:break-word!important;
+    hyphens:none!important;
+    max-width:100%!important;
+  }
+  html:root body.ss18 main#main#main h1:not(.videoHeroTitle *) {
+    font-size:30px!important;
+    line-height:1.2!important;
+    font-weight:400!important;
+    letter-spacing:-.02em!important;
+    text-transform:none!important;
+    margin:0 auto 16px!important;
+  }
+  html:root body.ss18 main#main#main h2:not(.videoHeroTitle *) {
+    font-size:26px!important;
+    line-height:1.25!important;
+    font-weight:400!important;
+    letter-spacing:-.02em!important;
+    text-transform:none!important;
+    margin:0 auto 16px!important;
+  }
+  html:root body.ss18 main#main#main :is(h3,h4,h5,h6):not(.videoHeroTitle *) {
+    font-size:22px!important;
+    line-height:1.3!important;
+    font-weight:400!important;
+    letter-spacing:-.015em!important;
+    text-transform:none!important;
+    margin:0 auto 12px!important;
+  }
+  html:root body.ss18 main#main#main :is(p,blockquote):not(.videoHeroTitle *) {
+    font-size:16px!important;
+    line-height:1.65!important;
+    font-weight:400!important;
+    letter-spacing:normal!important;
+    text-transform:none!important;
+    margin:0 auto 14px!important;
+  }
+  html:root body.ss18 main#main#main :is(p,blockquote):last-child:not(.videoHeroTitle *) {
+    margin-bottom:0!important;
+  }
+  /* Small category lines stay distinct from the question and answer. */
+  html:root body.ss18 main#main#main :is(.topic,.eyebrow,.kicker,.v12-kicker,.homeSearchKicker,.ss34-platform-kicker,.ss21-kicker,.ss21-eyebrow,.ss23-kicker,.ss24-kicker,.ss24-number,.catalogueEyebrow):not(.videoHeroTitle *) {
+    display:block!important;
+    font-size:11px!important;
+    line-height:1.45!important;
+    font-weight:400!important;
+    font-style:normal!important;
+    letter-spacing:.12em!important;
+    text-transform:uppercase!important;
+    text-align:center!important;
+    text-indent:0!important;
+    margin:0 auto 10px!important;
+  }
+
+  /* One card structure for ALL question hubs, not only the loan page. */
+  html:root body.ss18 main#main#main .final-static-answer {
+    padding:22px 20px 20px!important;
+    gap:12px!important;
+    text-align:center!important;
+  }
+  html:root body.ss18 main#main#main .final-static-answer .topic {
+    margin:0!important;
+  }
+  html:root body.ss18 main#main#main .final-static-answer :is(h2,h3) {
+    font-size:22px!important;
+    line-height:1.3!important;
+    font-weight:400!important;
+    letter-spacing:-.015em!important;
+    margin:0!important;
+    padding:0!important;
+    text-align:center!important;
+  }
+  html:root body.ss18 main#main#main .final-static-answer-copy {
+    padding-top:14px!important;
+    text-align:center!important;
+    text-indent:0!important;
+  }
+  html:root body.ss18 main#main#main .final-static-answer-copy p {
+    margin:0!important;
+    font-size:16px!important;
+    line-height:1.65!important;
+    text-align:center!important;
+    text-indent:0!important;
+  }
+  html:root body.ss18 main#main#main .loanLearn {
+    padding:16px 20px!important;
+    text-align:center!important;
+  }
+  html:root body.ss18 main#main#main .loanLearn a,
+  html:root body.ss18 main#main#main :is(.ss22-text-link,.ss24-text-link,.v28-learn-link,.buyer-stage-link-v28) {
+    font-size:12px!important;
+    line-height:1.5!important;
+    font-weight:400!important;
+    letter-spacing:.1em!important;
+    text-transform:uppercase!important;
+    text-align:center!important;
+  }
+  /* Real lists remain readable lists, with matching body typography. */
+  html:root body.ss18 main#main#main :is(li,dt,dd) {
+    font-size:16px!important;
+    line-height:1.65!important;
+    letter-spacing:normal!important;
+    text-indent:0!important;
+  }
+  html:root body.ss18 main#main#main figcaption {
+    font-size:14px!important;
+    line-height:1.5!important;
+    letter-spacing:normal!important;
+    margin:0!important;
+  }
+  /* Compact collage captions are labels, not full-size body paragraphs. */
+  html:root body.ss18 main#main#main .propertyCollageHero figcaption,
+  html:root body.ss18 main#main#main .propertyHeroCollage figcaption,
+  html:root body.ss18 main#main#main .propertyCollage figcaption {
+    font-size:10px!important;
+    line-height:1.45!important;
+    letter-spacing:.04em!important;
+  }
+
+  /* The same type hierarchy in contact dialogs/inline conversations. */
+  html:root body.ss18 :is(.sunConversation,.ss22-footer) :is(h1,h2,h3,h4,p,a,button,span,li) {
+    font-family:Arial,Helvetica,sans-serif!important;
+  }
+  html:root body.ss18 .sunConversation :is(.sunConversation__title,.sunConversation__question),
+  html:root body.ss18 .sunConversation :is(h2,h3) {
+    font-size:26px!important;
+    line-height:1.25!important;
+    font-weight:400!important;
+    font-style:normal!important;
+    letter-spacing:-.02em!important;
+    text-align:center!important;
+    margin:0 auto 16px!important;
+  }
+  html:root body.ss18 .sunConversation :is(p,.sunConversation__intro) {
+    font-size:16px!important;
+    line-height:1.65!important;
+    font-weight:400!important;
+    font-style:normal!important;
+    letter-spacing:normal!important;
+    text-align:center!important;
+    text-indent:0!important;
+    margin:0 auto 14px!important;
+  }
+  html:root body.ss18 .ss22-footer :is(h2,h3) {
+    font-size:22px!important;
+    line-height:1.3!important;
+    font-weight:400!important;
+    text-align:center!important;
+    letter-spacing:-.015em!important;
+  }
+  html:root body.ss18 .ss22-footer p {
+    font-size:16px!important;
+    line-height:1.65!important;
+    text-align:center!important;
+    text-indent:0!important;
+  }
+  /* Retain the requested line-free, consistent MOBILE navigation. */
+  html:root body.ss18 #ss22-header #ss22-navigation,
+  html:root body.ss18 #ss22-header #ss22-navigation :is(.ss22-group,.ss22-panel,.ss22-panel-content,section,a,button,p) {
+    border:0!important;
+    box-shadow:none!important;
+    text-decoration:none!important;
+  }
+  html:root body.ss18 #ss22-header #ss22-navigation :is(a,button)::before,
+  html:root body.ss18 #ss22-header #ss22-navigation :is(a,button)::after {
+    content:none!important;
+    display:none!important;
+  }
+  html:root body.ss18 #ss22-header #ss22-navigation :is(a,.ss22-top,.ss22-menu-heading) {
+    font-family:Arial,Helvetica,sans-serif!important;
+    font-size:13px!important;
+    font-weight:400!important;
+    line-height:1.5!important;
+    letter-spacing:.08em!important;
+    text-transform:uppercase!important;
+    text-align:left!important;
+  }
+
+  html:root body.ss18 main#main#main :is(h1,h2,h3,h4,h5,h6):not(.videoHeroTitle *) :is(span,em,strong),
+  html:root body.ss18 main#main#main p:not(.videoHeroTitle *) :is(span,em,strong,a) {
+    font-size:inherit!important;
+    line-height:inherit!important;
+    letter-spacing:inherit!important;
+  }
+}
+
+
+/* v39 requested spacing and city CTA placement. Mobile only. */
+@media screen and (max-width:800px) {
+  /* Keep this note separate from the service list and the photos below. */
+  html:root body.ss18 main#main#main #improvements.ss24-improvements .ss24-chapter-copy > p.v4-small {
+    margin:0 auto!important;
+    padding-top:22px!important;
+    padding-bottom:10px!important;
+  }
+  html:root body.ss18 main#main#main #improvements.ss24-improvements {
+    row-gap:28px!important;
+  }
+  /* The same existing city action, centered after all page content. */
+  html:root body.ss18 main#main#main[data-city-page] > .v39-city-cta {
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:center!important;
+    text-align:center!important;
+    margin:24px auto 32px!important;
+    padding:0 20px!important;
+    width:100%!important;
+    max-width:1150px!important;
+    min-height:0!important;
+  }
+  html:root body.ss18 main#main#main[data-city-page] > .v39-city-cta > [data-sun-conversation-open="true"] {
+    display:inline-flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    text-align:center!important;
+    margin:0 auto!important;
+    max-width:100%!important;
+    white-space:normal!important;
+    float:none!important;
+  }
+}

@@ -1,0 +1,17 @@
+Sun and Sage V7 editorial images, generated with the built-in image generation tool.
+These are illustrative scenes, not actual listings or portfolio projects. No generated people or agents are included. Approved Dominique photographs were used unchanged on the buyer and seller consultation pages.
+
+Asset: assets/editorial-v7/seller-home.webp
+Prompt: Use case: photorealistic-natural. Asset type: real estate website seller-page hero. A single professional architectural photograph, horizontal 3:2. A beautiful attainable single-story Southern California courtyard home, creamy stucco, low terracotta roof, arched wood front door, mature olive tree, garden path, lavender and native planting. Warm late-afternoon light and true-to-life colors. Full facade shown naturally from the garden, inviting and maintained, a real residential scale rather than a mansion. No people, vehicles, signs, logos, text, address numbers, watermark, collage, or border. Crisp authentic photography, not 3D render.
+
+Asset: assets/editorial-v7/twilight-home.webp
+Prompt: Use case: photorealistic-natural. Asset type: real estate website example of twilight property photography. Single professional architectural photograph, horizontal 3:2. Modest elegant mid-century California house with long low roof, pale stone and warm wood, generous windows glowing with interior lighting. Carefully composed at blue hour just after sunset, deep natural blue sky, garden lighting along a simple entry path, house fully visible with neighboring trees. Realistic balanced exposure, retain detail in the sky and home, no exaggerated HDR. No people, cars, for-sale signs, logos, readable text, address numbers, watermark, or collage.
+
+Asset: assets/editorial-v7/property-camera.webp
+Prompt: Use case: photorealistic-natural. Asset type: editorial photograph for a home marketing preparation section. Single landscape 3:2 professional photograph of a black mirrorless camera with a proper architectural wide-angle lens securely mounted on a stable tripod in a bright California living room. A warm ivory sofa and oak coffee table arranged toward the garden windows, small camera bag beside tripod, sheer curtains and sage accent cushion. A quiet prepared working scene with NO photographer and NO people anywhere, including mirrors or reflections. Natural morning light and credible equipment proportions. No brand markings, text, logos, watermark, or collage.
+
+Asset: assets/editorial-v7/lender-planning.webp
+Prompt: Use case: photorealistic-natural. Asset type: editorial photograph for a real estate website Lenders page. Single landscape 3:2 image, close oblique view of a calm home workspace at a pale oak table beside a sunlit garden window. A cream paper folder with a few neatly arranged plain sheets, open notebook with subtle unreadable marks, simple calculator, pen and ceramic coffee cup. No readable financial figures, no chart, no bank names, no personal data, no keys or toy houses. Soft ivory, muted sage, natural wood, tactile and realistically used. No people, hands, portraits, logos, text, watermark, collage, or border. Elegant photographic composition with selective focus.
+
+The three *-video-preview.webp files are distinct still frames extracted from the supplied project films at 7 seconds. No new before-and-after or portfolio work was fabricated.
+

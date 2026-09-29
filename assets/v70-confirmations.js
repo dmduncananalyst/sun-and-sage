@@ -9,7 +9,7 @@
     <h2 class="v70ConfirmTitle">Thank you.</h2>
     <p class="v70ConfirmContext"></p>
     <div class="v70ConfirmThanks">
-      <p>Dominique will follow up personally.</p>
+      <p>Dominique will follow up with you shortly.</p>
       <button type="button" class="v70ConfirmDone">Close</button>
     </div>`;
   document.body.appendChild(dialog);
@@ -22,23 +22,23 @@
   const contentFor=form=>{
     if(form.classList.contains('regionRequestForm')){
       const region=form.dataset.region || 'San Fernando Valley';
-      return ['HOME SEARCH REQUEST', `Dominique received your ${region} home search request.`, 'Dominique will follow up with homes shaped around your priorities.'];
+      return ['HOME SEARCH REQUEST', `Dominique received your ${region} home search request.`, 'Dominique will follow up with you shortly.'];
     }
     if(form.classList.contains('evaluationContactForm')){
-      return ['HOME EVALUATION REQUEST', 'Your home evaluation request has been received.', 'Dominique will review the property details and follow up personally.'];
+      return ['HOME EVALUATION REQUEST', 'Your home evaluation request has been received.', 'Dominique will follow up with you shortly.'];
     }
     if(form.classList.contains('contactPageForm')){
-      return ['MESSAGE RECEIVED', 'Your message has been sent to Dominique.', 'Dominique will follow up personally.'];
+      return ['MESSAGE RECEIVED', 'Your message has been sent to Dominique.', 'Dominique will follow up with you shortly.'];
     }
     if(form.classList.contains('contactModalForm')){
       const service=form.querySelector('[name="service"]')?.value || '';
-      if(service==='Buy a Home') return ['BUYER CONSULTATION', 'Your buyer consultation request has been received.', 'Dominique will follow up personally about your home search.'];
-      if(service==='Sell a Home') return ['SELLER CONSULTATION', 'Your seller consultation request has been received.', 'Dominique will follow up personally about your selling plans.'];
-      if(service==='Interior Design') return ['INTERIOR DESIGN', 'Your interior design inquiry has been received.', 'Dominique will follow up personally about your project.'];
-      if(service==='Property Management') return ['PROPERTY MANAGEMENT', 'Your property management inquiry has been received.', 'Dominique will follow up personally about your property.'];
-      return ['REQUEST RECEIVED','Your request has been received.','Dominique will follow up personally.'];
+      if(service==='Buy a Home') return ['BUYER CONSULTATION', 'Your buyer consultation request has been received.', 'Dominique will follow up with you shortly.'];
+      if(service==='Sell a Home') return ['SELLER CONSULTATION', 'Your seller consultation request has been received.', 'Dominique will follow up with you shortly.'];
+      if(service==='Interior Design') return ['INTERIOR DESIGN', 'Your interior design inquiry has been received.', 'Dominique will follow up with you shortly.'];
+      if(service==='Property Management') return ['PROPERTY MANAGEMENT', 'Your property management inquiry has been received.', 'Dominique will follow up with you shortly.'];
+      return ['REQUEST RECEIVED','Your request has been received.','Dominique will follow up with you shortly.'];
     }
-    return ['REQUEST RECEIVED','Your request has been received.','Dominique will follow up personally.'];
+    return ['REQUEST RECEIVED','Your request has been received.','Dominique will follow up with you shortly.'];
   };
 
   window.sunSageShowConfirmation=form=>{

@@ -1,0 +1,108 @@
+/* v30: requested page scrolling, region alignment, and Portfolio instructions.
+   Portfolio tabs, galleries and modals retain their original behavior. */
+html { overflow-x: clip !important; overflow-y: auto !important; height: auto !important; }
+html body.ss18 { overflow: visible !important; height: auto !important; min-height: 100vh !important; }
+html:has(dialog[open]) { overflow: hidden !important; }
+/* Equal media frames and equal caption boxes; the entire original photo remains visible. */
+html body.ss18 #main.ss23-search .ss23-regions {
+ display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ gap:24px!important;align-items:start!important;
+}
+html body.ss18 #main.ss23-search .ss23-regions>a.v30-region-card {
+ display:block!important;height:auto!important;min-height:0!important;align-self:start!important;
+ background:var(--v27-paper,#f8f7f3)!important;overflow:visible!important;
+}
+html body.ss18 #main.ss23-search .ss23-regions>a.v30-region-card::before,
+html body.ss18 #main.ss23-search .ss23-regions>a.v30-region-card::after { content:none!important;display:none!important; }
+html body.ss18 #main.ss23-search .ss23-regions .v30-region-media {
+ position:relative!important;inset:auto!important;display:flex!important;align-items:center!important;justify-content:center!important;
+ width:100%!important;height:auto!important;aspect-ratio:3 / 2!important;
+ padding:0!important;margin:0!important;background:var(--v27-paper,#f8f7f3)!important;overflow:visible!important;border:0!important;
+}
+html body.ss18 #main.ss23-search .ss23-regions .v30-region-media>img.v27-natural-photo {
+ position:absolute!important;inset:0!important;display:block!important;width:100%!important;height:100%!important;
+ max-height:100%!important;min-height:0!important;aspect-ratio:auto!important;
+ object-fit:contain!important;object-position:center!important;transform:none!important;filter:none!important;
+}
+html body.ss18 #main.ss23-search .ss23-regions .ss23-region-caption {
+ position:static!important;inset:auto!important;display:flex!important;flex-direction:column!important;
+ justify-content:center!important;align-items:center!important;gap:10px!important;
+ width:100%!important;min-height:110px!important;height:110px!important;
+ margin:0!important;padding:18px 12px!important;background:var(--v27-paper,#f8f7f3)!important;
+ border:1px solid var(--v27-rule,#cdd1c3)!important;box-sizing:border-box!important;text-align:center!important;
+}
+html body.ss18 #main.ss23-search .ss23-region-caption small {display:none!important;}
+html body.ss18 #main.ss23-search .ss23-region-caption strong {display:block!important;font:400 30px/1.2 Arial,Helvetica,sans-serif!important;color:var(--v27-ink,#30382e)!important;}
+html body.ss18 #main.ss23-search .ss23-region-caption em {display:block!important;margin:0!important;font:400 12px/1.45 Arial,Helvetica,sans-serif!important;letter-spacing:.05em!important;color:var(--v27-sage,#48533e)!important;}
+html body.ss18 #main .v30-collection-instruction {
+ margin:0 0 16px!important;padding:20px 24px!important;
+ background:var(--v27-sage,#48533e)!important;color:#fff!important;text-align:center!important;
+ border:1px solid var(--v27-sage,#48533e)!important;
+}
+html body.ss18 #main .v30-collection-instruction p {margin:0!important;color:#fff!important;text-align:center!important;font:400 15px/1.6 Arial,Helvetica,sans-serif!important;}
+html body.ss18 #main .v30-collection-instruction p:first-child {margin-bottom:6px!important;font-size:21px!important;line-height:1.35!important;}
+html body.ss18 #main .v30-collection-instruction strong {font-weight:600!important;color:#fff!important;}
+html body.ss18 #main .v30-collection-instruction span {color:#fff!important;font-size:24px!important;margin-left:8px!important;}
+@media(max-width:700px){
+ html body.ss18 #main.ss23-search .ss23-regions {grid-template-columns:1fr!important;gap:22px!important;}
+ html body.ss18 #main.ss23-search .ss23-regions .ss23-region-caption {height:100px!important;min-height:100px!important;}
+ html body.ss18 #main .v30-collection-instruction {padding:18px 16px!important;}
+ html body.ss18 #main .v30-collection-instruction p:first-child {font-size:19px!important;}
+}
+
+/* Keep the search action readable on the existing sage button. */
+html body.ss18 #main.ss23-search .ss23-search-form .ss90-button { color:#fff!important; }
+
+/* v34: three MOBILE-ONLY corrections. Desktop selectors remain untouched. */
+@media (max-width:760px) {
+  /* Same photo frame and caption baseline for all four furnished-rental tiles.
+     Contain preserves the full supplied photos, including the people. */
+  html body.ss18 #main.v27-review .propertyCollageHero > figure.v27-photo-frame {
+    display:flex!important;flex-direction:column!important;align-items:stretch!important;
+    align-self:stretch!important;margin:0!important;padding:0!important;height:auto!important;
+    min-height:0!important;max-height:none!important;overflow:hidden!important;
+  }
+  html body.ss18 #main.v27-review .propertyCollageHero > figure.v27-photo-frame > img.v27-natural-photo {
+    position:static!important;inset:auto!important;display:block!important;
+    width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;
+    aspect-ratio:4/3!important;object-fit:contain!important;object-position:center!important;
+    margin:0!important;padding:0!important;flex:none!important;background:#f8f7f3!important;
+  }
+  html body.ss18 #main.v27-review .propertyCollageHero > figure.v27-photo-frame > figcaption {
+    position:static!important;inset:auto!important;display:flex!important;align-items:center!important;
+    justify-content:center!important;flex:0 0 40px!important;width:100%!important;height:40px!important;
+    min-height:40px!important;max-height:none!important;margin:0!important;padding:6px 5px!important;
+    text-align:center!important;box-sizing:border-box!important;
+  }
+  /* The Life Changes label toggles its menu, just like the other section labels. */
+  html body.ss18 #ss22-navigation .ss22-sub-toggle {display:none!important;}
+  html body.ss18 #ss22-navigation > .ss22-group > a[role="button"] {cursor:pointer!important;}
+
+  /* A taller, complete double-door opening on phones, instead of a squat 16:9 door.
+     Once the doors finish opening, the video returns to its ORIGINAL full-frame
+     16:9 presentation. No video bytes, timing, or desktop layout are changed. */
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero {
+    width:100%!important;height:calc(100vw * 9 / 16)!important;
+    min-height:0!important;max-height:none!important;aspect-ratio:auto!important;
+    padding:0!important;margin:0!important;transition:height .45s ease!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished) {
+    height:clamp(360px,120vw,560px)!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero video {
+    object-fit:contain!important;object-position:center!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors {
+    position:absolute!important;inset:0!important;width:100%!important;height:100%!important;
+    margin:0!important;padding:0!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors>div {
+    top:0!important;bottom:0!important;height:auto!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors>div::before {
+    top:10%!important;bottom:10%!important;height:auto!important;width:7%!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doorHandle {
+    top:44%!important;height:27%!important;max-height:124px!important;
+  }
+}

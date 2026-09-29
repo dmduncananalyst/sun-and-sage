@@ -1,0 +1,83 @@
+/* v36: one fixed, full-height mobile hero for the doors AND the video.
+   The opening must never collapse to 16:9 or move the following section.
+   All desktop rules, original video bytes, and playback timing are unchanged. */
+@media (max-width:760px), (max-width:1023px) and (orientation:landscape) and (pointer:coarse) {
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero,
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished),
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero.ss23-doors-finished {
+    --ss36-screen-height:100vh;
+    --ss36-screen-height:100svh;
+    --ss36-hero-height:calc(var(--ss36-screen-height) - var(--ss-header-height,81px));
+    --ss36-door-height:calc(var(--ss36-hero-height) - 24px);
+    --ss36-door-width:min(calc(100vw - 24px), calc(var(--ss36-door-height) * 3 / 4));
+    position:relative!important;
+    box-sizing:border-box!important;
+    width:100%!important;
+    height:var(--ss36-hero-height)!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    padding:0!important;
+    margin:0!important;
+    transition:none!important;
+    overflow:hidden!important;
+    overflow-anchor:none!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished) {
+    background:#f8f7f3!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished)::after {
+    background:none!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero video {
+    position:absolute!important;
+    inset:0!important;
+    display:block!important;
+    width:100%!important;
+    height:100%!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    object-fit:cover!important;
+    object-position:var(--ss36-video-focus,34%) 50%!important;
+    clip-path:none!important;
+    transition:none!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished) video {
+    clip-path:inset(12px calc((100% - var(--ss36-door-width)) / 2) 12px)!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors {
+    box-sizing:border-box!important;
+    position:absolute!important;
+    inset:12px auto auto 50%!important;
+    width:var(--ss36-door-width)!important;
+    height:var(--ss36-door-height)!important;
+    min-width:0!important;
+    min-height:0!important;
+    max-width:calc(100% - 24px)!important;
+    margin:0!important;
+    padding:0!important;
+    transform:translateX(-50%)!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors>div {
+    box-sizing:border-box!important;
+    top:0!important;
+    bottom:0!important;
+    height:auto!important;
+    min-height:0!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors>div::before {
+    top:10%!important;
+    bottom:10%!important;
+    height:auto!important;
+    width:7%!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doorHandle {
+    top:44%!important;
+    height:27%!important;
+    max-height:124px!important;
+  }
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished) .videoHeroTitle {
+    visibility:hidden!important;
+  }
+}

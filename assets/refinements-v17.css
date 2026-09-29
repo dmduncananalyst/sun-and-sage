@@ -1,0 +1,33 @@
+/* One consistent type system. Approved text remains unchanged. */
+:root{--ss-heading-font:Georgia,'Times New Roman',serif;--ss-body-font:Arial,Helvetica,sans-serif}
+html body{font-family:var(--ss-body-font)!important}
+html body main :is(h1,h2,h3,h4,h5,h6){font-family:var(--ss-heading-font)!important;font-weight:400!important;font-style:normal!important}
+html body main :is(p,li,dd,dt,figcaption,label,input,select,textarea,button){font-family:var(--ss-body-font)!important;font-style:normal!important}
+html body main :is(h1,h2,h3,h4,h5,h6) em{font-family:inherit!important;font-style:normal!important}
+html body main .storyLead,html body main .storyBody{font:400 17px/1.7 var(--ss-body-font)!important}
+html body .ss-navigation :is(a,button),html body footer :is(p,a,span){font-family:var(--ss-body-font)!important}
+html body main svg text{font-family:var(--ss-body-font)!important}
+html body .v15-price-pyramid svg,html body .v15-price-line svg{display:block;width:100%;height:auto;overflow:visible}
+/* Restore readable contrast in every financing introduction. */
+html body .f4-opening,html body .f4-opening :is(h1,p,.f4-answer,.v4-eyebrow){color:#30332d!important;background-color:transparent}
+html body .f4-opening{background:#f5f3ed!important}
+/* Full photographic hero and overlapping introduction from the supplied layout. */
+.v17-service-hero{position:relative;height:min(65vw,640px);min-height:430px;overflow:hidden;background:#30332d}
+.v17-service-hero figure{margin:0;position:absolute;inset:0}.v17-service-hero figure img{width:100%;height:100%;object-fit:cover}
+.v17-service-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#11180f70,transparent 80%)}
+.v17-hero-heading{position:relative;z-index:1;padding:120px 12vw;max-width:1100px;color:#fff}
+html body .v17-hero-heading h1{font-size:clamp(55px,7.5vw,110px);line-height:1.03;color:#fff;margin:20px 0}
+.v17-hero-heading>p{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#fff}
+.v17-hero-intro{display:grid;grid-template-columns:1.2fr 1fr;gap:6vw;padding:48px 10vw 55px;background:#fff;align-items:center;position:relative}
+.v17-hero-intro>p{font-size:18px;line-height:1.8;margin:0}
+.v17-hero-intro aside{background:#fff;outline:18px solid #e6e4ddd9;padding:40px;text-align:center;margin-top:-110px;position:relative;z-index:2}
+.v17-hero-intro aside span{font:10px/1.7 Arial,sans-serif;letter-spacing:.16em;color:#56624b}.v17-hero-intro aside h2{font-size:34px}.v17-hero-intro aside p{font-size:15px;margin:0}
+@media(max-width:760px){.v17-service-hero{min-height:420px;height:55vh}.v17-hero-heading{padding:100px 24px 45px}.v17-hero-heading h1{font-size:58px!important}.v17-hero-intro{grid-template-columns:1fr;padding:35px 24px 45px;gap:30px}.v17-hero-intro aside{margin-top:0;outline-width:10px;padding:25px}.v17-hero-intro aside h2{font-size:30px}}
+html body.v4-page #improvements>.v17-comparison{grid-column:2;grid-row:1;margin:0;width:100%}.v17-comparison img{display:block;width:100%;height:auto;object-fit:contain}.v17-comparison figcaption,.v4-staging-grid figcaption{font:11px/1.5 Arial,sans-serif;text-align:center;margin:12px 0;color:#545d4c}
+html body.v4-page #staging>.v4-staging-grid{display:grid;grid-template-columns:1fr;gap:18px}html body.v4-page #staging>.v4-staging-grid figure{margin:0}html body.v4-page #staging>.v4-staging-grid img{width:100%;height:auto!important;aspect-ratio:auto!important}
+html body.v4-page #plans .v16-plan-collage{grid-template-columns:1fr .8fr;grid-template-rows:auto auto auto;padding:20px 0 20px 20px;gap:12px;align-items:start}
+html body.v4-page #plans .v16-plan-collage>img:first-child{grid-column:1;grid-row:1;height:220px;margin-top:25px}
+html body.v4-page #plans .v16-plan-collage>img:nth-child(2){grid-column:1;grid-row:2;height:220px;margin:0 0 0 -20px;width:calc(100% + 20px)}
+html body.v4-page #plans .v16-plan-collage>.v17-furnished-plan{grid-column:2;grid-row:1/3;height:480px;max-height:65vh;width:100%;object-fit:contain;object-position:top;background:transparent}
+html body.v4-page #plans .v16-plan-collage>span{grid-column:1/-1;grid-row:3;text-align:center}
+@media(max-width:760px){html body.v4-page #improvements>.v17-comparison{grid-column:1;grid-row:2}html body.v4-page #plans .v16-plan-collage{padding:15px 0;gap:8px}html body.v4-page #plans .v16-plan-collage>img:first-child,html body.v4-page #plans .v16-plan-collage>img:nth-child(2){height:155px;margin:0;width:100%}html body.v4-page #plans .v16-plan-collage>.v17-furnished-plan{height:318px;max-height:none}}

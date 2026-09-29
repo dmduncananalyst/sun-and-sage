@@ -1,0 +1,145 @@
+/* v32: scoped fixes requested in screenshots 4229–4233.
+   No changes to navigation, other page layouts, video files or gallery interactions. */
+
+/* A readable, centered heading above each existing project film. */
+html body.ss18 #main.ss23-project .projectFilm > header {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 0 22px !important;
+  text-align: center !important;
+}
+html body.ss18 #main.ss23-project .projectFilm > header > h2.project-film-heading {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font: 400 clamp(28px, 2.6vw, 36px)/1.25 Arial, Helvetica, sans-serif !important;
+  text-align: center !important;
+  text-transform: none !important;
+  letter-spacing: -.025em !important;
+  color: var(--v27-ink, #30382e) !important;
+  -webkit-text-fill-color: var(--v27-ink, #30382e) !important;
+}
+
+/* The three valuation cards form their own row, separated from the photographs. */
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  align-items: stretch !important;
+  width: calc(100% - 48px) !important;
+  max-width: 1200px !important;
+  margin: 36px auto 32px !important;
+  padding: 0 !important;
+  gap: 20px !important;
+  background: transparent !important;
+  box-sizing: border-box !important;
+}
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  gap: 18px !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 26px 24px !important;
+  border: 1px solid var(--v27-rule, #cdd1c3) !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+}
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article .ss90-kicker {
+  display: block !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+}
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article > div {
+  display: flex !important;
+  flex: 1 !important;
+  flex-direction: column !important;
+}
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article h2 {
+  margin: 0 0 18px !important;
+  font-size: clamp(26px, 2.2vw, 32px) !important;
+  line-height: 1.25 !important;
+}
+html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article p {
+  margin: 0 !important;
+}
+
+/* Consistent North/South/East/West photograph and caption geometry.
+   Focal-safe scenic fitting is confined to these four region cards. */
+html body.ss18 #main.ss23-search .ss23-regions {
+  align-items: stretch !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 26px !important;
+  margin-bottom: 30px !important;
+}
+html body.ss18 #main.ss23-search .ss23-regions > a.v30-region-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  align-self: stretch !important;
+  border: 1px solid var(--v27-rule, #cdd1c3) !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+html body.ss18 #main.ss23-search .ss23-regions .v30-region-media {
+  display: block !important;
+  position: relative !important;
+  flex: none !important;
+  aspect-ratio: 3 / 2 !important;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+html body.ss18 #main.ss23-search .ss23-regions .v30-region-media > img.v27-natural-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+html body.ss18 #main.ss23-search .ss23-regions a[href="valley-guide-east.html"] img.v27-natural-photo {
+  object-position: center 62% !important;
+}
+html body.ss18 #main.ss23-search .ss23-regions .ss23-region-caption {
+  height: 110px !important;
+  min-height: 110px !important;
+  flex: none !important;
+  padding: 18px 12px !important;
+  gap: 10px !important;
+  border: 0 !important;
+  border-top: 1px solid var(--v27-rule, #cdd1c3) !important;
+}
+
+@media (max-width: 850px) {
+  html body.ss18 #main.ss90-evaluation .ss90-eval-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 600px !important;
+    margin-top: 28px !important;
+    margin-bottom: 28px !important;
+    gap: 18px !important;
+  }
+  html body.ss18 #main.ss90-evaluation .ss90-eval-grid > article p {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 700px) {
+  html body.ss18 #main.ss23-search .ss23-regions .ss23-region-caption {
+    height: 100px !important;
+    min-height: 100px !important;
+  }
+  html body.ss18 #main.ss23-project .projectFilm > header {
+    margin-bottom: 18px !important;
+  }
+}

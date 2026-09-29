@@ -1,0 +1,20 @@
+/* Original photography, with exact supplied brand artwork as separate layers. */
+html body .v10-original-marketing{display:flex;align-items:center;justify-content:center;background:#ece9e0;padding:20px}
+html body .v10-mockup{display:block;position:relative;width:100%;max-width:560px;margin:auto;isolation:isolate;container-type:inline-size}
+html body .v10-mockup>.v10-original-artwork{display:block;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important;margin:0}
+html body .v10-brand-patch{position:absolute;display:flex;align-items:center;justify-content:center;transform-origin:center;pointer-events:none;overflow:hidden}
+html body .v10-brand-patch>img{display:block;width:auto!important;height:86%!important;min-height:0!important;max-height:100%!important;max-width:88%!important;object-fit:contain!important;mix-blend-mode:multiply;margin:0;padding:0}
+html body .v10-brand-patch>img.v10-inset-rise{width:70%!important;height:auto!important;max-height:92%!important}
+html body .v10-brand-patch>img.v10-light-mark{filter:invert(1);mix-blend-mode:screen}
+html body .v10-original-brandline{display:flex;align-items:center;justify-content:center;gap:28px;width:100%;max-width:560px;background:#fff;padding:17px 20px;border-top:1px solid #eee7dc;color:#41372b}
+html body .v10-original-brandline>span{display:flex;align-items:center;gap:12px;font:400 13px/1.4 Georgia,serif;letter-spacing:.1em}
+html body .v10-original-brandline>span>img{display:block;width:24px!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important}
+html body .v10-original-brandline>img{display:block;width:125px!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important}
+html body .v8-marketing-hero>.v10-original-marketing{padding:28px}
+@media(max-width:640px){
+ html body .v10-original-marketing,html body .v8-marketing-hero>.v10-original-marketing{padding:12px}
+ html body .v10-original-brandline{gap:18px;padding:14px 10px}
+ html body .v10-original-brandline>span{font-size:10px;gap:8px;letter-spacing:.05em}
+ html body .v10-original-brandline>span>img{width:20px!important}
+ html body .v10-original-brandline>img{width:95px!important}
+}

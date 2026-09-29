@@ -1,0 +1,53 @@
+/* Keep the authentic before-and-after composites at their full proportions. */
+html body .v4-split>.v6-before-after{width:100%;max-width:900px;height:auto!important;aspect-ratio:auto;object-fit:contain!important;justify-self:center}
+html body .v4-staging-grid{align-items:center;gap:12px}
+html body .v4-staging-grid img{width:100%;height:auto!important;aspect-ratio:auto;object-fit:contain!important}
+/* Larger compliance marks sit on a light background at the bottom of every page. */
+html body footer .legal{display:flex!important;align-items:center!important;justify-content:center;flex-wrap:wrap!important;gap:22px 32px!important;background:#f8f5ee!important;color:#41372b!important;padding:26px 30px!important;border-top:1px solid #d8d0c3!important;font:400 12px/1.7 Arial,Helvetica,sans-serif!important;box-sizing:border-box}
+html body footer .legal a{color:#41372b!important}
+html body footer .legal .complianceMarks{display:block!important;width:200px!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;background:transparent!important;padding:0!important;flex:0 0 auto}
+html body footer .legal .riseFooter{width:125px!important;height:auto!important;max-height:85px!important;object-fit:contain!important;background:transparent!important;padding:0!important}
+html body .v4-footer .legal{margin:40px -7vw -24px!important;padding:26px 7vw!important;justify-content:flex-start}
+html body .v4-footer .legal a:last-child{margin-left:auto}
+/* Consultation pages explain the meeting before the existing contact flow. */
+.v6-consult-hero{display:grid;grid-template-columns:1fr 1fr;background:#f4f1eb;align-items:stretch}
+.v6-consult-hero>div{padding:65px 5vw 65px 7vw;align-self:center}
+.v4-page .v6-consult-hero h1{font-size:clamp(44px,4.7vw,70px);max-width:620px;margin:20px 0 24px}
+.v6-consult-hero .v6-consult-tagline{font:400 19px/1.65 Arial,Helvetica,sans-serif;max-width:390px;margin:0 0 18px}
+.v6-consult-hero figure{min-width:0;margin:0;display:flex}
+.v6-consult-hero img{width:100%;height:100%;max-height:540px;min-height:420px;object-fit:cover;object-position:center}
+.v6-consult-explainer{max-width:1190px;margin:auto;padding:80px 35px}
+.v6-consult-explainer>header{max-width:820px}
+.v4-page .v6-consult-explainer h2{font-size:clamp(33px,3.3vw,46px);line-height:1.16;margin:18px 0 26px}
+.v6-consult-explainer>header>p:last-child{font-size:16px;line-height:1.85;max-width:770px}
+.v6-consult-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;margin-top:48px}
+.v6-consult-topics article{border-top:1px solid #c6c9bb;padding-top:22px}
+.v6-consult-topics article>span{font:400 18px Georgia,serif;color:#7a806b}
+.v4-page .v6-consult-topics h3{font-size:27px;line-height:1.2;margin:19px 0}
+.v6-consult-topics p{font-size:14px;line-height:1.9;margin:0}
+.v6-consult-explainer aside{background:#eeefe8;padding:28px 34px;margin-top:44px}
+.v4-page .v6-consult-explainer aside h3{font-size:28px;margin:0 0 14px}
+.v6-consult-explainer aside p{margin:0;font-size:14px;line-height:1.85;max-width:830px}
+.v6-consult-chat{padding-top:64px}
+.v4-page .v6-consult-chat>h2{font-size:clamp(32px,3.5vw,46px);max-width:760px;margin:0 auto 20px;line-height:1.15}
+@media(max-width:760px){
+  .v6-consult-hero{grid-template-columns:1fr}
+  .v6-consult-hero>div{padding:46px 24px 36px}
+  .v4-page .v6-consult-hero h1{font-size:47px}
+  .v6-consult-hero .v6-consult-tagline{font-size:17px}
+  .v6-consult-hero img{height:auto;min-height:0;max-height:none;aspect-ratio:1.5;object-fit:cover}
+  .v6-consult-explainer{padding:48px 24px}
+  .v6-consult-explainer>header>p:last-child{font-size:15px}
+  .v6-consult-topics{grid-template-columns:1fr;gap:30px;margin-top:34px}
+  .v6-consult-topics article{padding-top:18px}
+  .v4-page .v6-consult-topics h3{margin:14px 0}
+  .v6-consult-explainer aside{padding:25px;margin-top:34px}
+  .v6-consult-chat{padding:48px 24px 65px}
+  html body footer .legal{gap:20px!important;padding:24px!important;text-align:center;flex-direction:column!important}
+  html body .v4-footer .legal{margin:40px -7vw -24px!important;justify-content:center}
+  html body .v4-footer .legal a:last-child{margin-left:0}
+}
+@media(max-width:640px){
+  html body .v4-footer .legal{margin:35px -25px -25px!important}
+  html body .v4-staging-grid{grid-template-columns:1fr}
+}

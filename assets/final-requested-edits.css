@@ -1,0 +1,95 @@
+
+:root{--final-sage:#46583f;--final-sage-soft:#e8ebe3;--final-ink:#233126;--final-cream:#f6f3ec;--final-warm:#8a725d;--final-line:#d7d2c7}
+
+/* Keep images natural and fully visible on redesigned pages. */
+.final-about img,.final-design img,.final-buyer-guide img{width:100%;height:100%;object-fit:contain;display:block;background:transparent}
+
+/* ABOUT: return to approved simple layout, no oversized typography. */
+.final-about{background:#f7f4ed;color:var(--final-ink);padding:34px 0 48px}
+.final-about-head{max-width:1080px;margin:0 auto 30px;text-align:center;padding:0 24px}
+.final-about h1{font-size:clamp(2rem,3vw,3rem);font-weight:400;line-height:1.05;margin:0}
+.final-about-story{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:minmax(260px,330px) 1fr;gap:48px;align-items:start;padding:0 24px}
+.final-about-story figure{margin:0}.final-about-story figure img{height:auto;object-fit:contain}
+.final-about-copy p,.final-about-personal p,.final-about-columns p,.final-about-bottom p{font-size:1rem;line-height:1.75;margin:0 0 18px}
+.final-about .final-lede{font-size:1.08rem;line-height:1.6}
+.final-about-personal{max-width:980px;margin:26px auto 0;padding:24px 24px 10px;border-top:1px solid var(--final-line)}
+.final-about-columns{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:20px 24px}
+.final-about-columns h2{font-size:clamp(1.6rem,2.3vw,2.15rem);font-weight:400;margin:0 0 14px}
+.final-about-bottom{max-width:940px;margin:12px auto 0;padding:26px 34px;text-align:center;background:var(--final-sage-soft)}
+
+/* COMMERCIAL + RESIDENTIAL: editorial sections matching the approved marketing/concierge feel. */
+.final-design{background:#f7f4ed;color:var(--final-ink);padding:34px 0 52px}
+.final-design-hero{max-width:1180px;margin:0 auto 34px;display:grid;grid-template-columns:1.35fr .9fr;align-items:center;padding:0 24px}
+.final-design-hero figure{margin:0}.final-design-hero figure img{width:100%;height:auto;max-height:560px;object-fit:contain}
+.final-design-hero>div{background:#fbfaf6;border:1px solid var(--final-line);padding:48px 44px;margin-left:-36px;position:relative}
+.final-design-hero span,.final-design-row span{display:block;text-transform:uppercase;letter-spacing:.19em;font-size:.72rem;color:#9b7b58;margin-bottom:14px}
+.final-design h1{font-size:clamp(2.2rem,3.3vw,3.35rem);line-height:1.05;font-weight:400;margin:0 0 18px}
+.final-design-hero p{font-size:1.02rem;line-height:1.7;margin:0}
+.final-design-row{max-width:1080px;margin:42px auto;display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:center;padding:0 24px}
+.final-design-row.reverse{grid-template-columns:.9fr 1.1fr}.final-design-row.reverse figure{order:2}.final-design-row.reverse>div{order:1}
+.final-design-row figure{margin:0}.final-design-row figure img{width:100%;height:auto;max-height:500px;object-fit:contain}
+.final-design-row h2{font-size:clamp(1.75rem,2.6vw,2.55rem);line-height:1.15;font-weight:400;margin:0 0 16px}
+.final-design-row p{font-size:1rem;line-height:1.75;margin:0}
+.final-design-gallery{max-width:1080px;margin:38px auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:0 24px}
+.final-design-gallery figure{margin:0;background:#fff}.final-design-gallery img{width:100%;height:300px;object-fit:contain;background:#f1eee7}.final-design-gallery figcaption{padding:13px 16px;font-size:.9rem}
+.final-single-cta{max-width:900px;margin:42px auto 0;text-align:center;padding:36px 24px;background:var(--final-sage-soft)}
+.final-single-cta h2{font-size:clamp(1.7rem,2.4vw,2.35rem);font-weight:400;margin:0 0 18px}.final-single-cta a{display:inline-block;background:var(--final-sage);color:#fff!important;text-decoration:none;padding:14px 22px}
+
+/* FIRST-TIME BUYER DETAIL PAGES: all content visible; no click-to-view/tabs. */
+.final-buyer-guide{background:#f7f4ed;color:var(--final-ink);padding:34px 0 50px}
+.final-buyer-hero{max-width:1120px;margin:0 auto 38px;display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:center;padding:0 24px}
+.final-buyer-hero>div>span{display:block;text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;color:#9b7b58;margin-bottom:13px}.final-buyer-hero h1{font-size:clamp(2.15rem,3.2vw,3.25rem);font-weight:400;line-height:1.06;margin:0 0 16px}.final-buyer-hero p{font-size:1.05rem;line-height:1.7;margin:0}
+.final-buyer-hero figure{margin:0}.final-buyer-hero figure img{width:100%;height:auto;max-height:520px;object-fit:contain}
+.final-buyer-steps{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:0 24px}
+.final-buyer-steps article{background:#fff;border:1px solid var(--final-line);padding:28px 30px;min-height:0}.final-buyer-steps h2{font-size:1.45rem;font-weight:400;margin:0 0 12px}.final-buyer-steps p{font-size:1rem;line-height:1.68;margin:0}
+.final-buyer-nav{max-width:1060px;margin:22px auto 0;display:flex;justify-content:space-between;gap:14px;padding:0 24px}.final-buyer-nav a{color:var(--final-ink);text-underline-offset:4px}
+
+/* Financing-question cards: remove oversized blank interiors and ensure missing image has a visible frame. */
+.ss24-financing-questions .loanHubGrid{align-items:start!important;grid-auto-rows:auto!important}
+.ss24-financing-questions .loanHubItem,.ss24-financing-questions .loanFlip,.ss24-financing-questions .loanFlipInner{height:auto!important;min-height:0!important}
+.ss24-financing-questions .loanFlipFront,.ss24-financing-questions .loanFlipBack{position:relative!important;min-height:0!important;height:auto!important;display:flex!important;flex-direction:column!important}
+.ss24-financing-questions .loanFlipFront .loanHubCopy,.ss24-financing-questions .loanFlipBack .loanHubCopy{min-height:150px!important;padding:22px 22px!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+.ss24-financing-questions .loanHubItem img{height:230px!important;object-fit:contain!important;background:#eee7dc!important}
+
+/* Home evaluation: pull the content up so there is no huge blank band. */
+.final-evaluation .ss90-eval-hero{padding-top:42px!important;padding-bottom:36px!important;min-height:0!important;align-items:center!important}
+.final-evaluation .ss90-eval-hero>*{margin-top:0!important}.final-evaluation .ss90-eval-hero img{object-fit:contain!important}
+
+/* Property management: fit platform names and remove duplicate CTA stack. */
+.final-property .ss90-platform{padding-top:42px!important;padding-bottom:42px!important}
+.final-property .ss90-platform-grid,.final-property .ss90-platform-logos{overflow:visible!important}
+.final-property .ss90-platform-card,.final-property .ss90-platform-grid>*{min-width:0!important}
+.final-property .ss90-platform-card h3,.final-property .ss90-platform-grid h3{font-size:clamp(1.5rem,2.6vw,2.75rem)!important;line-height:1!important;overflow-wrap:anywhere!important}
+.final-property .ss24-property-closing [data-sun-conversation-open]+[data-sun-conversation-open]{display:none!important}
+
+/* Contact: don't repeat Work With Dominique inside the form. */
+.final-contact .v4-chat-shell h2:first-of-type{display:none!important}.final-contact .v4-chat-shell{padding-top:28px!important}
+
+/* Sitewide on explicitly card/photo pages: avoid unnecessary giant vertical gaps without changing approved portfolio. */
+main:not(.ss22-home) .loanHubItem,main:not(.ss22-home) .lifeCard{min-height:0}
+
+@media(max-width:800px){
+ .final-about-story,.final-about-columns,.final-design-hero,.final-design-row,.final-design-row.reverse,.final-buyer-hero,.final-buyer-steps{grid-template-columns:1fr}
+ .final-about-story{gap:28px}.final-about-story figure{max-width:340px;margin:0 auto}
+ .final-design-hero>div{margin-left:0;margin-top:-18px;padding:30px 24px}.final-design-row.reverse figure,.final-design-row.reverse>div{order:initial}
+ .final-design-gallery{grid-template-columns:1fr}.final-design-gallery img{height:auto;max-height:440px}
+ .final-buyer-nav{flex-direction:column}
+}
+/* Final corrections from visual QA */
+.final-single-cta [data-sun-conversation-open]{display:none!important}
+.final-property .ss90-platform-card strong{font-size:clamp(1.55rem,2.1vw,2.45rem)!important;line-height:1.02!important;white-space:normal!important;overflow-wrap:anywhere!important;word-break:normal!important;display:block!important}
+.final-property .ss90-platform-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+@media(max-width:1050px){.final-property .ss90-platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:620px){.final-property .ss90-platform-grid{grid-template-columns:1fr!important}}
+/* User requested no click-to-view content outside Portfolio. Question/answer cards are fully visible. */
+.final-static-answer{padding:22px 22px 16px;display:flex;flex-direction:column;gap:10px;background:#fff;color:var(--final-ink)}
+.final-static-answer .topic{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:#6f755f}
+.final-static-answer h2{font-size:clamp(1.15rem,1.45vw,1.5rem)!important;line-height:1.25!important;font-weight:400!important;margin:0!important}
+.final-static-answer-copy{padding-top:12px;border-top:1px solid var(--final-line)}
+.final-static-answer-copy p{font-size:.95rem!important;line-height:1.55!important;margin:0!important}
+.loanHubItem{height:auto!important;min-height:0!important;display:flex!important;flex-direction:column!important}
+.loanHubItem .ss18-card-photo{display:block!important}.loanHubItem .ss18-card-photo img{width:100%!important;height:auto!important;max-height:245px!important;object-fit:contain!important;background:#eee7dc!important}
+.loanHubItem .loanLearn{margin-top:auto!important;position:static!important;padding:15px 20px!important}
+.loanHubGrid{align-items:start!important;grid-auto-rows:auto!important}
+.final-property .ss90-platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0!important}
+.final-property .ss90-platform-card strong{font-size:clamp(1.6rem,2.4vw,2.65rem)!important;overflow-wrap:normal!important;word-break:normal!important}

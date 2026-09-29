@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">North Valley landscape illustration</title>
+  <desc id="desc">An abstract illustration of foothills, trees, and neighborhood streets in warm sage and sand colors.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dbd5c3"/><stop offset="1" stop-color="#f6ecda"/></linearGradient>
+    <linearGradient id="land" x2="0" y2="1"><stop stop-color="#92997a"/><stop offset="1" stop-color="#425647"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/>
+  <circle fill="#fbf3df" cx="920" cy="176" r="68"/>
+  <path fill="#b9b29a" d="M0 346 110 272 199 312 321 180 404 243 480 205 599 310 718 223 824 304 950 234 1091 306 1200 265V800H0z"/>
+  <path fill="#8e987e" d="M0 389q170-99 288 5t260-7 299-31 353 42v402H0z"/>
+  <path fill="url(#land)" d="M0 501q190-138 372-3t369 6 459-29v325H0z"/>
+  <path fill="none" stroke="#dcd1b7" stroke-width="28" d="M1200 663Q860 494 633 580T66 804"/>
+  <path fill="none" stroke="#c4bda4" stroke-width="12" d="M328 706 227 501m389 86 118-136m93 130 44 176"/>
+  <g fill="#e5ddc7" stroke="#72674f" stroke-width="4">
+    <path d="M243 569v-31l30-24 30 24v31zm60 110v-31l30-24 30 24v31zm120-62v-31l30-24 30 24v31zm149-61v-31l30-24 30 24v31zm148-14v-31l30-24 30 24v31zm194 109v-31l30-24 30 24v31zm116-46v-31l30-24 30 24v31z"/>
+  </g>
+  <g fill="#344c3e">
+    <ellipse cx="144" cy="628" rx="31" ry="54"/><ellipse cx="513" cy="701" rx="29" ry="52"/><ellipse cx="1093" cy="539" rx="29" ry="51"/><ellipse cx="689" cy="735" rx="34" ry="59"/><ellipse cx="784" cy="492" rx="23" ry="42"/>
+  </g>
+</svg>

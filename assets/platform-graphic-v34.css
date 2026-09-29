@@ -1,0 +1,116 @@
+/* First approved company graphic. Scoped ONLY to this Property Management section. */
+html body.ss18 #main #ss34-platforms {
+  display:block!important;position:relative!important;isolation:isolate;
+  padding:0!important;margin:0!important;width:100%!important;max-width:none!important;
+  min-height:0!important;height:auto!important;overflow:visible!important;
+  background:#f8f7f3!important;color:#30382e!important;
+}
+html body.ss18 #main #ss34-platforms * {box-sizing:border-box;}
+html body.ss18 #main #ss34-platforms .ss34-platform-inner {
+  width:min(1320px,100%)!important;max-width:1320px!important;
+  margin:0 auto!important;padding:36px 28px 32px!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-heading {
+  position:static!important;display:block!important;background:none!important;
+  border:0!important;box-shadow:none!important;width:100%!important;height:auto!important;
+  padding:0!important;margin:0 auto 28px!important;text-align:center!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-kicker {
+  font:400 11px/1.5 Arial,Helvetica,sans-serif!important;text-transform:uppercase!important;
+  letter-spacing:.2em!important;margin:0 0 12px!important;color:#30382e!important;
+}
+html body.ss18 #main #ss34-platforms h2 {
+  font:400 clamp(28px,2.6vw,38px)/1.22 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.02em!important;margin:0 0 16px!important;text-align:center!important;
+  color:#30382e!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-heading>p:last-child {
+  max-width:1030px!important;margin:0 auto!important;padding:0!important;
+  font:400 16px/1.65 Arial,Helvetica,sans-serif!important;letter-spacing:0!important;
+  text-align:center!important;color:#30382e!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-grid {
+  display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:0!important;align-items:stretch!important;margin:0!important;padding:0!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card {
+  position:relative!important;display:flex!important;flex-direction:column!important;
+  align-items:center!important;min-width:0!important;height:auto!important;min-height:0!important;
+  padding:0 16px!important;margin:0!important;border:0!important;box-shadow:none!important;
+  background:transparent!important;text-align:center!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card+.ss34-platform-card::before {
+  content:"";position:absolute;left:0;top:58px;bottom:114px;width:1px;
+  background:#cdd1c3;pointer-events:none;
+}
+html body.ss18 #main #ss34-platforms img.ss34-platform-image {
+  display:block!important;position:static!important;inset:auto!important;
+  width:min(242px,100%)!important;max-width:242px!important;height:auto!important;
+  min-height:0!important;max-height:none!important;aspect-ratio:1/1!important;
+  margin:0 auto 14px!important;padding:0!important;border:0!important;
+  object-fit:contain!important;object-position:center!important;transform:none!important;
+  filter:none!important;background:transparent!important;box-shadow:none!important;
+}
+html body.ss18 #main #ss34-platforms h3 {
+  font:400 clamp(22px,1.85vw,27px)/1.25 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.02em!important;margin:0 0 12px!important;padding:0!important;
+  text-align:center!important;color:#30382e!important;overflow-wrap:normal!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card>p {
+  font:400 15px/1.55 Arial,Helvetica,sans-serif!important;color:#30382e!important;
+  text-align:center!important;letter-spacing:0!important;margin:0 0 22px!important;
+  padding:0!important;max-width:280px!important;text-indent:0!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card>a {
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  gap:14px!important;font:400 11px/1.4 Arial,Helvetica,sans-serif!important;
+  letter-spacing:.12em!important;text-transform:uppercase!important;text-decoration:none!important;
+  padding:8px 0 10px!important;margin:auto 0 0!important;width:auto!important;min-height:42px!important;
+  color:#30382e!important;border:0!important;border-bottom:1px solid #48533e!important;
+  background:none!important;box-shadow:none!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card>a:focus-visible {
+  outline:2px solid #48533e!important;outline-offset:5px!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card>a span {
+  font:400 18px/1 Arial,Helvetica,sans-serif!important;color:inherit!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-banner {
+  display:flex!important;align-items:center!important;justify-content:center!important;gap:28px!important;
+  width:100%!important;margin:0!important;padding:20px 32px!important;background:#e8ebe1!important;
+  border:0!important;color:#48533e!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-sage-sprig {
+  display:block!important;width:70px!important;height:70px!important;min-width:70px!important;
+  padding:0 20px 0 0!important;border-right:1px solid #a4ac9a!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-banner p {
+  font:italic 22px/1.5 Georgia,"Times New Roman",serif!important;letter-spacing:0!important;
+  max-width:870px!important;text-align:center!important;padding:0!important;margin:0!important;
+  text-indent:0!important;color:#30382e!important;
+}
+@media(max-width:1000px){
+ html body.ss18 #main #ss34-platforms .ss34-platform-grid {grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:30px 0!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-card:nth-child(3)::before{content:none!important;}
+}
+@media(max-width:600px){
+ html body.ss18 #main #ss34-platforms .ss34-platform-inner {padding:30px 22px!important;}
+ html body.ss18 #main #ss34-platforms h2 {font-size:29px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-grid {grid-template-columns:1fr!important;gap:28px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-card {padding:0 4px 26px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-card:not(:last-child) {border-bottom:1px solid #cdd1c3!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-card::before {content:none!important;display:none!important;}
+ html body.ss18 #main #ss34-platforms h3 {font-size:26px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-card>p {font-size:16px!important;margin-bottom:12px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-banner {gap:14px!important;padding:20px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-sage-sprig {width:48px!important;min-width:48px!important;height:64px!important;padding-right:10px!important;}
+ html body.ss18 #main #ss34-platforms .ss34-platform-banner p {font-size:19px!important;line-height:1.5!important;}
+}
+
+/* v35: platform graphics are informational, not links. */
+html body.ss18 #main #ss34-platforms .ss34-platform-card>p {
+  margin-bottom:0!important;
+}
+html body.ss18 #main #ss34-platforms .ss34-platform-card+.ss34-platform-card::before {
+  bottom:8px;
+}

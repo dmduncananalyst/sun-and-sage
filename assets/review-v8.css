@@ -1,0 +1,84 @@
+/* Marketing graphics show their complete composition and both original brands. */
+html body .v8-marketing-visual{margin:0;min-width:0;width:100%;display:flex;flex-direction:column;align-items:stretch;justify-content:center;background:#f5f1e8}
+html body .v8-marketing-visual>.v8-marketing-photo{display:block;width:100%;height:auto!important;min-height:0!important;max-height:650px!important;object-fit:contain!important;object-position:center;background:#f5f1e8}
+html body .v8-marketing-hero{grid-template-columns:44% 56%;align-items:center;min-height:0}
+html body .v8-marketing-hero>.v8-marketing-visual{padding:28px;background:#ece9e0;align-items:center}
+html body .v8-marketing-hero .v8-marketing-photo{width:auto;max-width:100%;height:clamp(500px,40vw,700px)!important;max-height:none!important;min-height:0!important}
+html body .v8-marketing-hero .v8-brand-line{width:min(100%,clamp(400px,32vw,560px))}
+html body .v8-brand-line{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;margin:0;padding:18px 16px;background:#fffdf8;color:#41372b;border-top:1px solid #ded8cb;min-height:72px}
+html body .v8-brand-line span{font:400 16px/1.3 Georgia,serif;letter-spacing:.13em;text-align:center}
+html body .v8-brand-line img{display:block;width:138px!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important;flex:0 0 auto}
+html body .v8-brand-line .v8-sun-lockup{display:flex;align-items:center;gap:12px;text-align:left}
+html body .v8-brand-line .v8-sun-lockup>span{font:400 12px/1.4 Georgia,serif;letter-spacing:.12em;max-width:100px;text-align:left}
+html body .v8-brand-line img.v8-key-mark{width:28px!important;height:auto!important;min-height:0!important;max-height:none!important}
+html body .v8-brand-line img.v8-rise-mark{width:126px!important;height:auto!important}
+html body .v8-native-marketing{background:#e8e3da}
+html body .v8-marketing-stage{padding:36px;display:flex;align-items:center;justify-content:center;min-width:0;background:linear-gradient(135deg,#ede9df,#d8d4c8);width:100%}
+html body .v8-native-marketing .v8-brand-line{flex-wrap:nowrap;justify-content:space-between;gap:20px;width:100%;min-height:90px;padding:16px 24px;background:#fff;border:0}
+html body .v8-native-marketing .v8-marketing-photo{display:block;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important;aspect-ratio:3/2}
+html body .v8-social-post,html body .v8-paper-piece,html body .v8-email-window,html body .v8-ad-piece,html body .v8-editorial-piece{width:100%;max-width:550px;min-width:0;background:#fff;box-shadow:0 16px 38px #332b2420;color:#41372b}
+html body .v8-social-post{max-width:450px;border:1px solid #d7d0c4;border-radius:18px;overflow:hidden}
+html body .v8-post-byline{padding:0 24px 18px;display:flex;flex-direction:column;gap:3px;font:10px/1.4 Arial,sans-serif;border-top:1px solid #eee9e1;padding-top:15px}
+html body .v8-post-byline strong{font:14px/1.4 Georgia,serif}
+html body .v8-design-copy{padding:25px 28px 30px}
+html body .v8-design-kicker{display:block;font:9px/1.6 Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:#716c5e}
+html body .v8-native-marketing .v8-design-copy h2,html body .v8-native-marketing .v8-design-copy h3{font:400 clamp(26px,2.3vw,35px)/1.12 Georgia,serif;letter-spacing:-.025em;margin:12px 0 14px;color:#41372b}
+html body .v8-native-marketing .v8-design-copy p{font:12px/1.7 Arial,sans-serif;margin:0;max-width:350px;color:#655e52}
+html body .v8-design-signature{display:block;font:10px/1.6 Arial,sans-serif;margin-top:20px}
+html body .v8-native-marketing .v8-concept-caption{padding:13px 18px;background:#ece8df;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font:10px/1.5 Arial,sans-serif;color:#5a5448;letter-spacing:.03em;border:0;width:100%}
+html body .v8-concept-caption>span{color:#716b60}
+html body .v8-marketing-hero>.v8-native-marketing{padding:26px 30px;align-self:stretch}
+html body .v8-marketing-hero .v8-marketing-stage{padding:24px 25px}
+html body .v8-marketing-hero .v8-brand-line{width:100%}
+html body .v8-paper-piece{padding:10px}
+html body .v8-paper-piece>.v8-brand-line{padding:15px 15px 10px}
+html body .v8-paper-piece .v8-design-copy{padding:22px 22px 10px;text-align:center}
+html body .v8-paper-foot{padding:22px 16px 14px;display:flex;justify-content:space-between;gap:18px;font:10px/1.7 Arial,sans-serif;border-top:1px solid #ddd6c9}
+html body .v8-paper-foot strong{font-weight:400;color:#41372b}
+html body .v8-print-concept .v8-marketing-stage{padding:35px 30px;background:#d7d9ce}
+html body .v8-email-window{border:1px solid #d0cec5;border-radius:7px;overflow:hidden}
+html body .v8-mail-heading{display:flex;flex-direction:column;gap:5px;padding:16px 22px;background:#f1f0eb;border-bottom:1px solid #dfddd4;font:10px/1.5 Arial,sans-serif;color:#726c60}
+html body .v8-mail-heading strong{font-size:12px;font-weight:400;color:#41372b}
+html body .v8-email-window .v8-design-copy{padding:26px 30px;text-align:center}
+html body .v8-email-window .v8-design-copy p{margin:auto}
+html body .v8-advertising-concept .v8-marketing-stage{background:#d8dacf}
+html body .v8-ad-piece .v8-design-copy{background:#f7f4ed}
+html body .v8-editorial-piece .v8-design-copy{text-align:center;padding:24px 20px 12px}
+html body .v8-editorial-piece .v8-paper-foot{padding:20px}
+html body .v4-property-sign{background:#fff}
+html body .v4-property-sign>img.v8-key-mark{width:24px;height:auto;max-height:none;min-height:0;object-fit:contain;margin:0 auto 8px}
+html body .v4-reverse>.v8-marketing-visual{grid-column:2;grid-row:1}
+html body .v4-collateral-content{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+html body .v4-property-sign .v8-sign-rise{width:130px;height:auto;max-width:100%;object-fit:contain;margin:13px auto 0}
+html body .v4-social-grid .v8-social-rise{width:120px;height:auto;max-width:95%;object-fit:contain;margin:20px auto 0}
+html body .v8-concierge-hero{align-items:center;min-height:0}
+html body .v8-concierge-hero figure{background:#eeece7}
+html body .v8-concierge-hero img{width:100%;height:auto;min-height:0;max-height:none;object-fit:contain}
+@media(max-width:900px){html body .v8-marketing-hero>.v8-marketing-visual{padding:20px}html body .v8-marketing-hero .v8-marketing-photo{height:auto!important;width:100%;max-height:none!important}html body .v8-marketing-hero .v8-brand-line{width:100%}html body .v8-brand-line{gap:14px}html body .v8-brand-line span{font-size:14px}}
+@media(min-width:641px) and (max-width:900px){html body .v8-native-marketing .v8-brand-line{flex-wrap:wrap;justify-content:center;gap:14px;padding:16px}}
+@media(max-width:640px){
+ html body .v8-marketing-hero>.v8-marketing-visual{padding:20px}
+ html body .v8-brand-line{padding:16px 12px;gap:16px;min-height:70px}
+ html body .v8-brand-line span{font-size:12px;letter-spacing:.09em}
+ html body .v8-brand-line img{width:122px!important}
+ html body .v4-collateral-content{grid-template-columns:1fr}
+ html body .v4-social-grid{grid-template-columns:1fr;max-width:310px;gap:16px}
+ html body .v4-social-grid .v8-social-rise{width:135px}
+ html body .v8-concierge-hero img{height:auto;min-height:0}
+ html body .v8-marketing-hero>.v8-native-marketing{padding:20px 16px}
+ html body .v8-native-marketing .v8-marketing-stage,html body .v8-marketing-hero .v8-marketing-stage{padding:18px 14px}
+ html body .v8-native-marketing .v8-brand-line{padding:14px 16px;gap:10px;min-height:80px}
+ html body .v8-brand-line .v8-sun-lockup{gap:8px}
+ html body .v8-brand-line .v8-sun-lockup>span{font-size:10px;letter-spacing:.08em;max-width:77px}
+ html body .v8-brand-line img.v8-key-mark{width:23px!important}
+ html body .v8-brand-line img.v8-rise-mark{width:99px!important}
+ html body .v8-post-byline{padding:12px 18px 15px;font-size:9px}
+ html body .v8-design-copy,html body .v8-email-window .v8-design-copy{padding:22px 20px}
+ html body .v8-native-marketing .v8-design-copy h2,html body .v8-native-marketing .v8-design-copy h3{font-size:27px}
+ html body .v8-native-marketing .v8-concept-caption{font-size:9px;gap:5px;padding:12px}
+ html body .v8-paper-piece{padding:6px}
+ html body .v8-paper-piece>.v8-brand-line{padding:12px 8px}
+ html body .v8-paper-foot{padding:16px 12px;font-size:9px;gap:12px}
+ html body .v4-property-sign{width:180px;padding:12px;left:8%}
+ html body .v4-property-sign strong{font-size:22px;margin:8px 0;padding:7px 0}
+}

@@ -1,0 +1,365 @@
+/* Sun and Sage / San Fernando Valley. One visual system across all page families. */
+:root{--ss-paper:#f8f7f3;--ss-mist:#e8e9e1;--ss-ink:#30382e;--ss-muted:#5b6651;--ss-green:#48533e;--ss-rule:#cdd1c3;--ss-measure:1280px}
+#main{color:var(--ss-ink)!important;background:var(--ss-paper)!important}
+#main :is(h1,h2,h3,h4,h5,h6){color:var(--ss-ink)!important;font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;font-weight:400!important;text-align:center!important;text-wrap:balance!important;letter-spacing:-.025em!important}
+#main h1{font-size:clamp(32px,3.3vw,48px)!important;line-height:1.18!important}
+#main h2{font-size:clamp(28px,2.8vw,40px)!important;line-height:1.25!important}
+#main h3{font-size:25px!important;line-height:1.3!important}
+#main h4{font-size:21px!important;line-height:1.35!important}
+#main :is(h1,h2,h3,h4) :is(em,span,strong){font:inherit!important;color:inherit!important;letter-spacing:inherit!important}
+#main :is(p,li,blockquote){font-family:Arial,Helvetica,sans-serif!important;color:var(--ss-ink)!important;font-size:16px!important;line-height:1.8!important;font-weight:400!important}
+#main p{letter-spacing:0!important}
+#main blockquote{font-size:19px!important}
+#main :is(.v4-eyebrow,.eyebrow,.v12-kicker){font-size:11px!important;line-height:1.6!important;color:var(--ss-muted)!important;letter-spacing:.11em!important}
+#main :is(.v4-button,.ss-solid-button,.cityHeroAction,.sunInlineAction button){background:var(--ss-green)!important;color:#fff!important;border:1px solid var(--ss-green)!important;font:400 14px/1.5 Arial,sans-serif!important;padding:15px 24px!important;border-radius:0!important;text-align:center!important}
+#main :is(.v4-button,.ss-solid-button,.cityHeroAction,.sunInlineAction button):hover{background:#30382e!important;color:#fff!important}
+#main :is(.v4-button,.ss-solid-button,.cityHeroAction,.sunInlineAction button) *{color:inherit!important}
+#main :is(a,button):focus-visible{outline:2px solid #768064!important;outline-offset:4px!important}
+#main :is(.ss21-section,.ss23-guide-copy section) h2{text-align:center!important}
+#main :is(.loanFace,.designPanels,.portfolioParentCardContent) h2{font-size:25px!important}
+/* Home changes only where requested. The approved menu and other Home sections stay. */
+#main.ss22-home .videoHeroTitle :is(h1,p){color:#fff!important}
+#main.ss22-home .videoHeroTitle h1{font-size:clamp(27px,3vw,46px)!important}
+#main.ss22-home .videoHeroTitle p{font-size:12px!important}
+#main .videoHero .doors,#main .videoHero .doors>div{animation-play-state:paused!important}
+#main .videoHero.ss23-opening .doors{animation:doorsGone 1ms 1.2s forwards!important}
+#main .videoHero.ss23-opening .doors>div:first-child{animation:leftOpen 1.05s cubic-bezier(.55,.02,.2,1) .1s forwards!important}
+#main .videoHero.ss23-opening .doors>div:last-child{animation:rightOpen 1.05s cubic-bezier(.55,.02,.2,1) .1s forwards!important}
+#main .videoHero.ss23-doors-finished .doors{display:none!important}
+#main.ss22-home .ss23-home-story{max-width:1160px;margin:auto;padding:46px 32px;display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:28px 0;align-items:center}
+#main .ss23-home-story>h2{grid-column:1/-1;max-width:960px;margin:0 auto 8px!important;font-size:clamp(28px,2.8vw,40px)!important}
+#main .ss23-home-story>h2 em{color:#617153!important}
+#main .ss23-home-portrait{width:100%;padding:0;background:transparent}
+#main .ss23-home-portrait img{display:block;width:100%;height:auto;max-height:630px;object-fit:contain;object-position:center}
+#main .ss23-home-story-copy{position:relative;margin-left:-18px;z-index:1;padding:32px 36px;background:var(--ss-paper);border:1px solid var(--ss-rule);outline:8px solid var(--ss-paper)}
+#main .ss23-home-story-copy p{margin:0 0 20px!important;text-align:left!important}
+#main .ss23-home-story-copy .ss22-text-link{display:table!important;margin:24px auto 0!important}
+#main.ss22-home .ss22-service-card>img{aspect-ratio:4/3!important;object-fit:cover!important}
+#main.ss22-home .ss22-service-card:nth-child(2)>img{object-position:center center!important}
+#main.ss22-home .ss22-service-caption h3{font-size:25px!important}
+#main.ss22-home .ss22-service-caption p{font-size:15px!important;line-height:1.65!important}
+/* Seller overview. Photography, framed captions and a compact, readable record. */
+#main.ss23-seller{max-width:none;padding:0;margin:0}
+#main .ss23-seller-intro{max-width:960px;margin:auto;padding:16px 32px 36px;text-align:center}
+#main .ss23-seller-intro h2{margin:0 0 18px!important}
+#main .ss23-seller-intro p{margin:0!important}
+#main .ss23-numbers{max-width:none;margin:0;padding:42px 4vw;background:var(--ss-mist)!important;color:var(--ss-ink)!important}
+#main .ss23-numbers h2{margin:0 0 26px!important;text-align:center!important}
+#main .ss23-numbers h2 br{display:none}
+#main .ss23-numbers h2 em::before{content:' '}
+#main .ss23-numbers h2 small{display:block;color:var(--ss-muted)!important;font:400 11px/1.6 Arial,sans-serif!important;letter-spacing:.1em!important;margin-top:12px}
+#main .ss23-numbers .v4-stats{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:0!important;width:100%!important;max-width:1280px!important;margin:0 auto!important;padding:20px 0!important}
+#main .ss23-numbers .v4-stat{display:flex!important;position:relative!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;gap:14px!important;height:auto!important;min-height:160px!important;padding:20px 18px!important;border-right:1px solid #bcc4ae!important;overflow:visible!important;background:transparent!important}
+#main .ss23-numbers .v4-stat:last-child{border:0!important}
+#main .ss23-numbers .v4-stat-art{display:none!important}
+#main .ss23-numbers .v4-stat strong{position:static!important;inset:auto!important;transform:none!important;font:400 clamp(25px,2.8vw,42px)/1.2 Arial,sans-serif!important;color:var(--ss-ink)!important;text-shadow:none!important;white-space:nowrap!important}
+#main .ss23-numbers .v4-stat span{position:static!important;inset:auto!important;transform:none!important;font:400 11px/1.6 Arial,sans-serif!important;color:var(--ss-muted)!important;letter-spacing:.08em!important;text-transform:uppercase!important;text-align:center!important}
+#main.ss23-seller .v4-source{font-size:11px!important;max-width:1000px!important;margin:18px auto 0!important;text-align:center!important;color:var(--ss-muted)!important;line-height:1.7!important}
+#main .ss23-seller-feature{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:center;max-width:1340px;margin:auto;padding:44px 32px;gap:0}
+#main .ss23-feature-photo{margin:0;width:100%;min-width:0}
+#main .ss23-feature-photo img{width:100%;height:auto;object-fit:contain;max-height:none}
+#main .ss23-feature-copy{position:relative;z-index:1;margin-left:-36px;padding:30px;background:var(--ss-paper);border:1px solid var(--ss-rule);outline:8px solid var(--ss-paper);text-align:center}
+#main .ss23-feature-copy h2{margin:0 0 18px!important}
+#main .ss23-feature-copy p{font-size:15px!important;margin:0 0 22px!important}
+#main .ss23-feature-copy .v4-button{padding:13px 18px!important;font-size:12px!important}
+#main .ss23-service-summary{padding:22px 0 0;margin:22px 0 0;border-top:1px solid var(--ss-rule)}
+#main .ss23-service-summary h3{font-size:21px!important;margin:0 0 16px!important}
+#main .ss23-service-summary ul{display:grid;grid-template-columns:1fr 1fr;gap:9px 20px;list-style:none;margin:0;padding:0;text-align:left}
+#main .ss23-service-summary li{font-size:12px!important;line-height:1.6!important;border-bottom:1px solid #e0e2d8;padding-bottom:8px}
+#main .ss23-recognition{max-width:1280px;margin:auto;padding:40px 32px;text-align:center;border-top:1px solid var(--ss-rule)}
+#main .ss23-recognition h2{margin:0 0 18px!important}
+#main .ss23-recognition>.v4-number{justify-content:center!important}
+#main .ss23-recognition .v4-ranks{max-width:1000px!important;margin:30px auto!important}
+#main .ss23-recognition .v4-rank-map{height:230px!important}
+#main .ss23-recognition .v4-rank-map strong{color:#fff!important}
+#main .ss23-awards{padding:32px;max-width:1280px;margin:auto;background:var(--ss-mist);text-align:center}
+#main .ss23-awards>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+#main .ss23-awards article{padding:18px;border-right:1px solid #c2c9b5}
+#main .ss23-awards article:last-child{border:0}
+#main .ss23-awards article>span{font:400 20px/1.4 Arial,sans-serif;color:var(--ss-muted)}
+#main .ss23-awards .v4-laurel{color:var(--ss-muted);width:60px;height:60px;margin:16px auto}
+#main .ss23-awards svg{width:100%;height:100%}
+#main .ss23-awards h3{font-size:18px!important;line-height:1.4!important;margin:12px 0!important}
+#main .ss23-awards p{font-size:13px!important;margin:0!important}
+#main .ss23-testimonial{padding:42px 32px;text-align:center;max-width:1100px;margin:auto}
+#main .ss23-testimonial .v4-number{justify-content:center!important}
+#main .ss23-testimonial h2{margin:12px 0 24px!important}
+#main .ss23-testimonial blockquote{max-width:800px;margin:0 auto 22px;font-size:20px!important;line-height:1.8!important}
+#main .ss23-testimonial .v4-eyebrow{margin:18px 0 26px!important}
+/* Service-page refinements keep media large and descriptions subordinate. */
+#main .ss22-hero-caption h1{font-size:clamp(32px,3vw,46px)!important}
+#main .ss22-chapter-copy h2{font-size:clamp(29px,2.8vw,40px)!important;text-align:center!important}
+#main .ss22-chapter-copy p{font-size:16px!important}
+#main .ss22-chapter-review,#main .ss22-chapter-plans,#main .ss22-chapter-email,#main .ss22-chapter-advertising{grid-template-columns:1fr!important;gap:26px!important}
+#main .ss22-chapter-copy{max-width:830px!important;text-align:center!important}
+#main .ss22-chapter-number{justify-content:center!important}
+#main .ss22-chapter-photo{max-width:1050px!important;width:100%!important;margin:auto!important}
+#main .ss22-chapter-review .ss22-chapter-photo img{max-height:610px!important;object-fit:contain!important}
+#main .ss22-comparisons{grid-template-columns:1fr!important;max-width:1050px!important;width:100%!important;margin:auto!important;gap:28px!important}
+#main .ss22-comparisons figure{width:100%!important;margin:0!important}
+#main .ss22-comparisons img{width:100%!important;height:auto!important;max-height:660px!important;object-fit:contain!important}
+#main .ss22-plan-gallery{max-width:920px!important;width:100%!important;margin:auto!important}
+#main .ss22-print-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:1180px!important;width:100%!important;margin:auto!important;gap:28px!important}
+#main .ss22-social-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:1050px!important;width:100%!important;margin:auto!important;gap:24px!important}
+#main .ss22-social-links svg{width:36px!important;height:36px!important;color:var(--ss-green)!important;margin:0 auto 12px!important;display:block!important}
+#main .ss22-social-links h4{font-size:20px!important}
+#main .ss22-social-links p{font-size:13px!important}
+#main .ss22-marketing-art .v10-mockup{max-width:min(100%,calc((100svh - 170px) * var(--v11-art-ratio,.8)))!important;width:min(100%,calc(680px * var(--v11-art-ratio,.8)))!important;max-height:680px!important}
+#main .ss22-marketing-art .v10-original-artwork{max-height:680px!important}
+/* Finance guides: one centered reading sequence, no alternating text/image halves. */
+#main.ss23-finance{max-width:none;margin:0;padding:0 24px 0}
+#main .ss23-guide-opening{max-width:1080px;margin:auto;padding:38px 0 20px;display:flex;flex-direction:column;align-items:center;gap:24px}
+#main .ss23-guide-title{width:100%;max-width:960px;text-align:center}
+#main .ss23-guide-title h1{margin:0!important;font-size:clamp(30px,3.2vw,44px)!important}
+#main .ss23-guide-opening figure{padding:0;margin:0;width:100%;max-width:1000px}
+#main .ss23-guide-opening figure img{position:static!important;width:100%!important;height:auto!important;max-height:580px!important;object-fit:contain!important;display:block!important}
+#main .ss23-guide-opening>.f4-answer{max-width:820px;margin:0!important;padding:0 0 24px;border-bottom:1px solid var(--ss-rule);font-size:18px!important;text-align:left!important}
+#main .ss23-guide-body{max-width:960px;display:flex;flex-direction:column;gap:28px;margin:auto;padding:12px 0 32px}
+#main .ss23-guide-copy{max-width:820px;width:100%;margin:auto}
+#main .ss23-guide-copy section{margin:0;padding:25px 0;border-bottom:1px solid var(--ss-rule)}
+#main .ss23-guide-copy h2{font-size:32px!important;margin:0 0 18px!important;text-align:center!important}
+#main .ss23-guide-copy p{margin:0 0 16px!important}
+#main .ss23-guide-copy p:last-child{margin-bottom:0!important}
+#main .ss23-guide-visual{width:100%;min-width:0;margin:auto;padding:0}
+#main.ss23-finance :is(.f4-checklist,.f4-calculator,.f4-feature,.f4-eligibility,.f4-roadmap,.f4-breakdown){background:var(--ss-mist)!important;border:0!important;padding:28px!important;color:var(--ss-ink)!important}
+#main.ss23-finance .f4-feature strong{font-size:48px!important;color:var(--ss-green)!important}
+#main.ss23-finance .f4-feature p{font-size:13px!important}
+#main.ss23-finance .f4-eligibility article>span,#main.ss23-finance .f4-roadmap article>span{font-size:23px!important;color:var(--ss-muted)!important}
+#main.ss23-finance .f4-matrix{background:var(--ss-paper)!important}
+#main.ss23-finance .f4-matrix th,#main.ss23-finance .f4-matrix td{font-size:15px!important;line-height:1.65!important;padding:18px!important;color:var(--ss-ink)!important}
+#main.ss23-finance .f4-matrix thead th{background:var(--ss-green)!important;color:#fff!important}
+#main.ss23-finance .f4-matrix tbody tr:nth-child(odd){background:var(--ss-mist)!important}
+#main.ss23-finance :is(.f4-related,.f4-chat){max-width:1040px;margin:auto!important;padding:34px 24px!important;background:var(--ss-mist)!important;text-align:center!important}
+#main.ss23-finance .f4-related>a{font-size:18px!important;line-height:1.5!important;color:var(--ss-green)!important;padding:18px 0!important}
+#main.ss23-finance .f4-chat{background:var(--ss-paper)!important}
+/* Project collections. Equal image frames, natural-size opening photographs. */
+#main.ss23-project{padding:0;margin:0;width:100%;max-width:none}
+#main .ss23-project-opening{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);align-items:center;width:100%;max-width:min(1280px,calc(var(--project-image-width,900px) * 1.625 + 64px));margin:auto;padding:38px 32px 30px;gap:0}
+#main .ss23-project-photo{margin:0;padding:0;width:100%;min-width:0}
+#main .ss23-project-photo>img{position:static!important;display:block!important;width:100%!important;height:auto!important;max-width:var(--project-image-width,100%)!important;max-height:590px!important;object-fit:contain!important;filter:none!important;transform:none!important}
+#main .ss23-project-title{position:relative;margin-left:-35px;padding:30px;background:var(--ss-paper);border:1px solid var(--ss-rule);outline:8px solid var(--ss-paper);z-index:1;text-align:center}
+#main .ss23-project-title>a{font-size:11px;letter-spacing:.08em;text-transform:uppercase;display:inline-block;margin:0 0 22px;color:var(--ss-muted)}
+#main .ss23-project-title h1{font-size:clamp(30px,2.8vw,42px)!important;margin:0 0 20px!important;line-height:1.2!important}
+#main .ss23-project-title p{font-size:15px!important;margin:0!important}
+#main .ss23-project-title .eyebrow{font-size:10px!important;margin:0 0 14px!important}
+#main.ss23-project .projectFilm{max-width:1100px!important;padding:25px 32px!important;margin:auto!important;background:transparent!important}
+#main.ss23-project .projectFilm header{padding:0!important;margin:0 0 15px!important;text-align:center!important}
+#main.ss23-project .projectFilm video{display:block!important;width:100%!important;height:auto!important;aspect-ratio:16/9!important;object-fit:contain!important;background:#30382e!important}
+#main.ss23-project .projectJobTabs{max-width:1280px!important;padding:0 24px 30px!important;margin:auto!important;background:transparent!important}
+#main.ss23-project .jobTabList{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:10px!important;margin:10px 0!important;padding:18px 0!important;border-block:1px solid var(--ss-rule)!important;background:transparent!important}
+#main.ss23-project .jobTabList button{color:var(--ss-green)!important;background:transparent!important;border:1px solid var(--ss-rule)!important;font-size:13px!important;padding:13px 18px!important;border-radius:0!important}
+#main.ss23-project .jobTabList button[aria-selected=true]{background:var(--ss-green)!important;border-color:var(--ss-green)!important;color:#fff!important}
+#main.ss23-project .jobPanel[hidden]{display:none!important}
+#main.ss23-project .ss21-project-caption{max-width:880px!important;padding:28px 24px!important}
+#main.ss23-project .ss21-project-caption h3{font-size:32px!important}
+#main.ss23-project .ss21-project-caption p{font-size:15px!important}
+#main .ss23-project-gallery{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-flow:row!important;gap:22px!important;margin:0 auto!important;padding:0!important;width:100%!important;max-width:1200px!important}
+#main .ss23-project-gallery>figure{grid-column:auto!important;grid-row:auto!important;margin:0!important;min-width:0!important;width:100%!important;height:auto!important;aspect-ratio:4/3!important;overflow:hidden!important}
+#main .ss23-project-gallery .ss23-gallery-open{display:block;width:100%;height:100%;cursor:zoom-in}
+#main .ss23-project-gallery img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;transform:none!important;filter:none!important}
+#main .ss23-project-gallery .beforeAfter{grid-column:1/-1!important;max-width:100%!important;width:100%!important}
+#main.ss23-project .projectNext{max-width:1200px!important;margin:auto!important;padding:32px 24px!important;background:var(--ss-mist)!important;text-align:center!important}
+#main.ss23-project .projectNext>div{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:20px!important}
+#main.ss23-project .projectNext a{font-size:23px!important;line-height:1.4!important;padding:20px!important;color:var(--ss-ink)!important;border:1px solid var(--ss-rule)!important}
+#main.ss23-project .projectNext span{display:block!important;margin-top:10px!important;font-size:11px!important;letter-spacing:.08em!important}
+.ss23-lightbox{position:fixed;inset:0;width:100vw;height:100vh;max-width:100vw;max-height:100vh;border:0;padding:56px 24px 24px;background:#22281ff2;overflow:hidden}
+.ss23-lightbox::backdrop{background:#22281f}
+.ss23-lightbox>img{display:block;width:100%;height:100%;object-fit:contain}
+.ss23-lightbox>button{position:absolute;right:24px;top:16px;border:1px solid #ffffff88;background:transparent;color:#fff;font:14px Arial;padding:10px 18px;cursor:pointer}
+/* About: a continuous editorial story, with the original portrait and approved words. */
+#main.ss23-about{max-width:1140px!important;margin:auto!important;padding:34px 32px 46px!important}
+#main .ss23-about-heading{text-align:center;margin:0 0 30px}
+#main .ss23-about-heading>span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--ss-muted)}
+#main .ss23-about-heading h1{margin:12px 0 0!important}
+#main .ss23-about-story{display:flow-root;max-width:1060px;margin:auto}
+#main .ss23-about-photo{float:left;width:38%;margin:0 36px 20px 0!important;padding:0!important}
+#main .ss23-about-photo img{display:block!important;width:100%!important;height:auto!important;object-fit:contain!important;filter:none!important;max-height:none!important}
+#main .ss23-about-story p{font-size:16px!important;line-height:1.85!important;margin:0 0 20px!important;text-align:left!important}
+#main .ss23-about-story>h2{clear:both;border-top:1px solid var(--ss-rule);padding-top:26px;margin:28px 0 18px!important;font-size:32px!important}
+/* Search and regional pages. */
+#main.ss23-search{padding:0 24px!important;max-width:none!important;margin:0!important}
+#main .ss23-page-heading{max-width:1000px;text-align:center;margin:auto;padding:36px 24px 12px}
+#main .ss23-page-heading>span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--ss-muted)}
+#main .ss23-page-heading h1{margin:12px 0!important}
+#main .ss23-region-intro{text-align:center;max-width:850px;margin:auto;padding:12px 20px 28px}
+#main .ss23-region-intro h2{font-size:32px!important;margin:0 0 18px!important}
+#main .ss23-region-intro p{margin:0!important}
+#main .ss23-regions{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:0 8px 32px}
+#main .ss23-regions>a{position:relative;display:block;aspect-ratio:3/2;overflow:hidden;text-decoration:none}
+#main .ss23-regions>a>img{display:block;width:100%;height:100%;object-fit:cover;filter:none}
+#main .ss23-region-caption{position:absolute;left:22px;right:22px;bottom:22px;display:block;padding:20px;background:rgba(248,247,243,.96);border:1px solid #d3d8c7;text-align:center;transition:background .2s}
+#main .ss23-region-caption small{display:none}
+#main .ss23-region-caption strong{display:block;font:400 30px/1.2 Arial,sans-serif;color:var(--ss-ink)}
+#main .ss23-region-caption em{display:block;margin:12px 0 0;font:400 11px/1.5 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--ss-muted)}
+#main .ss23-regions>a:hover .ss23-region-caption{background:var(--ss-green)}
+#main .ss23-regions>a:hover .ss23-region-caption *{color:#fff}
+#main .ss23-search-form{max-width:1280px;margin:auto;padding:32px;background:var(--ss-mist);text-align:center}
+#main .ss23-search-form h2{margin:0 0 25px!important}
+#main .ss23-search-form .heroSearch{position:static!important;inset:auto!important;transform:none!important;width:100%!important;max-width:none!important;padding:0!important;margin:0!important;background:transparent!important}
+#main .ss23-search-form .searchBar{display:grid!important;grid-template-columns:1.3fr 1fr 1fr 1fr auto!important;align-items:end!important;gap:16px!important;width:100%!important;padding:0!important;margin:0!important;background:transparent!important;border:0!important;box-shadow:none!important}
+#main .ss23-search-form label{display:flex!important;flex-direction:column!important;gap:9px!important;min-width:0!important;text-align:left!important}
+#main .ss23-search-form label>span{font-size:12px!important;color:var(--ss-muted)!important}
+#main .ss23-search-form :is(input,select){width:100%!important;min-width:0!important;height:46px!important;background:var(--ss-paper)!important;color:var(--ss-ink)!important;border:1px solid #b9c2a8!important;padding:10px!important;border-radius:0!important;font-size:14px!important}
+#main .ss23-search-form button{height:46px!important;padding:10px 18px!important;background:var(--ss-green)!important;color:#fff!important;font-size:13px!important;border:0!important;white-space:nowrap!important}
+/* Consistent card hierarchy and explicit color pairing on light/dark surfaces. */
+#main .loanFace h2{text-align:center!important;width:100%!important;margin:auto!important;font-size:24px!important}
+#main .loanFront{display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important}
+#main .loanBack :is(h2,h3,p,span){color:#fff!important}
+#main .loanBack{background:var(--ss-green)!important}
+#main :is(.v12-pm-process,.v12-pm-services,.v12-pm-intro,.v12-pm-closing){color:var(--ss-ink)!important}
+#main :is(.v12-pm-process,.v12-pm-services,.v12-pm-intro,.v12-pm-closing) :is(h2,h3,p,span){color:var(--ss-ink)!important}
+#main .v12-pm-process-grid h3{font-size:24px!important}
+#main .v12-pm-process-grid p{font-size:15px!important}
+#main .v12-pm-service-list h3{text-align:center!important}
+#main .v12-pm-closing{display:flex!important;flex-direction:column!important;align-items:center!important;gap:28px!important;background:var(--ss-mist)!important;padding:38px 24px!important}
+#main :is(.v12-pm-invitation,.v12-pm-clients){width:100%!important;max-width:900px!important;background:transparent!important;padding:0!important;border:0!important;text-align:center!important}
+#main .v12-pm-clients{border-top:1px solid var(--ss-rule)!important;padding-top:28px!important}
+#main .propertyCollageTitle :is(h1,p,span){color:var(--ss-ink)!important}
+#main .propertyCollageTitle{background:var(--ss-paper)!important}
+#main .propertyCollageHero figcaption{background:#30382ebf!important;color:#fff!important}
+#main .designPanels>a>span :is(strong,em,small,p,h2,h3),#main .designPanels>a>span{color:#fff!important}
+#main .designPanels>a>span{background:linear-gradient(transparent,#222d1eef)!important}
+#main .ss22-project:hover :is(strong,em),#main .ss22-project:focus-visible :is(strong,em),#main .portfolioParentCard:hover .portfolioParentCardContent *,#main .portfolioParentCard:focus-visible .portfolioParentCardContent *{color:#fff!important}
+#main :is(.ss22-service-hero,.v6-consult-hero) :is(h1,p){color:var(--ss-ink)!important}
+#main .ss21-article-heading{padding-top:32px!important}
+#main .ss21-article-heading h1{margin-top:0!important}
+/* Regional guides and supporting pages share the same material palette. */
+#main.valleyCatalogue{padding:0!important;max-width:none!important}
+#main .catalogueHero{display:block!important;min-height:0!important;padding:38px 24px 30px!important;background:var(--ss-paper)!important;text-align:center!important}
+#main .catalogueHero h1{margin:14px 0 20px!important}
+#main .catalogueHero p{max-width:800px!important;margin:0 auto!important}
+#main .catalogueHero small{color:var(--ss-muted)!important;font:11px/1.6 Arial,sans-serif!important;letter-spacing:.08em!important}
+#main .catalogueBack{color:var(--ss-green)!important;margin:12px auto 20px!important}
+#main .cityIndex{padding:22px!important;display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:14px 24px!important;background:var(--ss-mist)!important;border-block:1px solid var(--ss-rule)!important}
+#main .cityIndex a{color:var(--ss-green)!important;font:13px/1.6 Arial,sans-serif!important}
+#main .catalogueSection{padding:30px 32px!important;max-width:1280px!important;width:100%!important;margin:auto!important}
+#main .cityCatalogueGrid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;border:0!important}
+#main .cityEntry{padding:26px!important;background:var(--ss-paper)!important;border:1px solid var(--ss-rule)!important;text-align:center!important}
+#main .cityEntry>span{color:var(--ss-muted)!important;font:11px/1.6 Arial,sans-serif!important;letter-spacing:.07em!important}
+#main .cityEntry h3{margin:14px 0 22px!important;font-size:29px!important}
+#main .cityEntry dl{margin:0!important}
+#main .cityEntry dl div{display:grid!important;grid-template-columns:80px 1fr!important;gap:18px!important;text-align:left!important;padding:12px 0!important;border-top:1px solid var(--ss-rule)!important}
+#main .cityEntry dt{font:12px/1.7 Arial,sans-serif!important;color:var(--ss-muted)!important}
+#main .cityEntry dd{font:14px/1.7 Arial,sans-serif!important;color:var(--ss-ink)!important}
+#main .catalogueNote{padding:0 32px 30px!important;margin:0 auto!important;max-width:1100px!important;font-size:13px!important;text-align:center!important}
+#main .regionRequest{display:block!important;background:var(--ss-mist)!important;max-width:1216px!important;width:calc(100% - 64px)!important;margin:auto!important;padding:30px!important}
+#main .regionRequestIntro{background:transparent!important;max-width:820px!important;margin:auto!important;padding:0!important;text-align:center!important}
+#main .regionRequestIntro small{color:var(--ss-muted)!important;font:11px Arial,sans-serif!important}
+#main .regionRequestIntro h2{margin:14px 0 18px!important}
+#main .regionRequest form{max-width:1000px!important;margin:auto!important;padding:22px 0 0!important;gap:20px!important}
+#main .regionRequest label{color:var(--ss-ink)!important;font:12px/1.5 Arial,sans-serif!important;letter-spacing:0!important;text-transform:none!important}
+#main .regionRequest :is(input,select,textarea){padding:12px!important;background:var(--ss-paper)!important;border:1px solid #b9c2a8!important;border-radius:0!important;color:var(--ss-ink)!important;font:15px/1.5 Arial,sans-serif!important}
+#main .regionRequest button{justify-self:center!important;background:var(--ss-green)!important;color:#fff!important;font:14px/1.5 Arial,sans-serif!important;text-transform:none!important;letter-spacing:0!important}
+#main .catalogueFaq{max-width:960px!important;width:100%!important;margin:0 auto!important;padding:34px 32px!important;background:var(--ss-paper)!important}
+#main .catalogueFaq summary{font:18px/1.6 Arial,sans-serif!important;color:var(--ss-ink)!important}
+#main .estateRoutes{max-width:1280px!important;margin:auto!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;padding:10px 32px 36px!important;gap:24px!important;background:var(--ss-paper)!important}
+#main .estateRoutes>a{position:relative!important;display:flex!important;flex-direction:column!important;min-height:0!important;background:var(--ss-paper)!important;border:1px solid var(--ss-rule)!important}
+#main .estateRoutes figure{width:100%!important;aspect-ratio:4/3!important;margin:0!important;overflow:hidden!important}
+#main .estateRoutes img{width:100%!important;height:100%!important;object-fit:cover!important}
+#main .estateRoutes>a>span{position:static!important;margin:22px 0 0!important;padding:0!important;background:transparent!important;text-align:center!important;color:var(--ss-muted)!important;font:11px/1.6 Arial,sans-serif!important}
+#main .estateRoutes>a>div{padding:16px 20px 26px!important;text-align:center!important}
+#main .estateRoutes strong{font:400 27px/1.3 Arial,sans-serif!important;color:var(--ss-ink)!important}
+#main .estateRoutes em{display:block!important;margin-top:18px!important;color:var(--ss-green)!important;font:12px/1.6 Arial,sans-serif!important}
+#main .sageNumbers{background:var(--ss-mist)!important;color:var(--ss-ink)!important;padding:32px!important}
+#main .sageNumbers::before{display:none!important}
+#main .sageNumbers header{display:flex!important;flex-direction:column!important;align-items:center!important;gap:18px!important;border-color:var(--ss-rule)!important;padding-bottom:20px!important}
+#main .sageNumbers h2{margin:0!important}
+#main .sageStatRail{max-width:1216px!important;margin:auto!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important}
+#main .sageStatRail :is(strong,span){color:var(--ss-ink)!important;font-family:Arial,sans-serif!important}
+#main .sageStatRail strong{font-size:36px!important}
+#main .sageStatIcon{color:var(--ss-green)!important}
+#main .buyHero{background:var(--ss-paper)!important}
+#main .buyHeroCopy :is(h1,p,span,a){color:var(--ss-ink)!important}
+#main .buyJourney{background:var(--ss-paper)!important;margin-top:0!important;padding:34px 32px!important}
+#main .buyJourneyCard{min-height:0!important;background:var(--ss-paper)!important;border-color:var(--ss-rule)!important;padding:28px!important}
+#main .buyJourneyIcon{background:var(--ss-mist)!important;color:var(--ss-green)!important;margin:0 auto 20px!important}
+#main .homeVibeReviews{background:var(--ss-mist)!important;padding-block:38px!important}
+#main .loanBack a{color:#fff!important;border-color:#ffffff80!important}
+#main .loanBack a:hover{background:#fff!important;color:var(--ss-green)!important}
+#main .ss23-project-gallery>.v7-gallery-link{grid-column:1/-1!important}
+@media(max-width:1000px){
+ #main .ss23-seller-feature{grid-template-columns:1.2fr 1fr;padding:34px 24px}
+ #main .ss23-feature-copy{padding:25px;margin-left:-20px}
+ #main .ss23-service-summary ul{grid-template-columns:1fr}
+ #main .ss23-search-form .searchBar{grid-template-columns:1fr 1fr!important}
+ #main .ss23-search-form button{grid-column:1/-1!important}
+ #main .ss23-numbers .v4-stats{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+ #main .ss23-numbers .v4-stat{min-height:125px!important}
+}
+@media(max-width:760px){
+ #main h1{font-size:32px!important}
+ #main h2{font-size:29px!important}
+ #main h3{font-size:23px!important}
+ #main :is(p,li){font-size:16px!important}
+ #main.ss22-home .videoHeroTitle h1{font-size:24px!important}
+ #main.ss22-home .videoHeroTitle p{font-size:9px!important}
+ #main.ss22-home .ss23-home-story{display:flex;flex-direction:column;padding:30px 22px;gap:24px}
+ #main .ss23-home-portrait{max-width:340px}
+ #main .ss23-home-portrait img{max-height:510px}
+ #main .ss23-home-story-copy{padding:0!important;margin:0!important;border:0!important;outline:0!important}
+ #main .ss23-home-story-copy p{font-size:16px!important}
+ #main .ss23-home-story>h2{font-size:28px!important}
+ #main .ss23-seller-intro{padding:8px 22px 28px}
+ #main .ss23-numbers{padding:30px 22px}
+ #main .ss23-numbers .v4-stats{grid-template-columns:1fr 1fr!important}
+ #main .ss23-numbers .v4-stat{min-height:120px!important;padding:16px 12px!important}
+ #main .ss23-numbers .v4-stat:last-child{grid-column:1/-1!important}
+ #main .ss23-numbers .v4-stat:nth-child(2n){border-right:0!important}
+ #main .ss23-seller-feature{display:flex;flex-direction:column;padding:30px 22px}
+ #main .ss23-feature-copy{width:calc(100% - 26px);padding:24px 18px;margin:-22px 0 0;outline-width:5px}
+ #main .ss23-service-summary ul{grid-template-columns:1fr 1fr}
+ #main .ss23-recognition{padding:30px 22px}
+ #main .ss23-recognition .v4-ranks{display:grid!important;grid-template-columns:1fr!important;gap:20px!important}
+ #main .ss23-recognition .v4-rank-map{height:200px!important}
+ #main .ss23-awards{padding:26px 20px}
+ #main .ss23-awards>div{grid-template-columns:1fr 1fr;gap:18px}
+ #main .ss23-awards article{padding:14px 10px}
+ #main .ss23-awards article:nth-child(2n){border:0}
+ #main .ss23-testimonial{padding:30px 22px}
+ #main .ss23-testimonial blockquote{font-size:18px!important}
+ #main .ss22-print-gallery,#main .ss22-social-gallery{grid-template-columns:1fr!important;gap:26px!important}
+ #main.ss23-finance{padding:0 22px}
+ #main .ss23-guide-opening{padding:28px 0 10px;gap:22px}
+ #main .ss23-guide-title h1{font-size:30px!important}
+ #main .ss23-guide-opening>.f4-answer{font-size:17px!important}
+ #main .ss23-guide-copy h2{font-size:28px!important}
+ #main.ss23-finance :is(.f4-checklist,.f4-calculator,.f4-feature,.f4-eligibility,.f4-roadmap,.f4-breakdown){padding:22px!important}
+ #main.ss23-finance .f4-breakdown{display:grid!important;grid-template-columns:1fr 1fr!important}
+ #main.ss23-finance .f4-down-results{grid-template-columns:1fr 1fr!important}
+ #main.ss23-finance .f4-matrix-wrap{overflow-x:auto!important}
+ #main .ss23-project-opening{display:flex;flex-direction:column;padding:28px 22px}
+ #main .ss23-project-title{width:calc(100% - 28px);padding:24px 20px;margin:-22px 0 0;outline-width:5px}
+ #main .ss23-project-title h1{font-size:31px!important}
+ #main.ss23-project .projectFilm{padding:10px 22px 25px!important}
+ #main.ss23-project .projectJobTabs{padding:0 22px 25px!important}
+ #main.ss23-project .jobTabList button{font-size:12px!important;padding:11px 14px!important}
+ #main .ss23-project-gallery{grid-template-columns:1fr!important;gap:18px!important}
+ #main.ss23-project .ss21-project-caption{padding:24px 0!important}
+ #main.ss23-project .ss21-project-caption h3{font-size:28px!important}
+ #main.ss23-project .projectNext>div{grid-template-columns:1fr!important;gap:12px!important}
+ #main.ss23-about{padding:28px 22px 34px!important}
+ #main .ss23-about-photo{float:none;width:100%;max-width:340px;margin:0 auto 25px!important}
+ #main .ss23-about-story>h2{font-size:29px!important}
+ #main.ss23-search{padding:0 22px!important}
+ #main .ss23-page-heading{padding:28px 0 10px}
+ #main .ss23-region-intro{padding:6px 0 24px}
+ #main .ss23-region-intro h2{font-size:28px!important}
+ #main .ss23-regions{grid-template-columns:1fr;gap:20px;padding:0 0 26px}
+ #main .ss23-region-caption{left:16px;right:16px;bottom:16px;padding:16px}
+ #main .ss23-region-caption strong{font-size:27px}
+ #main .ss23-search-form{padding:26px 20px}
+ #main .ss23-search-form .searchBar{gap:16px 12px!important}
+ #main .ss23-search-form label:first-child,#main .ss23-search-form label:nth-child(4){grid-column:1/-1!important}
+ #main .catalogueSection{padding:24px 22px!important}
+ #main .cityCatalogueGrid,#main .estateRoutes{grid-template-columns:1fr!important}
+ #main .estateRoutes{padding:0 22px 28px!important}
+ #main .regionRequest{width:calc(100% - 44px)!important;padding:24px 20px!important}
+ #main .regionRequest form{grid-template-columns:1fr!important}
+ #main .regionRequest label{grid-column:1!important}
+ #main .catalogueFaq{padding:28px 22px!important}
+ #main .sageStatRail{grid-template-columns:1fr 1fr!important}
+ #main .sageNumbers{padding:28px 22px!important}
+ #main .sageStatRail strong{font-size:29px!important}
+ #main .buyJourney{padding:28px 22px!important}
+}
+@media(prefers-reduced-motion:reduce){#main .doors{display:none!important}}
