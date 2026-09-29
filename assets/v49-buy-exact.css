@@ -140,3 +140,127 @@ body.ss18 .ss49-buy-exact .ss49-note{width:min(1180px,100%)!important;margin:12p
     margin:0 auto!important;
   }
 }
+
+
+/* v61: coherent mobile Buy With Dominique redesign */
+.ss61-mobile-buy{display:none!important}
+@media(max-width:800px){
+  body.ss18 .ss49-buy-exact .ss49-mobile-art{display:none!important}
+  body.ss18 .ss49-buy-exact .ss61-mobile-buy{display:block!important;background:#f8f7f3!important;color:#273028!important}
+  body.ss18 .ss49-buy-exact .ss61-mobile-intro,
+  body.ss18 .ss49-buy-exact .ss61-mobile-section{
+    width:100%!important;
+    margin:0!important;
+    padding:40px 22px!important;
+    background:#f8f7f3!important;
+    border-bottom:1px solid #e2ded5!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-mobile-intro{padding-top:34px!important}
+  body.ss18 .ss49-buy-exact .ss61-eyebrow,
+  body.ss18 .ss49-buy-exact .ss61-subhead{
+    display:block!important;
+    margin:0 0 14px!important;
+    color:#66705f!important;
+    font:500 11px/1.35 Arial,Helvetica,sans-serif!important;
+    letter-spacing:.18em!important;
+    text-transform:uppercase!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-mobile-intro h1{
+    margin:0 0 18px!important;
+    color:#283129!important;
+    font:400 clamp(42px,12vw,58px)/.98 Arial,Helvetica,sans-serif!important;
+    letter-spacing:-.045em!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-mobile-intro p:last-child{
+    margin:0!important;
+    color:#4b5149!important;
+    font:400 17px/1.7 Arial,Helvetica,sans-serif!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-mobile-section h2{
+    margin:0 0 24px!important;
+    color:#283129!important;
+    font:400 34px/1.05 Arial,Helvetica,sans-serif!important;
+    letter-spacing:-.035em!important;
+    text-align:left!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-process-section{padding-left:12px!important;padding-right:12px!important}
+  body.ss18 .ss49-buy-exact .ss61-process-section h2{padding:0 10px!important}
+  body.ss18 .ss49-buy-exact .ss61-process-wheel{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    margin:0 auto!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-benefit-list{display:grid!important;gap:12px!important}
+  body.ss18 .ss49-buy-exact .ss61-benefit-list article{
+    display:grid!important;
+    grid-template-columns:44px 1fr!important;
+    gap:14px!important;
+    align-items:center!important;
+    padding:18px 16px!important;
+    background:#fff!important;
+    border:1px solid #e3ded4!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-benefit-icon{
+    display:grid!important;place-items:center!important;
+    width:44px!important;height:44px!important;border-radius:50%!important;
+    background:#7f8874!important;color:#fff!important;font-size:14px!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-benefit-list h3{
+    margin:0 0 5px!important;
+    color:#2d342d!important;
+    font:500 16px/1.2 Arial,Helvetica,sans-serif!important;
+    letter-spacing:.08em!important;
+    text-transform:uppercase!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-benefit-list p{
+    margin:0!important;
+    color:#62665f!important;
+    font:400 14px/1.45 Arial,Helvetica,sans-serif!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-chart-section{padding-left:16px!important;padding-right:16px!important}
+  body.ss18 .ss49-buy-exact .ss61-chart-section h2{padding:0 6px!important}
+  body.ss18 .ss49-buy-exact .ss61-chart-section img{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    margin:0 auto!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-reach-grid{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:12px!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-reach-grid article{
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    min-height:220px!important;
+    padding:12px!important;
+    background:#fff!important;
+    border:1px solid #e3ded4!important;
+    overflow:hidden!important;
+  }
+  body.ss18 .ss49-buy-exact .ss61-reach-grid img{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    max-height:210px!important;
+    object-fit:contain!important;
+    margin:0 auto!important;
+  }
+  body.ss18 .ss49-buy-exact .ss49-button-row{padding:0 16px 42px!important;background:#f8f7f3!important}
+  body.ss18 .ss49-buy-exact .bottom-cta{margin-top:20px!important}
+}
+
+
+/* v62 final mobile visibility pass: nothing cropped, nothing too small. */
+@media(max-width:800px){
+  body.ss18 .ss49-buy-exact .ss61-process-section{padding-left:8px!important;padding-right:8px!important}
+  body.ss18 .ss49-buy-exact .ss61-process-wheel{width:100%!important;max-width:520px!important;height:auto!important;object-fit:contain!important}
+  body.ss18 .ss49-buy-exact .ss61-chart-section{padding-left:10px!important;padding-right:10px!important}
+  body.ss18 .ss49-buy-exact .ss61-chart-section img{width:100%!important;max-width:520px!important;height:auto!important;object-fit:contain!important}
+  body.ss18 .ss49-buy-exact .ss61-reach-grid{grid-template-columns:1fr!important;gap:14px!important}
+  body.ss18 .ss49-buy-exact .ss61-reach-grid article{min-height:0!important;padding:14px 8px!important;overflow:visible!important}
+  body.ss18 .ss49-buy-exact .ss61-reach-grid img{width:auto!important;max-width:88%!important;max-height:none!important;height:auto!important;object-fit:contain!important;margin:0 auto!important}
+  body.ss18 .ss49-buy-exact .ss61-mobile-intro,
+  body.ss18 .ss49-buy-exact .ss61-mobile-section{overflow:visible!important}
+}
