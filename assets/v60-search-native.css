@@ -1,0 +1,30 @@
+/* v60: Search page city selector must match the homepage native dropdown. */
+body.search-native-city .searchBar .cityPicker{display:none!important}
+body.search-native-city .searchBar select.cityNativeSelect{
+  position:static!important;
+  display:block!important;
+  width:100%!important;
+  height:46px!important;
+  min-height:46px!important;
+  opacity:1!important;
+  pointer-events:auto!important;
+  clip:auto!important;
+  overflow:visible!important;
+  margin:0!important;
+  padding:0 34px 0 0!important;
+  color:#41372B!important;
+  background:#fff!important;
+  font:400 16px/1.2 Arial,Helvetica,sans-serif!important;
+  -webkit-appearance:auto!important;
+  appearance:auto!important;
+}
+body.search-native-city .searchBar label:first-child:after{display:none!important;content:none!important}
+@media(max-width:800px){
+  body.search-native-city .searchBar select.cityNativeSelect{
+    width:100%!important;
+    min-width:0!important;
+    height:48px!important;
+    padding:0 12px!important;
+    font-size:16px!important;
+  }
+}

@@ -90,3 +90,11 @@
     display:none!important;
   }
 }
+
+/* v45 — restore the opening animation on mobile after the handle cleanup. */
+@media (max-width:760px), (max-width:1023px) and (orientation:landscape) and (pointer:coarse) {
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero.ss23-opening .doors,
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero.ss23-opening .doors>div {
+    animation-play-state:running!important;
+  }
+}
