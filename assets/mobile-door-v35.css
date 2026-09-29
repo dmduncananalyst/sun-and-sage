@@ -81,3 +81,12 @@
     visibility:hidden!important;
   }
 }
+
+/* v43: remove only the duplicate long silver pulls on mobile.
+   The existing black doorHandle spans, frame, timing, and hero size are unchanged. */
+@media (max-width:760px), (max-width:1023px) and (orientation:landscape) and (pointer:coarse) {
+  html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .doors>div::before {
+    content:none!important;
+    display:none!important;
+  }
+}
