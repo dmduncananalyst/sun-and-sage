@@ -22,8 +22,9 @@ html body.ss18 #ss22-navigation .ss22-panel-content a::after{content:none!import
 html body.ss18 #ss22-navigation .ss22-panel-content a:hover,html body.ss18 #ss22-navigation .ss22-panel-content a:focus-visible{text-decoration:underline!important;text-underline-offset:5px!important;color:white!important}
 html body.ss18 #ss22-navigation .ss22-panel-content section{padding:0!important;margin:0!important;border:0!important;min-width:0!important;background:transparent!important}
 html body.ss18 #ss22-navigation .ss22-menu-heading{font-size:11px!important;text-transform:uppercase!important;letter-spacing:.14em!important;line-height:1.5!important;color:#e3e7db!important;font-weight:600!important;margin:0 0 12px!important;padding:0!important;column-span:all!important}
-html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content{display:grid!important;grid-template-columns:minmax(0,1fr) 210px!important;width:830px!important;gap:34px!important}
-html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:first-child{columns:3;column-gap:22px}
+html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content{display:grid!important;grid-template-columns:210px minmax(0,1fr)!important;width:830px!important;gap:34px!important}
+html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:first-child{columns:1;column-gap:22px}
+html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:nth-child(2){columns:3;column-gap:22px}
 html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content a{font-size:12px!important;padding:7px 0!important;letter-spacing:.025em!important}
 html body.ss18 #ss22-navigation .ss22-financing .ss22-panel-content{width:760px!important;columns:3;column-gap:30px}
 html body.ss18 #ss22-navigation .ss22-financing .ss22-panel-content a{font-size:12px!important;letter-spacing:.02em!important}
@@ -102,7 +103,7 @@ html body.ss18 .ss21-flip-hint{display:none!important}
  html body.ss18 #ss22-navigation .ss22-sub-toggle{display:block!important;position:absolute!important;right:0!important;top:9px!important;padding:7px 12px!important;font-size:11px!important;background:transparent!important;color:#474f3e!important;border:1px solid #bbc2b1!important;cursor:pointer!important}
  html body.ss18 #ss22-navigation .ss22-panel{position:static!important;padding:20px!important;backdrop-filter:none!important;margin:0 0 14px!important;box-shadow:none!important}
  html body.ss18 #ss22-navigation .ss22-panel-content{width:100%!important;max-width:none!important;margin:0!important}
- html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content{width:100%!important;grid-template-columns:1fr 220px!important}
+ html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content{width:100%!important;grid-template-columns:220px 1fr!important}
  html body.ss18 #ss22-navigation .ss22-financing .ss22-panel-content{width:100%!important}
  html body.ss18 main.ss22-home .videoHero.v15-video-hero{height:min(67vw,670px)!important;min-height:0!important}
 }
@@ -110,7 +111,8 @@ html body.ss18 .ss21-flip-hint{display:none!important}
  html body.ss18 #ss22-header{padding:12px 18px!important;min-height:76px!important}
  html body.ss18 #ss22-header .ss22-brand span{font-size:15px!important}
  html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content{display:block!important}
- html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:first-child{columns:2;margin-bottom:25px!important}
+ html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:first-child{columns:1;margin-bottom:25px!important}
+ html body.ss18 #ss22-navigation .ss22-buyers .ss22-panel-content>section:nth-child(2){columns:2;column-gap:20px}
  html body.ss18 #ss22-navigation .ss22-financing .ss22-panel-content{columns:2;column-gap:20px}
  html body.ss18 main.ss22-home .videoHero.v15-video-hero{height:auto!important;aspect-ratio:16/9!important;min-height:0!important}
  html body.ss18 main.ss22-home .videoHeroTitle{padding:45px 14px 15px!important}
