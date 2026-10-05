@@ -207,3 +207,25 @@ html body.ss18 #main.qseo-enhanced .qseo-cta .qseo-cta-button:focus-visible{
     padding:22px 20px!important;
   }
 }
+
+/* v2 card-section background fix, keep one white container behind the full grid on all card pages */
+html body.ss18 #main.loanHubPage .loanHubGridWrap,
+html body.ss18 #main.questionHubPage .loanHubGridWrap{
+  background:transparent!important;
+  padding-left:0!important;
+  padding-right:0!important;
+}
+html body.ss18 #main.loanHubPage .loanHubGrid,
+html body.ss18 #main.questionHubPage .loanHubGrid{
+  background:#fff!important;
+  margin:0 auto!important;
+  width:min(1440px,94vw)!important;
+  box-sizing:border-box!important;
+  align-content:start!important;
+}
+@media (max-width:800px){
+  html body.ss18 #main.loanHubPage .loanHubGrid,
+  html body.ss18 #main.questionHubPage .loanHubGrid{
+    width:min(620px,92vw)!important;
+  }
+}

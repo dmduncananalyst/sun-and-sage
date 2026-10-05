@@ -310,3 +310,31 @@ html body.ss18 #main .ss-city-card-action{
   text-align:center!important;
   margin:0!important;
 }
+
+
+/* Working With Dominique card wrapper fix, keep the white panel fully behind the entire card grid. */
+html body.ss18 #main.qaStandardPage .loanHubGridWrap{
+  width:min(1440px,calc(100% - 64px))!important;
+  max-width:1440px!important;
+  margin:0 auto!important;
+  padding:56px 28px 78px!important;
+  background:#fff!important;
+  box-sizing:border-box!important;
+  overflow:visible!important;
+}
+html body.ss18 #main.qaStandardPage .loanHubGrid{
+  width:100%!important;
+  max-width:none!important;
+  margin:0!important;
+  box-sizing:border-box!important;
+}
+@media(max-width:800px){
+  html body.ss18 #main.qaStandardPage .loanHubGridWrap{
+    width:calc(100% - 32px)!important;
+    max-width:none!important;
+    padding:32px 16px 48px!important;
+  }
+  html body.ss18 #main.qaStandardPage .loanHubGrid{
+    width:100%!important;
+  }
+}
