@@ -1,0 +1,147 @@
+/* Unified mobile property search — match screenshot 4435 */
+@media (max-width:800px){
+  html body.ss18 .heroSearch,
+  html body.ss18 .ss59-search-primary .heroSearch,
+  html body.ss18 .homeSearchBelowStory .heroSearch,
+  html body.ss18 .searchHubBar .heroSearch,
+  html body.ss18 .ss23-search-form .heroSearch,
+  html body.ss18 .ss-directory-search .heroSearch,
+  html body.ss18 main>.heroDominique>.heroSearch{
+    position:relative!important;
+    inset:auto!important;
+    left:auto!important;
+    right:auto!important;
+    top:auto!important;
+    bottom:auto!important;
+    transform:none!important;
+    width:100%!important;
+    max-width:520px!important;
+    margin:0 auto!important;
+    padding:0!important;
+    overflow:visible!important;
+    background:transparent!important;
+    border:0!important;
+  }
+
+  html body.ss18 .searchBar,
+  html body.ss18 .heroSearch .searchBar,
+  html body.ss18 .ss59-search-primary .searchBar,
+  html body.ss18 .homeSearchBelowStory .searchBar,
+  html body.ss18 .searchHubBar .searchBar,
+  html body.ss18 .ss23-search-form .searchBar,
+  html body.ss18 .ss-directory-search .searchBar,
+  html body.ss18 main>.heroDominique .searchBar{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:0!important;
+    width:100%!important;
+    max-width:520px!important;
+    margin:0 auto!important;
+    padding:0!important;
+    background:#fff!important;
+    border:1px solid #d5d5ce!important;
+    border-radius:0!important;
+    box-shadow:0 13px 30px rgba(48,55,45,.11)!important;
+    overflow:hidden!important;
+  }
+
+  html body.ss18 .searchBar label,
+  html body.ss18 .heroSearch .searchBar label,
+  html body.ss18 main>.heroDominique .searchBar label{
+    position:relative!important;
+    display:flex!important;
+    flex-direction:column!important;
+    justify-content:center!important;
+    gap:5px!important;
+    width:100%!important;
+    min-width:0!important;
+    min-height:68px!important;
+    margin:0!important;
+    padding:11px 14px!important;
+    text-align:left!important;
+    background:#fff!important;
+    border:0!important;
+    border-right:0!important;
+    border-bottom:1px solid #dedfd8!important;
+    box-sizing:border-box!important;
+  }
+
+  html body.ss18 .searchBar label>span,
+  html body.ss18 .heroSearch .searchBar label>span,
+  html body.ss18 main>.heroDominique .searchBar label>span{
+    display:block!important;
+    margin:0!important;
+    color:#586052!important;
+    font:600 9px/1.2 Arial,Helvetica,sans-serif!important;
+    letter-spacing:.13em!important;
+    text-transform:uppercase!important;
+  }
+
+  html body.ss18 .searchBar :is(input,select),
+  html body.ss18 .heroSearch .searchBar :is(input,select),
+  html body.ss18 main>.heroDominique .searchBar :is(input,select){
+    display:block!important;
+    visibility:visible!important;
+    box-sizing:border-box!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    height:32px!important;
+    min-height:32px!important;
+    margin:0!important;
+    padding:0 24px 0 0!important;
+    color:#30372f!important;
+    background:#fff!important;
+    border:0!important;
+    border-radius:0!important;
+    outline:0!important;
+    box-shadow:none!important;
+    font:400 16px/32px Arial,Helvetica,sans-serif!important;
+    -webkit-appearance:auto!important;
+    appearance:auto!important;
+  }
+
+  html body.ss18 .searchBar button,
+  html body.ss18 .heroSearch .searchBar button,
+  html body.ss18 .ss59-search-primary .searchBar button,
+  html body.ss18 .homeSearchBelowStory .searchBar button,
+  html body.ss18 .searchHubBar .searchBar button,
+  html body.ss18 .ss23-search-form .searchBar button,
+  html body.ss18 .ss-directory-search .searchBar button,
+  html body.ss18 main>.heroDominique .searchBar button{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    box-sizing:border-box!important;
+    grid-column:1!important;
+    width:100%!important;
+    min-width:0!important;
+    min-height:58px!important;
+    height:58px!important;
+    margin:0!important;
+    padding:12px 16px!important;
+    color:#fff!important;
+    background:#4e5d45!important;
+    border:0!important;
+    border-radius:0!important;
+    font:600 10px/1.2 Arial,Helvetica,sans-serif!important;
+    letter-spacing:.12em!important;
+    text-transform:uppercase!important;
+    white-space:normal!important;
+  }
+
+  /* Keep the search heading spacing identical anywhere this module appears. */
+  html body.ss18 :is(.ss59-search-primary,.homeSearchBelowStory,.searchHubBar,.ss-directory-search) .homeSearchKicker{
+    margin:0 0 8px!important;
+    text-align:center!important;
+    font-size:10px!important;
+    letter-spacing:.15em!important;
+  }
+  html body.ss18 :is(.ss59-search-primary,.homeSearchBelowStory,.searchHubBar,.ss-directory-search) h2{
+    margin:0 auto 20px!important;
+    max-width:520px!important;
+    text-align:center!important;
+    font-size:34px!important;
+    line-height:1.08!important;
+  }
+}

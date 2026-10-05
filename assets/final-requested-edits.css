@@ -93,3 +93,32 @@ main:not(.ss22-home) .loanHubItem,main:not(.ss22-home) .lifeCard{min-height:0}
 .loanHubGrid{align-items:start!important;grid-auto-rows:auto!important}
 .final-property .ss90-platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0!important}
 .final-property .ss90-platform-card strong{font-size:clamp(1.6rem,2.4vw,2.65rem)!important;overflow-wrap:normal!important;word-break:normal!important}
+
+/* Card height audit fix: keep question/life-change/article cards the same height within each row. */
+.loanHubGrid{align-items:stretch!important;grid-auto-rows:1fr!important}
+.loanHubGrid>.loanHubItem,
+.lifeChangesPage .loanHubGrid>.loanHubItem,
+#main .loanHubGrid>.loanHubItem{
+  height:100%!important;
+  display:flex!important;
+  flex-direction:column!important;
+}
+.loanHubItem .ss18-card-photo,
+.loanHubItem .v27-photo-frame{
+  flex:0 0 auto!important;
+}
+.loanHubItem .final-static-answer{
+  flex:1 1 auto!important;
+  min-height:0!important;
+}
+.loanHubItem .final-static-answer-copy{
+  flex:1 1 auto!important;
+}
+.loanHubItem .loanLearn{
+  margin-top:auto!important;
+}
+/* Keep equal-height behavior on mobile too without shrinking card internals. */
+@media(max-width:800px){
+  .loanHubGrid{grid-auto-rows:auto!important}
+  .loanHubGrid>.loanHubItem{height:100%!important}
+}

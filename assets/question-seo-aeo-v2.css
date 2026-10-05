@@ -1,0 +1,159 @@
+/* Sun and Sage question/article final presentation - Oct. 4, 2026 */
+#main.qseo-enhanced .qseo-breadcrumbs,
+#main.qseo-enhanced .qseo-trust,
+#main.qseo-enhanced .qseo-primary-refs,
+#main.qseo-enhanced .qseo-author,
+#main.qseo-enhanced .qseo-related,
+#main.qseo-enhanced .qseo-disclaimer,
+#main.qseo-enhanced .qseo-direct-label{display:none!important;}
+
+/* Opening answer is ordinary article copy, not a callout. */
+#main.qseo-enhanced .qseo-direct-answer{
+  display:block!important;
+  max-width:none!important;
+  width:auto!important;
+  margin:0!important;
+  padding:0!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  color:inherit!important;
+  font:inherit!important;
+  line-height:inherit!important;
+  text-align:inherit!important;
+}
+
+/* Local context is part of the article flow. */
+#main.qseo-enhanced .qseo-local-context{
+  display:block!important;
+  max-width:none!important;
+  width:100%!important;
+  margin:34px 0 0!important;
+  padding:0!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  box-sizing:border-box!important;
+}
+#main.qseo-enhanced .qseo-local-context h2{
+  margin:0 0 14px!important;
+  padding:0!important;
+  color:#2f382d!important;
+  font:400 clamp(25px,2.4vw,32px)/1.22 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.02em!important;
+  text-align:left!important;
+}
+#main.qseo-enhanced .qseo-local-context p{
+  margin:0!important;
+  padding:0!important;
+  color:#2f332e!important;
+  font:400 16px/1.78 Arial,Helvetica,sans-serif!important;
+  text-align:left!important;
+}
+
+/* References are a quiet utility box immediately above the CTA. */
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom{
+  display:block!important;
+  max-width:none!important;
+  width:100%!important;
+  margin:36px 0 0!important;
+  padding:24px 26px!important;
+  background:#f7f4ed!important;
+  border:1px solid #d7d0c4!important;
+  box-shadow:none!important;
+  box-sizing:border-box!important;
+  text-align:left!important;
+}
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom h2{
+  margin:0 0 14px!important;
+  padding:0!important;
+  color:#2f382d!important;
+  font:500 21px/1.25 Arial,Helvetica,sans-serif!important;
+  letter-spacing:0!important;
+  text-align:left!important;
+}
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom ul{
+  display:grid!important;
+  gap:8px!important;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom li{
+  margin:0!important;
+  padding:0!important;
+  color:#3f443d!important;
+  font:400 14px/1.55 Arial,Helvetica,sans-serif!important;
+}
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom a{
+  color:#4d5d45!important;
+  font:inherit!important;
+  text-decoration:underline!important;
+  text-decoration-thickness:1px!important;
+  text-underline-offset:3px!important;
+}
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom a:hover,
+#main.qseo-enhanced .qseo-sources.qseo-references-bottom a:focus-visible{
+  color:#293126!important;
+}
+
+/* CTA uses the site's sage button language and reads as a real section. */
+#main.qseo-enhanced .qseo-cta{
+  display:block!important;
+  max-width:none!important;
+  width:100%!important;
+  margin:22px 0 0!important;
+  padding:30px 28px!important;
+  background:#e8ece4!important;
+  border:1px solid #c7d0c1!important;
+  box-shadow:none!important;
+  box-sizing:border-box!important;
+  text-align:center!important;
+}
+#main.qseo-enhanced .qseo-cta h2{
+  margin:0 0 10px!important;
+  padding:0!important;
+  color:#2f382d!important;
+  font:400 clamp(24px,2.3vw,30px)/1.2 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.02em!important;
+  text-align:center!important;
+}
+#main.qseo-enhanced .qseo-cta p{
+  max-width:680px!important;
+  margin:0 auto 18px!important;
+  padding:0!important;
+  color:#424740!important;
+  font:400 15px/1.65 Arial,Helvetica,sans-serif!important;
+  text-align:center!important;
+}
+#main.qseo-enhanced .qseo-cta .qseo-cta-button{
+  display:inline-flex!important;
+  width:auto!important;
+  min-width:0!important;
+  min-height:44px!important;
+  margin:0 auto!important;
+  padding:14px 23px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:#4d5d45!important;
+  border:1px solid #4d5d45!important;
+  border-radius:0!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  font:700 11px/1 Arial,Helvetica,sans-serif!important;
+  letter-spacing:.08em!important;
+  text-decoration:none!important;
+  text-transform:uppercase!important;
+}
+#main.qseo-enhanced .qseo-cta .qseo-cta-button:hover,
+#main.qseo-enhanced .qseo-cta .qseo-cta-button:focus-visible{
+  background:#3f4c39!important;
+  border-color:#3f4c39!important;
+  color:#fff!important;
+  outline:2px solid #b79a73!important;
+  outline-offset:3px!important;
+}
+@media(max-width:700px){
+  #main.qseo-enhanced .qseo-sources.qseo-references-bottom,
+  #main.qseo-enhanced .qseo-cta{padding:21px 19px!important;}
+}

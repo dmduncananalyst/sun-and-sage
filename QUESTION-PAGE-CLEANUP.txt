@@ -1,0 +1,34 @@
+Sun and Sage - Question Page Cleanup
+October 4, 2026
+
+Updated 233 enhanced question/article pages.
+
+User-requested visible-content changes:
+- Removed all visible breadcrumb/page-path trails from article pages.
+- Removed "Written by Dominique Duncan-Nelson" trust lines.
+- Removed "Direct answer" labels while keeping the answer itself in a styled answer box.
+- Removed About the Author modules.
+- Removed Related Questions modules.
+- Removed generated and legacy disclaimer blocks.
+- Removed inline source/citation links and inline citation markers from article copy.
+- Consolidated sources into one References section at the bottom of each article.
+- External references open in a new tab.
+- Reference links are restricted to official/authoritative government/regulatory/platform sources; no competing broker, agent, interior designer, or property-management company links were added.
+- Reworded generated article CTAs to match the site's existing, natural button language.
+
+Authorship/schema:
+- Article/BlogPosting author attribution changed to StartWeb7 in the generated SEO/AEO JSON-LD.
+- Removed generated BreadcrumbList, Person, and RealEstateAgent nodes from the question-page SEO/AEO graph.
+- Browser titles that ended with Dominique Duncan-Nelson now use Sun and Sage instead.
+
+Region headers:
+- Removed the visible "Sun and Sage / San Fernando Valley" kicker from North, East, South, and West Valley guide headers.
+- Centered all four region guide titles and their intro copy.
+
+QA:
+- 233/233 visible qseo breadcrumbs removed.
+- 233/233 author boxes removed.
+- 233/233 related-question blocks removed.
+- 233/233 generated disclaimers removed.
+- 233/233 generated CTAs rewritten.
+- "Direct answer", "Written by Dominique", "About the author", "Related questions", and "General information only" no longer appear in the enhanced article HTML.

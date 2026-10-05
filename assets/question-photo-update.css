@@ -1,0 +1,46 @@
+/* Question photo + header logo update, Oct 2026 */
+html body.ss18 #ss22-header .ss22-rise img{
+  width:132px!important;
+  height:auto!important;
+  max-height:62px!important;
+  object-fit:contain!important;
+}
+
+/* Buyer/Seller question hub photos use the full 4:3 generated composition. */
+html body.ss18 #main.v27-review .loanHubItem .ss18-card-photo.v27-photo-frame{
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:4/3!important;
+  overflow:hidden!important;
+  background:#eee9e1!important;
+}
+html body.ss18 #main.v27-review .loanHubItem .ss18-card-photo.v27-photo-frame img.v27-natural-photo{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  max-width:none!important;
+  max-height:none!important;
+  aspect-ratio:4/3!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  transform:none!important;
+}
+
+/* Keep article hero versions of those images uncropped as well. */
+html body.ss18 #main.v27-review .ss23-guide-opening > figure.v27-photo-frame{
+  height:auto!important;
+  aspect-ratio:auto!important;
+  overflow:visible!important;
+}
+html body.ss18 #main.v27-review .ss23-guide-opening > figure.v27-photo-frame img.v27-natural-photo{
+  width:100%!important;
+  height:auto!important;
+  max-height:none!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+}
+
+@media (min-width:1280px) and (max-width:1490px){
+  html body.ss18 #ss22-header .ss22-rise img{width:112px!important;max-height:56px!important;}
+}
