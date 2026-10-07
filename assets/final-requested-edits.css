@@ -49,7 +49,7 @@
 .ss24-financing-questions .loanHubItem,.ss24-financing-questions .loanFlip,.ss24-financing-questions .loanFlipInner{height:auto!important;min-height:0!important}
 .ss24-financing-questions .loanFlipFront,.ss24-financing-questions .loanFlipBack{position:relative!important;min-height:0!important;height:auto!important;display:flex!important;flex-direction:column!important}
 .ss24-financing-questions .loanFlipFront .loanHubCopy,.ss24-financing-questions .loanFlipBack .loanHubCopy{min-height:150px!important;padding:22px 22px!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
-.ss24-financing-questions .loanHubItem img{height:230px!important;object-fit:contain!important;background:#eee7dc!important}
+.ss24-financing-questions .loanHubItem img{height:230px!important;object-fit:contain!important;background:transparent!important}
 
 /* Home evaluation: pull the content up so there is no huge blank band. */
 .final-evaluation .ss90-eval-hero{padding-top:42px!important;padding-bottom:36px!important;min-height:0!important;align-items:center!important}
@@ -88,7 +88,7 @@ main:not(.ss22-home) .loanHubItem,main:not(.ss22-home) .lifeCard{min-height:0}
 .final-static-answer-copy{padding-top:12px;border-top:1px solid var(--final-line)}
 .final-static-answer-copy p{font-size:.95rem!important;line-height:1.55!important;margin:0!important}
 .loanHubItem{height:auto!important;min-height:0!important;display:flex!important;flex-direction:column!important}
-.loanHubItem .ss18-card-photo{display:block!important}.loanHubItem .ss18-card-photo img{width:100%!important;height:auto!important;max-height:245px!important;object-fit:contain!important;background:#eee7dc!important}
+.loanHubItem .ss18-card-photo{display:block!important}.loanHubItem .ss18-card-photo img{width:100%!important;height:auto!important;max-height:245px!important;object-fit:contain!important;background:transparent!important}
 .loanHubItem .loanLearn{margin-top:auto!important;position:static!important;padding:15px 20px!important}
 .loanHubGrid{align-items:start!important;grid-auto-rows:auto!important}
 .final-property .ss90-platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0!important}
@@ -143,4 +143,17 @@ html body.ss18 #main.questionHubPage .loanHubGrid{
   html body.ss18 #main.questionHubPage .loanHubGrid{
     width:min(620px,92vw)!important;
   }
+}
+
+/* Homepage hero update, keep service line, remove green tent/background treatment */
+html body.ss18 main#main.ss22-home .videoHeroTitle,
+html body.ss18 main#main.ss22-home .videoHero.v15-video-hero .videoHeroTitle{
+  background:transparent!important;
+  box-shadow:none!important;
+  border:0!important;
+}
+html body.ss18 main#main.ss22-home .videoHeroTitle::before,
+html body.ss18 main#main.ss22-home .videoHeroTitle::after{
+  content:none!important;
+  display:none!important;
 }

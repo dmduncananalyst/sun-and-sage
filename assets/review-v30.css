@@ -66,7 +66,7 @@ html body.ss18 #main.ss23-search .ss23-search-form .ss90-button { color:#fff!imp
     position:static!important;inset:auto!important;display:block!important;
     width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;
     aspect-ratio:4/3!important;object-fit:contain!important;object-position:center!important;
-    margin:0!important;padding:0!important;flex:none!important;background:#f8f7f3!important;
+    margin:0!important;padding:0!important;flex:none!important;background:transparent!important;
   }
   html body.ss18 #main.v27-review .propertyCollageHero > figure.v27-photo-frame > figcaption {
     position:static!important;inset:auto!important;display:flex!important;align-items:center!important;

@@ -6,13 +6,13 @@ html body.ss18 #ss22-header .ss22-rise img{
   object-fit:contain!important;
 }
 
-/* Buyer/Seller question hub photos use the full 4:3 generated composition. */
+/* Card photos fill their 4:3 frames edge to edge with centered cropping. */
 html body.ss18 #main.v27-review .loanHubItem .ss18-card-photo.v27-photo-frame{
   width:100%!important;
   height:auto!important;
   aspect-ratio:4/3!important;
   overflow:hidden!important;
-  background:#eee9e1!important;
+  background:transparent!important;
 }
 html body.ss18 #main.v27-review .loanHubItem .ss18-card-photo.v27-photo-frame img.v27-natural-photo{
   display:block!important;
@@ -21,7 +21,7 @@ html body.ss18 #main.v27-review .loanHubItem .ss18-card-photo.v27-photo-frame im
   max-width:none!important;
   max-height:none!important;
   aspect-ratio:4/3!important;
-  object-fit:contain!important;
+  object-fit:cover!important;
   object-position:center center!important;
   transform:none!important;
 }

@@ -1069,8 +1069,8 @@ html body.ss18 .loanHubItem .ss18-card-photo,
   overflow:hidden!important;
   margin:0!important;
   padding:0!important;
-  background:#e8dfd1!important;
-  border-bottom:1px solid #d6cabc!important;
+  background:transparent!important;
+  border-bottom:1px solid #e5e5e5!important;
 }
 
 html body.ss18 .loanHubItem .ss18-card-photo img,
