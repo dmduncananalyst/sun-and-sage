@@ -1,0 +1,129 @@
+
+/* =========================================================
+   V92 — exact requested fixes only
+   1) ALL review cards white
+   2) Restore small centered Ready-for-next-step key section
+   ========================================================= */
+
+/* HOMEPAGE + REVIEWS PAGE: every review card is white */
+.compactReview,
+.compactReview:nth-child(even),
+.reviewCard,
+.reviewCard:nth-child(even),
+.reviewCardsFull .reviewCard,
+.reviewCardsFull .reviewCard:nth-child(even),
+.reviewSlide,
+.reviewSlide:nth-child(even){
+  background:#FFFFFF!important;
+  color:#41372B!important;
+}
+
+.compactReview blockquote,
+.compactReview strong,
+.compactReview footer,
+.reviewCard blockquote,
+.reviewCard strong,
+.reviewCard footer,
+.reviewCardsFull .reviewCard blockquote,
+.reviewCardsFull .reviewCard strong,
+.reviewCardsFull .reviewCard footer,
+.reviewSlide blockquote,
+.reviewSlide strong,
+.reviewSlide footer{
+  color:#41372B!important;
+}
+
+.compactReview span,
+.compactReview:nth-child(even) span,
+.reviewCard span,
+.reviewCard:nth-child(even) span,
+.reviewCardsFull .reviewCard span,
+.reviewCardsFull .reviewCard:nth-child(even) span{
+  color:#777!important;
+}
+
+.compactReview .stars,
+.reviewCard .stars,
+.reviewCard .reviewStars,
+.reviewSlide .reviewStars{
+  color:#B9A88E!important;
+}
+
+/* READY FOR YOUR NEXT STEP — restore restrained luxury layout */
+.footerNextStep{
+  background:#FFFFFF!important;
+  color:#41372B!important;
+  text-align:center!important;
+  padding:48px 24px 42px!important;
+  margin:0!important;
+  min-height:0!important;
+  display:block!important;
+  overflow:hidden!important;
+}
+
+.footerNextStep img{
+  display:block!important;
+  width:54px!important;
+  height:auto!important;
+  max-width:54px!important;
+  max-height:78px!important;
+  object-fit:contain!important;
+  margin:0 auto 12px!important;
+}
+
+.footerNextStep p{
+  margin:0 0 10px!important;
+  color:#96856A!important;
+  font:600 10px/1.2 Arial,sans-serif!important;
+  letter-spacing:.22em!important;
+  text-transform:uppercase!important;
+}
+
+.footerNextStep h2{
+  margin:0 0 18px!important;
+  color:#41372B!important;
+  font:400 clamp(32px,4vw,48px)/1.08 Georgia,serif!important;
+}
+
+.footerNextStep a{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  width:auto!important;
+  max-width:100%!important;
+  margin:0 auto!important;
+  padding:8px 0 6px!important;
+  color:#96856A!important;
+  background:transparent!important;
+  border:0!important;
+  border-bottom:1px solid #96856A!important;
+  font:700 10px/1.2 Arial,sans-serif!important;
+  letter-spacing:.18em!important;
+  text-transform:uppercase!important;
+  text-decoration:none!important;
+}
+
+.footerNextStep a:hover,
+.footerNextStep a:focus-visible{
+  color:#6B5945!important;
+  border-bottom-color:#6B5945!important;
+  background:transparent!important;
+}
+
+.footerNextStep a span{
+  color:inherit!important;
+}
+
+@media(max-width:800px){
+  .footerNextStep{
+    padding:38px 18px 34px!important;
+  }
+  .footerNextStep img{
+    width:46px!important;
+    max-width:46px!important;
+    max-height:68px!important;
+  }
+  .footerNextStep h2{
+    font-size:34px!important;
+  }
+}

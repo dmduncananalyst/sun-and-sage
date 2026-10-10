@@ -1,0 +1,23 @@
+
+.compactReview{transition:background-color .28s ease,color .28s ease,transform .28s ease,border-color .28s ease!important}
+.compactReview:hover,.compactReview:focus-within{background:#847965!important;color:#fff!important;transform:translateY(-5px)}
+.compactReview:hover blockquote,.compactReview:hover footer strong,.compactReview:hover footer span,.compactReview:focus-within blockquote,.compactReview:focus-within footer strong,.compactReview:focus-within footer span{color:#fff!important}
+.compactReview:hover .stars,.compactReview:focus-within .stars{color:#d8ceb7!important}
+.searchValidation{width:min(1280px,calc(100% - 40px));margin:12px auto 0;color:#8b3d2f;font:600 13px/1.45 Arial,sans-serif;letter-spacing:.03em;text-align:left}
+.searchBar label.searchMissing{box-shadow:inset 0 0 0 2px #96856A!important}
+.searchBar .cityPickerButton.searchMissing{box-shadow:inset 0 0 0 2px #96856A!important}
+@media (max-width:1100px){
+  .contactExperience .ctaStage{grid-template-columns:minmax(245px,.8fr) minmax(0,1.4fr)!important;width:min(94%,980px)!important}
+  .contactExperience .ctaStage>header{padding:48px 38px!important}
+  .contactExperience .ctaStage>header h2{font-size:clamp(38px,4.3vw,56px)!important;line-height:.98!important}
+  .contactExperience .conversationForm{padding:48px 38px!important}
+  .contactExperience .selectRow{gap:18px!important}
+}
+@media (max-width:760px){
+  .contactExperience .ctaStage{display:block!important;width:calc(100% - 28px)!important}
+  .contactExperience .ctaStage>header,.contactExperience .conversationForm{padding:36px 26px!important}
+  .contactExperience .ctaStage>header h2{font-size:clamp(38px,12vw,54px)!important;max-width:9ch!important}
+  .contactExperience .selectRow,.contactExperience .contactFields{grid-template-columns:1fr!important}
+  .contactExperience .conversationForm button{width:100%!important}
+  .searchValidation{width:calc(100% - 28px)}
+}

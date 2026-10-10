@@ -1,0 +1,26 @@
+
+/* The logo files are transparent; these rules prevent any container from adding white back. */
+.riseStatIdentity,.riseStatIdentity img,.rise,.rise img,.riseFooter{background:transparent!important;box-shadow:none!important}.riseStatIdentity img{padding:0!important}
+
+/* Keep the expanded city chooser above the regional photography. */
+.searchHub{overflow:visible!important}.searchSection,.searchExperience,.searchHero,.searchHubBar,.heroSearch{position:relative;z-index:30;overflow:visible!important}.regionMosaic{position:relative;z-index:1}.cityPicker,.searchBar label:first-child{z-index:80}.cityPickerPanel{z-index:10000!important}
+
+/* Property management, one editorial service ledger, no overlapping boxes. */
+.managementFlow{max-width:1240px!important;margin:18px auto 96px!important;padding:0!important;display:block!important;background:#6B5945!important;color:#fff!important;border:0!important;box-shadow:0 30px 70px #153f432b!important;perspective:none!important;filter:none!important;overflow:hidden!important}
+.managementFlow:before,.managementFlow:after{display:none!important}.managementSpine{min-height:0!important;height:auto!important;padding:22px 34px!important;background:#96856A!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important}
+.managementSpine span{writing-mode:horizontal-tb!important;transform:none!important;font-size:13px!important;letter-spacing:.22em!important}.managementSpine img{width:31px!important;height:44px!important;object-fit:contain!important;filter:brightness(0) invert(1)!important;opacity:.9!important}
+.managementFlow article{display:grid!important;grid-template-columns:72px minmax(220px,.7fr) minmax(320px,1.25fr) auto!important;align-items:center!important;gap:30px!important;min-height:210px!important;padding:38px 46px!important;background:transparent!important;color:#fff!important;border:0!important;border-bottom:1px solid #ffffff35!important;transform:none!important;box-shadow:none!important;transition:background .3s!important}
+.managementFlow article:last-child{border-bottom:0!important}.managementFlow article:hover{background:#96856A!important;transform:none!important}.managementFlow article:after{display:none!important}
+.managementFlow article>svg{grid-column:1!important;width:48px!important;height:48px!important;stroke:#B9A88E!important;transform:none!important}.managementFlow h2{grid-column:2!important;margin:0!important;font-size:clamp(32px,3vw,48px)!important;line-height:.98!important;color:#fff!important}.managementFlow ul{grid-column:3!important;margin:0!important;gap:12px!important;color:#F3EFE8!important}.managementFlow li:before{background:#d2d4cf!important}.managementFlow a{grid-column:4!important;margin:0!important;color:#fff!important;white-space:nowrap!important;border-color:#96856A!important}.managementFlow article:first-of-type:after{content:"ONGOING CARE"}.managementFlow article:hover>svg{stroke:#d2d4cf!important}
+
+/* Lender steps open independently on hover or tap. */
+.runwayTrack{align-items:start!important}.runwayTrack details{height:auto!important}.runwayTrack summary{min-height:154px!important}.runwayTrack details p{display:block!important;max-height:0!important;overflow:hidden!important;opacity:0!important;padding-top:0!important;padding-bottom:0!important;transition:max-height .38s ease,opacity .28s ease,padding .38s ease!important}.runwayTrack details[open] p,.runwayTrack details:hover p{max-height:180px!important;opacity:1!important;padding-bottom:30px!important}.runwayTrack details[open] summary,.runwayTrack details:hover summary{background:#847965!important}.runwayTrack summary i span{font-size:10px!important}
+
+@media(max-width:980px){
+  .managementFlow{margin-inline:24px!important}.managementFlow article{grid-template-columns:56px 1fr!important;gap:20px 24px!important}.managementFlow h2{grid-column:2!important}.managementFlow ul,.managementFlow a{grid-column:2!important}.managementFlow a{justify-self:start!important}
+  .runwayTrack details p{padding-left:70px!important}
+}
+@media(max-width:650px){
+  .managementFlow{margin:12px 14px 60px!important}.managementSpine{padding:18px 20px!important}.managementFlow article{grid-template-columns:42px 1fr!important;padding:30px 22px!important;min-height:0!important}.managementFlow article>svg{width:36px!important;height:36px!important}.managementFlow h2{font-size:34px!important}.managementFlow ul{font-size:14px!important}.managementFlow a{white-space:normal!important}
+  .cityPickerPanel{position:fixed!important;left:12px!important;right:12px!important;top:auto!important;bottom:12px!important;width:auto!important;max-height:65vh!important}
+}

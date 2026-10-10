@@ -19,6 +19,8 @@
         if (skipped.has(index)) continue;
         const figure = document.createElement('figure');
         const image = document.createElement('img');
+        figure.dataset.fullPhotoFrame = 'true';
+        image.dataset.fullPhoto = 'true';
         image.src = `assets/portfolio-jobs/${slug}/photo-${String(index).padStart(2, '0')}.webp`;
         image.alt = `${title} project photograph ${index}`;
         image.loading = index <= 3 ? 'eager' : 'lazy';

@@ -1,0 +1,33 @@
+
+/* Site-wide editorial QA fixes: no colored strips, one outlined reading box */
+html body .siteHeader img,html body header.siteHeader img{max-width:190px!important;max-height:68px!important;object-fit:contain!important}
+html body .siteHeader a img[src*="sun-sage-key"],html body header img[src*="sun-sage-key"]{width:auto!important;max-width:72px!important;max-height:66px!important}
+html body .article-blog-repaired header img{max-width:160px!important;max-height:70px!important}
+/* Consistent grid: preserve complete photographs and keep controls aligned */
+html body .loanHubGrid,html body .blogGrid,html body .journalGrid{align-items:stretch!important;grid-auto-rows:auto!important}
+html body .loanHubGrid > .loanHubItem,html body .loanHubGrid > article,html body .blogGrid > article,html body .journalGrid > article{display:flex!important;flex-direction:column!important;height:100%!important;min-height:470px!important;overflow:hidden!important;background:#fff!important;border:1px solid #dadbd7!important}
+html body .loanHubGrid .ss18-card-photo,html body .loanHubGrid .v27-photo-frame,html body .loanHubGrid .loanHubItem>a:first-child{display:flex!important;align-items:center!important;justify-content:center!important;height:235px!important;min-height:235px!important;max-height:235px!important;overflow:hidden!important;background:#fff!important}
+html body .loanHubGrid .ss18-card-photo img,html body .loanHubGrid .v27-photo-frame img,html body .loanHubGrid .loanHubItem>a:first-child img{width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important}
+html body .loanHubGrid .loanHubItem .loanHubTitle,html body .loanHubGrid .loanHubItem h2,html body .loanHubGrid .loanHubItem h3{overflow:visible!important;display:block!important}
+html body .loanHubGrid .loanHubItem .loanHubExcerpt,html body .loanHubGrid .loanHubItem .loanHubSummary{overflow:hidden!important;display:-webkit-box!important;-webkit-line-clamp:3!important;-webkit-box-orient:vertical!important}
+html body .loanHubGrid .loanHubItem>a:last-child,html body .loanHubGrid .loanHubItem .loanHubLearnMore,html body .loanHubGrid .loanHubItem .loanHubButton{margin-top:auto!important}
+/* Restore the approved article flow: title, large photo, breathing space, a SINGLE closed prose border */
+html body main.reading-final-layout .ss23-guide-opening,html body main.ss-reading-4635 .ss23-guide-opening{border:0!important;box-shadow:none!important;outline:0!important}
+html body main.reading-final-layout .ss23-guide-body,html body main.ss-reading-4635 .ss23-guide-body{border:1px solid #d9dcd8!important;outline:0!important;box-shadow:none!important;margin:34px auto 55px!important;background:white!important}
+html body main.reading-final-layout .ss23-guide-body *,html body main.ss-reading-4635 .ss23-guide-body *{box-shadow:none!important}
+html body main.reading-final-layout .ss23-guide-body>*,html body main.ss-reading-4635 .ss23-guide-body>*{border-left:0!important;border-right:0!important}
+html body main.reading-final-layout .v27-photo-frame,html body main.ss-reading-4635 .v27-photo-frame{border:0!important;box-shadow:none!important;margin-bottom:0!important}
+html body main.reading-final-layout .v27-photo-frame img,html body main.ss-reading-4635 .v27-photo-frame img{object-fit:contain!important;max-width:100%!important;height:auto!important}
+/* Life Changes articles use their own class; keep a large article photograph followed by one reading rectangle */
+html body main.ss21-article .ss21-article-photo{border:0!important;box-shadow:none!important}
+html body main.ss21-article .ss21-article-photo img{object-fit:contain!important;height:auto!important;max-height:none!important}
+/* October 9 journal articles: never expose unstyled oversized logos; no colored block strips */
+html body.article-blog-repaired .article-hero{width:min(850px,92vw)!important;max-width:850px!important;margin:35px auto 0!important;display:flex!important;flex-direction:column!important;gap:20px!important;background:#fff!important}
+html body.article-blog-repaired .article-hero-copy{text-align:center!important;width:100%!important;max-width:100%!important;order:0!important}
+html body.article-blog-repaired .article-hero-image{order:1!important;width:100%!important;max-width:100%!important}
+html body.article-blog-repaired .article-hero-image img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:560px!important;object-fit:contain!important}
+html body.article-blog-repaired main>.article-lede{max-width:850px!important;width:min(850px,92vw)!important;margin:34px auto 0!important;padding:48px 40px 20px!important;border:1px solid #dadbd7!important;border-bottom:0!important;background:#fff!important}
+html body.article-blog-repaired main>.article-layout,html body.article-blog-repaired main>.article-layout.after-planner{max-width:850px!important;width:min(850px,92vw)!important;margin:0 auto!important;padding:25px 40px 55px!important;border-left:1px solid #dadbd7!important;border-right:1px solid #dadbd7!important;background:#fff!important}
+html body.article-blog-repaired main>.article-layout.after-planner{border-bottom:1px solid #dadbd7!important}
+html body.article-blog-repaired .care-strip,html body.article-blog-repaired .quote-feature{background:#fff!important;border:0!important;box-shadow:none!important}
+@media(max-width:720px){html body.article-blog-repaired main>.article-lede,html body.article-blog-repaired main>.article-layout{padding-left:20px!important;padding-right:20px!important}html body .loanHubGrid .ss18-card-photo{height:220px!important;min-height:220px!important}}

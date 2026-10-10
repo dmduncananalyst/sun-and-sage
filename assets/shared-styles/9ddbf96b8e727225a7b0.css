@@ -1,0 +1,45 @@
+
+/* Center the entire FAQ intro composition on all city pages */
+.cityAeoFaq .citySectionIntro{
+  max-width:980px!important;
+  width:min(980px,92vw)!important;
+  margin:0 auto 36px!important;
+  padding:0!important;
+  text-align:center!important;
+  display:block!important;
+}
+
+.cityAeoFaq .citySectionIntro > span{
+  display:block!important;
+  width:100%!important;
+  margin:0 0 16px!important;
+  text-align:center!important;
+  font-size:12px!important;
+  line-height:1.4!important;
+  letter-spacing:.16em!important;
+}
+
+.cityAeoFaq .citySectionIntro h2{
+  width:100%!important;
+  max-width:980px!important;
+  margin:0 auto 18px!important;
+  text-align:center!important;
+}
+
+.cityAeoFaq .cityFaqInstruction{
+  display:block!important;
+  width:100%!important;
+  margin:0 auto!important;
+  text-align:center!important;
+}
+
+@media(max-width:800px){
+  .cityAeoFaq .citySectionIntro{
+    width:100%!important;
+    margin-bottom:30px!important;
+  }
+
+  .cityAeoFaq .citySectionIntro > span{
+    margin-bottom:12px!important;
+  }
+}

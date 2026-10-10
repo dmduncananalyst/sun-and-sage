@@ -1,0 +1,13 @@
+
+.emailChoice{width:min(92vw,470px);padding:0;border:0;background:#f4f0e8;color:#41372B;box-shadow:0 24px 80px #0008}
+.emailChoice::backdrop{background:#102f33cc;backdrop-filter:blur(3px)}
+.emailChoiceInner{padding:34px}
+.emailChoiceClose{position:absolute;right:17px;top:13px;border:0;background:transparent;font-size:25px;cursor:pointer}
+.emailChoiceEyebrow{display:block;margin-bottom:10px;color:#96856A;font:700 12px/1.2 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.emailChoice h2{font:400 clamp(32px,5vw,47px)/1 Georgia,serif;margin:0 0 12px}
+.emailChoice p{font:400 15px/1.6 Arial,sans-serif;margin:0 0 25px}
+.emailChoiceOptions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.emailChoiceOptions a,.emailChoiceOptions button{min-height:54px;padding:14px;border:1px solid #96856A;background:#fff;color:#41372B;font:700 12px/1.2 Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase;text-align:center;display:flex;align-items:center;justify-content:center;cursor:pointer;text-decoration:none}
+.emailChoiceOptions a:hover,.emailChoiceOptions button:hover{background:#96856A;color:#fff}
+.emailCopyStatus{min-height:20px;margin:14px 0 0!important;color:#96856A;font-weight:700!important}
+@media(max-width:520px){.emailChoiceInner{padding:30px 22px 24px}.emailChoiceOptions{grid-template-columns:1fr}}

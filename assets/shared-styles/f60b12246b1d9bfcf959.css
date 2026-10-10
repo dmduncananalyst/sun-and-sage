@@ -1,0 +1,121 @@
+
+:root{
+  --ss-espresso:#41372B;
+  --ss-taupe:#6B5945;
+  --ss-mushroom:#847965;
+  --ss-accent:#96856A;
+  --ss-sand:#B9A88E;
+  --ss-ivory:#F3EFE8;
+  --ss-white:#FFFFFF;
+}
+
+/* ALL button-like controls should visibly react on hover/focus */
+button,
+input[type="submit"],
+input[type="button"],
+a.btn,
+a.button,
+.ctaLink,
+.talkDominique,
+.homeStoryCentered > a,
+.footerNextStep a,
+.searchBar button,
+.heroSearch button,
+[data-worksheet-download],
+[data-worksheet-clear],
+[data-worksheet-print]{
+  transition:
+    background-color .18s ease,
+    color .18s ease,
+    border-color .18s ease,
+    box-shadow .18s ease,
+    transform .18s ease!important;
+}
+
+/* Standard filled buttons */
+button:hover,
+button:focus-visible,
+input[type="submit"]:hover,
+input[type="submit"]:focus-visible,
+input[type="button"]:hover,
+input[type="button"]:focus-visible,
+.searchBar button:hover,
+.searchBar button:focus-visible,
+.heroSearch button:hover,
+.heroSearch button:focus-visible,
+[data-worksheet-download]:hover,
+[data-worksheet-download]:focus-visible,
+[data-worksheet-clear]:hover,
+[data-worksheet-clear]:focus-visible,
+[data-worksheet-print]:hover,
+[data-worksheet-print]:focus-visible{
+  background:var(--ss-sand)!important;
+  color:var(--ss-espresso)!important;
+  border-color:var(--ss-sand)!important;
+  box-shadow:0 8px 20px rgba(65,55,43,.16)!important;
+}
+
+/* Text / underline CTAs such as MEET DOMINIQUE and TALK WITH DOMINIQUE */
+.homeStoryCentered > a,
+.footerNextStep a,
+.ctaLink,
+.talkDominique{
+  background:transparent!important;
+  color:var(--ss-accent)!important;
+  border-bottom-color:var(--ss-accent)!important;
+}
+
+.homeStoryCentered > a:hover,
+.homeStoryCentered > a:focus-visible,
+.footerNextStep a:hover,
+.footerNextStep a:focus-visible,
+.ctaLink:hover,
+.ctaLink:focus-visible,
+.talkDominique:hover,
+.talkDominique:focus-visible{
+  background:var(--ss-mushroom)!important;
+  color:var(--ss-white)!important;
+  border-color:var(--ss-mushroom)!important;
+  border-bottom-color:var(--ss-mushroom)!important;
+  box-shadow:0 6px 18px rgba(65,55,43,.14)!important;
+  transform:translateY(-1px)!important;
+  padding-left:12px!important;
+  padding-right:12px!important;
+}
+
+.homeStoryCentered > a:hover span,
+.homeStoryCentered > a:focus-visible span,
+.footerNextStep a:hover span,
+.footerNextStep a:focus-visible span,
+.ctaLink:hover span,
+.ctaLink:focus-visible span,
+.talkDominique:hover span,
+.talkDominique:focus-visible span{
+  color:inherit!important;
+}
+
+/* Navigation and menu-like clickable controls */
+nav a,
+.siteNav a,
+.desktopNav a,
+.newMegaMobile summary,
+.newMegaMobile a{
+  transition:background-color .18s ease,color .18s ease,border-color .18s ease!important;
+}
+nav a:hover,
+nav a:focus-visible,
+.siteNav a:hover,
+.siteNav a:focus-visible,
+.desktopNav a:hover,
+.desktopNav a:focus-visible{
+  background:var(--ss-mushroom)!important;
+  color:#fff!important;
+}
+.newMegaMobile summary:hover,
+.newMegaMobile summary:focus-visible,
+.newMegaMobile a:hover,
+.newMegaMobile a:focus-visible{
+  background:#E7E0D5!important;
+  color:var(--ss-espresso)!important;
+  border-color:var(--ss-sand)!important;
+}

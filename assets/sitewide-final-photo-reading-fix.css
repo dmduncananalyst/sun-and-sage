@@ -1,0 +1,16 @@
+
+/* 2026-10-09: preserve approved article reading layout. A single rectangular content box starts AFTER the large hero photo. */
+html body main.ss-reading-4635 .ss21-article-photo img,html body main.ss-reading-4635 .ss23-guide-opening figure img,html body main.reading-final-layout .ss21-article-photo img,html body main.reading-final-layout .ss23-guide-opening figure img{object-fit:contain!important;height:auto!important;aspect-ratio:auto!important;max-height:none!important}
+html body main.ss-reading-4635 .ss21-article-photo,html body main.reading-final-layout .ss21-article-photo{border:none!important;margin-bottom:32px!important}
+html body main.ss-reading-4635 .ss21-body,html body main.reading-final-layout .ss21-body{border:1px solid #dadbd7!important;padding:38px 44px!important;margin:32px auto 56px!important;box-sizing:border-box!important;box-shadow:none!important;background:#fff!important}
+html body main.ss-reading-4635 .ss21-body .article-content-box,html body main.reading-final-layout .ss21-body .article-content-box{border:none!important;box-shadow:none!important}
+/* Life-change question cards: equal images, no cropping, readable unclipped summaries, aligned learn more. */
+html body .loanHubGrid>.loanHubItem{height:100%!important;min-height:495px!important;display:flex!important;flex-direction:column!important;overflow:visible!important}
+html body .loanHubGrid .ss18-card-photo,html body .loanHubGrid .v27-photo-frame{height:225px!important;min-height:225px!important;max-height:225px!important;background:white!important}
+html body .loanHubGrid .ss18-card-photo img,html body .loanHubGrid .v27-photo-frame img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important}
+html body .loanHubGrid .loanHubItem>a:last-child{margin-top:auto!important}
+@media(max-width:740px){html body main.ss-reading-4635 .ss21-body{padding:24px 20px!important}}
+/* 2026-10-09: keep journal header icons from scaling to intrinsic PNG size. */
+body .ss22-header .ss22-brand{display:inline-flex;align-items:center;gap:8px;min-width:0}
+body .ss22-header .ss22-brand>img{display:block!important;width:33px!important;height:33px!important;max-width:33px!important;max-height:33px!important;min-width:33px!important;object-fit:contain!important;flex:0 0 33px!important}
+body .ss22-header .ss22-rise>img{max-height:34px!important;width:auto!important;object-fit:contain!important}

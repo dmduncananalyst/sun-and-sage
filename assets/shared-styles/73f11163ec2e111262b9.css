@@ -1,0 +1,53 @@
+
+/* Remove unnecessary corner kicker and give the city heading breathing room */
+.cityLivingFacts .citySectionIntro > span{
+  display:none!important;
+}
+
+.cityLivingFacts .citySectionIntro{
+  max-width:1320px!important;
+  width:min(1320px,94vw)!important;
+  margin:0 auto 48px!important;
+  padding:0!important;
+  text-align:center!important;
+}
+
+.cityLivingFacts .citySectionIntro h2{
+  max-width:1220px!important;
+  margin:0 auto!important;
+  font-size:clamp(36px,3vw,48px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.02em!important;
+  white-space:nowrap!important;
+}
+
+.cityLivingFacts .citySectionIntro p{
+  max-width:820px!important;
+  margin:26px auto 0!important;
+  font-size:15px!important;
+  line-height:1.7!important;
+  color:#6B5945!important;
+}
+
+@media(max-width:1180px){
+  .cityLivingFacts .citySectionIntro h2{
+    white-space:normal!important;
+  }
+}
+
+@media(max-width:800px){
+  .cityLivingFacts .citySectionIntro{
+    width:100%!important;
+    margin-bottom:36px!important;
+  }
+
+  .cityLivingFacts .citySectionIntro h2{
+    font-size:34px!important;
+    line-height:1.1!important;
+  }
+
+  .cityLivingFacts .citySectionIntro p{
+    margin-top:20px!important;
+    font-size:14px!important;
+  }
+}

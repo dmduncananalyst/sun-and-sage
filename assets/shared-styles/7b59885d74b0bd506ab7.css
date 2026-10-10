@@ -1,0 +1,45 @@
+
+/* Final shared editorial layout: a continuous luxury article, not stacked cards. */
+.financeArticle .financeBody{
+  padding:52px clamp(28px,6vw,92px) 70px!important;
+  background:#fff!important;
+}
+.financeArticle .financeBody .financeSection,
+.financeArticle .financePaper>.financeSection{
+  padding:0 0 42px!important;
+  margin:0 0 42px!important;
+  border-bottom:1px solid #d8cebf!important;
+  background:transparent!important;
+}
+.financeArticle .financeBody .financeSection:last-child,
+.financeArticle .financePaper>.financeSection:last-child{
+  margin-bottom:0!important;
+  padding-bottom:0!important;
+}
+.financeArticle .financeBody .financeSection h2,
+.financeArticle .financePaper>.financeSection h2{
+  max-width:760px!important;
+  margin:0 auto 18px!important;
+  text-align:center!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:clamp(28px,2.6vw,34px)!important;
+  font-weight:400!important;
+  line-height:1.16!important;
+}
+.financeArticle .financeBody .financeSection p,
+.financeArticle .financePaper>.financeSection p{
+  max-width:760px!important;
+  margin:0 auto 16px!important;
+  text-align:left!important;
+  text-indent:2em!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:17px!important;
+  line-height:1.78!important;
+}
+@media(max-width:800px){
+  .financeArticle .financeBody{padding:40px 24px 54px!important}
+  .financeArticle .financeBody .financeSection,
+  .financeArticle .financePaper>.financeSection{padding-bottom:34px!important;margin-bottom:34px!important}
+  .financeArticle .financeBody .financeSection p,
+  .financeArticle .financePaper>.financeSection p{font-size:16px!important}
+}

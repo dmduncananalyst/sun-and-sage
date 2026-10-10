@@ -1,0 +1,14 @@
+
+/* Unified Life Changes cards: one continuous grid, identical photograph/body/action sizes. */
+.lifeChangesPage .loanHubGrid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:stretch!important;gap:24px!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem{display:flex!important;flex-direction:column!important;height:570px!important;min-height:570px!important;max-height:570px!important;border:1px solid #dcded8!important;background:#fff!important;overflow:hidden!important;margin:0!important;box-shadow:none!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.ss18-card-photo{display:block!important;width:100%!important;height:265px!important;min-height:265px!important;max-height:265px!important;flex:0 0 265px!important;overflow:hidden!important;border:0!important;margin:0!important;padding:0!important;background:#fff!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.ss18-card-photo>img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 40%!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.final-static-answer{height:251px!important;min-height:251px!important;max-height:251px!important;flex:0 0 251px!important;overflow:hidden!important;box-sizing:border-box!important;padding:16px 18px!important;display:flex!important;flex-direction:column!important;margin:0!important;border:0!important;background:#fff!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.final-static-answer>.topic{display:block!important;flex:0 0 auto!important;margin:0 0 8px!important;text-align:center!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.final-static-answer>h2{font-size:18px!important;line-height:1.3!important;max-height:72px!important;overflow:hidden!important;margin:0 0 10px!important;flex:0 0 auto!important;text-align:center!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.final-static-answer .final-static-answer-copy{min-height:0!important;overflow:hidden!important;flex:1 1 auto!important;margin:0!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.final-static-answer .final-static-answer-copy p{font-size:14px!important;line-height:1.65!important;margin:0!important;display:-webkit-box!important;-webkit-line-clamp:5!important;-webkit-box-orient:vertical!important;overflow:hidden!important}
+.lifeChangesPage .loanHubGrid>.loanHubItem>.loanLearn{height:52px!important;min-height:52px!important;max-height:52px!important;flex:0 0 52px!important;margin:0!important;padding:0!important;display:flex!important;justify-content:center!important;align-items:center!important;border-top:1px solid #dcded8!important;background:#fff!important}
+@media(max-width:850px){.lifeChangesPage .loanHubGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:580px){.lifeChangesPage .loanHubGrid{grid-template-columns:1fr!important}}

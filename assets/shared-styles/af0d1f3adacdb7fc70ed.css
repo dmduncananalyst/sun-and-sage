@@ -1,0 +1,33 @@
+
+/* Life Changes uses the site's question-card language, with the copy centered. */
+.lifeChangesPage.loanHubPage .loanHubGrid{width:min(1440px,94vw);grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.lifeChangesPage.loanHubPage .loanHubGridWrap{padding:56px 0 78px}
+.lifeChangesPage .loanFlip{height:290px}
+.lifeChangesPage .loanFace{padding:30px;text-align:center;align-items:center}
+.lifeChangesPage .loanFront{justify-content:space-between}
+.lifeChangesPage .loanFront .topic{width:100%;text-align:center}
+.lifeChangesPage .loanFront h2{max-width:390px;margin:auto;font-size:clamp(24px,1.8vw,28px);line-height:1.1;text-align:center}
+.lifeChangesPage .loanFront h2,.lifeChangesPage.financeArticle .financeHero h1,.lifeChangesPage.financeArticle .financeSection h2{font-family:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif!important;font-weight:400!important}
+.lifeChangesPage .loanFront:after{content:none!important;display:none!important;width:100%;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.14em;color:#b29a78;text-align:center}
+.lifeChangesPage .loanBack{background:#f7f3ec;color:#403529;justify-content:center}
+.lifeChangesPage .loanBack p{max-width:390px;margin:auto;color:#403529;font-size:16px;line-height:1.55;text-align:center}
+.lifeChangesPage .loanLearn{text-align:center}
+.lifeChangesPage .loanLearn a{display:inline-block}
+/* Keep article sections readable; headings should not dominate the article. */
+.lifeChangesPage.financeArticle .financeHero h1{font-size:clamp(42px,5.2vw,68px)!important;line-height:1.05}
+.lifeChangesPage.financeArticle .financeOpening{padding:54px clamp(28px,6vw,92px)!important}
+.lifeChangesPage.financeArticle .financeOpening p{max-width:760px!important;margin:0 auto 16px!important;color:#403529!important;font:400 16px/1.75 Arial,sans-serif!important;letter-spacing:normal!important;text-align:left!important}
+.lifeChangesPage.financeArticle .financeOpening p:last-child{margin-bottom:0!important}
+.lifeChangesPage.financeArticle .financeOpening strong{font-family:Arial,sans-serif!important}
+.lifeChangesPage.financeArticle .financePaper .financeSectionInner{max-width:760px!important}
+.lifeChangesPage.financeArticle .financePaper .financeSection p{font-family:Arial,sans-serif!important;font-size:16px!important;line-height:1.75!important;text-indent:2em!important;margin:0 0 16px!important}
+.lifeChangesPage.financeArticle .financePaper .financeSection p:first-of-type{margin-top:0!important}
+.lifeChangesPage.financeArticle .financePaper .financeSection ul{display:block!important;max-width:760px!important;margin:0 auto 24px!important;padding-left:1.5em!important;list-style:disc outside!important}
+.lifeChangesPage.financeArticle .financePaper .financeSection li{display:list-item!important;margin:8px 0!important;padding-left:.25em!important;line-height:1.6!important}
+.lifeChangesPage.financeArticle .financePaper .financeSection h2{font-size:clamp(28px,2.6vw,36px)!important;line-height:1.15!important;margin-bottom:18px!important}
+@media(max-width:800px){
+ .lifeChangesPage.loanHubPage .loanHubGrid{grid-template-columns:1fr;width:min(620px,92vw)}
+ .lifeChangesPage .loanFlip{height:270px}
+ .lifeChangesPage .loanFront h2{font-size:27px}
+ .lifeChangesPage.financeArticle .financePaper .financeSection h2{font-size:30px!important}
+}

@@ -1,0 +1,107 @@
+
+:root{
+  --ss-burnt:#96856A;
+  --ss-walnut:#6B5945;
+  --ss-chocolate:#41372B;
+  --ss-camel:#B9A88E;
+  --ss-tan:#C3B296;
+  --ss-cream:#F3EFE8;
+  --ss-white:#FFFFFF;
+}
+
+/* Interactive states: warm earth only */
+a:hover,
+a:focus-visible,
+button:hover,
+button:focus-visible,
+summary:hover,
+summary:focus-visible,
+[role="button"]:hover,
+[role="button"]:focus-visible{
+  border-color:var(--ss-burnt)!important;
+}
+
+/* Main CTA / selected / active surfaces */
+.searchBar button,
+.heroSearch button,
+.v70ConfirmClose,
+.v70ConfirmDone,
+[data-worksheet-download],
+[data-worksheet-print],
+[data-worksheet-clear],
+button[type="submit"],
+input[type="submit"]{
+  background:var(--ss-walnut)!important;
+  color:#fff!important;
+  border-color:var(--ss-walnut)!important;
+}
+.searchBar button:hover,
+.heroSearch button:hover,
+.v70ConfirmClose:hover,
+.v70ConfirmDone:hover,
+[data-worksheet-download]:hover,
+[data-worksheet-print]:hover,
+[data-worksheet-clear]:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover{
+  background:var(--ss-burnt)!important;
+  color:#fff!important;
+  border-color:var(--ss-burnt)!important;
+}
+
+/* Mobile menu and dropdown controls: no teal hover/active */
+.newMegaMobile summary:hover,
+.newMegaMobile summary:focus-visible,
+.newMegaMobile details[open] > summary,
+.newMegaMobile .mobileMegaHeading:hover,
+.newMegaMobile .mobileMegaHeading:focus-visible,
+.newMegaMobile .mobileCityGrid a:hover,
+.newMegaMobile .mobileCityGrid a:focus-visible,
+.newMegaMobile section > a:hover,
+.newMegaMobile section > a:focus-visible{
+  background:#E7E0D5!important;
+  color:var(--ss-chocolate)!important;
+  border-color:var(--ss-camel)!important;
+}
+.newMegaMobile .mobileSubnavBar,
+.newMegaMobile details[open] > .mobileMega > .mobileSubnavBar{
+  background:var(--ss-walnut)!important;
+  border-color:var(--ss-burnt)!important;
+}
+.newMegaMobile .mobileSubnavBar a,
+.newMegaMobile .mobileBackMenu,
+.newMegaMobile .mobileSubnavClose{
+  color:#fff!important;
+}
+.newMegaMobile .v21RealEstateBack{
+  background:var(--ss-cream)!important;
+  border-color:var(--ss-camel)!important;
+}
+.newMegaMobile .v21RealEstateBack,
+.newMegaMobile .v21RealEstateBackBtn{
+  color:var(--ss-chocolate)!important;
+}
+
+/* Desktop dropdown and nav hover states */
+nav a:hover,
+nav a:focus-visible,
+.siteNav a:hover,
+.siteNav a:focus-visible,
+.desktopNav a:hover,
+.desktopNav a:focus-visible{
+  color:var(--ss-burnt)!important;
+}
+
+/* FAQ / accordion active accents */
+details[open] > summary,
+.faqItem[open] > summary,
+.accordionItem[open] > summary{
+  border-color:var(--ss-burnt)!important;
+}
+
+/* Preserve white backgrounds where already used */
+input,
+select,
+textarea{
+  accent-color:var(--ss-burnt)!important;
+}

@@ -1,0 +1,162 @@
+
+/* FINAL CITY PAGE COLOR LOCK, warm neutrals only */
+.cityLuxuryPage .cityConsult,
+.cityLuxuryPage .cityConsult *,
+.cityLuxuryPage .cityLivingFacts,
+.cityLuxuryPage .cityLivingFacts *,
+.cityLuxuryPage .cityAeoFaq,
+.cityLuxuryPage .cityAeoFaq *,
+.cityLuxuryPage .cityMarket,
+.cityLuxuryPage .cityMarket *{
+  --city-teal:#96856A!important;
+  --city-blue:#96856A!important;
+  --accent:#96856A!important;
+}
+
+.cityLuxuryPage .cityConsult{
+  background:#E9E1D5!important;
+  background-color:#E9E1D5!important;
+  background-image:none!important;
+  color:#41372B!important;
+}
+
+.cityLuxuryPage .cityConsult span,
+.cityLuxuryPage .cityConsult h2,
+.cityLuxuryPage .cityConsult p,
+.cityLuxuryPage .cityConsult a{
+  color:#41372B!important;
+}
+
+.cityLuxuryPage .cityConsult a{
+  border-color:#96856A!important;
+}
+
+.cityLuxuryPage .cityConsult a:hover,
+.cityLuxuryPage .cityConsult a:focus-visible{
+  background:#C3B296!important;
+  color:#41372B!important;
+}
+
+/* Living section, give the heading real room instead of squeezing it */
+.cityLivingFacts{
+  padding-left:4vw!important;
+  padding-right:4vw!important;
+}
+
+.cityLivingFacts .citySectionIntro{
+  max-width:1380px!important;
+  width:min(1380px, 96vw)!important;
+  padding:0!important;
+}
+
+.cityLivingFacts .citySectionIntro h2{
+  max-width:none!important;
+  width:100%!important;
+  margin:10px auto 14px!important;
+  font-size:clamp(36px,3vw,50px)!important;
+  line-height:1.04!important;
+  letter-spacing:-.02em!important;
+  white-space:nowrap!important;
+}
+
+.cityLivingFacts .citySectionIntro p{
+  max-width:900px!important;
+  font-size:15px!important;
+}
+
+/* Wider answer area, smaller headings, cleaner proportions */
+.cityAnswerGrid{
+  width:min(1320px, 94vw)!important;
+  max-width:1320px!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+}
+
+.cityAnswer{
+  padding:30px 34px!important;
+}
+
+.cityAnswer h3{
+  font-size:clamp(23px,1.65vw,29px)!important;
+  line-height:1.08!important;
+  margin-bottom:12px!important;
+}
+
+.cityAnswer p{
+  font-size:15px!important;
+  line-height:1.65!important;
+}
+
+/* Questions section, keep title contained and polished */
+.cityAeoFaq .citySectionIntro{
+  max-width:1100px!important;
+  width:min(1100px,94vw)!important;
+}
+
+.cityAeoFaq .citySectionIntro h2{
+  font-size:clamp(36px,3vw,48px)!important;
+  line-height:1.04!important;
+  white-space:nowrap!important;
+}
+
+/* Keep all question interaction warm neutral */
+.cityAeoFaq,
+.cityAeoFaq details,
+.cityAeoFaq details[open],
+.cityAeoFaq summary,
+.cityAeoFaq details[open] summary,
+.cityAeoFaq details p,
+.cityAeoFaq details[open] p{
+  background:#F3EFE8!important;
+  background-color:#F3EFE8!important;
+  background-image:none!important;
+  color:#41372B!important;
+}
+
+.cityAeoFaq summary::after{
+  background:#F3EFE8!important;
+  border-color:#B9A88E!important;
+  color:#41372B!important;
+}
+
+.cityAeoFaq details[open] summary::after,
+.cityAeoFaq summary:hover::after,
+.cityAeoFaq summary:focus-visible::after{
+  background:#C3B296!important;
+  color:#41372B!important;
+}
+
+/* Responsive fallback, wrapping is allowed only when the screen truly needs it */
+@media(max-width:1180px){
+  .cityLivingFacts .citySectionIntro h2,
+  .cityAeoFaq .citySectionIntro h2{
+    white-space:normal!important;
+  }
+}
+
+@media(max-width:800px){
+  .cityLivingFacts{
+    padding-left:18px!important;
+    padding-right:18px!important;
+  }
+  .cityLivingFacts .citySectionIntro{
+    width:100%!important;
+  }
+  .cityLivingFacts .citySectionIntro h2{
+    font-size:34px!important;
+    line-height:1.08!important;
+  }
+  .cityAnswerGrid{
+    width:100%!important;
+    grid-template-columns:1fr!important;
+  }
+  .cityAnswer{
+    padding:26px 22px!important;
+  }
+  .cityAnswer h3{
+    font-size:26px!important;
+  }
+  .cityAeoFaq .citySectionIntro h2{
+    font-size:34px!important;
+    white-space:normal!important;
+  }
+}

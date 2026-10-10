@@ -1,0 +1,64 @@
+{
+  "mode": "Built-in image generation with reference-image editing",
+  "edits": [
+    {
+      "source": "assets/blog-2026/Blog_07_Homeschool_Public_School.jpg",
+      "name": "photo-0",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-0.lossless.webp"
+    },
+    {
+      "source": "assets/blog-2026/Blog_08_Coffee_Tea.jpg",
+      "name": "photo-1",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-1.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/personal-stays.webp",
+      "name": "photo-2",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-2.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/home-while-away.webp",
+      "name": "photo-3",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. Show the entire seated woman and dog in a wider outdoor scene, including her whole head.",
+      "destination": "assets/full-frame-4718/photo-3.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/no-bookings.webp",
+      "name": "photo-5",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-5.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/remote-oversight.webp",
+      "name": "photo-6",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-6.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/home-security.webp",
+      "name": "photo-7",
+      "prompt": "Use case: identity-preserve. Asset type: full-frame photo on a real-estate website card. Input image is the edit target. Reframe this exact photograph into 4:3 landscape, 1448 x 1086 pixels. Preserve all existing content, people, facial identities, objects, colors, scene, lighting and readable text. Expand the scene naturally beyond the original edges to achieve the new ratio; do not cut out or lose any original content. Show complete heads with air above hair, complete hands and important objects. No distortion, no stretched people, no white or black bars, no blur strips, no duplicated edge panels, no montage. The photograph must fill the entire 4:3 canvas as a single seamless real photo. ",
+      "destination": "assets/full-frame-4718/photo-7.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/property-manager.webp",
+      "name": "property-final",
+      "prompt": "Remove decorative writing from the mug only. Preserve all written checklist content.",
+      "destination": "assets/full-frame-4718/property-final.lossless.webp"
+    },
+    {
+      "source": "assets/rental-questions-v40/room-for-rent.webp",
+      "name": "rental-final",
+      "prompt": "Remove writing from the cardboard box only. Preserve all written content on the computer.",
+      "destination": "assets/full-frame-4718/rental-final.lossless.webp"
+    },
+    {
+      "mode": "built-in image generation, reference image edit",
+      "destination": "assets/full-frame-4718/budget-final.lossless.webp",
+      "prompt": "Identity-preserving full-frame repair. Pull the camera back and naturally extend this photograph to show the SAME Black woman with her entire head and hair, space above her head, both hands and the whole desk. Exact 4:3 landscape, 1448 x 1086. Preserve ALL meaningful written contents from the input: the computer must show the fully populated Monthly Budget spreadsheet with Category, Budget, Actual, Difference columns, dollar amounts, labeled pie chart and Spending Overview bar chart; notebook must show written Monthly Budget amounts and Goals; envelopes must have their budget category labels. Papers, graphs, documents and computer screens MUST have writing and data, NEVER empty tables, blank graphs or placeholder interfaces. Change only decorative lettering on the ceramic mug and decorative motto on the green notebook cover to plain surfaces. Keep books, candle, calculator, cash savings jar, and natural lighting. All people remain unchanged in identity. No cropped head, no bars, no collage strips, no distortion, no invented words on walls or cups."
+    }
+  ]
+}

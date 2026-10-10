@@ -1,0 +1,15 @@
+
+/* Sun and Sage — consistent Life Changes article cards, no colored boxes or strips */
+.ss-more-cards {max-width:1330px;margin:72px auto 90px;padding:0 24px;background:transparent!important;border:0!important;box-shadow:none!important}
+.ss-more-cards h2 {font-size:clamp(27px,2.5vw,40px);line-height:1.18;text-align:center;font-weight:400;color:#262b29;margin:0 0 36px}
+.ss-more-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;align-items:stretch}
+.ss-more-card {display:flex;flex-direction:column;overflow:hidden;border:1px solid #dbddd4;background:#fff;box-shadow:none;color:#1d2520;text-decoration:none!important;min-width:0;transition:border-color .2s ease,transform .2s ease}
+.ss-more-card:hover,.ss-more-card:focus-visible {border-color:#b7a38a;transform:translateY(-3px)}
+.ss-more-card .ss-card-photo {height:264px;width:100%;display:block;object-fit:contain;object-position:center;background:#f6f4f0}
+.ss-more-card .ss-card-body {padding:22px 22px 14px;display:flex;flex:1;flex-direction:column;gap:12px}
+.ss-more-card .ss-card-kicker {font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#77736b;text-align:center}
+.ss-more-card .ss-card-title {font-size:clamp(17px,1.45vw,21px);font-weight:400;line-height:1.35;text-align:center;flex:1}
+.ss-more-card .ss-card-action {text-align:center;font-size:11px;letter-spacing:.15em;text-transform:uppercase;border-top:1px solid #dbddd4;padding:15px 12px 17px;color:#344239}
+.ss-more-cards *, .ss-more-cards *::before, .ss-more-cards *::after {box-sizing:border-box}
+@media(max-width:900px){.ss-more-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ss-more-card .ss-card-photo{height:230px}}
+@media(max-width:620px){.ss-more-cards{margin:45px auto 62px;padding:0 16px}.ss-more-grid{grid-template-columns:1fr;gap:20px}.ss-more-card .ss-card-photo{height:245px}}

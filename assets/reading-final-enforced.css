@@ -1,0 +1,246 @@
+/* Enforced article reading layout - only pages marked reading-final-layout */
+main.reading-final-layout{display:block!important;grid-template-columns:none!important;columns:auto!important;width:100%!important;max-width:none!important;min-width:0!important;margin:0 auto!important;padding:30px 18px 70px!important;background:white!important;box-sizing:border-box!important}
+main.reading-final-layout>.ss23-guide-opening,
+main.reading-final-layout>.desktop-article-lead,
+main.reading-final-layout>.reading-final-lead{
+ display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:center!important;position:static!important;float:none!important;grid-template-columns:none!important;grid-template-rows:none!important;columns:auto!important;width:min(100%,820px)!important;max-width:820px!important;min-width:0!important;margin:0 auto!important;padding:0 18px 25px!important;gap:0!important;box-sizing:border-box!important;background:#fff!important;border:1px solid #dadbd3!important;height:auto!important;min-height:0!important;overflow:visible!important}
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading{display:block!important;order:0!important;position:static!important;float:none!important;grid-area:auto!important;grid-column:auto!important;width:calc(100% + 38px)!important;max-width:none!important;margin:-1px -19px 22px!important;padding:0 6px 14px!important;background:#fff!important;border:0!important;text-align:center!important;box-sizing:border-box!important;transform:none!important}
+main.reading-final-layout .ss23-guide-title h1,
+main.reading-final-layout .ss21-article-heading h1,
+main.reading-final-layout .reading-final-heading h1{display:block!important;position:static!important;float:none!important;max-width:100%!important;width:100%!important;margin:0 auto!important;padding:0!important;font:400 clamp(27px,2.4vw,40px)/1.23 Arial,Helvetica,sans-serif!important;letter-spacing:-.025em!important;text-transform:none!important;text-align:center!important;color:#21342e!important}
+main.reading-final-layout .ss23-guide-opening>figure,
+main.reading-final-layout .desktop-article-lead>figure,
+main.reading-final-layout .reading-final-lead>figure{display:block!important;position:static!important;float:none!important;order:1!important;grid-area:auto!important;grid-column:auto!important;width:100%!important;max-width:760px!important;min-width:0!important;height:auto!important;max-height:none!important;margin:0 auto 22px!important;padding:0!important;border:0!important;aspect-ratio:auto!important;overflow:visible!important;transform:none!important}
+main.reading-final-layout .ss23-guide-opening>figure>img,
+main.reading-final-layout .desktop-article-lead>figure>img,
+main.reading-final-layout .reading-final-lead>figure>img{display:block!important;position:static!important;width:100%!important;min-width:0!important;max-width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;margin:0 auto!important;clip-path:none!important}
+main.reading-final-layout .ss23-guide-opening>p,
+main.reading-final-layout .desktop-article-lead>.ss21-opening,
+main.reading-final-layout .reading-final-lead>p,
+main.reading-final-layout .reading-final-lead>.ss21-opening{display:block!important;order:2!important;position:static!important;float:none!important;grid-area:auto!important;grid-column:auto!important;width:min(100%,670px)!important;max-width:670px!important;min-width:0!important;margin:0 auto 18px!important;padding:0!important;text-align:left!important;background:transparent!important;border:0!important;column-count:1!important;box-sizing:border-box!important}
+main.reading-final-layout .ss23-guide-opening>p,
+main.reading-final-layout .ss21-opening p,
+main.reading-final-layout .reading-final-lead>p{font:400 16px/1.78 Arial,Helvetica,sans-serif!important;text-align:left!important;letter-spacing:0!important;white-space:normal!important}
+main.reading-final-layout>.ss23-guide-body,
+main.reading-final-layout>.ss21-paper{display:block!important;position:static!important;float:none!important;grid-area:auto!important;grid-template-columns:none!important;columns:auto!important;width:min(100%,820px)!important;max-width:820px!important;min-width:0!important;margin:0 auto!important;padding:24px 28px 42px!important;border:1px solid #dadbd3!important;border-top:0!important;background:#fff!important;box-sizing:border-box!important;height:auto!important;transform:none!important}
+main.reading-final-layout .ss23-guide-copy,
+main.reading-final-layout .ss21-body,
+main.reading-final-layout .ss21-reading,
+main.reading-final-layout .article-content-box{display:block!important;position:static!important;float:none!important;grid-area:auto!important;grid-template-columns:none!important;columns:auto!important;width:min(100%,670px)!important;max-width:670px!important;min-width:0!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;transform:none!important}
+@media(max-width:750px){main.reading-final-layout{padding:18px 8px 42px!important}main.reading-final-layout>.ss23-guide-opening,main.reading-final-layout>.desktop-article-lead,main.reading-final-layout>.reading-final-lead{width:100%!important;padding:0 12px 18px!important}main.reading-final-layout>.ss23-guide-body,main.reading-final-layout>.ss21-paper{width:100%!important;padding:18px 15px 32px!important}main.reading-final-layout .ss23-guide-title,main.reading-final-layout .ss21-article-heading,main.reading-final-layout .reading-final-heading{width:calc(100% + 26px)!important;margin:0 -13px 18px!important;padding:0 8px 10px!important}}
+
+
+/* 2026-10-09 reading layout cleanup: remove awkward top border lines and start the reading box below the image */
+main.reading-final-layout>.ss23-guide-opening,
+main.reading-final-layout>.desktop-article-lead,
+main.reading-final-layout>.reading-final-lead{
+  border:0!important;
+  background:transparent!important;
+  padding:0 0 0!important;
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+}
+
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading{
+  width:100%!important;
+  max-width:820px!important;
+  margin:0 auto 26px!important;
+  padding:0!important;
+  background:transparent!important;
+}
+
+main.reading-final-layout .ss23-guide-title h1,
+main.reading-final-layout .ss21-article-heading h1,
+main.reading-final-layout .reading-final-heading h1{
+  margin:0 auto!important;
+}
+
+main.reading-final-layout .v27-photo-frame,
+main.reading-final-layout .ss21-article-photo,
+main.reading-final-layout .reading-final-photo{
+  width:100%!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+main.reading-final-layout .v27-photo-frame img,
+main.reading-final-layout .ss21-article-photo img,
+main.reading-final-layout .reading-final-photo img,
+main.reading-final-layout .v27-natural-photo{
+  display:block!important;
+  width:100%!important;
+  max-width:100%!important;
+  height:auto!important;
+  object-fit:cover!important;
+}
+
+/* finance / question pages: start the bordered reading box after the image */
+main.reading-final-layout>.ss23-guide-opening>p,
+main.reading-final-layout>.desktop-article-lead>p,
+main.reading-final-layout>.reading-final-lead>p,
+main.reading-final-layout>.ss23-guide-opening>.f4-answer{
+  display:block!important;
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  padding:24px 28px 10px!important;
+  border:1px solid #dadbd3!important;
+  border-bottom:0!important;
+  background:#fff!important;
+  box-sizing:border-box!important;
+}
+
+main.reading-final-layout>.ss23-guide-body,
+main.reading-final-layout>.ss21-paper{
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  border:1px solid #dadbd3!important;
+  border-top:0!important;
+  background:#fff!important;
+  box-sizing:border-box!important;
+}
+
+/* if a page has no intro paragraph in the lead, let the body box stand alone as a full square */
+main.reading-final-layout>.reading-final-lead + .ss21-paper,
+main.reading-final-layout>.desktop-article-lead + .ss21-paper{
+  border-top:1px solid #dadbd3!important;
+}
+
+@media(max-width:750px){
+  main.reading-final-layout .ss23-guide-title,
+  main.reading-final-layout .ss21-article-heading,
+  main.reading-final-layout .reading-final-heading{margin:0 auto 20px!important;}
+  main.reading-final-layout>.ss23-guide-opening>p,
+  main.reading-final-layout>.desktop-article-lead>p,
+  main.reading-final-layout>.reading-final-lead>p,
+  main.reading-final-layout>.ss23-guide-opening>.f4-answer,
+  main.reading-final-layout>.ss23-guide-body,
+  main.reading-final-layout>.ss21-paper{width:100%!important;}
+  main.reading-final-layout>.ss23-guide-opening>p,
+  main.reading-final-layout>.desktop-article-lead>p,
+  main.reading-final-layout>.reading-final-lead>p,
+  main.reading-final-layout>.ss23-guide-opening>.f4-answer{padding:18px 18px 8px!important;}
+  main.reading-final-layout>.ss23-guide-body,
+  main.reading-final-layout>.ss21-paper{padding:20px 18px 34px!important;}
+}
+
+/* Final article/blog audit: remove decorative image strips and stray border corners. */
+main.reading-final-layout .ss23-guide-opening::before,
+main.reading-final-layout .ss23-guide-opening::after,
+main.reading-final-layout .ss23-guide-title::before,
+main.reading-final-layout .ss23-guide-title::after,
+main.reading-final-layout .v27-photo-frame::before,
+main.reading-final-layout .v27-photo-frame::after,
+main.reading-final-layout .ss21-article-heading::before,
+main.reading-final-layout .ss21-article-heading::after,
+main.reading-final-layout .ss21-article-photo::before,
+main.reading-final-layout .ss21-article-photo::after,
+main.reading-final-layout .reading-final-lead::before,
+main.reading-final-layout .reading-final-lead::after {
+ content:none!important;
+ display:none!important;
+}
+main.reading-final-layout .ss23-guide-opening,
+main.reading-final-layout .reading-final-lead,
+main.reading-final-layout .desktop-article-lead {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ padding-top:0!important;
+}
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ margin:0 auto 18px!important;
+ padding:0!important;
+}
+main.reading-final-layout .v27-photo-frame,
+main.reading-final-layout .ss21-article-photo,
+main.reading-final-layout .reading-final-photo {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ padding:0!important;
+ margin:0 auto!important;
+ overflow:hidden!important;
+}
+main.reading-final-layout figure.v27-photo-frame img,
+main.reading-final-layout figure.ss21-article-photo img {
+ border:0!important;
+ box-shadow:none!important;
+ clip-path:none!important;
+ margin:0!important;
+ vertical-align:middle!important;
+}
+main.reading-final-layout .ss23-guide-opening .ss23-guide-title > p {
+ margin:8px auto 0!important;
+ padding:0!important;
+ border:0!important;
+ text-align:center!important;
+}
+main.reading-final-layout .ss23-guide-opening > figure {
+ margin-top:0!important;
+ margin-bottom:0!important;
+}
+
+
+/* Final single rectangle layout: guarantee clear space between photo and prose. */
+html body.ss18 main.reading-final-layout > .ss23-guide-opening {
+  margin-bottom:0!important; padding-bottom:0!important;
+  display:flex!important; flex-direction:column!important;
+  align-items:center!important; border:0!important; overflow:visible!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > figure,
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > .v27-photo-frame {
+  display:block!important;float:none!important;position:relative!important;
+  width:100%!important;max-width:820px!important;
+  margin:0 auto!important;padding:0!important;
+  transform:none!important; border:0!important;box-shadow:none!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body {
+  display:block!important;position:relative!important;float:none!important;
+  clear:both!important;transform:none!important;top:auto!important;
+  margin:50px auto 56px!important;
+  width:min(820px,calc(100% - 36px))!important;
+  max-width:820px!important;min-height:0!important;
+  border:1px solid #d8d7d0!important;
+  padding:42px 42px 48px!important;
+  background:#fff!important; box-sizing:border-box!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body::before,
+html body.ss18 main.reading-final-layout > .ss23-guide-body::after{
+ content:none!important;display:none!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body .ss23-guide-copy.article-content-box,
+html body.ss18 main.reading-final-layout > .ss23-guide-body .article-content-box{
+ border:0!important;outline:0!important;box-shadow:none!important;
+ margin:0 auto!important;padding:0!important;
+ width:100%!important;max-width:none!important;
+ background:transparent!important;
+}
+html body.ss18 main.reading-final-layout > .reading-final-lead + .ss21-paper,
+html body.ss18 main.reading-final-layout > .desktop-article-lead + .ss21-paper {
+  margin-top:50px!important;
+  border:1px solid #d8d7d0!important;
+}
+@media(max-width:800px){
+ html body.ss18 main.reading-final-layout > .ss23-guide-body,
+ html body.ss18 main.reading-final-layout > .reading-final-lead + .ss21-paper,
+ html body.ss18 main.reading-final-layout > .desktop-article-lead + .ss21-paper {
+  margin-top:34px!important;padding:24px 19px 32px!important;
+ }
+}

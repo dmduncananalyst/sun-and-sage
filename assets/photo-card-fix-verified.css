@@ -1,0 +1,22 @@
+/* Approved photo treatment: preserve entire photograph; never use clipped cover crops. */
+html body .loanHubGrid .loanHubItem{display:flex!important;flex-direction:column!important;height:auto!important;min-height:0!important;overflow:visible!important;}
+html body .loanHubGrid .loanHubItem>a.ss18-card-photo,
+html body .loanHubGrid .loanHubItem>a.v27-photo-frame,
+html body .loanHubGrid .loanHubItem .ss18-card-photo,
+html body .loanHubGrid .loanHubItem .v27-photo-frame{display:block!important;position:relative!important;flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important;line-height:0!important;background:transparent!important;padding:0!important;margin:0!important;}
+html body .loanHubGrid .loanHubItem>a.ss18-card-photo>img,
+html body .loanHubGrid .loanHubItem>a.v27-photo-frame>img,
+html body .loanHubGrid .loanHubItem .ss18-card-photo img,
+html body .loanHubGrid .loanHubItem .v27-photo-frame img{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important;}
+html body .loanHubGrid .loanHubItem .loanHubBtn,
+html body .loanHubGrid .loanHubItem .loanHubLink{margin-top:auto!important;}
+html body .loanHubGrid{align-items:stretch!important;}
+/* Extend same rule to standard image-first question-card types. */
+html body .questionHubGrid .question-card-image,
+html body .questionHubGrid .question-card-image img,
+html body .life-question-card .card-image,
+html body .life-question-card .card-image img{height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;overflow:visible!important;transform:none!important;clip-path:none!important;}
+/* Full original photo on story pages, matching approved screenshot 4711. */
+html body .article-hero-image img,
+html body .articleHero img,
+html body .reading-photo img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;}

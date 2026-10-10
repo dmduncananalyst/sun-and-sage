@@ -1,0 +1,51 @@
+
+.cityLivingFacts,
+.cityLivingFacts .citySectionIntro,
+.cityLivingFacts .cityAnswerGrid,
+.cityLivingFacts .cityAnswer,
+.cityAeoFaq,
+.cityAeoFaq .citySectionIntro,
+.cityAeoFaq .cityAeoFaqList,
+.cityAeoFaq details,
+.cityAeoFaq details[open],
+.cityAeoFaq details summary,
+.cityAeoFaq details[open] summary,
+.cityAeoFaq details p,
+.cityAeoFaq details[open] p{
+  background-color:#F7F3ED!important;
+  background-image:none!important;
+  color:#41372B!important;
+}
+
+.cityLivingFacts{
+  background-color:#FFFFFF!important;
+}
+.cityAeoFaq{
+  background-color:#F3EFE8!important;
+}
+
+.cityAeoFaq details{
+  border-color:#C7BBAA!important;
+}
+.cityAeoFaq details summary:hover,
+.cityAeoFaq details summary:focus,
+.cityAeoFaq details summary:focus-visible,
+.cityAeoFaq details summary:active,
+.cityAeoFaq details[open] summary{
+  background-color:#F7F3ED!important;
+  background-image:none!important;
+  color:#41372B!important;
+}
+
+.cityAeoFaq details summary::after,
+.cityAeoFaq details[open] summary::after{
+  background-color:#F7F3ED!important;
+  border-color:#B9A88E!important;
+  color:#41372B!important;
+}
+.cityAeoFaq details summary:hover::after,
+.cityAeoFaq details summary:focus-visible::after,
+.cityAeoFaq details[open] summary::after{
+  background-color:#C3B296!important;
+  color:#41372B!important;
+}

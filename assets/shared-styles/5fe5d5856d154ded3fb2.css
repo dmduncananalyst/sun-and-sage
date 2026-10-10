@@ -1,0 +1,44 @@
+
+/* City pages only, no blue or teal in the rebuilt city sections */
+.cityLivingFacts,
+.cityLivingFacts *,
+.cityAeoFaq,
+.cityAeoFaq *{
+  --city-accent:#96856A!important;
+}
+
+.cityAeoFaq details[open],
+.cityAeoFaq details[open] summary,
+.cityAeoFaq details[open] p,
+.cityAeoFaq details summary:hover,
+.cityAeoFaq details summary:focus-visible,
+.cityAeoFaq details summary:active{
+  background:transparent!important;
+  color:#41372B!important;
+}
+
+.cityAeoFaq details summary::after,
+.cityAeoFaq details[open] summary::after{
+  border-color:#B9A88E!important;
+  color:#41372B!important;
+}
+
+.cityAeoFaq details summary:hover::after,
+.cityAeoFaq details summary:focus-visible::after,
+.cityAeoFaq details[open] summary::after{
+  background:#C3B296!important;
+  color:#41372B!important;
+}
+
+.cityLivingFacts a,
+.cityAeoFaq a{
+  color:#6B5945!important;
+}
+
+.cityLivingFacts a:hover,
+.cityLivingFacts a:focus-visible,
+.cityAeoFaq a:hover,
+.cityAeoFaq a:focus-visible{
+  color:#41372B!important;
+  background:#F3EFE8!important;
+}

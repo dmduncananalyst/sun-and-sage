@@ -1,0 +1,31 @@
+/* SUN AND SAGE — card photograph shows 100% of original frame; screenshot 4711 rule.
+   Do not apply fixed 4:3 image heights or object-fit:cover to card photography. */
+html body.ss18 #main.v27-review .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame,
+html body.ss18 #main.questionHubPage .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame,
+html body .loanHubGrid .loanHubItem > a.ss18-card-photo,
+html body .loanHubGrid .loanHubItem > a.v27-photo-frame {
+  display:block!important; width:100%!important; height:auto!important;
+  min-height:0!important; max-height:none!important;
+  aspect-ratio:auto!important; overflow:visible!important;
+  padding:0!important; line-height:0!important;
+  background:transparent!important;
+}
+html body.ss18 #main.v27-review .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame img.v27-natural-photo,
+html body.ss18 #main.questionHubPage .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame img.v27-natural-photo,
+html body .loanHubGrid .loanHubItem > a.ss18-card-photo img,
+html body .loanHubGrid .loanHubItem > a.v27-photo-frame img {
+  display:block!important; position:static!important;
+  width:100%!important; height:auto!important;
+  min-height:0!important; max-height:none!important;
+  aspect-ratio:auto!important; object-fit:contain!important;
+  object-position:center center!important; transform:none!important;
+  clip-path:none!important; inset:auto!important;
+}
+/* Do not put a fixed photo-height ceiling on other story grids. */
+html body .questionHubGrid .question-card-image,
+html body .questionHubGrid .question-card-image img,
+html body .life-question-card .card-image,
+html body .life-question-card .card-image img {
+ height:auto!important;max-height:none!important;aspect-ratio:auto!important;
+ object-fit:contain!important;transform:none!important;
+}

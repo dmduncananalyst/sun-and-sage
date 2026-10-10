@@ -1,0 +1,55 @@
+
+/* Compact editorial introduction, replacing the oversized block */
+.homeVibeIntro{background:#f5f2eb!important;color:#41372B!important;padding:72px clamp(24px,6vw,96px)!important}
+.homeVibeIntro .introFrame{max-width:1320px!important;margin:auto!important;display:grid!important;grid-template-columns:170px 1fr!important;gap:clamp(34px,6vw,90px)!important;align-items:start!important}
+.homeVibeIntro .introFrame aside{position:static!important;width:auto!important;padding-top:8px!important;border-top:1px solid #b9b2a8!important}
+.homeVibeIntro .sectionNumber{font:500 13px Arial!important;color:#96856A!important;letter-spacing:.18em!important}
+.homeVibeIntro .eyebrow{margin:12px 0 0!important;font:600 12px Arial!important;letter-spacing:.2em!important;text-transform:uppercase!important}
+.homeVibeIntro .introFrame article{padding:0!important;display:grid!important;grid-template-columns:minmax(300px,.8fr) 1.2fr!important;gap:clamp(42px,7vw,108px)!important;align-items:start!important}
+.homeVibeIntro h2{font:500 clamp(38px,4.3vw,64px)/.98 Georgia!important;letter-spacing:-.04em!important;margin:0!important;max-width:590px!important}
+.homeVibeIntro h2:before,.homeVibeIntro h2:after{display:none!important;content:none!important}
+.homeVibeIntro .introCopyGrid{display:grid!important;grid-template-columns:1fr!important;gap:24px!important;margin:0!important;padding-top:5px!important}
+.homeVibeIntro .introCopyGrid:before{display:none!important}
+.homeVibeIntro .lead{font:500 clamp(19px,1.7vw,25px)/1.45 Georgia!important;margin:0!important;color:#41372B!important}
+.homeVibeIntro .copy{font:400 16px/1.7 Arial!important;color:#3f3d38!important;margin:0!important}
+.homeVibeIntro .introCopyGrid a{display:inline-block!important;margin-top:22px!important;font:600 12px Arial!important;letter-spacing:.16em!important;text-transform:uppercase!important;border-bottom:1px solid!important;padding-bottom:6px!important}
+
+/* Clear two-dropdown conversation experience */
+.contactExperience{background:#6B5945!important;color:#fff!important;padding:0!important}
+.ctaStage{max-width:1440px!important;margin:auto!important;display:grid!important;grid-template-columns:.78fr 1.22fr!important}
+.ctaStage>header{padding:72px clamp(28px,5vw,76px)!important;border-right:1px solid #ffffff38!important;min-height:0!important;display:block!important}
+.contactExperience .contactNumber{color:#E7E0D5!important;font:600 13px Arial!important;letter-spacing:.2em!important;text-transform:uppercase!important}
+.contactExperience h2{font:500 clamp(42px,4.5vw,70px)/.95 Georgia!important;margin:62px 0 24px!important;max-width:520px!important}
+.ctaStage>header p{max-width:430px;font:400 17px/1.65 Arial;color:#e6eded}
+.conversationForm{background:#f4f0e8!important;color:#41372B!important;padding:68px clamp(28px,5vw,72px)!important;box-shadow:none!important;transform:none!important}
+.selectRow{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:32px}
+.selectRow label{display:block}.selectRow label>span{display:block;margin-bottom:10px;font:600 12px Arial;letter-spacing:.14em;text-transform:uppercase;color:#96856A}
+.selectRow select{display:block;width:100%;height:64px;border:1px solid #8d8a82!important;background:#fff;padding:0 50px 0 18px!important;font:500 18px Georgia!important;cursor:pointer;appearance:auto!important}
+.contactFields{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:18px!important;margin:0!important}
+.contactFields input,.contactFields textarea{border:0!important;border-bottom:1px solid #777!important;background:transparent!important;padding:15px 0!important;font:400 16px Arial!important}
+.contactFields textarea{grid-column:1/-1!important;min-height:82px!important}
+.conversationForm button{margin:30px 0 0 auto!important;background:#c88c55!important;color:#41372B!important;padding:19px 30px!important;min-width:230px!important}
+
+/* A different lender composition, no cards or tilted panels */
+.lenderDeck{background:#efe9df!important;color:#41372B!important;padding:82px clamp(24px,7vw,110px) 100px!important}
+.lenderDeck>header{max-width:1240px!important;margin:auto!important;display:grid!important;grid-template-columns:.8fr 1.2fr!important;gap:30px 8vw!important;align-items:end!important}
+.lenderDeck>header .refEyebrow{grid-column:1/-1!important}
+.lenderDeck>header h2{font:500 clamp(44px,5.3vw,76px)/.95 Georgia!important;letter-spacing:-.04em!important;margin:0!important;max-width:660px!important}
+.lenderDeck>header p{font:400 18px/1.65 Arial!important;max-width:510px!important;margin:0 0 6px!important}
+.lenderPath{max-width:1240px!important;margin:62px auto 0!important;border-top:1px solid #7d776e!important}
+.lenderPath article{display:grid!important;grid-template-columns:70px .8fr 1.2fr!important;gap:4vw!important;align-items:center!important;padding:30px 0!important;border-bottom:1px solid #a29b91!important;background:transparent!important;transition:color .3s,transform .3s!important}
+.lenderPath article:hover{background:transparent!important;padding-left:0!important;padding-right:0!important;color:#96856A!important;transform:translateX(10px)}
+.lenderPath article>span{font:500 22px Georgia!important;color:#c1844e!important}
+.lenderPath small{font:600 12px Arial!important;letter-spacing:.18em!important;text-transform:uppercase!important;color:#96856A!important}
+.lenderPath h3{font:500 clamp(26px,2.6vw,38px)/1 Georgia!important;margin:7px 0 0!important}
+.lenderPath article p{font:400 16px/1.6 Arial!important;max-width:520px!important}
+.lenderDeck>a{display:block!important;width:max-content!important;margin:38px auto 0!important;border-bottom:1px solid!important;padding-bottom:7px!important}
+
+.riseNumbers .statVisual.california svg{display:none!important}.riseNumbers .statVisual.california{background:url('https://commons.wikimedia.org/wiki/Special:Redirect/file/California%20contour.svg') center/contain no-repeat!important;filter:none!important}
+
+@media(max-width:900px){
+ .homeVibeIntro .introFrame,.homeVibeIntro .introFrame article{grid-template-columns:1fr!important}.homeVibeIntro .introFrame{gap:36px!important}.homeVibeIntro .introFrame article{gap:28px!important}.homeVibeIntro .introFrame aside{display:flex!important;gap:18px!important;align-items:center!important}.homeVibeIntro .eyebrow{margin:0!important}
+ .ctaStage{grid-template-columns:1fr!important}.ctaStage>header{border-right:0!important;border-bottom:1px solid #ffffff38!important;padding:54px 24px!important}.contactExperience h2{margin-top:38px!important}.conversationForm{padding:50px 24px!important}.contactFields{grid-template-columns:1fr!important}.contactFields textarea{grid-column:auto!important}
+ .lenderDeck>header{grid-template-columns:1fr!important}.lenderPath article{grid-template-columns:46px 1fr!important;gap:18px!important}.lenderPath article p{grid-column:2!important}
+}
+@media(max-width:620px){.selectRow{grid-template-columns:1fr}.homeVibeIntro{padding:58px 20px!important}.homeVibeIntro h2{font-size:40px!important}.lenderDeck{padding:64px 20px 78px!important}}

@@ -1,0 +1,53 @@
+
+/* V35 — remove unintended end-of-page dead space, without changing section content */
+main{
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+}
+main > section:last-child:not(.footerNextStep):not(.servicePageClose),
+main > div:last-child{
+  margin-bottom:0!important;
+}
+
+/* Do not let a final content section reserve an empty viewport block. */
+main > section:last-child:not(.footerNextStep):not(.servicePageClose){
+  min-height:0!important;
+}
+
+/* If Ready-for-next-step follows content, it starts directly after that content. */
+main > .footerNextStep,
+main > .servicePageClose{
+  margin-top:0!important;
+}
+
+/* Form/action pages: once the action button/form is finished, remove oversized empty bottom padding. */
+main > .valuationRequest:last-child,
+main > .consultationRequest:last-child,
+main > .contactExperience:last-child,
+main > .worksheetSection:last-child{
+  padding-bottom:24px!important;
+  margin-bottom:0!important;
+}
+
+/* Reviews page screenshot 2031: arrows flow directly into Ready section. */
+.reviewsHomeMatch > .homeVibeReviews{
+  height:auto!important;
+  min-height:0!important;
+  padding-bottom:18px!important;
+  margin-bottom:0!important;
+}
+.reviewsHomeMatch > .homeVibeReviews .compactReviewControls{
+  margin-bottom:0!important;
+}
+.reviewsHomeMatch > .footerNextStep{
+  margin-top:0!important;
+}
+
+/* Empty structural nodes at the end of main should never create visible blank space. */
+main > :empty:last-child{
+  display:none!important;
+  height:0!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+}

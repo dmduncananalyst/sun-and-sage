@@ -1,0 +1,10 @@
+
+/* Portfolio title only */
+.homeVibePortfolio>header{display:block!important}.homeVibePortfolio>header:after{content:none!important;display:none!important}.homeVibePortfolio>header>div{display:block!important}.homeVibePortfolio>header h2{margin:0!important}.homeVibePortfolio>header>p,.homeVibePortfolio .sectionNumber,.homeVibePortfolio .eyebrow{display:none!important}
+
+/* Approved management layout, both services blue and tan only on hover */
+.managementSpine{display:none!important}.managementFlow article,.managementFlow article+article{background:#96856A!important;color:#fff!important;transform:none!important}.managementFlow article:hover,.managementFlow article+article:hover{background:#96856A!important;color:#fff!important}.managementFlow article:hover li:before{background:#fff!important}.managementFlow article:hover svg{stroke:#fff!important}.managementFlow article:before,.managementFlow article:after{display:none!important}
+
+/* Equal lender cards, clean labels, independent reveals */
+.lenderRunway header p:after{content:none!important}.runwayTrack{grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:start!important}.runwayTrack details{width:100%!important;min-width:0!important}.runwayTrack summary{height:156px!important;min-height:156px!important;padding:26px 28px!important;grid-template-columns:30px 38px minmax(0,1fr) 20px!important;gap:14px!important}.runwayTrack summary>span{font-size:clamp(23px,1.65vw,28px)!important;line-height:1.03!important}.runwayTrack summary i{width:20px!important;display:block!important;text-align:center!important}.runwayTrack summary i span{display:none!important}.runwayTrack details p{box-sizing:border-box!important}.runwayTrack details:hover,.runwayTrack details[open]{transform:none!important}
+@media(max-width:950px){.runwayTrack{grid-template-columns:1fr!important}.runwayTrack summary{height:auto!important;min-height:132px!important}.runwayTrack summary>span{font-size:27px!important}}

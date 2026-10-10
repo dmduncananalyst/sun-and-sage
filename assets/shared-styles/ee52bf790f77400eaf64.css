@@ -1,0 +1,59 @@
+
+/* V80 — ONLY fix the floating mobile Back bar.
+   Preserve the existing working Real Estate Back button. */
+@media (max-width:800px){
+
+  /* A submenu Back bar must belong to its submenu, never the main menu. */
+  .newMegaMobile > .mobileSubnavBar,
+  .newMegaMobile > .mobileBackMenu{
+    display:none!important;
+  }
+
+  /* Closed details cannot leave their submenu header behind. */
+  .newMegaMobile details:not([open]) > .mobileMega > .mobileSubnavBar{
+    display:none!important;
+  }
+
+  /* Open submenu header stays INSIDE that submenu instead of floating
+     across the parent/main menu. */
+  .newMegaMobile details[open] > .mobileMega > .mobileSubnavBar{
+    display:grid!important;
+    position:sticky!important;
+    top:0!important;
+    z-index:20!important;
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    box-sizing:border-box!important;
+    background:#f5efe4!important;
+  }
+
+  /* Preserve the original working Back button when its submenu is open. */
+  .newMegaMobile details[open] > .mobileMega > .mobileSubnavBar .mobileBackMenu{
+    display:flex!important;
+    visibility:visible!important;
+    opacity:1!important;
+    position:static!important;
+  }
+
+  /* Preserve the special Real Estate Back row/button from the working v78. */
+  .newMegaMobile details[open] .v21RealEstateBack{
+    display:flex!important;
+    position:static!important;
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    box-sizing:border-box!important;
+  }
+
+  .newMegaMobile details[open] .v21RealEstateBackBtn{
+    display:flex!important;
+    visibility:visible!important;
+    opacity:1!important;
+  }
+
+  /* But if Real Estate is not open, that row must not exist visually. */
+  .newMegaMobile details:not([open]) .v21RealEstateBack{
+    display:none!important;
+  }
+}

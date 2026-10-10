@@ -1,0 +1,27 @@
+
+/* One editorial article system used everywhere: lender and Life Changes articles. */
+.financeArticle{background:#eee7dc!important;color:#403529!important}
+.financeArticle .financeHero{padding:124px 20px 72px!important;background:#eee5d9!important;text-align:center!important}
+.financeArticle .financeHero h1{max-width:960px!important;margin:0 auto!important;color:#403529!important;font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;font-size:clamp(42px,5.2vw,68px)!important;line-height:1.05!important;letter-spacing:-.035em!important}
+.financeArticle .financePaper{max-width:1040px!important;margin:0 auto 56px!important;background:#fff!important}
+.financeArticle .financeOpening{padding:54px clamp(28px,6vw,92px)!important;background:#fff!important;border-bottom:1px solid #d8cebf!important}
+.financeArticle .financeOpening p,.financeArticle .financeSection p,.financeArticle .financeSection li,.financeArticle .financeFaq p,.financeArticle .financeFaq summary{max-width:760px!important;margin:0 auto 16px!important;color:#403529!important;font-family:Georgia,"Times New Roman",serif!important;font-size:17px!important;line-height:1.78!important;letter-spacing:normal!important;text-align:left!important;text-indent:2em!important}
+.financeArticle .financeSection{padding:54px clamp(28px,6vw,92px)!important;background:#fff!important;border-bottom:1px solid #d8cebf!important}
+.financeArticle .financeSection:nth-child(odd),.financeArticle .financeSection:nth-child(even){background:#fff!important}
+.financeArticle .financeSectionInner{max-width:760px!important;margin:0 auto!important}
+.financeArticle .financeSection h2{max-width:760px!important;margin:0 auto 18px!important;color:#403529!important;font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;font-size:clamp(28px,2.6vw,36px)!important;line-height:1.15!important;letter-spacing:-.02em!important;text-align:left!important}
+.financeArticle .financeSection ul,.financeArticle .financeSection ol{display:block!important;max-width:760px!important;margin:0 auto 20px!important;padding-left:2em!important}
+.financeArticle .financeSection li{display:list-item!important;padding-left:.25em!important;text-indent:0!important}
+.financeArticle .financeFaq{padding:54px clamp(28px,6vw,92px)!important;background:#403529!important;color:#fff!important}
+.financeArticle .financeFaqInner{max-width:760px!important;margin:0 auto!important}
+.financeArticle .financeFaq h2{margin:0 0 18px!important;color:#fff!important;font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;font-size:clamp(28px,2.6vw,36px)!important;line-height:1.15!important}
+.financeArticle .financeFaqHint{color:#ede4d8!important;text-indent:0!important}
+.financeArticle .financeFaq summary,.financeArticle .financeFaq details p{color:#fff!important}
+.financeArticle .financeFaq details p{margin-top:16px!important}
+.financeArticle .financeCta{padding:54px 20px!important;background:#fff!important;text-align:center!important}
+@media(max-width:800px){
+ .financeArticle .financeHero{padding:96px 20px 56px!important}
+ .financeArticle .financeHero h1{font-size:42px!important}
+ .financeArticle .financeOpening,.financeArticle .financeSection,.financeArticle .financeFaq{padding:42px 24px!important}
+ .financeArticle .financeOpening p,.financeArticle .financeSection p,.financeArticle .financeSection li,.financeArticle .financeFaq p,.financeArticle .financeFaq summary{font-size:16px!important}
+}

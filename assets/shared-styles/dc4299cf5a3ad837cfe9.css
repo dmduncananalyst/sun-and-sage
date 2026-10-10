@@ -1,0 +1,45 @@
+
+/* ONE border only, around prose starting after the large photograph. */
+html body.ss18 main.reading-final-layout > .ss23-guide-opening,
+html body.ss18 main.reading-final-layout > .desktop-article-lead,
+html body.ss18 main.reading-final-layout > .reading-final-lead {
+ border:0!important;outline:0!important;box-shadow:none!important;background:transparent!important;
+ padding:0!important;margin-bottom:0!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > p,
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > .f4-answer {
+ border:0!important;outline:0!important;box-shadow:none!important;background:transparent!important;
+}
+html body.ss18 main.reading-final-layout .v27-photo-frame,
+html body.ss18 main.reading-final-layout .ss21-article-photo {
+ border:0!important;outline:0!important;box-shadow:none!important;padding:0!important;
+ margin-bottom:0!important;background:transparent!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body,
+html body.ss18 main.reading-final-layout > .ss21-paper {
+ border:1px solid #d8d7d0!important;
+ box-shadow:none!important;
+ width:min(100% - 36px,820px)!important;max-width:820px!important;
+ margin:32px auto 52px!important;
+ padding:34px 36px 46px!important;
+ background:#fff!important;
+ box-sizing:border-box!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body .ss23-guide-copy,
+html body.ss18 main.reading-final-layout > .ss21-paper .article-content-box,
+html body.ss18 main.reading-final-layout > .ss23-guide-body .article-content-box {
+ border:0!important;outline:0!important;box-shadow:none!important;
+ width:100%!important;max-width:100%!important;
+ margin:0 auto!important;padding:0!important;
+ background:transparent!important;
+}
+html body.ss18 main.reading-final-layout .ss23-guide-body .ss23-guide-copy > p:first-child,
+html body.ss18 main.reading-final-layout .ss23-guide-body .ss23-guide-copy > .f4-answer:first-child {
+ margin:0 0 30px!important;font-size:16px!important;line-height:1.8!important;
+}
+@media(max-width:800px){
+ html body.ss18 main.reading-final-layout > .ss23-guide-body,
+ html body.ss18 main.reading-final-layout > .ss21-paper {
+  width:calc(100% - 24px)!important;padding:24px 20px 32px!important;margin:24px auto 38px!important;
+ }
+}

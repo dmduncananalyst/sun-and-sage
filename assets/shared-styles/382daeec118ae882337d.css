@@ -1,0 +1,40 @@
+
+/* V85 — SITEWIDE MOBILE BACK-BAR STATE LOCK
+   Closed submenu = absolutely no Back/header overlay. */
+@media (max-width:800px){
+
+  /* Generic submenu header must disappear whenever its own details is closed. */
+  .newMegaMobile details:not([open]) > .mobileMega > .mobileSubnavBar{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    position:static!important;
+    top:auto!important;
+    z-index:auto!important;
+    pointer-events:none!important;
+  }
+
+  /* The historical Real Estate selector was capable of showing this while closed.
+     Explicitly kill it in the closed state on every page. */
+  .newMegaMobile details.realEstateMenuOpen:not([open]) > .mobileMega > .mobileSubnavBar{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+
+  /* Same protection for the approved Real Estate-specific Back row. */
+  .newMegaMobile details:not([open]) .v21RealEstateBack{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+
+  /* No Back control may exist as a direct child/floating layer of the main menu. */
+  .newMegaMobile > .mobileBackMenu,
+  .newMegaMobile > .mobileSubnavBar,
+  .newMegaMobile > .v21RealEstateBack{
+    display:none!important;
+  }
+}

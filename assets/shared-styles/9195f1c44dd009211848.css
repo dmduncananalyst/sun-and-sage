@@ -1,0 +1,43 @@
+
+/* Sitewide card panel audit */
+html body.ss18 #main .loanHubGridWrap.full-card-panel{
+  width:min(1500px,calc(100% - 48px))!important;
+  max-width:1500px!important;
+  margin:0 auto!important;
+  padding:0!important;
+  background:transparent!important;
+  box-sizing:border-box!important;
+  overflow:visible!important;
+}
+html body.ss18 #main .loanHubGridWrap.full-card-panel>.loanHubGrid{
+  width:100%!important;
+  max-width:none!important;
+  margin:0!important;
+  box-sizing:border-box!important;
+}
+/* Article and blog content gets the same clean panel treatment as references */
+html body.ss18 #main .article-content-box{
+  width:min(920px,calc(100% - 48px))!important;
+  max-width:920px!important;
+  margin:34px auto!important;
+  padding:34px 36px!important;
+  background:#fff!important;
+  border:0!important;
+  box-shadow:none!important;
+  box-sizing:border-box!important;
+}
+html body.ss18 #main .article-content-box>:first-child{margin-top:0!important}
+html body.ss18 #main .article-content-box>:last-child{margin-bottom:0!important}
+/* ss23 copy should not keep a conflicting width once boxed */
+html body.ss18 #main .ss23-guide-copy.article-content-box{display:block!important}
+@media(max-width:800px){
+  html body.ss18 #main .loanHubGridWrap.full-card-panel{
+    width:calc(100% - 32px)!important;
+    padding:0!important;
+  }
+  html body.ss18 #main .article-content-box{
+    width:calc(100% - 32px)!important;
+    margin:24px auto!important;
+    padding:24px 20px!important;
+  }
+}

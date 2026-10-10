@@ -1,0 +1,5 @@
+
+.desktopNav>.navHoverItem>.navTopLink>b,.mobileNavTree>details>summary>b{width:19px!important;height:19px!important;margin-left:10px!important;border:1.5px solid currentColor!important;border-radius:50%!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 19px!important;font-size:0!important;line-height:1!important;opacity:.9;transition:transform .2s ease,opacity .2s ease}
+.desktopNav>.navHoverItem>.navTopLink>b::after,.mobileNavTree>details>summary>b::after{content:"";width:5px;height:5px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;display:block;transform:rotate(45deg) translate(-1px,-1px);transform-origin:center;transition:transform .2s ease}
+.desktopNav>.navHoverItem:hover>.navTopLink>b,.desktopNav>.navHoverItem:focus-within>.navTopLink>b,.mobileNavTree>details[open]>summary>b{opacity:1}
+.desktopNav>.navHoverItem:hover>.navTopLink>b::after,.desktopNav>.navHoverItem:focus-within>.navTopLink>b::after,.mobileNavTree>details[open]>summary>b::after{transform:rotate(225deg) translate(-1px,-1px)}

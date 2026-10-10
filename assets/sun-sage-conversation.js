@@ -32,8 +32,8 @@
       trigger = btn;
     } else {
       trigger.classList.add('sunInlineAction__button');
-      trigger.textContent = cfg.button;
-      if (trigger.tagName === 'A') trigger.setAttribute('href','#');
+      // Keep the action's own label and context.
+      if (trigger.tagName === 'A' && /^(#|$)/.test(trigger.getAttribute('href') || '')) trigger.setAttribute('href', new URL('contact.html', document.baseURI).href);
       trigger.removeAttribute('target');
     }
     trigger.setAttribute('data-sun-conversation-open','true');
@@ -88,13 +88,13 @@
   dialog.id = 'sun-conversation';
   dialog.className = 'sunConversation' + (cfg.inline ? ' sunConversation--inline' : '');
   dialog.setAttribute('aria-labelledby','sunConversationTitle');
-  const assetPrefix = cfg.assetPrefix || 'assets/';
+  const brandLogoUrl = new URL('sun-sage-key.lossless.webp', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'sun-sage-conversation.js', document.baseURI)).href;
   const isSensitivePage = /\/life-changes\/(death|divorce)\//.test(location.pathname);
   const conversationTitle = cfg.title || (isSensitivePage ? 'Share Your Plans' : (cfg.button || 'Work With Dominique'));
   dialog.innerHTML = `
     <div class="sunConversation__inner">
       <div class="sunConversation__top">
-        <div class="sunConversation__brand"><img src="${assetPrefix}sun-sage-key.png" alt=""><span>SUN AND SAGE</span></div>
+        <div class="sunConversation__brand"><img src="${brandLogoUrl}" alt=""><span>SUN AND SAGE</span></div>
         <button class="sunConversation__close" type="button" aria-label="Close">×</button>
       </div>
       <h2 class="sunConversation__title" id="sunConversationTitle">${conversationTitle}</h2>

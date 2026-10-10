@@ -1,0 +1,97 @@
+
+:root{
+ --ss-espresso:#41372B;
+ --ss-taupe:#6B5945;
+ --ss-mushroom:#847965;
+ --ss-accent:#96856A;
+ --ss-sand:#B9A88E;
+ --ss-stone:#C3B296;
+ --ss-ivory:#F3EFE8;
+ --ss-white:#FFFFFF;
+}
+
+/* Desktop navigation must always remain readable. */
+header nav > a,
+header nav .navTopLink,
+.siteNav > a,
+.desktopNav > a{
+ color:var(--ss-espresso)!important;
+ background:transparent!important;
+}
+header nav > a:hover,
+header nav > a:focus-visible,
+header nav .navTopLink:hover,
+header nav .navTopLink:focus-visible,
+.siteNav > a:hover,
+.siteNav > a:focus-visible,
+.desktopNav > a:hover,
+.desktopNav > a:focus-visible{
+ color:#fff!important;
+ background:var(--ss-mushroom)!important;
+}
+header nav > a[aria-current="page"],
+.siteNav > a[aria-current="page"],
+.desktopNav > a[aria-current="page"]{
+ color:#fff!important;
+ background:var(--ss-taupe)!important;
+}
+
+/* Dropdowns */
+.megaMenu,.megaSmall{background:var(--ss-ivory)!important}
+.megaMenu a,.megaSmall a{color:var(--ss-espresso)!important}
+.megaMenu a:hover,.megaSmall a:hover{
+ background:#E7E0D5!important;
+ color:var(--ss-espresso)!important;
+}
+
+/* Buttons and active interactions */
+button[type="submit"],input[type="submit"],
+.searchBar button,.heroSearch button,
+.v70ConfirmClose,.v70ConfirmDone,
+[data-worksheet-download],[data-worksheet-clear],[data-worksheet-print]{
+ background:var(--ss-taupe)!important;
+ color:#fff!important;
+ border-color:var(--ss-taupe)!important;
+}
+button[type="submit"]:hover,input[type="submit"]:hover,
+.searchBar button:hover,.heroSearch button:hover,
+.v70ConfirmClose:hover,.v70ConfirmDone:hover,
+[data-worksheet-download]:hover,[data-worksheet-clear]:hover,[data-worksheet-print]:hover{
+ background:var(--ss-accent)!important;
+ color:#fff!important;
+ border-color:var(--ss-accent)!important;
+}
+
+/* Mobile interactive states */
+.newMegaMobile summary:hover,
+.newMegaMobile summary:focus-visible,
+.newMegaMobile details[open] > summary{
+ background:#E7E0D5!important;
+ color:var(--ss-espresso)!important;
+ border-color:var(--ss-sand)!important;
+}
+.newMegaMobile .mobileSubnavBar,
+.newMegaMobile details[open] > .mobileMega > .mobileSubnavBar{
+ background:var(--ss-taupe)!important;
+ border-color:var(--ss-sand)!important;
+}
+.newMegaMobile .mobileSubnavBar a,
+.newMegaMobile .mobileBackMenu,
+.newMegaMobile .mobileSubnavClose{color:#fff!important}
+
+/* FAQ/accordion accents */
+details[open] > summary,
+.faqItem[open] > summary,
+.accordionItem[open] > summary{
+ border-color:var(--ss-sand)!important;
+}
+
+/* Brand mark / key icon: warm neutral instead of teal/orange where SVG/CSS allows. */
+.brandMark svg,.brandIcon svg,.logoMark svg,
+header svg:not(.riseLogo svg),footer svg{
+ color:var(--ss-accent)!important;
+ stroke:var(--ss-accent)!important;
+}
+
+/* Homepage accent line / Under One Roof */
+.homeStoryCentered h2 em{color:var(--ss-accent)!important}

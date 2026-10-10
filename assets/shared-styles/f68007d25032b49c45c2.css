@@ -1,0 +1,62 @@
+
+:root{
+  --ss-espresso:#41372B;
+  --ss-taupe:#6B5945;
+  --ss-mushroom:#847965;
+  --ss-accent:#96856A;
+  --ss-sand:#B9A88E;
+  --ss-white:#FFFFFF;
+}
+
+/* 1) Request My Evaluation — clear hover state */
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+.requestEvaluation:hover,
+.requestEvaluation:focus-visible,
+form button:hover,
+form button:focus-visible{
+  background:var(--ss-sand)!important;
+  color:var(--ss-espresso)!important;
+  border-color:var(--ss-sand)!important;
+  box-shadow:0 8px 22px rgba(65,55,43,.18)!important;
+}
+
+/* 2) Talk With Dominique — remove orange; use new neutral accent */
+a[href*="buyer-consultation"],
+a[href*="seller-consultation"],
+a[href*="contact"]{
+  text-decoration-color:var(--ss-accent)!important;
+}
+.homeStoryCentered>a,
+.readyNextStep a,
+.nextStep a,
+.ctaLink,
+.talkDominique{
+  color:var(--ss-accent)!important;
+  border-color:var(--ss-accent)!important;
+}
+.homeStoryCentered>a span,
+.readyNextStep a span,
+.nextStep a span,
+.ctaLink span,
+.talkDominique span{
+  color:var(--ss-accent)!important;
+}
+
+/* 3) All review cards white */
+.reviewCard,
+.review-card,
+.testimonialCard,
+.testimonial-card,
+.reviewsGrid > *,
+.reviewGrid > *,
+.testimonialsGrid > *{
+  background:#FFFFFF!important;
+  color:var(--ss-espresso)!important;
+}
+.reviewCard *,
+.review-card *,
+.testimonialCard *,
+.testimonial-card *{
+  color:inherit!important;
+}
