@@ -1,0 +1,44 @@
+{
+  "revision": "4719-4720",
+  "date": "2026-10-10",
+  "pages": 322,
+  "reading_layout_pages": 252,
+  "article_questions_or_answers_corrected": 25,
+  "interactive_checklists_remaining": 0,
+  "blog_author_bylines_remaining": 0,
+  "blog_date": "October 10, 2026",
+  "source_photo_references_replaced": 178,
+  "active_new_photo_assets": 52,
+  "excluded_device_photo_candidates": [
+    "fha-review",
+    "ownership-agreement",
+    "rent-buy-comparison",
+    "rent-buy-comparison-fixed",
+    "retirement-review-woman",
+    "school-planning",
+    "school-planning-fixed"
+  ],
+  "verification": {
+    "internal_link_or_asset_errors": 0,
+    "broken_fragments": 0,
+    "blank_links": 0,
+    "full_site_desktop_and_mobile_views": 644,
+    "photo_render_checks": 1386,
+    "ai_chat_button_checks": 780,
+    "distinct_chat_flows": 74,
+    "question_card_checks": 789,
+    "additional_card_layout_views": 36,
+    "final_changed_page_views": 62,
+    "runtime_problems": 0
+  },
+  "photo_rules": [
+    "Full image shown; no object-fit cover or hover zoom on photographs",
+    "All card photo areas use the same 4:3 dimensions without letterboxing",
+    "Equal card heights within each grid, including mobile rows",
+    "Rejected iPad photos and revised versions are not used",
+    "A device back remains plain; no screen content painted on its outside",
+    "Printed records and handwritten notes contain actual writing",
+    "Embedded frame strips repaired in neighborhood photographs"
+  ],
+  "scope": "Complete static-site package verified locally. No live-site deployment was performed."
+}

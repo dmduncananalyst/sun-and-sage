@@ -1,0 +1,1 @@
+Sun and Sage v46 GitHub-ready deployment. Upload the CONTENTS of this folder to the repository root. Entry page: index.html. Media files are web-optimized; live page content and links are retained.
