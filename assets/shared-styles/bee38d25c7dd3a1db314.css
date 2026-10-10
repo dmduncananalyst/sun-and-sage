@@ -1,0 +1,44 @@
+
+/* Desktop-only refinement requested Oct 5: remove divider lines and give the right lead column more breathing room. */
+@media (min-width:801px){
+  #main .desktop-article-lead,
+  #main.ss23-finance>.ss23-guide-opening{
+    width:min(1240px,92vw)!important;
+    grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)!important;
+    column-gap:68px!important;
+    row-gap:28px!important;
+    align-items:center!important;
+  }
+  #main .desktop-article-lead>.ss21-article-heading,
+  #main.ss23-finance>.ss23-guide-opening>.ss23-guide-title{
+    padding:0 24px!important;
+  }
+  #main .desktop-article-lead>.ss21-opening,
+  #main.ss23-finance>.ss23-guide-opening>.f4-answer{
+    max-width:610px!important;
+    width:100%!important;
+    margin:0 auto!important;
+    padding:0 28px 6px!important;
+    border:0!important;
+    border-top:0!important;
+    border-right:0!important;
+    border-bottom:0!important;
+    border-left:0!important;
+    box-shadow:none!important;
+    line-height:1.78!important;
+    box-sizing:border-box!important;
+    text-align:center!important;
+  }
+  #main .desktop-article-lead>.ss21-opening p{
+    margin:0!important;
+    line-height:1.78!important;
+    text-align:center!important;
+  }
+  #main .article-content-box section,
+  #main .article-content-box .financeSection{
+    border:0!important;
+    border-top:0!important;
+    border-bottom:0!important;
+    box-shadow:none!important;
+  }
+}

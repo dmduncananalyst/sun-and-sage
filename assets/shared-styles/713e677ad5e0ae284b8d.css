@@ -1,0 +1,13 @@
+
+/* Review cards are static: identity details are always visible. */
+.homeVibeReviews .compactReview,.reviewsHomeMatch .compactReview{display:flex!important;flex-direction:column!important;min-height:470px!important;height:auto!important;padding:30px!important;overflow:visible!important;background:#fff!important;color:#41372B!important;transition:none!important;transform:none!important}
+.homeVibeReviews .compactReview *,.reviewsHomeMatch .compactReview *{transition:none!important}
+.homeVibeReviews .compactReview:hover,.homeVibeReviews .compactReview:focus-within,.reviewsHomeMatch .compactReview:hover,.reviewsHomeMatch .compactReview:focus-within{background:#fff!important;color:#41372B!important;transform:none!important}
+.homeVibeReviews .compactReview.zillowReview .reviewSource,.reviewsHomeMatch .compactReview.zillowReview .reviewSource{font:0/0 Arial,sans-serif!important;letter-spacing:0!important;color:#41372B!important;margin-bottom:14px}
+.homeVibeReviews .compactReview.zillowReview .reviewSource:after,.reviewsHomeMatch .compactReview.zillowReview .reviewSource:after{content:"Client Review";font:600 10px/1.4 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase}
+.homeVibeReviews .compactReview .stars,.reviewsHomeMatch .compactReview .stars{font:22px/1 Arial,sans-serif;letter-spacing:.12em;color:#B9A88E!important;margin-bottom:2px}
+.homeVibeReviews .compactReview blockquote,.reviewsHomeMatch .compactReview blockquote{display:block!important;flex:none!important;margin:28px 0 24px!important;overflow:visible!important;-webkit-line-clamp:unset!important;color:#41372B!important}
+.homeVibeReviews .compactReview footer,.reviewsHomeMatch .compactReview footer{display:block!important;position:static!important;visibility:visible!important;opacity:1!important;margin-top:auto!important;padding-top:20px!important;border-top:1px solid #CFC5B6!important;color:#41372B!important;transform:none!important}
+.homeVibeReviews .compactReview footer strong,.homeVibeReviews .compactReview footer span,.reviewsHomeMatch .compactReview footer strong,.reviewsHomeMatch .compactReview footer span{display:block!important;visibility:visible!important;opacity:1!important;color:#41372B!important;-webkit-text-fill-color:#41372B!important;transform:none!important}
+.homeVibeReviews .compactReview footer span,.reviewsHomeMatch .compactReview footer span{margin-top:5px!important;color:#777!important;-webkit-text-fill-color:#777!important}
+@media(max-width:800px){.homeVibeReviews .compactReview,.reviewsHomeMatch .compactReview{min-height:430px!important;padding:26px!important}}

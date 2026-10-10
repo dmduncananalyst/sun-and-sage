@@ -1,0 +1,59 @@
+
+/* V37 — compact luxury project-heading composition */
+@media(min-width:801px){
+  .jobPanelIntro{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.25fr) minmax(340px,.75fr)!important;
+    align-items:center!important;
+    column-gap:72px!important;
+    padding:34px 0!important;
+  }
+  .jobPanelIntro > div{
+    display:flex!important;
+    align-items:baseline!important;
+    gap:22px!important;
+    min-width:0!important;
+  }
+  .jobPanelIntro > div > span{
+    flex:0 0 auto!important;
+    margin:0!important;
+    white-space:nowrap!important;
+    letter-spacing:.22em!important;
+    line-height:1.2!important;
+  }
+  .jobPanelIntro > div > h3{
+    flex:1 1 auto!important;
+    margin:0!important;
+    min-width:0!important;
+    max-width:none!important;
+    white-space:nowrap!important;
+    word-break:normal!important;
+    overflow-wrap:normal!important;
+    line-height:1!important;
+  }
+  .jobPanelIntro > p{
+    max-width:500px!important;
+    margin:0!important;
+    line-height:1.6!important;
+  }
+}
+@media(max-width:800px){
+  .jobPanelIntro{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    row-gap:16px!important;
+    padding:24px 0!important;
+  }
+  .jobPanelIntro > div{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:flex-start!important;
+    gap:9px!important;
+  }
+  .jobPanelIntro > div > h3{
+    margin:0!important;
+    white-space:normal!important;
+    word-break:normal!important;
+    overflow-wrap:normal!important;
+  }
+}

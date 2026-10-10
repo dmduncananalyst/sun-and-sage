@@ -227,3 +227,18 @@ html body main#main > section:not(.videoHero):not(.heroDominique),
 html body main#main > .ctPage > section {animation:none!important;}
 html body main#main.final-about > section {opacity:1!important;visibility:visible!important;transform:none!important;animation:none!important;}
 html body main#main :is(.cityReveal,.reveal,[data-reveal]) {opacity:1!important;transform:none!important;transition:none!important;}
+
+/* Preserve the existing property hero and title; expose all numbered captions. */
+html body main#main#main#main .propertyCollageHero > figure {aspect-ratio:auto!important;}
+html body main#main#main#main .propertyCollageHero > figure > img{flex:0 0 auto!important;}
+html body main#main#main#main .propertyCollageHero > figure > figcaption{position:relative!important;inset:auto!important;z-index:5!important;transform:none!important;width:fit-content!important;max-width:56%!important;margin:0!important;box-shadow:none!important;background:#30382ebf!important;color:#fff!important;}
+html body main#main#main#main :is(.f4-matrix-wrap,.f4-matrix-wrap){width:100%!important;overflow-x:auto!important;}
+
+@media(min-width:821px){
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(odd) > figcaption{align-self:flex-start!important;margin-left:0!important;margin-right:auto!important;}
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(even) > figcaption{align-self:flex-end!important;margin-left:auto!important;margin-right:0!important;}
+}
+@media(max-width:820px){html body main#main#main#main .propertyCollageHero > figure > figcaption{width:100%!important;max-width:100%!important;}}
+
+/* Reserve the source photo ratio before lazy images arrive. */
+html body main#main#main#main img[data-full-photo]:not([data-uniform-photo]){aspect-ratio:var(--ss-photo-ratio,auto)!important;}

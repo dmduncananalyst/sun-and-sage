@@ -1,0 +1,37 @@
+
+/* Desktop-only article lead split: image left, question and opening answer right. Mobile remains unchanged. */
+@media (min-width: 801px){
+  #main .desktop-article-lead{
+    width:min(1160px,92vw);
+    margin:40px auto 34px;
+    display:grid;
+    grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+    grid-template-areas:"image title" "image answer";
+    column-gap:46px;
+    row-gap:18px;
+    align-items:center;
+  }
+  #main .desktop-article-lead>.ss21-article-heading{grid-area:title;margin:0!important;padding:0!important;text-align:center!important;align-self:end!important;}
+  #main .desktop-article-lead>.ss21-article-heading h1{margin:0!important;text-align:center!important;}
+  #main .desktop-article-lead>.ss21-article-photo{grid-area:image;margin:0!important;width:100%!important;align-self:stretch!important;}
+  #main .desktop-article-lead>.ss21-article-photo img{width:100%!important;height:100%!important;min-height:390px!important;max-height:520px!important;object-fit:cover!important;}
+  #main .desktop-article-lead>.ss21-opening{grid-area:answer;margin:0!important;padding:0!important;align-self:start!important;}
+  #main .desktop-article-lead>.ss21-opening p{margin:0!important;text-align:center!important;}
+
+  #main.ss23-finance>.ss23-guide-opening{
+    width:min(1160px,92vw)!important;
+    margin:40px auto 34px!important;
+    padding:0!important;
+    display:grid!important;
+    grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)!important;
+    grid-template-areas:"image title" "image answer"!important;
+    column-gap:46px!important;
+    row-gap:18px!important;
+    align-items:center!important;
+  }
+  #main.ss23-finance>.ss23-guide-opening>.ss23-guide-title{grid-area:title!important;margin:0!important;padding:0!important;text-align:center!important;align-self:end!important;}
+  #main.ss23-finance>.ss23-guide-opening>.ss23-guide-title h1{margin:0!important;text-align:center!important;}
+  #main.ss23-finance>.ss23-guide-opening>figure{grid-area:image!important;margin:0!important;width:100%!important;align-self:stretch!important;}
+  #main.ss23-finance>.ss23-guide-opening>figure img{width:100%!important;height:100%!important;min-height:390px!important;max-height:520px!important;object-fit:cover!important;}
+  #main.ss23-finance>.ss23-guide-opening>.f4-answer{grid-area:answer!important;margin:0!important;padding:0!important;align-self:start!important;text-align:center!important;}
+}

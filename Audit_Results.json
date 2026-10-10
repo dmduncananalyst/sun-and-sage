@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-10",
+  "static": {
+    "pages": 324,
+    "article_pages": 254,
+    "links_checked": 36438,
+    "missing": [],
+    "fragments": [],
+    "blank": [],
+    "cssmissing": [],
+    "financing_nav": [],
+    "checkboxes": [],
+    "image_errors": [],
+    "duplicate_card_photos": [],
+    "card_article_mismatches": [],
+    "body_styles": [],
+    "cards": 253,
+    "blog_dates": [],
+    "blog_bylines": []
+  },
+  "browser_layout": {
+    "views": 648,
+    "cardChecks": 506,
+    "mainChatClicks": 140,
+    "layoutProblems": [],
+    "footerChatChecksPending": false
+  },
+  "chat": {
+    "views": 648,
+    "triggerClicks": 640,
+    "logos": 640,
+    "problems": []
+  },
+  "property_management": [
+    {
+      "width": 1440,
+      "height": 900,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 393,
+      "height": 852,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "heroFits": true,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "background": "rgba(48, 56, 46, 0.75)",
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    }
+  ],
+  "duplicate_photos": {
+    "cards": 253,
+    "near_matches": []
+  },
+  "budget_calculator": "removed; article, photograph, and references retained",
+  "scope": "Local static files and internal page/chat controls. No live contact submission. External services were not tested end-to-end.",
+  "blog_photo_paths": [
+    {
+      "mode": "domain-root",
+      "width": 1440,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    },
+    {
+      "mode": "project-folder",
+      "width": 1440,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    },
+    {
+      "mode": "local-file",
+      "width": 1440,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    },
+    {
+      "mode": "domain-root",
+      "width": 393,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    },
+    {
+      "mode": "project-folder",
+      "width": 393,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    },
+    {
+      "mode": "local-file",
+      "width": 393,
+      "cards": 15,
+      "missing": [],
+      "failed": []
+    }
+  ]
+}

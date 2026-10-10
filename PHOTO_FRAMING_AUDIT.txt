@@ -1,8 +1,0 @@
-Image candidates requiring individual review (extreme aspect ratio or low resolution):
-('short-term-rental-questions.html', 'assets/rental-questions-v40/personal-stays.webp', 383, 359)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/home-while-away.webp', 366, 359)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/room-for-rent.webp', 371, 359)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/no-bookings.webp', 378, 359)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/remote-oversight.webp', 504, 358)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/home-security.webp', 506, 350)
-('short-term-rental-questions.html', 'assets/rental-questions-v40/property-manager.webp', 504, 358)

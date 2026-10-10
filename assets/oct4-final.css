@@ -161,13 +161,13 @@ html body.ss18 #main .catalogueSection .cityEntry:target dl div{
   grid-template-columns:110px minmax(0,1fr)!important;
   gap:16px!important;
 }
-html body.ss18 #main .catalogueSection .cityEntry#north-hollywood::before{background-image:url('assets/photo-audit-4720/city-north-hollywood.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#valley-village::before{background-image:url('assets/photo-audit-4720/city-valley-village.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#valley-glen::before{background-image:url('assets/photo-audit-4720/city-valley-glen.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#sun-valley::before{background-image:url('assets/photo-audit-4720/city-sun-valley.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#sunland::before{background-image:url('assets/photo-audit-4720/city-sunland.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#tujunga::before{background-image:url('assets/photo-audit-4720/city-tujunga.lossless.webp')!important}
-html body.ss18 #main .catalogueSection .cityEntry#burbank::before{background-image:url('assets/photo-audit-4720/city-burbank.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#north-hollywood::before{background-image:url('photo-audit-4720/city-north-hollywood.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#valley-village::before{background-image:url('photo-audit-4720/city-valley-village.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#valley-glen::before{background-image:url('photo-audit-4720/city-valley-glen.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#sun-valley::before{background-image:url('photo-audit-4720/city-sun-valley.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#sunland::before{background-image:url('photo-audit-4720/city-sunland.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#tujunga::before{background-image:url('photo-audit-4720/city-tujunga.lossless.webp')!important}
+html body.ss18 #main .catalogueSection .cityEntry#burbank::before{background-image:url('photo-audit-4720/city-burbank.lossless.webp')!important}
 @media (max-width:900px){
   html body.ss18 #main .catalogueSection .cityEntry.active,
   html body.ss18 #main .catalogueSection .cityEntry:target{
