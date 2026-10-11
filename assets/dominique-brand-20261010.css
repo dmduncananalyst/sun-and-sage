@@ -1,0 +1,17 @@
+/* Approved Dominique Duncan-Nelson key and signature logo. */
+html body.ss18 #ss22-header .ss22-brand {
+  flex:0 1 260px!important;width:260px!important;min-width:0!important;max-width:260px!important;gap:0!important;
+}
+html body.ss18 #ss22-header .ss22-brand>img.ddn-wordmark {
+  display:block!important;width:100%!important;height:auto!important;min-width:0!important;max-width:100%!important;max-height:none!important;flex:0 1 auto!important;object-fit:contain!important;filter:none!important;opacity:1!important;
+}
+html body .sunConversation__brand {width:min(360px,calc(100% - 44px));flex:0 1 360px;min-width:0;gap:0}
+html body .sunConversation__brand>img {width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;min-width:0!important;object-fit:contain!important;display:block!important;filter:none!important}
+html body .sunConversation__top {align-items:center;gap:12px}
+html body .sunConversation__close {flex:0 0 32px}
+html body .ddn-footer-brand {display:block!important;width:min(360px,100%)!important;max-width:100%!important;margin:0 0 24px!important;padding:0!important;background:transparent!important;border:0!important;text-decoration:none!important;}
+html body .ddn-footer-brand>img {display:block!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important;filter:none!important;}
+html body .v10-brand-patch .ddn-wordmark, html body .v4-property-sign .ddn-wordmark {width:100%!important;height:auto!important;object-fit:contain!important;max-width:280px!important;}
+@media(min-width:821px) and (max-width:1490px){html body.ss18 #ss22-header .ss22-brand{width:220px!important;max-width:220px!important;flex-basis:220px!important}}
+@media(max-width:820px){html body.ss18 #ss22-header .ss22-brand{width:230px!important;max-width:calc(100vw - 145px)!important;flex-basis:230px!important;min-height:0!important}}
+@media(max-width:360px){html body.ss18 #ss22-header .ss22-brand{width:190px!important;max-width:calc(100vw - 124px)!important;flex-basis:190px!important}}

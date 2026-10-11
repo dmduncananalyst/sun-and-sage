@@ -1,4 +1,4 @@
-/* Sun and Sage — an editorial system for the Valley. */
+/* Dominique Duncan-Nelson — an editorial system for the Valley. */
 :root{--ss-paper:#f5f3ed;--ss-white:#fff;--ss-ink:#30332d;--ss-earth:#505846;--ss-sage:#77816b;--ss-line:#d8d9ce;--v4-cream:var(--ss-paper);--v4-stone:var(--ss-paper);--v4-ink:var(--ss-ink);--v4-taupe:var(--ss-sage);--v4-sage:var(--ss-sage);--v4-line:var(--ss-line)}
 body{background:var(--ss-paper);color:var(--ss-ink)}
 main{isolation:isolate}main img{max-width:100%}main figure{min-width:0}main p{line-height:1.7}main h1,main h2,main h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.045em;line-height:1.08}main h2{font-size:clamp(34px,4.2vw,65px)}

@@ -1,5 +1,5 @@
 
-/* Sun and Sage requested fixes — scoped and additive only. */
+/* Dominique Duncan-Nelson requested fixes — scoped and additive only. */
 /* The scroll/flip interaction is self-evident; do not add instructional copy. */
 .loanFront:after{content:none!important;display:none!important;}
 /* Global article typography: one readable editorial face, not a serif/sans mix. */

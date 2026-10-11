@@ -1,4 +1,4 @@
-/* Sun and Sage: composed services, complete photographs, consistent hierarchy.
+/* Dominique Duncan-Nelson: composed services, complete photographs, consistent hierarchy.
    Not loaded on Home or city pages. Navigation is deliberately outside this scope. */
 #main{--ss24-paper:#f8f7f3;--ss24-white:#fff;--ss24-ink:#30382e;--ss24-sage:#48533e;--ss24-soft:#e8e9e1;--ss24-line:#cdd1c3;--ss24-title:clamp(28px,2.8vw,40px);--ss24-body:16px;--ss24-gutter:clamp(22px,3vw,38px)}
 #main>header:not(.ss23-project-title){width:100%!important;max-width:1240px!important;margin-left:auto!important;margin-right:auto!important;grid-template-columns:1fr!important;text-align:center!important}

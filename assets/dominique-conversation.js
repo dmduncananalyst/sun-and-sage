@@ -1,6 +1,6 @@
 
 (() => {
-  const cfgNode = document.getElementById('sunSageConversationConfig');
+  const cfgNode = document.getElementById('dominiqueConversationConfig');
   if (!cfgNode) return;
   let cfg;
   try { cfg = JSON.parse(cfgNode.textContent); } catch (e) { return; }
@@ -58,7 +58,7 @@
   // A placeholder restores the original desktop layout when the viewport grows.
   const cityMain = document.querySelector('main[data-city-page]');
   if (cityMain && !cfg.inline) {
-    const cityActions = [...cityMain.querySelectorAll('[data-sun-conversation-open="true"]')];
+    const cityActions = [...cityMain.querySelectorAll('[data-sun-conversation-open="true"]')].filter(action => !action.closest('.ss22-city-caption'));
     if (cityActions.length) {
       const mobile = window.matchMedia('(max-width: 800px)');
       const placements = cityActions.map(action => {
@@ -88,13 +88,13 @@
   dialog.id = 'sun-conversation';
   dialog.className = 'sunConversation' + (cfg.inline ? ' sunConversation--inline' : '');
   dialog.setAttribute('aria-labelledby','sunConversationTitle');
-  const brandLogoUrl = new URL('sun-sage-key.lossless.webp', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'sun-sage-conversation.js', document.baseURI)).href;
+  const brandLogoUrl = new URL('dominique-key-script-transparent.png', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'dominique-conversation.js', document.baseURI)).href;
   const isSensitivePage = /\/life-changes\/(death|divorce)\//.test(location.pathname);
   const conversationTitle = cfg.title || (isSensitivePage ? 'Share Your Plans' : (cfg.button || 'Work With Dominique'));
   dialog.innerHTML = `
     <div class="sunConversation__inner">
       <div class="sunConversation__top">
-        <div class="sunConversation__brand"><img src="${brandLogoUrl}" alt=""><span>SUN AND SAGE</span></div>
+        <div class="sunConversation__brand"><img src="${brandLogoUrl}" alt="Dominique Duncan-Nelson" width="2048" height="683"></div>
         <button class="sunConversation__close" type="button" aria-label="Close">×</button>
       </div>
       <h2 class="sunConversation__title" id="sunConversationTitle">${conversationTitle}</h2>

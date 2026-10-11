@@ -1,4 +1,4 @@
-/* Sun and Sage revision 48: distinct editorial typography, richer interaction, and page-specific redesigns. */
+/* Dominique Duncan-Nelson revision 48: distinct editorial typography, richer interaction, and page-specific redesigns. */
 :root{
   --ss-ink:#41372B;
   --ss-#96856A:#6B5945;
@@ -205,7 +205,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-#96856A)!important}
 .channelRibbon{overflow:hidden!important}
 .channelRibbon span{animation-duration:9.5s!important}
 
-/* Consultation pages: compact editorial introduction beside an actual Sun and Sage image. */
+/* Consultation pages: compact editorial introduction beside an actual Dominique Duncan-Nelson image. */
 .consultationHero{
   min-height:620px!important;
   padding:0!important;
@@ -250,7 +250,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-#96856A)!important}
   border-top:5px solid var(--ss-copper)!important;
 }
 .consultationContactCompact::before{
-  content:"SUN AND SAGE";
+  content:"Dominique Duncan-Nelson";
   position:absolute;
   top:18px;
   left:max(6vw,calc(50vw - 720px));
@@ -352,7 +352,7 @@ body:has(.sellPositioning) .servicePanels a{color:var(--ss-#96856A)!important}
 .reviewNames button:hover,.reviewNames button:focus-visible,.reviewNames button.active{background:var(--ss-copper)!important;color:#41372B!important;transform:none!important;box-shadow:none!important}
 .reviewNames button:hover::after,.reviewNames button.active::after{color:#41372B}
 .reviewStage{position:relative;display:grid;place-items:center;padding:42px;overflow:hidden}
-.reviewStage::before{content:"SUN AND SAGE";position:absolute;right:-35px;bottom:44px;transform:rotate(-90deg);color:#d7d1c6;font:700 10px/1 var(--ss-sans);letter-spacing:.32em}
+.reviewStage::before{content:"Dominique Duncan-Nelson";position:absolute;right:-35px;bottom:44px;transform:rotate(-90deg);color:#d7d1c6;font:700 10px/1 var(--ss-sans);letter-spacing:.32em}
 .reviewStage img{display:none;max-width:min(100%,860px);max-height:570px;width:auto;height:auto;object-fit:contain;box-shadow:0 20px 45px #2b292520}
 .reviewStage img.active{display:block;animation:ssReviewIn .35s ease both}
 @keyframes ssReviewIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}

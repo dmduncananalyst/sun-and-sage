@@ -1,6 +1,10 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "files": {
+    "index.html": {
+      "size": 363935,
+      "sha256": "2a6a290e150c010039102c8bfccacd7d3050e7b7022f6f643786a9d69bc4c666"
+    },
     ".openai/hosting.json": {
       "size": 63,
       "sha256": "18769b723fb0b41a58e02e72dde8b0b7d167575172412c6136e2b387c8306bf2"
@@ -10,72 +14,112 @@
       "sha256": "6e991f00abb2b05628e4f40f9cd2de297733d9540620744457933e8d14f33224"
     },
     "Audit_Results.json": {
-      "size": 6749,
-      "sha256": "1ba43e71461027ebc256b8891260900e79c781bb12656c11cfab4f63ee6eb426"
+      "size": 43280,
+      "sha256": "fbd96982bd17283fb52ec29e2dd8e2cbb479e1b482a1c389f869f354787c3d9b"
+    },
+    "Blog_Update_Results.json": {
+      "size": 3428,
+      "sha256": "a842dcd17a82d0732c47b3885944d435b581a2df1aeadef2d94ddfac84989a96"
     },
     "CNAME": {
       "size": 13,
       "sha256": "84dbe8232948b3b37650ff6cbfb8f5eacefd810b7f51273d41b26b88b3982961"
     },
+    "FAQ_Answers_For_Approval.txt": {
+      "size": 1836,
+      "sha256": "5abb6d926031ce49ada66ee42a58fb74126222d83992a6a258c6b4379686868e"
+    },
     "GITHUB-DEPLOY.txt": {
       "size": 210,
       "sha256": "aa59d97f61dd9cf09b8ee00578b776443248f7ad3513a38227a1d5d5c18697fb"
     },
+    "Layout_Correction_Results.json": {
+      "size": 4437113,
+      "sha256": "b64a336ec5fe45b795346ac6c20faee4dfc0d1ce72bc14298dc802ab5a8149da"
+    },
+    "Logo_Design_Info.json": {
+      "size": 2684,
+      "sha256": "2434216cabe2d51831fac27f5b8c4dae4b6311411bf05e868f6338dafeba294d"
+    },
+    "Logo_Update_Results.json": {
+      "size": 171,
+      "sha256": "d7ba02b8fd0ff8d150d86957776e99a5014ca0550a10898e9e1ac9b003b7d824"
+    },
     "New_Blog_Photo_Prompts.json": {
-      "size": 1506,
-      "sha256": "cecc8f978d9203c4ca8e0c6be9298d94c307909e562767a2a1d2932fe66e983a"
+      "size": 1528,
+      "sha256": "a61106c4877916085944979503fe39c7d3e9065c5bb21dcfb089524a24de1eba"
+    },
+    "October_Blog_Photo_Prompts.json": {
+      "size": 42,
+      "sha256": "01091913fbfae4aadbfe54b33c55b0a8e18eb8acaff53a27a84bae2f89230465"
+    },
+    "Portfolio_Photo_Inventory.json": {
+      "size": 48137,
+      "sha256": "b93b2156fe60ddb3cd83044fb3c3e74b59c274968122e4bfa0f1baffaa1efbea"
+    },
+    "Portfolio_Photo_Selections.json": {
+      "size": 8484,
+      "sha256": "d4ba6a50559dc316317d8c8044b591ea1458234709f1d14825c2b119f0946533"
     },
     "QUESTION-PAGE-CLEANUP.txt": {
-      "size": 1850,
-      "sha256": "c9973a8133854617a8ededa90c6befbc4e527d22750d5127eb32c657ec72c5d3"
+      "size": 1883,
+      "sha256": "3df6e8f2d52a3e100d2cd47797de3b302c717e57d667a5ce940ec12c3f86f9c7"
     },
     "QUESTION-SEO-AEO-HANDOFF.txt": {
-      "size": 20344,
-      "sha256": "cba6a465c834f999a4c13d3c11751dd5533ef32c3420dad35a38b81950e26203"
+      "size": 20355,
+      "sha256": "4aa38eaae7218e47c5b274f9bd4e10dd4c94648c0b40b6809ec8cfbf647980d3"
     },
     "READ_ME.txt": {
-      "size": 2968,
-      "sha256": "872acb5c88d1884ad7d91640130578bbe72e015ede62e1ddab721a18f59e19de"
+      "size": 4313,
+      "sha256": "68b20721542d481751e3aa11ffa43e8f3af03ba24a8474e8987697776b7d306c"
     },
     "REDESIGN-NOTES.txt": {
-      "size": 4352,
-      "sha256": "4cd831a70688e83c10f0b3dbe519a14b5e0608cab819c98fdfffda7fe0dd9ad1"
+      "size": 4363,
+      "sha256": "4f6cbdf08bb763e18d1db6c5847e113491f153ffe6e117d8e8dda1444a8c93a2"
+    },
+    "Rebrand_Audit_Results.json": {
+      "size": 6930,
+      "sha256": "48a902ba1a05e962c2f45e7e1c00b9e15933711333b955a3baadf50fedb76b4b"
+    },
+    "Rebrand_Review_and_Launch.txt": {
+      "size": 12608,
+      "sha256": "24c6bef89cfdff779397ee82cfe5a251a3d36fa1e8f7d36602b4694699943f77"
     },
     "about.html": {
-      "size": 50652,
-      "sha256": "3a9f6236780724cc1b72d3211b2c9564a14db3454d25f7517a0fe016e7cdc607"
+      "size": 51424,
+      "sha256": "1e6cfc191a8a7e90c121a9dfd1fc6213cf7e109b78c9d2143ed8b26969b7d50c"
     },
     "assets/aeo-unique-photos/aeo-000.lossless.webp": {
-      "size": 1697618,
-      "sha256": "45c5fea63982399d4a3b73238acc2a3aab5a7b581d3958c66b30edda7db3f8dd"
+      "size": 454118,
+      "sha256": "36a32767a217ebb89d1ca37e2fb8bcca37aada4164dff255c5dbc38c735175db"
     },
     "assets/aeo-unique-photos/aeo-001.lossless.webp": {
       "size": 1630282,
       "sha256": "5fcaa0a71daf396cf6a9b96f11389546185d33a8d2003c02b75a39f7a88bf4dd"
     },
     "assets/aeo-unique-photos/aeo-002.lossless.webp": {
-      "size": 1965404,
-      "sha256": "d06fbc96d97a495bc4ee8e3fc5d37379df00398da7cba3d3c6c5fa4000942aa4"
+      "size": 551508,
+      "sha256": "48d66a3d63361cb2a3ac443dd1e6d98725c09059d51826e6604f5cff13fa1dfa"
     },
     "assets/aeo-unique-photos/aeo-003.lossless.webp": {
-      "size": 1766858,
-      "sha256": "baace5c2a2418355eb6f192c39054d58cb37b9f1d146e66c1d67ad90f31904ba"
+      "size": 500554,
+      "sha256": "7af4e247b2927122d8d5297f028f1abc030f5aa41f4a973248a852dc676d731c"
     },
     "assets/aeo-unique-photos/aeo-004.lossless.webp": {
-      "size": 1810724,
-      "sha256": "9cec5073281a03e3dc7b1f356c0df5a71a29b2991500e551ef00d5f50e700ec2"
+      "size": 484750,
+      "sha256": "fbba77327d6601b6b0194d8f11e1d18bcf22e7cce75d49152188587d9ba7c2f5"
     },
     "assets/aeo-unique-photos/aeo-005.lossless.webp": {
-      "size": 1805372,
-      "sha256": "d1163506d11e2a3b12005c589db8eefc425f083d53f4d1e23bbd25aa2360fb74"
+      "size": 498032,
+      "sha256": "60c5ce0df686a54c8e4994c534e3991b67d3aa12e3db9be79b519a0ff175e147"
     },
     "assets/aeo-unique-photos/aeo-006.lossless.webp": {
-      "size": 1778646,
-      "sha256": "52d2bf0c72310c0a0e3a74968407b737b63cfcbe04b79c9013c89950f5a8416a"
+      "size": 510554,
+      "sha256": "96d62d60bd078aedf418052960766119f223c82bc739e4dcd166cc696c4c242c"
     },
     "assets/aeo-unique-photos/aeo-007.lossless.webp": {
-      "size": 1886254,
-      "sha256": "bba6714d0f045e5d503c7db3430c4622ddacbdf3c90e1ccfdbd05742df3a477f"
+      "size": 559434,
+      "sha256": "0820bd85a43d8833547622ed2ff487630ab177c2eada276188c4a450e6d58214"
     },
     "assets/aeo-unique-photos/aeo-008.lossless.webp": {
       "size": 1621960,
@@ -90,8 +134,8 @@
       "sha256": "20c367d608c45da38f9e04c4d825e9602ef575a81e19d0126f90eca589dbda74"
     },
     "assets/aeo-unique-photos/aeo-011.lossless.webp": {
-      "size": 1742928,
-      "sha256": "224e1adadb7e5ce3a24f927a37a95cb7be2335dfdd1a5803f4a85aae4a9523f3"
+      "size": 472412,
+      "sha256": "0d94e2c47219c077e7f28d28144881ae249eb6d786631dba75032e34db45c829"
     },
     "assets/aeo-unique-photos/aeo-012.lossless.webp": {
       "size": 1643620,
@@ -126,12 +170,12 @@
       "sha256": "d84450a194e941fbbc89f3439ae2ce7ef642853e7ceb15443194660ec5a3c6f9"
     },
     "assets/aeo-unique-photos/aeo-020.lossless.webp": {
-      "size": 1950970,
-      "sha256": "9cf218fd59f538941ef3bb9178b38aa8c8da7a210be19db8405f5731d248328e"
+      "size": 539424,
+      "sha256": "e570fa8556353e0d5ede7354b8acddbacab29c1856f503ac2a4e5b4be3c6dfea"
     },
     "assets/aeo-unique-photos/aeo-021.lossless.webp": {
-      "size": 1697844,
-      "sha256": "3b0a2bf2a06e89e1e7596256ef291a5bf419c6643bb05ab19b0657800ffc0b9e"
+      "size": 464302,
+      "sha256": "dbdeb279ae3e9dd6a5a217afcf1203cae4044869d33fb72a989b0d01d135a7ee"
     },
     "assets/aeo-unique-photos/aeo-022.lossless.webp": {
       "size": 1585394,
@@ -150,8 +194,8 @@
       "sha256": "283fafab72c392823fa4210fbc1278bffd33ada128dbaf8c721b665aff8df9fa"
     },
     "assets/aeo-unique-photos/aeo-026.lossless.webp": {
-      "size": 1701176,
-      "sha256": "9a20f6ebe6d8c4c61e0bb63eadd82ddd5c72441f863d1b4d608221944b3baef1"
+      "size": 452378,
+      "sha256": "dce9e43654070ee226d8aecb48fa4b0a1ba74f940faed90b48de4993126f5aca"
     },
     "assets/aeo-unique-photos/aeo-027.lossless.webp": {
       "size": 1574732,
@@ -186,32 +230,32 @@
       "sha256": "be64320ef01cdedcae823f542faf35f3539d9631efccb269b5f7dde189dbd3a1"
     },
     "assets/aeo-unique-photos/aeo-035.lossless.webp": {
-      "size": 1924408,
-      "sha256": "796742e6867adea3662b4b20c461d9ced606c0cbf0db5b5addda645d898ab9d1"
+      "size": 553604,
+      "sha256": "3f1b831f7294b07eb11b54278f7b48195506d830c05c0b5dcbb842616752c26d"
     },
     "assets/aeo-unique-photos/aeo-036.lossless.webp": {
-      "size": 1778614,
-      "sha256": "68165822837ba78b341d3b06ceac76fe33c8ec1793c966ac6b14ce2d91ee38f1"
+      "size": 489506,
+      "sha256": "b27089e28e7b7a97ce530ddd7ece744f7e539e0bee5041e2552effa3c6a6bbe6"
     },
     "assets/aeo-unique-photos/aeo-037.lossless.webp": {
       "size": 1524762,
       "sha256": "1bf3012368cd547865430e32f981993088c87d4dfeda7d6ac99882a5009f7ad9"
     },
     "assets/aeo-unique-photos/aeo-038.lossless.webp": {
-      "size": 1920446,
-      "sha256": "f8d518ecccf70786e36a691c406484877b561c11bb6dfe84a659bd4e6844eea7"
+      "size": 578886,
+      "sha256": "a075fd9c88338fe0274c0ca42ec9f5ee71d31798c655c49521ab991797f87686"
     },
     "assets/aeo-unique-photos/aeo-039.lossless.webp": {
-      "size": 1725892,
-      "sha256": "dc80cf90377323aa6e8dc8c10c139a35fea0d8c563638dbf55a0e176663158aa"
+      "size": 435152,
+      "sha256": "4d40c17fc35fa7d17d2a4cbcbc7fa2332b4cc6e740d87563cfa47e6d20004f4c"
     },
     "assets/aeo-unique-photos/aeo-040.lossless.webp": {
       "size": 1646098,
       "sha256": "edc336c4a41260d678884cffb509c36b912c6790b64dcec0d5caeb46d94aae7f"
     },
     "assets/aeo-unique-photos/aeo-041.lossless.webp": {
-      "size": 1883268,
-      "sha256": "cc09c2fc591612f0686a50f0ed8d3eac93fb2f336cb52b4506a009ac00fba5ba"
+      "size": 564260,
+      "sha256": "aa964755fcce61b13e6a6318c038d2359cbe5d501c2e73c6744a595a3d580c8d"
     },
     "assets/aeo-unique-photos/aeo-042.lossless.webp": {
       "size": 1524328,
@@ -222,8 +266,8 @@
       "sha256": "9b55fb3d2c6e61e2730a8bde4c21730127c501f47271adc31f197813473f2e59"
     },
     "assets/aeo-unique-photos/aeo-044.lossless.webp": {
-      "size": 1844176,
-      "sha256": "f4aa5d218b490ec870773e84028b794bdad7be2783702f0a678c2fbae76da9e4"
+      "size": 536138,
+      "sha256": "ade9e1839faf4774fb633cc85b80adc04e8da71248efe25808b7cde642d40cbc"
     },
     "assets/aeo-unique-photos/aeo-045.lossless.webp": {
       "size": 1484420,
@@ -238,36 +282,36 @@
       "sha256": "bb7d30c578063cf522eadf679165ed8c9f0b6c525adbfac2353df2ae0c3c7958"
     },
     "assets/aeo-unique-photos/aeo-048.lossless.webp": {
-      "size": 1748484,
-      "sha256": "8e388316223b738a0f670e735b20a22d080644f8a02a121af4b6c1100a30f929"
+      "size": 488324,
+      "sha256": "b0bcf5eabe7be355a162603e62e0d8d9065da4b1781dbdb8273c361e12ca7430"
     },
     "assets/aeo-unique-photos/aeo-049.lossless.webp": {
-      "size": 1875104,
-      "sha256": "972eb95399d75a542826d827140bf88445b64e1945d35358df7612b5ad88e22d"
+      "size": 522582,
+      "sha256": "4051b3dea68cb1d6a1dbbb7a48a818381506b8061d55ae247c1acf319d648b1c"
     },
     "assets/aeo-unique-photos/aeo-050.lossless.webp": {
-      "size": 2025712,
-      "sha256": "e35c2c5983b63f9d139e892acdbef828e022602560438341ef186ff8c580a774"
+      "size": 571292,
+      "sha256": "837c18d362333e56f3e7784c5d0364b679ff807139a4ee0dd69706f520165529"
     },
     "assets/aeo-unique-photos/aeo-051.lossless.webp": {
-      "size": 1891048,
-      "sha256": "63f729025b1602ca4ab653937245f967d7061bc50bc86a833792bcbda168e08e"
+      "size": 524918,
+      "sha256": "0a670fb3e8b1a0879117579d5d72aba5890913faaf56b00312621ca667ed619c"
     },
     "assets/aeo-unique-photos/aeo-052.lossless.webp": {
       "size": 1636710,
       "sha256": "cb907b51ff0fccf3c298dfa385dc53a15a809c826619e30f50481b94c098be21"
     },
     "assets/aeo-unique-photos/aeo-053.lossless.webp": {
-      "size": 1745386,
-      "sha256": "18517fab84079e1dadf9e52b3ab30cd77d734521418931a7f6ba4845db34597b"
+      "size": 470486,
+      "sha256": "847f3953f192117036fc886f74769e7154b36745c9ed086f013bb6c46fdc9276"
     },
     "assets/aeo-unique-photos/aeo-054.lossless.webp": {
       "size": 1550692,
       "sha256": "5dababb46a673ea056792176970245680d8b6339b6db26fa57f970b697ff1605"
     },
     "assets/aeo-unique-photos/aeo-055.lossless.webp": {
-      "size": 2090626,
-      "sha256": "0f1a135c36c1a1d0736f741ae6348018662a1cf00cffa4936f647ea9b70fb3f6"
+      "size": 598094,
+      "sha256": "6590eba2a1fc6aadc336513237263eac955dec055f79137c41b14dd1b0ee6bfa"
     },
     "assets/aeo-unique-photos/aeo-056.lossless.webp": {
       "size": 1697400,
@@ -282,8 +326,8 @@
       "sha256": "f7270b418b51ae301ca5335e4e90826d32ea3c2f39285df179028cd22186a072"
     },
     "assets/aeo-unique-photos/aeo-059.lossless.webp": {
-      "size": 1847296,
-      "sha256": "0a08a30f834b0193690c2a5cfce56c83d79dc79e4bb3f0387aa254416865dc68"
+      "size": 538540,
+      "sha256": "69ab485929d3ee821b2991ab734f0a7f116001c564b7ca474dd3affbc83e8bdf"
     },
     "assets/aeo-unique-photos/aeo-060.lossless.webp": {
       "size": 1480398,
@@ -314,8 +358,8 @@
       "sha256": "57638f3beb02a6adf0d414ed37e5676ca2d737ee91fb18e1bacfe765e02b84aa"
     },
     "assets/aeo-unique-photos/aeo-067.lossless.webp": {
-      "size": 1871610,
-      "sha256": "a492c2549ad8bc9092c1af126bb4bd1a19cd7f47976dcf39c2ffd87027c9a9f9"
+      "size": 543362,
+      "sha256": "e17013302ee468848294071f440dc8e94c7684dba165b1f13357c1d32cfc64e4"
     },
     "assets/aeo-unique-photos/aeo-068.lossless.webp": {
       "size": 1649234,
@@ -326,20 +370,20 @@
       "sha256": "5caeb31d7df1e5971839d28ee0eb6ba8f9d3871cb662c0e893069e21b443f104"
     },
     "assets/aeo-unique-photos/aeo-070.lossless.webp": {
-      "size": 1948054,
-      "sha256": "51b9a223d282d16e6a2284717938407535f6a83a12790e0345a5ac83fd817226"
+      "size": 578714,
+      "sha256": "609c67f7eaa5dd019b644a21a8803dd627c6717eb1db49fdee95dd48cea8ae4a"
     },
     "assets/aeo-unique-photos/aeo-071.lossless.webp": {
       "size": 1584654,
       "sha256": "cf4974991e44a9a36b9b40ee5fb629fb0c05d182823647e7ce5fbc7ff284a778"
     },
     "assets/aeo-unique-photos/aeo-072.lossless.webp": {
-      "size": 1723282,
-      "sha256": "93186967d0332dc65781285290b2c74de9f7b458a8486a40e6a69aca59c443df"
+      "size": 447228,
+      "sha256": "15c32708d3eb9cadc0b76f46053fe531be5a7cb31edff4a73926c7e30c7fb877"
     },
     "assets/aeo-unique-photos/aeo-073.lossless.webp": {
-      "size": 1813862,
-      "sha256": "c0f92a14e2ef661a34213b592976add940e8277111f0836526c9af712326c7eb"
+      "size": 538942,
+      "sha256": "106a72a27c0c5c1732d13bec276860e3ac43b624fedeccd2434d8e022450b031"
     },
     "assets/aeo-unique-photos/aeo-074.lossless.webp": {
       "size": 1652938,
@@ -350,8 +394,8 @@
       "sha256": "f5a8e447564c1459292e29ab9658fed6fc34c7911aa16d5d827e8d3c682e0796"
     },
     "assets/aeo-unique-photos/aeo-076.lossless.webp": {
-      "size": 1766502,
-      "sha256": "32d023d93b3f3ccc2af18edfece854877110bcd8709ac4dc15a2a40c7ffc2f0c"
+      "size": 462160,
+      "sha256": "e3a86139e2170c35a2c7653a00f12287f849c71b46aa30d7776bfd012074bedd"
     },
     "assets/aeo-unique-photos/aeo-077.lossless.webp": {
       "size": 1501272,
@@ -370,8 +414,8 @@
       "sha256": "7d2731a6ec5581071899bbfa491be0186b18a8f3a3ec9d2f3e1fe3f9a48154ab"
     },
     "assets/aeo-unique-photos/aeo-081.lossless.webp": {
-      "size": 2263018,
-      "sha256": "f5eaa5382c33066923cd02cf4bc037f602aaf6ca0975e070b948b1681c7dae7c"
+      "size": 704988,
+      "sha256": "1c4d62029d86746063ecd008e2e3dc069da47465f430004445b48fa4e06e1660"
     },
     "assets/aeo-unique-photos/aeo-082.lossless.webp": {
       "size": 1642292,
@@ -382,28 +426,28 @@
       "sha256": "4094cda9f0a26fcec87f3dae9849b0e99cb77f610653fd0f66d057a0b6694fc3"
     },
     "assets/aeo-unique-photos/aeo-084.lossless.webp": {
-      "size": 1760860,
-      "sha256": "9ed9c5d192b375d2f6ffa81c14ee556d444d5f4b20c94fd0687ad004524e63ce"
+      "size": 476504,
+      "sha256": "01b27beb08cfea3d1e5dc694be99405f95b21ee4f7a61fa0d0367de0b6b8d55c"
     },
     "assets/aeo-unique-photos/aeo-085.lossless.webp": {
-      "size": 1771298,
-      "sha256": "3bbd43b5bd58e90158658b41f865bddf4fafa584cfa7032c9c21e3346b02c045"
+      "size": 476614,
+      "sha256": "a4936f831099280fd0c6e5c80df018f548ecb43c8f15ddb31942689bdad209c9"
     },
     "assets/aeo-unique-photos/aeo-086.lossless.webp": {
-      "size": 1799848,
-      "sha256": "432fcf77e06ef8b144c0fbb3220113a6ba525a62df23798e65b7e5b122dbedf9"
+      "size": 534950,
+      "sha256": "f5683c012de0b77c8a3b147b15fdfc7544dbbf80a07b5ad01b1678bc0f86eeba"
     },
     "assets/aeo-unique-photos/aeo-087.lossless.webp": {
       "size": 1557046,
       "sha256": "a3e9e016abf05b44ff20ff1c6794737ea432b2248b7c275be8f48aeaa59e92ac"
     },
     "assets/aeo-unique-photos/aeo-088.lossless.webp": {
-      "size": 1838914,
-      "sha256": "ba9085b7372b4a5889140daf1364e41eeaa0c463153db22c03245d6808e87431"
+      "size": 499082,
+      "sha256": "f8fbb749a0d339360fba4d3813afc2f911749aa98d7a444d1f66569c00a1fae0"
     },
     "assets/aeo-unique-photos/aeo-089.lossless.webp": {
-      "size": 1728766,
-      "sha256": "00d42676564f16c1f391bd9e639881b0fd0c2e7f0b4c94e2f98ff6847e07e317"
+      "size": 468374,
+      "sha256": "f1cf6d195da34105f9a5a6424b664d92168887526df2fbc8f0b8dba1062a3a14"
     },
     "assets/aeo-unique-photos/aeo-090.lossless.webp": {
       "size": 1481782,
@@ -438,36 +482,36 @@
       "sha256": "e1277924b4e05427f19940002166edf893c5c0a4ee1d1908b5cb59f4c573418e"
     },
     "assets/aeo-unique-photos/aeo-098.lossless.webp": {
-      "size": 1917708,
-      "sha256": "9b8abc066449480ad867a26054a49aed28f35415c154d829939685dc6fc42afb"
+      "size": 557066,
+      "sha256": "24d83023bafd73281facab094e7f58b696208489d784d92c36bf5d206f90de38"
     },
     "assets/aeo-unique-photos/aeo-099.lossless.webp": {
       "size": 1508782,
       "sha256": "def2c6dfcacaa2198eae77e6a28e54f8137a6ed1761716bd251515e9c57ea547"
     },
     "assets/aeo-unique-photos/aeo-100.lossless.webp": {
-      "size": 1762686,
-      "sha256": "562332f9e55cc159aac086eaa51428647432e29d8003942cb9d674a93fb09ba0"
+      "size": 459910,
+      "sha256": "c051f87209a4737b9c02eefb9bafb78df237faf24ef0e9c0b1e9360cfca0423b"
     },
     "assets/aeo-unique-photos/aeo-101.lossless.webp": {
       "size": 1563308,
       "sha256": "eef179171e96210af2614274a77a25ed2c70f8af5764bc8dca632875ca5dbb9a"
     },
     "assets/aeo-unique-photos/aeo-102.lossless.webp": {
-      "size": 1932868,
-      "sha256": "bf0df4978a1a517d1eed7455f19f3bbab128a967fcda11207868fb4e4999ee17"
+      "size": 531812,
+      "sha256": "fd78bc4aac23e2682a5430e16ec28cbac9e8ead72242d4d7c6817fd00c51ce72"
     },
     "assets/aeo-unique-photos/aeo-103.lossless.webp": {
-      "size": 1754154,
-      "sha256": "0449cf8be17ad307b9ea4c290ccf310039e8fce4e4a22d950a18880374e3edf8"
+      "size": 481342,
+      "sha256": "6f985a545f5e45b010ec20356fedcddc438c959568b22a47c10c4c0807581f52"
     },
     "assets/aeo-unique-photos/aeo-104.lossless.webp": {
       "size": 1605024,
       "sha256": "a037a9405d2765ee9f821f4ecda498a869bf00fba51f0e1c3720b517d68f6c0d"
     },
     "assets/aeo-unique-photos/aeo-105.lossless.webp": {
-      "size": 1878130,
-      "sha256": "65016940722f92fb109eba1696f22d3b1cfb0ea9ddcf0f7cfc46d160664faee6"
+      "size": 580044,
+      "sha256": "408a2030a81e08d977309ba740eb2f7ae2d0650ca9be513f0f358eecb5aae264"
     },
     "assets/aeo-unique-photos/aeo-106.lossless.webp": {
       "size": 1625438,
@@ -478,12 +522,12 @@
       "sha256": "eb945b4af0513cdc7395e34d7dfd306649ddb8d897de952fd111b9c24b407ada"
     },
     "assets/aeo-unique-photos/aeo-108.lossless.webp": {
-      "size": 1756704,
-      "sha256": "9d904cffe1f1ce07a2c7b8bf8d5588bcff531ed63528507c7c92ca4b3bea2def"
+      "size": 483064,
+      "sha256": "accc336a71613d814b45c660e61f642417a83519501fdd8e402bb23c0a99f32c"
     },
     "assets/aeo-unique-photos/aeo-109.lossless.webp": {
-      "size": 1846094,
-      "sha256": "2f83e23b8d7a5d084ea43b8b3184dade01033b02f8fa30ff0db4ee90885d3322"
+      "size": 525876,
+      "sha256": "af1d97d4417e9ce3cc2e0c9b7ed5255b5992eb39394ad306d2bfc444ce6c6b6c"
     },
     "assets/aeo-unique-photos/aeo-110.lossless.webp": {
       "size": 1680970,
@@ -514,20 +558,20 @@
       "sha256": "1c68fe24cd7f99a413895b6c53f5682de8113118e52ff36d673e119df2970b51"
     },
     "assets/aeo-unique-photos/aeo-117.lossless.webp": {
-      "size": 1806106,
-      "sha256": "1a5eb5124a258d7a343e557348d806a587520997a330cdc16d926524d64aaf0b"
+      "size": 502166,
+      "sha256": "00f26944079f963e902da94c65d8b806b76dddf9150ea6d3c12b7b319d172c03"
     },
     "assets/aeo-unique-photos/aeo-118.lossless.webp": {
-      "size": 1866690,
-      "sha256": "b346a466b6ba15c6d1e5cdd58996c3c1b28a2c9513ef138047556c0814facde0"
+      "size": 513016,
+      "sha256": "b6f7922b581e7aa7ff01d31a01f02ac78aa98fd58a08a664d820fffecd133abd"
     },
     "assets/aeo-unique-photos/aeo-119.lossless.webp": {
-      "size": 1707550,
-      "sha256": "6a27ed462d0d7d47bec9a6622e0f7ad2cf96ae8a7d7dcb70c68f5ae86664ac24"
+      "size": 417526,
+      "sha256": "47b12c68bb1bf1bc9c7e2dcfffc5b5040ee10dfd57569de1432c5fac9370ed63"
     },
     "assets/aeo-unique-photos/aeo-120.lossless.webp": {
-      "size": 1786296,
-      "sha256": "8598ea7f3c6d27f6595528081ae1afbeed29f4dc0c3a54a88e01feb6c8b0ac73"
+      "size": 499952,
+      "sha256": "2bdd87c380fb09ad5bfcd34ce27fc10356a676ad705e099b91152fad06e01cbf"
     },
     "assets/aeo-unique-photos/aeo-121.lossless.webp": {
       "size": 1523826,
@@ -548,6 +592,10 @@
     "assets/aeo-unique-photos/aeo-125.lossless.webp": {
       "size": 1676654,
       "sha256": "f4e0daf7f8089da0750dad22507d660ffa9942ff13c4c9db74e08e975729bc68"
+    },
+    "assets/approved-article-restore.css": {
+      "size": 6709,
+      "sha256": "115bd35655615587e92126bd234da78e7957c5f02188eec2688f9c891d265258"
     },
     "assets/approved/buyer-signing-keys-full-head-v29.jpg": {
       "size": 129437,
@@ -592,10 +640,6 @@
     "assets/approved/united-states.svg": {
       "size": 125088,
       "sha256": "e745667796069e4cb5a80b4c004a965640a6282f9800642ba7d2bf4f8681d82d"
-    },
-    "assets/approved-article-restore.css": {
-      "size": 6698,
-      "sha256": "6a8cfba24144d45757892c5769a4886653b9121a49e7231d7c5012133ab2c3cc"
     },
     "assets/article-batch-01/retirement-01.webp": {
       "size": 298620,
@@ -1125,13 +1169,37 @@
       "size": 1658940,
       "sha256": "0afe3f83ad0a8a29637d61fe205879d83e8f3cc860b62d6e1d0939cfc4d699a7"
     },
+    "assets/blog-condo-202610-v2.webp": {
+      "size": 736544,
+      "sha256": "daa78890c3345a31558708e2c14be1448adb775984e4a1904928b91337114af1"
+    },
     "assets/blog-divorce-garden-v2.lossless.webp": {
-      "size": 2000734,
-      "sha256": "b95c134d0986f039756f8b1716c03c6261d32d0e21ce6479424bc7aae833f705"
+      "size": 565420,
+      "sha256": "dc3c240a914719e31e84737e22bcff702d25a30dc0097f4ab15896f662b58ec4"
+    },
+    "assets/blog-oct11-buydown.png": {
+      "size": 2360951,
+      "sha256": "927d24d8ab11e1df855a5c2c2f84e9d7be3555994692a48dcdb70ebce36dccbd"
+    },
+    "assets/blog-oct11-chatsworth.png": {
+      "size": 3303687,
+      "sha256": "5a82adf5f1e077f4b64ffd9e7de13fcae4bdfbc856d57ef96dd744e2bffec80d"
+    },
+    "assets/blog-oct11-filmcrew.png": {
+      "size": 2346050,
+      "sha256": "9ba3067f8fcbf18ee32e88a9d96a71769e006d9ed8a4494bad51a5a0843ecaab"
     },
     "assets/blog-references-v1.css": {
       "size": 1552,
       "sha256": "346cba41d7ff44d04e1e44d612d1ae36e76c903e284fb72646979c346bf396ab"
+    },
+    "assets/blog-rental-202610-v2.webp": {
+      "size": 552744,
+      "sha256": "ea103f3776ea94a40c52f9b336855ea8869374f698e6af5706a758230b2b1f4d"
+    },
+    "assets/blog-staging-202610-v2.webp": {
+      "size": 464290,
+      "sha256": "a6a7e632260505c89d4cb46e6c146a3e7ef7775d7ffbc130017bb111146c3ffa"
     },
     "assets/budget-calculator.js": {
       "size": 1088,
@@ -1286,8 +1354,8 @@
       "sha256": "a4ba2494ba080fc816077c331175b8ff6f9724a3c2fec59ebdf082b4c61fd223"
     },
     "assets/card-entire-photo-visible.css": {
-      "size": 1847,
-      "sha256": "3dfd400bda0ee773e859f0df9c60cc42121316c36c930911e2e5d0e889f3626a"
+      "size": 1858,
+      "sha256": "2950604feb46ec4f9d5a586a3c81d91ce13b448f386058141eeedf621a0eed79"
     },
     "assets/cities/Sylmar.jpg": {
       "size": 231476,
@@ -1334,8 +1402,8 @@
       "sha256": "ac2a0a4035fefe72c707f7568a1c7b7f18d09029888b7222223dbe99a46611b4"
     },
     "assets/cities/reseda.lossless.webp": {
-      "size": 2209108,
-      "sha256": "b1386495d49122a135b0ad1de5e09698e4eaf3f66554931aaca6da91bb4ce785"
+      "size": 649048,
+      "sha256": "8169c8255924157a7fc0d437f4bc30e1a6fb40b37f6c5ec07e4f507c7a936287"
     },
     "assets/cities/san-fernando.lossless.webp": {
       "size": 284924,
@@ -1498,8 +1566,8 @@
       "sha256": "a16594d6f8ec53a9aa143e2503db7a7397c2cc98bd1f099e0dfefd1ee86f58d9"
     },
     "assets/cohesion-v15.css": {
-      "size": 21143,
-      "sha256": "3fa75987fa35c265cf51a3756f8a7703cf69f4bf715e9e02ce5fbff44b6d694b"
+      "size": 21154,
+      "sha256": "e8610dcd6b15e31d1c972886bda98403f48046e3481a2cdf51c0f2cb205b34d4"
     },
     "assets/death-photo-refresh-oct9/death-hub-card.webp": {
       "size": 128434,
@@ -1570,16 +1638,56 @@
       "sha256": "4aae45a81e36272697f208642845810d3e939f94f387d8928455b1a06f065c6a"
     },
     "assets/direction-v22.css": {
-      "size": 62120,
-      "sha256": "36b86b5634e9e71a9c6ca30f40ce3d569807293ec22236bf94d5d67c21e38d63"
+      "size": 65743,
+      "sha256": "7b658d7a965edf139d52927b84c59eb276c22e8d327d737e7fa6d9c967a167df"
     },
     "assets/dominique-about.jpeg": {
       "size": 53193,
       "sha256": "3a36f918481d21adff2d2b47a4f7d10b922243454a5f0f02917754ec3b4f2efa"
     },
+    "assets/dominique-brand-20261010.css": {
+      "size": 2068,
+      "sha256": "6ed4e47bee531984694f09ba1b72c9b117372aa587f4a384203c2e40327af701"
+    },
+    "assets/dominique-conversation.css": {
+      "size": 7663,
+      "sha256": "21f4d3fc5f17bb0e29a872bae0c29341405e95f905ee9fda0b277406fa76199e"
+    },
+    "assets/dominique-conversation.js": {
+      "size": 15129,
+      "sha256": "ec422c62e98bc6eed4e351eb514576028a8effbbb7da6bc5d637c562d23a01b0"
+    },
+    "assets/dominique-key-icon.png": {
+      "size": 244525,
+      "sha256": "82313e586d605540461a1c2790e43f2dd34a89d4959bcafc46447fd4b09ef07f"
+    },
+    "assets/dominique-key-script-approved.png": {
+      "size": 1063813,
+      "sha256": "2a86944d576ae0f3b6ba8bcfa9a538316183183389ead83d2304c1de3c7dca0d"
+    },
+    "assets/dominique-key-script-transparent.png": {
+      "size": 429773,
+      "sha256": "e109706993df15302d9a17423f36693ffd17674bf2ba40212729ebcf4df1a056"
+    },
+    "assets/dominique-key.lossless.webp": {
+      "size": 176442,
+      "sha256": "535685b89ea550bb3eade9f53161807b22ac29cc6e0edd3d30404b5b15078f10"
+    },
     "assets/dominique-link-preview-v43.lossless.webp": {
       "size": 109658,
       "sha256": "80f2cc845798c7feb04938eb7876e7f8ee158342379a837af7a4cace43c6bf3e"
+    },
+    "assets/dominique-rebrand.css": {
+      "size": 4189,
+      "sha256": "0ff025af2d8f42542a871491679aabbfed6c6fe1100609e05860caba812a9097"
+    },
+    "assets/dominique-rebrand.js": {
+      "size": 370,
+      "sha256": "80b9ea853d1a30b2d8db5480c8c4be11926f2942eaca3afe595d5867f91e5d90"
+    },
+    "assets/dominique-social-preview-v42.jpg": {
+      "size": 179731,
+      "sha256": "402cac260e1abe9ec5b260163a9c06e8d894a4d42786ce78fd653c8738ac6cc1"
     },
     "assets/dominique-standing.jpeg": {
       "size": 77487,
@@ -1620,6 +1728,10 @@
     "assets/editorial-v15/warm-kitchen.webp": {
       "size": 285908,
       "sha256": "5400d450ddfbdaa157522ef4c306e3452d53f431be09ba6007b4e6c9f2796242"
+    },
+    "assets/editorial-v16.css": {
+      "size": 23971,
+      "sha256": "503256ffc6e0e28659d839be11c5bcf6a71678a18abc541c5efcda33823dd6e9"
     },
     "assets/editorial-v16/bathroom.webp": {
       "size": 178362,
@@ -1701,10 +1813,6 @@
       "size": 155792,
       "sha256": "2f1b0c178c4166fd007296a14bde8cfb40306464bf8370a43cf7a9c126d8e4f8"
     },
-    "assets/editorial-v16.css": {
-      "size": 23960,
-      "sha256": "df4643b6ef4edc63c56fe300ec83352c19e926b63e65ca725279f836dc54f74b"
-    },
     "assets/editorial-v17/bedroom-comparison.webp": {
       "size": 87540,
       "sha256": "094a570397448b6f78bdfc82b0d3dcc8f7d9bbf026813f7706c743b6ee08243e"
@@ -1722,8 +1830,8 @@
       "sha256": "7e712f7e67a6750699efe41c4e3f0436598f2f719355dbffc134d807636f2c4f"
     },
     "assets/editorial-v17/first-time-touring-11.webp": {
-      "size": 135014,
-      "sha256": "5f4e33476b5e8ae4343b62b86e26bba29c0b8fc27608a5815415dd67099ae756"
+      "size": 1419176,
+      "sha256": "b6c02aeab4fe0fac0d4a63465e033800a9ab942bde26175335f6c83245855bb3"
     },
     "assets/editorial-v17/first-time-touring-33.webp": {
       "size": 206864,
@@ -1810,8 +1918,8 @@
       "sha256": "5adc4d0c6215cab166233e790c5d1d7ccc604f61b2dcc4070478fa2873d92721"
     },
     "assets/editorial-v6/IMAGE-NOTES.txt": {
-      "size": 3304,
-      "sha256": "905a10ffaf2cf8083639bbf24c2c19b11067e36856d49262849b00dad0e8d2f7"
+      "size": 3371,
+      "sha256": "0943b5a7b1721d4ff7cc67b32c23803a32665ca496050550d4a55c6c37cc6c70"
     },
     "assets/editorial-v6/buyer-consultation.webp": {
       "size": 96574,
@@ -1822,8 +1930,8 @@
       "sha256": "95b256cbab1a0f03fde29ca7cb8661f8a3e042d4eeedf7ab61fc8a46e93a15a8"
     },
     "assets/editorial-v7/IMAGE-NOTES.txt": {
-      "size": 3339,
-      "sha256": "b44c11d3a1179cc54c5930a4339602324d49b5fbd4affd028b491b1f7146eeef"
+      "size": 3350,
+      "sha256": "9a436ab5c508fd86ee1591a081492ace499986e4b2376f1feb7ad49755750e6a"
     },
     "assets/editorial-v7/existing-1.jpg": {
       "size": 236743,
@@ -1890,8 +1998,8 @@
       "sha256": "af03385acaca8fcdcac2a96079e9b779c37c5811cc0b526d5bb11c7341a388c9"
     },
     "assets/editorial-v8/IMAGE-NOTES.txt": {
-      "size": 1265,
-      "sha256": "3fee261dde31c6ad956105b3f97ce625cd0421422e28a86f2f8453759cc1f7e5"
+      "size": 1276,
+      "sha256": "07bb8c39da7246db85dcb5f68d8d59803717172dac402ffd777177b0e3a3e78f"
     },
     "assets/editorial-v8/concierge-interior.webp": {
       "size": 232838,
@@ -1902,8 +2010,8 @@
       "sha256": "c9b4fcb2d8f4746468820db80c1de576cbd9318b10fe9051a6caf35e5fb84687"
     },
     "assets/editorial.js": {
-      "size": 2357,
-      "sha256": "a916e35da56e11a7c7442d3ec7713a63a5ccc19c4ad01d41923121c8fde6155d"
+      "size": 2368,
+      "sha256": "90f96ee2abd6b8af09a104ad94cd2f4364b7484105ac681f14586bdc7c8ba557"
     },
     "assets/equal-housing-realtor.lossless.webp": {
       "size": 46242,
@@ -1938,8 +2046,8 @@
       "sha256": "d208c7e00cceb1feb21cd5d6b33c74fa6b874b86ce56cc349f4c71f732bfd3fc"
     },
     "assets/first-buyer-offer-home.jpg": {
-      "size": 115988,
-      "sha256": "63a2df77ea78c859e64bd56c7037017e37e0f824b16cffc288b25b4f1536d76f"
+      "size": 1854091,
+      "sha256": "94d3c8961d39f5d33f633fc02c8af923a720bfdbb7e01da0603d5d3bac77a34a"
     },
     "assets/first-time-large-photo-match.css": {
       "size": 3589,
@@ -1974,8 +2082,8 @@
       "sha256": "8ac94c5ba1510a17d65f930ea6b349d9e51cffb1dbacf4a62debac87c3a398bc"
     },
     "assets/full-frame-4718/photo-3.lossless.webp": {
-      "size": 1831506,
-      "sha256": "6d5fdf307a73d845a0fb3538d27a1a59040b1d24b95ac3dd026d94fce0c39115"
+      "size": 508386,
+      "sha256": "e01065496df0595cf4ff1675f0d125965ee6e59fa6fa0a8d1a5c3cba51d76c13"
     },
     "assets/full-frame-4718/photo-5.lossless.webp": {
       "size": 1161976,
@@ -2002,12 +2110,12 @@
       "sha256": "e98de485c5b58f19a7b636c6c2eba4b51ec839ef0c1a7e1a828bee1c5ba5a7b3"
     },
     "assets/full-frame-4718/relocation-couple-full.lossless.webp": {
-      "size": 2118592,
-      "sha256": "4072c94ef97bc0838795118f74e35b9fcb26f652f804b9a6e504099d3c498b54"
+      "size": 637836,
+      "sha256": "09bf5f8ecb24a6f96b6d11e8f9233dc44b7b8731a64a1af67b164c8da399c4da"
     },
     "assets/full-frame-4718/relocation-family-full.lossless.webp": {
-      "size": 1791976,
-      "sha256": "d82046f96f808c40d276fdd0548b5f1c1f6213d05ce8a9a71f18c97ca3a52b2e"
+      "size": 484774,
+      "sha256": "52332b111733cd9acfcfc6e885420c595de3a4562f3e6d74bfcf1d95e23762ea"
     },
     "assets/full-frame-4718/rental-final.lossless.webp": {
       "size": 1306604,
@@ -2029,9 +2137,29 @@
       "size": 2311,
       "sha256": "7393943522c359e8095f19522da364a30610d4387bc526b0d185935adf32da8d"
     },
+    "assets/home-buyers-side-approved-v2.webp": {
+      "size": 258930,
+      "sha256": "0c9a85953f9c981b9e0be7435e06c4d841836cceeec0cb6d5d95d621c546cdd5"
+    },
+    "assets/home-hero-fit.css": {
+      "size": 1621,
+      "sha256": "1aeb88cf09eb9fb5363494c18ff95b3357d5e8b1da0caea2649a01a59bfbb158"
+    },
+    "assets/home-hero-fit.js": {
+      "size": 346,
+      "sha256": "0b3afb96c1219ba5242a74af4ca308fbcb68d721dfbaed782dad12e706823d40"
+    },
+    "assets/home-photo-viewer.css": {
+      "size": 4960,
+      "sha256": "eff772a3f6a86f97001cdc60946bacf45802143d7a215ce36e349ae7fd3a4b50"
+    },
+    "assets/home-photo-viewer.js": {
+      "size": 996,
+      "sha256": "ae2a1f4aa36f5a77c153fec08f4d924a833da9f5e64705ce6684e66b240a2156"
+    },
     "assets/home-playback-v23.js": {
-      "size": 1428,
-      "sha256": "674b913f4acb3b627e54476cec8556dd5d644e69f1dd09c7a49cf4066e5f71a1"
+      "size": 1623,
+      "sha256": "1d4558e617c6ac181f016baede2fcaf5d81c667e87db86088446b0b463cabcf8"
     },
     "assets/hosea.jpg": {
       "size": 45377,
@@ -2040,6 +2168,10 @@
     "assets/interior-overview-v43.css": {
       "size": 14130,
       "sha256": "d23cabd30608424c3f314e410781a1f8f9f6075e05c383b042c9233a6ee1f207"
+    },
+    "assets/layout-restoration.css": {
+      "size": 7677,
+      "sha256": "c83d26a0b2f684826afc4902f2a2cd74afc8d549d41acc50f7bac4f44238d89b"
     },
     "assets/life-change-refresh-v1/death-card-hero.webp": {
       "size": 92936,
@@ -2182,8 +2314,8 @@
       "sha256": "bc19a75cd55b7bc9764abe8b67f6641c8f870be067ea2281aee9287f104fcf98"
     },
     "assets/life-changes-audit-photos/a_joyful_new_homecoming.lossless.webp": {
-      "size": 1738236,
-      "sha256": "1e0d6b469f6a2b67bf80aa289aaa5d1a6df859a86ff75cb19fb639c9bdd36ae1"
+      "size": 490042,
+      "sha256": "0b769f0ceda3db0e3677312b894ec4cab2020bf5b6c6b44072edd4fda55b487a"
     },
     "assets/life-changes-audit-photos/a_realistic_high_resolution_outdoor_park_scene_in.lossless.webp": {
       "size": 1677568,
@@ -2202,8 +2334,8 @@
       "sha256": "627636664f34b0c6dea5f5c90c7a8cba8ac0c2e58f40b69b6f89cc73bd56f52c"
     },
     "assets/life-changes-audit-photos/couple_touring_a_sunlit_modern_home.lossless.webp": {
-      "size": 2014998,
-      "sha256": "b1dc419d4b6e876f478228fd54d3586058e225cb36365e15dc4d3fd1f8754c82"
+      "size": 598094,
+      "sha256": "7d4b80ca788b6a7e43a816907cb362f53396228a8c26be835086bc6960f1f321"
     },
     "assets/life-changes-audit-photos/family_documents_at_the_table.lossless.webp": {
       "size": 1515412,
@@ -2222,16 +2354,16 @@
       "sha256": "af2631ba1cbb8dbcb63f7f408507a67a9c9cd9c0bf78a9db34a3e1aa695c5782"
     },
     "assets/locked-approved-reading-layout.css": {
-      "size": 5492,
-      "sha256": "a930b1e880fc1d04ccdab73fe31094173789a87259ba56058870fef465824681"
+      "size": 5505,
+      "sha256": "0bc307f003c7a6af4876e253c751ae7c8496675b2b22c178374313d0309f80f3"
     },
     "assets/luxury-system-v23.css": {
-      "size": 37298,
-      "sha256": "8d1c0ed42a67014d6970b1ca8a729add7b2e1883214cfd455867215c37c12ecb"
+      "size": 37309,
+      "sha256": "153d942eec45fb873d86b577ef1214f6ff1d0622f1d17d81d4a09bae64392222"
     },
     "assets/marketing-original/BRANDING-NOTES.txt": {
-      "size": 428,
-      "sha256": "757bf82dc849d89bfa6e1a2fe6e88bb264f673489c5b42844a81e19d802fbf86"
+      "size": 429,
+      "sha256": "cd40c97f2a1827222c5ce94c7eaf563d058e72aa628f97866a0f0f6fa5729a2d"
     },
     "assets/marketing-original/brand-collateral.webp": {
       "size": 157844,
@@ -2273,33 +2405,37 @@
       "size": 681,
       "sha256": "b270ce7e9a183b8a16effa418efa40993d4b7b5745314079902d62bec7186c37"
     },
+    "assets/mobile-refinements.css": {
+      "size": 7001,
+      "sha256": "c96abe6da9a956c902fd49fe2b727702ac9d7464f2187d3d98755c454b5462c9"
+    },
     "assets/mobile-search-4435.css": {
-      "size": 5009,
-      "sha256": "2753ba868db1058f2c23c56875059cbef506aa5aa76c38ebcf36a77239b8040b"
+      "size": 8994,
+      "sha256": "e54673ad0377d4b079584e0e31e1138be232b5d03f51758f613228acfbedaa83"
     },
     "assets/mobile-text-v38.css": {
       "size": 9183,
       "sha256": "478fa7b58cdf189ab3bb0d7c23b84f24dae723aeca8bc6f1da8fc9fe96163f84"
     },
     "assets/navigation-v10.css": {
-      "size": 8684,
-      "sha256": "87e33f27be5124da1fa3f70be798a5866bb71320dfdc5bbcae5f78adca4a19d3"
+      "size": 8695,
+      "sha256": "9da113528382a77bddb04071bef372d0723838c58d1ddffed37a96e1c524be92"
     },
     "assets/navigation-v11.css": {
-      "size": 9614,
-      "sha256": "6df84bec4c731e99aee1a9320ef8c4ad77829b5ef2ddf092c8921c6e9e222066"
+      "size": 9625,
+      "sha256": "36f25544b2bab5a6347a64b6d9fea92da167ad41092975addb8aa380957b82e7"
     },
     "assets/navigation-v12.css": {
-      "size": 7278,
-      "sha256": "a958cd4cddbc3b37f52073204eb325b4d503db503e88bf53f34670780d654008"
+      "size": 7289,
+      "sha256": "f310b53c0700b2cb24495f8d8b157bdb1f46f9740f1268367e600d707331d65a"
     },
     "assets/navigation-v12.js": {
       "size": 3209,
       "sha256": "14febdbb753e11213a92b098f3c769cf919097e41a6b6be8ea3180bb9b8f3825"
     },
     "assets/navigation-v13.css": {
-      "size": 7282,
-      "sha256": "78961fd5a63d866a8a5c171a22b186b43dc6aad18a4c9e9be514d00b97225867"
+      "size": 7293,
+      "sha256": "e633b321a715b5e5666ca14fa9cc5b2f049baf38dc397ef12d2ca011e8442dc0"
     },
     "assets/navigation-v22.js": {
       "size": 4480,
@@ -2322,8 +2458,8 @@
       "sha256": "c26eceaed3926d07e8bf6b3cabe8f1852aceaaf7c90b6bb1af46604014c660bf"
     },
     "assets/oct4-final.css": {
-      "size": 13588,
-      "sha256": "b3266a5f82f7a14dcd2df55afc9a9145280a78fccbd14a2c222719d60bf0016f"
+      "size": 13610,
+      "sha256": "1352a0522687e3ca09045bba04064891c916c2290820492b821ec5ef2c83f525"
     },
     "assets/parker.jpg": {
       "size": 49455,
@@ -2338,52 +2474,52 @@
       "sha256": "45bc2772faa492bd78455a1c9ccf44c5b4986ba3f38c606dafa1a2584b33202c"
     },
     "assets/photo-audit-4720/city-burbank.lossless.webp": {
-      "size": 1776972,
-      "sha256": "6519f2f8805cb8bea14507e39020615e79a9114b9c2bb01387e39bd867f99d31"
+      "size": 525528,
+      "sha256": "fad157d4d4380071afca9a31f7e80b124a3fb2fa2a89703b371218e6651811d2"
     },
     "assets/photo-audit-4720/city-canoga-park.lossless.webp": {
-      "size": 2709718,
-      "sha256": "60955d58a5c74198e97f4363de836aba5b175756c881289a85c47f85bc4f92a1"
+      "size": 900116,
+      "sha256": "e6e0dc10003fb63483b0412e14fa8c99bd78a42adb05ff21e3541e9cfef68811"
     },
     "assets/photo-audit-4720/city-chatsworth.lossless.webp": {
-      "size": 1939638,
-      "sha256": "14cf9124b49b26226be7ed3868fb1482af6e2ac0f19e4e770fcc9d72d088131e"
+      "size": 562620,
+      "sha256": "8c2581ff60e947c793a7a03fffc19608c50d6898dc8bf4038a1495e2ecdc5cc4"
     },
     "assets/photo-audit-4720/city-encino.lossless.webp": {
-      "size": 2077524,
-      "sha256": "96486615ae608ae26cc0bae2cbe1f13df4aabd1c2e6491e088f4623b1d7f759d"
+      "size": 648586,
+      "sha256": "16b4c52cd0791d5992ed5b82b0a07c63fc9b475c9b756a147321cc6db3fd414b"
     },
     "assets/photo-audit-4720/city-granada-hills.lossless.webp": {
-      "size": 2161198,
-      "sha256": "12db42599b594f53185207f9c053cd8c86974a26d7ef6e66d8d9293fbd7fef04"
+      "size": 691814,
+      "sha256": "f6bf5834b824ad4053d531249dad41a460f1aedfc134884c67d99c89704f03c7"
     },
     "assets/photo-audit-4720/city-mission-hills.lossless.webp": {
       "size": 1661676,
       "sha256": "83d884d15cb5e76924a4bc888111ca4d37dd49ba7c7e62e497f36ac75118ae25"
     },
     "assets/photo-audit-4720/city-north-hollywood.lossless.webp": {
-      "size": 1836320,
-      "sha256": "5af7a92d7925da2bcfead7acf3c3bb2bd351d0074e786053f3bf2f8b59bcc28f"
+      "size": 457114,
+      "sha256": "2c94d5d52934c5b685b1504aab738927430e50d40dcc5d99fb6c92892b88c9e5"
     },
     "assets/photo-audit-4720/city-northridge.lossless.webp": {
-      "size": 1786952,
-      "sha256": "b358f61b4f07da6bbfe0b8c26dc1506106ebc9c2e2da0309798c435991a7d298"
+      "size": 474686,
+      "sha256": "6dfdb943330149cf5d31344c87af31d4887a322aaea667134a81cb5b6874e7dc"
     },
     "assets/photo-audit-4720/city-pacoima.lossless.webp": {
-      "size": 2151438,
-      "sha256": "ed6afa108b5a660b5d001809f911342a93603e3ef69959551a3d411bc7b8a849"
+      "size": 663926,
+      "sha256": "c090e7995cc930a15f4758a76afdbbea91f6c3e3275fc636288ad16a223282b3"
     },
     "assets/photo-audit-4720/city-porter-ranch.lossless.webp": {
-      "size": 1946212,
-      "sha256": "fe0e015272bf9ea31db8a2fa65ddcc739097848657af3e6f56a756e3865a5999"
+      "size": 571570,
+      "sha256": "338270328edf288d735e03a2151f9bfb0482e6961e386baa97764e05bc3a071a"
     },
     "assets/photo-audit-4720/city-san-fernando.lossless.webp": {
       "size": 1540788,
       "sha256": "e70249f43280ea67f8c6eff54229bfef98c3bf5b31f51d955149cf03b6ec9a5b"
     },
     "assets/photo-audit-4720/city-sherman-oaks.lossless.webp": {
-      "size": 1813966,
-      "sha256": "1b7e06a8e47153c65c281847869d482e677febdca4385c01b919c27bdc575ba3"
+      "size": 516844,
+      "sha256": "05ddb04746cfb1ebb004f64530689d8ee28d0648d6b7a8d973793ad0993b615d"
     },
     "assets/photo-audit-4720/city-studio-city.lossless.webp": {
       "size": 1602052,
@@ -2394,40 +2530,40 @@
       "sha256": "eed4b3f3c81cee2dc51c5e80c970d548889e5c6e90159891a12ef5d5a07504de"
     },
     "assets/photo-audit-4720/city-sunland.lossless.webp": {
-      "size": 2231468,
-      "sha256": "17ada18cab27fc3b904336c73260efbe75a58b7a6ed2662059d2e1654502bd6f"
+      "size": 726528,
+      "sha256": "51ccaaebf3d27d0b447b84df0ab60732ced513146924871d0480af0943327fb5"
     },
     "assets/photo-audit-4720/city-tarzana.lossless.webp": {
-      "size": 1980626,
-      "sha256": "7897a71c913542755a3625446bf9d109e26720d335a980d27bcdf9ba996f75cf"
+      "size": 541066,
+      "sha256": "caeaa28bfb835e577a23ab0f48bf6d841d1b11a1204bef06554044cde6d9ab24"
     },
     "assets/photo-audit-4720/city-toluca-lake.lossless.webp": {
-      "size": 2410252,
-      "sha256": "0c3b68c33e57b828d622840022d5ff8b89570840f953d22a32cb1745c617a000"
+      "size": 765112,
+      "sha256": "2935b875b669c2c31ac54d7626f7b3694bb047f2233a83094c59d5293dcc796a"
     },
     "assets/photo-audit-4720/city-tujunga.lossless.webp": {
-      "size": 2497010,
-      "sha256": "ce4dbad82c0b3bb363594d8e301ca01bec14fa642557692d8a5a9289856b67ea"
+      "size": 874260,
+      "sha256": "0e67b228e0b41d64b402e7999d925c991f9a05d38b18144c7e83f603fa7bb298"
     },
     "assets/photo-audit-4720/city-valley-glen.lossless.webp": {
       "size": 1455732,
       "sha256": "5ce1b3c3e5811150728b65bfae11dd6f68d63312e82016f196d31785dba52e1d"
     },
     "assets/photo-audit-4720/city-valley-village.lossless.webp": {
-      "size": 2473508,
-      "sha256": "4b120e1cefbef01391f697f1eb188a487e8873bfa80633826212366532eb05b6"
+      "size": 828192,
+      "sha256": "2a06803e8c24c994919dcdd69fde3f18651b3255079a7a60264df53c6148614f"
     },
     "assets/photo-audit-4720/city-van-nuys.lossless.webp": {
       "size": 1513144,
       "sha256": "e8e873c4f3487e527626bc5b1dc091521e2b8612d21b1a66565d762cf798d160"
     },
     "assets/photo-audit-4720/city-west-hills.lossless.webp": {
-      "size": 2798358,
-      "sha256": "c8f0d0e44bfe2e44e65b127ead9394dbfc24f2c73922a69c4f3e4918f049de25"
+      "size": 989752,
+      "sha256": "ce7347fb31371c9681c7be23a17f9c428ed24134b8c7514de2ac04e5d57f148b"
     },
     "assets/photo-audit-4720/city-woodland-hills.lossless.webp": {
-      "size": 1760944,
-      "sha256": "c74eb297ecaf02d1d6878fcc4e29c02ff7591db0a800b9fe110326c94cfa678a"
+      "size": 441698,
+      "sha256": "04103fdc0471c91472bab363dd5e6575b21bc614479ae06c1135fc9d805df96c"
     },
     "assets/photo-audit-4720/closing-costs.lossless.webp": {
       "size": 1442780,
@@ -2540,6 +2676,10 @@
     "assets/photo-card-fix-verified.css": {
       "size": 2305,
       "sha256": "0369621441558a591f2984642247b39d788f19fc6626b4702a149cb736156982"
+    },
+    "assets/photo-navigation-ready.js": {
+      "size": 3080,
+      "sha256": "d3cd393ae6dad7c1a8663c0dcbd66d5b36c132d4281f58f6cb64e99b906ffb3c"
     },
     "assets/photo-needed.svg": {
       "size": 314,
@@ -2954,8 +3094,8 @@
       "sha256": "24bcfc9913ef0584733b4456c73c197fc6843d602468af0a75ea9fc837f2b388"
     },
     "assets/portfolio-jobs/sun-lit-modern-home/photo-11.webp": {
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "size": 90328,
+      "sha256": "52374c0bb4173a36b8f9f883b587182349c2a9a2035e34d761a10a6a1a024d46"
     },
     "assets/portfolio-jobs/sun-lit-modern-home/photo-12.webp": {
       "size": 63966,
@@ -3108,6 +3248,554 @@
     "assets/portfolio-jobs/warm-desert-bedrooms/photo-09.webp": {
       "size": 153112,
       "sha256": "b08bc72486291cc7e0d9d4df54a9550921acd7d10e6d53a608bc391caae261f8"
+    },
+    "assets/portfolio-photo-restoration.css": {
+      "size": 5027,
+      "sha256": "0c37806d0f46619dc90ece6f07388c5fc0b81335fe9e1bef475b1508941b80f0"
+    },
+    "assets/portfolio-restored/hosea-direct1-090.webp": {
+      "size": 863650,
+      "sha256": "724ea31532ef3bc29d05752837ee3de9c2d8d64756fc92a633f30408b1c22084"
+    },
+    "assets/portfolio-restored/hosea-direct1-091.webp": {
+      "size": 812808,
+      "sha256": "49e17e7adfbae3bc787a600c4717861489df88888200f9c8106f9b50d92fd27f"
+    },
+    "assets/portfolio-restored/hosea-direct1-092.webp": {
+      "size": 273778,
+      "sha256": "59362cadfb07fd9f7549a81cd3bb7a0456660c4e29745a824af682c5c1d8dffa"
+    },
+    "assets/portfolio-restored/hosea-direct1-093.webp": {
+      "size": 239314,
+      "sha256": "2542fdeac7ea04c29e0cf9d6c8ab38afeb6a538d488e8b17b6427222eb2359ba"
+    },
+    "assets/portfolio-restored/hosea-direct1-094.webp": {
+      "size": 164322,
+      "sha256": "562d0aec38022c021815ccf9a754d1b00d3eca641c6ec7bafe58074beb242713"
+    },
+    "assets/portfolio-restored/hosea-direct1-095.webp": {
+      "size": 62762,
+      "sha256": "f4f67fe6aed32cdbc28b3ecd80725fdd40108964b1d8ed41d1b1ddc7bb17dde6"
+    },
+    "assets/portfolio-restored/hosea-direct1-096.webp": {
+      "size": 221038,
+      "sha256": "4987cd5b78d0c7af182b78e600e4d8cee5e6cc7d19a0d45bc22cb21d9eba71fd"
+    },
+    "assets/portfolio-restored/hosea-direct1-097.webp": {
+      "size": 99624,
+      "sha256": "a3e7d18c91d68a6cc091280487023c13f49cd08ce05af7ef02f16adfcbb70313"
+    },
+    "assets/portfolio-restored/hosea-direct1-098.webp": {
+      "size": 187150,
+      "sha256": "3f9eb84e904d1f7ab66b8d01163ca7c076bd480bf77f8e8cfda97f5d681ba0f5"
+    },
+    "assets/portfolio-restored/hosea-direct1-099.webp": {
+      "size": 299972,
+      "sha256": "66638e169e4def0859dda5061f2ae5c00ab0ad3f573db0e1783c3fe8bfb53dcc"
+    },
+    "assets/portfolio-restored/hosea-direct1-100.webp": {
+      "size": 263320,
+      "sha256": "e69a09df98744ea42bb042df48b4143cce67f5ef4a33b9edc44bc1fe436c89ee"
+    },
+    "assets/portfolio-restored/hosea-direct1-101.webp": {
+      "size": 281484,
+      "sha256": "cf8e20587fe3592918e8a6a18c918e8b52836ef94f0eefbb80ba454d685c1a6e"
+    },
+    "assets/portfolio-restored/hosea-direct1-102.webp": {
+      "size": 288300,
+      "sha256": "f524e2cd0295fa3c0adf056ac3e113ec865bfcf58cc4b80a603ae00f931b3d9f"
+    },
+    "assets/portfolio-restored/hosea-direct1-103.webp": {
+      "size": 256216,
+      "sha256": "13580113c6172265ffc211ecbb2418c9cf4e1614c314ea6c38a2b95a029a6787"
+    },
+    "assets/portfolio-restored/hosea-direct1-104.webp": {
+      "size": 232354,
+      "sha256": "461e4cd7698a6fdfc6c1e5452230646791deee2cf207a257112e655238731300"
+    },
+    "assets/portfolio-restored/hosea-direct1-105.webp": {
+      "size": 808528,
+      "sha256": "12deaa88233af655edee1ce2eda2f3f2d483ddcbcf5d9f89214ffa3801ef59d3"
+    },
+    "assets/portfolio-restored/hosea-direct1-106.webp": {
+      "size": 488494,
+      "sha256": "26d4239b6d9604f642bb24dc2eabe466ea021993d00d1df93e46fd49388077be"
+    },
+    "assets/portfolio-restored/hosea-direct1-107.webp": {
+      "size": 263782,
+      "sha256": "78ebabbb78ece73ac69bff9ced698351f54c2b35b0f20ec298b8745fad066fda"
+    },
+    "assets/portfolio-restored/hosea-direct1-108.webp": {
+      "size": 270632,
+      "sha256": "c7ab2addb66fa50ace793e6f004ac491189dc663a3a01b180ef77db509717bb7"
+    },
+    "assets/portfolio-restored/hosea-direct1-109.webp": {
+      "size": 321970,
+      "sha256": "d6dd295ab4effbbc84407c1519623f274d4e272ac58503f5a5bdad2e499bee4a"
+    },
+    "assets/portfolio-restored/hosea-direct2-110.webp": {
+      "size": 228526,
+      "sha256": "669dc578f7ef5c21040130dd1b6173870beb09836918d5e2424751b947aea7fe"
+    },
+    "assets/portfolio-restored/hosea-direct2-111.webp": {
+      "size": 247340,
+      "sha256": "46b46b0e10cd52198bebcb12c9d92777e49f4244ce566db59055cd2d9f86340f"
+    },
+    "assets/portfolio-restored/hosea-direct2-112.webp": {
+      "size": 145588,
+      "sha256": "2fa1f51e48a260442c6b559ed467809bc494071229fbe949ba51bd16b27f639d"
+    },
+    "assets/portfolio-restored/hosea-direct2-113.webp": {
+      "size": 675090,
+      "sha256": "8c4ba09c08cc4f2789f38c5724e30779129891ec7e88577a387b249c40aa1247"
+    },
+    "assets/portfolio-restored/hosea-direct2-114.webp": {
+      "size": 417332,
+      "sha256": "8fcafbb5b9bcc9725ee81976d86e9e20e9e65be75b316a0589dd12d24493818b"
+    },
+    "assets/portfolio-restored/hosea-direct2-115.webp": {
+      "size": 232800,
+      "sha256": "65a2dc769b723ae96d82e58d6177032351e0e01d2c01c52b7092a1d7432f5d6e"
+    },
+    "assets/portfolio-restored/hosea-direct2-116.webp": {
+      "size": 163186,
+      "sha256": "555761c14539fb158cbf34f0a8f32ecd899080140fec53239f87c705cfd3e69b"
+    },
+    "assets/portfolio-restored/hosea-direct2-117.webp": {
+      "size": 274146,
+      "sha256": "98775a4dd618318e57a5185935b75f4fd20ebd4fcc2546ccb40e88ad04bdb307"
+    },
+    "assets/portfolio-restored/hosea-direct2-118.webp": {
+      "size": 261866,
+      "sha256": "87584607df964d80ad03f8534ead8170211a4d255c1b0b81cedafb2a70552a77"
+    },
+    "assets/portfolio-restored/hosea-direct2-119.webp": {
+      "size": 283826,
+      "sha256": "a5baefed8057f78dcdc7fac53447244ae55b5fe898b26b8ac28f8b3f18d015fe"
+    },
+    "assets/portfolio-restored/hosea-direct2-120.webp": {
+      "size": 205772,
+      "sha256": "d810f954bf15b9fddab5c56e0786e7f8cd3dab2388e85d66b91c0c51f485d634"
+    },
+    "assets/portfolio-restored/hosea-direct2-121.webp": {
+      "size": 181096,
+      "sha256": "a371039d94943c16f86837a69fc7dfafbdb3c3ffaecebc38dfcaebdcd7d2d72a"
+    },
+    "assets/portfolio-restored/hosea-direct2-122.webp": {
+      "size": 209580,
+      "sha256": "8309fee62f60e478e3af9281a15b0e0786a98015a9863d51416004e33d0e81a0"
+    },
+    "assets/portfolio-restored/hosea-direct2-123.webp": {
+      "size": 204962,
+      "sha256": "7ebb175dd1403ae48796c95416115382b5e3f9da0c5fd5b5029894f54fc8ca47"
+    },
+    "assets/portfolio-restored/hosea-direct2-124.webp": {
+      "size": 181844,
+      "sha256": "fc9f4fd5ff6cf5c82c5241a2c2c21cdcfefb81b286265ee039b903b72f41fadd"
+    },
+    "assets/portfolio-restored/hosea-direct2-125.webp": {
+      "size": 231340,
+      "sha256": "a9b847450840123a2905af8260299b15490c94f91a7eb5f354f3186ca73c4bb1"
+    },
+    "assets/portfolio-restored/hosea-direct2-126.webp": {
+      "size": 212794,
+      "sha256": "306e8bc5c7608b34b0c6aba9754b29c86f0c1a7be67fe988f08787ef63d3d677"
+    },
+    "assets/portfolio-restored/hosea-direct2-127.webp": {
+      "size": 144952,
+      "sha256": "b299f99854c1e9d3f2c50cef7558edf03e13df2e4d851102009124c66e740eab"
+    },
+    "assets/portfolio-restored/hosea-direct3-128.webp": {
+      "size": 174794,
+      "sha256": "561aed7b3a44eb2ab467975e1402fd7b178189fcc426ec37a488de1159670f3a"
+    },
+    "assets/portfolio-restored/hosea-direct3-129.webp": {
+      "size": 198394,
+      "sha256": "a91a04f1052213f7b6ade85e2d97f435f941662f003045f417dfad9c89e47262"
+    },
+    "assets/portfolio-restored/hosea-direct3-130.webp": {
+      "size": 255598,
+      "sha256": "a0aa5244a8a70ebe6d2e8f5c97dbebc6a5300d9f34de8646d3e54af8fa761a94"
+    },
+    "assets/portfolio-restored/hosea-direct3-131.webp": {
+      "size": 218954,
+      "sha256": "13d17c3916c6b5abf39c49b7a07b4100bd6c678e84aa62294e0086420b542478"
+    },
+    "assets/portfolio-restored/hosea-direct3-132.webp": {
+      "size": 175292,
+      "sha256": "540da8afc9aa706bae0a8e6a458c5e0a741f5b8e69db60ba4926eb64b1298bbe"
+    },
+    "assets/portfolio-restored/hosea-direct3-133.webp": {
+      "size": 160836,
+      "sha256": "1a766a1103e224bc956ee9bf7f00a3f982c7b1a78011fc96c721b7203434b46f"
+    },
+    "assets/portfolio-restored/hosea-direct3-134.webp": {
+      "size": 278034,
+      "sha256": "a4064884ef9921b82bffeb43e0d1298adb3f61680784d36d4d677284d86af3eb"
+    },
+    "assets/portfolio-restored/hosea-direct3-135.webp": {
+      "size": 292826,
+      "sha256": "4e51abad43ea0fac4d71dd406cef944a67b5fab3758fb5171410f0986353b7a9"
+    },
+    "assets/portfolio-restored/hosea-direct3-136.webp": {
+      "size": 224568,
+      "sha256": "54a21f84ce9ad9460c3e9e3da760dd9ac3f1670c6cc1a9f3a51d3c00eef4a832"
+    },
+    "assets/portfolio-restored/parker1-048.webp": {
+      "size": 254052,
+      "sha256": "cd241722447022bc3e2b1c8fb6ddb75e32e7c40d35d3b152a7d4fffee979b72e"
+    },
+    "assets/portfolio-restored/parker1-049.webp": {
+      "size": 328476,
+      "sha256": "3f0109ad393e05d40d5247a0ea9d17e3af32fa36689a42049049f95d82d4c305"
+    },
+    "assets/portfolio-restored/parker1-050.webp": {
+      "size": 230748,
+      "sha256": "7fda488c6cf9530a7d6487ace35469a51b0bab7b04126f9a4630740be47fccc7"
+    },
+    "assets/portfolio-restored/parker1-051.webp": {
+      "size": 451282,
+      "sha256": "87fc4cfc0fc6f3ac4df952801ded758a6fb3c255c6d483f4facc780ac92d9735"
+    },
+    "assets/portfolio-restored/parker1-052.webp": {
+      "size": 502908,
+      "sha256": "e7801263026d54f469306b90fd689fcfe3f6a60cde5f0e55ac29dfe938273925"
+    },
+    "assets/portfolio-restored/parker1-053.webp": {
+      "size": 373024,
+      "sha256": "f17b11e8c9e2b899e13c8fdae615f8cbad3d3d9630b432a90beab4f74b77e61b"
+    },
+    "assets/portfolio-restored/parker1-054.webp": {
+      "size": 479688,
+      "sha256": "40a739c9f78e3de4c9e0db0ba8ec8e21cb5c796aa62340d3fe7d807998054825"
+    },
+    "assets/portfolio-restored/parker1-055.webp": {
+      "size": 403510,
+      "sha256": "6172b61a141fa989d3eb52755a7edfaad76d65f987daeb9867e2ce1c8f71bcaf"
+    },
+    "assets/portfolio-restored/parker1-056.webp": {
+      "size": 319858,
+      "sha256": "2c32e519c2fd8b81aed3501740f74cd04090cda7bf5114b57b3dce193126ac74"
+    },
+    "assets/portfolio-restored/parker1-057.webp": {
+      "size": 280356,
+      "sha256": "3e620601f80f4492ad6f33462a1deb439d276df7298dee7cb9e3cb3c555eae24"
+    },
+    "assets/portfolio-restored/parker1-058.webp": {
+      "size": 281168,
+      "sha256": "3a48ca832486b1c3a21dd130da224e1f2690cf5019d65b4dd5b5d7c98d65c1ab"
+    },
+    "assets/portfolio-restored/parker1-059.webp": {
+      "size": 268460,
+      "sha256": "7fd446c44ed34890e3b1478bf21f1e6947c8d81b5deb815298ae770938610ec6"
+    },
+    "assets/portfolio-restored/parker1-060.webp": {
+      "size": 320820,
+      "sha256": "fe521923da7f26ca0705dcd64b482e455110f2599d1b145fb4ef59a659b3922e"
+    },
+    "assets/portfolio-restored/parker1-061.webp": {
+      "size": 390664,
+      "sha256": "00627a39c9abb259ebb7f0435e1e82d2463db53f70c0beba044887988b77e4a3"
+    },
+    "assets/portfolio-restored/parker1-062.webp": {
+      "size": 371928,
+      "sha256": "6550b36f220d5415ff215747f65a7dd275a2b0277cd56ab777abfb71601d6682"
+    },
+    "assets/portfolio-restored/parker2-063.webp": {
+      "size": 176372,
+      "sha256": "5ea12fcc2cc42711a1e989af29286e116120590b7af089cfdb5fa01fa2c94235"
+    },
+    "assets/portfolio-restored/parker2-064.webp": {
+      "size": 174536,
+      "sha256": "1363617b4fdc75cbc51ad94a48d354b6b14624535e2b1c8bf294892e8881f962"
+    },
+    "assets/portfolio-restored/parker2-065.webp": {
+      "size": 124780,
+      "sha256": "9fb09ae0915d91629a0eda86e8f864eae37383e2d3c7a69c361ffeec878e65f1"
+    },
+    "assets/portfolio-restored/parker2-066.webp": {
+      "size": 324286,
+      "sha256": "84818add77feaf18d058858e2cabef55b00d3158d7e5a4696e3cc3cb1651df6f"
+    },
+    "assets/portfolio-restored/parker2-067.webp": {
+      "size": 310770,
+      "sha256": "712cccf0ef5fa8a76d25b973224890991c5b9fb2d918f9feaa262a37fa1e9ee1"
+    },
+    "assets/portfolio-restored/parker2-068.webp": {
+      "size": 279424,
+      "sha256": "18151726475c7ad3de5593373c75ba8949b4aada993875c8eb2934bfc36b96a5"
+    },
+    "assets/portfolio-restored/parker2-069.webp": {
+      "size": 218076,
+      "sha256": "e25b283bfcb9b8393a5061e45ded93fd03f94256aea0ae0c878149e40600465f"
+    },
+    "assets/portfolio-restored/parker2-070.webp": {
+      "size": 268280,
+      "sha256": "fc634d212333dfca4f36a529c8f20a852a8dcb846f1ae636c499f602e4959450"
+    },
+    "assets/portfolio-restored/parker2-071.webp": {
+      "size": 327384,
+      "sha256": "1575abfdd50659e271dcc1330d25eeb58bf337210adfed8e05ec0581b8692b73"
+    },
+    "assets/portfolio-restored/parker2-072.webp": {
+      "size": 325756,
+      "sha256": "b0d258eacc498f292159b2029036bd732fb7ec5b9491729b6d0c8d4f28ddb69f"
+    },
+    "assets/portfolio-restored/parker2-073.webp": {
+      "size": 266962,
+      "sha256": "66d08cc953dc40bcc486be04f22e41e85c515aeebd77c23a4bc7e9e5f5b94ee7"
+    },
+    "assets/portfolio-restored/parker2-074.webp": {
+      "size": 232172,
+      "sha256": "3762daa604dc39857d2887120fd054f1ae53cf2e603d34d125bf72a4deea10d2"
+    },
+    "assets/portfolio-restored/parker2-075.webp": {
+      "size": 264046,
+      "sha256": "c2475a1cbc15ee7973ce8780dc3bb08c56f4d545615497cd142fc4186a8fbf6a"
+    },
+    "assets/portfolio-restored/parker2-076.webp": {
+      "size": 407674,
+      "sha256": "d98904ff7e47725d3d7b2dc088f4fc89235a520012800a68f05ffcae30380530"
+    },
+    "assets/portfolio-restored/parker2-077.webp": {
+      "size": 239486,
+      "sha256": "9cb579b482f43b696d1e6e3541cd44eddd21dfbd2dd45e12d58cf3dfe3bf59db"
+    },
+    "assets/portfolio-restored/parker2-078.webp": {
+      "size": 512436,
+      "sha256": "64689b00fd7dbc7f02f4f845833cb6d4bd9ddfdbd79bf363445071d3552b6ab3"
+    },
+    "assets/portfolio-restored/parker3-079.webp": {
+      "size": 381054,
+      "sha256": "009c94e90cae631f41343ef5927de9582368bcf68c0cda6d6006b11bb59240f9"
+    },
+    "assets/portfolio-restored/parker3-080.webp": {
+      "size": 465382,
+      "sha256": "b6a53d08e5d91c4a984f66d2392da0a67664bf00a5ac16a31557e8299b6138f0"
+    },
+    "assets/portfolio-restored/parker3-081.webp": {
+      "size": 401128,
+      "sha256": "cae2676759a2a5483d314824661003cb1c5ddc629ece82c93d1943923ae05a34"
+    },
+    "assets/portfolio-restored/parker3-082.webp": {
+      "size": 239176,
+      "sha256": "19910e938bc118d2e31f42fdd62cf484d45241784ba7dfacb1af7cdda261d1ca"
+    },
+    "assets/portfolio-restored/parker3-083.webp": {
+      "size": 275572,
+      "sha256": "9d8d8b5b3d4dc6009c067ddfb1e702de616a7da2317bf75dc916da8ec90a3fc8"
+    },
+    "assets/portfolio-restored/parker3-084.webp": {
+      "size": 126858,
+      "sha256": "b68ef55898e2cc9b2d40f5b7a3eba2213b0a7d5c2a2ae136e577012b0bb06f6c"
+    },
+    "assets/portfolio-restored/parker3-085.webp": {
+      "size": 311782,
+      "sha256": "a2d2815530da6705180ba064676ad1de3f6ef9d30ea0f74228a22f4007c966b4"
+    },
+    "assets/portfolio-restored/parker3-086.webp": {
+      "size": 467842,
+      "sha256": "853c129cf5dc2ddf3ed8446c37189e753cc1bfd264bdb14aa3fb935eef99e280"
+    },
+    "assets/portfolio-restored/parker3-087.webp": {
+      "size": 508064,
+      "sha256": "f39fd94e2b756afd133bfe48761304d4e4b3e595312a9d513228c7039ea7a366"
+    },
+    "assets/portfolio-restored/parker3-088.webp": {
+      "size": 357530,
+      "sha256": "22f0c4c01d4b5505711231622c0de2510daa60058035f949c9e8c7b9a9893bd7"
+    },
+    "assets/portfolio-restored/parker3-089.webp": {
+      "size": 1116776,
+      "sha256": "443e4d0dbcb066c0569e7d7be32e16d2f89199ab83a1ee7d7ede6231508395f2"
+    },
+    "assets/portfolio-restored/sunlit-room1-001.webp": {
+      "size": 597852,
+      "sha256": "bc5ba3b3b89c7248af6980f8c9e9138c6ec8078594300c44c18f60586b8212e0"
+    },
+    "assets/portfolio-restored/sunlit-room1-002.webp": {
+      "size": 666646,
+      "sha256": "cd28f9ed17b38ffbe64d7bba6cda7af6518ef4a035e3dab81e2c69719e151dbf"
+    },
+    "assets/portfolio-restored/sunlit-room1-003.webp": {
+      "size": 143780,
+      "sha256": "c5657674540158de788259d77c78ff249cb74881ea00b3ed867924e28f7c7616"
+    },
+    "assets/portfolio-restored/sunlit-room1-004.webp": {
+      "size": 305662,
+      "sha256": "36b8d332ecd6c65134bef68ae9f77aeef75e53e1aface7e48de18792e1cc4217"
+    },
+    "assets/portfolio-restored/sunlit-room1-005.webp": {
+      "size": 209046,
+      "sha256": "0aba1a65829ccc5dbccdc92a6c9181e43fb3dfeb119360ed72bda49d725bc04b"
+    },
+    "assets/portfolio-restored/sunlit-room1-006.webp": {
+      "size": 161556,
+      "sha256": "33d3bf2c1a460d9e7957413b70fa9f33828c9e10d9eda789df9409bab03b2e1b"
+    },
+    "assets/portfolio-restored/sunlit-room1-007.webp": {
+      "size": 199376,
+      "sha256": "bf7955ff4af99f9bc8514c031266641cf02c7717f547f5e4b64c043fb3ece2c1"
+    },
+    "assets/portfolio-restored/sunlit-room1-008.webp": {
+      "size": 344470,
+      "sha256": "10444b44e8556ff5164cfddbbe61b7e874436a0197dc57db0e482bd95aba254e"
+    },
+    "assets/portfolio-restored/sunlit-room1-009.webp": {
+      "size": 316002,
+      "sha256": "9e5a8d5690bbd1439d019faa5c8463195320c7431b13382e988c14e10705cf09"
+    },
+    "assets/portfolio-restored/sunlit-room1-010.webp": {
+      "size": 309980,
+      "sha256": "752462012f0b0a1cf8e8970e764eda101fef6ab7f6004ffb8948062afa7797b8"
+    },
+    "assets/portfolio-restored/sunlit-room1-011.webp": {
+      "size": 295788,
+      "sha256": "9e7ee6835addf45f39f36f784e1180cd6b1da1d654a029d8bbeae93b678d4bf8"
+    },
+    "assets/portfolio-restored/sunlit-room1-012.webp": {
+      "size": 310120,
+      "sha256": "b868e299f9c6382d02b98636655062cb0595ba31eaf7e828c0579882c8a3e7f3"
+    },
+    "assets/portfolio-restored/sunlit-room1-013.webp": {
+      "size": 297646,
+      "sha256": "c371b9761175690fa8c33fa4645531e03037e271585afcd5920fae6ae1fc6999"
+    },
+    "assets/portfolio-restored/sunlit-room1-014.webp": {
+      "size": 141984,
+      "sha256": "cad731d967b7a3bc0492692a9f082d0c11d1ffdfe2feae459b0345f7137936c3"
+    },
+    "assets/portfolio-restored/sunlit-room1-015.webp": {
+      "size": 891900,
+      "sha256": "d7c00f7f8982cc7722d134408d53db32af003ab1444c2b43f1441074dd77d780"
+    },
+    "assets/portfolio-restored/sunlit-room2-016.webp": {
+      "size": 801584,
+      "sha256": "bf15c5fe20db66ef6a1c6431561c486b21073fb49f0bd30a5c23913e7eda800c"
+    },
+    "assets/portfolio-restored/sunlit-room2-017.webp": {
+      "size": 37892,
+      "sha256": "c66c73d5652d74be0344fd85a3e3f222780f5e6be11c8c443d5dd508e998a68f"
+    },
+    "assets/portfolio-restored/sunlit-room2-018.webp": {
+      "size": 159508,
+      "sha256": "35c1f44960f7dca8037cdf7f851fa64d513cc08eb4fb625db0b9a890e6a62bb8"
+    },
+    "assets/portfolio-restored/sunlit-room2-019.webp": {
+      "size": 282270,
+      "sha256": "56e0f84ba3e65cd21078b253255270a1c538a96204d7a01191147cf7b5732851"
+    },
+    "assets/portfolio-restored/sunlit-room2-020.webp": {
+      "size": 279258,
+      "sha256": "7219bcf27dfca2c5d285750efc5fda321e1c75ead4771f8045bce9a5c20bf1bb"
+    },
+    "assets/portfolio-restored/sunlit-room2-021.webp": {
+      "size": 215784,
+      "sha256": "fcd71e323fb34bc73b3418716835d77f6e57bba63d779d762d91fa31c4696855"
+    },
+    "assets/portfolio-restored/sunlit-room2-022.webp": {
+      "size": 147918,
+      "sha256": "e064cc65c136f3b93e476cd384da66f69cfd133c82f0890c004646822e4b72c7"
+    },
+    "assets/portfolio-restored/sunlit-room2-023.webp": {
+      "size": 188010,
+      "sha256": "ec19ae799a24e1b718a4dccd88d11874b8133661a644de9cf1896743af8ccb70"
+    },
+    "assets/portfolio-restored/sunlit-room2-024.webp": {
+      "size": 263100,
+      "sha256": "12cb8e591e5e3588669c85bfbd9f5980fffc05b2d81fbb9647e92607aaada6ea"
+    },
+    "assets/portfolio-restored/sunlit-room2-025.webp": {
+      "size": 272572,
+      "sha256": "beae1ee19b452c3e0d5e2147365a7375c07c1f949f50537ca47ce6566e72d1e4"
+    },
+    "assets/portfolio-restored/sunlit-room2-026.webp": {
+      "size": 222414,
+      "sha256": "04680c5378de20b1ea68c1061567aa547555f4b911f57ab66f0dea86cc935c18"
+    },
+    "assets/portfolio-restored/sunlit-room2-027.webp": {
+      "size": 267390,
+      "sha256": "96cc148a537e5c4a88b0aa8b030f777c53ce5eee0d4d60456da027b5c85dfe61"
+    },
+    "assets/portfolio-restored/sunlit-room2-028.webp": {
+      "size": 203640,
+      "sha256": "ca86da39c969e77fbeac1209fbb7002755be79952b004b82645bb17163f9d31e"
+    },
+    "assets/portfolio-restored/sunlit-room2-029.webp": {
+      "size": 90328,
+      "sha256": "52374c0bb4173a36b8f9f883b587182349c2a9a2035e34d761a10a6a1a024d46"
+    },
+    "assets/portfolio-restored/sunlit-room2-030.webp": {
+      "size": 279346,
+      "sha256": "ca72371c70f513e4bd1b09623f3443708aef1ecbf6ec192911c76bfe25b9c853"
+    },
+    "assets/portfolio-restored/sunlit-room3-031.webp": {
+      "size": 294590,
+      "sha256": "5c64c7b6d95e5ac68e7e5f14b97d1ea8e00239b3e22f69f1f5f106ccdcc2dffe"
+    },
+    "assets/portfolio-restored/sunlit-room3-032.webp": {
+      "size": 196216,
+      "sha256": "6adab7a3cf08b79a814dcd686a91ee3764c2a3a8c9dba6d0506f7588a7d0ea83"
+    },
+    "assets/portfolio-restored/sunlit-room3-033.webp": {
+      "size": 301570,
+      "sha256": "0f4aedfae0158125b484158a1d482a4241ef431b610bf30710107e22c61a4e5f"
+    },
+    "assets/portfolio-restored/sunlit-room3-034.webp": {
+      "size": 152772,
+      "sha256": "d1c6bcdd82cdfa18d4bcd4ec7ac630ebbaf0d4ef0fa97919be4a84595bda0f9e"
+    },
+    "assets/portfolio-restored/sunlit-room3-035.webp": {
+      "size": 309322,
+      "sha256": "67fbab81102a2abaf1bd3f0711c80806e2544641a75c4ad073fc5f2f418356d7"
+    },
+    "assets/portfolio-restored/sunlit-room3-036.webp": {
+      "size": 256704,
+      "sha256": "47cbe04d6f6a271377ed4307648e654f5dfb0c80405e4a8342de12d42c4b8f05"
+    },
+    "assets/portfolio-restored/sunlit-room3-037.webp": {
+      "size": 292842,
+      "sha256": "789843244c72d737b2b4457b00af4e092aa6338b16f63a387d51b544eebf1054"
+    },
+    "assets/portfolio-restored/sunlit-room3-038.webp": {
+      "size": 114428,
+      "sha256": "72d6417792972851ad9831b24e0d1289a88b98a87817d3e63384b737d41cb0db"
+    },
+    "assets/portfolio-restored/sunlit-room3-039.webp": {
+      "size": 322912,
+      "sha256": "f9f7a4e9094f4a596909a02e84427598a8718ef22efe4b4b2da0adcc83e07e14"
+    },
+    "assets/portfolio-restored/sunlit-room3-040.webp": {
+      "size": 251076,
+      "sha256": "d001514c10511013bbd918ba176480b50037cd8f9c9f1f03fdb2402e62a1ed83"
+    },
+    "assets/portfolio-restored/sunlit-room3-041.webp": {
+      "size": 319164,
+      "sha256": "9d549e12bd6cacae50065dafa874c33d4bc14da6d019197e9aa2d7ff684ab645"
+    },
+    "assets/portfolio-restored/sunlit-room3-042.webp": {
+      "size": 521256,
+      "sha256": "a375f0b1adeccb636f928c64fa378acef283257e7967a37629ee37f69ff7303e"
+    },
+    "assets/portfolio-restored/sunlit-room3-043.webp": {
+      "size": 229260,
+      "sha256": "2490ab9a9f0d0af300b95085e045d1e5907b36f4a5407ad220751954b2663478"
+    },
+    "assets/portfolio-restored/sunlit-room3-044.webp": {
+      "size": 240516,
+      "sha256": "c6a420cac20773208eb3bfa065b0bd7b4719ad8ce740fb56adfca11b19bca298"
+    },
+    "assets/portfolio-restored/sunlit-room3-045.webp": {
+      "size": 195516,
+      "sha256": "6c2583203aab696be604f4a52f4a138030e3d64aee96a7c730938f51e94a8f58"
+    },
+    "assets/portfolio-restored/sunlit-room3-046.webp": {
+      "size": 383432,
+      "sha256": "8c6ba31b6e7ba626a719b20b5bedd6bfd309e33e548edd2131f9268f3e976e83"
+    },
+    "assets/portfolio-restored/sunlit-room3-047.webp": {
+      "size": 132542,
+      "sha256": "b1dfd47dd53b802258d40810a7f4a5662c72cefac015847bb1366a97280ef5eb"
     },
     "assets/proc-benefits.lossless.webp": {
       "size": 140388,
@@ -3738,16 +4426,16 @@
       "sha256": "d8da80968c6592eb5a8e1a48322011917bb6dca8f08b53dd4e323c30fb77ddb3"
     },
     "assets/question-seo-aeo-v1.css": {
-      "size": 11400,
-      "sha256": "51eb5fbd7ec0acb3d53dead1003291698aecda260b1c796209bc260a980a21de"
+      "size": 11411,
+      "sha256": "1c4ef43e3088838effbf70781b83c217c46d7a1441a9e993f2669b9b6d1edaff"
     },
     "assets/question-seo-aeo-v1.js": {
       "size": 1093,
       "sha256": "bc17553e46c7498384c3702373c2c6992665665c546007007e57554e80f7c9f8"
     },
     "assets/question-seo-aeo-v2.css": {
-      "size": 5015,
-      "sha256": "6883c5dfe977f4e3225976d5b092cfcc61649d0b6385a87e1b09b1dbca924678"
+      "size": 5026,
+      "sha256": "2f2feb95a9dfac8b7e47fe403b76a157f115fcf8358c56a7af91fbd8e40ae254"
     },
     "assets/quiet-reflection.jpg": {
       "size": 313961,
@@ -3837,6 +4525,10 @@
       "size": 4221,
       "sha256": "0261d2272478af4f79f154bb6deee3e10591f884fc8f02ea83679ccaf6b63292"
     },
+    "assets/refinement-v24.css": {
+      "size": 44511,
+      "sha256": "05520493658bec94ab5b17b76fb05d7747480373f2e8ccb0502731ebbe9fcec0"
+    },
     "assets/refinement-v24/ASSET-NOTES.json": {
       "size": 3145,
       "sha256": "0aee24e5b1cb393fd04e04991be230752198320f30bed6d63f051faa4fe2d900"
@@ -3869,6 +4561,10 @@
       "size": 592054,
       "sha256": "0ba45d534d143e952a83a04975cbc50379ec1ceb92bb659fbe01a0932c0b26bd"
     },
+    "assets/refinement-v24/dominique-cream-suit.png": {
+      "size": 1057027,
+      "sha256": "c6e13982395701f1ddfd5282849b7cea50d00032fedb8be15b468f70b868c7a5"
+    },
     "assets/refinement-v24/down-payment.lossless.webp": {
       "size": 498562,
       "sha256": "45ec1105fd3064ddaffe3086f5f27c4f1dbff93117d3edde593ccdada2a1d3a7"
@@ -3888,10 +4584,6 @@
     "assets/refinement-v24/twenty-percent.lossless.webp": {
       "size": 495986,
       "sha256": "dd9349343290dfd5f32bc534cfd6b1b359cb1a0a6726f1737f5d16558c6c13c0"
-    },
-    "assets/refinement-v24.css": {
-      "size": 44500,
-      "sha256": "70b9f142f80c88827b2c17b249e46f4f9c2bd09c9355d46188e937a40ace947d"
     },
     "assets/refinements-v17.css": {
       "size": 4548,
@@ -3996,6 +4688,10 @@
     "assets/relocation-real-photos/relocation-photo-25.webp": {
       "size": 177754,
       "sha256": "78ed38b73a0d9357d2d67c72edeeab29b0b3cfe2152ca5ae2c2152badcc5f992"
+    },
+    "assets/remodel-v18.css": {
+      "size": 26117,
+      "sha256": "980e13f3efbbf059a4c173eece57a8591ef6e7718d06b8d5db76563555935e8b"
     },
     "assets/remodel-v18/marriage-00.webp": {
       "size": 100766,
@@ -4265,10 +4961,6 @@
       "size": 135220,
       "sha256": "156a96da9d12cd5b6f020fe20abe3243d8b14f470fe85723b384dc992fb27186"
     },
-    "assets/remodel-v18.css": {
-      "size": 26106,
-      "sha256": "9ce848d5a5651e41c728b47383d302395646558d26253f1e90456243a9172966"
-    },
     "assets/rental-questions-v40/home-security.webp": {
       "size": 8256,
       "sha256": "71d86eddeab66edd0e01a8fc2951e290c877a4eb8ec301d0db6bce83fa6937d8"
@@ -4309,13 +5001,13 @@
       "size": 2818,
       "sha256": "2e3d287eef36066322b9b433d91485f0aebc154ec997b67d5846a095021a96f2"
     },
-    "assets/review-v30/north-valley-scenery.webp": {
-      "size": 42332,
-      "sha256": "2dbef938481dc007a5be8fd8895535933399dfc9e6650ead9c1106cdb92754e0"
-    },
     "assets/review-v30.css": {
       "size": 7698,
       "sha256": "cc3450c628c8eeb2d392a41bb6c390c9ebcd6b02ee390bacbfd3eee36237c41c"
+    },
+    "assets/review-v30/north-valley-scenery.webp": {
+      "size": 42332,
+      "sha256": "2dbef938481dc007a5be8fd8895535933399dfc9e6650ead9c1106cdb92754e0"
     },
     "assets/review-v32.css": {
       "size": 4946,
@@ -4414,8 +5106,8 @@
       "sha256": "3d5e33d35fffd07c589cc48142df573f0b2917cea111bdded562e087521aa041"
     },
     "assets/shared-styles/3db07aa38e551735c47a.css": {
-      "size": 13723,
-      "sha256": "3db07aa38e551735c47a88e3dd0d7913af7ba3ec03aa52c7392d3821721dd4f5"
+      "size": 13734,
+      "sha256": "98274e63b8b05dae770eb7b49c307537a4817c87006fe491282ce05315d3cf9f"
     },
     "assets/shared-styles/41f382beb9f66c86f221.css": {
       "size": 8685,
@@ -4434,8 +5126,8 @@
       "sha256": "47d525ef772e728750aead62fa0210e28bbac20ed7e22e9c80777a422e7191a6"
     },
     "assets/shared-styles/48e7b347b01eb5e71298.css": {
-      "size": 11186,
-      "sha256": "48e7b347b01eb5e712989439cefd14a053cab77e20e61dbe9e09b1fe7267072b"
+      "size": 11208,
+      "sha256": "e3a01695c1d3f69477eba2238479fe2e7a89c75dbf3070f254683bca7aa0ddfb"
     },
     "assets/shared-styles/4aca3dacaf58595468f7.css": {
       "size": 1513,
@@ -4458,16 +5150,16 @@
       "sha256": "578c47d62143c7db422170b28f5b7fcdbc474716e9e1a0a534aae3ab88e6148a"
     },
     "assets/shared-styles/5c0e0c394d367e813c75.css": {
-      "size": 1856,
-      "sha256": "5c0e0c394d367e813c7532c811aa25c2732ca8c5c2210832c310508583e5de07"
+      "size": 1867,
+      "sha256": "149a9380280dbfcdf9c3c93982582b2f5e5f23050957d6a2782b5b5e82618f37"
     },
     "assets/shared-styles/5fe5d5856d154ded3fb2.css": {
       "size": 1018,
       "sha256": "5fe5d5856d154ded3fb22be3c4f3821b50ec650a5c6d0d9626b89962ab588386"
     },
     "assets/shared-styles/62fb5c5dfa75c8ebaf52.css": {
-      "size": 11186,
-      "sha256": "62fb5c5dfa75c8ebaf527f06bf9e48ae35c82b17f94f08c75b8f86b60f70bb52"
+      "size": 11208,
+      "sha256": "4e98caf98859a56b6ba42cd87ff04a2e93680e4b8956662f4a7ab650b6be78fb"
     },
     "assets/shared-styles/646f6185f23410e09a00.css": {
       "size": 4373,
@@ -4682,16 +5374,16 @@
       "sha256": "f68007d25032b49c45c232cec6914cb0d00b9b27f66e5f50eadd3e62845a2c47"
     },
     "assets/site-audit-4711.css": {
-      "size": 16710,
-      "sha256": "2004bf6c112f6e0e6288b3fb7f24fd145314b118af18a55e3d954b0691af6853"
+      "size": 18800,
+      "sha256": "08b1906fde414b29c6d52bb98e24183198fd342345aff34caf804d6d38e53f83"
     },
     "assets/sitewide-final-photo-reading-fix.css": {
       "size": 2428,
       "sha256": "4ae07e9e67002e34e0498252ddf5fc337256dabd3bf742d5e9e16fd2eb2b98b9"
     },
     "assets/sitewide-repair-20261009.css": {
-      "size": 5705,
-      "sha256": "01b25657d53a4bfb14a6804ef5cecd47e6dd1eca3221d8fabba0c8be7df6cf31"
+      "size": 5707,
+      "sha256": "0d01a19e279348fc440e55f154ef7af5818900959c19f2a3c860fe31d3a2583f"
     },
     "assets/social-links.json": {
       "size": 54,
@@ -4710,8 +5402,8 @@
       "sha256": "8d0266789dee05e01b19e2647bf9ee7b9c8f3a3341601163725de7be1e62796f"
     },
     "assets/studio-v21.css": {
-      "size": 30152,
-      "sha256": "66e89e3ddc220cf2130ce757610a92a17a62207bf38e8c1626762b60abc9207f"
+      "size": 30163,
+      "sha256": "c065c40f46b290a43a1521f6d840d22975d05fdaedb3f76ebb723e39fa9fb806"
     },
     "assets/studio-v21.js": {
       "size": 417,
@@ -4721,29 +5413,13 @@
       "size": 64066,
       "sha256": "8c152eef911deb5165d76978bd0ab0db433eb764ecd0c16b982046ea2325d854"
     },
-    "assets/sun-sage-conversation.css": {
-      "size": 7650,
-      "sha256": "ae2d77a0903022a512fb532a20669252e841c4ce0110bc3966cb6eebf1708376"
-    },
-    "assets/sun-sage-conversation.js": {
-      "size": 15036,
-      "sha256": "df47ef5fef2cb7880c5cadab9a16a711f92e9af223049ba2742a516ddf6aba2c"
-    },
-    "assets/sun-sage-key.lossless.webp": {
-      "size": 176442,
-      "sha256": "535685b89ea550bb3eade9f53161807b22ac29cc6e0edd3d30404b5b15078f10"
-    },
-    "assets/sun-sage-social-preview-v42.jpg": {
-      "size": 179731,
-      "sha256": "402cac260e1abe9ec5b260163a9c06e8d894a4d42786ce78fd653c8738ac6cc1"
-    },
     "assets/v44-refinements.css": {
       "size": 1818,
       "sha256": "a56ea2bb63b64399dc1622feb1e5452d804ee83a1135cc6d6a27f0139198f171"
     },
     "assets/v45-forms.js": {
-      "size": 107,
-      "sha256": "8cd498de9d3d24dd627994d2c04db86f771713b9bea70d2aa5e48ed20fa0d1a0"
+      "size": 108,
+      "sha256": "f46c9b3b8e2bd9f736685216bc84cea49366b99d1ef6df4c5b1e7f48cee896e0"
     },
     "assets/v45-interactions.css": {
       "size": 5620,
@@ -4754,8 +5430,8 @@
       "sha256": "65d139412390b64a7eddcb002f1714cfa9cf9af1645a475b1b65ba64cec6c874"
     },
     "assets/v46-overrides.css": {
-      "size": 5160,
-      "sha256": "6a57670e1dd7a699489547ab16e3401805b3f99df134e19f8f7899283c25bcbf"
+      "size": 5171,
+      "sha256": "aaceb393a5a51db23057ea96fb8c90ec409114dc9373113280629ecc07a674ce"
     },
     "assets/v46-requested.css": {
       "size": 5665,
@@ -4774,8 +5450,8 @@
       "sha256": "c9bc54c444a7bc86287ebaccfcd2d6d7ca5de620d7bb769bde8b60d0eecb3e60"
     },
     "assets/v48-editorial.css": {
-      "size": 46162,
-      "sha256": "17d6e188938efeacbda93002102b44f7947c4962d4205ae144ee685a4ce1c743"
+      "size": 46206,
+      "sha256": "897787d42a717aeae26b02f67525d758bf8b90d8f8e5ed16183175cb53658b21"
     },
     "assets/v48-interactions.js": {
       "size": 3469,
@@ -4790,8 +5466,8 @@
       "sha256": "083f7b41e94f506fd26253704c3e62e344f2d7a8b0baf11bd7dbe932b5bd6555"
     },
     "assets/v55-hubspot-contact.js": {
-      "size": 6142,
-      "sha256": "2eff91f49921d4d9c50e34380ef61df57333da740a2abb40c0cdb6c62b89c63e"
+      "size": 6148,
+      "sha256": "74d7d853f38256bedcc518c3b717970a80ccf7dc9d484355d99b58848172b5d2"
     },
     "assets/v56-city-luxury.css": {
       "size": 10352,
@@ -4806,12 +5482,12 @@
       "sha256": "696d019f9c50dac70aad6dee323f2ff14549ef3ea2d4b6ad1a3f5aed0e9d27a8"
     },
     "assets/v57-requested-refinements.js": {
-      "size": 7833,
-      "sha256": "ed43928c292d685ae5a09359048356b161972bf5f7d87535a8d92d2ddce31037"
+      "size": 7844,
+      "sha256": "b8aa851c0245dfd9f24de7dabcc70c0a743ce4fcd49d9aa2c51bffd61bf8b67d"
     },
     "assets/v58-mobile-only.css": {
-      "size": 10790,
-      "sha256": "4b6eaa18779f1b17db2aabe3d057a3a32c7d435d78cbbb50a1aeb373d9a59d8d"
+      "size": 10803,
+      "sha256": "33922e2027f5d3ab53d7e99b12f3628bc1026e2b5e10ba7c4e63c902ad157664"
     },
     "assets/v58-mobile-only.js": {
       "size": 3014,
@@ -4854,16 +5530,16 @@
       "sha256": "7bae35327196450c75c0888689c3251c4adb3080307c6dc70bff0c4e7d2a4e1e"
     },
     "assets/v70-confirmations.js": {
-      "size": 2997,
-      "sha256": "3c48ee2d4f7ae545cfb27a7631a7b2f617642e25f352b757d570b0d10c53dc79"
+      "size": 3001,
+      "sha256": "58d4494b6e9596257b85807cab840b92b2333f3f3b3574532434b19a6fa82ebf"
     },
     "assets/v80-requested-fixes.css": {
-      "size": 21700,
-      "sha256": "147fc078f26a5659ce5198ce5b35506e62fd56484879bb4d016e564da8c9c01c"
+      "size": 21711,
+      "sha256": "9b6d465efabcb4063507c353b6a29ca7cca7c8d727d335d4d188be9815412e7e"
     },
     "assets/v80-requested-fixes.js": {
-      "size": 2633,
-      "sha256": "1181db1b21682e1eb4c24ef52e636d81ef206211af017819c12bb60d6533f85f"
+      "size": 2644,
+      "sha256": "8eb3196ec3704d4deeaa87b3d40546efb040027fb1ac99d7696f16911c91bfc2"
     },
     "assets/v81-mobile-followups.css": {
       "size": 3298,
@@ -4880,6 +5556,10 @@
     "assets/v90-approved-update.css": {
       "size": 29742,
       "sha256": "a1aa88a1d11035a56c62e48fa72ad51da1d515411ddac951aedbea720955675b"
+    },
+    "assets/video-posters/home-introduction.webp": {
+      "size": 17990,
+      "sha256": "5aec4a29438f6610d2b28344408fcb0d4326cbf457107f4d15114a30ad06eb82"
     },
     "assets/video-posters/hosea-film.jpg": {
       "size": 56753,
@@ -4909,6 +5589,14 @@
       "size": 120579,
       "sha256": "31e848787b253ddb4d148b012d5e75f62615551126019bb56a2a827fffae09f9"
     },
+    "assets/videos/home-introduction-mobile.mp4": {
+      "size": 344149,
+      "sha256": "6dd453aa11511f2674fc86f07c2ce428661ec4773d878d90c3fd64c418c7e435"
+    },
+    "assets/videos/home-introduction-web.mp4": {
+      "size": 1014633,
+      "sha256": "af36d4fb36d4397d05a881f0751ad40187ffaa3f6017dff46a151ee89e09fb71"
+    },
     "assets/videos/home-introduction.mp4": {
       "size": 13329900,
       "sha256": "4bc9a84dd97183ff5c3a776d4d6c61cc334ee39d1a79e929898bd807bf271c44"
@@ -4926,1308 +5614,1380 @@
       "sha256": "e2df27b60abc2dbe9621119b2678be22e9dc22c9ff98d3555d76f709f38228e4"
     },
     "bank-statement-loans.html": {
-      "size": 19465,
-      "sha256": "25ea21e95020c125b55014f8a9c9bf602059bd99eefa82e158d1c901c6a73d64"
-    },
-    "blog/can-the-dodgers-do-a-threepeat-2026.html": {
-      "size": 20560,
-      "sha256": "b8e897df729e0225304c5017cc288a3d54d077505410ae867a1aae7df5804fca"
-    },
-    "blog/can-the-dodgers-do-a-threepeat.html": {
-      "size": 20455,
-      "sha256": "511a73de9fea6a55aec2887a352459469e9aeade88a65bcfadc61b336f3d1709"
-    },
-    "blog/coffee-or-tea.html": {
-      "size": 19758,
-      "sha256": "1af18a65c50b4f69ab006dfaf61bac9aa79279dbcf8549a18f8c37c734070f3e"
-    },
-    "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html": {
-      "size": 25585,
-      "sha256": "7334fcae7b33bd3c2d34a86d9fee12dd8dac195687149efece6727bb0357564b"
-    },
-    "blog/football-season-sofi-stadium-2026.html": {
-      "size": 25551,
-      "sha256": "5f6d889bc7221bcc19dea5974406c743758254db4f1c0e18043ba66d873723c6"
-    },
-    "blog/halloween-san-fernando-valley-2026.html": {
-      "size": 20509,
-      "sha256": "20edab8258316b790e8d39262af2ecf8e5a5fddc653a4d0d48cdfe9262077e10"
-    },
-    "blog/homeschool-or-public-school.html": {
-      "size": 21056,
-      "sha256": "38158ceefa2519d927e0e5a17330f666ceb8102418fd8edc252252789b2b5143"
-    },
-    "blog/is-my-property-a-good-fit-for-airbnb.html": {
-      "size": 20504,
-      "sha256": "d64c8c3f324e94ef9d955e204e16c3ea08d338f43001376997fb83fde4ae2a0c"
-    },
-    "blog/places-to-eat-san-fernando-valley.html": {
-      "size": 19836,
-      "sha256": "b9b10b3c9f472b5c7dee29d0a7b9087219d8842d20cbcb16800897c2087d2ebd"
-    },
-    "blog/studio-city-or-valley-village-which-one-should-i-choose.html": {
-      "size": 21060,
-      "sha256": "9543f54f9b9cc5ccd43b8851ef87250b190ffc80aea5b6ec9ff620be2838768a"
-    },
-    "blog/the-different-leagues-of-college-football.html": {
-      "size": 21578,
-      "sha256": "6fd3eebbc0ebbcff25163699bf7fc97ba2759a21210facd9236eeea8cf907cc4"
-    },
-    "blog/trick-or-treating-san-fernando-valley-2026.html": {
-      "size": 20332,
-      "sha256": "b8f6c08f7ad997474a243588f836c488c3abb154cbd977eb8f6516e7ee2aa0e4"
-    },
-    "blog/van-nuys-or-reseda-which-one-should-i-choose.html": {
-      "size": 20328,
-      "sha256": "0e67a64205a76790541e3c23420c9052aad7da34761d3d9d76556eb290ed8f9c"
+      "size": 21450,
+      "sha256": "9ea8cf8654a900439dd26fa55aa3ea42d1a6f40acab77ac4e3a16ace4ff3d43a"
     },
     "blog-401k-matters.html": {
-      "size": 14389,
-      "sha256": "979969ea9a2b5547e3b2562ca15b96dd26bf0e4acc38e4d7436dab503349ef4f"
+      "size": 17158,
+      "sha256": "0517170a7c24dd8438cf1805e382c64b84fb2d884a708d3ef6259107bb8104a0"
+    },
+    "blog-california-condo-crisis-sb326-2026.html": {
+      "size": 21587,
+      "sha256": "530e723847178117e0615e4238496df61759a3318943b5eef159ea0d10013683"
+    },
+    "blog-chatsworth-home-prices-2026.html": {
+      "size": 18640,
+      "sha256": "8618a5c61827880b0a52396f265721de94d879c936e8f948f3d9ce767de13f8b"
+    },
+    "blog-film-crew-rental.html": {
+      "size": 18747,
+      "sha256": "45eb63988d18d630c2433e6e98780a88600ec503f8ffba081152bdb2eacbd07c"
     },
     "blog-having-children-in-your-40s.html": {
-      "size": 14674,
-      "sha256": "540e8d9177a42a9dd9fe8c1fd08f3de8eb4b861577b12d546b427ea88a30b0f9"
+      "size": 17451,
+      "sha256": "99cbb5bc011c0ab1a1dc9bcac3e2b06ce65560bda3d2eec0c9e5a93b43d14cbc"
+    },
+    "blog-how-to-stage-a-living-room.html": {
+      "size": 20280,
+      "sha256": "bd58d8729633788a88ffe0bc7b03b0bf360a83eb15c750296ade18455115ec1b"
     },
     "blog-is-it-time-for-divorce.html": {
-      "size": 19351,
-      "sha256": "a020d01e4de91d46be7256d9100fc4aa82574a263ac9f51ead38cba64ce1e5ad"
+      "size": 22840,
+      "sha256": "ca0650a3e367a23603eeb551bdb6190522cdba796f4793e446e637770aaa7ace"
+    },
+    "blog-los-angeles-short-term-rental-rules-2026.html": {
+      "size": 22011,
+      "sha256": "b50b836b57b2a7a1fe226fd54e35c008afe61b2ac25b55f7b329b221239bbb28"
+    },
+    "blog-two-one-rate-buydown.html": {
+      "size": 18765,
+      "sha256": "1930dccc0522e035a00270c343859dc8ae70ad48c06c542b45f720a00ca3a07a"
     },
     "blog-why-budgeting-matters.html": {
-      "size": 18750,
-      "sha256": "75d67a48ae726a0abb03ab8f2b783177335a76fe92a850c54bafcec777cca0eb"
+      "size": 21521,
+      "sha256": "92b9a7b690e7c902f166de1d1b63f9786b4bf9f5780001dd14b73346d3772cf5"
     },
     "blog.html": {
-      "size": 56984,
-      "sha256": "e132d8f6f5c2dee2c10bc137b9f5d396ec55188fb7d1ca7398d2c7b968f206ab"
+      "size": 72489,
+      "sha256": "a37ef956637ffd58d69b167c62c3c7eb188d379919cf681e6a7b9ab38f14ae03"
+    },
+    "blog/can-the-dodgers-do-a-threepeat-2026.html": {
+      "size": 22674,
+      "sha256": "a93002d6a89abb4430ee97ccfef225cc2a3b33421b56efa80a0e80876a78b4c1"
+    },
+    "blog/can-the-dodgers-do-a-threepeat.html": {
+      "size": 22527,
+      "sha256": "636e329c73c3c8277f6a230d533a63154a8f7d88ae87a5994684296f2fc50447"
+    },
+    "blog/coffee-or-tea.html": {
+      "size": 21828,
+      "sha256": "aa47879fb600d5a74d22bf433f31dd1187a5cbe915d0c4e244fe7b55c18752dd"
+    },
+    "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html": {
+      "size": 27653,
+      "sha256": "2c1b84d83fb36cbd27986e1f4bbbb2ea9b454bf3bfcc645911450f35c00080ae"
+    },
+    "blog/football-season-sofi-stadium-2026.html": {
+      "size": 27661,
+      "sha256": "5c4de3dec8637d82a734e9f05b4883a351dfeb162f36be03100b732328a30c36"
+    },
+    "blog/halloween-san-fernando-valley-2026.html": {
+      "size": 23842,
+      "sha256": "1ae4ec060dad95ec5bd93e9bff9d5949e03968944da497d6b85a15209c9623ab"
+    },
+    "blog/homeschool-or-public-school.html": {
+      "size": 23126,
+      "sha256": "b811db13361fe8850d31a6cd7dbf4016716e1fcdcb1293bc12ea248aa2e3294e"
+    },
+    "blog/is-my-property-a-good-fit-for-airbnb.html": {
+      "size": 22567,
+      "sha256": "048531f6fb1a5d93fc05c3ff6402966429e97a2fdccf294ec2f6c554c49b0fd7"
+    },
+    "blog/places-to-eat-san-fernando-valley.html": {
+      "size": 22781,
+      "sha256": "7ab0e49e4a0d5fd72ff90c385498b9cf51a8301855e3eab72c89a405a9378280"
+    },
+    "blog/studio-city-or-valley-village-which-one-should-i-choose.html": {
+      "size": 23139,
+      "sha256": "dd897c32d761290f9eb20e681a7d6a7aca8ff07e0cef79882bc96e44da0ddd3e"
+    },
+    "blog/the-different-leagues-of-college-football.html": {
+      "size": 23654,
+      "sha256": "9389c37accf1163ba9616b7012b3be3ca29d4bdfaccb201a0dc16ac115c5931f"
+    },
+    "blog/trick-or-treating-san-fernando-valley-2026.html": {
+      "size": 23451,
+      "sha256": "26e2082858c6700332aec42be8d40f35dc44c20de1b4b3a4414f4cf63c88e18f"
+    },
+    "blog/van-nuys-or-reseda-which-one-should-i-choose.html": {
+      "size": 22396,
+      "sha256": "4bf0cf82b8b342102241a30ee1d1c27ef666839d6e2fbc4e525c0d210a26fefe"
     },
     "buy-a-home.html": {
-      "size": 59430,
-      "sha256": "5bf7ff65ed8c262170c39a9b121a7e48ad957464c88a6062a519181ea4037e98"
+      "size": 60028,
+      "sha256": "43a33f1ec842d770a2bb6caf1fbe79e751e959d6cf49da6b078156bce7e43d78"
     },
     "buy-burbank.html": {
-      "size": 58760,
-      "sha256": "d30fca09717c68cc5afcff12071d161e4c6957a964d193bc12095bc2ecf2f12c"
+      "size": 60305,
+      "sha256": "9bca6a1aa12f0e5e4c4edb6f5ed40f78ef9afa6e4eb94364f391ff939f28c278"
     },
     "buy-canoga-park.html": {
-      "size": 58395,
-      "sha256": "d8c541ed786bd26d09988d2bab72858cdcd7607f04afeb0cec98cf6b9768f41d"
+      "size": 59871,
+      "sha256": "bb9946150a0f4a2692f676dbd429bd27beab5448f901488c1220d374de22f92a"
     },
     "buy-chatsworth.html": {
-      "size": 58504,
-      "sha256": "6285a087b433b4f628e2c93b17a6a44857e8a2f0da1d757118514411fbcb9882"
+      "size": 60008,
+      "sha256": "0fae138c04ffcb84dee608449fbbffb5b89c00b471310eae0e59a1e6c654cb3e"
     },
     "buy-encino.html": {
-      "size": 58204,
-      "sha256": "46e48593b4833efbb08cbc068b6f45e8c85001ab2cd1faac417abe09a7f04a22"
+      "size": 59623,
+      "sha256": "234cd22d78a8cafe9241a5b2a81edb65acc0954bc91681df40fd66994880bc7e"
     },
     "buy-granada-hills.html": {
-      "size": 58441,
-      "sha256": "1e504a2aa4451f937ba9c6c46854232d143457949e62b0e591564f34164f5cef"
+      "size": 59931,
+      "sha256": "c1713c35b7be3ca47d6bdfca05b2c5a9ae506dcac4138dd1fd310e176579d42f"
     },
     "buy-mission-hills.html": {
-      "size": 58275,
-      "sha256": "dbbfda8b84ff2bc10a810a10310ba838f9ecbb94a83f279f15357a248742b26d"
+      "size": 59747,
+      "sha256": "daef1862e8c42636d4939f04915994694a3239167c26b09be4d343dc11255227"
     },
     "buy-north-hollywood.html": {
-      "size": 58411,
-      "sha256": "1fd24f93092bbcc4bbc10c4b392f4ed85df54f6dcac4d2a1d73438361cdfd353"
+      "size": 59879,
+      "sha256": "e47b9e77b5472293547d5dd6f26a7f61ff140a270bd7974c0b01141806d0df36"
     },
     "buy-northridge.html": {
-      "size": 58070,
-      "sha256": "b944608a0428866efda975db9bb01bdacb2fcc1bdf321b1533b7a8b7220b96ad"
+      "size": 59541,
+      "sha256": "a460492d89b58cc8e0d3aa82895dfc61457b96efa9fbefab854f951aca57a161"
     },
     "buy-pacoima.html": {
-      "size": 57691,
-      "sha256": "2c3ff1638cfd568cec5ceefc0a9a2c4f64d27855443bd2555f0d8f24fb149a41"
+      "size": 59114,
+      "sha256": "796951189437dae0a298a7ed16adcd99b6dc2b7173500bf9b62d89c92782633a"
     },
     "buy-porter-ranch.html": {
-      "size": 58733,
-      "sha256": "d1deb612f3aab12add6ae811268335324c3028c1a7981b6d5e252c0f1839f855"
+      "size": 60262,
+      "sha256": "46bae24331ed9e21471a18a593c32ff3314a2eed01694cd57eda8eb50a2955e8"
     },
     "buy-reseda.html": {
-      "size": 57853,
-      "sha256": "57230a294da71b2b425ce9619ea37a75e036acbec1d32fca119f336eb04b1232"
+      "size": 59245,
+      "sha256": "12869f01ad2813d17b628954d4dbf6e6ded308d62b9b8a3693b2248a162e949e"
     },
     "buy-san-fernando.html": {
-      "size": 58344,
-      "sha256": "8d7563bf5bee8046bb554e46a5708185d0d9cef1824738b1cc428a5401b49c9c"
+      "size": 59845,
+      "sha256": "e43a5a885e361be1860f9e3398ecad6dc2df3592fa4607284bb290c3e7e52b8a"
     },
     "buy-sherman-oaks.html": {
-      "size": 58210,
-      "sha256": "e27c1037bc1b36b61d31841429ac01ee07ac1e45aafc23207ad530153ff2de33"
+      "size": 59671,
+      "sha256": "944d4e113f37aec1b0e1717b8611462f1deca5e599f744bd6be680312987ef1b"
     },
     "buy-studio-city.html": {
-      "size": 58217,
-      "sha256": "e9a42cbc26b9fbb689eb5b3dc002258fd3ed8e756c4f57b6acf06cbedff77b14"
+      "size": 59700,
+      "sha256": "626d2838b4f07afd2cdc2c356dae3de31a46b21f5cc897c50f109b52c983f638"
     },
     "buy-sun-valley.html": {
-      "size": 57760,
-      "sha256": "76c03e25f6d258b0983ee2db767fd57d02b60c484e69d9f15b3b68842fdda3f8"
+      "size": 59192,
+      "sha256": "360980a7d946f08c0948607317454aa9726ae41410171a50c192079f4a10fd58"
     },
     "buy-sunland.html": {
-      "size": 57902,
-      "sha256": "ce99b5b5c0ae681311dfa941dcb2284d5a8701c7390f885c37a95ea63f7fd27f"
+      "size": 59372,
+      "sha256": "0f7b6b37bef8c84047f1a9ffa5d2ba94202f9473a74ad323fdabf8848243eda9"
     },
     "buy-sylmar.html": {
-      "size": 58012,
-      "sha256": "5a72a4c7bbd2fd94ad9fbf4c0a8bad9e92c511033ff07c5b863a17f9f1546bf7"
+      "size": 59415,
+      "sha256": "ce18dbb43fd05aef7b7a47a78a76954af81f06fca7a88dc8ae591ff020c581b3"
     },
     "buy-tarzana.html": {
-      "size": 58196,
-      "sha256": "595528c189d28f2ea4dc6c5c7dfae6aa8ef0d66cdc68a7c29d9cab08797315c4"
+      "size": 59676,
+      "sha256": "350fd5347f9ddebaa60420297ac20b0a9088e40c693c30c194a4af55dbb2ef67"
     },
     "buy-toluca-lake.html": {
-      "size": 58078,
-      "sha256": "d5358c10d8d07b44107d3d6306b2181c83b583abf7e2fb46fb76576faa994b91"
+      "size": 59535,
+      "sha256": "f21a5abeb3b3ea808de8a056ecddcb71987f83e8c032e434649e4d88c5c9cbc4"
     },
     "buy-tujunga.html": {
-      "size": 57839,
-      "sha256": "7db03e7e98b06cf7af5f8bef9d87838720b9fc602cb288b5df68dd3063acc33b"
+      "size": 59281,
+      "sha256": "8d4a35a5cbdca1309530599bade3bb91dd3687497244581704dc7609743237d5"
     },
     "buy-valley-glen.html": {
-      "size": 58070,
-      "sha256": "7223afecc99f6a2c13dddb2ced402e4f21830387e488c00d72a266a59863301e"
+      "size": 59540,
+      "sha256": "ba0b595366d320e78437e0d3da668ed1cfc9c088e74707a331ce14ccd8aa3575"
     },
     "buy-valley-village.html": {
-      "size": 57971,
-      "sha256": "a14cbf9a797f1ab88e8d369238ad814b17f61bf72c7931edacb0b5bc865a1d79"
+      "size": 59447,
+      "sha256": "3793c403b4c6f215c685f05635db956862989563f5af4d6c3318937475f814a2"
     },
     "buy-van-nuys.html": {
-      "size": 57911,
-      "sha256": "629d264e35ecead82bda9f4d7be36f4df99e921e768936aa33347774e400ed91"
+      "size": 59341,
+      "sha256": "971f51269d5b5b98bdf27942fbe450bafa0de4983f0bd1ff956365393642b9d4"
     },
     "buy-west-hills.html": {
-      "size": 58176,
-      "sha256": "ba4a57f62487a737acb6149a5e1f5ba56fb3190f2488e34a245b7149e2ac84c0"
+      "size": 59678,
+      "sha256": "ad141372de1629055cbd5f2619fed30de7b002a4539cec21a31a4463f14eb611"
     },
     "buy-winnetka.html": {
-      "size": 57796,
-      "sha256": "489e924734c4e344eb59cbe3f0b807c9c5a6c0c76d6deb065d0ddef9164dae6d"
+      "size": 59225,
+      "sha256": "c7301540384628db79b6d2875836a871cf84255597272347f52026398fb1ff23"
     },
     "buy-woodland-hills.html": {
-      "size": 58357,
-      "sha256": "82cdfa0ba46c8a2949540f21218f60a832e1f0e77c50018abfccb5693b0b2913"
+      "size": 59831,
+      "sha256": "2526f2e98ba752060ea38216424ab2cf3d91eb8d7b4793b5e283c8310af7cc63"
     },
     "buyer-closing-costs.html": {
-      "size": 19314,
-      "sha256": "aebd39918e002d83e4bc817e230ab458a19ea07efa4759b180122144abbd6c74"
+      "size": 21304,
+      "sha256": "51e05280841af0d67cfbdf98dd0f758ef17d793807834a35901393d0ef580f35"
     },
     "buyer-consultation.html": {
-      "size": 16328,
-      "sha256": "13f5481b0332fe15c359299713e523b2818f74aee8569a121987944eca5bedd6"
+      "size": 18480,
+      "sha256": "62635b9a3f57688520dc9c0f92b5edfc696c8511f5520a4b6bffc45472c268f4"
     },
     "buyer-question-before-you-commit.html": {
-      "size": 19359,
-      "sha256": "a6a88d5a4b80fd94d490c306a6e59ccc9b1ced66017b71076f337acf3176391b"
+      "size": 21395,
+      "sha256": "7689c9e81d549944c82ef5abb54b5ee8df1d646e70ad57b2a6c9b08782a94dcd"
     },
     "buyer-question-budget-by-valley-area.html": {
-      "size": 19622,
-      "sha256": "1a19d9eb8c2c98cdd18adcc7523660e351c621ba97e6b436f4c290e63c8f6a8f"
+      "size": 21680,
+      "sha256": "ee235d157ce96e148561fc79af661634a0c880bc1453665b9d3ec06ea2a1f2b1"
     },
     "buyer-question-fast-market-offer-or-walk.html": {
-      "size": 19289,
-      "sha256": "b6372bd642ba74fc3b64558ccd79a6c4baf6298f696afa285e851c78d8146abf"
+      "size": 21333,
+      "sha256": "90944ee933f1fb160cffa2293f664813323f7e088c02c7043d372ecee6eaecbf"
     },
     "buyer-question-fixer-upper-worth-it.html": {
-      "size": 19513,
-      "sha256": "893e569737f37df3d3fb8323e4248490d01b19bd45f51b0e1f70d49d80d8c1f9"
+      "size": 21552,
+      "sha256": "91476aa6035da009156fce27619852a077c0569f386365d78e9de7da6d82ea57"
     },
     "buyer-question-high-hoa-value.html": {
-      "size": 19820,
-      "sha256": "49ab057f594b22d2e21692361b30a792adc707efd115ede9b53d8ac664380d91"
+      "size": 21825,
+      "sha256": "c767754def866a7d6107eb9d6737ae6977d5a8ef9f8573a5901b1966ba7bbbb7"
     },
     "buyer-question-long-time-on-market.html": {
-      "size": 19541,
-      "sha256": "a530f1ee12cec2c595ffb56088ce901b970ed71fed88bf99194eda345f89cdf0"
+      "size": 21602,
+      "sha256": "39a68177dec5e2a4d15bebd49553108909014aa255318a2d0b78896b313e9b6d"
     },
     "buyer-question-monthly-affordability.html": {
-      "size": 19659,
-      "sha256": "33cc90630cfd40605cc5631eadd8ec29bfe7a868bc2b44791c815a4f9b16f86d"
+      "size": 21658,
+      "sha256": "28119eb96d2b25559a40bd74ac751dd40dea6c076e5245ec528489799681985d"
     },
     "buyer-question-neighborhood-fit.html": {
-      "size": 19800,
-      "sha256": "0b48763234a1bc4f22e94644ac59cb0fba18654c7793d7bbe224f3c31660a861"
+      "size": 21847,
+      "sha256": "74a2c4630e1cee885994f717944125f16d361171222baba2e10ea9d24bbf546e"
     },
     "buyer-question-other-ownership-costs.html": {
-      "size": 19562,
-      "sha256": "607303f43af206a4e454e8c3c4128b7a270fb9c790f05727969abe9604c32569"
+      "size": 21561,
+      "sha256": "c33573b68844fe35f3f31ac1dfbf427d8148aabb7a9206e353e28c4aee8b6c40"
     },
     "buyer-question-porter-ranch-newer-vs-established.html": {
-      "size": 19929,
-      "sha256": "a88664f192ca307862915ad473fd8d71d43b385a438f44d85a15add4595836ec"
+      "size": 22006,
+      "sha256": "f51937f5f1400abd31e2816831713de709b1cdb5db4d6e3c06fa6edda1032a32"
     },
     "buyer-question-porter-ranch-view-home.html": {
-      "size": 19627,
-      "sha256": "04c4973472a5307c5848b5ea3153c44ec1e411463f4a89a18e77a36364ce7877"
+      "size": 21682,
+      "sha256": "9f13ea9aa087b08f917ceb7ba15968d797e8e1b70c4557d3b3431abd7b00c071"
     },
     "buyer-question-same-price-different-neighborhoods.html": {
-      "size": 19907,
-      "sha256": "96808f6255bd29cd560f127425c6711221ec2f8134058082028fad889cb4f800"
+      "size": 21996,
+      "sha256": "7544ad505e00a001770e8529c5b592abf4d520840fbe11bcece7af71c3ee90b7"
     },
     "buyer-question-south-of-ventura-boulevard.html": {
-      "size": 19744,
-      "sha256": "a5fff524005b5b68ff8fd41b23f4554976c693930765b625635c0d427c5f53f2"
+      "size": 21808,
+      "sha256": "2c10fd5bcb83c552c8c578fe043fe8ec338e9e616ae4609fdfbb80920e8d0533"
     },
     "buyer-question-upfront-costs.html": {
-      "size": 19426,
-      "sha256": "cd7316c5db786f950803d077134cc6286ba630f287be4aa6a453569e344e6f62"
+      "size": 21425,
+      "sha256": "f3ce100f6887d35e47cfe6ce64cdff8ca01d5ae4317793d8b705e38021fd1bba"
     },
     "buyer-questions.html": {
-      "size": 57275,
-      "sha256": "347372fa0a66193e8beabe04307249cb222a553d2fe29e82d66815fb6fb0228c"
+      "size": 59769,
+      "sha256": "6c50f8933073f48e8db3e5d13f4aa48f872bc17b3b5a0b3e5ef9883746dee329"
     },
     "buying-with-student-loan-debt.html": {
-      "size": 19395,
-      "sha256": "c33323e7f75b475c8e8aa4c117fafe7ee419bf97227ce514ba1647bc37cc1d73"
+      "size": 21380,
+      "sha256": "b65eef963fb5b0f37ca4af572d3520c8b600e0fdd96556441c7ad575cdd780f3"
     },
     "closing-cost-assistance.html": {
-      "size": 19058,
-      "sha256": "1f0b35623b53fefbde2edfc20a4f8087726bea5435eec7820590b583d0c36cf3"
+      "size": 21030,
+      "sha256": "701fe2fe655299365fa4daf9e437de0d8a4a5a17d103f66ee3e3be7dec1b1704"
     },
     "commercial-design.html": {
-      "size": 55572,
-      "sha256": "5e50f6bdd849dc1033cd981049ab2a37df17c8908b31e91d8c4aad15d830321f"
+      "size": 56104,
+      "sha256": "edf319e36488553ee96b825b56878246dba6f1cfca5bfe430b513dd17668a92d"
     },
     "contact.html": {
-      "size": 14469,
-      "sha256": "82f25268f838441fd8f12902c739c0959edef09a1e72e0079a2e2f7eb8b8489b"
+      "size": 16944,
+      "sha256": "368828ba9eedbaaf215a677284225288cb18179085ded0e0bcdaa0264a188318"
     },
     "conventional-loans.html": {
-      "size": 19589,
-      "sha256": "55feb196562515fdacce9c78981270940a5e1f4e4928660cc2b0a747d65b4984"
+      "size": 21574,
+      "sha256": "8dec435e2570f09e0e8615f910e3b57a965fa977605865893b16a7dce9802241"
     },
     "credit-score-to-buy-home.html": {
-      "size": 18991,
-      "sha256": "7921ca4615828cb065357577a90e92711b20641584c4498725e66cdc286a1834"
-    },
-    "design-questions/best-accent-wall-colors.html": {
-      "size": 49801,
-      "sha256": "ce0f2bf4823c9268535a8e02704ec8b1fa755672ca7f7e97910eddc97c20f3cd"
-    },
-    "design-questions/best-bathroom-floor-tile.html": {
-      "size": 49671,
-      "sha256": "586d410a8976c65114e0c6b32c0265742436af14686832c75ea24781dab2197f"
-    },
-    "design-questions/best-flooring-for-kids-and-pets.html": {
-      "size": 49897,
-      "sha256": "04d61b0f0673b0bd539c1b3b25ecf2efa274f55d7b132b325357b53d8d9f28a2"
-    },
-    "design-questions/budget-friendly-redesign-materials.html": {
-      "size": 50140,
-      "sha256": "3b20494c5d9ec5696f0bb27c09de8764f768660ab468976183effb7dc09268a6"
-    },
-    "design-questions/easiest-flooring-to-clean.html": {
-      "size": 49670,
-      "sha256": "01df3d288b99506213974da790798ddb73154e995f3eeaefeeaf51b9d04a3c68"
-    },
-    "design-questions/home-office-redesign-cost.html": {
-      "size": 49816,
-      "sha256": "b628aff629d911e5e57f11c92fd3714b34852af5f298cfbf2b999af2e8a2e6db"
-    },
-    "design-questions/where-to-find-paintings-and-wall-art.html": {
-      "size": 49974,
-      "sha256": "043b3a36984d046689fc227c301a100a6e37e016c422939ae7d1a721af1bbbc7"
-    },
-    "design-questions/where-to-shop-for-home-decor.html": {
-      "size": 49751,
-      "sha256": "d1fc3887e8b682bb906b9533f6aa5c617fe1101a97901301d5fa5ecd16ffd12e"
-    },
-    "design-questions/where-to-shop-for-office-furniture.html": {
-      "size": 50144,
-      "sha256": "eb9262aca735dd497ea48271a15b01a76335af931c488ea001c08c1bcc54207c"
+      "size": 21018,
+      "sha256": "406d44f6d2db05065f72c6d23653a985707cfee38620db6d9139245dde13b8f1"
     },
     "design-questions.html": {
-      "size": 61035,
-      "sha256": "c0ce43e9195a840bf89a86ecb666173613cad6b419dc74265f84da4479952161"
+      "size": 61549,
+      "sha256": "5a26ccd10ae8e44b2920542cbfc3d981b684a5f10e5cb5efa11b0e090c29becd"
+    },
+    "design-questions/best-accent-wall-colors.html": {
+      "size": 51680,
+      "sha256": "d763f4a2861528804de9010653b9b9f19bc4a7b42212b020911bd9f07bae067e"
+    },
+    "design-questions/best-bathroom-floor-tile.html": {
+      "size": 51551,
+      "sha256": "e3db549f578885cd2bbcc45d1274c5f7bb30f0ecdeaf9c940df87510ae930dc9"
+    },
+    "design-questions/best-flooring-for-kids-and-pets.html": {
+      "size": 51773,
+      "sha256": "13c331b507cace0f0029dca52ffa558c5f6a6ffa3b0db0ca5c5cdf26a1ae8ac0"
+    },
+    "design-questions/budget-friendly-redesign-materials.html": {
+      "size": 52026,
+      "sha256": "754bacfface979ee99eb121f4063cdd41c2c4f6c5bd02c8d1d203a34d7ac629b"
+    },
+    "design-questions/easiest-flooring-to-clean.html": {
+      "size": 51550,
+      "sha256": "9bb68a5e737fa67a5d4776ec943329ec4ffbcd49dbd4c122d06ef28b916c72a6"
+    },
+    "design-questions/home-office-redesign-cost.html": {
+      "size": 51693,
+      "sha256": "20880fb2d8726299316ddd4ae0d2a0622c17304e7f3bf47ed0be917ca050a6e9"
+    },
+    "design-questions/where-to-find-paintings-and-wall-art.html": {
+      "size": 51851,
+      "sha256": "5c449dd4def7bc8ee2c347d026cd3cb47bb389fa8652c8cc45ad4798998ccb59"
+    },
+    "design-questions/where-to-shop-for-home-decor.html": {
+      "size": 51629,
+      "sha256": "b9410ac705a689f4ce6dad096f79960c80469fb560bd354132a860864b659b22"
+    },
+    "design-questions/where-to-shop-for-office-furniture.html": {
+      "size": 52028,
+      "sha256": "ecb4e78733ce9a2b5e6b12ed4c65ecc3d4a5d513e35678c59b2a5903113796d6"
     },
     "do-i-need-20-percent-down.html": {
-      "size": 19198,
-      "sha256": "c02ff91c4e9e9207996ce032d167e1b8ad1a6eeac5b6b846008be8e4bda623ae"
+      "size": 21215,
+      "sha256": "e5bdd38f7cb1561adf40f40a8430f7789dd917ed497849b6972a573a381ca49b"
     },
     "down-payment-assistance.html": {
-      "size": 19398,
-      "sha256": "ee092935cd6a99ab194019d59aa89409c6fe149bb56e9c2fcc324c65eae4cad3"
+      "size": 21397,
+      "sha256": "6c22502054e5bc13d636389f1cee8008219d4927b4e28b0b888bf64fbfed3ab0"
     },
     "down-payment-needed.html": {
-      "size": 19099,
-      "sha256": "3732a2c6593a7466f901f41564069f9a72466f8e4e325f1dd273a8164ab83874"
+      "size": 21111,
+      "sha256": "4fa0d8e39ef83522343ad58d6750e17b1fe81eb961f101112e7a68a258418ee2"
     },
     "favicon.svg": {
       "size": 712,
       "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
     },
     "fha-loans.html": {
-      "size": 19133,
-      "sha256": "89e47be7a7bc4ae61093737671c2fc1583d1d485c2b6c862bf889571c0669be6"
+      "size": 21169,
+      "sha256": "5cc38a35bae806320b8eaaf308ef769fa9beb53bc3a4394beccb3ca311fb5e22"
     },
     "first-time-buyers.html": {
-      "size": 57713,
-      "sha256": "ea61fd57ae7f10300e2b2b27df161aa73ae41729588ca847b802176507a89b4e"
+      "size": 58093,
+      "sha256": "d2fe3c0b90e064d57b0428a68c1ff97decf45496660a29b3e056994aba6e3919"
     },
     "first-time-closing.html": {
-      "size": 55342,
-      "sha256": "953dec4afc3b86a519cbb2dba8549c70a75758537e0d2d27631ba6d81fb0444f"
+      "size": 55435,
+      "sha256": "f0f673c254210ba5c4ceea2824be9843cee50c858d0d6db5631315563cac7dde"
     },
     "first-time-homebuyer-programs.html": {
-      "size": 53696,
-      "sha256": "4ba7a92305a4f8b5b380c0d88125cc3cc3b4d01906c1587646860d534a6abdc5"
+      "size": 55629,
+      "sha256": "14b768d68ccc4282487df067ca78b0a8eae16021e2a5cfa11f9beff219cf73bd"
     },
     "first-time-negotiations.html": {
-      "size": 53130,
-      "sha256": "e6f7e7562e7602b43e612a4bd0f7b0df46896345f9aadd7b8426ca88a39e1aa8"
+      "size": 53205,
+      "sha256": "0999b841447a5d8222845737d90e3f398826d7dd415f43913d0806553c32e187"
     },
     "first-time-pre-approval.html": {
-      "size": 17442,
-      "sha256": "be28ef8e73adc692c02425c2c1047c89a2602fc2a3f5fec737fc238b932207a7"
+      "size": 19518,
+      "sha256": "ff3df4ac8ec813cbee9697549f82f2405118c5c8ca35d9ced793a9273427aaba"
     },
     "first-time-touring.html": {
-      "size": 53053,
-      "sha256": "8f7a0e366cd08244e999bf170f7e3f12f9e59d908e541c16db53f54367e61dbe"
+      "size": 53325,
+      "sha256": "6983e1763d25dc9946e46ba65f8b388bc7cb720c822b7ff7fbf85bd3e3148443"
     },
     "first-time-your-offer.html": {
-      "size": 53133,
-      "sha256": "765365bf9fb21e6f1d011cfbf295ac924f0d3e5adddfad2963646c84fd61d623"
+      "size": 53212,
+      "sha256": "e3b90b332423075c6dc59ed5165a50d62d0829da5c019cb041b21cdb82f699e1"
     },
     "homebuyer-financing-questions.html": {
-      "size": 46872,
-      "sha256": "510d942898ef6d9428b7cf2c6564f3f7ed8d7c8f01fa0b1160279c03a9a4a5d1"
-    },
-    "index.html": {
-      "size": 361630,
-      "sha256": "a1608280d881f063569d7efa6738ab4bf7ca0cf1764e40f217f43339f9f9816d"
+      "size": 49297,
+      "sha256": "5ebc845511e5f9a435b1c263a2e0f3ee0885ae36a83f687342b69bd6deb277cf"
     },
     "interior-design.html": {
-      "size": 52157,
-      "sha256": "d274971390d80efe29435042028d1d029c3c08fa7f50bb81cae6041b44abf117"
+      "size": 52611,
+      "sha256": "f4e1e27d8c021fef649d4b33fa366168f616d656ba1367c2f5f060dc5d6e7c7b"
     },
     "jumbo-loans.html": {
-      "size": 17441,
-      "sha256": "87bee232ec2518096aae9e733c05d1148f3f0f11fdf3ea206ae68a38cf5db27e"
+      "size": 19505,
+      "sha256": "a1ae19d8a5d2926c271be9d13f11351a1bc62ea154bf6a895b0389f6667bb451"
     },
     "lenders.html": {
-      "size": 289736,
-      "sha256": "425dae1a1740f8035f3cf1ea92bff02ddea2e01652b6fa85867310ca683f883e"
-    },
-    "life-changes/death/can-i-keep-the-house-if-my-spouse-dies-and-i-cant-afford-the-mortgage-alone.html": {
-      "size": 50632,
-      "sha256": "093015ebe846cb1c8a1200f3be6ccd5204e5b20ced73330997c8576f2650cff9"
-    },
-    "life-changes/death/can-i-live-in-a-house-i-inherited.html": {
-      "size": 49507,
-      "sha256": "ac4be28728bf096a925d2980654cfab26f867075e55316ab703bcf0a261cb02b"
-    },
-    "life-changes/death/can-i-sell-a-house-thats-still-in-probate.html": {
-      "size": 50162,
-      "sha256": "d3d237ba46f318b89522164ee7755ea9189718a482c5fa45106694a0dfd48936"
-    },
-    "life-changes/death/can-siblings-force-the-sale-of-an-inherited-house.html": {
-      "size": 50406,
-      "sha256": "d60380260e4d2d54dde7fb4933d9a6c13fa4d49faece4ee9d88f8dd68eb2c690"
-    },
-    "life-changes/death/do-i-have-to-pay-off-my-parents-mortgage-if-they-die.html": {
-      "size": 50665,
-      "sha256": "4b75342de2916f4b1c7cb8bf3fa831ad71594fff64e214b92130052b7169a075"
-    },
-    "life-changes/death/do-i-have-to-refinance-the-house-after-my-spouse-passes-away.html": {
-      "size": 50491,
-      "sha256": "c11016acf9912dc7fb0b41a85504eff714028d86604ab46efd8d89d83805a204"
-    },
-    "life-changes/death/do-i-owe-taxes-on-a-house-i-inherited.html": {
-      "size": 50491,
-      "sha256": "73331b01360242bb452e0d420331bfd38076bc601a1756914d9021fed17d19a7"
-    },
-    "life-changes/death/do-we-have-to-go-through-probate-before-we-can-sell-the-house.html": {
-      "size": 49713,
-      "sha256": "e5f34392ec393a2cfbc49e415590445150dd11bccc308cb0448cf79f5ccda981"
-    },
-    "life-changes/death/how-do-i-clean-out-and-sell-a-house-full-of-someones-belongings.html": {
-      "size": 50667,
-      "sha256": "afea32b04f7ac04454d1f50f2f61fd5886fecde47e4a8a7ebc7b3e045cf1a988"
-    },
-    "life-changes/death/how-long-does-it-take-to-sell-an-inherited-house.html": {
-      "size": 50248,
-      "sha256": "ded60b5941f10e89ec219cfb8838b3b014b2d1f72ca1e250ed60969731ad34b1"
-    },
-    "life-changes/death/how-soon-can-you-sell-a-house-after-someone-dies.html": {
-      "size": 49889,
-      "sha256": "e64e42ead5fa79b0775be6a161532197244898d577ba1ce88e3ab5a03dac8911"
-    },
-    "life-changes/death/i-inherited-a-house-but-i-don-t-live-anywhere-near-it.html": {
-      "size": 49957,
-      "sha256": "e980d837876adc19561b65f77b60ee6762b4c24890d9c88fc82c9f3c88e43811"
-    },
-    "life-changes/death/i-inherited-a-house-that-needs-a-lot-of-work-should-i-fix-it-or-sell-it-as-is.html": {
-      "size": 50220,
-      "sha256": "bfccbed9e15aa3d83bf92bcfd5f782a9b16351874c3a09927ded09b29195d145"
-    },
-    "life-changes/death/i-inherited-a-house-with-my-brothers-and-sisters-what-do-we-do.html": {
-      "size": 50045,
-      "sha256": "e4bcb2581dda6059ca1c6d52cc7f1cc40f80c6f1c0dfe217f046a78e7736dfa4"
-    },
-    "life-changes/death/is-my-name-automatically-added-to-the-house-if-my-husband-or-wife-dies.html": {
-      "size": 50803,
-      "sha256": "7140116eb4a7da3c8991e65de066f34e14c566ba71c241efefab5613c3a8a109"
-    },
-    "life-changes/death/my-dad-died-and-his-name-is-still-on-the-house-can-we-sell-it.html": {
-      "size": 50036,
-      "sha256": "7b3ea8e66eb8f4d28289fbbb172e88106c34cc3309280cf6e3460ec409315d22"
-    },
-    "life-changes/death/my-husband-died-what-happens-to-our-house-now.html": {
-      "size": 49575,
-      "sha256": "3737dbf524c1c9ca6b1a8a2c64db4432cd20f87103a1073de67adb5d445a924e"
-    },
-    "life-changes/death/my-mom-died-and-i-don-t-know-if-i-should-keep-or-sell-her-house.html": {
-      "size": 49831,
-      "sha256": "a7f4c69e5cfa5c6d7f65d0505a4460d4014a6d802de1c3a1eb519c873ec39044"
-    },
-    "life-changes/death/my-parent-died-and-left-me-a-house-what-am-i-supposed-to-do-first.html": {
-      "size": 49937,
-      "sha256": "38214d8f40aff09c4af02ab0053bdcd97395596b010b4fdd729dcab5a9768329"
-    },
-    "life-changes/death/my-sibling-wants-to-keep-the-house-but-i-want-to-sell-what-happens.html": {
-      "size": 49978,
-      "sha256": "168d06875979753928210b6bb631839da9a84c66a20dff5c3f679fa2b23ec1c5"
-    },
-    "life-changes/death/my-spouse-died-and-i-can-t-afford-the-house-by-myself-what-can-i-do.html": {
-      "size": 50016,
-      "sha256": "66cdcc399bc900f83365eab2b54652f90f555d3e5c0d17d50082e221a4eb40e0"
-    },
-    "life-changes/death/my-spouse-died-and-i-don-t-want-to-leave-the-house-what-are-my-options.html": {
-      "size": 50199,
-      "sha256": "309d08bc8cdfdb6d51dcbf1801a4df03c2e0637c84a52a66602bac71ab77713c"
-    },
-    "life-changes/death/my-wife-died-and-the-house-is-in-both-of-our-names-what-do-i-do.html": {
-      "size": 49824,
-      "sha256": "3b1386bd1fd876c2fe4c5bb3113a99471956d7275a0c4a7b1e8bc8a05ecb9ed8"
-    },
-    "life-changes/death/should-i-rent-out-the-house-i-inherited-or-sell-it.html": {
-      "size": 49691,
-      "sha256": "9a8b12c5c0fbb8d52d25293745092bffbae5e3d1c8443902111f08b7504db0ac"
-    },
-    "life-changes/death/should-i-sell-my-parents-house-or-rent-it-out.html": {
-      "size": 50066,
-      "sha256": "0e883ec13c79760700b5632124229c3c18daaa86497b9f5cd721dffb32e13e5e"
-    },
-    "life-changes/death/should-i-sell-the-house-right-away-after-losing-my-spouse-or-wait.html": {
-      "size": 50711,
-      "sha256": "d6a6176b3ec2bac4458aa12e8dd56510c06ca8978dec60a79d246228c713b670"
-    },
-    "life-changes/death/someone-died-and-there-s-still-a-mortgage-on-the-house-what-happens.html": {
-      "size": 49977,
-      "sha256": "3eff1595b3e65337563fcd33a608ce1751baad46ace477ba754eff5a641e740e"
-    },
-    "life-changes/death/there-s-an-entire-house-full-of-belongings-after-someone-died-where-do-i-even-.html": {
-      "size": 50324,
-      "sha256": "e4029ef8d7d64b74c280feebf0796befdcee27b64c16eb6ab6e976dfdcb264f9"
-    },
-    "life-changes/death/there-s-no-will-what-happens-to-the-house.html": {
-      "size": 49833,
-      "sha256": "ab61c028082be563a128bdc23a8e68ae864fc87b0e1b091d4ed8b83afb107766"
-    },
-    "life-changes/death/what-do-i-do-with-my-parents-house-after-they-pass-away.html": {
-      "size": 50594,
-      "sha256": "e4970941d0b089612bae192965703f1e383a025222bdce6e1dc394ecfdc86f36"
-    },
-    "life-changes/death/what-happens-to-a-house-if-the-owner-dies-without-a-will.html": {
-      "size": 50787,
-      "sha256": "6af332646f16f9a9c1bc4cce48c3589d3897055717e34d862127b1b79724e580"
-    },
-    "life-changes/death/what-happens-to-our-house-if-my-spouse-dies-and-only-their-name-is-on-the-mortgage.html": {
-      "size": 50815,
-      "sha256": "37d4209f5478220ef4e616cf1547c99b4612c2ce18cff86779ced0887763a2ac"
-    },
-    "life-changes/death/what-is-a-probate-sale-and-how-is-it-different-from-a-regular-home-sale.html": {
-      "size": 50802,
-      "sha256": "04830ee92db7935cd4b0f480c9bbe83196c8bf0a0fb22c0c9ae97b66b1782f0d"
-    },
-    "life-changes/death/who-is-actually-allowed-to-sell-the-house-after-someone-dies.html": {
-      "size": 49778,
-      "sha256": "203b4393c7f38c15210f6aedfb817f68dd65bf6831bbd93dd1376eaf673df138"
-    },
-    "life-changes/death.html": {
-      "size": 80448,
-      "sha256": "f886f71bc4cd01c3489011f70302ff5875478edc1bbc2024931531efb1e971c0"
-    },
-    "life-changes/divorce/can-i-afford-my-house-on-one-income-after-a-divorce.html": {
-      "size": 50451,
-      "sha256": "3e98cadbdf89384315518d151b7f18e31b0d2e40577bbf2d419054e81f422494"
-    },
-    "life-changes/divorce/can-i-buy-another-house-while-i-m-still-going-through-a-divorce.html": {
-      "size": 50020,
-      "sha256": "d56f30bdc2e0b3d241485b60551fa3d53a575633e46c5d6e28cbb99d430c54fc"
-    },
-    "life-changes/divorce/can-i-buy-my-spouse-out-of-the-house.html": {
-      "size": 49718,
-      "sha256": "5f0d6439f0865a83fc12db923a8815f574aa0f1387c56f28c3d97897ddd169df"
-    },
-    "life-changes/divorce/can-i-refinance-the-house-to-buy-out-my-ex-spouse.html": {
-      "size": 50351,
-      "sha256": "7e3711a36302131ad2e5ca7d845a515181a3436e225f6be5796be83ecfd532fe"
-    },
-    "life-changes/divorce/can-i-sell-the-house-if-my-spouse-refuses.html": {
-      "size": 49667,
-      "sha256": "3fe347cdecddf68cd13fc3453df84656ad6c33b515394f827aa83def9f1c329c"
-    },
-    "life-changes/divorce/can-my-spouse-buy-me-out-of-the-house.html": {
-      "size": 49582,
-      "sha256": "60765b5c785e4b5006c30647a864b9bd0286c903ab951ea61e686a0a46952ea8"
-    },
-    "life-changes/divorce/can-my-spouse-force-me-to-sell-the-house.html": {
-      "size": 49584,
-      "sha256": "d3892e0d931c2c1aa9338f523a75f78ac2cf481108bfe548ca0358569212ad71"
-    },
-    "life-changes/divorce/do-i-have-to-sell-my-house-if-im-getting-divorced.html": {
-      "size": 50411,
-      "sha256": "ad24533a5dcc040cb1e619f6936a8422265088ef0cac9b1901061fef48364a09"
-    },
-    "life-changes/divorce/do-we-have-to-sell-the-house-before-the-divorce-is-final.html": {
-      "size": 49916,
-      "sha256": "f9e5cccdebb0e04c47920562651fd2ae9fe00e9842e3c99c03f2ae11642124ef"
-    },
-    "life-changes/divorce/how-do-i-get-my-ex-off-the-mortgage.html": {
-      "size": 49741,
-      "sha256": "7236ff16c210d4819633fb5c96c0896073801d4905e0f0c312ca93ca7c55a079"
-    },
-    "life-changes/divorce/how-do-i-get-my-ex-off-the-title.html": {
-      "size": 49683,
-      "sha256": "2fedd40db25ad891217f3f7da583ac1f8eddeedad48b58df7fac49359b786307"
-    },
-    "life-changes/divorce/how-do-we-figure-out-how-much-equity-we-have.html": {
-      "size": 49787,
-      "sha256": "6b28a3ecf745a7c2f57964231c61dde79fd1dda778f84aa6f4002cdaae1446d1"
-    },
-    "life-changes/divorce/how-is-home-equity-split-in-a-divorce.html": {
-      "size": 50364,
-      "sha256": "da32ab43fae15a7fd676cd1a87eb7aebb2ec5f53ecff1d67b322ebd66566f7a0"
-    },
-    "life-changes/divorce/how-long-do-i-have-to-sell-the-house-after-a-divorce-settlement.html": {
-      "size": 50426,
-      "sha256": "f2438b74f6bb49e6ab60972099f97e2026fdfa5629485f4feea1d23cdf71588e"
-    },
-    "life-changes/divorce/i-don-t-want-the-house-anymore-i-just-want-out-what-are-my-options.html": {
-      "size": 50008,
-      "sha256": "fbd4cd07d8fcb3b1083086eebfcbdf285945e1a8f593dc60c9d47df2154a89fb"
-    },
-    "life-changes/divorce/i-m-getting-divorced-what-happens-to-the-house.html": {
-      "size": 49720,
-      "sha256": "e644b740ab3a45e13d690e66c8369fdf575780da6a0acd65a38280087076b756"
-    },
-    "life-changes/divorce/i-moved-out-but-my-spouse-is-still-living-in-the-house-what-happens-now.html": {
-      "size": 50069,
-      "sha256": "72ab2f5b43341081625ac87d315bbac60c5c045fb5075618f8770a358de8687b"
-    },
-    "life-changes/divorce/i-want-to-keep-the-house-can-i.html": {
-      "size": 49422,
-      "sha256": "78ab9a2321bdb3fc1c6c56844398c95d12bdc2d9e3d574a164ef6d46d967f9cd"
-    },
-    "life-changes/divorce/is-it-better-to-sell-the-house-before-or-after-the-divorce-is-final.html": {
-      "size": 50770,
-      "sha256": "b397c19cac092c1c8d4fd77df549de36a4daedc7242556e23dae93dd5946aea5"
-    },
-    "life-changes/divorce/my-divorce-is-messy-can-the-house-still-be-sold-without-making-things-worse.html": {
-      "size": 49990,
-      "sha256": "9e65b2ff72ca07f0f5bf8b06bf3b830b3de8dffbd4fd0706152280f0222d7db4"
-    },
-    "life-changes/divorce/my-husband-wants-to-sell-the-house-and-i-don-t-what-happens.html": {
-      "size": 49906,
-      "sha256": "f93870ea759515e816adb286e8615974e62fb4c7fe7f80205279275f48df127b"
-    },
-    "life-changes/divorce/my-wife-wants-to-keep-the-house-and-i-want-my-share-of-the-money.html": {
-      "size": 50103,
-      "sha256": "27d7be7ec8daed37367da48247e54eb5fa6ed19f62423776e5a97377cb3e5012"
-    },
-    "life-changes/divorce/should-i-sell-the-house-or-keep-it-during-a-divorce.html": {
-      "size": 50370,
-      "sha256": "871f780b922f4127b795e2377810eae43c40e2dae8a4eabc3352b81a4b93e6d8"
-    },
-    "life-changes/divorce/should-we-wait-until-after-the-divorce-to-sell.html": {
-      "size": 49681,
-      "sha256": "0c86db306783acd75e28fd5156e1229b992c3ab5a396b1cc3c97a431706a4510"
-    },
-    "life-changes/divorce/we-agree-to-sell-the-house-but-we-don-t-agree-on-anything-else-what-do-we-do.html": {
-      "size": 50110,
-      "sha256": "4bdcdd2336931121daae002c3913d5377dd55357db8eee5043d38740d994da5d"
-    },
-    "life-changes/divorce/we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html": {
-      "size": 50166,
-      "sha256": "3d645842c7a30b0a58e93bdb642d6f405694e5fc07370f66dc84fd11605de914"
-    },
-    "life-changes/divorce/what-credit-score-do-i-need-to-refinance-after-a-divorce.html": {
-      "size": 49938,
-      "sha256": "ca5bfec8d400ad99ebc567fd2b6072ed9bd8d791d52bd84860de6cd598e8d5ae"
-    },
-    "life-changes/divorce/what-happens-if-we-owe-more-on-the-house-than-it-s-worth.html": {
-      "size": 49895,
-      "sha256": "803e419e02732c76a3566d3a53ba98a9cca24dee4d26c7ed61cfc354ff9f9b04"
-    },
-    "life-changes/divorce/what-happens-to-the-mortgage-after-we-divorce.html": {
-      "size": 50202,
-      "sha256": "da413988ddec548700b4cf7b184ce54d5240b343db181543a5baab257c5a1d53"
-    },
-    "life-changes/divorce/what-happens-to-the-mortgage-if-my-ex-spouse-moves-out.html": {
-      "size": 50602,
-      "sha256": "9d03f50020eda7ca242d616e69a6442f2303f18c29471b5bae8bafc2a99bd1fe"
-    },
-    "life-changes/divorce/who-gets-the-house-in-a-divorce-if-both-names-are-on-the-mortgage.html": {
-      "size": 50748,
-      "sha256": "1f70975476ad1463a89fbba359028d4755ecbdbc2e42e158f3eb0611b6a0c6a8"
-    },
-    "life-changes/divorce/who-gets-the-house-in-a-divorce.html": {
-      "size": 49736,
-      "sha256": "2a86b95259ee6f78f8198cf05a10db3c37ff8e690ec3f41af74dd06b634ef032"
-    },
-    "life-changes/divorce/will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html": {
-      "size": 50658,
-      "sha256": "b0e192387dc348d21c62446daa3524e77aa81e163c5852f05b86280c37afa43a"
-    },
-    "life-changes/divorce.html": {
-      "size": 79222,
-      "sha256": "d1f67c7e9df0ed2147bee42dd9ce8110b645ddd9a42b92a82f3735006256e27d"
-    },
-    "life-changes/empty-nest/can-we-afford-to-buy-a-smaller-home-outright-by-selling-our-current-one.html": {
-      "size": 50379,
-      "sha256": "3b888b8b77b48bda77a658767eeff7218bc5047e835cdbfbcdcdc7803857a788"
-    },
-    "life-changes/empty-nest/how-do-i-know-when-it-s-time-to-leave-the-family-home.html": {
-      "size": 51389,
-      "sha256": "1704e80de7875530c181237978add0841fc23588a0befbe034e2b01f77a184a6"
-    },
-    "life-changes/empty-nest/how-much-money-can-we-save-by-downsizing-after-the-kids-leave.html": {
-      "size": 50226,
-      "sha256": "eb4f31818002da99a7b5a1fc4d28bc2133047d936ec63dac5c322eadc5799ab4"
-    },
-    "life-changes/empty-nest/i-don-t-need-all-this-space-anymore-what-should-i-do.html": {
-      "size": 49646,
-      "sha256": "ad3439af2ada3629a6e59ca1cc509b1d31ca529c68ff312e38ce32f53306b675"
-    },
-    "life-changes/empty-nest/i-don-t-want-stairs-anymore-what-type-of-house-should-i-look-for.html": {
-      "size": 50753,
-      "sha256": "c160f89bb4873cd35289cacfd2ae40dd1555afa772ffb259c7a4b1c1cb8333e6"
-    },
-    "life-changes/empty-nest/i-have-a-lot-of-equity-in-my-house-should-i-use-it-to-buy-something-smaller.html": {
-      "size": 51298,
-      "sha256": "61c59065c492ba5d7e6fa9392300d3d892cd0b2873e3147e59948babe89a1497"
-    },
-    "life-changes/empty-nest/i-love-my-house-but-it-s-too-much-to-take-care-of-now.html": {
-      "size": 50854,
-      "sha256": "8cce61b6b588ea34563f8cd33c3e96efdae6758dc327549a62d50b6aa7414bf2"
-    },
-    "life-changes/empty-nest/is-it-actually-cheaper-to-move-to-a-smaller-house.html": {
-      "size": 50457,
-      "sha256": "09e936ff58ab87019696f3dd8e8743e4029e5f8220a3ee54694ec0ad9f4d78cb"
-    },
-    "life-changes/empty-nest/is-it-worth-selling-a-big-house-just-for-two-people.html": {
-      "size": 50092,
-      "sha256": "3eeb1abcb062858115a7aab6b13f4f69c20306df551c4d3fae7b3267dfc74e48"
-    },
-    "life-changes/empty-nest/is-now-a-good-time-to-sell-before-home-prices-change.html": {
-      "size": 50411,
-      "sha256": "5147c8c568307baf17b939f06c688b30013ef05834514a9598417a9f447b98a1"
-    },
-    "life-changes/empty-nest/my-house-is-paid-off-does-it-still-make-sense-to-move.html": {
-      "size": 50930,
-      "sha256": "b787b934e83daf2d06631d86062bca7278a7834e719ee79cbb075213233ddb7c"
-    },
-    "life-changes/empty-nest/my-kids-are-gone-should-i-sell-the-family-house.html": {
-      "size": 50667,
-      "sha256": "6e658df50506919ac5dd2558bcce3d84f5447a28e441257602f7e21dc97eab87"
-    },
-    "life-changes/empty-nest/my-kids-live-far-away-should-i-move-closer-to-them.html": {
-      "size": 50829,
-      "sha256": "06990e66fe7edec6c5abdacacdc842c38491a43d41379ac3f043972dd41d8025"
-    },
-    "life-changes/empty-nest/my-kids-moved-out-and-now-this-house-feels-way-too-big.html": {
-      "size": 50637,
-      "sha256": "2df6183d3296c079d8c6e117b04f2669282daecbe67a89dcd8661d14e68e2ed5"
-    },
-    "life-changes/empty-nest/should-i-buy-a-condo-now-that-my-kids-are-out-of-the-house.html": {
-      "size": 50730,
-      "sha256": "1f3900220eae32e0112ae2058dd211037ff79596ce295b42388888f35d080847"
-    },
-    "life-changes/empty-nest/should-i-downsize-now-or-wait-a-few-years.html": {
-      "size": 51063,
-      "sha256": "a292be955747aa7252445fdad91c8df7302b3157abbd082f917665aa6ec2cb4d"
-    },
-    "life-changes/empty-nest/should-i-sell-now-or-wait-until-i-retire.html": {
-      "size": 50755,
-      "sha256": "1050c291a9d26b8c7394a2cf728b8ce1ce16a3828c8d1b877e174b9bdaf4d032"
-    },
-    "life-changes/empty-nest/should-i-stay-in-the-house-my-kids-grew-up-in-or-move.html": {
-      "size": 50673,
-      "sha256": "6a156fd521f9e54f3706a8ecd6504b77e3c4c486e639c024482e53dbfb3316eb"
-    },
-    "life-changes/empty-nest/should-we-downsize-now-that-our-kids-moved-out.html": {
-      "size": 49974,
-      "sha256": "166fff820ced3a5d7424198d4345bc4dbf8acc363273e179ce1831bc0b555c65"
-    },
-    "life-changes/empty-nest/should-we-move-somewhere-with-less-yard-work-and-maintenance.html": {
-      "size": 50373,
-      "sha256": "cdb8e31b158390be83c4fe6aafe4eae56b6edde46e72e6fbb53ab72034e5d21c"
-    },
-    "life-changes/empty-nest/should-we-rent-out-our-kids-old-rooms-or-sell-the-house-entirely.html": {
-      "size": 50292,
-      "sha256": "34e5fbb11a8815127b3cbc3297ca64cf69007c28236bc5466bf9c64fd8fc8128"
-    },
-    "life-changes/empty-nest/what-are-good-empty-nester-neighborhoods-in-the-san-fernando-valley.html": {
-      "size": 50458,
-      "sha256": "fd83101a06799ff790f4f3762e4980d618fc965efa35f46d82e1d431f8a98837"
-    },
-    "life-changes/empty-nest/what-should-we-do-with-all-the-extra-space-now-that-the-kids-are-gone.html": {
-      "size": 50510,
-      "sha256": "4865fb03aa07fa96a905a3ad66e3d78df3080248456b6f60855655d6a3b51725"
-    },
-    "life-changes/empty-nest/what-size-house-makes-sense-for-an-empty-nester-couple.html": {
-      "size": 50024,
-      "sha256": "7773783c46a5a388efa074e029298f7a5844d1d174235739bb9cff110e7e0dbc"
-    },
-    "life-changes/empty-nest.html": {
-      "size": 68073,
-      "sha256": "dcb2832087ae7411fe6091f277532dae8ceab97ae03445b14f5a8b02cf6e9978"
-    },
-    "life-changes/growing-family/can-we-afford-a-bigger-house-on-one-income-if-i-stay-home-with-the-baby.html": {
-      "size": 50670,
-      "sha256": "54ed7b2739893ffb6eec93da6884cc0866b4eb83f6a5a39f47b7fc641d8f12d4"
-    },
-    "life-changes/growing-family/how-do-i-know-when-weve-outgrown-our-house.html": {
-      "size": 50159,
-      "sha256": "816423c464f33084c5a8fcfe590558b44a1e0a43936f47abfe98340a84b3ead6"
-    },
-    "life-changes/growing-family/how-many-bedrooms-do-i-actually-need-for-two-kids.html": {
-      "size": 49826,
-      "sha256": "893236cc74a42d6a9d7e571ea7252cabac339a40eae39b63f691f68b3ebedcf7"
-    },
-    "life-changes/growing-family/how-much-does-it-cost-to-convert-a-garage-into-a-nursery-or-playroom.html": {
-      "size": 50601,
-      "sha256": "c38fe08fd9b482c822facdaab60db65933ced648e92d6ab5024125e8684cfe39"
-    },
-    "life-changes/growing-family/is-it-cheaper-to-add-on-to-our-house-or-move-to-a-bigger-one.html": {
-      "size": 50573,
-      "sha256": "66fd8f67e3c1d1f3d020637139c2c978868001654bbaadf78827125efef217e5"
-    },
-    "life-changes/growing-family/is-it-worth-buying-a-house-with-a-yard-if-we-have-small-kids.html": {
-      "size": 50133,
-      "sha256": "850c2d16c8e5252afd57865edbdeb8031b2f9df6275c7b4e50df98f905489ba5"
-    },
-    "life-changes/growing-family/should-we-buy-a-fixer-upper-or-a-move-in-ready-home-with-a-new-baby-coming.html": {
-      "size": 50619,
-      "sha256": "72c4c7777b6ae2370951df00a828d5b5be8ea84ffaa2dbf85995d96c05fbe688"
-    },
-    "life-changes/growing-family/should-we-move-before-or-after-the-baby-is-born.html": {
-      "size": 50017,
-      "sha256": "17b33b7f1b6148e136535bb04fffc6e2887dd70e88e65f70d2b4e3b38487a31f"
-    },
-    "life-changes/growing-family/what-neighborhoods-are-safest-for-families-with-young-children.html": {
-      "size": 49781,
-      "sha256": "282f94d9c3ca80bff3a4399055634fca9f72c04160d10078620fbfdb00fe2ef7"
-    },
-    "life-changes/growing-family/whats-the-best-school-district-for-young-kids-in-the-san-fernando-valley.html": {
-      "size": 50735,
-      "sha256": "02c5fda1764cca7be9cb87014d7b5b8410b3e70e998d519812d10f6b11042044"
-    },
-    "life-changes/growing-family.html": {
-      "size": 53080,
-      "sha256": "0589f909f01f339c0211256f198ef98041e07244dc756f97d87274dbcdab5338"
-    },
-    "life-changes/marriage/buy-a-house-before-or-after-the-wedding.html": {
-      "size": 49571,
-      "sha256": "2ecaa0c602b839fbb721348a48ece5be96492ba932cebdd74cc6d12f29879836"
-    },
-    "life-changes/marriage/buying-a-home-together-when-one-spouse-already-owns-property.html": {
-      "size": 50126,
-      "sha256": "8e5b9010a7acf807748d0661d429ac235efb957e63078b12ea489891a4e93cc5"
-    },
-    "life-changes/marriage/buying-a-house-together-when-one-spouse-has-better-credit.html": {
-      "size": 49798,
-      "sha256": "af88f04056b683a94573837602acbe65e32d215784e60c7cf19616367de776ad"
-    },
-    "life-changes/marriage/can-married-couples-use-both-incomes-to-buy-a-house.html": {
-      "size": 49498,
-      "sha256": "5019bb4ae66ebdb50c4bf6e1d49166c8b3256aaba6a81aadd10a7731bc2f650b"
-    },
-    "life-changes/marriage/can-two-people-buy-a-house-together-if-only-one-has-good-credit.html": {
-      "size": 51815,
-      "sha256": "283248206c97c87e894bd3889c512130211533a18785a264ce3897e0c600e4bb"
-    },
-    "life-changes/marriage/do-we-need-to-be-married-to-qualify-for-a-joint-mortgage.html": {
-      "size": 51776,
-      "sha256": "7520b45d45c19875b016f71e40d1d00debcbc4482882d8940221e211409f2cce"
-    },
-    "life-changes/marriage/do-we-need-to-combine-finances-before-buying-a-home-together.html": {
-      "size": 51440,
-      "sha256": "22e893761036dd36e4e4df00004b2fc6b84bc60847065d8852f0be2f135194c6"
-    },
-    "life-changes/marriage/getting-married-and-need-more-space-should-you-move.html": {
-      "size": 49803,
-      "sha256": "adc2a8fdc787dab66aac8e188daef1c9cd6529cde00b4cc1f654210d7e9c9065"
-    },
-    "life-changes/marriage/having-a-baby-and-need-more-space-should-you-move.html": {
-      "size": 49638,
-      "sha256": "be9f6aafaef8a700a4a32a1902a7b854188de5311773a91f59c7901836c3e4a8"
-    },
-    "life-changes/marriage/how-do-newlyweds-afford-a-house-with-student-loan-debt.html": {
-      "size": 51478,
-      "sha256": "0f6e69fcb17f7be7791f4976a294b8a82426210e8c94c453b01f099c98ed66ca"
-    },
-    "life-changes/marriage/is-it-better-to-buy-a-home-together-or-keep-renting-until-were-more-settled.html": {
-      "size": 51156,
-      "sha256": "cc7d87dfab9dfad1ce335c19c8ac9f6bbdf414060cfab6b701b71f7a395b7353"
-    },
-    "life-changes/marriage/on-title-but-not-mortgage-what-does-it-mean.html": {
-      "size": 53035,
-      "sha256": "532ed2435c3623aa4f2f91839a03507df9e43da696eda1a7e5b56462c7333f38"
-    },
-    "life-changes/marriage/should-i-add-my-spouse-to-the-title-of-my-house.html": {
-      "size": 49973,
-      "sha256": "2e7c954ef73693b1e5005260ba1c65622490d5dc1098a95d5970329cffd0a04e"
-    },
-    "life-changes/marriage/should-newlyweds-rent-or-buy-a-home.html": {
-      "size": 49425,
-      "sha256": "d7f1f4628146a67b221f38874ca02918391597e895ca19f26831be1427983685"
-    },
-    "life-changes/marriage/should-we-buy-a-house-after-getting-married.html": {
-      "size": 49597,
-      "sha256": "6e0b44eee5301667fc4cb55e94f67c72b8f44f29f30f01af66367571152559a0"
-    },
-    "life-changes/marriage/should-we-buy-a-house-before-or-after-getting-married.html": {
-      "size": 51579,
-      "sha256": "2d92b279e8aa880cab91007b56a1b004371fe417f97d9d94cfc95431cf03962e"
-    },
-    "life-changes/marriage/should-we-get-a-prenup-if-were-buying-a-house-together.html": {
-      "size": 51416,
-      "sha256": "5c2688785202b2f29f3c5a782ca1b1adb8801258c05d2e29b259f5a1b831a41c"
-    },
-    "life-changes/marriage/should-we-sell-both-homes-and-buy-one-together.html": {
-      "size": 49608,
-      "sha256": "53333b63ceb9de0253d2aa31b9534cc0fbb5315c0a8f7cb898004bba69776c25"
-    },
-    "life-changes/marriage/should-you-buy-a-bigger-home-before-starting-a-family.html": {
-      "size": 49723,
-      "sha256": "577afc47bdb41d61d1d7e733713c581d61c24dec09fb9711b7682f1f9ae53dfb"
-    },
-    "life-changes/marriage/what-happens-to-a-house-you-owned-before-marriage.html": {
-      "size": 49739,
-      "sha256": "2bfd98aea091ae487c1dca75e56d79d077dc57ac889c03f7f946f4e4fa939f24"
-    },
-    "life-changes/marriage/what-happens-to-the-house-if-we-get-divorced-later.html": {
-      "size": 51725,
-      "sha256": "736d224d23f151f5a311e61e55508800a3a1990634cb3549a50bb4aae68648cf"
-    },
-    "life-changes/marriage/what-if-my-husband-already-owns-a-house-before-marriage.html": {
-      "size": 49944,
-      "sha256": "eb7d37902b35273f25b8c0949459659c62c8701045d6fe518972ba021212465a"
-    },
-    "life-changes/marriage/what-price-range-can-we-afford-together.html": {
-      "size": 49426,
-      "sha256": "b06d92c145286ff46eca7939cd1971675adc78a9ae07f01eb27222a3400775a4"
-    },
-    "life-changes/marriage/whats-a-good-starter-home-for-a-newly-married-couple.html": {
-      "size": 51031,
-      "sha256": "71f8a9e07967d77e13476092895076e2858babf0cd927a3346ae7ce42e1e4063"
-    },
-    "life-changes/marriage/whose-name-should-go-on-the-house-title-if-were-not-married-yet.html": {
-      "size": 51731,
-      "sha256": "fa24ca2f3c62b5f95dda11ff516cb8550db6407918026ecc48bf43dee009f0c5"
-    },
-    "life-changes/marriage.html": {
-      "size": 67836,
-      "sha256": "003abcdd5c30f84a00f2d51c07094dff71bcfb0ca5a71b465776341ac592e354"
-    },
-    "life-changes/relocation/can-a-real-estate-agent-handle-everything-while-i-m-still-out-of-state.html": {
-      "size": 50491,
-      "sha256": "aa73b9616cfe23770c87d1922055e591ca330ffd913c540ea58045daa4dbef73"
-    },
-    "life-changes/relocation/can-i-buy-a-house-in-a-new-city-before-selling-my-current-one.html": {
-      "size": 50686,
-      "sha256": "dad579199c23746983cade819331bbef913bcddb66de7ce63719bd82db57a695"
-    },
-    "life-changes/relocation/can-i-buy-a-house-in-california-before-i-actually-move-there.html": {
-      "size": 50101,
-      "sha256": "f00ade806f313f5db5643c8db447097ba7e7781eada9422aa4159a962a1c709a"
-    },
-    "life-changes/relocation/can-i-buy-a-new-house-before-my-current-house-sells.html": {
-      "size": 50528,
-      "sha256": "4279d09dfcb18cde28ba6ced3cf41d1d5894a465a398fd656257bc0d227c0e7e"
-    },
-    "life-changes/relocation/how-do-i-find-a-good-neighborhood-in-a-city-ive-never-lived-in.html": {
-      "size": 50544,
-      "sha256": "6d126e1ce7c957ba80bd3ff0763f32119c538c731c14a07d9cf2210d930b0821"
-    },
-    "life-changes/relocation/how-do-i-house-hunt-if-i-live-in-another-state.html": {
-      "size": 50019,
-      "sha256": "610e00d71fd514f8ac6fcf31ac9de092eb6d2acb5de5a474af1d457878fc234d"
-    },
-    "life-changes/relocation/how-do-i-sell-my-house-and-buy-a-new-one-in-a-different-city-at-the-same-time.html": {
-      "size": 50749,
-      "sha256": "f14fa441f6de356971b260b51c86e673ae4da5e2f15110a7ec8b10d54ec27412"
-    },
-    "life-changes/relocation/how-long-does-it-typically-take-to-sell-a-house-when-relocating-for-work.html": {
-      "size": 50797,
-      "sha256": "3065b261f5cc8f0593a478dd5f5ecc6d923c8cdd6529d9f45c9c14d607c3428e"
-    },
-    "life-changes/relocation/how-much-does-it-cost-to-move-across-the-country-with-a-house-full-of-furniture.html": {
-      "size": 50747,
-      "sha256": "37bbc79b680485feeddf702409ec36dba3009e442ab19e659eb62475573bb9f3"
-    },
-    "life-changes/relocation/i-already-moved-and-my-old-house-still-hasn-t-sold-what-do-i-do.html": {
-      "size": 50114,
-      "sha256": "bc69866f2f627720ed7e7b8bc6b3e10bd12c5ff41af63c76f70a6f60058bf93a"
-    },
-    "life-changes/relocation/i-don-t-know-anything-about-the-area-i-m-moving-to-where-do-i-even-start.html": {
-      "size": 50348,
-      "sha256": "d6e1bd366aefe53d73930b74efe64a5a22b01710078e53027a57c593c52dc62e"
-    },
-    "life-changes/relocation/i-have-to-move-in-a-few-months-should-i-sell-my-house-now.html": {
-      "size": 50472,
-      "sha256": "99add0bfc3d3402cfdd92e90e2bcb4ac6955d1977ed670fd4bbfcaf3f0e04a0e"
-    },
-    "life-changes/relocation/i-just-got-a-job-in-california-how-do-i-figure-out-where-to-live.html": {
-      "size": 50713,
-      "sha256": "8096bec78c04d9c9c696e9cf57b984abfc937db8d763e205a26285972fa4ad7f"
-    },
-    "life-changes/relocation/i-m-moving-to-the-san-fernando-valley-what-areas-should-i-look-at.html": {
-      "size": 50177,
-      "sha256": "bf12672444db06638a7cc2e7099b46313f2523da106fca449e8f612055aa0eae"
-    },
-    "life-changes/relocation/i-need-to-move-fast-for-work-how-quickly-can-i-buy-a-house.html": {
-      "size": 50136,
-      "sha256": "700c0a90bbbb2e9b9804368dc8140c3267bbcc736c59dccf5b16837f8a9314fb"
-    },
-    "life-changes/relocation/is-it-better-to-rent-or-buy-right-away-after-relocating-for-a-job.html": {
-      "size": 50413,
-      "sha256": "1e901e72693647edbc4239e4b4c2bd76f357a95bcdb3c938a12f6064ee86e874"
-    },
-    "life-changes/relocation/my-company-gave-me-a-relocation-package-how-do-i-use-it-to-buy-a-house.html": {
-      "size": 50173,
-      "sha256": "7bc0a662c9fc403fc504bd103855e899dd674b5209df180a4c1509ab226fb06d"
-    },
-    "life-changes/relocation/my-job-is-moving-me-and-i-have-no-idea-what-to-do-with-my-house.html": {
-      "size": 50209,
-      "sha256": "76dd560bd2b56e2cc6b97e4933f397d6bf22072d695c102bd24122924c2b22e7"
-    },
-    "life-changes/relocation/should-i-rent-first-when-i-move-or-just-buy.html": {
-      "size": 49801,
-      "sha256": "cf4547b27816e6b41fd448d0003346564e1f48e5d931cf34c47380e7974fbb9e"
-    },
-    "life-changes/relocation/should-i-sell-my-house-before-i-find-a-new-one-out-of-state.html": {
-      "size": 50200,
-      "sha256": "9e1f5e6b0e0c0e41fa39124c57d39a60ff068e565a83c26b811df816c243a168"
-    },
-    "life-changes/relocation/should-i-use-the-same-agent-to-sell-my-old-house-and-buy-my-new-one.html": {
-      "size": 50942,
-      "sha256": "5de6760c8c764889a109a0bd4adb6b0c8b822fe1cc1c0f98d0a8980e904ef7db"
-    },
-    "life-changes/relocation/what-happens-if-i-have-to-move-before-my-house-is-ready-to-sell.html": {
-      "size": 50037,
-      "sha256": "917801c5730b578c48532a453e12aa8317bcc1ef5dfd24e332bf673d073d5c1c"
-    },
-    "life-changes/relocation/what-if-i-need-the-money-from-my-current-house-to-buy-the-next-one.html": {
-      "size": 50607,
-      "sha256": "7582e992c2994763084bd0202e0b00e0cc91eb9c447dd02bb331a80f881ce63c"
-    },
-    "life-changes/relocation/what-should-i-know-about-moving-to-the-san-fernando-valley-from-out-of-state.html": {
-      "size": 50977,
-      "sha256": "a02470459add573ba57ec3be5a166da2594583c2aab4dc9ffcfe770b1c3a5f92"
-    },
-    "life-changes/relocation/whats-a-bridge-loan-and-do-i-need-one-to-relocate.html": {
-      "size": 50617,
-      "sha256": "daa481eaec05aab6494eb6505c27916d70c25e29f2211caff6eb7a66d157fee8"
-    },
-    "life-changes/relocation.html": {
-      "size": 69722,
-      "sha256": "7811b67a7fe57e1112140ca890bac17b897e26739d0004836751e3234f169256"
-    },
-    "life-changes/retirement/can-i-afford-to-keep-my-house-after-i-stop-working.html": {
-      "size": 49405,
-      "sha256": "361ac975d8ca98409fc4912c25e1eea834ce21b2437793d9adce6eb28a9db710"
-    },
-    "life-changes/retirement/can-i-afford-to-stay-in-my-house-on-a-fixed-retirement-income.html": {
-      "size": 50592,
-      "sha256": "e6e4ce558ab1a8ef1b5e2d0fcc04f262c641f87f890383cffde7ec56bd53f0a7"
-    },
-    "life-changes/retirement/can-i-use-my-home-equity-to-fund-my-retirement.html": {
-      "size": 49973,
-      "sha256": "f12d143911168068b5b260408a9a4290c2cfbaa2f697dc604e32ec1c30ec91f4"
-    },
-    "life-changes/retirement/can-i-use-the-equity-in-my-house-to-buy-another-home.html": {
-      "size": 50100,
-      "sha256": "e2b0d2a1ce8d8ef21d9d7a6fef4febef715aec811e01218cb1507cd70760b750"
-    },
-    "life-changes/retirement/how-much-equity-should-i-have-in-my-home-before-retiring.html": {
-      "size": 50549,
-      "sha256": "72566679fc437c328ee3e30390e5e33e1aa2902cef23c4d39c566e9f700dcdbd"
-    },
-    "life-changes/retirement/i-don-t-want-to-deal-with-a-big-house-anymore-what-are-my-options.html": {
-      "size": 49918,
-      "sha256": "0415a4747c9950e7638cf6a51e203ece59b09b40fede617904729478f72626cb"
-    },
-    "life-changes/retirement/i-have-a-lot-of-money-tied-up-in-my-house-what-should-i-do-with-it.html": {
-      "size": 49875,
-      "sha256": "b2fd6b7d21005643252bebedac2f193ef007af3677191dfb4a47a5fd57a8d3cc"
-    },
-    "life-changes/retirement/i-m-retired-and-still-have-a-mortgage-is-that-a-bad-idea.html": {
-      "size": 49910,
-      "sha256": "da6ed5d7483e635c0bba56a34312502667b90c06d0989224bd5973217ed534aa"
-    },
-    "life-changes/retirement/i-m-retired-can-i-still-qualify-for-a-mortgage.html": {
-      "size": 50044,
-      "sha256": "75cbf3d48435ff3334d7096e66999c66faa9538c6cfce95a8b9a9858cf2d2f40"
-    },
-    "life-changes/retirement/i-m-retiring-soon-should-i-sell-my-house.html": {
-      "size": 49609,
-      "sha256": "f14414f61e88884c772a3377c1e9602ac60852d02224fe0f951bf8a8ddaf6214"
-    },
-    "life-changes/retirement/i-want-to-move-closer-to-my-kids-when-i-retire-how-do-i-plan-that.html": {
-      "size": 49882,
-      "sha256": "f944a45ae52cff675575eb68b3b3aa66e7a13e10e8c9e3a950bb67a736ec038a"
-    },
-    "life-changes/retirement/is-it-better-to-retire-in-california-or-move-somewhere-cheaper.html": {
-      "size": 50436,
-      "sha256": "a167cff22ff832d8f569dafd627046f594002d089b8c31203808ea85b5357e48"
-    },
-    "life-changes/retirement/is-it-cheaper-to-rent-after-retirement.html": {
-      "size": 49856,
-      "sha256": "bf5e00b57cf32f3a44c6465184456d091507f4ddaef53d145d915d42cd9cf276"
-    },
-    "life-changes/retirement/is-it-smart-to-downsize-right-when-i-retire.html": {
-      "size": 50106,
-      "sha256": "98346a4a47086ad571f2a276eaf568a71d51973332c463d186c4ef7c86933698"
-    },
-    "life-changes/retirement/should-i-buy-a-one-story-home-before-i-get-older.html": {
-      "size": 49998,
-      "sha256": "91ce67a639e4bdcf5c641ceebc83103263a7151c12c19c91b7d26947fe46e3a2"
-    },
-    "life-changes/retirement/should-i-downsize-when-i-retire.html": {
-      "size": 49263,
-      "sha256": "048d798aff07228bb946ae92bc9e0c3bd9184d760e08c7018cf025eb18bb8458"
-    },
-    "life-changes/retirement/should-i-move-closer-to-my-kids-or-grandkids-when-i-retire.html": {
-      "size": 50165,
-      "sha256": "ed32091e0e3985aa0396585db61150394edaffed993f3e0579b425dfc609e10a"
-    },
-    "life-changes/retirement/should-i-pay-off-my-house-before-i-retire.html": {
-      "size": 49479,
-      "sha256": "aea90ef0c1683f3d0698dc13dbacc3c7582b2d9c0361b8175476547af0f4d6cf"
-    },
-    "life-changes/retirement/should-i-pay-off-my-mortgage-before-i-retire.html": {
-      "size": 50037,
-      "sha256": "6927ff90d60b3ee70be962d185f97f36ff29c7f27da38ac7f697b51df018eb44"
-    },
-    "life-changes/retirement/should-i-sell-my-california-house-and-move-somewhere-cheaper.html": {
-      "size": 49683,
-      "sha256": "82a329faa89b77c6b334070d1caf628858b3f8c1ce0f61e4a5cf1eeefb3c98c8"
-    },
-    "life-changes/retirement/should-i-sell-my-house-and-rent-instead-once-im-retired.html": {
-      "size": 50304,
-      "sha256": "f3d82691036476834df190d54d0ac77858043f4933eb7c567fc56492f3897754"
-    },
-    "life-changes/retirement/what-are-the-best-low-maintenance-homes-for-retirees.html": {
-      "size": 50311,
-      "sha256": "09c1d2d2b8e762cc7152aa6d05ecd6e70dc2e80102eb15f791c59452af03af95"
-    },
-    "life-changes/retirement/what-if-i-retire-and-then-realize-i-can-t-afford-my-house-anymore.html": {
-      "size": 50245,
-      "sha256": "29a2547119c586825cf08e933d6b3e001948939a3a083104286edd7f7dc0a2bf"
-    },
-    "life-changes/retirement/what-is-a-reverse-mortgage-and-is-it-a-good-idea-for-retirees.html": {
-      "size": 50719,
-      "sha256": "820ac7def707d869ccd7fd7261c5c457185b5556987fbf2f8517c4b7ca268997"
-    },
-    "life-changes/retirement/what-kind-of-house-makes-sense-as-i-get-older.html": {
-      "size": 49625,
-      "sha256": "c526ae83b341f2966d2bce1cddec5eea700f6cb0dfab3d260ea59365ec7564a7"
-    },
-    "life-changes/retirement.html": {
-      "size": 66995,
-      "sha256": "c05928dd2281e9d0c5c1874ac18b1a414e4cee8b0171e94926942b90adcf3934"
+      "size": 289980,
+      "sha256": "e7f86193fa4d0338db1e9aba3a5c47fbaf3418acf8970b5c50561e1c80a0ad8d"
     },
     "life-changes.html": {
-      "size": 55893,
-      "sha256": "2a558330291b1afb22b86b0c1a49de810b97718478e13c211d809834da4b8916"
+      "size": 58101,
+      "sha256": "8a1c5ecf2f40c0e917e450461edbe092ab4a1e0d2d37ce35cee9e10a5ff8709d"
+    },
+    "life-changes/death.html": {
+      "size": 82788,
+      "sha256": "078f3a4aa47e7c8d75eeca609d27351039c28468f3c706dce1fe6130e1479387"
+    },
+    "life-changes/death/can-i-keep-the-house-if-my-spouse-dies-and-i-cant-afford-the-mortgage-alone.html": {
+      "size": 52542,
+      "sha256": "1ef7f7020a3c60cb82dcdc5d025953d45419695199c04f2801f173482e458d14"
+    },
+    "life-changes/death/can-i-live-in-a-house-i-inherited.html": {
+      "size": 51471,
+      "sha256": "251ade6a965c178c8c6f76ba1493279c9e73f64135192041d3771ab0d0728c93"
+    },
+    "life-changes/death/can-i-sell-a-house-thats-still-in-probate.html": {
+      "size": 52072,
+      "sha256": "373a6e4e04348cab7555d183bd47bb72cf6f6888b591797e951a9a545f71cbf6"
+    },
+    "life-changes/death/can-siblings-force-the-sale-of-an-inherited-house.html": {
+      "size": 52316,
+      "sha256": "83d63b9d829ccd28c67a28a905b8f8f2abcab5013014546b42cc4a08116faffa"
+    },
+    "life-changes/death/do-i-have-to-pay-off-my-parents-mortgage-if-they-die.html": {
+      "size": 52575,
+      "sha256": "d545117ad9bbe4072adf11b8de98253bf7d00a88e00f129c981577960b6ae0a9"
+    },
+    "life-changes/death/do-i-have-to-refinance-the-house-after-my-spouse-passes-away.html": {
+      "size": 52401,
+      "sha256": "582b4674bc216c6777ff04e40afe4a581b06f09991f458513573cf3646f3d57d"
+    },
+    "life-changes/death/do-i-owe-taxes-on-a-house-i-inherited.html": {
+      "size": 52401,
+      "sha256": "14fd8cb0e43a79a463fc34e15dae0cd430ecbc7dbc6b78d5ec692514b4707954"
+    },
+    "life-changes/death/do-we-have-to-go-through-probate-before-we-can-sell-the-house.html": {
+      "size": 51668,
+      "sha256": "d7b96239ae9eef8ec6c114a41f494e8e9cb6dd3a4f7e21718003c39b239a6420"
+    },
+    "life-changes/death/how-do-i-clean-out-and-sell-a-house-full-of-someones-belongings.html": {
+      "size": 52577,
+      "sha256": "1b6e72ce9b96c95c7ffb41191a737eeda6cb19128261f31132ff26edabc019b5"
+    },
+    "life-changes/death/how-long-does-it-take-to-sell-an-inherited-house.html": {
+      "size": 52158,
+      "sha256": "0f16b5fe5d69005c7c4b8ed437637e23997f29bc9a002d15e246f9fbb59784b4"
+    },
+    "life-changes/death/how-soon-can-you-sell-a-house-after-someone-dies.html": {
+      "size": 51799,
+      "sha256": "0ecc9ea6d7ae5a08146e4458b5c2c92e29ee8ee4921f3eb3e40a085363a1223a"
+    },
+    "life-changes/death/i-inherited-a-house-but-i-don-t-live-anywhere-near-it.html": {
+      "size": 51867,
+      "sha256": "26eae53f4bca73694b9639fa7aefbceedb0f132cecf20ec65a84b91ea08f93bd"
+    },
+    "life-changes/death/i-inherited-a-house-that-needs-a-lot-of-work-should-i-fix-it-or-sell-it-as-is.html": {
+      "size": 52130,
+      "sha256": "cc08b77c74dcb6061e6faa79090217a0cf1ff9677d7396d4f965a26e6dd0bd38"
+    },
+    "life-changes/death/i-inherited-a-house-with-my-brothers-and-sisters-what-do-we-do.html": {
+      "size": 51955,
+      "sha256": "1ab70097e36b30986d6c0bd8c30e1ebe45935040b3da6ee2edf365ad0e4d37d6"
+    },
+    "life-changes/death/is-my-name-automatically-added-to-the-house-if-my-husband-or-wife-dies.html": {
+      "size": 52713,
+      "sha256": "1c348c3ae8f0e4b180b8ae9d172b6457b72f13e51a35c7a511d5bf785055b2f2"
+    },
+    "life-changes/death/my-dad-died-and-his-name-is-still-on-the-house-can-we-sell-it.html": {
+      "size": 51946,
+      "sha256": "5cefc68a5a0e2f66d4f5cdfd451c8b860e1b61f29f19a3f28a7f3c59f6398887"
+    },
+    "life-changes/death/my-husband-died-what-happens-to-our-house-now.html": {
+      "size": 51533,
+      "sha256": "6e8087d8a9d31230c656215fee4b6165fec79ac9941e11c5009d58fa54e430b9"
+    },
+    "life-changes/death/my-mom-died-and-i-don-t-know-if-i-should-keep-or-sell-her-house.html": {
+      "size": 51790,
+      "sha256": "8439942f835ce86a562d745e55f7cc01a37d200a462c12e23f539e3b898b501c"
+    },
+    "life-changes/death/my-parent-died-and-left-me-a-house-what-am-i-supposed-to-do-first.html": {
+      "size": 51847,
+      "sha256": "d4d59b487f4db7f01e00416e51f3f1719aa50a081ff7fa201480ab1be8edd0b3"
+    },
+    "life-changes/death/my-sibling-wants-to-keep-the-house-but-i-want-to-sell-what-happens.html": {
+      "size": 51938,
+      "sha256": "66b82917552cc611bf029a1d3131404e42dff6dd15b738b24ea6fab3811b8adc"
+    },
+    "life-changes/death/my-spouse-died-and-i-can-t-afford-the-house-by-myself-what-can-i-do.html": {
+      "size": 51926,
+      "sha256": "9f8c350de1e053da0fe094fad010dca3fe1800256190cd1e5a01c5d36ecbbd74"
+    },
+    "life-changes/death/my-spouse-died-and-i-don-t-want-to-leave-the-house-what-are-my-options.html": {
+      "size": 52109,
+      "sha256": "db5cc6e256ea4915ca73b1c5049d73b4a80319a536ae986fbdbac72899837e28"
+    },
+    "life-changes/death/my-wife-died-and-the-house-is-in-both-of-our-names-what-do-i-do.html": {
+      "size": 51780,
+      "sha256": "889adbe6bd025d34ce019a836743a9d178a544ab52e0feb7ef4dfa932b5dcc85"
+    },
+    "life-changes/death/should-i-rent-out-the-house-i-inherited-or-sell-it.html": {
+      "size": 51601,
+      "sha256": "1ff0e9cbd111ae4af194c8d8092b082b156e3492158a08ed8128088b3f7a9138"
+    },
+    "life-changes/death/should-i-sell-my-parents-house-or-rent-it-out.html": {
+      "size": 51976,
+      "sha256": "fd1efa970a433b5f5665ddcd42bb6a37fdccf12d517fc083ac9fcd5cc3aeb2fd"
+    },
+    "life-changes/death/should-i-sell-the-house-right-away-after-losing-my-spouse-or-wait.html": {
+      "size": 52621,
+      "sha256": "6d4f0961f609a36b499acebeabbf80f5f3e61e05f44c155f128717ab89e3d5d4"
+    },
+    "life-changes/death/someone-died-and-there-s-still-a-mortgage-on-the-house-what-happens.html": {
+      "size": 51938,
+      "sha256": "c08573fd2d3e78b0cac2d6d0e957e869e133a6fa7cc161de9e757807c10f4da6"
+    },
+    "life-changes/death/there-s-an-entire-house-full-of-belongings-after-someone-died-where-do-i-even-.html": {
+      "size": 52287,
+      "sha256": "a7422e32d2b7140b5fcfbfaa23b6e17debd5be35bae3b2cc0a25faf909be949b"
+    },
+    "life-changes/death/there-s-no-will-what-happens-to-the-house.html": {
+      "size": 51743,
+      "sha256": "30cd71a7bb61600abc510822214e5c9867c856526fc441c0aa07ed00d4cfa3cf"
+    },
+    "life-changes/death/what-do-i-do-with-my-parents-house-after-they-pass-away.html": {
+      "size": 52504,
+      "sha256": "5cbceb5be78f75cea754d753504049c6462b742a43bd90281cea3a0a7b9d6152"
+    },
+    "life-changes/death/what-happens-to-a-house-if-the-owner-dies-without-a-will.html": {
+      "size": 52697,
+      "sha256": "b371ce9b137a21ec25b1e53f98a66920a02da78e9a84b8fdfdb44cbbf9239942"
+    },
+    "life-changes/death/what-happens-to-our-house-if-my-spouse-dies-and-only-their-name-is-on-the-mortgage.html": {
+      "size": 52725,
+      "sha256": "92a3fc3a8a7393611bf1e60072f70275e3433ee91c8c511111c7994783016d98"
+    },
+    "life-changes/death/what-is-a-probate-sale-and-how-is-it-different-from-a-regular-home-sale.html": {
+      "size": 52712,
+      "sha256": "a481a20c4ee30746cd0bcb44facc7f3a669ca3103dfef78242f8f89af15092ec"
+    },
+    "life-changes/death/who-is-actually-allowed-to-sell-the-house-after-someone-dies.html": {
+      "size": 51731,
+      "sha256": "4ce1bceeaab7d509e8afa4bde4e33429bb6d259df929fe60cd761767eced8656"
+    },
+    "life-changes/divorce.html": {
+      "size": 81572,
+      "sha256": "58472e51855e3ae82c16d95487abe6d43fd51592dc8c419fa25072aa7523bc3c"
+    },
+    "life-changes/divorce/can-i-afford-my-house-on-one-income-after-a-divorce.html": {
+      "size": 52361,
+      "sha256": "c37dfeb0d81c11c37e2a302d7b00db182d9ffa759ac5f5fc0f9cae6b5fffd7bb"
+    },
+    "life-changes/divorce/can-i-buy-another-house-while-i-m-still-going-through-a-divorce.html": {
+      "size": 51930,
+      "sha256": "9b520bee068f55a7215455c0566e4d1c9b2013d044decf0495e1299e5a0762ab"
+    },
+    "life-changes/divorce/can-i-buy-my-spouse-out-of-the-house.html": {
+      "size": 51628,
+      "sha256": "8394479033fcab17faa4939d1825c1013ef2a631237b61c4e9912b4cc0674da0"
+    },
+    "life-changes/divorce/can-i-refinance-the-house-to-buy-out-my-ex-spouse.html": {
+      "size": 52261,
+      "sha256": "a7933e1553d9c5ac9e473cef5f3fc6056444340f49667752c31f5fdebea3774f"
+    },
+    "life-changes/divorce/can-i-sell-the-house-if-my-spouse-refuses.html": {
+      "size": 51577,
+      "sha256": "e77d2a10230573241b4f22ff28348d9e44f0af9835094ea476823fc66ba0ec85"
+    },
+    "life-changes/divorce/can-my-spouse-buy-me-out-of-the-house.html": {
+      "size": 51492,
+      "sha256": "1290b8d10dbb3f3f3ebeccf3a1bccdea0cd87f2a0020b0db3287d21b8c899b12"
+    },
+    "life-changes/divorce/can-my-spouse-force-me-to-sell-the-house.html": {
+      "size": 51542,
+      "sha256": "07f0dd5fb01d03a0da6d05af70e25322ada474dcb6d45b806b141a4e16165ee6"
+    },
+    "life-changes/divorce/do-i-have-to-sell-my-house-if-im-getting-divorced.html": {
+      "size": 52371,
+      "sha256": "0a766207ed02e0f6e19fda0f92748e1e35c01adb8d81f2f90f556607858a6b1c"
+    },
+    "life-changes/divorce/do-we-have-to-sell-the-house-before-the-divorce-is-final.html": {
+      "size": 51826,
+      "sha256": "19f384788304bc4ec500b69deba6ec06dd15083efb8b1bbd9a2638e0c2cdf1ed"
+    },
+    "life-changes/divorce/how-do-i-get-my-ex-off-the-mortgage.html": {
+      "size": 51651,
+      "sha256": "a260676823057dc674f47e1e8dfc689135f81bae731194eec98641694a8c8863"
+    },
+    "life-changes/divorce/how-do-i-get-my-ex-off-the-title.html": {
+      "size": 51593,
+      "sha256": "de598ce7c48a0b5db3a453b087879a0abade1b905cd8f00f0c14e98f2a231d36"
+    },
+    "life-changes/divorce/how-do-we-figure-out-how-much-equity-we-have.html": {
+      "size": 51697,
+      "sha256": "7cc380a0619a0a1b139bd64f805dcc9acd6027b4673d2a9e2f82974210ee6a50"
+    },
+    "life-changes/divorce/how-is-home-equity-split-in-a-divorce.html": {
+      "size": 52274,
+      "sha256": "e44a476d5df866b816e14c9cec667aab07650df142b7de8022a9817db355631b"
+    },
+    "life-changes/divorce/how-long-do-i-have-to-sell-the-house-after-a-divorce-settlement.html": {
+      "size": 52336,
+      "sha256": "4d15a4f1df9235161b79bd4f5bd15e8f1d22089bc03a3d687a23fbae4ed994fd"
+    },
+    "life-changes/divorce/i-don-t-want-the-house-anymore-i-just-want-out-what-are-my-options.html": {
+      "size": 51972,
+      "sha256": "e2c2820956e023d7a6660e5f072fee31c2283d0da51ca8515f062b7d7ca84c3d"
+    },
+    "life-changes/divorce/i-m-getting-divorced-what-happens-to-the-house.html": {
+      "size": 51683,
+      "sha256": "b35906841cdb1c20c9596f5e69f6e0e9015430774d3c26dfb60d8343b0bf50f7"
+    },
+    "life-changes/divorce/i-moved-out-but-my-spouse-is-still-living-in-the-house-what-happens-now.html": {
+      "size": 51979,
+      "sha256": "7f176c8c5060c860b292333e0c9911c3d8a3844a97c95e9216dc02c7d9c3c834"
+    },
+    "life-changes/divorce/i-want-to-keep-the-house-can-i.html": {
+      "size": 51332,
+      "sha256": "5905adb635c5cb565009d9b5b3ec450025a23a0168719c7c9ef82d3d67119f38"
+    },
+    "life-changes/divorce/is-it-better-to-sell-the-house-before-or-after-the-divorce-is-final.html": {
+      "size": 52680,
+      "sha256": "53eb6b8acf93f5cd9b8cc2d9a9957567cdb19d8a7270e741ef856a051bb18f16"
+    },
+    "life-changes/divorce/my-divorce-is-messy-can-the-house-still-be-sold-without-making-things-worse.html": {
+      "size": 51900,
+      "sha256": "153fc6b4809755c19ed24c0a0506314e6b9be5faa6b0215734e3f803396a4b40"
+    },
+    "life-changes/divorce/my-husband-wants-to-sell-the-house-and-i-don-t-what-happens.html": {
+      "size": 51874,
+      "sha256": "e06849d39a52202333a42b3956fdc7a6da7310856c24ec9bcf185550dd0e2179"
+    },
+    "life-changes/divorce/my-wife-wants-to-keep-the-house-and-i-want-my-share-of-the-money.html": {
+      "size": 52013,
+      "sha256": "bae7794ae5cdadc0f2f4b8fd236f2a0113cdf4c8863221227fb02fbde565c879"
+    },
+    "life-changes/divorce/should-i-sell-the-house-or-keep-it-during-a-divorce.html": {
+      "size": 52333,
+      "sha256": "79648de3e6b416f53c6e27fcf41d4aba824973e7d60b3372cb33260e6692ea92"
+    },
+    "life-changes/divorce/should-we-wait-until-after-the-divorce-to-sell.html": {
+      "size": 51591,
+      "sha256": "12ab06fe054bacff43f23655515fbf046401db6c4d3616cf6e066c7277d7d859"
+    },
+    "life-changes/divorce/we-agree-to-sell-the-house-but-we-don-t-agree-on-anything-else-what-do-we-do.html": {
+      "size": 52020,
+      "sha256": "8c71846238a9a23cec2eb7d645622709a8d61866144dabde89d58121a50b8cda"
+    },
+    "life-changes/divorce/we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html": {
+      "size": 52076,
+      "sha256": "dce5660ba04211422adfb0d6d087f30c2940e3ea21a854ccfca4e91fbb2e7d53"
+    },
+    "life-changes/divorce/what-credit-score-do-i-need-to-refinance-after-a-divorce.html": {
+      "size": 51848,
+      "sha256": "ebf1e3fdee75798a93641b3877aa158ef2728fbbfdad65975c98c470eff5cd6a"
+    },
+    "life-changes/divorce/what-happens-if-we-owe-more-on-the-house-than-it-s-worth.html": {
+      "size": 51805,
+      "sha256": "2451fb105a6f0e495679d75642bc8da199de11b20dd82f30ce1ddda153bfc921"
+    },
+    "life-changes/divorce/what-happens-to-the-mortgage-after-we-divorce.html": {
+      "size": 52112,
+      "sha256": "4849f7aac7f58038c59d3ad003a1cdc5cc2012cca5526fb1e52c6480f947e6ac"
+    },
+    "life-changes/divorce/what-happens-to-the-mortgage-if-my-ex-spouse-moves-out.html": {
+      "size": 52512,
+      "sha256": "b7a37e7db15e0138e52a189f53cda23bc0e0660e03a30634b86c27290bfb8776"
+    },
+    "life-changes/divorce/who-gets-the-house-in-a-divorce-if-both-names-are-on-the-mortgage.html": {
+      "size": 52658,
+      "sha256": "0174151a99e83b89254f907e8bbf86ba82de4af54830b9980a1ce234730b133a"
+    },
+    "life-changes/divorce/who-gets-the-house-in-a-divorce.html": {
+      "size": 51646,
+      "sha256": "21a395f6d8fe8cf6be7900e423bce6e35b0d7c1cc13bac409b47d4815731c932"
+    },
+    "life-changes/divorce/will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html": {
+      "size": 52568,
+      "sha256": "0388a934629c96f20cc56ce17854e10d4c6575e1e7d3678439e8c28743e838f9"
+    },
+    "life-changes/empty-nest.html": {
+      "size": 70403,
+      "sha256": "e61745137ea2384924f0a5b8b6201790decd39688f75b8e57909f62ed343f009"
+    },
+    "life-changes/empty-nest/can-we-afford-to-buy-a-smaller-home-outright-by-selling-our-current-one.html": {
+      "size": 52289,
+      "sha256": "283ceb9a79725479631b323bd2d9fee8317edf9eac58710f85ab38a9314c57ff"
+    },
+    "life-changes/empty-nest/how-do-i-know-when-it-s-time-to-leave-the-family-home.html": {
+      "size": 53299,
+      "sha256": "43483221202b1b1376c5374125e2155fb27036250f30f770689661766c57df96"
+    },
+    "life-changes/empty-nest/how-much-money-can-we-save-by-downsizing-after-the-kids-leave.html": {
+      "size": 52136,
+      "sha256": "a2b4fe9a3a28dbe0865d22a5e9f0a47fcbbee0f16e2c0f31a24995bc87683399"
+    },
+    "life-changes/empty-nest/i-don-t-need-all-this-space-anymore-what-should-i-do.html": {
+      "size": 51601,
+      "sha256": "2cd8eec13c688036fbad5c650a50e52b006b1f9ec3d32163704b124576410ca9"
+    },
+    "life-changes/empty-nest/i-don-t-want-stairs-anymore-what-type-of-house-should-i-look-for.html": {
+      "size": 52703,
+      "sha256": "c2c74dcf18f7f9b82a5161ca3581ce35f17b0abb1a7b73e064e022ea69f8cf70"
+    },
+    "life-changes/empty-nest/i-have-a-lot-of-equity-in-my-house-should-i-use-it-to-buy-something-smaller.html": {
+      "size": 53240,
+      "sha256": "f4af3424db8092970f7b07a77a0104017d12a91fe7dbdc3e9506a7b541fa88c1"
+    },
+    "life-changes/empty-nest/i-love-my-house-but-it-s-too-much-to-take-care-of-now.html": {
+      "size": 52764,
+      "sha256": "943a86f8a08cb29029035385e0b75bf1c17603e294aede0ef5bee47217d91a8c"
+    },
+    "life-changes/empty-nest/is-it-actually-cheaper-to-move-to-a-smaller-house.html": {
+      "size": 52399,
+      "sha256": "6e8b299a89b6fd240c7d9b8c4c999c02ae2aa6641e3e3b822551a00df76eea80"
+    },
+    "life-changes/empty-nest/is-it-worth-selling-a-big-house-just-for-two-people.html": {
+      "size": 52002,
+      "sha256": "61423af83e4f26f8bc5a173d73b53a28fbedaa8850ec0b4d400ea485f782cfca"
+    },
+    "life-changes/empty-nest/is-now-a-good-time-to-sell-before-home-prices-change.html": {
+      "size": 52321,
+      "sha256": "50021cbe198ae02775dc2b62b45e58915f28e8a97b525643ba5fa136be24f231"
+    },
+    "life-changes/empty-nest/my-house-is-paid-off-does-it-still-make-sense-to-move.html": {
+      "size": 52840,
+      "sha256": "6d0c7b24086610510b051e9c71c4c376cf8790404507419c09f5f6ba8be457d8"
+    },
+    "life-changes/empty-nest/my-kids-are-gone-should-i-sell-the-family-house.html": {
+      "size": 52624,
+      "sha256": "b3696566c5ba02105bd35c3a079970d35c7da35e51b57f4e71316acb873a4e0a"
+    },
+    "life-changes/empty-nest/my-kids-live-far-away-should-i-move-closer-to-them.html": {
+      "size": 52739,
+      "sha256": "c56c7e3c4cc9f3f5ab14ae218bac5b9377e39050f315a72de26e663f905352a8"
+    },
+    "life-changes/empty-nest/my-kids-moved-out-and-now-this-house-feels-way-too-big.html": {
+      "size": 52591,
+      "sha256": "7c020256db7a643dd5a623df9f6b139491bc19d16ae3c398bb62435aa49d9891"
+    },
+    "life-changes/empty-nest/should-i-buy-a-condo-now-that-my-kids-are-out-of-the-house.html": {
+      "size": 52691,
+      "sha256": "1dfe9a4d98377f64a3e2121b82b5f3042b3d22ec4d8f7d137afd19eca9456ee0"
+    },
+    "life-changes/empty-nest/should-i-downsize-now-or-wait-a-few-years.html": {
+      "size": 52973,
+      "sha256": "c26414680eb0e74d05e98582079eba528a7e3ff14ba02ca7ab4109a3a3fc6d35"
+    },
+    "life-changes/empty-nest/should-i-sell-now-or-wait-until-i-retire.html": {
+      "size": 52665,
+      "sha256": "d4fc55e31656e508ff38149ac5e8c5cb1e7030f407ee0fa2bd16521cd4a84e1f"
+    },
+    "life-changes/empty-nest/should-i-stay-in-the-house-my-kids-grew-up-in-or-move.html": {
+      "size": 52623,
+      "sha256": "7a5dc6dce6bb11095e43a6c2ccc50e3018426a3bebe4c3ede0178a3b93a45e3c"
+    },
+    "life-changes/empty-nest/should-we-downsize-now-that-our-kids-moved-out.html": {
+      "size": 51884,
+      "sha256": "8ac23adac0f8cb7377a992d2e9625146726652ca76f61222076471b383dc415e"
+    },
+    "life-changes/empty-nest/should-we-move-somewhere-with-less-yard-work-and-maintenance.html": {
+      "size": 52292,
+      "sha256": "b36feba771fdeaf2fc9f864406b76822cd16ce33729e9e6cb173ced2176950cc"
+    },
+    "life-changes/empty-nest/should-we-rent-out-our-kids-old-rooms-or-sell-the-house-entirely.html": {
+      "size": 52202,
+      "sha256": "2a675884262b285d489045f6b8226a39cee7f11d7b9bc136b742ffdbf02be2f7"
+    },
+    "life-changes/empty-nest/what-are-good-empty-nester-neighborhoods-in-the-san-fernando-valley.html": {
+      "size": 52368,
+      "sha256": "7bd7531c95248aafa47f6c2991053994e820200a99ecc06d42d4fc6556300eaf"
+    },
+    "life-changes/empty-nest/what-should-we-do-with-all-the-extra-space-now-that-the-kids-are-gone.html": {
+      "size": 52420,
+      "sha256": "6aa5d4552a289a58e44a30f9e177c6d68a2be51ccda280dc618502a010caedbd"
+    },
+    "life-changes/empty-nest/what-size-house-makes-sense-for-an-empty-nester-couple.html": {
+      "size": 51934,
+      "sha256": "a5af0f449a96dda9b33b27377ff135da96b547eba0fc6815ea421948b7d3e991"
+    },
+    "life-changes/growing-family.html": {
+      "size": 55395,
+      "sha256": "a917d43e3c45843945c68beab8f724cde4f3d09ae64b6532cfe7a5bc3853eaf4"
+    },
+    "life-changes/growing-family/can-we-afford-a-bigger-house-on-one-income-if-i-stay-home-with-the-baby.html": {
+      "size": 52580,
+      "sha256": "67826d881d1fcb4df18cf484adfb1d5a276de992dc2222f165e477d708ca8584"
+    },
+    "life-changes/growing-family/how-do-i-know-when-weve-outgrown-our-house.html": {
+      "size": 52069,
+      "sha256": "ab8424744cd5f920ed4254da63e6fd6b3019b5ad01841a7c45c382918891e249"
+    },
+    "life-changes/growing-family/how-many-bedrooms-do-i-actually-need-for-two-kids.html": {
+      "size": 51736,
+      "sha256": "df42f4818561e2deed4c450d7b952eda54b371a7560c8311bb665a62c78659ec"
+    },
+    "life-changes/growing-family/how-much-does-it-cost-to-convert-a-garage-into-a-nursery-or-playroom.html": {
+      "size": 52511,
+      "sha256": "f56abb1a585b5be8c28df5082fddc817663b61bd0d28908ce8e2f5203f5a2323"
+    },
+    "life-changes/growing-family/is-it-cheaper-to-add-on-to-our-house-or-move-to-a-bigger-one.html": {
+      "size": 52483,
+      "sha256": "1d499c72137c7dbc24e66a4204d9ba4528a55e76596e5db799c76b22e258b526"
+    },
+    "life-changes/growing-family/is-it-worth-buying-a-house-with-a-yard-if-we-have-small-kids.html": {
+      "size": 52049,
+      "sha256": "d654985cd057951df0aea426ed53e92b5e8ffa3b296cdd0a9042712910b42949"
+    },
+    "life-changes/growing-family/should-we-buy-a-fixer-upper-or-a-move-in-ready-home-with-a-new-baby-coming.html": {
+      "size": 52529,
+      "sha256": "e62efc1ed48e03d81e02d4acfd811f92414650710f06498c331f4adf5c64f4ab"
+    },
+    "life-changes/growing-family/should-we-move-before-or-after-the-baby-is-born.html": {
+      "size": 51927,
+      "sha256": "d9fd4d6fa48d3a0d99be8fd4d75121cf5c6a7a6fa02ca6046fbde69fcfcf6ffe"
+    },
+    "life-changes/growing-family/what-neighborhoods-are-safest-for-families-with-young-children.html": {
+      "size": 51753,
+      "sha256": "073065548d8d76bd638eaba30c7758923b5b9b367f9903c9c128c3af8546b976"
+    },
+    "life-changes/growing-family/whats-the-best-school-district-for-young-kids-in-the-san-fernando-valley.html": {
+      "size": 52645,
+      "sha256": "71e879911d383b390f6abd4396362642734620b5616722bd4be925adaa150b1f"
+    },
+    "life-changes/marriage.html": {
+      "size": 70167,
+      "sha256": "4c9b38de10d61f92af96c64e04038895d77b9a9042cfe4709e20d1f0665177be"
+    },
+    "life-changes/marriage/buy-a-house-before-or-after-the-wedding.html": {
+      "size": 51513,
+      "sha256": "6029a62c9297035e529c453cd6228e411bd558e2207ddd3049269f768488df95"
+    },
+    "life-changes/marriage/buying-a-home-together-when-one-spouse-already-owns-property.html": {
+      "size": 52036,
+      "sha256": "d86cb75ee2aadfa7f1d5221234fa0977fbe3544fe33a934d4ee7ea756dc09a6f"
+    },
+    "life-changes/marriage/buying-a-house-together-when-one-spouse-has-better-credit.html": {
+      "size": 51740,
+      "sha256": "7a5cfb6e49107c986eb436586d8a8e713c8e6522380bc923a3ab2f503d1c206b"
+    },
+    "life-changes/marriage/can-married-couples-use-both-incomes-to-buy-a-house.html": {
+      "size": 51440,
+      "sha256": "688d2aa9765ce8e8dc74d3ec461f5346ca27563d11998ffd9bb2ea40b7f225db"
+    },
+    "life-changes/marriage/can-two-people-buy-a-house-together-if-only-one-has-good-credit.html": {
+      "size": 53725,
+      "sha256": "0bd213a466fad7f97b7dd8f9ad90304097139511a754964f9cec60c4d08d0fef"
+    },
+    "life-changes/marriage/do-we-need-to-be-married-to-qualify-for-a-joint-mortgage.html": {
+      "size": 53686,
+      "sha256": "9e5ea87db982b1bc15d476685ae0ac068cdcd520eabe504ced81563cfedc61a8"
+    },
+    "life-changes/marriage/do-we-need-to-combine-finances-before-buying-a-home-together.html": {
+      "size": 53350,
+      "sha256": "9d3d11b0e965603da80730eff06971da3c8f2775a76e6c1139fe4b1bc43b363b"
+    },
+    "life-changes/marriage/getting-married-and-need-more-space-should-you-move.html": {
+      "size": 51745,
+      "sha256": "1d218f4472ad2a8c9f28962083407282fca29a43702a1f3178efa8d887c2664f"
+    },
+    "life-changes/marriage/having-a-baby-and-need-more-space-should-you-move.html": {
+      "size": 51580,
+      "sha256": "557ac54b1adf39f748b0cda167e717972cc7afb314f0454e01de0a56235eb523"
+    },
+    "life-changes/marriage/how-do-newlyweds-afford-a-house-with-student-loan-debt.html": {
+      "size": 53388,
+      "sha256": "ff82a75dd20b80cf2bf6abb9ccd2ce52bd21179a71099fecb7ac191c985d3914"
+    },
+    "life-changes/marriage/is-it-better-to-buy-a-home-together-or-keep-renting-until-were-more-settled.html": {
+      "size": 53053,
+      "sha256": "a0e8e634255a672530a7f4e28e5eafead3abd3d04f187b9f2a52bb9d16b48e52"
+    },
+    "life-changes/marriage/on-title-but-not-mortgage-what-does-it-mean.html": {
+      "size": 54977,
+      "sha256": "b522e1022d77b81bf13d826f547385045d67313cb8d69e128bc8105ca423c9e0"
+    },
+    "life-changes/marriage/should-i-add-my-spouse-to-the-title-of-my-house.html": {
+      "size": 51883,
+      "sha256": "d425c8720bd682a2a21a1fd096a0c4b55d06952a88cca325d6a5dcd42cb5ed50"
+    },
+    "life-changes/marriage/should-newlyweds-rent-or-buy-a-home.html": {
+      "size": 51367,
+      "sha256": "8cd86a68fa6ac2ca5394a4b6938e30aa25b625c127f1af72fd1c54f0b02541cf"
+    },
+    "life-changes/marriage/should-we-buy-a-house-after-getting-married.html": {
+      "size": 51541,
+      "sha256": "9757c1f2b1af5314bcd385d30e5b263dd11041c328f9800346f5f1bb131a0114"
+    },
+    "life-changes/marriage/should-we-buy-a-house-before-or-after-getting-married.html": {
+      "size": 53489,
+      "sha256": "4dc6caf198cee373d64d78cffba2598660f01422a29ab58f833f47e4d07b5657"
+    },
+    "life-changes/marriage/should-we-get-a-prenup-if-were-buying-a-house-together.html": {
+      "size": 53326,
+      "sha256": "e92d36428acbd667b41b39a0089f9de017334ddea396f83f82cf56e267a6e35b"
+    },
+    "life-changes/marriage/should-we-sell-both-homes-and-buy-one-together.html": {
+      "size": 51550,
+      "sha256": "7af13b59b1650f2f20995d42ed1f4debe330c54cbbf17762d445d91a364c2100"
+    },
+    "life-changes/marriage/should-you-buy-a-bigger-home-before-starting-a-family.html": {
+      "size": 51665,
+      "sha256": "3a0bffc1b3c61aaf3e36fef975144a65cab99d8fec23e96bc948304324d739e9"
+    },
+    "life-changes/marriage/what-happens-to-a-house-you-owned-before-marriage.html": {
+      "size": 51683,
+      "sha256": "0d7fe9c5a78cb0d4b312ac6d3c599ed3a5b1cf78cb1e5c100ee6af40deb2f1f9"
+    },
+    "life-changes/marriage/what-happens-to-the-house-if-we-get-divorced-later.html": {
+      "size": 53635,
+      "sha256": "fcd6c7eb212e3c7872027a9fd9bd0935eb89dbf658c69b90a2d7ad9324d93d34"
+    },
+    "life-changes/marriage/what-if-my-husband-already-owns-a-house-before-marriage.html": {
+      "size": 51886,
+      "sha256": "b7444db90faf28b54c7b6172199b513c62a820cb40f3adcba962b68d03b77152"
+    },
+    "life-changes/marriage/what-price-range-can-we-afford-together.html": {
+      "size": 51368,
+      "sha256": "916cd6fea83d4b4267b1d5780e3435da589372bb17bd4cd8309d026b30879fed"
+    },
+    "life-changes/marriage/whats-a-good-starter-home-for-a-newly-married-couple.html": {
+      "size": 52941,
+      "sha256": "7de0cc44aedc7d0c2590cd9619decd358ac6ca6e7c3076795661ab2deb819eef"
+    },
+    "life-changes/marriage/whose-name-should-go-on-the-house-title-if-were-not-married-yet.html": {
+      "size": 53641,
+      "sha256": "70deff700bdc4d383feaa4680a81afc236ba20914b6b6830c561ee2467616942"
+    },
+    "life-changes/relocation.html": {
+      "size": 72069,
+      "sha256": "5a4f1fdd53a11f080a39dda6260d168d6df7443419dd06663461fc84342e581a"
+    },
+    "life-changes/relocation/can-a-real-estate-agent-handle-everything-while-i-m-still-out-of-state.html": {
+      "size": 52401,
+      "sha256": "d5aba5e6bd2d03c27f6df220bce8bb6a6ba4043402361eadbc05efed6b10e19d"
+    },
+    "life-changes/relocation/can-i-buy-a-house-in-a-new-city-before-selling-my-current-one.html": {
+      "size": 52604,
+      "sha256": "4c28859795480fe639d4cc4d0f669bcd85f2c01297c46c99cb9d23d25403e58b"
+    },
+    "life-changes/relocation/can-i-buy-a-house-in-california-before-i-actually-move-there.html": {
+      "size": 52024,
+      "sha256": "6ea815606ee3f3085d1cb1946093fee9824d8d0b90aea9120d240fb071861aca"
+    },
+    "life-changes/relocation/can-i-buy-a-new-house-before-my-current-house-sells.html": {
+      "size": 52438,
+      "sha256": "8d74d667730d1358110cc9375185c95df5b2313be8aead0b0cb7a255861259c8"
+    },
+    "life-changes/relocation/how-do-i-find-a-good-neighborhood-in-a-city-ive-never-lived-in.html": {
+      "size": 52462,
+      "sha256": "9905af4494199d1c09514c586ba40a5dc3fc8e29728aef9197312ecd0688c8bf"
+    },
+    "life-changes/relocation/how-do-i-house-hunt-if-i-live-in-another-state.html": {
+      "size": 51929,
+      "sha256": "b2555673e4fb403a50db015bce072279cce71c50e0437aeef8f3a01960ecd735"
+    },
+    "life-changes/relocation/how-do-i-sell-my-house-and-buy-a-new-one-in-a-different-city-at-the-same-time.html": {
+      "size": 52667,
+      "sha256": "687bca137216b0e049d66685658ddc3972542da35fc4f5f1326b49e58b5d140e"
+    },
+    "life-changes/relocation/how-long-does-it-typically-take-to-sell-a-house-when-relocating-for-work.html": {
+      "size": 52715,
+      "sha256": "130dc6e74258176671ab915a1c2a66a0c8d569ae7f1c3fd64a1cb2bccd109486"
+    },
+    "life-changes/relocation/how-much-does-it-cost-to-move-across-the-country-with-a-house-full-of-furniture.html": {
+      "size": 52665,
+      "sha256": "47bbb4c0d2802ce2dbed0eff62d3110f71f7594afd1f92926911d9a0a2c8f092"
+    },
+    "life-changes/relocation/i-already-moved-and-my-old-house-still-hasn-t-sold-what-do-i-do.html": {
+      "size": 52032,
+      "sha256": "1406065c88b39cb891d611c21f6c53d9496ccade829dbb7f86b1cb84803e0f2d"
+    },
+    "life-changes/relocation/i-don-t-know-anything-about-the-area-i-m-moving-to-where-do-i-even-start.html": {
+      "size": 52258,
+      "sha256": "a53550a3063e337b3016d12a685902eb20e107be34e2347861916687e2583644"
+    },
+    "life-changes/relocation/i-have-to-move-in-a-few-months-should-i-sell-my-house-now.html": {
+      "size": 52390,
+      "sha256": "1741a9a4b3affa899c8defa173cf56495ab7ff5c46b1e0a77cc56571f647d39a"
+    },
+    "life-changes/relocation/i-just-got-a-job-in-california-how-do-i-figure-out-where-to-live.html": {
+      "size": 52623,
+      "sha256": "82118a033f8d234b88376d13a4d266783d661377c51756fc5cf1584b825a7c99"
+    },
+    "life-changes/relocation/i-m-moving-to-the-san-fernando-valley-what-areas-should-i-look-at.html": {
+      "size": 52095,
+      "sha256": "4f5cb386d1ed59a2f9a72b55802afc4874482dde80afc117c434b05f2715a2e4"
+    },
+    "life-changes/relocation/i-need-to-move-fast-for-work-how-quickly-can-i-buy-a-house.html": {
+      "size": 52046,
+      "sha256": "e4b96da2fb284e7490e68413d983756be5c68e9bd82c64f62019c3e97cf9b8a6"
+    },
+    "life-changes/relocation/is-it-better-to-rent-or-buy-right-away-after-relocating-for-a-job.html": {
+      "size": 52331,
+      "sha256": "85ebaf3e711b63c7c9f794cc75bebfd577602dc3e95d3010bed0ab4ad44ee300"
+    },
+    "life-changes/relocation/my-company-gave-me-a-relocation-package-how-do-i-use-it-to-buy-a-house.html": {
+      "size": 52083,
+      "sha256": "9ce935d445cfeac2b1e1c79f6c54adc26e4223ffffb3ab2b2a7deda41b1d748e"
+    },
+    "life-changes/relocation/my-job-is-moving-me-and-i-have-no-idea-what-to-do-with-my-house.html": {
+      "size": 52119,
+      "sha256": "1b9bc1f3a294d8f533fa044c31988ed4340ea0c0fe46befbcde199286137fd4c"
+    },
+    "life-changes/relocation/should-i-rent-first-when-i-move-or-just-buy.html": {
+      "size": 51719,
+      "sha256": "352f09c1ec80bdfc78f61be1153b38ef58c960622f3e137690214cde065ac627"
+    },
+    "life-changes/relocation/should-i-sell-my-house-before-i-find-a-new-one-out-of-state.html": {
+      "size": 52110,
+      "sha256": "4ab7c2e649083d0fe6464201249aecae53bf17dfb414f2a0ac34caf1e652882a"
+    },
+    "life-changes/relocation/should-i-use-the-same-agent-to-sell-my-old-house-and-buy-my-new-one.html": {
+      "size": 52852,
+      "sha256": "95a892605961ac16bd515ac712614adfaa10add53f0785c61704c78362205a8f"
+    },
+    "life-changes/relocation/what-happens-if-i-have-to-move-before-my-house-is-ready-to-sell.html": {
+      "size": 51960,
+      "sha256": "fddd047e4ef060c3a1473d5f3061699f7fa046e60254ee977e61b2b2983e6148"
+    },
+    "life-changes/relocation/what-if-i-need-the-money-from-my-current-house-to-buy-the-next-one.html": {
+      "size": 52525,
+      "sha256": "ca5327f6482f373ef1dabb98c27e2dabed01215e03bab42984ad81ae3e062696"
+    },
+    "life-changes/relocation/what-should-i-know-about-moving-to-the-san-fernando-valley-from-out-of-state.html": {
+      "size": 52887,
+      "sha256": "5374405915589a3e931a50cc6466daaccd39134b0ec414f03563209b9b2ef54d"
+    },
+    "life-changes/relocation/whats-a-bridge-loan-and-do-i-need-one-to-relocate.html": {
+      "size": 52527,
+      "sha256": "e4278dc6fb7edc9dc80f8dfdaa7b5121a6b8c402c8ad62a02ba35cca581c2403"
+    },
+    "life-changes/retirement.html": {
+      "size": 69316,
+      "sha256": "04c500bcc47459a5b0eba608ea6c3194d0ba2a261b080afb7b9e0694ca7e73ea"
+    },
+    "life-changes/retirement/can-i-afford-to-keep-my-house-after-i-stop-working.html": {
+      "size": 51347,
+      "sha256": "22226d565243ed6634d067022e31164ff216f85b40589842bd300756f87e51a0"
+    },
+    "life-changes/retirement/can-i-afford-to-stay-in-my-house-on-a-fixed-retirement-income.html": {
+      "size": 52502,
+      "sha256": "f7b3112ddbae385e23765dbb9f92548cca7e1621fc5151746ea83f0be74cd619"
+    },
+    "life-changes/retirement/can-i-use-my-home-equity-to-fund-my-retirement.html": {
+      "size": 51912,
+      "sha256": "e48b3bec4a45dd0cfdb469dc8cee3de120afcfdc3322d1df8aadcf2d8effce03"
+    },
+    "life-changes/retirement/can-i-use-the-equity-in-my-house-to-buy-another-home.html": {
+      "size": 52010,
+      "sha256": "c87d147c37b7c52ff2fc496165f1db4403ae12d265ee9c6409ac89fa01be2d73"
+    },
+    "life-changes/retirement/how-much-equity-should-i-have-in-my-home-before-retiring.html": {
+      "size": 52459,
+      "sha256": "e5eb775c3132662aa5ba3746d941c49efd5b51a67362aa8d36034506f6a1cf1b"
+    },
+    "life-changes/retirement/i-don-t-want-to-deal-with-a-big-house-anymore-what-are-my-options.html": {
+      "size": 51863,
+      "sha256": "924a8bf1dcf1b8c29511baf8953cfef3abd7b72999c137244908b7657839bd31"
+    },
+    "life-changes/retirement/i-have-a-lot-of-money-tied-up-in-my-house-what-should-i-do-with-it.html": {
+      "size": 51817,
+      "sha256": "9c921ea69e2d59db2a76e9c20d21c8f9d9b4bee063c62ade2adffaca04f3cabd"
+    },
+    "life-changes/retirement/i-m-retired-and-still-have-a-mortgage-is-that-a-bad-idea.html": {
+      "size": 51820,
+      "sha256": "a6e6769ae2a9c3139274a3157b971537b34feb730bd638eea9e5f8e9fb20e158"
+    },
+    "life-changes/retirement/i-m-retired-can-i-still-qualify-for-a-mortgage.html": {
+      "size": 51954,
+      "sha256": "9b3ac092498b1a277a3c1d92d8528ec2127bcc8bb702665974f5ad4fd529fb1a"
+    },
+    "life-changes/retirement/i-m-retiring-soon-should-i-sell-my-house.html": {
+      "size": 51554,
+      "sha256": "b529338d1c537eac0e9202db48d6423157826f6c14f551c11856508bdc8882f8"
+    },
+    "life-changes/retirement/i-want-to-move-closer-to-my-kids-when-i-retire-how-do-i-plan-that.html": {
+      "size": 51824,
+      "sha256": "dd3292b12b04e352cc3cb9d1717777f51218ca55b798134c2d05f0a0d5c1b4aa"
+    },
+    "life-changes/retirement/is-it-better-to-retire-in-california-or-move-somewhere-cheaper.html": {
+      "size": 52375,
+      "sha256": "dcd726f3420f091f8e4d39df136408fca70cb08b8dc35fa5e2f2f4f4eeba9d3e"
+    },
+    "life-changes/retirement/is-it-cheaper-to-rent-after-retirement.html": {
+      "size": 51801,
+      "sha256": "6b8046a3c49f0c162932255ff37f46c0140b3336064dc1b2abd9dea7b1487453"
+    },
+    "life-changes/retirement/is-it-smart-to-downsize-right-when-i-retire.html": {
+      "size": 52045,
+      "sha256": "245c5190dca0472fa634dc3a4265f0152e49bfb5ff5c9110858e3a748c21a74a"
+    },
+    "life-changes/retirement/should-i-buy-a-one-story-home-before-i-get-older.html": {
+      "size": 51943,
+      "sha256": "46228e1858901d788c1a6d607f4c49a35c0469b386537dcd23403e99cddb55af"
+    },
+    "life-changes/retirement/should-i-downsize-when-i-retire.html": {
+      "size": 51208,
+      "sha256": "da92941e52c6dd2b088a5385f2fe8953142c364449fceaecdd190c1cba267ba9"
+    },
+    "life-changes/retirement/should-i-move-closer-to-my-kids-or-grandkids-when-i-retire.html": {
+      "size": 52104,
+      "sha256": "da1c4dbbfb0df0923e9643f4b9eb6e6330ae1fb69dfc279d110076375b830a95"
+    },
+    "life-changes/retirement/should-i-pay-off-my-house-before-i-retire.html": {
+      "size": 51389,
+      "sha256": "0183809eace42c37ff8d90d4b523ca94a693b7ba6ed53d211560ae3a7622713d"
+    },
+    "life-changes/retirement/should-i-pay-off-my-mortgage-before-i-retire.html": {
+      "size": 51947,
+      "sha256": "f8446671a4446f7c677aad33d97216f3fe8eb71dfebe37152e708f48298838c0"
+    },
+    "life-changes/retirement/should-i-sell-my-california-house-and-move-somewhere-cheaper.html": {
+      "size": 51628,
+      "sha256": "c17fc53362f3002332efd7361aa55a8f2406f027bfe61b534928fb3186b744b1"
+    },
+    "life-changes/retirement/should-i-sell-my-house-and-rent-instead-once-im-retired.html": {
+      "size": 52243,
+      "sha256": "416e6cd3340141751520f6718156b1c616d9dfbfd2fe5ea4f21e6add2401460c"
+    },
+    "life-changes/retirement/what-are-the-best-low-maintenance-homes-for-retirees.html": {
+      "size": 52250,
+      "sha256": "32d325d226fd18a208ab31d6acdea5f2dbe209d90e3ec86a2775381000ab739f"
+    },
+    "life-changes/retirement/what-if-i-retire-and-then-realize-i-can-t-afford-my-house-anymore.html": {
+      "size": 52155,
+      "sha256": "d1b99d86ec8d552f907fc9ee2dd7230c4fea224315b6664f28268e347bd17f4c"
+    },
+    "life-changes/retirement/what-is-a-reverse-mortgage-and-is-it-a-good-idea-for-retirees.html": {
+      "size": 52629,
+      "sha256": "5e94978ad9367ae0e7ec54c17f6bae8bc550adb4ce66752efddea2435e119a62"
+    },
+    "life-changes/retirement/what-kind-of-house-makes-sense-as-i-get-older.html": {
+      "size": 51567,
+      "sha256": "4f450348743a3daa46902a161c25201e30508eed50955fd2590d3c7b80c37e3f"
+    },
+    "llms.txt": {
+      "size": 2393,
+      "sha256": "ea87ff61b918e8c2e5d24b378acb3bf01356c6c796426b09cc051a2a29fa6893"
     },
     "loan-homebuyer-programs.html": {
-      "size": 46498,
-      "sha256": "abf6ddaa60bf5ba02fb906afcffc9c673a7f85bf903930dc5a2a369193a45dca"
+      "size": 48793,
+      "sha256": "790371f5f0aefc0b2c43b468de1facd53c4c428214d47737015b07d82c17dbb8"
+    },
+    "portfolio-a-comfy-rodeo.html": {
+      "size": 49479,
+      "sha256": "c1ed43aa0b8398d449a4c1b9f31ce534edd7850b97446d6dfe62cddb0852ce02"
+    },
+    "portfolio-a-luxurious-touch.html": {
+      "size": 51350,
+      "sha256": "418839532823354981d27ec049cc2b94e628a04be23225126341f1a808a270da"
+    },
+    "portfolio-a-record-retreat.html": {
+      "size": 281638,
+      "sha256": "37c731d6d6541162c31055fe810c589c75190ee563cd993d479331ae2795e251"
+    },
+    "portfolio-before-afters.html": {
+      "size": 51577,
+      "sha256": "d73d755c9c95918faebdd3b1d04add29d2458cfba08eeec9541e6e51cdc715b4"
+    },
+    "portfolio-bungalow-blues-bedrooms.html": {
+      "size": 288067,
+      "sha256": "87d23cff037247a68e09686f6ccfb4e50ed9a1aa4e595a21b2fe9f11357c1c8b"
+    },
+    "portfolio-bungalow-blues-living.html": {
+      "size": 293448,
+      "sha256": "dfcf8ffae12bdf3153d15dc6e2b3d834461ad6381a9e836f3668861d1dda8c76"
+    },
+    "portfolio-guest-bedroom.html": {
+      "size": 60546,
+      "sha256": "cbfa3865da08ba7782d9869d2c501c5c92810a3a7ccc25dcdcf22a813b6872c8"
+    },
+    "portfolio-suburban-kitchen-update.html": {
+      "size": 57095,
+      "sha256": "4fabf4bfd37899f7f587c004771f1682bf86712a9f35280c2b7d9e3d34ca36f2"
+    },
+    "portfolio-suburban-living-room.html": {
+      "size": 59118,
+      "sha256": "f1bf58113bcbf349778435d81fcdc385b701e937b819df5bec3c5d85ea3dd141"
+    },
+    "portfolio-sun-lit-modern-home.html": {
+      "size": 61083,
+      "sha256": "7bb0c147a3f4fb1316d43e94b36fa1d406d3c707b078da9654e9a9522ebe829a"
+    },
+    "portfolio-the-red-door.html": {
+      "size": 52544,
+      "sha256": "2b01019e1d7ca816ba4bfcc6191fb552e62381b0118e94c8f3018629cddeace6"
+    },
+    "portfolio-warm-desert-bedrooms.html": {
+      "size": 52666,
+      "sha256": "bd706d9caa2b3fcd3c4d0ce7ca69cfccfb876a71b81ec66061f15523cd0e4b29"
     },
     "portfolio.html": {
-      "size": 46186,
-      "sha256": "c7daa981ae8375b53cf6cb9e6304ff502b1e213bc15d39f1658e3aa2d2b8f30c"
+      "size": 46351,
+      "sha256": "b2c150c327c44a93d34b1bc196fae089ca493e6e11c753af0a0ff468af71f2d3"
     },
     "preapproval-documents.html": {
-      "size": 17225,
-      "sha256": "4c4eb89288ff00f5380a777eae901f7eed4d976d812e915809e73c6607f018d5"
+      "size": 19284,
+      "sha256": "70796abcafbbabd7208e4817141900b109ca84ca3fa297e3498089d6684cf001"
     },
     "preapproval-vs-prequalification.html": {
-      "size": 17522,
-      "sha256": "f18196e8c76e97ab4e8139027ff8d0694d002da2c437c84bb585ab659023d4fd"
+      "size": 19591,
+      "sha256": "1f205cb7f5df99950591c02fb319fd2686804960394280ce9ffe850c9f3def38"
     },
     "project-hosea.html": {
-      "size": 297628,
-      "sha256": "c3534ba2e83911278619574ee5a1bbf5b7249c2f3f6b2bdab5cb20736045dd03"
+      "size": 280687,
+      "sha256": "f9b9669f8d26304d8c744a5dcdab7f07f0a8f523b4ffbd9136a7264ca8bde0d3"
     },
     "project-parker.html": {
-      "size": 59580,
-      "sha256": "7f951e3bfdca149ea1c728764756b19a194a13130c9a400cbdc68b83fe64502a"
+      "size": 51531,
+      "sha256": "4a24ce795d1020cd275e4b34637110c2fecb7691c2648c6a5aa37262595879d1"
     },
     "project-sun-lit-modern-home.html": {
-      "size": 59181,
-      "sha256": "b046741810826e99e56c928921dc7ea8f78a23bacc71b23b9b362f776ed228b7"
+      "size": 48407,
+      "sha256": "8d8bc340e4c56e47040055294176858127fba98b83d02626a3e327bb48de1dee"
     },
     "project-the-red-door.html": {
-      "size": 59138,
-      "sha256": "273eb04ca72b24a25993beccf5947ca73854420a6f63174154f57b47c64615ca"
+      "size": 47779,
+      "sha256": "e8a94609c6d271afdcfc8d0b83c3fe52cf337925c95de8dc473fad446a3c6e91"
     },
     "property-management.html": {
-      "size": 290845,
-      "sha256": "01d79fb3115e67bc227b212cee208d2beb72e2f0347a6a1c719770b9a64309e5"
+      "size": 291146,
+      "sha256": "712a54664df319202646f3602f3a1bb5ee388aea8ab9bd6396588256cc27e1fc"
     },
     "questions.html": {
-      "size": 58817,
-      "sha256": "4478d2f034482a0e422cc14fb3a06f44d401c33f2535ff2dea1ff5b3f9a60cc3"
+      "size": 62310,
+      "sha256": "c27c5e72c5ea98d0768daa4feb1d001a4292c9afaf52a97def2c58db784ef295"
     },
     "real-estate.html": {
-      "size": 47187,
-      "sha256": "a299cef29a1c25bc4ecc992beb9d9761a5a8630cb757ba99d1acdbae35af2e87"
+      "size": 47581,
+      "sha256": "d09fec3cabb1ab481b9f3c31a64b43a1b1293d234ff2c228e545e8d49b19b7c5"
     },
     "renovation-loans.html": {
-      "size": 17386,
-      "sha256": "36cbf9ff57ea2e07efdaeafbfebf443a873be85c82a63876491fe139db3e22c7"
+      "size": 19455,
+      "sha256": "9a4cd651b106a021021f058f9a15defa15e882198cab1d17154a950dd4fad066"
     },
     "residential-design.html": {
-      "size": 52047,
-      "sha256": "ae0bfbea1f3901ec403d9a98516f777c7d122874438279c52940790e47468519"
+      "size": 52553,
+      "sha256": "25b34d11f7a998cde5634e0dd9a0b076cbd1ad813ec6ac5632e766e81a4478bd"
     },
     "reviews.html": {
-      "size": 66655,
-      "sha256": "07be7b320378d1265d831b47a6351d8501bcad701b88070fa1831c19b11450b7"
+      "size": 66434,
+      "sha256": "9bb7deebc9146fc5ceebb4500fddaceeafc1a24fe6d96bb2792806b5747ae106"
     },
     "robots.txt": {
       "size": 65,
       "sha256": "e99cccc774f9fe0fd7fe87a4f30d39b4dc042ac7c78d974bb96ab7e938ad46aa"
     },
     "search.html": {
-      "size": 55783,
-      "sha256": "3f7e2d0cba271dedd739ab773bed6d07b9eebb8eb8cba14985d0303b6756f03f"
+      "size": 56478,
+      "sha256": "e82a0b9bc0010b7589c6e633ed820494a1afdc017c612daf37a3b8e48b91e27d"
     },
     "sell-a-home.html": {
-      "size": 21260,
-      "sha256": "2ef466656dd45aed971e8fe54c36d7b7650a35bdfb814971565490039e9a3d38"
+      "size": 23801,
+      "sha256": "9fcaec6b91f7bab779f63fbbe332b8c0f3171cca60a06333c8add85471e28d9d"
     },
     "sell-free-home-valuation.html": {
-      "size": 15188,
-      "sha256": "5316a5ce5148c190cbfea3bf03be58313b78386afbb1816e0d68a2c53a30412a"
+      "size": 17328,
+      "sha256": "18ce7c57e07b75b5b54163bcfe6add7475bfe4d8219ea205fa8092c0ceab5db4"
     },
     "sell-home-staging-prep.html": {
-      "size": 26320,
-      "sha256": "a94e468c3d029455662c28a2d88f77f30488e0d56edb8b6c540b7cdf2fd9612e"
+      "size": 28802,
+      "sha256": "b63abfa2ba064a060a953f5fecc10750e7bad7b89addeaf9d1df7ac8d431d5bb"
     },
     "sell-marketing-your-property.html": {
-      "size": 29330,
-      "sha256": "e45cc384671e35f40833d3ffe98f1941700ac56636af724f3209882eeef2d791"
+      "size": 32379,
+      "sha256": "c60138aa1dd14ad0eb34baf19ae89f40f22737b5291c5a77db74464d48bdac5c"
     },
     "seller-consultation.html": {
-      "size": 14682,
-      "sha256": "fac86306f6d2648813e201530076ba554bf41a558d8dfef858334e3f24410136"
+      "size": 16829,
+      "sha256": "921de5a5d77f86d6f1e1734d3e70f3e60152af2f20d38ecf403a1f56b1d45f6a"
     },
     "seller-question-downsizing-before-listing.html": {
-      "size": 17471,
-      "sha256": "c2b9dae275b93e42ccd4edbbec40b32dc017e2b324dc7eb70a83f0086870843f"
+      "size": 19654,
+      "sha256": "195cf251a0347b16cd0f59c735c6e76a2bf47452c5a6a0699fd88a96f8e502b2"
     },
     "seller-question-downsizing-how-long-to-sell.html": {
-      "size": 17597,
-      "sha256": "a99086a3c2777258e0218171ed299ed056b9afecc2e6665381c06e9851ded90c"
+      "size": 19762,
+      "sha256": "e6400e966a31d5a1d368b54622f980e40d1b20177263d25aa6028e87fe9da32a"
     },
     "seller-question-hoa-documents-before-listing.html": {
-      "size": 17178,
-      "sha256": "f221aaba14c93b772d58c0887f9ea1ec81f1e185ef12e55dd4235c1853770c53"
+      "size": 19317,
+      "sha256": "e7a932b41fd2185ff93834e70b0815554dafaddf39261b9dadc8b29ee1ae0e8c"
     },
     "seller-question-move-up-now-or-wait.html": {
-      "size": 17392,
-      "sha256": "35fc3760cae01784905247e659551f751c65ca004be7702dc3e8ebec36293a23"
+      "size": 19547,
+      "sha256": "9831a03f03516e8a447d7839a44f0eaecaa528bd27797d94b9ee7a0af35326e6"
     },
     "seller-question-net-proceeds.html": {
-      "size": 17268,
-      "sha256": "b4ce190ae43718e95ae811698fc1c998066aa3c87ece3fe1a40fa13450486e7e"
+      "size": 19393,
+      "sha256": "153bbd6b79012454ce55da8b918b5ef10c99d93fb9e881da8f19a11c94418aa3"
     },
     "seller-question-preparing-to-sell-next-year.html": {
-      "size": 17462,
-      "sha256": "e1a7b71a244f45ff646dc0af942d1f1e5c561c4a67f9f05ced192f7c8f3352bb"
+      "size": 19632,
+      "sha256": "1ea64659aa145cb44c203b460c74566f91371fc34d301ee9a8f15dfe8e0c3d61"
     },
     "seller-question-sell-and-buy-avoid-two-homes.html": {
-      "size": 17356,
-      "sha256": "0458f15848f827ab5e1e745c906f49143f3371edcf45950a5a640eeff96613d5"
+      "size": 19522,
+      "sha256": "8b7cf0168d0f55bbf1a52e75bfbdac3cd00def9844476cbba022a79c21f98006"
     },
     "seller-question-updates-worth-doing.html": {
-      "size": 17326,
-      "sha256": "bd7290396477401f5bc889175b6b28ac625353563703b895d7e775deaafdfec4"
+      "size": 19472,
+      "sha256": "147ab82156a73ead6b4ea51728fee52d56176e5009544a8f6a4be189a051154a"
     },
     "seller-questions.html": {
-      "size": 47813,
-      "sha256": "5e0fe16370c5c1af4d3935967c45a1130629e769e0b9674266bace02f147308b"
-    },
-    "short-term-rental-questions/airbnb-listing-not-getting-bookings.html": {
-      "size": 47861,
-      "sha256": "fac061b52fbbad0a9a94b49f5c07c4cd93375b23b1aa015e8356e3f481597f41"
-    },
-    "short-term-rental-questions/find-local-oversight-for-distant-rental.html": {
-      "size": 47680,
-      "sha256": "2f161888ad5d4f49e59354278acf0bb08aa19e5f3d7b34b982b794594684723a"
-    },
-    "short-term-rental-questions/how-to-find-a-property-manager.html": {
-      "size": 47685,
-      "sha256": "2fc785e4b64b75beebf4d45ad9df74b5622118edee5829d41a0d8d8174033e33"
-    },
-    "short-term-rental-questions/protect-home-and-belongings-with-guests.html": {
-      "size": 48529,
-      "sha256": "c5be533c13e4dc37051dd1397fd1244c72a4e506503eac1047cd49ce9c70ae67"
-    },
-    "short-term-rental-questions/rent-occasionally-and-stay-yourself.html": {
-      "size": 48510,
-      "sha256": "cfb3296bc9b836fc2fbfadaac3fe1e43d15a5f29d8c751d55e55ccf65afe6dd6"
-    },
-    "short-term-rental-questions/someone-to-look-after-house-while-away.html": {
-      "size": 48136,
-      "sha256": "fd3a35185ab12bd0020bdc1f6a5f50d95778c9a9a8790bc44d25d4177a9a0764"
-    },
-    "short-term-rental-questions/where-to-post-room-for-rent.html": {
-      "size": 47854,
-      "sha256": "fbc92472b380fd8f85fc5cc8aa2dc6e09749e1ebba84f875a69daa3d8e12c8a0"
+      "size": 50237,
+      "sha256": "e28f97ada8a0dc4674d312b656974602315210522f67d7442d468045656e1bae"
     },
     "short-term-rental-questions.html": {
-      "size": 57757,
-      "sha256": "e97081dba0c196e1acd4987b32686e11e5102816918cd9469c22940ebc5dcda8"
+      "size": 58145,
+      "sha256": "def3b2bf4007fba058b196b9f1a0750d845184f61785dd539ef68b135a816cd1"
+    },
+    "short-term-rental-questions/airbnb-listing-not-getting-bookings.html": {
+      "size": 49747,
+      "sha256": "2c742e7aa18361adf17617e77a7446f5f8f238a9b3763f01bf09baafb5551ed8"
+    },
+    "short-term-rental-questions/find-local-oversight-for-distant-rental.html": {
+      "size": 49566,
+      "sha256": "40a627e14efedeaafb38689228a8733a386c66f96b7f626abd247cd83080d209"
+    },
+    "short-term-rental-questions/how-to-find-a-property-manager.html": {
+      "size": 49578,
+      "sha256": "d88b6d2d6f21180b017e8684da2e5aaa861b8da653f747554f9c9c84dec1d408"
+    },
+    "short-term-rental-questions/protect-home-and-belongings-with-guests.html": {
+      "size": 50415,
+      "sha256": "e663f8ce5d942e366b657295f6b305346c459eee4ffd6459e5f1b90118f925cd"
+    },
+    "short-term-rental-questions/rent-occasionally-and-stay-yourself.html": {
+      "size": 50396,
+      "sha256": "17e391a38224c80b4b092198a5bee0839708d66f95c6fd573dcde99f3f7b6cab"
+    },
+    "short-term-rental-questions/someone-to-look-after-house-while-away.html": {
+      "size": 50022,
+      "sha256": "e62c32c9bddca28eb1cb09a520724f8743cda98f9fe7873e91bf3ca1f620573f"
+    },
+    "short-term-rental-questions/where-to-post-room-for-rent.html": {
+      "size": 49745,
+      "sha256": "3d1987725c5350bfcfe0f26b6ac5c197f32141a39513687475d82f7d72260462"
     },
     "sitemap.xml": {
-      "size": 43381,
-      "sha256": "fb2fe8d78ada056a607763edcf0edb8432670a2dc86fa092a1bd4f1997d37e6e"
+      "size": 45581,
+      "sha256": "a4dfaa72a98f1d197406f3c09b793fd542692e8c7e5f10cc42ff72d439e34323"
     },
     "usda-loans.html": {
-      "size": 17327,
-      "sha256": "fb10ba9e9224923fc48ba9ba2716272078a620c9b2f74870b8a0ac418b551b59"
+      "size": 19390,
+      "sha256": "21c91665114edfc9625c342912a5f4b6e393834f216db952796358cd8df06e5d"
     },
     "va-loans.html": {
-      "size": 17346,
-      "sha256": "445de5197138737a20e5501e64c9ba008e1b2c2e37719cdee9165c17e8e00702"
+      "size": 19407,
+      "sha256": "f591f15d6e359680c400a1c9fb4aad4403f5b9f8e01feb873cefb9792ece52e0"
     },
     "valley-guide-east.html": {
-      "size": 50917,
-      "sha256": "f2b67e31c0672776ed1b5eafe268691d3c59ccc058ee6b60e6806f1bf775e253"
+      "size": 50963,
+      "sha256": "f3caec6c22a2ad6f5da2f4c56545b196aa28b32dcc563b18e1032e037bd13c23"
     },
     "valley-guide-north.html": {
-      "size": 51475,
-      "sha256": "60985a36594999662eab9f23c5a10f1d9f679437db58d05ac17a09660805585e"
+      "size": 51392,
+      "sha256": "59ffd54b6a2844d5957cb0ac7f5c02afe560120eca2b588b81a1b2c0fcc568a2"
     },
     "valley-guide-south.html": {
-      "size": 49846,
-      "sha256": "38c43805fec4cbb8dda31d03f6e681089fdb0e0b5a262f79906f6d9a9369399b"
+      "size": 50101,
+      "sha256": "850b3f35e72de5a89d181f59bd805a85d7e8b6b9de6b163e3645f07957160483"
     },
     "valley-guide-west.html": {
-      "size": 50360,
-      "sha256": "20eb3fbfc8d730af395fb89f10d513c85272141ff498b6c5993024f2282a6ac1"
+      "size": 50511,
+      "sha256": "a9169f700e0e67a60ae1560d06f6a1c0fcb013756924f0c9fa46b0357a272d19"
     },
     "what-price-range-can-i-afford.html": {
-      "size": 17505,
-      "sha256": "162408fab4017524b0f25932dec1c5a7b88b61cab78e18a7046fd4562a674ff1"
+      "size": 19568,
+      "sha256": "1416fce7ed6d7bdaf4c8f027a7832a30613e01064feaff8daa5debff74eaf315"
     }
   }
 }

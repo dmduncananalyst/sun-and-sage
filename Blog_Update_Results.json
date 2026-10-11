@@ -1,0 +1,71 @@
+{
+  "posts": 18,
+  "files": 20,
+  "new_posts": [
+    "blog-california-condo-crisis-sb326-2026.html",
+    "blog-los-angeles-short-term-rental-rules-2026.html",
+    "blog-how-to-stage-a-living-room.html"
+  ],
+  "dates": {
+    "blog-how-to-stage-a-living-room.html": "2026-10-10",
+    "blog-los-angeles-short-term-rental-rules-2026.html": "2026-10-09",
+    "blog-california-condo-crisis-sb326-2026.html": "2026-10-08",
+    "blog-having-children-in-your-40s.html": "2026-10-07",
+    "blog-401k-matters.html": "2026-10-06",
+    "blog-is-it-time-for-divorce.html": "2026-10-05",
+    "blog-why-budgeting-matters.html": "2026-10-04",
+    "blog/studio-city-or-valley-village-which-one-should-i-choose.html": "2026-10-03",
+    "blog/van-nuys-or-reseda-which-one-should-i-choose.html": "2026-10-02",
+    "blog/is-my-property-a-good-fit-for-airbnb.html": "2026-10-01",
+    "blog/homeschool-or-public-school.html": "2026-09-30",
+    "blog/coffee-or-tea.html": "2026-09-29",
+    "blog/can-the-dodgers-do-a-threepeat.html": "2026-09-28",
+    "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html": "2026-09-27",
+    "blog/the-different-leagues-of-college-football.html": "2026-09-26",
+    "blog/places-to-eat-san-fernando-valley.html": "2026-09-25",
+    "blog/halloween-san-fernando-valley-2026.html": "2026-09-24",
+    "blog/trick-or-treating-san-fernando-valley-2026.html": "2026-09-23",
+    "blog/can-the-dodgers-do-a-threepeat-2026.html": "2026-09-28",
+    "blog/football-season-sofi-stadium-2026.html": "2026-09-27"
+  },
+  "order": [
+    "blog-how-to-stage-a-living-room.html",
+    "blog-los-angeles-short-term-rental-rules-2026.html",
+    "blog-california-condo-crisis-sb326-2026.html",
+    "blog-having-children-in-your-40s.html",
+    "blog-401k-matters.html",
+    "blog-is-it-time-for-divorce.html",
+    "blog-why-budgeting-matters.html",
+    "blog/studio-city-or-valley-village-which-one-should-i-choose.html",
+    "blog/van-nuys-or-reseda-which-one-should-i-choose.html",
+    "blog/is-my-property-a-good-fit-for-airbnb.html",
+    "blog/homeschool-or-public-school.html",
+    "blog/coffee-or-tea.html",
+    "blog/can-the-dodgers-do-a-threepeat.html",
+    "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html",
+    "blog/the-different-leagues-of-college-football.html",
+    "blog/places-to-eat-san-fernando-valley.html",
+    "blog/halloween-san-fernando-valley-2026.html",
+    "blog/trick-or-treating-san-fernando-valley-2026.html"
+  ],
+  "images": [
+    {
+      "file": "blog-california-condo-crisis-sb326-2026.html",
+      "image": "assets/blog-condo-202610-v2.webp",
+      "alt": "Illustrative California condominium building with balconies and landscaped grounds.",
+      "source": "generated_images/exec-c1e25489-b826-416d-b99f-49c104c0e671.png"
+    },
+    {
+      "file": "blog-los-angeles-short-term-rental-rules-2026.html",
+      "image": "assets/blog-rental-202610-v2.webp",
+      "alt": "Illustrative Los Angeles rental home with an inviting garden terrace and pool at sunset.",
+      "source": "generated_images/exec-ad9b18f6-9030-4b9e-baf3-8ac97a526d58.png"
+    },
+    {
+      "file": "blog-how-to-stage-a-living-room.html",
+      "image": "assets/blog-staging-202610-v2.webp",
+      "alt": "Illustrative interior stylist arranging cushions on a sofa in a thoughtfully staged living room.",
+      "source": "generated_images/exec-84063867-f6b9-42b6-8499-d92c710689cd.png"
+    }
+  ]
+}

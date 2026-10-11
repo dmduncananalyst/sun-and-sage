@@ -1,0 +1,15 @@
+/* Door geometry and appearance come from Dominique_Complete_Portfolio_Photos_Restored.zip.
+   Only stabilize initial header measurement and the opening/video handoff. */
+:root{--ss-header-height:150px}
+@media(max-width:820px){:root{--ss-header-height:170px}}
+html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero{max-height:calc(100svh - var(--ss-header-height))!important;min-height:0!important;overflow-anchor:none!important;transition:none!important}
+html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero .doors{animation:none!important}
+html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero.ss23-opening .doors>div{animation-play-state:running!important}
+html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero>.videoHeroTitle{opacity:0!important;transition:opacity .25s ease!important}
+html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero.ss23-doors-finished>.videoHeroTitle{opacity:1!important}
+@media(max-width:760px),(max-width:1023px) and (orientation:landscape) and (pointer:coarse){
+ html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero>video{transition:clip-path .25s ease!important}
+ html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero.ss23-doors-finished>video{clip-path:inset(0px)!important}
+ html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero::after{transition:opacity .25s ease!important}
+ html body main#main#main#main#main#main.ss22-home .videoHero.v15-video-hero:not(.ss23-doors-finished)::after{opacity:0!important}
+}

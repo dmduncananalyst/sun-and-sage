@@ -1,4 +1,4 @@
-/* Sun and Sage: complete editorial composition system */
+/* Dominique Duncan-Nelson: complete editorial composition system */
 html body.ss18{--ss-ink:#30382e;--ss-paper:#f5f3ed;--ss-sage:#626e58;--ss-line:#d5d8cd;font-family:Arial,Helvetica,sans-serif!important;color:var(--ss-ink);background:var(--ss-paper)}
 html body.ss18 :is(main,footer,header,nav) :is(p,a,button,span,li,dt,dd,input,select,textarea,label,figcaption){font-family:Arial,Helvetica,sans-serif!important}
 html body.ss18 main :is(h1,h2,h3,h4,h5,h6),html body.ss18 main :is(h1,h2,h3,h4) :is(span,em,strong){font-family:Georgia,'Times New Roman',serif!important;font-style:normal!important;font-weight:400!important;letter-spacing:-.035em}

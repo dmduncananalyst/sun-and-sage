@@ -1,4 +1,4 @@
-/* Sun and Sage / San Fernando Valley. One visual system across all page families. */
+/* Dominique Duncan-Nelson / San Fernando Valley. One visual system across all page families. */
 :root{--ss-paper:#f8f7f3;--ss-mist:#e8e9e1;--ss-ink:#30382e;--ss-muted:#5b6651;--ss-green:#48533e;--ss-rule:#cdd1c3;--ss-measure:1280px}
 #main{color:var(--ss-ink)!important;background:var(--ss-paper)!important}
 #main :is(h1,h2,h3,h4,h5,h6){color:var(--ss-ink)!important;font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;font-weight:400!important;text-align:center!important;text-wrap:balance!important;letter-spacing:-.025em!important}

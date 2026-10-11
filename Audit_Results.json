@@ -1,9 +1,9 @@
 {
   "date": "2026-10-10",
   "static": {
-    "pages": 324,
-    "article_pages": 254,
-    "links_checked": 36438,
+    "pages": 339,
+    "article_pages": 257,
+    "links_checked": 36682,
     "missing": [],
     "fragments": [],
     "blank": [],
@@ -14,7 +14,7 @@
     "duplicate_card_photos": [],
     "card_article_mismatches": [],
     "body_styles": [],
-    "cards": 253,
+    "cards": 256,
     "blog_dates": [],
     "blog_bylines": []
   },
@@ -39,25 +39,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -70,25 +70,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -101,25 +101,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -132,25 +132,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -163,25 +163,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -194,25 +194,25 @@
       "captions": [
         {
           "text": "01   Furnished stays",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "02   Guest ready details",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "03   Interior presentation",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         },
         {
           "text": "04   Booking support",
-          "background": "rgba(48, 56, 46, 0.75)",
+          "withinPhoto": true,
           "withinViewport": true,
           "titleOverlap": false
         }
@@ -268,5 +268,1394 @@
       "missing": [],
       "failed": []
     }
-  ]
+  ],
+  "portfolio": [
+    {
+      "parent": "project-hosea.html",
+      "width": 1440,
+      "cards": [
+        {
+          "href": "portfolio-bungalow-blues-living.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-bungalow-blues-bedrooms.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-record-retreat.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-bungalow-blues-living.html",
+      "width": 1440,
+      "photos": 13,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-bungalow-blues-bedrooms.html",
+      "width": 1440,
+      "photos": 10,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-record-retreat.html",
+      "width": 1440,
+      "photos": 6,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-parker.html",
+      "width": 1440,
+      "cards": [
+        {
+          "href": "portfolio-guest-bedroom.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-suburban-living-room.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-suburban-kitchen-update.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-before-afters.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-guest-bedroom.html",
+      "width": 1440,
+      "photos": 4,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-suburban-living-room.html",
+      "width": 1440,
+      "photos": 3,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-suburban-kitchen-update.html",
+      "width": 1440,
+      "photos": 5,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-before-afters.html",
+      "width": 1440,
+      "photos": 5,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-sun-lit-modern-home.html",
+      "width": 1440,
+      "cards": [
+        {
+          "href": "portfolio-sun-lit-modern-home.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-warm-desert-bedrooms.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-comfy-rodeo.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-sun-lit-modern-home.html",
+      "width": 1440,
+      "photos": 7,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-warm-desert-bedrooms.html",
+      "width": 1440,
+      "photos": 8,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-comfy-rodeo.html",
+      "width": 1440,
+      "photos": 3,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-the-red-door.html",
+      "width": 1440,
+      "cards": [
+        {
+          "href": "portfolio-the-red-door.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-luxurious-touch.html",
+          "height": 619.78125,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-the-red-door.html",
+      "width": 1440,
+      "photos": 11,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-the-red-door.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-luxurious-touch.html",
+      "width": 1440,
+      "photos": 9,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-the-red-door.html",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "missing": [],
+      "errors": []
+    },
+    {
+      "parent": "project-hosea.html",
+      "width": 393,
+      "cards": [
+        {
+          "href": "portfolio-bungalow-blues-living.html",
+          "height": 517.09375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-bungalow-blues-bedrooms.html",
+          "height": 517.09375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-record-retreat.html",
+          "height": 517.09375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-bungalow-blues-living.html",
+      "width": 393,
+      "photos": 13,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-bungalow-blues-bedrooms.html",
+      "width": 393,
+      "photos": 10,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-record-retreat.html",
+      "width": 393,
+      "photos": 6,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-hosea.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-parker.html",
+      "width": 393,
+      "cards": [
+        {
+          "href": "portfolio-guest-bedroom.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-suburban-living-room.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-suburban-kitchen-update.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-before-afters.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-guest-bedroom.html",
+      "width": 393,
+      "photos": 4,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-suburban-living-room.html",
+      "width": 393,
+      "photos": 3,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-suburban-kitchen-update.html",
+      "width": 393,
+      "photos": 5,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-before-afters.html",
+      "width": 393,
+      "photos": 5,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-parker.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-sun-lit-modern-home.html",
+      "width": 393,
+      "cards": [
+        {
+          "href": "portfolio-sun-lit-modern-home.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-warm-desert-bedrooms.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-comfy-rodeo.html",
+          "height": 543.484375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-sun-lit-modern-home.html",
+      "width": 393,
+      "photos": 7,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-warm-desert-bedrooms.html",
+      "width": 393,
+      "photos": 8,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-comfy-rodeo.html",
+      "width": 393,
+      "photos": 3,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-sun-lit-modern-home.html",
+      "overflow": false
+    },
+    {
+      "parent": "project-the-red-door.html",
+      "width": 393,
+      "cards": [
+        {
+          "href": "portfolio-the-red-door.html",
+          "height": 510.984375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        },
+        {
+          "href": "portfolio-a-luxurious-touch.html",
+          "height": 510.984375,
+          "loaded": true,
+          "fit": "fill",
+          "visible": true
+        }
+      ],
+      "menu": "ResidentialCommercialPortfolio",
+      "tabs": 0,
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-the-red-door.html",
+      "width": 393,
+      "photos": 11,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-the-red-door.html",
+      "overflow": false
+    },
+    {
+      "gallery": "portfolio-a-luxurious-touch.html",
+      "width": 393,
+      "photos": 9,
+      "failed": [],
+      "lightbox": true,
+      "back": "project-the-red-door.html",
+      "overflow": false
+    },
+    {
+      "width": 393,
+      "missing": [],
+      "errors": []
+    }
+  ],
+  "room_card_spacing": [
+    {
+      "name": "project-hosea.html",
+      "width": 1440,
+      "cards": [
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-parker.html",
+      "width": 1440,
+      "cards": [
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-sun-lit-modern-home.html",
+      "width": 1440,
+      "cards": [
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-the-red-door.html",
+      "width": 1440,
+      "cards": [
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 619.78125,
+          "photoHeight": 450.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-hosea.html",
+      "width": 393,
+      "cards": [
+        {
+          "height": 517.09375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 517.09375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 517.09375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-parker.html",
+      "width": 393,
+      "cards": [
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-sun-lit-modern-home.html",
+      "width": 393,
+      "cards": [
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 543.484375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-the-red-door.html",
+      "width": 393,
+      "cards": [
+        {
+          "height": 510.984375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 510.984375,
+          "photoHeight": 234.75,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-hosea.html",
+      "width": 320,
+      "cards": [
+        {
+          "height": 574.015625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 574.015625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 574.015625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-parker.html",
+      "width": 320,
+      "cards": [
+        {
+          "height": 600.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 600.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 600.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 600.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-sun-lit-modern-home.html",
+      "width": 320,
+      "cards": [
+        {
+          "height": 577.90625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 577.90625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 577.90625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    },
+    {
+      "name": "project-the-red-door.html",
+      "width": 320,
+      "cards": [
+        {
+          "height": 535.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        },
+        {
+          "height": 535.40625,
+          "photoHeight": 180,
+          "photoRatio": 1.3333333333333333,
+          "contentContained": true,
+          "childrenContained": true
+        }
+      ]
+    }
+  ],
+  "gallery_chat": [
+    {
+      "page": "portfolio-bungalow-blues-living.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-bungalow-blues-bedrooms.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-record-retreat.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-guest-bedroom.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-suburban-living-room.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-suburban-kitchen-update.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-before-afters.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-sun-lit-modern-home.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-warm-desert-bedrooms.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-comfy-rodeo.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-the-red-door.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-luxurious-touch.html",
+      "width": 1440,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-bungalow-blues-living.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-bungalow-blues-bedrooms.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-record-retreat.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-guest-bedroom.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-suburban-living-room.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-suburban-kitchen-update.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-before-afters.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-sun-lit-modern-home.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-warm-desert-bedrooms.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-comfy-rodeo.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-the-red-door.html",
+      "width": 393,
+      "logoLoaded": true
+    },
+    {
+      "page": "portfolio-a-luxurious-touch.html",
+      "width": 393,
+      "logoLoaded": true
+    }
+  ],
+  "dre_license": {
+    "license": "02248338",
+    "official_source": "https://www2.dre.ca.gov/PublicASP/pplinfo.asp?License_id=02022092&NAV=12&function=sales",
+    "checked_pages": 336,
+    "corrected_pages": [
+      "buy-burbank.html",
+      "buy-canoga-park.html",
+      "buy-chatsworth.html",
+      "buy-encino.html",
+      "buy-granada-hills.html",
+      "buy-mission-hills.html",
+      "buy-north-hollywood.html",
+      "buy-northridge.html",
+      "buy-pacoima.html",
+      "buy-porter-ranch.html",
+      "buy-reseda.html",
+      "buy-san-fernando.html",
+      "buy-sherman-oaks.html",
+      "buy-studio-city.html",
+      "buy-sun-valley.html",
+      "buy-sunland.html",
+      "buy-sylmar.html",
+      "buy-tarzana.html",
+      "buy-toluca-lake.html",
+      "buy-tujunga.html",
+      "buy-valley-glen.html",
+      "buy-valley-village.html",
+      "buy-van-nuys.html",
+      "buy-west-hills.html",
+      "buy-winnetka.html",
+      "buy-woodland-hills.html"
+    ],
+    "added_to_pages": [
+      "blog-401k-matters.html",
+      "blog-having-children-in-your-40s.html",
+      "blog-is-it-time-for-divorce.html",
+      "blog-why-budgeting-matters.html"
+    ],
+    "problems": [],
+    "previous_values": {
+      "02248338": 294,
+      "41372B38": 26
+    }
+  },
+  "parker_photo_matches": [
+    {
+      "parker_photo": "assets/portfolio-jobs/guest-bedroom/photo-01.webp",
+      "matching_asset": "assets/portfolio-jobs/guest-bedroom/photo-01.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-guest-bedroom.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/guest-bedroom/photo-02.webp",
+      "matching_asset": "assets/portfolio-jobs/guest-bedroom/photo-02.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-guest-bedroom.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/guest-bedroom/photo-03.webp",
+      "matching_asset": "assets/portfolio-jobs/guest-bedroom/photo-03.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-guest-bedroom.html",
+        "project-parker.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/guest-bedroom/photo-04.webp",
+      "matching_asset": "assets/portfolio-jobs/guest-bedroom/photo-04.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-guest-bedroom.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-living-room/photo-01.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-living-room/photo-01.webp",
+      "distance": 0,
+      "pages": [
+        "project-parker.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-living-room/photo-04.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-living-room/photo-04.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-living-room.html",
+        "project-parker.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-09.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-09.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-kitchen-update.html",
+        "project-parker.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-02.webp",
+      "matching_asset": "assets/portfolio-jobs/before-afters/photo-04.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-before-afters.html",
+        "project-parker.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-01.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-01.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-04.webp",
+      "matching_asset": "assets/portfolio-jobs/before-afters/photo-03.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-before-afters.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-living-room/photo-02.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-living-room/photo-02.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-living-room.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-living-room/photo-03.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-living-room/photo-03.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-living-room.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-03.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-03.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-kitchen-update.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-05.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-05.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-kitchen-update.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-06.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-06.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-kitchen-update.html"
+      ],
+      "outside_parker": []
+    },
+    {
+      "parker_photo": "assets/portfolio-jobs/suburban-kitchen-update/photo-07.webp",
+      "matching_asset": "assets/portfolio-jobs/suburban-kitchen-update/photo-07.webp",
+      "distance": 0,
+      "pages": [
+        "portfolio-suburban-kitchen-update.html"
+      ],
+      "outside_parker": []
+    }
+  ],
+  "approved_logo": {
+    "views": 672,
+    "headers": 672,
+    "footers": 672,
+    "chats": 668,
+    "problems": []
+  },
+  "october_blogs": {
+    "views": 63,
+    "photos": 123,
+    "newChats": 9,
+    "problems": []
+  },
+  "property_management_after_logo": [
+    {
+      "width": 820,
+      "height": 1180,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    },
+    {
+      "width": 393,
+      "height": 852,
+      "heroFits": true,
+      "overflow": 0,
+      "captions": [
+        {
+          "text": "01   Furnished stays",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "02   Guest ready details",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "03   Interior presentation",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        },
+        {
+          "text": "04   Booking support",
+          "withinPhoto": true,
+          "withinViewport": true,
+          "titleOverlap": false
+        }
+      ]
+    }
+  ],
+  "blog_dates": {
+    "posts": 18,
+    "files": 20,
+    "new_posts": [
+      "blog-california-condo-crisis-sb326-2026.html",
+      "blog-los-angeles-short-term-rental-rules-2026.html",
+      "blog-how-to-stage-a-living-room.html"
+    ],
+    "dates": {
+      "blog-how-to-stage-a-living-room.html": "2026-10-10",
+      "blog-los-angeles-short-term-rental-rules-2026.html": "2026-10-09",
+      "blog-california-condo-crisis-sb326-2026.html": "2026-10-08",
+      "blog-having-children-in-your-40s.html": "2026-10-07",
+      "blog-401k-matters.html": "2026-10-06",
+      "blog-is-it-time-for-divorce.html": "2026-10-05",
+      "blog-why-budgeting-matters.html": "2026-10-04",
+      "blog/studio-city-or-valley-village-which-one-should-i-choose.html": "2026-10-03",
+      "blog/van-nuys-or-reseda-which-one-should-i-choose.html": "2026-10-02",
+      "blog/is-my-property-a-good-fit-for-airbnb.html": "2026-10-01",
+      "blog/homeschool-or-public-school.html": "2026-09-30",
+      "blog/coffee-or-tea.html": "2026-09-29",
+      "blog/can-the-dodgers-do-a-threepeat.html": "2026-09-28",
+      "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html": "2026-09-27",
+      "blog/the-different-leagues-of-college-football.html": "2026-09-26",
+      "blog/places-to-eat-san-fernando-valley.html": "2026-09-25",
+      "blog/halloween-san-fernando-valley-2026.html": "2026-09-24",
+      "blog/trick-or-treating-san-fernando-valley-2026.html": "2026-09-23",
+      "blog/can-the-dodgers-do-a-threepeat-2026.html": "2026-09-28",
+      "blog/football-season-sofi-stadium-2026.html": "2026-09-27"
+    },
+    "order": [
+      "blog-how-to-stage-a-living-room.html",
+      "blog-los-angeles-short-term-rental-rules-2026.html",
+      "blog-california-condo-crisis-sb326-2026.html",
+      "blog-having-children-in-your-40s.html",
+      "blog-401k-matters.html",
+      "blog-is-it-time-for-divorce.html",
+      "blog-why-budgeting-matters.html",
+      "blog/studio-city-or-valley-village-which-one-should-i-choose.html",
+      "blog/van-nuys-or-reseda-which-one-should-i-choose.html",
+      "blog/is-my-property-a-good-fit-for-airbnb.html",
+      "blog/homeschool-or-public-school.html",
+      "blog/coffee-or-tea.html",
+      "blog/can-the-dodgers-do-a-threepeat.html",
+      "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html",
+      "blog/the-different-leagues-of-college-football.html",
+      "blog/places-to-eat-san-fernando-valley.html",
+      "blog/halloween-san-fernando-valley-2026.html",
+      "blog/trick-or-treating-san-fernando-valley-2026.html"
+    ],
+    "images": [
+      {
+        "file": "blog-california-condo-crisis-sb326-2026.html",
+        "image": "assets/blog-condo-202610-v2.webp",
+        "alt": "Illustrative California condominium building with balconies and landscaped grounds.",
+        "source": "generated_images/exec-c1e25489-b826-416d-b99f-49c104c0e671.png"
+      },
+      {
+        "file": "blog-los-angeles-short-term-rental-rules-2026.html",
+        "image": "assets/blog-rental-202610-v2.webp",
+        "alt": "Illustrative Los Angeles rental home with an inviting garden terrace and pool at sunset.",
+        "source": "generated_images/exec-ad9b18f6-9030-4b9e-baf3-8ac97a526d58.png"
+      },
+      {
+        "file": "blog-how-to-stage-a-living-room.html",
+        "image": "assets/blog-staging-202610-v2.webp",
+        "alt": "Illustrative interior stylist arranging cushions on a sofa in a thoughtfully staged living room.",
+        "source": "generated_images/exec-84063867-f6b9-42b6-8499-d92c710689cd.png"
+      }
+    ]
+  },
+  "dre_verified_pages": 339
 }

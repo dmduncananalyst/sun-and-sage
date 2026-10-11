@@ -1,4 +1,4 @@
-/* Sun and Sage / editorial redesign. Brand marks and original marketing art are not replaced. */
+/* Dominique Duncan-Nelson / editorial redesign. Brand marks and original marketing art are not replaced. */
 :root{--ss-ink:#332f29;--ss-earth:#655746;--ss-sage:#68705e;--ss-paper:#f5f2eb;--ss-white:#fff;--ss-line:#c8c3b7}
 html{scroll-behavior:smooth}body{background:var(--ss-paper);color:var(--ss-ink)}
 body h1,body h2,body h3{letter-spacing:-.035em}body p{line-height:1.72}

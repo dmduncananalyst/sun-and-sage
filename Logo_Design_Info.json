@@ -1,0 +1,26 @@
+{
+  "approvedConcept": "Second concept: key and ring beside sage cursive name",
+  "brandName": "Dominique Duncan-Nelson",
+  "mode": "Built-in image generation and editing",
+  "assets": {
+    "wordmark": "assets/dominique-key-script-transparent.png",
+    "icon": "assets/dominique-key-icon.png",
+    "approvedWhitePreview": "assets/dominique-key-script-approved.png"
+  },
+  "prompts": [
+    [
+      "small-key",
+      "Use case: logo-brand. Create a polished refined logo concept for the exact name 'Dominique Duncan-Nelson', using the attached logo ONLY as a reference for the sage green color and elegant cursive signature lettering. Remove the house and leaf entirely. Concept: a smaller, cleaner, elegant single key hanging from a simple circular key ring on the left, next to the full name in flowing, highly readable sage green cursive on one horizontal line. The name is the main focus; the key and ring are understated, about the height of the main lettering including flourishes, not a giant symbol. Preserve the recognizable key character but simplify for a sophisticated luxury real estate signature. All artwork muted sage green #78866B on plain white. Exact spelling Dominique Duncan-Nelson, including q and hyphen. Beautiful typography, balanced spacing, crisp flat logo. No house, leaf, monogram, tagline, license, brokerage line, shadows, metallic effects, border, mockup or texture. Wide composition, all text fully inside frame with margins. One logo only."
+    ]
+  ],
+  "productionEdits": [
+    {
+      "key": "wordmark",
+      "prompt": "Precisely edit the supplied approved logo by removing ONLY its plain white background to genuine transparency. Keep the sage-green small key and circular ring, full cursive name 'Dominique Duncan-Nelson', spelling, hyphen, letterforms, relative sizes and horizontal layout absolutely unchanged. Preserve all sage ink as opaque colored artwork. Do not add, remove or redesign any part of the logo. Transparent PNG, no white rectangle, no shadow, no new elements. Tightly frame the complete logo with a modest transparent margin so it can be readable in a website header."
+    },
+    {
+      "key": "icon",
+      "prompt": "Extract the existing sage-green small key and circular key ring from the approved supplied logo as a standalone browser icon. Preserve their exact silhouette, color and proportions. Remove all cursive lettering and white background. Center ONLY that same key and ring, upright, generously sized in a square transparent image with small safe margins. No leaf, house, monogram, text, redesign or shadows. This is the icon component of the approved logo, not a new design. Genuine transparency."
+    }
+  ]
+}

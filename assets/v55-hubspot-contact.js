@@ -46,7 +46,7 @@
           {name:'phone', value:String(data.get('phone')||'')},
           {name:'message', value:String(data.get('message')||'')}
         ]);
-        window.sunSageShowConfirmation?.(form);
+        window.dominiqueShowConfirmation?.(form);
         form.reset();
         if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){
@@ -85,7 +85,7 @@
           {name:'phone', value:String(data.get('phone')||'')},
           {name:'message', value:details || `Region: ${form.dataset.region || ''}`}
         ]);
-        window.sunSageShowConfirmation?.(form);
+        window.dominiqueShowConfirmation?.(form);
         form.reset();
         if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){
@@ -115,7 +115,7 @@
           {name:'email', value:String(data.get('email')||'')},
           {name:'phone', value:String(data.get('phone')||'')}
         ]);
-        window.sunSageShowConfirmation?.(form);
+        window.dominiqueShowConfirmation?.(form);
         form.reset();
         if(button){ button.textContent='Thank you. Dominique will follow up with you shortly.'; button.disabled=true; }
       }catch(error){

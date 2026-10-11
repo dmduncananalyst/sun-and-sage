@@ -1,4 +1,4 @@
-/* Approved Sun and Sage article design. One photo then ONE closed rectangular body box. */
+/* Approved Dominique Duncan-Nelson article design. One photo then ONE closed rectangular body box. */
 main.reading-final-layout>.ss23-guide-opening,main.reading-final-layout>.desktop-article-lead,main.reading-final-layout>.reading-final-lead{border:0!important;background:white!important;padding:0!important;margin:0 auto 34px!important;display:flex!important;flex-direction:column!important;gap:0!important}
 main.reading-final-layout>.ss23-guide-opening>figure,main.reading-final-layout>.desktop-article-lead>figure,main.reading-final-layout>.reading-final-lead>figure{margin:0 auto!important;padding:0!important;max-width:760px!important;height:auto!important;max-height:none!important;overflow:visible!important}
 main.reading-final-layout>.ss23-guide-opening>figure img,main.reading-final-layout>.desktop-article-lead>figure img,main.reading-final-layout>.reading-final-lead>figure img{object-fit:contain!important;object-position:center!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important}

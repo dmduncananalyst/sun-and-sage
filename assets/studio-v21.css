@@ -1,4 +1,4 @@
-/* Sun and Sage / Studio 21. Unified proportions and independent page structures. */
+/* Dominique Duncan-Nelson / Studio 21. Unified proportions and independent page structures. */
 :root{--studio-paper:#f8f7f3;--studio-ink:#343c32;--studio-sage:#59634f;--studio-mist:#e8e9e1;--studio-line:#d7d9cf;--studio-width:1240px}
 html{scroll-behavior:smooth;scroll-padding-top:36px}html body.ss18{background:var(--studio-paper)!important;color:var(--studio-ink)!important;font-family:Arial,Helvetica,sans-serif!important}
 html body.ss18 main,html body.ss18 main *{box-sizing:border-box}

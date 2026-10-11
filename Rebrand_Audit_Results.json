@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-11",
+  "status": "Review draft; not published",
+  "name": "Dominique Duncan-Nelson",
+  "email": "dominique@therise.group",
+  "phones": [
+    "818-296-6896",
+    "818-873-5128"
+  ],
+  "address_treatment": "Chatsworth, CA; Serving the San Fernando Valley; client confirms no public street address on GBP",
+  "reviews_preserved_word_for_word": 9,
+  "canonical_tags_preserved": true,
+  "reports": {
+    "links": {
+      "pages": 339,
+      "article_pages": 257,
+      "links_checked": 37525,
+      "missing": [],
+      "fragments": [],
+      "blank": [],
+      "cssmissing": [],
+      "financing_nav": [],
+      "checkboxes": [],
+      "image_errors": [],
+      "duplicate_card_photos": [],
+      "card_article_mismatches": [],
+      "body_styles": [],
+      "cards": 256,
+      "blog_dates": [],
+      "blog_bylines": []
+    },
+    "identity": {
+      "pages": 339,
+      "issues": []
+    },
+    "browser": {
+      "views": 678,
+      "headers": 678,
+      "footers": 678,
+      "chats": 678,
+      "problems": []
+    },
+    "forms": {
+      "views": 33,
+      "requestForms": 9,
+      "problems": []
+    },
+    "photos": {
+      "baseline_zip": "Dominique_Complete_Logo_and_Blog_Update.zip",
+      "media_files_checked": 1026,
+      "missing_or_changed": [],
+      "renamed_asset_basenames": "sun-sage to dominique; bytes preserved"
+    },
+    "blogs": {
+      "views": 63,
+      "photos": 123,
+      "newChats": 9,
+      "problems": []
+    },
+    "property_management": [
+      {
+        "width": 1366,
+        "height": 768,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      },
+      {
+        "width": 820,
+        "height": 1180,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      },
+      {
+        "width": 393,
+        "height": 852,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 667,
+        "heroFits": true,
+        "overflow": 0,
+        "captions": [
+          {
+            "text": "01   Furnished stays",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "02   Guest ready details",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "03   Interior presentation",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          },
+          {
+            "text": "04   Booking support",
+            "withinPhoto": true,
+            "withinViewport": true,
+            "titleOverlap": false
+          }
+        ]
+      }
+    ]
+  },
+  "launch_requirements_document": "Rebrand_Review_and_Launch.txt",
+  "original_media_files_retained": 1026,
+  "note": "Rebrand reports are historical. Current checks and photo delivery optimizations are documented in Layout_Correction_Results.json. Every existing media path is retained; 70 generated images are web-optimized and one empty unused portfolio asset has been repaired."
+}

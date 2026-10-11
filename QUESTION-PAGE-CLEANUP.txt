@@ -1,4 +1,4 @@
-Sun and Sage - Question Page Cleanup
+Dominique Duncan-Nelson - Question Page Cleanup
 October 4, 2026
 
 Updated 233 enhanced question/article pages.
@@ -19,10 +19,10 @@ User-requested visible-content changes:
 Authorship/schema:
 - Article/BlogPosting author attribution changed to StartWeb7 in the generated SEO/AEO JSON-LD.
 - Removed generated BreadcrumbList, Person, and RealEstateAgent nodes from the question-page SEO/AEO graph.
-- Browser titles that ended with Dominique Duncan-Nelson now use Sun and Sage instead.
+- Browser titles that ended with Dominique Duncan-Nelson now use Dominique Duncan-Nelson instead.
 
 Region headers:
-- Removed the visible "Sun and Sage / San Fernando Valley" kicker from North, East, South, and West Valley guide headers.
+- Removed the visible "Dominique Duncan-Nelson / San Fernando Valley" kicker from North, East, South, and West Valley guide headers.
 - Centered all four region guide titles and their intro copy.
 
 QA:

@@ -1,0 +1,185 @@
+{
+  "collections": [
+    {
+      "parent": "project-hosea.html",
+      "gallery": "portfolio-bungalow-blues-living.html",
+      "job": "bungalow-blues-living",
+      "cover": "assets/portfolio-jobs/bungalow-blues-living/photo-13.webp",
+      "photos": [
+        "assets/portfolio-jobs/bungalow-blues-living/photo-02.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-03.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-04.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-05.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-06.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-07.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-08.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-09.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-10.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-11.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-13.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-14.webp",
+        "assets/portfolio-jobs/bungalow-blues-living/photo-15.webp"
+      ]
+    },
+    {
+      "parent": "project-hosea.html",
+      "gallery": "portfolio-bungalow-blues-bedrooms.html",
+      "job": "bungalow-blues-bedrooms",
+      "cover": "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-01.webp",
+      "photos": [
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-01.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-02.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-03.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-04.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-05.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-07.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-08.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-09.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-10.webp",
+        "assets/portfolio-jobs/bungalow-blues-bedrooms/photo-11.webp"
+      ]
+    },
+    {
+      "parent": "project-hosea.html",
+      "gallery": "portfolio-a-record-retreat.html",
+      "job": "a-record-retreat",
+      "cover": "assets/portfolio-jobs/a-record-retreat/photo-02.webp",
+      "photos": [
+        "assets/portfolio-jobs/a-record-retreat/photo-01.webp",
+        "assets/portfolio-jobs/a-record-retreat/photo-02.webp",
+        "assets/portfolio-jobs/a-record-retreat/photo-03.webp",
+        "assets/portfolio-jobs/a-record-retreat/photo-04.webp",
+        "assets/portfolio-jobs/a-record-retreat/photo-05.webp",
+        "assets/portfolio-jobs/a-record-retreat/photo-06.webp"
+      ]
+    },
+    {
+      "parent": "project-parker.html",
+      "gallery": "portfolio-guest-bedroom.html",
+      "job": "guest-bedroom",
+      "cover": "assets/portfolio-jobs/guest-bedroom/photo-03.webp",
+      "photos": [
+        "assets/portfolio-jobs/guest-bedroom/photo-01.webp",
+        "assets/portfolio-jobs/guest-bedroom/photo-02.webp",
+        "assets/portfolio-jobs/guest-bedroom/photo-03.webp",
+        "assets/portfolio-jobs/guest-bedroom/photo-04.webp"
+      ]
+    },
+    {
+      "parent": "project-parker.html",
+      "gallery": "portfolio-suburban-living-room.html",
+      "job": "suburban-living-room",
+      "cover": "assets/portfolio-jobs/suburban-living-room/photo-04.webp",
+      "photos": [
+        "assets/portfolio-jobs/suburban-living-room/photo-04.webp",
+        "assets/portfolio-jobs/suburban-living-room/photo-02.webp",
+        "assets/portfolio-jobs/suburban-living-room/photo-03.webp"
+      ]
+    },
+    {
+      "parent": "project-parker.html",
+      "gallery": "portfolio-suburban-kitchen-update.html",
+      "job": "suburban-kitchen-update",
+      "cover": "assets/portfolio-jobs/suburban-kitchen-update/photo-09.webp",
+      "photos": [
+        "assets/portfolio-jobs/suburban-kitchen-update/photo-03.webp",
+        "assets/portfolio-jobs/suburban-kitchen-update/photo-05.webp",
+        "assets/portfolio-jobs/suburban-kitchen-update/photo-06.webp",
+        "assets/portfolio-jobs/suburban-kitchen-update/photo-07.webp",
+        "assets/portfolio-jobs/suburban-kitchen-update/photo-09.webp"
+      ]
+    },
+    {
+      "parent": "project-parker.html",
+      "gallery": "portfolio-before-afters.html",
+      "job": "before-afters",
+      "cover": "assets/portfolio-jobs/before-afters/photo-04.webp",
+      "photos": [
+        "assets/portfolio-jobs/before-afters/photo-01.webp",
+        "assets/portfolio-jobs/before-afters/photo-02.webp",
+        "assets/portfolio-jobs/before-afters/photo-03.webp",
+        "assets/portfolio-jobs/before-afters/photo-04.webp",
+        "assets/portfolio-jobs/before-afters/photo-05.webp"
+      ]
+    },
+    {
+      "parent": "project-sun-lit-modern-home.html",
+      "gallery": "portfolio-sun-lit-modern-home.html",
+      "job": "sun-lit-modern-home",
+      "cover": "assets/portfolio-jobs/sun-lit-modern-home/photo-20.webp",
+      "photos": [
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-03.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-05.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-07.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-08.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-13.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-19.webp",
+        "assets/portfolio-jobs/sun-lit-modern-home/photo-20.webp"
+      ]
+    },
+    {
+      "parent": "project-sun-lit-modern-home.html",
+      "gallery": "portfolio-warm-desert-bedrooms.html",
+      "job": "warm-desert-bedrooms",
+      "cover": "assets/portfolio-jobs/warm-desert-bedrooms/photo-01.webp",
+      "photos": [
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-01.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-02.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-03.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-04.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-05.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-06.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-07.webp",
+        "assets/portfolio-jobs/warm-desert-bedrooms/photo-08.webp"
+      ]
+    },
+    {
+      "parent": "project-sun-lit-modern-home.html",
+      "gallery": "portfolio-a-comfy-rodeo.html",
+      "job": "a-comfy-rodeo",
+      "cover": "assets/portfolio-jobs/a-comfy-rodeo/photo-02.webp",
+      "photos": [
+        "assets/portfolio-jobs/a-comfy-rodeo/photo-02.webp",
+        "assets/portfolio-jobs/a-comfy-rodeo/photo-03.webp",
+        "assets/portfolio-jobs/a-comfy-rodeo/photo-06.webp"
+      ]
+    },
+    {
+      "parent": "project-the-red-door.html",
+      "gallery": "portfolio-the-red-door.html",
+      "job": "the-red-door",
+      "cover": "assets/portfolio-jobs/the-red-door/photo-06.webp",
+      "photos": [
+        "assets/portfolio-jobs/the-red-door/photo-02.webp",
+        "assets/portfolio-jobs/the-red-door/photo-03.webp",
+        "assets/portfolio-jobs/the-red-door/photo-04.webp",
+        "assets/portfolio-jobs/the-red-door/photo-05.webp",
+        "assets/portfolio-jobs/the-red-door/photo-06.webp",
+        "assets/portfolio-jobs/the-red-door/photo-07.webp",
+        "assets/portfolio-jobs/the-red-door/photo-08.webp",
+        "assets/portfolio-jobs/the-red-door/photo-09.webp",
+        "assets/portfolio-jobs/the-red-door/photo-10.webp",
+        "assets/portfolio-jobs/the-red-door/photo-11.webp",
+        "assets/portfolio-jobs/the-red-door/photo-13.webp"
+      ]
+    },
+    {
+      "parent": "project-the-red-door.html",
+      "gallery": "portfolio-a-luxurious-touch.html",
+      "job": "a-luxurious-touch",
+      "cover": "assets/portfolio-jobs/a-luxurious-touch/photo-01.webp",
+      "photos": [
+        "assets/portfolio-jobs/a-luxurious-touch/photo-01.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-02.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-03.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-04.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-06.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-07.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-08.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-09.webp",
+        "assets/portfolio-jobs/a-luxurious-touch/photo-10.webp"
+      ]
+    }
+  ],
+  "menu_pages": 336
+}

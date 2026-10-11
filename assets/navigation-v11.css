@@ -39,7 +39,7 @@ html body .ss-menu-toggle,html body .ss-sub-toggle{display:none}
 }
 @media(max-width:540px){html body .ss-brand-row{padding:0 15px}html body .ss-brand{font-size:13px;gap:8px}html body .ss-brand img{width:31px;height:47px}html body .ss-rise{display:none}html body .ss-menu-toggle{font-size:12px}html body .ss-navigation{width:100%}}
 
-/* Restore the supplied Sun and Sage navigation layout, preserving the expanded menu. */
+/* Restore the supplied Dominique Duncan-Nelson navigation layout, preserving the expanded menu. */
 html body .ss-header{border-top:6px solid #92977f}
 html body .ss-brand-row{height:104px}
 html body .ss-navigation{width:100%;max-width:none;justify-content:center;gap:0;padding:0 8px;min-height:54px;border-top:1px solid #dddace;border-bottom:1px solid #dddace}

@@ -145,3 +145,32 @@
     line-height:1.08!important;
   }
 }
+
+/* Match the approved homepage search exactly on mobile. */
+.mobile-search-submit-text{display:none}
+@media(max-width:800px){
+ html body.ss18 main#main#main:not(.ss22-home) .heroSearch{width:100%!important;max-width:520px!important;padding:0!important;margin:0 auto!important;position:static!important;transform:none!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:stretch!important;gap:0!important;width:100%!important;max-width:520px!important;height:auto!important;min-height:0!important;margin:0 auto!important;padding:0!important;border:1px solid #cdd1c3!important;background:#fff!important;border-radius:0!important;box-shadow:0 12px 24px #30382e14!important;overflow:hidden!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar>.ddn-request-copy{display:none!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar label{position:relative!important;display:flex!important;flex-direction:column!important;justify-content:center!important;gap:4px!important;width:100%!important;min-width:0!important;min-height:68px!important;margin:0!important;padding:12px 14px!important;background:#fff!important;border:0!important;border-right:1px solid #dcded5!important;border-bottom:1px solid #cdd1c3!important;border-radius:0!important;box-sizing:border-box!important;text-align:left!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar label:nth-of-type(even){border-right:0!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar label>span{display:block!important;margin:0!important;padding:0!important;min-height:0!important;font:600 10px/13px Arial,Helvetica,sans-serif!important;letter-spacing:.1em!important;text-transform:uppercase!important;color:#30382e!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar :is(input,select){width:100%!important;min-width:0!important;max-width:100%!important;height:32px!important;min-height:32px!important;margin:0!important;padding:0!important;background:#fff!important;border:0!important;border-radius:0!important;box-shadow:none!important;color:#30382e!important;font:400 14px/1.4 Arial,Helvetica,sans-serif!important;appearance:auto!important;box-sizing:border-box!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar select{line-height:normal!important}
+ html body.ss18 main#main#main:not(.ss22-home) .searchBar button{display:flex!important;position:static!important;align-items:center!important;justify-content:center!important;grid-column:1/-1!important;justify-self:stretch!important;width:100%!important;min-width:0!important;height:52px!important;min-height:52px!important;margin:0!important;padding:14px 18px!important;border:0!important;border-radius:0!important;background:#48533e!important;color:#fff!important;font:600 11px/1.2 Arial,Helvetica,sans-serif!important;letter-spacing:.09em!important;text-transform:uppercase!important;box-sizing:border-box!important}
+ html body.ss18 main#main#main .searchBar .desktop-search-submit-text{display:none!important}
+ html body.ss18 main#main#main .searchBar .mobile-search-submit-text{display:inline!important}
+}
+
+.searchBar .desktop-search-submit-text,.searchBar .mobile-search-submit-text{font:inherit!important;letter-spacing:inherit!important;color:inherit!important;text-transform:inherit!important}
+
+@media(max-width:800px){html body.ss18 main#main#main.ss23-search .homeSearchBelowStoryInner{padding-left:0!important;padding-right:0!important}html body.ss18 main#main#main.ss23-search .ss59-search-primary{padding-left:0!important;padding-right:0!important}}
+
+/* Mobile search selects retain one native arrow, without a second decorative arrow. */
+@media(max-width:800px){
+ html body.ss18 main#main#main#main .searchBar label:has(select)::before,
+ html body.ss18 main#main#main#main .searchBar label:has(select)::after{
+  content:none!important;
+  display:none!important;
+ }
+}

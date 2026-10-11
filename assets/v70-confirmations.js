@@ -1,5 +1,5 @@
 (() => {
-  if (window.sunSageShowConfirmation) return;
+  if (window.dominiqueShowConfirmation) return;
 
   const dialog=document.createElement('dialog');
   dialog.className='v70SubmissionConfirm';
@@ -41,7 +41,7 @@
     return ['REQUEST RECEIVED','Your request has been received.','Dominique will follow up with you shortly.'];
   };
 
-  window.sunSageShowConfirmation=form=>{
+  window.dominiqueShowConfirmation=form=>{
     const [eyebrow,context,followup]=contentFor(form);
     dialog.querySelector('.v70ConfirmEyebrow').textContent=eyebrow;
     dialog.querySelector('.v70ConfirmTitle').textContent='Thank you.';

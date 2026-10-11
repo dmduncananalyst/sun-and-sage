@@ -1,0 +1,1230 @@
+{
+  "uploads_received": 142,
+  "unique_uploaded_photos": 136,
+  "upload_duplicate_files": 6,
+  "inventory": [
+    {
+      "batch": "sunlit-room1",
+      "source": "1st floor patio main.jpg",
+      "source_sha256": "ef375ffb183f3efa4a8394be3d9639ed0cd0779b37116803cb12b560c67dd567",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-001.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "1st floor patio side.jpg",
+      "source_sha256": "42079f2a79400fe4b2fdbf0697d5a6a0c1785182cd17b5c036e6ff412f239545",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-002.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "bathroom half close up.jpg",
+      "source_sha256": "34806188818f9db6cad0e28eaebdb6a30ffd8e3807a633b09221e6835950c93e",
+      "collection": "sun-lit-modern-home",
+      "room": "Powder Room",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-003.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "blue room full shot.JPEG",
+      "source_sha256": "643212c4cd0060d414fd60b282680c0db1029447b292d11f828645317af44918",
+      "collection": "warm-desert-bedrooms",
+      "room": "Blue Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-004.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "blue room head shot.JPEG",
+      "source_sha256": "7f36f38a5114897978c1ccc631d406421a4e54e1addb1d2071dfcc18c2db8413",
+      "collection": "warm-desert-bedrooms",
+      "room": "Blue Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-005.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "coffee bar close up.jpg",
+      "source_sha256": "ef148b453c43485dfda2c471e1b5b82c1d94acff317c42a40aa8f7ee30db0000",
+      "collection": "sun-lit-modern-home",
+      "room": "Coffee Bar",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-006.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "coffee bar shot.jpg",
+      "source_sha256": "6b5cebb567dfdbaf56ff2462377edefcb3def2dff9f6ab9df45468a52cde1201",
+      "collection": "sun-lit-modern-home",
+      "room": "Coffee Bar",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-007.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "Daybed main.JPG",
+      "source_sha256": "5e20d1951453f9e7e4f23bcf256c9bd7a20011e3d4224c9de9bcf18c6cf0030c",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-008.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "daybed room.JPEG",
+      "source_sha256": "7ff2719e28a9d6c3b506ca394242895983684f018fa72cafa51b089b88f25d31",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-009.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "dining table head shot.jpg",
+      "source_sha256": "eb36883643aec78e96c48c1dc95d2f81b1c12cdf9fc96684f80fa16031fc0916",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-010.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3422 2.JPEG",
+      "source_sha256": "1e6d489589bc2342b77e236316092e8dd906121519b87b460c58e28f905d8b82",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-011.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3445 2.JPEG",
+      "source_sha256": "ddc7f92b65312cd7fb53eff21aaf25ba8aaf1aa8047d9fb0a9b9e61d14b58b27",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-012.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3458 2.jpg",
+      "source_sha256": "c6ea2fb4b511197b8b669dda951c2f034a9fe312135bc621f786e1465c946291",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-013.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3558 2.jpg",
+      "source_sha256": "c228005a4ab6dc2993ca2adcfbd6ad58af821b871fa805770fc40d414ba2f5ea",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-014.webp"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3558 3.jpg",
+      "source_sha256": "c228005a4ab6dc2993ca2adcfbd6ad58af821b871fa805770fc40d414ba2f5ea",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-014.webp",
+      "duplicate_of": "sunlit-room1/DSC_3558 2.jpg"
+    },
+    {
+      "batch": "sunlit-room1",
+      "source": "DSC_3597 2.jpg",
+      "source_sha256": "36d6deeec0c1c0b78b0f61389d831ee193b8e42743cb45b447371981c24a24c1",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-015.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "front of house cropped.jpg",
+      "source_sha256": "f9dbb305ad60d082e784413d899b42215db3a348cede0423955768c4b75694da",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-016.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "Front of House.jpg",
+      "source_sha256": "f9dbb305ad60d082e784413d899b42215db3a348cede0423955768c4b75694da",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-016.webp",
+      "duplicate_of": "sunlit-room2/front of house cropped.jpg"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "green room closet.JPEG",
+      "source_sha256": "99d532330eb224c9b15748d58e43d6bc880e098809550f1fada7db003ea28984",
+      "collection": "warm-desert-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-017.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "green room facing TV.JPEG",
+      "source_sha256": "97c74a06ea3370a2b7570c240ef38d8ed67501110d0b0358ede0d9ee51820a66",
+      "collection": "warm-desert-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-018.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "green room main.JPEG",
+      "source_sha256": "8e44bdc6f2f6a0c8e221bfa3d0b422c3527b302ae0b4175706e8de2b328997d9",
+      "collection": "warm-desert-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-019.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "GREEN ROOM TRUNDLE.JPEG",
+      "source_sha256": "d7159cc7c687df068aa78c5c43c71e83cd7df4cf49a4c143077ce3799132d508",
+      "collection": "warm-desert-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-020.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "jack&jill bathroom facing bed.JPEG",
+      "source_sha256": "194ba479b98f7b6eb6985106951468d117c038a1c0ee4cef26e4afeffff0f6f3",
+      "collection": "warm-desert-bedrooms",
+      "room": "Shared Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-021.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "jack&jill shower main.jpg",
+      "source_sha256": "dcca0aa18f020deb90df03eb68da4e899425eaab1291afcf33bd42f590dd9f78",
+      "collection": "warm-desert-bedrooms",
+      "room": "Shared Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-022.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "jack&jill sink main.JPEG",
+      "source_sha256": "fd7aedc85e9ec43421c11b265845643585e4c84f7535cb728d0f442d8c26eaa9",
+      "collection": "warm-desert-bedrooms",
+      "room": "Shared Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-023.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "kitchen facing dining room.jpg",
+      "source_sha256": "fd868f80d68f80900a670bdb3866986e5500e636f366903cd4c9ec76d1995225",
+      "collection": "sun-lit-modern-home",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-024.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "kitchen full.jpg",
+      "source_sha256": "d23fcafa33242a9427184e25fe66e207eb848911c4da3db77a7bbcdba3f36ae2",
+      "collection": "sun-lit-modern-home",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-025.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "kitchen oven wall.jpg",
+      "source_sha256": "f20dcf49b1dababe08f491a8fbc949cb77b363b7e9d6196ebeb8f19b7b1f56b2",
+      "collection": "sun-lit-modern-home",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-026.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "kitchen pots close up.JPEG",
+      "source_sha256": "e1f84370bc0406e373e0a497c8c4102de4bd42035be132caa700cab639a1c4c5",
+      "collection": "sun-lit-modern-home",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-027.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "kitchen sink wall.JPEG",
+      "source_sha256": "f1357c3a2f1f2dd9ee1269fe7dde420e7d9a0d2b112f04cbffc7e91c83396fcf",
+      "collection": "sun-lit-modern-home",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-028.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "LAUNDRY ROOM.JPEG",
+      "source_sha256": "f40a484241d72c055c0d263c23d7a5e397b2d2d2f991bfa19a11b22e0cc43e98",
+      "collection": "sun-lit-modern-home",
+      "room": "Laundry",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-029.webp"
+    },
+    {
+      "batch": "sunlit-room2",
+      "source": "Living Room Couch head on.JPEG",
+      "source_sha256": "1cc6f57b05383bbbb89b60c81e4d9f88f5c1918c7b45218040da3c70b6b5baa1",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room2-030.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "Living Room Cover Photo .JPEG",
+      "source_sha256": "32a8b8a24e521f4b944ebbb8f921e415b35723ad801959d058693343c0b88e3a",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-031.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "Living room facing TV.jpg",
+      "source_sha256": "72cc2cbe6cb3d9fe99812f11f5d5d631a831ff366e1e68d33633233e272c88ac",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-032.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "living room side shot.jpg",
+      "source_sha256": "6a9525b8f315e83adba80f3d031d4ec4ea593902448231ca719c4701bcfc840b",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-033.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master bathroom closer shot.jpg",
+      "source_sha256": "c228005a4ab6dc2993ca2adcfbd6ad58af821b871fa805770fc40d414ba2f5ea",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room1-014.webp",
+      "duplicate_of": "sunlit-room1/DSC_3558 2.jpg"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master bathroom full.JPEG",
+      "source_sha256": "e4d30310ca653297cde0c6ec4ca3defcb385a326e93f1036589c2a54c3402e1d",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-034.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master bedroom fullshot.jpg",
+      "source_sha256": "8fb51b646acdd5ef8b04c533caffa043f58b92bcac2573c03442d040caa8c52f",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-035.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master bedroom headshot.jpg",
+      "source_sha256": "338472aeacab1d3e4d77d0e83051b17b4679874cefdf9ef5809163a93d71fe8c",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-036.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master bedroom TV shot.jpg",
+      "source_sha256": "fd772f7bef5476a18066d480e4ecc397b637135b768cb8c959bc62a0ca1ae57a",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-037.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "master shower.JPEG",
+      "source_sha256": "85a3a12121a8ee95f290ad8dede61619017e54b47cc4bc6f6e1cea49050e2fc5",
+      "collection": "warm-desert-bedrooms",
+      "room": "Shared Bathroom",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-038.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "office area full.jpg",
+      "source_sha256": "283803f825e02a3db0f32dcf742312f91e6b7f20a06ead4e17c9a0d4e7ddbfa2",
+      "collection": "sun-lit-modern-home",
+      "room": "Office",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-039.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "office headshot.JPEG",
+      "source_sha256": "c467ae35ee8631e4ff5fc573bc776283c1c37b806b23d8712265816d5e2f6a19",
+      "collection": "sun-lit-modern-home",
+      "room": "Office",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-040.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "office side shot.JPEG",
+      "source_sha256": "c990cbab6daf4644b1dcfdd11352a28f3a1ac771cf13bb0b0b366ace1136ab31",
+      "collection": "sun-lit-modern-home",
+      "room": "Office",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-041.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "patio master bedroom.jpg",
+      "source_sha256": "e061411bf87c0a28b57f6ab9db1d0e4e01972f290ccf7368cbb125db2775946d",
+      "collection": "a-comfy-rodeo",
+      "room": "Primary Suite Patio",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-042.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "record player sho.jpg",
+      "source_sha256": "50e1e7c79476599199a2687488da5f708960eb3a1943e9c8ac7f3301eb9b695b",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-043.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "RECORD WALL CLOSE UP.jpg",
+      "source_sha256": "f75716dee9be88139072d55cd476cbec254fc982928e4339e40e54693971aa04",
+      "collection": "sun-lit-modern-home",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-044.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "staircase to blue room.jpg",
+      "source_sha256": "bc4664cb2c6e0b6492fa129ae2bc30380b892e889decaea9de7a638735fbccba",
+      "collection": "warm-desert-bedrooms",
+      "room": "Hallway",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-045.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "swing front patio.JPEG",
+      "source_sha256": "bec3b9d6f511567fa44f4c586d8e26aaa427a069749378c3381f3fb60482cdc4",
+      "collection": "sun-lit-modern-home",
+      "room": "Patios & Exterior",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-046.webp"
+    },
+    {
+      "batch": "sunlit-room3",
+      "source": "upstars hallway to master.jpg",
+      "source_sha256": "4b90f20c5cee18d34e25f0594370872611079b44fc532853979f19ab12c69d50",
+      "collection": "warm-desert-bedrooms",
+      "room": "Hallway",
+      "display_asset": "assets/portfolio-restored/sunlit-room3-047.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6550.jpg",
+      "source_sha256": "b2e5735898f94edfd8aeff9236a7ffeeb9a4ecef80b7734d8d511919862216e2",
+      "collection": "suburban-kitchen-update",
+      "room": "Dining",
+      "display_asset": "assets/portfolio-restored/parker1-048.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6555.jpg",
+      "source_sha256": "e13701f3eaea18534015c3319b921d9416f52ff36656cfe0f0fc69ed723ff5fe",
+      "collection": "suburban-kitchen-update",
+      "room": "Dining",
+      "display_asset": "assets/portfolio-restored/parker1-049.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6560.jpg",
+      "source_sha256": "db5e51a758f699965132f2d2689ff228ae2dffe674b5dffdb561e16ead44ee4a",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-050.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6565.jpg",
+      "source_sha256": "e4fda7b4a6b297f9c1886cabdd598003c53fb8fadc4c2856881408deaff683f2",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-051.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6570.jpg",
+      "source_sha256": "8f86e949099a2a53dc380a5be69538b64c39b2c179fcfb925e2563c57eca5402",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-052.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6575.jpg",
+      "source_sha256": "8474c7c90e42f2a3e15d2de09e1c1797da5822c15af51e6751af2c622a9fccdd",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-053.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6587.jpg",
+      "source_sha256": "29f6c14e9aed29727483e340ca02c47c61beb92c26663405ed573c087bc8bca5",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-054.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6592.jpg",
+      "source_sha256": "b54a45d8b024028ecd6b364e59bfdac5894e76f09e14a1f6f774e46116ed4b62",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker1-055.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6602.jpg",
+      "source_sha256": "6ec4ee55026f2727d1057b9cdace4be09ac2bf4ae02d8c37643dbb306876bdd7",
+      "collection": "suburban-kitchen-update",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/parker1-056.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6607.jpg",
+      "source_sha256": "adb8698fa6618b3fd6bd61b70e6bbfc4e4ab65b16071608c4ac37ff89205af74",
+      "collection": "suburban-kitchen-update",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/parker1-057.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6612.jpg",
+      "source_sha256": "423d9b8631fcc5d5a13ad7156cb64afe18e79130dcba0fd65a62f5e9153dfb7c",
+      "collection": "suburban-kitchen-update",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/parker1-058.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6617.jpg",
+      "source_sha256": "1f136693a28ce7fe8212a26e490af984a95c2fe0db8282f31068e6d60ce7984d",
+      "collection": "suburban-kitchen-update",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/parker1-059.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6622.jpg",
+      "source_sha256": "262ec10fbe81c9f80f541677285de8e601c8938031be719c8619c958b2ef905f",
+      "collection": "suburban-kitchen-update",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/parker1-060.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6627.jpg",
+      "source_sha256": "29379f3e0e2daf50b13eda0dcc51cd4dd1e8d00300399a65618be17955f7b8f6",
+      "collection": "suburban-kitchen-update",
+      "room": "Dining",
+      "display_asset": "assets/portfolio-restored/parker1-061.webp"
+    },
+    {
+      "batch": "parker1",
+      "source": "DSC_6633.jpg",
+      "source_sha256": "ac8a62b6d28f079f0ade90b0b93667d2b8be19bf8dc623a13815e51ba41ca647",
+      "collection": "suburban-kitchen-update",
+      "room": "Dining",
+      "display_asset": "assets/portfolio-restored/parker1-062.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6637.jpg",
+      "source_sha256": "0e0d17eb4576ab5660fb01fa6069fcd0a26036b3b064d766fde2c898c0c57f98",
+      "collection": "guest-bedroom",
+      "room": "Bathrooms",
+      "display_asset": "assets/portfolio-restored/parker2-063.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6647.jpg",
+      "source_sha256": "03f4430c3ad67a40101e222a7365a87c44a2207a6dd239a193f16087ac2c2d1c",
+      "collection": "guest-bedroom",
+      "room": "Laundry",
+      "display_asset": "assets/portfolio-restored/parker2-064.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6653.jpg",
+      "source_sha256": "6e2109c304de67e5689ae65c3722cd015ff23be99831c481daab680b7b2c10db",
+      "collection": "suburban-living-room",
+      "room": "Office",
+      "display_asset": "assets/portfolio-restored/parker2-065.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6662.jpg",
+      "source_sha256": "3b1ddc1c2e11766dda497930cdbac73f9ca2fe9d31b97aba14606b343669ac79",
+      "collection": "suburban-living-room",
+      "room": "Entry & Staircase",
+      "display_asset": "assets/portfolio-restored/parker2-066.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6673.jpg",
+      "source_sha256": "b7e10668fc119044923599aa5a239b1c27c4863c5c81971a4d5d46c21e90e29d",
+      "collection": "suburban-living-room",
+      "room": "Entry & Staircase",
+      "display_asset": "assets/portfolio-restored/parker2-067.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6677.jpg",
+      "source_sha256": "fc74fb492eaed743bc8a93b7eaf43c8476ddd45c3d02a0d8a59aa631e666701c",
+      "collection": "suburban-living-room",
+      "room": "Entry & Staircase",
+      "display_asset": "assets/portfolio-restored/parker2-068.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6682.jpg",
+      "source_sha256": "5fe59a33b69dae3e7c56917df847f3aab223ccb1812aa066309984ec4903e15c",
+      "collection": "guest-bedroom",
+      "room": "Guest Bedrooms",
+      "display_asset": "assets/portfolio-restored/parker2-069.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6688.jpg",
+      "source_sha256": "1f632d9356db84fc44c57380f73bc10005edbad44097b4aa32b96f39bf2f970f",
+      "collection": "guest-bedroom",
+      "room": "Guest Bedrooms",
+      "display_asset": "assets/portfolio-restored/parker2-070.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6694.jpg",
+      "source_sha256": "a7186edf4bb4190d4762d92490c33daab849518ea8b568d7c9fcc96f2935977b",
+      "collection": "guest-bedroom",
+      "room": "Guest Bedrooms",
+      "display_asset": "assets/portfolio-restored/parker2-071.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6699.jpg",
+      "source_sha256": "25bfefa57e69f0b466fbaebcf31d7f8b56c0e4d7b92779b3ad1d6795b6526085",
+      "collection": "guest-bedroom",
+      "room": "Guest Bedrooms",
+      "display_asset": "assets/portfolio-restored/parker2-072.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6704.jpg",
+      "source_sha256": "b8db5dee048dad49eb88be1a605dff4c6de7b0d75787ca255c58407c5303a78a",
+      "collection": "guest-bedroom",
+      "room": "Guest Bedrooms",
+      "display_asset": "assets/portfolio-restored/parker2-073.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6709.jpg",
+      "source_sha256": "9e9ae9cd87243f0d34c7f764e395ac7cb70678e59af6d433e0419b4bd6b87ef8",
+      "collection": "guest-bedroom",
+      "room": "Bathrooms",
+      "display_asset": "assets/portfolio-restored/parker2-074.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6719.jpg",
+      "source_sha256": "8f8f69796a3e2c9fb67e0979b1eb9d9524c5f57cedacff075a9b7477769b2e50",
+      "collection": "guest-bedroom",
+      "room": "Twin Bedroom",
+      "display_asset": "assets/portfolio-restored/parker2-075.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6724.jpg",
+      "source_sha256": "b6106e6968cefcea342e257acbfc92a01c082891b59e8b4a5f73b7d9724f9f52",
+      "collection": "guest-bedroom",
+      "room": "Twin Bedroom",
+      "display_asset": "assets/portfolio-restored/parker2-076.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6734.jpg",
+      "source_sha256": "7f5169dc6ea2aeae3b3cfde72fa713940816409534a9a6c10d51a105eaac5f40",
+      "collection": "guest-bedroom",
+      "room": "Bathrooms",
+      "display_asset": "assets/portfolio-restored/parker2-077.webp"
+    },
+    {
+      "batch": "parker2",
+      "source": "DSC_6739.jpg",
+      "source_sha256": "a645ba5cd7b0a3b2424d53827bdbb03c91a4da6545a94cccc345979dcdaacb2d",
+      "collection": "guest-bedroom",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/parker2-078.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6744.jpg",
+      "source_sha256": "aa3a771bc1dd238700e7f58454c129b2f56fb2752e565ff93fa6a0a0b2c97129",
+      "collection": "guest-bedroom",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/parker3-079.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6750.jpg",
+      "source_sha256": "b9d738660eed35b9d91678eebf9aa0ec0127e18e4f9c3610008686e30e52871d",
+      "collection": "guest-bedroom",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/parker3-080.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6761.jpg",
+      "source_sha256": "b25e136e4d05256d141505a7592dd9376ad59ad48ae051f7279e30e947faa7f8",
+      "collection": "guest-bedroom",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/parker3-081.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6767.jpg",
+      "source_sha256": "aaa80d4baf9151e0e0d91985be893e9c92ae328fb26590aa26650247f61f5346",
+      "collection": "guest-bedroom",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/parker3-082.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6777.jpg",
+      "source_sha256": "bd64c674f6fbcdc27af13e18d9025e304a4e1d304e57c1e443a5c5d59644cc50",
+      "collection": "guest-bedroom",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/parker3-083.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6781.jpg",
+      "source_sha256": "a73c4381086ef144679e415ac0565d1cb2ee973df0a31bbca8d01bbd0f733b14",
+      "collection": "guest-bedroom",
+      "room": "Closets",
+      "display_asset": "assets/portfolio-restored/parker3-084.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6787.jpg",
+      "source_sha256": "d1399eb199d62cd6e264de2e44efd1e5d8c4a0766f0ca14b2fce05bd8c80238c",
+      "collection": "guest-bedroom",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/parker3-085.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6791.jpg",
+      "source_sha256": "389e3d30aee9fd6db22f613f236a391d6850335fe1a30f67e22533fdaf96ec7a",
+      "collection": "guest-bedroom",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/parker3-086.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6796.jpg",
+      "source_sha256": "4aab3e44aecf110d471ca54fc6e45ab43f15c36d21d61d2a175b88bf3dd255ed",
+      "collection": "suburban-living-room",
+      "room": "Living Room",
+      "display_asset": "assets/portfolio-restored/parker3-087.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6801.jpg",
+      "source_sha256": "ffafb130adc9ea9dbf136197ccccdf49e2acc62bdb5f057fac297c5b32f35182",
+      "collection": "suburban-living-room",
+      "room": "Garage",
+      "display_asset": "assets/portfolio-restored/parker3-088.webp"
+    },
+    {
+      "batch": "parker3",
+      "source": "DSC_6808.jpg",
+      "source_sha256": "dc58a49d7ed027e4187ed1066859a104c1997dee125251e81bd2b5b1e2470a42",
+      "collection": "suburban-living-room",
+      "room": "Exterior",
+      "display_asset": "assets/portfolio-restored/parker3-089.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "01-back-deck-man.jpg",
+      "source_sha256": "90e5421183455f44138542c117111680d3bd182bf009fe7e16930090a21b42cd",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-090.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "02-back-deck-side.jpg",
+      "source_sha256": "c32b5031dbada3b69c4f87e6cf867a877c793358475804319fc56d9ea866c744",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-091.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "03-brn-rm-main.jpg",
+      "source_sha256": "ee2ba746024ce27d2158014e11f9544ea49244ba44fee39c119d819f3e7bfc3e",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Brown Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-092.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "04-brn-rm-straight-shot-bed.jpg",
+      "source_sha256": "664b8ffea53cf701ca0105a220205cdc303960d25459d90d3c3a51f7678e4466",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Brown Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-093.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "05-brn-rm-TV.jpg",
+      "source_sha256": "fd7d0d2b40816be7bb8e23bb0bce22797028835b628532545c35bbaa75499fce",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Brown Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-094.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "06-brwn-rm-closet.jpg",
+      "source_sha256": "c2734888cc01765d70d167a349430660af1641e69f169524fa9213da9f5af912",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Brown Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-095.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "07-brwn-rm-facing-front.jpg",
+      "source_sha256": "e4aa789d7b91b8763ac0b3fe3307bb5189c82d76d19f77e4ce7251720935d56f",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Brown Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-096.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "08-closet-wall-bathroom.jpg",
+      "source_sha256": "f4879535a58470da62b2c627e55ca41cf41f568f7910796af8623f57d5377f0c",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Closets",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-097.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "09-coffee-table-close-up.jpg",
+      "source_sha256": "bf242d78667f72674a4a3b4f09a386c0664ba3f2428a321f85d93672f11a3d9e",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-098.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "10-couch-side-shot.jpg",
+      "source_sha256": "28c266a248e26e699fff14f319effbc9628410ce277932a71a0ef7ec0a498e31",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-099.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "11-couch-straight-shot.jpg",
+      "source_sha256": "817b67796201dced79b2bb25a05f4d4b17edbc789416ab845e884c43eb9ecae1",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-100.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "12-dining-facing-kitchen.jpg",
+      "source_sha256": "8df32094edd0e4d21379f942736f99422daa7059de376c10c59375b54b2f7ef4",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-101.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "13-dining-middle-shot.jpg",
+      "source_sha256": "85a3cb1fd905d02636a4b7457076405164d12f88acb759118f87a6559ed1b99f",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-102.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "14-dining-side-shot.jpg",
+      "source_sha256": "94939a79c7adf277f6b6a03b744bccf2bfb2271c2a11a156ac2b6b0fb7715bf5",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-103.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "15-dining-wine-wall.jpg",
+      "source_sha256": "4196efafad76c1a577d7257dad6c44b46cd96af65d7c79dd90ba799a18378d8d",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-104.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "16-DSC_3899.jpg",
+      "source_sha256": "d71f397175bf93c1081d6bfa9bfc6628efc273fd19456ac252c13d4ca17d89af",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-105.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "17-DSC_3905.jpg",
+      "source_sha256": "e13af13383d1af3046ace42a48a5a6d1675bf9949922fcf0a76682ffb30e9b87",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-106.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "18-DSC_3911.jpg",
+      "source_sha256": "af3c18cf893e3ae515e1d5a328a319c08005913f3d67fbf540fbe1e5e1f4e4f4",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-107.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "19-DSC_3914.jpg",
+      "source_sha256": "11f2439f76d993df4ae0ae0b8a26af197c491774059454f8b127bb6f09de0dcd",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-108.webp"
+    },
+    {
+      "batch": "hosea-direct1",
+      "source": "20-DSC_3917.jpg",
+      "source_sha256": "0ba7494aa6657909dfac0b59bf5a3046977d76dc9e458814264600a96a3d8fe2",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-109.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "01-DSC_3923.jpg",
+      "source_sha256": "1bb45d9da1be19de0e57feabeff0bcf6fe2781e6ceec0442029625410460134a",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-110.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "02-DSC_3987.jpg",
+      "source_sha256": "47d2f1f90ca4bf141296db5dbeeb26f5308aada797baf61bf44b521b749e7e5b",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-111.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "03-DSC_4035.jpg",
+      "source_sha256": "e490b3c922295ad888dc2cc308dd59027b0fdb65fd1286f5ffa2fa2c7f1edf18",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-112.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "04-Front-of-house-straight-.jpg",
+      "source_sha256": "3b4f96b1361cf6ab1ba8371a0072b281130583c55e0f245fe83280704a49a9de",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-113.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "05-Front-Porch-.jpg",
+      "source_sha256": "74a4f2d90e25a0d7dfdfdaf0db8c05d638c17f98daa736b8e6023acf75c600a0",
+      "collection": "bungalow-blues-living",
+      "room": "Exterior & Deck",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-114.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "06-green-room-.jpg",
+      "source_sha256": "217b41d0e02b5bacb5db0f3ac39642fbf53bede9d739f6c3f2b46609b37690e7",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-115.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "07-green-room-2-doors.jpg",
+      "source_sha256": "cfa9051323f7a2505be42458c1194332fa6941d70b4b8db72ed67caea55abe43",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-116.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "08-green-room-facing-lounge.jpg",
+      "source_sha256": "44235ab80c001e09b8837871fe5903677d4507bef33eb82008f532c93eef37d4",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-117.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "09-green-room-side.jpg",
+      "source_sha256": "6765287cffab99c1cb365dc4083675896bf99ff2546ee5092fa1bb1a69e2ec04",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-118.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "10-green-room-straigth-shot-bed.jpg",
+      "source_sha256": "bedd9a8df37764b2860f8ed0b7e287fd2fe3c841432ea815751ebcfa49fbd732",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-119.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "11-green-room-TV-main.jpg",
+      "source_sha256": "6809bd016a5224fa4c7a9bd9899cc82183ab78e97081df90cb8a9f528c6866a5",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Green Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-120.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "12-kitchen-island-stools.jpg",
+      "source_sha256": "f5d0b1981c0ab0eb52883367ba3d203b970e00c87450c69475a29bb68936ebe6",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-121.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "13-kitchen-main-2.jpg",
+      "source_sha256": "1ea41ac649983e46a3f920c96531901a856cae4eb9c00d48f3458cc85db96f1c",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-122.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "14-kitchen-main.jpg",
+      "source_sha256": "ee20fe6ea017d5ce6c054b0b8b66d9c5bafc17e2f8b5d70a10a242996d608799",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-123.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "15-kitchen-side-livinf.jpg",
+      "source_sha256": "49ee22666e04caf03bfb4cb2c043bd3e81226d3e5d6620924bdb83fa53e37e2d",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-124.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "16-living-room-TV.jpg",
+      "source_sha256": "567942881e9ce07f32b95e1c062bfdecde706e8f1b63ca6e9ab07ca939e5ce10",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-125.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "17-lounge-bedroom-door.jpg",
+      "source_sha256": "65a5ad2052634dec750bb12b7be5604d66aaa2a3e3ff1ca848b891bfe67ef483",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-126.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "18-Lounge-desk-shot.jpg",
+      "source_sha256": "1500e6cd19dabfbba9e8f1de59436ce5ff1f9738db0b45c611401f4daa262833",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-127.webp"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "19-Lounge-Main.jpg",
+      "source_sha256": "361895d04864bbb7463899de84fa84e424fba269b51bf077eb91125f83ddf190",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-107.webp",
+      "duplicate_of": "hosea-direct1/18-DSC_3911.jpg"
+    },
+    {
+      "batch": "hosea-direct2",
+      "source": "20-Lounge-Middle-shot.jpg",
+      "source_sha256": "0a5771d63dbecf023b7a393aab12430df2a71cb110d2c65036419a9b8466b2fa",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct1-109.webp",
+      "duplicate_of": "hosea-direct1/20-DSC_3917.jpg"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "01-Lounge-yellow-couch-shot.jpg",
+      "source_sha256": "138c766ba39779dd6c7ff10ef534dfdaea290f3ffd0e6623717a531868ac45a2",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct2-110.webp",
+      "duplicate_of": "hosea-direct2/01-DSC_3923.jpg"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "02-master-bath-main.jpg",
+      "source_sha256": "66bb4c425c9f0133fdab65b3b071c7f481c3599752f6c704a1bb37a354a59aae",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-128.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "03-master-bed-and-couch-shot.jpg",
+      "source_sha256": "2fae06fcd8c5ebd7ebff710b30c3289c475f3e7d6989c45bc499c34b528e4c28",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-129.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "04-master-couch-close-up.jpg",
+      "source_sha256": "86070a7ab6e5e4bc7cfbebd36a15051e8159ea97062c907ea9714dca8972dfb6",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bedroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-130.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "05-master-vanities.jpg",
+      "source_sha256": "0b1017f816e7da81168f9c0a1a2a0edaef972676ca17d1e7aababe81f2e4f5e9",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-131.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "06-shelf-close-up.jpg",
+      "source_sha256": "e59a5bb323a690c8f5516e3ac112fad464ddb847883b05a47070e20c67b83f1d",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-132.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "07-stove-close-up.jpg",
+      "source_sha256": "28d3a6f1a1c0919aa85afb607d79face0d980853f5be0f2e13f65275f8911e94",
+      "collection": "bungalow-blues-living",
+      "room": "Kitchen",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-133.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "08-vanities-and-bath.jpg",
+      "source_sha256": "02b404d14b3314f45121b41399296d1fe4770d344b4b99ba703169d45cbba9a7",
+      "collection": "bungalow-blues-bedrooms",
+      "room": "Primary Bathroom",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-134.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "09-wine-glasses-close-up.jpg",
+      "source_sha256": "eb3c9f9ea4918a76475d67ebf6802c941191835bb11af2363196dcb7b0d5d166",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-135.webp"
+    },
+    {
+      "batch": "hosea-direct3",
+      "source": "10-wine-wall-close-shot.jpg",
+      "source_sha256": "10ac5d4cc23cec817bcb38aaa55797e451d1a47cf01ce3c7eab8ff1a1ea57561",
+      "collection": "bungalow-blues-living",
+      "room": "Living & Dining",
+      "display_asset": "assets/portfolio-restored/hosea-direct3-136.webp"
+    }
+  ],
+  "collections": {
+    "sun-lit-modern-home": {
+      "Patios & Exterior": 5,
+      "Powder Room": 1,
+      "Coffee Bar": 2,
+      "Living & Dining": 12,
+      "Kitchen": 5,
+      "Laundry": 1,
+      "Office": 3
+    },
+    "warm-desert-bedrooms": {
+      "Blue Bedroom": 2,
+      "Green Bedroom": 4,
+      "Shared Bathroom": 4,
+      "Hallway": 2
+    },
+    "a-comfy-rodeo": {
+      "Primary Bathroom": 2,
+      "Primary Bedroom": 3,
+      "Primary Suite Patio": 1
+    },
+    "suburban-kitchen-update": {
+      "Dining": 4,
+      "Kitchen": 12
+    },
+    "suburban-living-room": {
+      "Living Room": 13,
+      "Office": 1,
+      "Entry & Staircase": 3,
+      "Garage": 1,
+      "Exterior": 1
+    },
+    "guest-bedroom": {
+      "Bathrooms": 3,
+      "Laundry": 1,
+      "Guest Bedrooms": 9,
+      "Twin Bedroom": 2,
+      "Primary Bedroom": 5,
+      "Primary Bathroom": 3,
+      "Closets": 1
+    },
+    "bungalow-blues-living": {
+      "Exterior & Deck": 6,
+      "Living & Dining": 17,
+      "Kitchen": 6
+    },
+    "bungalow-blues-bedrooms": {
+      "Brown Bedroom": 5,
+      "Closets": 1,
+      "Primary Bedroom": 3,
+      "Green Bedroom": 6,
+      "Primary Bathroom": 3
+    },
+    "a-record-retreat": {
+      "More Views": 6
+    },
+    "a-luxurious-touch": {
+      "More Views": 10
+    },
+    "before-afters": {
+      "More Views": 5
+    },
+    "the-red-door": {
+      "More Views": 13
+    }
+  },
+  "covers": {
+    "the-red-door": "assets/portfolio-jobs/the-red-door/photo-01.webp",
+    "a-luxurious-touch": "assets/portfolio-jobs/a-luxurious-touch/photo-01.webp",
+    "sun-lit-modern-home": "assets/portfolio-restored/sunlit-room3-031.webp",
+    "a-comfy-rodeo": "assets/portfolio-restored/sunlit-room3-035.webp",
+    "warm-desert-bedrooms": "assets/portfolio-restored/sunlit-room2-019.webp",
+    "bungalow-blues-living": "assets/portfolio-restored/hosea-direct1-107.webp",
+    "bungalow-blues-bedrooms": "assets/portfolio-restored/hosea-direct3-129.webp",
+    "suburban-living-room": "assets/portfolio-restored/parker1-054.webp",
+    "suburban-kitchen-update": "assets/portfolio-restored/parker1-059.webp",
+    "a-record-retreat": "assets/portfolio-jobs/a-record-retreat/photo-01.webp",
+    "guest-bedroom": "assets/portfolio-jobs/guest-bedroom/photo-01.webp",
+    "before-afters": "assets/portfolio-jobs/before-afters/photo-01.webp"
+  },
+  "displayed_total": 187
+}

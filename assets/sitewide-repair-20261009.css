@@ -1,7 +1,7 @@
 
 /* Site-wide editorial QA fixes: no colored strips, one outlined reading box */
 html body .siteHeader img,html body header.siteHeader img{max-width:190px!important;max-height:68px!important;object-fit:contain!important}
-html body .siteHeader a img[src*="sun-sage-key"],html body header img[src*="sun-sage-key"]{width:auto!important;max-width:72px!important;max-height:66px!important}
+html body .siteHeader a img[src*="dominique-key"],html body header img[src*="dominique-key"]{width:auto!important;max-width:72px!important;max-height:66px!important}
 html body .article-blog-repaired header img{max-width:160px!important;max-height:70px!important}
 /* Consistent grid: preserve complete photographs and keep controls aligned */
 html body .loanHubGrid,html body .blogGrid,html body .journalGrid{align-items:stretch!important;grid-auto-rows:auto!important}

@@ -15,7 +15,7 @@
       const safe=s=>String(s).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)').replace(/[^\x20-\x7E]/g,' ');
       let y=744; const rows=[];
       rows.push('BT /F1 18 Tf 72 760 Td (Pre Approval Planning Worksheet) Tj ET');
-      rows.push('BT /F1 9 Tf 72 742 Td (Sun and Sage - private planning summary) Tj ET');
+      rows.push('BT /F1 9 Tf 72 742 Td (Dominique Duncan-Nelson - private planning summary) Tj ET');
       y=716;
       fields.forEach(([k,v])=>{ if(y<70)return; rows.push(`BT /F1 9 Tf 72 ${y} Td (${safe(k)}:) Tj ET`); rows.push(`BT /F1 10 Tf 230 ${y} Td (${safe(v||' ')}) Tj ET`); y-=22; });
       const stream=rows.join('\\n');

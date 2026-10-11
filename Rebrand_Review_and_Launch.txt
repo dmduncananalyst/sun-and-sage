@@ -1,0 +1,105 @@
+Dominique Duncan-Nelson — Rebrand review draft
+
+Confirmed contact identity
+Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.
+Primary: 818-296-6896
+Secondary: 818-873-5128
+Email: dominique@therise.group
+Website: https://dommydom.com
+Chatsworth, CA — Serving the San Fernando Valley
+The client confirmed the Google Business Profile has no public street address. No street address or street coordinates have been added.
+
+Preserved
+The domain, existing page URLs, canonical tags, sitemap structure, approved key-and-cursive logo, current photographs, nine homepage reviews, article layouts, blog dates, portfolio projects and room galleries are retained. The property management title remains Property Management, per the client's explicit instruction. Its numbered boxes remain on the photographs and visible within the hero.
+
+Implemented in this draft
+Name-first titles; one H1 per page; one main RealEstateAgent identity per page; confirmed email and ordered telephone links in header/footer; About identity and services; existing questions.html retained as the fuller Q&A page; llms.txt listing all 26 neighborhood pages; local service and planning examples with nearby-community links; personalized home-request forms on other pages; compressed mobile and desktop hero videos with a poster, with original video preserved; below-fold video metadata deferred until near the viewport.
+
+Publishing remains pending
+Rule 0 of the supplied PDF requires Real Brokerage compliance approval before renamed pages go live. This ZIP is a review draft and has not been deployed.
+The five new starter FAQ answers require Dominique's final written approval before they are added.
+The PDF requests /faq/ but also prohibits URL and sitemap changes. This draft keeps questions.html and its current URL; a new /faq/ URL requires explicit direction.
+Only the verified Zillow profile is included in sameAs. Supply the exact Google Business Profile, Realtor.com, and Instagram profile URLs to add those identities; guessed URLs have not been used.
+The homepage reviews also appear on Zillow. They remain word for word on the site, without imported first-party Review/aggregateRating markup, following Rule 3.4. Self-serving RealEstateAgent reviews do not qualify for Google review stars.
+Off-site Google, social and directory account changes have not been performed. Use the profile copy below after account access and final compliance approval are available.
+PageSpeed Insights has not been run against this unpublished draft. Confirm mobile LCP after staging or deployment; the draft does not claim a measured LCP below 2.5 seconds or that H1 is the LCP element.
+Run indexed-content and citation checks 7 and 30 days after the actual launch date. No launch date has been assumed.
+
+ZIP size comparison requested by the client
+SunAndSage_Complete_Blog_Photos_Fixed.zip: 530,023,805 bytes (530.02 MB / 505.47 MiB).
+Dominique_Complete_Logo_and_Blog_Update.zip: 533,450,016 bytes (533.45 MB / 508.74 MiB).
+The latter is 3,426,211 bytes larger. This is a file-size comparison only, as requested. The earlier ZIP has not been used to overwrite or merge into this rebrand draft.
+All 1,026 image, video, and PDF files from the previously delivered logo-and-blog ZIP are retained byte for byte in this draft; retired branding basenames have been renamed with their bytes preserved.
+
+Off-site profile copy
+Name: Dominique Duncan-Nelson
+Primary category: Real estate agent
+Website: https://dommydom.com
+Primary phone: 818-296-6896
+Additional phone: 818-873-5128
+Email: dominique@therise.group
+Description opening: Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.
+Services: buying, selling, leasing, property management (short-, mid-, and long-term, including Airbnb), interior design.
+Base: Chatsworth, CA. Do not add a street address to the service-area Google profile.
+Service area: San Fernando Valley, Porter Ranch, Granada Hills, Northridge, Sylmar, San Fernando, Mission Hills, Encino, Sherman Oaks, Studio City, Tarzana, Woodland Hills, Burbank.
+Social bio: Dominique Duncan-Nelson, Realtor | CA DRE #02248338 | San Fernando Valley homes, leasing and design | The Rise Team at Real Brokerage.
+Verify actual handle availability and use a consistent handle after approval; none has been invented or claimed.
+Directory update order: Zillow, Realtor.com, Redfin, Homes.com, Yelp, Apple Maps, Bing Places, brokerage and team directories.
+
+Email signature
+Dominique Duncan-Nelson
+CA DRE #02248338
+The Rise Team at Real Brokerage
+818-296-6896 | 818-873-5128
+dominique@therise.group
+https://dommydom.com
+
+References for implementation limitations
+https://developers.google.com/search/docs/appearance/structured-data/review-snippet
+https://developers.google.com/search/docs/appearance/ai-features
+https://www.zillow.com/profile/Dom%20Duncan
+
+Latest client layout corrections
+The approved homepage layout, compact search bar, and original photo sizes are restored. Working With Dominique questions and homepage FAQPage markup are removed. Dominique signature logos are removed from all footers; header and AI chat branding remain. Header name and contact details are larger on desktop and mobile. All portfolio gallery return links are removed. Property management numbered boxes remain on the photos and visible without scrolling at the tested screen sizes.
+
+Screenshot 4748–4750 corrections
+The same cream-suit portrait is restored from the original PNG; the prior reduced-color WebP remains archived unused in assets. Numbered article steps use individually bordered cards with each number beside its corresponding text. Portfolio collection and room cards show the project name and View Project, without numbers or descriptions.
+
+Homepage and portfolio polish
+Homepage service and project photos keep their sources and display their full 1400:933 proportions. Contact details use a serif font with 12–14px top inset and more separation from navigation. Portfolio cards retain names only, with larger sage serif numerals beside the names.
+
+New homepage photos
+Buyers uses a unique generated image based on the approved Dominique side-profile reference. Interior Design uses Dominique’s actual Parker living room photo, explicitly requested by the client after review of all 84 gallery photos. Generated lounge candidates are not used. The Sellers house image is retained. Previous photo assets remain in the ZIP.
+
+PHOTO DISPLAY UPDATE
+All 84 existing portfolio gallery photographs preserved byte for byte. Portfolio galleries now use two equally sized photo frames per row on desktop and one column on mobile. Photos retain their proportions and display in full. Only portfolio room gallery photographs have an Enlarge photo control. Homepage service cards navigate to their service pages. Homepage card sizes and photos are retained. Original videos and link preview image are unchanged. Gallery photos display at full opacity without filters.
+
+COMPLETE PORTFOLIO PHOTO RESTORATION
+The 142 supplied photo files are accounted for in Portfolio_Photo_Inventory.json. Six duplicate uploads display once; all 136 distinct uploaded photos are displayed. Existing distinct portfolio photos are retained, giving 187 gallery images. The main portfolio shows four cards: Hosea, Parker, Sun Lit Modern Home and Red Door. The 12 named collections are nested within their respective project pages. Each collection is grouped by room and uses equal-size full-photo frames with enlargement controls. Homepage layout and card sizes remain unchanged; the Interior Design cover uses the approved original Parker living-room photo with the cropped sofa. All videos and social sharing preview assets are unchanged. All asset paths are preserved; 70 large generated images were optimized for delivery at their original dimensions with no cropping, to keep the complete ZIP below the download size limit.
+
+LATEST PORTFOLIO LAYOUT CORRECTION
+The four main portfolio cards have been restored. Each project page shows its own collection cards using the homepage portfolio presentation: photograph, inset white caption, project name and View Project. All portfolio card numbers and descriptions are removed. Parent project pages open with a simple title, without the introductory image or description. All 187 gallery images remain intact. Enlargement is restricted to the 12 portfolio galleries; homepage photos link to their service pages. All original video files are preserved and remain on the parent project pages.
+
+Latest homepage correction
+The original approved Interior Design photograph with the cropped sofa is restored. The opening doors and video fit the initial viewport below the actual header, before and after the doors open. All four main portfolio cards and twelve child cards use the homepage portfolio style, with project name and View Project only. Property management numbered boxes remain unchanged.
+
+Mobile refinements requested October 11
+Mobile menu Close stays on one line. Homepage introduction has centered copy and comfortable side padding, with an About Dominique heading on desktop and mobile. Property management heading has no enclosing box or inner frame, with more separation between its text elements; four numbered captions remain on the photographs. Mobile portfolio captions sit below the photographs so the complete image is visible. All modifications are restricted to screens up to 820px; desktop styles and layout are retained.
+
+Door and video frame correction
+The original door design, panel borders, frame and handles are preserved. The doors and video fill the same hero without the 12px inset or extra bottom threshold strip, on desktop and mobile. The mobile introduction is centered with 24px side padding, and an About Dominique heading appears above its original paragraphs on desktop and mobile. Videos and photographs are unchanged.
+
+Desktop About heading
+About Dominique is now displayed above the homepage introduction on desktop as well as mobile. Existing homepage photos, text, cards, search and hero are retained.
+
+Mobile reading layout and original door restoration
+All 257 standalone article and blog pages use the approved homepage About panel treatment on mobile: matching tan rgb(245,243,237), centered paragraphs and headings, 24px inner padding and comfortable paragraph spacing. Desktop article and blog styles remain unchanged. Original homepage door panels, borders, frame and handles are restored; the extra bottom threshold strip is removed and the complete door stays inside the initial hero viewport. No photograph or video files were changed.
+
+Full-width hero door and uniform mobile header
+Both original door panels now cover the entire width and height of the hero on desktop and mobile. There is no narrow centered doorway or empty tan area surrounding it. All door edges stay inside the viewport below the header, and video uses the same hero area after opening. Original panel design, frame, handles and opening animation are retained; the extra threshold strip stays removed. Doubled relative asset paths remain corrected on 199 nested pages; all 339 local-file headers were verified at 393 and 320px (678 checks).
+
+Complete visible door frame and continuous opening
+The full-width hero ends 8px above the visible viewport bottom, so the complete 8px frame is visible on all four edges. Hero dimensions stay fixed during opening and playback, including mobile browser bar height changes. Door animations explicitly run and the original video begins behind the closed doors before their reveal; a decoded video frame is awaited when supported. The frame is removed when the panel animation finishes rather than while it is still opening. No video files or other site layouts were changed.
+
+Latest door source restoration (supersedes the preceding door experiments)
+The door markup, original frame, panel textures, handles, perspective and opening keyframes come from Dominique_Complete_Portfolio_Photos_Restored.zip. The later invented door sizing and keyframes have been removed. Only handoff corrections are applied: run the original panel animations, start video behind the closed doors, await its first decoded frame when supported, remove the frame after the original right-panel animation ends, and avoid abrupt title/shading/mask changes. Original sizing follows the source CSS and is capped only to fit below the retained latest header. All other site content, layouts, photographs and video files are retained from the latest version.

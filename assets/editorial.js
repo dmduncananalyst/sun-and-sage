@@ -1,4 +1,4 @@
-/* Sun and Sage journal: self-contained navigation and budget controls. */
+/* Dominique Duncan-Nelson journal: self-contained navigation and budget controls. */
 (()=>{
   const progress=document.querySelector('.reading-progress span');
   if(progress){const update=()=>{const d=Math.max(1,document.documentElement.scrollHeight-innerHeight);progress.style.width=Math.min(100,Math.max(0,100*scrollY/d))+'%';};addEventListener('scroll',update,{passive:true});update();}

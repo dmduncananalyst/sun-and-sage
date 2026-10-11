@@ -1,0 +1,33 @@
+/* Contact identity and honest property requests; approved photographs and cards stay intact. */
+html body.ss18 #ss22-header#ss22-header{padding-top:24px!important;height:114px!important;min-height:114px!important;box-sizing:border-box!important}
+html body #ss22-header .ddn-contact-strip{position:absolute;top:4px;right:28px;left:28px;display:flex;justify-content:flex-end;align-items:center;gap:18px;font-size:11px;line-height:18px;color:#405441;white-space:nowrap}
+html body .ddn-contact-strip a{color:inherit;text-decoration:none}
+html body .ddn-contact-lockup{display:flex;flex-direction:column;gap:8px;line-height:1.6;font-size:13px}
+html body .ddn-phone-pair{display:flex;gap:16px;flex-wrap:wrap}
+html body .ddn-neighborhood-support{max-width:1100px;margin:32px auto 48px;padding:24px;line-height:1.75}
+html body .ddn-neighbor-links{display:flex;gap:20px;flex-wrap:wrap}
+html body main#main .ddn-service-h1{font-size:clamp(28px,4vw,56px)!important;line-height:1.2!important;white-space:normal!important}
+html body .ddn-contact-page-details,html body .ddn-about-contact{max-width:960px;margin:24px auto 48px;padding:0 24px;display:flex;flex-direction:column;gap:12px}
+html body .ddn-home-faq{max-width:1100px;margin:48px auto;padding:24px;display:grid;gap:24px}
+html body .ddn-home-faq article{border-top:1px solid #c8cec1;padding-top:20px}
+html body .ddn-home-faq h2{font-size:clamp(24px,3vw,38px);line-height:1.25}
+html body .ddn-home-faq h3{font-size:20px;line-height:1.4}
+html body .ddn-home-faq p{font-size:16px;line-height:1.75;margin:10px 0}
+html body main#main .searchBar.ddn-property-request{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;border:1px solid #c8cec1!important;padding:28px!important;gap:20px!important;background:#f6f4ed!important;box-shadow:none!important;border-radius:0!important;height:auto!important}
+html body .ddn-request-copy{grid-column:1/-1;font-size:16px!important;line-height:1.7!important;margin:0!important;text-align:left!important;color:#354535!important;letter-spacing:normal!important;text-transform:none!important}
+html body main#main .ddn-property-request label{width:auto!important;min-width:0!important;display:flex!important;flex-direction:column!important;padding:0!important;border:0!important;gap:8px!important}
+html body main#main .ddn-property-request :is(input,select){height:48px!important;width:100%!important;border:1px solid #bbc4b6!important;background:white!important;padding:10px!important;box-sizing:border-box!important;color:#283728!important}
+html body main#main .ddn-property-request button{grid-column:1/-1;width:auto!important;min-height:48px!important;padding:12px 20px!important;justify-self:start!important}
+html body main#main .videoHeroTitle h1{font-size:clamp(24px,3vw,46px)!important;line-height:1.2!important;margin:0 0 12px!important;white-space:normal!important;color:white!important;letter-spacing:normal!important;text-transform:none!important}
+html body main#main .ddn-city-h1{font-size:clamp(25px,2.8vw,42px)!important;line-height:1.2!important}
+@media(min-width:821px){html body main#main#main#main .propertyCollageHero{width:min(1240px,calc(100% - 48px),calc((100svh - 254px) * 4 / 3))!important}}
+@media(max-width:820px){
+ html body.ss18 #ss22-header#ss22-header{height:136px!important;min-height:136px!important;padding-top:34px!important}
+ html body #ss22-header .ddn-contact-strip{left:10px;right:10px;top:3px;display:grid;grid-template-columns:auto auto;gap:0 14px;justify-content:center;font-size:10px;line-height:15px;text-align:center}
+ html body .ddn-contact-strip a:last-child{grid-column:1/-1}
+ html body main#main#main#main .propertyCollageHero{width:min(calc(100% - 28px),calc((100svh - 394px) * 4 / 3))!important}
+ html body main#main#main#main .propertyCollageTitle h1{font-size:clamp(24px,7vw,32px)!important}
+ html body main#main .searchBar.ddn-property-request{grid-template-columns:1fr!important;padding:20px!important;gap:16px!important}
+ html body main#main .ddn-property-request button{width:100%!important;white-space:normal!important}
+ html body main#main .videoHeroTitle h1{font-size:clamp(22px,6vw,32px)!important;line-height:1.2!important}
+}

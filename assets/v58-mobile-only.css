@@ -1,4 +1,4 @@
-/* Sun & Sage mobile-only refinements. Desktop rules are intentionally untouched. */
+/* Dominique Duncan-Nelson mobile-only refinements. Desktop rules are intentionally untouched. */
 @media (max-width:800px){
   html,body{width:100%;max-width:100%;overflow-x:clip}
   body.v58-menu-open{overflow:hidden}

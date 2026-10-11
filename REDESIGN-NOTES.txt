@@ -1,4 +1,4 @@
-SUN AND SAGE / COMPLETE WEBSITE / VERSION 24
+Dominique Duncan-Nelson / COMPLETE WEBSITE / VERSION 24
 
 Extract the entire ZIP, then open sun-and-sage/index.html. Keep all folders together.
 For hosting, upload the contents of the sun-and-sage folder to the website root.
