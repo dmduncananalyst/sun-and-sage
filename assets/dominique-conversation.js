@@ -88,7 +88,7 @@
   dialog.id = 'sun-conversation';
   dialog.className = 'sunConversation' + (cfg.inline ? ' sunConversation--inline' : '');
   dialog.setAttribute('aria-labelledby','sunConversationTitle');
-  const brandLogoUrl = new URL('dominique-key-script-transparent.png', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'dominique-conversation.js', document.baseURI)).href;
+  const brandLogoUrl = new URL('dominique-key-script-transparent.svg', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'dominique-conversation.js', document.baseURI)).href;
   const isSensitivePage = /\/life-changes\/(death|divorce)\//.test(location.pathname);
   const conversationTitle = cfg.title || (isSensitivePage ? 'Share Your Plans' : (cfg.button || 'Work With Dominique'));
   dialog.innerHTML = `

@@ -1,12 +1,16 @@
 
 (()=>{
   // Image fallback: if any remote/local image fails, show an actual local portfolio photo instead of alt text.
-  const fallback='assets/projects/sun-lit-modern/photo-48.jpg';
+  const fallback='assets/portfolio-jobs/sun-lit-modern-home/photo-01.webp';
   document.querySelectorAll('img').forEach(img=>{
     img.addEventListener('error',()=>{
       if(img.dataset.fallbackDone)return;
+      const collection=img.closest('[data-job-gallery]');
+      if(!collection && img.closest('.ss22-project,.portfolioParentCard'))return;
+      const replacement=collection ? [...collection.querySelectorAll('img[src]')].find(other=>other!==img&&other.getAttribute('src')!==img.getAttribute('src'))?.getAttribute('src') : fallback;
+      if(!replacement)return;
       img.dataset.fallbackDone='1';
-      img.src=fallback;
+      img.src=replacement;
     });
   });
 
