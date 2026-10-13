@@ -1,189 +1,189 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-13",
   "files": {
     "buyer-question-budget-by-valley-area.html": {
-      "size": 21845,
-      "sha256": "2b83ed12286659af24ab48d8ea21afcb462f740046c80e38fc5d41cfdbb31b29"
+      "size": 21895,
+      "sha256": "50d9efa0b78ef4d057f8710cba48e3f5d53f6b785bcd6a5fad9ab7b37ee7f55a"
     },
     "valley-guide-north.html": {
-      "size": 51558,
-      "sha256": "e2433bcbcb093c15a51e6ffc2d50782de25455140e6a23d5fa11bc33ff5bd3b0"
+      "size": 51583,
+      "sha256": "5a06d4f42f4e1c395d830c43dfda181a6ddb24bc0c80a48ddd08ab74c5c77347"
     },
     "Blog_Update_Results.json": {
       "size": 3428,
       "sha256": "a842dcd17a82d0732c47b3885944d435b581a2df1aeadef2d94ddfac84989a96"
     },
     "preapproval-vs-prequalification.html": {
-      "size": 19745,
-      "sha256": "57bdd89debe0bf636b037dc548d2bce668a92010181bd7eda1058047acae25ab"
+      "size": 19798,
+      "sha256": "fe0c1c743255f1cbbee9c7a4a45d6a803c1ae60c8123a7370b0daabe7c82813a"
     },
     "buy-winnetka.html": {
-      "size": 58203,
-      "sha256": "178a01d7e14a00b01eb02ac3a357110ff24af6fdf59fd667ba11335b586fb967"
+      "size": 58180,
+      "sha256": "069305827c8b6c6be7ad88ac816a26ff55989915db5fc8106bd6e6531431858d"
     },
     "seller-question-net-proceeds.html": {
-      "size": 19547,
-      "sha256": "3798bee1e7f2b54a2a7e6142e82e8e7a2ad2bdf6faa1b7157925e5fda524cf11"
+      "size": 19598,
+      "sha256": "81e816b95e1804894a1183f4807b60c3123d53ba1d9026e3ae00847815491fd5"
     },
     "first-time-closing.html": {
-      "size": 55635,
-      "sha256": "f7f0ca9c1a340991cc697b8ee7d2077c6a0a7bf0ead8d95d26835a1360c18bea"
+      "size": 55664,
+      "sha256": "2ba655f9b5e9949726489e1ef6299744dc77965e8eab9b17ab27e721d9e89d3b"
     },
     "usda-loans.html": {
-      "size": 19544,
-      "sha256": "ead775a85047e620af1aee3c3b00a88f2a3ec75fdf67c7a6357cc5890212de52"
+      "size": 19597,
+      "sha256": "abf42d4dcbee7b5295cdae7f7e20c90b26943f30d1ffa88b38c53186ca937403"
     },
     "buyer-question-high-hoa-value.html": {
-      "size": 21990,
-      "sha256": "ec6bdbe0dee948acd5fb0551ffd3f7f3f7c354e94bf570e4a60ed34f78302107"
+      "size": 22040,
+      "sha256": "6d5258c20ae694f483e48b040bf831ac5e6d587b5c375582d3693faff2dd7d3c"
     },
     "credit-score-to-buy-home.html": {
-      "size": 21183,
-      "sha256": "362b7fc19224b95e6ae88987284c4ded61375db2e90a54cafe7cc25c01a9df1f"
+      "size": 21236,
+      "sha256": "441d04a137cde4267f36119a3da3e434a10d0ccf52e08a04bfc840433b55b16c"
     },
     "buy-mission-hills.html": {
-      "size": 58701,
-      "sha256": "5cc74043021505cde56d985a0581df6260ca3bdaf13489d1cbd3a8fd1e5046e9"
+      "size": 58673,
+      "sha256": "99b788d630fc4b9a49a2fd942814e85fda2bd898acc250badee6627d10d8c23b"
     },
     "buy-valley-village.html": {
-      "size": 58398,
-      "sha256": "933b21434b55ff47b8304ad002f418a2d70fb6f09c4d19d34a4afdd2dea37070"
+      "size": 58369,
+      "sha256": "446b9d26448b879d2b5581879d8426c34474ea8357bfaab7e8b663e4654e492b"
     },
     "Rebrand_Audit_Results.json": {
       "size": 6930,
       "sha256": "48a902ba1a05e962c2f45e7e1c00b9e15933711333b955a3baadf50fedb76b4b"
     },
     "first-time-pre-approval.html": {
-      "size": 19672,
-      "sha256": "038dd79d2f7ed30858ab162d664fd255061d91d07cb8239643a200822490741c"
+      "size": 19725,
+      "sha256": "c180a0c40095bb05cfb49861ae14409c5e7adc1f6d4367808df604abbd8cfb08"
     },
     "portfolio-warm-desert-bedrooms.html": {
-      "size": 50694,
-      "sha256": "8332defa477e49d8cddd75be88a97affe8c8c65ab6f67e20aa28c40b6d686ac5"
+      "size": 50716,
+      "sha256": "de6124042e7006e0e03b9b7fb1b14edb575d2a61311922cdcee550d595c7cd09"
     },
     "buyer-question-porter-ranch-newer-vs-established.html": {
-      "size": 22171,
-      "sha256": "316a3b58dd393b6a50e47d2c5776feced3ab84db77a308c392311b4d24ceb1d6"
+      "size": 22221,
+      "sha256": "8fa0c84aee01e1b2590fa6ac2c3dff8bebb0eb66d1bbe2f4ec2bfb2010326173"
     },
     "questions.html": {
-      "size": 62502,
-      "sha256": "90d06c78ade017e16f81fb91f3f435954d4978d2fb6089bd6746a29f8a24db23"
+      "size": 62538,
+      "sha256": "909dc3f4dbc042c5bcce942fef617b688557f2882ca6293941d175c7633ff0f3"
     },
     "about.html": {
-      "size": 51301,
-      "sha256": "7b3c5536392916f69cfb2401159df410ca9cd82a08e83675143fbc2132c262f0"
+      "size": 51183,
+      "sha256": "f828508a1d59ffe6f35178ec00cb4f4d2e9fd0871d3f60d228a6f56f0a1d3e1b"
     },
     "buy-pacoima.html": {
-      "size": 58111,
-      "sha256": "ce15445bcfefca3de2f17701410caa83bfb4e47efeffb6f97583e45a88e0c64a"
+      "size": 58089,
+      "sha256": "b98c2bdd80016b7795e93202b71d9f19baef912c0d6de44c3414377b02758163"
     },
     "valley-guide-west.html": {
-      "size": 50675,
-      "sha256": "918c2812a1ff17da420b00a7309f461d835234cf2752080190ad2e3a4df140a3"
+      "size": 50701,
+      "sha256": "1dda438d95456b7720f6458aa0f12613f8751737920afca4be80c55adb59cbf8"
     },
     "design-questions.html": {
-      "size": 61764,
-      "sha256": "2633e2f3ad20dd4526293fe589bd23710e2554a5a1bb6cd92b5e10a2aa9fa79c"
+      "size": 61737,
+      "sha256": "3d3880a4d7b16d78c333297a26af27da94ad7cd7a23ec5ad3d350f434e523f91"
     },
     "blog-two-one-rate-buydown.html": {
-      "size": 18836,
-      "sha256": "c94a945225e0d4c26c7b3a959093a0d6bb357a3a72ecaf53dbee0996f9247468"
+      "size": 18851,
+      "sha256": "967010b7f68a5afe785f9e47a7599067dcbe60f8ac61f89e7c5463626f5b10a7"
     },
     "fha-loans.html": {
-      "size": 21334,
-      "sha256": "782ce554f9a2ec1a58f7a2ef2a43d3735d849bde74931f37ea01b89be8c5582e"
+      "size": 21387,
+      "sha256": "1f462c877ba341b28e5bdafb84b0d0f7184ff7815859fa2573a8c35ae276246d"
     },
     "buy-north-hollywood.html": {
-      "size": 58839,
-      "sha256": "eb53c34c4795b1d9f1692dcfcb120d75270ad50d85ce123f1102dd33d654834d"
+      "size": 58809,
+      "sha256": "5c5c8a3c230918acd7439ac068d69bb558d9040a3ddc5a4224aa0a70e5bdd466"
     },
     "commercial-design.html": {
-      "size": 56311,
-      "sha256": "a4e797b0ad79fe8e950b5b736305b32b4647b2685b8a08d0ed7df96c44612c35"
+      "size": 56314,
+      "sha256": "b21a859370c8c14c2fc5d9ca15728a7d633b3bbd34bdcc320da87d28116f1d72"
     },
     "seller-question-hoa-documents-before-listing.html": {
-      "size": 19471,
-      "sha256": "1c4cb8581f810b16e60fa0194baa9ca9544be3e62a4bcdb24d2314c517033489"
+      "size": 19522,
+      "sha256": "186bda3c7188aee216f39e187c14aa2a32cb054e37142a19988b140f5bbf6459"
     },
     "blog.html": {
-      "size": 72546,
-      "sha256": "94f80577b1d01a71da7dbec9978093a5ec0942abfc3787e7ad5e75d38a1b3859"
+      "size": 80036,
+      "sha256": "4103d2a8336dfb2d1c07a4d93392fcb9e932324cd51c26bc56d31d71ee3bd38c"
     },
     "conventional-loans.html": {
-      "size": 21739,
-      "sha256": "d3b762e811c5884b272a6447745b41de0e223681156ea48398bdf16b72ab087f"
+      "size": 21792,
+      "sha256": "3fbbae2eece7d8a7320f74c74cc2cabcba17ac443da76bc68c4d5ca898a797ab"
     },
     "buyer-question-south-of-ventura-boulevard.html": {
-      "size": 21973,
-      "sha256": "c30d7c044eaa3e4c5c4a20ac5e159da85ba57e0250c2221eca529da271447414"
+      "size": 22023,
+      "sha256": "ca24d3531ca32fd3dd7c76eb2e6432554ec56bb955c46aaf43fa5261b6f2e151"
     },
     "October_Blog_Photo_Prompts.json": {
       "size": 42,
       "sha256": "01091913fbfae4aadbfe54b33c55b0a8e18eb8acaff53a27a84bae2f89230465"
     },
     "short-term-rental-questions.html": {
-      "size": 58352,
-      "sha256": "c09ef51962eeff4ec808971a90d8b252da70e96596c32d8eaae190f5370a9d7d"
+      "size": 58287,
+      "sha256": "c27bdcb5241b19f6fd859301c77a95e9bdc92b9ef922797f60d3376c4a57a055"
     },
     "portfolio-sun-lit-modern-home.html": {
-      "size": 55314,
-      "sha256": "1b5f5cce84900125e7f0123947d7f51d29c1b6103542c0261914e6b566c2d70a"
+      "size": 55336,
+      "sha256": "89339c9f4d60d3afb1ee352bfc5f973f2b4cbd13789d26711fc82fdc0c885216"
     },
     "favicon.svg": {
       "size": 712,
       "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
     },
     "buy-sun-valley.html": {
-      "size": 58183,
-      "sha256": "e63087f7654b68499db737a78be7454c601057ddb7398f2e5f6debc3a5f3d69b"
+      "size": 58158,
+      "sha256": "10848e82c2d6f60c910d89a925e066737d328b5a2427b8fb7ede7cf1e9556b48"
     },
     "sell-a-home.html": {
-      "size": 23955,
-      "sha256": "8bbbd8d6a91d22e69a645a648a6cd81392316e1ddc899314ab2ffc2afbac67ae"
+      "size": 23943,
+      "sha256": "4d09fd7e61d6655bd02c09290856d154486a9018ee733948b911c40fde93195c"
     },
     "portfolio-bungalow-blues-bedrooms.html": {
-      "size": 283997,
-      "sha256": "899a8bfa980a23b3b620b4346142728206b9c0478203c8e43ea01f40603602da"
+      "size": 284019,
+      "sha256": "af6242e6c37421cf54abae7a197a18c9afc0bc9c056224611ebc6c9cbc6aeb43"
     },
     "portfolio-suburban-kitchen-update.html": {
-      "size": 53575,
-      "sha256": "795643ea9f64f27e5bf37fc527a59c19e460365b55e034ec6dca7d6f607a6a91"
+      "size": 53597,
+      "sha256": "2020aafc415d4ef32dbf42a4db11c3081d2a119b4b0f40d1ea5290ac65bd4fb3"
     },
     "buy-sylmar.html": {
-      "size": 58408,
-      "sha256": "44a3f0263d0daaf476f4098a4ad3b911d5b280367e8f61169ffc345cbc28e3eb"
+      "size": 58387,
+      "sha256": "a3cc1db66b846e7127d98d51c10080bc9aa16e54fe9a99da02c3e2e3033042aa"
     },
     "buying-with-student-loan-debt.html": {
-      "size": 21545,
-      "sha256": "d5b77ddac29793c0606be4b8e4b5fea74b424459af3b7f4bfa27ab3638b2f661"
+      "size": 21598,
+      "sha256": "28ef28d20faf287c46febc8edcfeecbde2b65ef049a9d3536297abb73f5cbfd8"
     },
     "buyer-question-same-price-different-neighborhoods.html": {
-      "size": 22161,
-      "sha256": "029e902b39f17b6440d216fb33eee5c95fa4982f504012f23c7da35ffbbfc4d6"
+      "size": 22211,
+      "sha256": "aa232aa5147c4b3b1ea14ead47f4baa04596cbe2168c6e57e6234c0f12689b41"
     },
     "buy-sherman-oaks.html": {
-      "size": 58635,
-      "sha256": "278a09fcee440810227d3bdb355662cc851431c264f0acc849b8b999bae1ab42"
+      "size": 58608,
+      "sha256": "b8e8c6015e0fb17ffe724423de5770f8f303f3ee97f739783d98eb57975fbd7e"
     },
     "buyer-question-fast-market-offer-or-walk.html": {
-      "size": 21498,
-      "sha256": "1dc582ad74442c9c9c850bfe88e9424cf82d14de7ec209d4404503c60100ada7"
+      "size": 21548,
+      "sha256": "8eda876cccaaecc93840c4d4ec8c2a22d1899dd9e5986cac6eac3c92f957b07d"
     },
     "real-estate.html": {
-      "size": 47779,
-      "sha256": "b4b141fd8b211ccde95330ff21524ced81e9521b44f94c357e51367a75bd0777"
+      "size": 47819,
+      "sha256": "a2a3b0b09add2eba4fc832a1465d7bd2fbf269752023d28bb071c4b9df8bb154"
     },
     "do-i-need-20-percent-down.html": {
-      "size": 21380,
-      "sha256": "e53bcd2c193ac4072033f2db1725ce57fb7959a1a978058e7ebc2749ac39100c"
+      "size": 21429,
+      "sha256": "210ecd22b119226362c3eb37f933cdf3cb4475657301b4c792063684aedec7aa"
     },
     "valley-guide-east.html": {
-      "size": 51128,
-      "sha256": "eb23e4298535c387fbe930a5741ea03fbb0f77f9a92cf9a64f24cef604474ba8"
+      "size": 51154,
+      "sha256": "af2e48c2475bf92182169d359c51a84483df4d37098f54f0b2794a4aa40c52b9"
     },
     "sitemap.xml": {
-      "size": 45581,
-      "sha256": "b7f8eb91da4cbdbe5e7c602b9885bddf319350d7f8d76d18d4200eba2aab6f36"
+      "size": 46283,
+      "sha256": "a2406b8f5449115c43894d7e67c0a7e935b714f4b63a174f0c47320f3e6c10f8"
     },
     "llms.txt": {
       "size": 2393,
@@ -194,316 +194,316 @@
       "sha256": "b64a336ec5fe45b795346ac6c20faee4dfc0d1ce72bc14298dc802ab5a8149da"
     },
     "buy-sunland.html": {
-      "size": 58322,
-      "sha256": "0cabb897ec286a59afdf785daa9bdd0ea5d8d3a8fa5924e3968edccf96259586"
+      "size": 58300,
+      "sha256": "496a4a4b022188413aa70ce8a1f72ff4f7c5ba8f97cbc05092508b7e55491037"
     },
     "lenders.html": {
-      "size": 290176,
-      "sha256": "44c9dd4c5528482774160cc930eaed29a30da2a3fb4657ad4e0521e4697960c9"
+      "size": 290212,
+      "sha256": "7cb4c24353f2388058bf42bb6475a861b36b89adc9f337fa7341d3b6555bcaa6"
     },
     "buyer-question-fixer-upper-worth-it.html": {
-      "size": 21717,
-      "sha256": "18b86c92432601b68c0fef816569de8ee4d77dadf5cd71e75b6a5bbf0d8c84e3"
+      "size": 21767,
+      "sha256": "0cb2127eda65589f90b784726561e11811805d19d09573189a7f1e13d59febed"
     },
     "renovation-loans.html": {
-      "size": 19609,
-      "sha256": "420bbbe8ae5ed532b682ccd8e68f130298e1f4659307e5606c4f902badd35890"
+      "size": 19662,
+      "sha256": "d09f11628e86b92280599a9452109ca159af5d9b61d8c1591d37cff3853e6936"
     },
     "portfolio-bungalow-blues-living.html": {
-      "size": 288707,
-      "sha256": "d512c237b967278a271056e866c7ee16f0f38b4484b0d5efc335ee285daba977"
+      "size": 288729,
+      "sha256": "2470f2896ecfd357f5ad31c2f6860af3d74b5c89cdc4fa9cfedab72b3c57ac19"
     },
     "robots.txt": {
       "size": 65,
       "sha256": "e99cccc774f9fe0fd7fe87a4f30d39b4dc042ac7c78d974bb96ab7e938ad46aa"
     },
     "buy-toluca-lake.html": {
-      "size": 58502,
-      "sha256": "94a852dc13c60e34b7673378dfb2f59ee5a92c030050e51e829a79ea8d448fcc"
+      "size": 58476,
+      "sha256": "d75560f432716955c9f86bde012f217e74597965d5b6355abfa839320a91e6e6"
     },
     "buyer-question-monthly-affordability.html": {
-      "size": 21823,
-      "sha256": "af5ae8b9922895ec49e593b2a3227ca2f7949c4843c2d410b5644b207efd451a"
+      "size": 21873,
+      "sha256": "dcdb09b28e3523ad7e68b8cd258357a1a4c187df359ad96ec9a40082ee8b03b4"
     },
     "REDESIGN-NOTES.txt": {
       "size": 4363,
       "sha256": "4f6cbdf08bb763e18d1db6c5847e113491f153ffe6e117d8e8dda1444a8c93a2"
     },
     "seller-question-move-up-now-or-wait.html": {
-      "size": 19701,
-      "sha256": "4a5a03c195da3df22ab150bde6483e70ec52bccda7d4f8add0141a8e1dc4d4e3"
+      "size": 19752,
+      "sha256": "cb6e213df1563272ec229cc752b58f94a06e6ba6c1d15ee6c3fc6481aad4d315"
     },
     "blog-california-condo-crisis-sb326-2026.html": {
-      "size": 21736,
-      "sha256": "3ba5a1676cddb74452c4efcf0aa4ab2ff3fd19068b7ef0c6a5c1696649239229"
+      "size": 21730,
+      "sha256": "b05c8e7345a382b17720d5481081de1e74a7c1d30aab08516ef0fec15eb0cfb9"
     },
     "first-time-touring.html": {
-      "size": 53400,
-      "sha256": "18bdafbf222f0166ab827861c410f6e102089b991b05c1f0fe7ab8a308af6614"
+      "size": 53429,
+      "sha256": "37d96b0e2487de4276a954159de058c298b5925347dd71061fecddc3cbcfc5cb"
     },
     "valley-guide-south.html": {
-      "size": 50264,
-      "sha256": "38086fbae6be1ac9389f5c864634f932f550d141a73972090a615c6639763ff9"
+      "size": 50289,
+      "sha256": "d26bb2e8da83213c123e34266650bed9406f3855e991063f6f690b6cd7897c74"
     },
     "ARTICLE_LAYOUT_VERIFICATION.txt": {
       "size": 113,
       "sha256": "6e991f00abb2b05628e4f40f9cd2de297733d9540620744457933e8d14f33224"
     },
     "buy-woodland-hills.html": {
-      "size": 58784,
-      "sha256": "9168c636416c6e3b3b18751c12a9e0b31f111a27227b0c4301810f23b5751f64"
+      "size": 58755,
+      "sha256": "5669372c8b220bea026c1c4babcec928bbbd8c9f83aac45da3e5f0f8eec92d59"
     },
     "buyer-questions.html": {
-      "size": 59987,
-      "sha256": "067902a1d2a661c94a8c3cb38c16fbfa79498a9782645e2451b2b0a21364e1b6"
+      "size": 60028,
+      "sha256": "28715886b1e4b4707b0d1a66cc90d3721f3f611a36c01f01e4fe12bd6330c771"
     },
     "buy-west-hills.html": {
-      "size": 58599,
-      "sha256": "07d36836ba1cddf5cf92f2ee1b9f9318dad0ee227242aa06dd0e5d07b561bde0"
+      "size": 58574,
+      "sha256": "1e159e1515bb5565d7cd502b759bf3e87ca39eba06367675d6afc67ec55b5fe9"
     },
     "buyer-closing-costs.html": {
-      "size": 21469,
-      "sha256": "f6c5f8eeef1dc509dfaa3cf027b3573f9f2da9c0292ac2c5829cf49ce9a51280"
+      "size": 21522,
+      "sha256": "8a56e4462bc4c5d4475ef3e879f59d4650d5e51895ae73e5c39cab1e1a8b4bbb"
     },
     "New_Blog_Photo_Prompts.json": {
       "size": 1528,
       "sha256": "a61106c4877916085944979503fe39c7d3e9065c5bb21dcfb089524a24de1eba"
     },
     "preapproval-documents.html": {
-      "size": 19438,
-      "sha256": "4e2e20caf1a10db371a301c3e49663d4bfb99a6bf0dafb07f6c26b2d78c4575f"
+      "size": 19491,
+      "sha256": "191f2c49b73f5228c92b4fda03790f29d57ea6909f50d455cd3801460218267f"
     },
     "buy-chatsworth.html": {
-      "size": 58927,
-      "sha256": "a518c5679d2f8a511e61334dd067123070b1aeba6d6a5eaeed82f826c85c3713"
+      "size": 58902,
+      "sha256": "bb0a9bedb526a4f0f97160d89beb1065013ada975523b025443ca52663ddd5ad"
     },
     "buy-a-home.html": {
-      "size": 60240,
-      "sha256": "8c5161f57a79ec7d11cbab55f88366e79c81a20dc9b1d08670565cc844470248"
+      "size": 60221,
+      "sha256": "c3e2ef42b3e3e19bafc4ab9c4f8065f5882079a8f557e328821104c97ae4827b"
     },
     "QUESTION-PAGE-CLEANUP.txt": {
       "size": 1883,
       "sha256": "3df6e8f2d52a3e100d2cd47797de3b302c717e57d667a5ce940ec12c3f86f9c7"
     },
     "interior-design.html": {
-      "size": 52813,
-      "sha256": "aa85718f6bae60b37ee72a40bc5b01020c9dbe52906b9425f8afebc7fee2f833"
+      "size": 52789,
+      "sha256": "92ab322a88f972311c8a5bd89e47b1583f6a2299beca3d6a8492ddca0100e563"
     },
     "first-time-buyers.html": {
-      "size": 58302,
-      "sha256": "1b4b9846fcd56e6ad55a65dae7592c8719efacc809d51a25d862f878e3a71feb"
+      "size": 58333,
+      "sha256": "cf3c498a07e7de5d2821065532416e55d110a0b87e0afe0de56caa5cb94b31bb"
     },
     "buy-porter-ranch.html": {
-      "size": 59158,
-      "sha256": "803b8c20abdef77a214bcec6eac7a6f298e29719a57c40447b0a17e37dc5cd2a"
+      "size": 59131,
+      "sha256": "1f2b7e96e0c4a96247fd360f83542c0e3bf76b294935cda11d4011c4d863e733"
     },
     "jumbo-loans.html": {
-      "size": 19659,
-      "sha256": "069d6f070dea9672ed70ec4a4bdee4b61fcea4566aa599a77862a175836d06cf"
+      "size": 19712,
+      "sha256": "a61abc0d105f201a4fdce59ff416630cc9e0e667c9ca559362884c8496806f60"
     },
     "buyer-question-upfront-costs.html": {
-      "size": 21590,
-      "sha256": "a38eed38e4918a0b9b193b9c32229fb4fd81177c4cc3bd43c35d0cae6e183e21"
+      "size": 21640,
+      "sha256": "7870d6b3988b743856c0a497311a9cfb383e46cf073ab5a2aa78c721b2c6d9f8"
     },
     "buy-encino.html": {
-      "size": 58623,
-      "sha256": "30298ed62d9f41278148d2510f2438a8046bf51c58313681770e3e0cb338dd80"
+      "size": 58602,
+      "sha256": "8f8e04f0c3657e3b7660c8e9ffc0d2ea52b2c7758352f0b20e48f6abc5bf50b4"
     },
     "buyer-question-neighborhood-fit.html": {
-      "size": 22012,
-      "sha256": "0556e61100911db25286193ed60aa20df9626d0f6149186bfbc569caa8b22962"
+      "size": 22062,
+      "sha256": "fac75646ce1ad4784aaea24b3e70c4a0afc7acfc55b8df176a35cfc3b686f8f8"
     },
     "first-time-your-offer.html": {
-      "size": 53405,
-      "sha256": "9ce5898ea7d669f55450b70ee9241af0b5dbb8e7132c3d6b3fcb2c3dbda770ec"
+      "size": 53434,
+      "sha256": "96ff325ba406f27a424b94975555cc16804552e2435784acb24186ba32ee3ead"
     },
     "buy-studio-city.html": {
-      "size": 58641,
-      "sha256": "c49e60f3ed3643230a34bf24578f7d40aa42c3c29dd974610525c438ef8e0109"
+      "size": 58615,
+      "sha256": "76c3ff0531d357025732caded0a6c9b9c61c447869a160b52877651f40cc411b"
     },
     "buy-san-fernando.html": {
-      "size": 58769,
-      "sha256": "0522091b4f67bf6d1c7eb1a324aaf6d64692759137fb102df6a136dbd2754222"
+      "size": 58742,
+      "sha256": "0a0dd4eb97859135e561c33dd950c91626250c790ca7de940478680d5a64c0dc"
     },
     "buy-reseda.html": {
-      "size": 58257,
-      "sha256": "e6a8f1ba4f6269f66cdb386dc4a5b49c82820a622942b881b0b4ec15f1853976"
+      "size": 58236,
+      "sha256": "8a1dd871d367d9370cbacdd0ad9ef4277a61a7ecb921c9f625f70d28e019faf0"
     },
     "seller-questions.html": {
-      "size": 50444,
-      "sha256": "a4e43c51110fdde0fe26473268bd22b9bb4aca8d6653b2cec9d92afd0fdcd326"
+      "size": 50486,
+      "sha256": "34b3160a1c9fe951100688e4b5fde654b7abf5e5a94a672a7738e3e4e20d4d60"
     },
     "READ_ME.txt": {
       "size": 4313,
       "sha256": "68b20721542d481751e3aa11ffa43e8f3af03ba24a8474e8987697776b7d306c"
     },
     "buy-northridge.html": {
-      "size": 58493,
-      "sha256": "27e33f6553797e89e29716e4c70467fb9d874654a83d29e83c070ea1dc0a3099"
+      "size": 58468,
+      "sha256": "1787bfc5c8f6b4435fd8b9ee79785cfe18ea93f33716f013f9fb7f5b303b60eb"
     },
     "seller-question-sell-and-buy-avoid-two-homes.html": {
-      "size": 19676,
-      "sha256": "71758c631d1be6df6a393aa60d09f6576e7c7a2184d7a15078b079450baade02"
+      "size": 19727,
+      "sha256": "dcaf1bdb107ea7b8b7c9f1e36c8d88c49ffaf40f2e9981933bc2393b6f3da272"
     },
     "portfolio.html": {
-      "size": 51522,
-      "sha256": "fd3e4102ea77a995de2e46d9ee6fcef4871a4fb0b89bb885d74684b8f2270e4f"
+      "size": 51512,
+      "sha256": "399091ff3170af7b45da19d3d65c65d32ea79eba4335cc3e7b69d4a6811d8a71"
     },
     "closing-cost-assistance.html": {
-      "size": 21195,
-      "sha256": "a7f324b646ba6462a6708b65f5f59b774479c0376655bb21723bbe0cd7f155e3"
+      "size": 21248,
+      "sha256": "b169fa3d74476cb513bbe1b51f013a803e25204f79d2792403e6dbf3b84db9f2"
     },
     "index.html": {
-      "size": 364685,
-      "sha256": "af06bd82ef8ab920612532563b6d1822cc043e8f5d63c013ddc472aa0ea00dca"
+      "size": 364725,
+      "sha256": "845b9214800d582effd1196adbe27d2c6cc4825d5e8b654aa4e4d71423fd9ea5"
     },
     "Audit_Results.json": {
       "size": 43280,
       "sha256": "fbd96982bd17283fb52ec29e2dd8e2cbb479e1b482a1c389f869f354787c3d9b"
     },
     "va-loans.html": {
-      "size": 19561,
-      "sha256": "4d3e41394e41e3c562f15be2625ac7c4517498d5305b14ef327d94d598062cb8"
+      "size": 19614,
+      "sha256": "f098b7954e1a432689636e5434fb6de35ac001c4746a338ecbcdf99e2219b59a"
     },
     "Rebrand_Review_and_Launch.txt": {
       "size": 12608,
       "sha256": "24c6bef89cfdff779397ee82cfe5a251a3d36fa1e8f7d36602b4694699943f77"
     },
     "portfolio-a-record-retreat.html": {
-      "size": 281442,
-      "sha256": "a5e216362fc19e125cb1b0d39db8ccf1884608210dc1b278cd871d9758a4cfd3"
+      "size": 281464,
+      "sha256": "84dea7b53a774b3c84d1b5e5d7ccf8d62d0d9e87d3a757ffcd7bb43eb03eadf3"
     },
     "blog-why-budgeting-matters.html": {
-      "size": 21660,
-      "sha256": "ed0554ce4fe90c3f6a7c0ebc3372d81c4685963428e1a10f6a21410acc9accde"
+      "size": 21675,
+      "sha256": "3f2b6ae27da86af67e10689839d5c348c6ff19d040b319289087b42d7d15e8dc"
     },
     "blog-chatsworth-home-prices-2026.html": {
-      "size": 18711,
-      "sha256": "44bc214e5849a1565014507e901ee0af5a35b1d0556df82b56be892aff1d6799"
+      "size": 18726,
+      "sha256": "9a54856220ad2781180a90ea9b133be316e40ace45855d1ce0afda46de79873e"
     },
     "buy-canoga-park.html": {
-      "size": 58819,
-      "sha256": "636a48700cdaf601d30c5b6c14cc78fa3128486181685a3419255cd8a29ebb69"
+      "size": 58793,
+      "sha256": "b8e426ff3d81f5c948aa4a190987a84b122e2e4fe3e15e2191348e9e8c0abb9f"
     },
     "FAQ_Answers_For_Approval.txt": {
       "size": 1836,
       "sha256": "5abb6d926031ce49ada66ee42a58fb74126222d83992a6a258c6b4379686868e"
     },
     "buy-burbank.html": {
-      "size": 59185,
-      "sha256": "f3343e057b7eca1fe9f9424f56c9fa1ae3862418d29e1aa4a3dee016215929ca"
+      "size": 59163,
+      "sha256": "2697c4025ff6e530edd2c0a25d3abf7ad1d9c1b72fec674154ec5515900b9e04"
     },
     "portfolio-before-afters.html": {
-      "size": 51365,
-      "sha256": "14abd4c7bac602855a4c4226268b490f8c122059db015178703940a5dd19c32e"
+      "size": 51387,
+      "sha256": "8c34fc089386cce9456b4c592d8a46c0d633365c5e8d66066e066a764f073a39"
     },
     "buy-granada-hills.html": {
-      "size": 58867,
-      "sha256": "21aa8e3a3b4b9d754265112d3eb21ccd80433507d00e4714a1264cb1b767464b"
+      "size": 58839,
+      "sha256": "2892b05f7f46450e79892f9b477c07dbf3d1293d542d114c1cfca28bd6b4fc7c"
     },
     "buyer-question-long-time-on-market.html": {
-      "size": 21767,
-      "sha256": "8955ab3082cc0abbdeb49b8189b60ce584de2f70dda07d52fefb09b3ecf0ff6b"
+      "size": 21817,
+      "sha256": "8db750340392b2f7f2165747cd0dc5863ecaaff3a2b5221bef2e1d79502f025e"
     },
     "portfolio-guest-bedroom.html": {
-      "size": 50717,
-      "sha256": "8a85844ff22a471facb9f3ef217ad7b48486c41fa13da3359b4127fe6b622d18"
+      "size": 50739,
+      "sha256": "76f3ed8745896d358190c2180c0bedcc64c9a62aa392bbb68a47e5ab8d76eaf0"
     },
     "GITHUB-DEPLOY.txt": {
       "size": 210,
       "sha256": "aa59d97f61dd9cf09b8ee00578b776443248f7ad3513a38227a1d5d5c18697fb"
     },
     "seller-question-updates-worth-doing.html": {
-      "size": 19626,
-      "sha256": "62c3f742a86d8cc3e8c37a8d0c31ff60cd943b52a603c6827e0f13c95b4fe03e"
+      "size": 19677,
+      "sha256": "a8f3bd1264d544547f2a8542597831e7b7d21ce0721b9a1eb408df4b2c6b00de"
     },
     "buyer-consultation.html": {
-      "size": 18633,
-      "sha256": "d014ca40c313a49b02d71f7042c1feb3feb22c31061d3dd2df05bfc88b74c78c"
+      "size": 18409,
+      "sha256": "e8058e0fef1325862df37d3a8ecb9229da7f8dad3a52ae56655bb4492bd54638"
     },
     "CNAME": {
       "size": 13,
       "sha256": "84dbe8232948b3b37650ff6cbfb8f5eacefd810b7f51273d41b26b88b3982961"
     },
     "contact.html": {
-      "size": 16536,
-      "sha256": "2d1236c6867cb94858b55c19bd9cd9b356197f8b7b927473a81d595dfdc2a65f"
+      "size": 16541,
+      "sha256": "b8f445a6d79e183da335befc8e971f304ec89d62f1f05054db57f6ba0e9b30bd"
     },
     "portfolio-a-luxurious-touch.html": {
-      "size": 52586,
-      "sha256": "a4dcd575e140f84f146e9fe64fe94a168cf0acee4ef7a59450f8bccb6486108a"
+      "size": 52608,
+      "sha256": "b54404ea4b32b1d5fbb0c35d5b357d1f30d8e36188376707242b589cef07a03a"
     },
     "loan-homebuyer-programs.html": {
-      "size": 48998,
-      "sha256": "e2d26c219813bfeb1f2d0b5aa606501cf140a8b38c35e85574cd7cae1679f7a9"
+      "size": 49042,
+      "sha256": "e43dcdfc6846c1c0c6ec3a1311974fa9d8cf5b12d66e964e8ab8647051b4cc6f"
     },
     "portfolio-a-comfy-rodeo.html": {
-      "size": 48970,
-      "sha256": "6d37f4a2a04e7b117bc1c976520a4c1603f6c5cea4676cbe50f06e3fc5af5c17"
+      "size": 48992,
+      "sha256": "c42c7d4965d3fecbaa520f10c3194f3e4a45fee2383eaf866fc07bb6fcba020a"
     },
     "project-the-red-door.html": {
-      "size": 55563,
-      "sha256": "af57901bdb429bbfd8e4f81b3880bae510c033753d82e67ada11b2f94782dbc5"
+      "size": 55585,
+      "sha256": "6377cf4adf13ddf4df9d97ebc875108148ab555818dbcac3aad11805024b2c1b"
     },
     "blog-film-crew-rental.html": {
-      "size": 18818,
-      "sha256": "b3442f1e4b7da5257b97aaec2fdf3cd627cb3c1f9cb5cbbeb217d128c4b7295f"
+      "size": 18833,
+      "sha256": "31b7e17c6b4a3703a703617ffca1c2b3b1e2b1082e1cfd14a18e71bb9d4807e8"
     },
     "blog-having-children-in-your-40s.html": {
-      "size": 17590,
-      "sha256": "1af354455f716331ab4919bdae9058f39618389060373cee46d026041ee7038a"
+      "size": 17605,
+      "sha256": "f163ecc426a51d3e865b81b2293a4d1802926427b98cb37a4ba2598c500634a9"
     },
     "seller-question-downsizing-before-listing.html": {
-      "size": 19808,
-      "sha256": "07fa8c483319776315ebfc3bd093abac0365111123c9fd4773d212877cb93c06"
+      "size": 19859,
+      "sha256": "466e988ba175df2842b197b7c4f936774897aa596ed14bb3dd8194453179049c"
     },
     "seller-question-preparing-to-sell-next-year.html": {
-      "size": 19786,
-      "sha256": "06d0bbc6ea3380e7c10afb9b01bb2c835764577cfeb89764f6d0233440d00ce4"
+      "size": 19837,
+      "sha256": "1348b40b6ad1af8969cac921dcc3b9f08683aff8e517e1a6d012df102ccdeb5d"
     },
     "buyer-question-other-ownership-costs.html": {
-      "size": 21726,
-      "sha256": "f87a7cca6a71febc7a64f6a4d95bca5bb5b17b7f90149861de6d67e7d2a8b72d"
+      "size": 21776,
+      "sha256": "8653a649759a51084d999392bece32acbb2547be4eed0e66a8be70050d696732"
     },
     "buy-tujunga.html": {
-      "size": 58259,
-      "sha256": "7ba212e1188525c07fef0d1cd50bf2e8afadc395ef6cdfc04aa356730950f5f0"
+      "size": 58237,
+      "sha256": "77b4c7af13c4c8226f3612956f758a14f65fc60fe8a2e9e1b210c2a81989411f"
     },
     "seller-consultation.html": {
-      "size": 16976,
-      "sha256": "9abec7a3123f98cfe41f05d8ee6d0236dcf733bc52a6513ec0643b13be786b3c"
+      "size": 16735,
+      "sha256": "5360bd1313ae2f223786864ce5028232251c4a55464fc6e39527488b2b27eb7d"
     },
     "sell-free-home-valuation.html": {
-      "size": 17476,
-      "sha256": "541e54ccc635ef3981cf5f7c11496ce0bd1ae66973008101e0e56ec3914b4d9b"
+      "size": 17440,
+      "sha256": "97b921050cd60632616ccc4217ded7c2c9e7acf821eb5ad680b68b12f42141db"
     },
     "reviews.html": {
-      "size": 66623,
-      "sha256": "373bcd9fd7ceefaadd8123add5558691d65fa3639d5e16a927787c2cc3c67d41"
+      "size": 66659,
+      "sha256": "0a7628eddca0bfb8dba89d5dc0c2dbd0a49dab7336ce626b75db409bd866c09e"
     },
     "sell-home-staging-prep.html": {
-      "size": 28940,
-      "sha256": "45de0cc253537a70ea75e7fb843cf1012faac3cc2849cf19cf8233a63bff4f0f"
+      "size": 28888,
+      "sha256": "6693cbae483d50b86b8b819f28090558b6349dd2c7646beff23c01e2cbae62d0"
     },
     "what-price-range-can-i-afford.html": {
-      "size": 19726,
-      "sha256": "b0e7975a47da02b27635fad3ad8a5779176be67daa493472bd227c29631baa61"
+      "size": 19779,
+      "sha256": "32daa5d6cf0d1c67e2e4cc9009f07cc46fc74434e080c33ca29f844965de5746"
     },
     "project-hosea.html": {
-      "size": 288583,
-      "sha256": "12ea0af05bd778509d30e224933e34dd6c3807222d4d8109eca5ffdd8f641d5f"
+      "size": 288605,
+      "sha256": "f0f02f93dbe15f8cee6e09267194b2a3442588aa8f0b5e512c04964747dda68c"
     },
     "down-payment-assistance.html": {
-      "size": 21562,
-      "sha256": "5278916dd163f790190d9142b0bd290a96c62e7d2058a1f2c8094eab1dacaee3"
+      "size": 21615,
+      "sha256": "7a35628512867b856647da54788513feaa8cc63b9441989a03789ad6dda6fa1d"
     },
     "property-management.html": {
-      "size": 291352,
-      "sha256": "c51ba7804feb511d207502e4b6778b076685d2a13abf6681d6e12fadcadff19d"
+      "size": 291387,
+      "sha256": "4ac425f8d5dadd0b85ce22d3027e653081e834f600a49f283e6ff73149e892aa"
     },
     "sell-marketing-your-property.html": {
-      "size": 31813,
-      "sha256": "7c68372e6bd55cbac5d100e619aa98ddf6312bae53df5d341651a2b0d39ff695"
+      "size": 31786,
+      "sha256": "45659e29c69dc03ed027634519304a2ed16133e24705516581428d869b2a0c72"
     },
     "QUESTION-SEO-AEO-HANDOFF.txt": {
       "size": 20355,
@@ -514,252 +514,252 @@
       "sha256": "cc6b419e8719a1e2b7f3d28e2a689603df83a1fcfac41bd4a7ec405a43a8c12f"
     },
     "buyer-question-porter-ranch-view-home.html": {
-      "size": 21847,
-      "sha256": "55ef37c9ff8f7747fa69097a8d904d1eef0f892cbce88930b35904f81d301f51"
+      "size": 21897,
+      "sha256": "a9c23f5b9afe0f06243792bbc30a5143d65dbeda0ea3916b0baec4bd6e2c3a9a"
     },
     "life-changes.html": {
-      "size": 58304,
-      "sha256": "9712a844e0547d01ca0dcf5e9b24bfe1ec81205763b3796b1de09b933eda509a"
+      "size": 58344,
+      "sha256": "c0955e4b3a350238b3c910b8998add7d97925148f62716c325f631ace78abe8c"
     },
     "down-payment-needed.html": {
-      "size": 21277,
-      "sha256": "202c5d665a62a5bbde1e6ec5627dbe76260cc573c347428ddb43dc8d5188093a"
+      "size": 21330,
+      "sha256": "ede6b9d7aa6a4a5ec2013f8f061ad1960a00135f90dee2284c1dc82f382647cd"
     },
     "buy-van-nuys.html": {
-      "size": 58332,
-      "sha256": "e0198b4871ac357fd36b57a32229eb03e6d50312664a5eabe65489bd24368861"
+      "size": 58309,
+      "sha256": "613e0e624bfb710436153412ca89901b004b007dcd6a57f2b9d97b3bd8b78fb6"
     },
     "Portfolio_Photo_Inventory.json": {
       "size": 39931,
       "sha256": "ed764f7e7fa9888de086d1b10a01229a08616edf39ebe71a45f1cd16e2a95347"
     },
     "buyer-question-before-you-commit.html": {
-      "size": 21560,
-      "sha256": "49d3bbd0651309db0bc8a4efa1d1853f32dbe4fb0e9d861f5e828e0b4dc9e84d"
+      "size": 21610,
+      "sha256": "122081f8000ab0abce232af4d83ab7d1668be833f5436c25f7e36d51d1bdab8e"
     },
     "Logo_Update_Results.json": {
       "size": 171,
       "sha256": "d7ba02b8fd0ff8d150d86957776e99a5014ca0550a10898e9e1ac9b003b7d824"
     },
     "project-sun-lit-modern-home.html": {
-      "size": 55258,
-      "sha256": "92727fbf8998b47752f5d74ffc38b301796f890dd10958cef220bab55c5dc435"
+      "size": 55280,
+      "sha256": "d80dc312407f2be67f7328884f4a4e7ec7e4b538dec0048b3f69cc21edf92c6c"
     },
     "blog-is-it-time-for-divorce.html": {
-      "size": 22911,
-      "sha256": "51896422e7ddffdc8bc26751e330f4d4858471d07efb7ff13fe9e3f6d19c42e5"
+      "size": 22926,
+      "sha256": "38c43013a0baef1ba9d91841f34771b1c44c702cd978c0b7d664e65f674ff90e"
     },
     "first-time-negotiations.html": {
-      "size": 53399,
-      "sha256": "e5aabb6cfca6f979e97e6c20f6e1a508147d590a660def070e007f6f66df6612"
+      "size": 53428,
+      "sha256": "9d867a4cc8fcf250d783f7f71b135e3e40cbd1fe74f0f863d8ca53ec701ef47e"
     },
     "blog-401k-matters.html": {
-      "size": 17297,
-      "sha256": "7bca27e780b622d895bf84438f5805cc266a48dc32cd9441db3b95792164ea38"
+      "size": 17312,
+      "sha256": "79ec0dafd5387f56bef84d6326bf748b7ede7983902f487622e4179e1ebd62f2"
     },
     "project-parker.html": {
-      "size": 52067,
-      "sha256": "04c2f3c660f8719f8f43cfd2298756951802403f5f95e00026c14f6abb6c87ef"
+      "size": 52089,
+      "sha256": "6d0557d40882c835530c39eae73772394e5814634eeca9807abe4eb7a560140a"
     },
     "blog-los-angeles-short-term-rental-rules-2026.html": {
-      "size": 22160,
-      "sha256": "bce10e818f0959aadcb1049d517d912b467e278507021c3b1e6c640e1004886b"
+      "size": 22154,
+      "sha256": "a198ccecabf5bf0bec9c997ed7fe0835bac1d4bbb976be039cf4f2f604dc918c"
     },
     "Logo_Design_Info.json": {
       "size": 2684,
       "sha256": "2434216cabe2d51831fac27f5b8c4dae4b6311411bf05e868f6338dafeba294d"
     },
     "portfolio-suburban-living-room.html": {
-      "size": 52182,
-      "sha256": "f935d6895171041096923b0627d600ca868589efb277f9c9494087c6bb025a0d"
+      "size": 52204,
+      "sha256": "b4c4eebed3aa76c9940022d0089d791bd3f40e60765ba091ad21ac2af90fa2ee"
     },
     "blog-how-to-stage-a-living-room.html": {
-      "size": 20429,
-      "sha256": "30224e9a8f21c3a2d258413efeb63a5f78250f45785666aaea0ea519ed427f0f"
+      "size": 20423,
+      "sha256": "3e5717402df21ce8da0cdd17e57464fa253ff5273754d804b8db981af51401c2"
     },
     "buy-tarzana.html": {
-      "size": 58616,
-      "sha256": "8556dbd5b06ca49ef10439d349e741986362832551c7aad4a1b7ffdda17d5185"
+      "size": 58594,
+      "sha256": "c5dac165178942af62495b0050f85211255b59245972969f92ccb3f8ced6988e"
     },
     "seller-question-downsizing-how-long-to-sell.html": {
-      "size": 19916,
-      "sha256": "30f3bb53f61c4ec3e351bffc7257385af476f329b76bba6de05cfc82ae18cfd4"
+      "size": 19967,
+      "sha256": "896de9540908fa422d9fa70a9f31627e4ca0ef79434e8e03a52d3b2ead85c384"
     },
     "bank-statement-loans.html": {
-      "size": 21614,
-      "sha256": "19dac4acc671c09472f0cd0132b727829e553406db839609cf24b6f53d828ff7"
+      "size": 21667,
+      "sha256": "abba7c53bf3adf0bf76fb84b0004aa28c7bef4311ab2a3f854ab550af4ec336b"
     },
     "homebuyer-financing-questions.html": {
-      "size": 49504,
-      "sha256": "f438920448f8b20794bd553cadc5379351b3a22ea76acddf059a973b27b40fd9"
+      "size": 49548,
+      "sha256": "cc85a302b22c7617ecbdc0c57bcc99c0a763732672d4aa0552d88e79c51b9583"
     },
     "buy-valley-glen.html": {
-      "size": 58494,
-      "sha256": "a8330b472a193303aca7d87e96a4e6d932a3142edfe0be84d5f601ce00de1e9d"
+      "size": 58468,
+      "sha256": "7de136e9c42f645739126245e75acae2ed87056a65d7d1f86177c827f28d7f49"
     },
     "residential-design.html": {
-      "size": 52754,
-      "sha256": "a74367b98e1a78d82a331e41d8c4e861b5602131ed0eaea6f77a0fd3e9fc03d4"
+      "size": 52757,
+      "sha256": "5449282f3a44f7c052cb9f92db2036bbb3dcecc51af99bb5c359d010222bc6d0"
     },
     "search.html": {
-      "size": 56478,
-      "sha256": "15938e4aca65811c35bdce8607a68a72827b13d6293e74ba87371bf9570d7620"
+      "size": 56408,
+      "sha256": "cdb2c318a9e1ce3f2b2350c67f6c9f05a3b51e15f0c82a16ecf6bd3857587cbe"
     },
     "first-time-homebuyer-programs.html": {
-      "size": 55843,
-      "sha256": "3c30800004b5877f998158d572251cd0f29ce09e423d762653f6b57a88a0736e"
+      "size": 55847,
+      "sha256": "9fa4ba0e9579744e6248a035fbf56c33dbc7cff3483a2e5a1b63366db81b7f7e"
     },
     "portfolio-the-red-door.html": {
-      "size": 55740,
-      "sha256": "b117d711b3a7cd801a730386b8ee6ec687b40eba56eb07cc4d6975539d2e4912"
+      "size": 55762,
+      "sha256": "792d50cf1ba4957c184ec1cd126e27797ae4b26522c43889b062e0acd3dd8161"
     },
     "life-changes/death.html": {
-      "size": 83032,
-      "sha256": "7294507e4ffa2cbc07bcaeee6788f98224e617aea124070ffbc3dfc8d71c7cbc"
+      "size": 83072,
+      "sha256": "ba26238b65a659b6a0b230c15ced25fc5d882953ea8131a28bfca73fde62d17e"
     },
     "life-changes/retirement.html": {
-      "size": 69551,
-      "sha256": "dc510e647f4f5f0a584877a1e14f08a5e828f17ac3777854ee437d621f8b9df4"
+      "size": 69591,
+      "sha256": "98e3131d27c9b01fa595e9710eaa2076a17e2310f30b991730960ca8dc99d0a1"
     },
     "life-changes/divorce.html": {
-      "size": 81815,
-      "sha256": "90dacf6a67f23d19cc530633994bcdbeaf9e92d629e28c5a0a53211805a5dddd"
+      "size": 81855,
+      "sha256": "d3896286182f4a6503375361360aa06a1164c615668b2725c31de32caaf345fa"
     },
     "life-changes/marriage.html": {
-      "size": 70402,
-      "sha256": "efd9015f9f6a9ac02d72b90bcc6791a5b430c266bdb893c6ace10436c43dcc36"
+      "size": 70442,
+      "sha256": "551f0597670f5a43d840683c2c396559a367b655dc6f9f802cce1f24cecac2f1"
     },
     "life-changes/empty-nest.html": {
-      "size": 70637,
-      "sha256": "82e8af1d7f85bf0caae7c85504e3c115b5104deb50dd913e4d80f5d895b6d12c"
+      "size": 70677,
+      "sha256": "c3c8938ede4db604933ff9d57dc641e80051c7125de113858088d48b114fa58d"
     },
     "life-changes/relocation.html": {
-      "size": 72304,
-      "sha256": "2a430703290be0909f7b6e5ea0d762d2cb43badba049eb20afc319243af2ca9c"
+      "size": 72344,
+      "sha256": "dd949be02918379e5cffdd9f406dbe8216c8b2b51a30eae7e27c0df04ba80389"
     },
     "life-changes/growing-family.html": {
-      "size": 55612,
-      "sha256": "e105cab0c574dfbf160fa0e8cd5cf74081d4886cff4ac8d3a0547cb1fba6ff56"
+      "size": 55652,
+      "sha256": "9e62a3a2c7cd92eeb5ee0139c92ea803d7c46707e980791113ad357469922208"
     },
     "short-term-rental-questions/someone-to-look-after-house-while-away.html": {
-      "size": 50236,
-      "sha256": "8d176244e60554b0a43f259a2914b5b11bcf910f919a0452ce5a6c15578102c9"
+      "size": 50173,
+      "sha256": "48de2e07abfaa71e73b8947a3989f9081c63e6bf76126614787f15960da810f8"
     },
     "short-term-rental-questions/how-to-find-a-property-manager.html": {
-      "size": 49792,
-      "sha256": "940dc37fd918fd7fb8eda82434d3bfb5089671985054fd5f7ecdfa4fda9ccf5c"
+      "size": 49729,
+      "sha256": "b7e91164eeacfe1405facfa0c9f0d466fc8c05ef9705735b8a17a25b634c3266"
     },
     "short-term-rental-questions/protect-home-and-belongings-with-guests.html": {
-      "size": 50629,
-      "sha256": "69b59623caa2b858e669276e2bf1384052174936a5c001088d97b8c9fcdbc274"
+      "size": 50566,
+      "sha256": "f65895f6297fee6d8e9c5d9ad86271e4dc4fd860475db9bf7907173827fe58c4"
     },
     "short-term-rental-questions/find-local-oversight-for-distant-rental.html": {
-      "size": 49780,
-      "sha256": "b89f12be14759fec3f6a72ab21798c7664df47928b25dcbd8db8f59f270293eb"
+      "size": 49717,
+      "sha256": "4824d5a1805d5f39b24fa7510125c132d3fe7f5347a3fa718760f2a6b3815047"
     },
     "short-term-rental-questions/where-to-post-room-for-rent.html": {
-      "size": 49959,
-      "sha256": "85dd8e6fbcc2fa0fc26b2d1bd13691c53eae741e46ab3b8d6f36bbc769d10b9f"
+      "size": 49896,
+      "sha256": "3809a8dae044dd3cdfe97feff85efaf2e0aaa7e153868f2368c8449d1ca6a98c"
     },
     "short-term-rental-questions/rent-occasionally-and-stay-yourself.html": {
-      "size": 50610,
-      "sha256": "0bb9e84186e443ac85b0e4276a3d577fe5fedfd4a1db1c60964dbb64811b2ea2"
+      "size": 50547,
+      "sha256": "132534a6624c724072a1c3699dde56c4b97f65b42b6686d35a50428059e61820"
     },
     "short-term-rental-questions/airbnb-listing-not-getting-bookings.html": {
-      "size": 49961,
-      "sha256": "df5e3873d4d031daf8f92302a4e7c6ef0d00be59b26ef438fb773c69a2923ab9"
+      "size": 49898,
+      "sha256": "f80a3be627aa946d3fdb83e693f7cd03258b0b4b94f791f0f226932dee182f45"
     },
     ".openai/hosting.json": {
       "size": 63,
       "sha256": "18769b723fb0b41a58e02e72dde8b0b7d167575172412c6136e2b387c8306bf2"
     },
     "blog/trick-or-treating-san-fernando-valley-2026.html": {
-      "size": 23525,
-      "sha256": "28d9f0734e2e75612cd75ee643032a4ed4a30da565063e5858a0190b40dca13f"
+      "size": 23574,
+      "sha256": "c5a036af8a45077d5be9ec7afa4c94cbf98a046638b07380e3ddae582634dc3d"
     },
     "blog/football-season-sofi-stadium-2026.html": {
-      "size": 27822,
-      "sha256": "c38f2dd126f871cd3991946075f86bdffa19ebd8afb540bd268a810ca0b19aac"
+      "size": 27871,
+      "sha256": "7c731657520d4a518bcec4a01715b91c70ff0a084da7b1cbc7980e4b4a8b1fa9"
     },
     "blog/is-my-property-a-good-fit-for-airbnb.html": {
-      "size": 22732,
-      "sha256": "43442f5c19213ee338a75812644abe9e6c7c92648174cfb8aff02c83dc987971"
+      "size": 22781,
+      "sha256": "fb8f6e8807ef66748cf232cfd1137cc086ffee7538a023f309111b929d9d38f6"
     },
     "blog/studio-city-or-valley-village-which-one-should-i-choose.html": {
-      "size": 23304,
-      "sha256": "6df0bceac59781bbb632e2b099a4fd8090ac559137ecbbca44ac01ddd9f8f906"
+      "size": 23353,
+      "sha256": "1aac4b05005f34962c08255f7edab74fbba4cdb825cef5ddf205eaa4b73f220c"
     },
     "blog/can-the-dodgers-do-a-threepeat.html": {
-      "size": 22692,
-      "sha256": "484b3b68a785f0383e1efcfed59509cc26599a402b4373fca8b1a52e6887cec5"
+      "size": 22741,
+      "sha256": "fbd7f3e704b6a9717657107ddf112e35570e8bda829d727ca6396b5f5bad37d7"
     },
     "blog/the-different-leagues-of-college-football.html": {
-      "size": 23819,
-      "sha256": "37df7dd8b4a35f94139472aa62d183f0d7eaed5b7ea7bce8734202b943a9d969"
+      "size": 23868,
+      "sha256": "377f83e081265522d9a1db1126a265fb9a30acef6aec76fb087d8d708a4bfe4f"
     },
     "blog/halloween-san-fernando-valley-2026.html": {
-      "size": 23916,
-      "sha256": "854b9216dba26252013cef73a6ace7f49785c7ac3d6bd8db011396648be8b02c"
+      "size": 23965,
+      "sha256": "d13cf3a3ba7b6bdbcad10f7287670167130f7c067c1385a598b01e1e880032e4"
     },
     "blog/places-to-eat-san-fernando-valley.html": {
-      "size": 22855,
-      "sha256": "644ff2eb4fa21130fad5f49e925d5689663b4c3458ff7ef64df4d9504820da4e"
+      "size": 22904,
+      "sha256": "e01b840167cccd0bb8efe20ace0909acae2dd9173a6ce88d00b25bb18f14856d"
     },
     "blog/can-the-dodgers-do-a-threepeat-2026.html": {
-      "size": 22835,
-      "sha256": "2fe353fae61bb2b0ec2741292b18887e8834b113e22993a92bde3b68fcd3caba"
+      "size": 22884,
+      "sha256": "88fc68d5f46451aa0b123f4caa255a9211bdde85834192375f1e52d192698c9b"
     },
     "blog/homeschool-or-public-school.html": {
-      "size": 23291,
-      "sha256": "fe7b36321bb852cf7b275a467d734b792252f75b7e2ed90e651e4d74efad432a"
+      "size": 23340,
+      "sha256": "6c83365d51e1165f39c691479cd4a6fb82090cce5ff5897ab0604701050e68aa"
     },
     "blog/van-nuys-or-reseda-which-one-should-i-choose.html": {
-      "size": 22561,
-      "sha256": "602a40b22cf21ba567a6f3b1ab5467e76be53db31c6c94717efa913e2e089af4"
+      "size": 22610,
+      "sha256": "59a80b14061c48dd446dcb17ae3e557d0cdc90442febcc9eb6fcba7f7f90c365"
     },
     "blog/football-season-is-back-does-your-team-play-at-sofi-this-year.html": {
-      "size": 27818,
-      "sha256": "0d80070fbe8ef1ba3d7e559ce44329dd1884439570ca16ee4e694811f2a94f6b"
+      "size": 27867,
+      "sha256": "f03520daefd58797a3770891bee028942edfdd44c30f74d6bf0be778f3535ff5"
     },
     "blog/coffee-or-tea.html": {
-      "size": 21993,
-      "sha256": "79e16778cd791cb5ed4028689ee8d8cded45a2ecebcfb4309fefd5a21036791f"
+      "size": 22042,
+      "sha256": "e93b792bbd089adf0421b21cd99d36a2f529f98bec2a05c645ea91a651035a60"
     },
     "design-questions/budget-friendly-redesign-materials.html": {
-      "size": 52238,
-      "sha256": "0e024c8357e1f71433d616f74fa55c6949c0022944cb8356e18dd0da8685b514"
+      "size": 52200,
+      "sha256": "bc6d161debc65ea012670e4e2d0ffe36d54ff55aa9004e7bb928c8d82469f770"
     },
     "design-questions/best-flooring-for-kids-and-pets.html": {
-      "size": 51985,
-      "sha256": "3280921f51ac16b156d9474ca0bb4100bb87cc3135cada1e15257290538c00c1"
+      "size": 51947,
+      "sha256": "97df404ac11323bbec2fdb8d3ff512671e5769fa6c11eaa6f8596b41d04d54f2"
     },
     "design-questions/home-office-redesign-cost.html": {
-      "size": 51905,
-      "sha256": "fa895c35880bb67dd4a63fe8cf68e9a1527c6533c8e25db2e967f2cb3866a2dc"
+      "size": 51867,
+      "sha256": "c02d0a1aa2d60b4ec02cf76f670a17551de927b800146ca0ee80f66e0a08854e"
     },
     "design-questions/where-to-find-paintings-and-wall-art.html": {
-      "size": 52063,
-      "sha256": "8c779fb91e6744dbbe8db832a48b46e34de62cfdd31818461ae00160b0f546f0"
+      "size": 52025,
+      "sha256": "c691644ecb28e17eb0e8e961dc96be2051ab9fc5b511a3431be3ab8da99124c5"
     },
     "design-questions/best-accent-wall-colors.html": {
-      "size": 51892,
-      "sha256": "10b7f59d883e1102beea4e04d0feb247b44d1d0a16eb74c1b5975afa459238f0"
+      "size": 51854,
+      "sha256": "13a57bf95922ce77b1d7270428627566e1522b3f7e6e6b62f03370c5db4aae1e"
     },
     "design-questions/easiest-flooring-to-clean.html": {
-      "size": 51762,
-      "sha256": "8b5a4e4ff334ba7f753e3e49d16bfdc261765ba1feeddf55c045e4cc96272490"
+      "size": 51724,
+      "sha256": "6ac3bc2875c3019c6c9de969b71dc55975469d45ac6ee9e2a4241c045ac18d89"
     },
     "design-questions/where-to-shop-for-home-decor.html": {
-      "size": 51841,
-      "sha256": "3355b73f3ae5dcb6f867627700fc5b2ad852dabb231907bffb971c22bb08896c"
+      "size": 51803,
+      "sha256": "95a676bcb4f97407e999dee8412d27ed726717726c8e9609624e69b97700d773"
     },
     "design-questions/best-bathroom-floor-tile.html": {
-      "size": 51763,
-      "sha256": "d40891c48aa4a87fd731684f43e65635e4b431d616fc12c749acd8d4ea90d472"
+      "size": 51725,
+      "sha256": "943b36956f62990fd2201ab45f34053391e005e1932918107f7c4700e1d4cb61"
     },
     "design-questions/where-to-shop-for-office-furniture.html": {
-      "size": 52240,
-      "sha256": "06265ed7cd53c690ad246394b9595a41a1b4fbcd4488e746616ed56d91483f82"
+      "size": 52202,
+      "sha256": "f13eca31a2caf5bd60d5ce209a6b3e4cc676392a036b1e7cb2c3d87621e7fccf"
     },
     "assets/blog-rental-202610-v2.webp": {
       "size": 253044,
@@ -1082,8 +1082,8 @@
       "sha256": "8c9d19e4938fcd1a745fd5a4c16ff50d1cd9d359b1a284a1fb48818e24012968"
     },
     "assets/dominique-conversation.js": {
-      "size": 15129,
-      "sha256": "217e9505e968515c12f0b0cd817eb502a31658505d99a13b86388f3b52c7c4e7"
+      "size": 15698,
+      "sha256": "ffcc4692727bc17bd88cd8eee26f9776b31d79017fcae2dba8b3d14a8b896bd9"
     },
     "assets/v48-interactions.js": {
       "size": 3469,
@@ -1430,8 +1430,8 @@
       "sha256": "e109706993df15302d9a17423f36693ffd17674bf2ba40212729ebcf4df1a056"
     },
     "assets/dominique-conversation.css": {
-      "size": 7663,
-      "sha256": "21f4d3fc5f17bb0e29a872bae0c29341405e95f905ee9fda0b277406fa76199e"
+      "size": 7935,
+      "sha256": "db70502f7b860d3a0921deb2ede1e164577f694e61aebac1f5280181e8cf40ba"
     },
     "assets/v59-search-primary.css": {
       "size": 2999,
@@ -1506,708 +1506,708 @@
       "sha256": "eff772a3f6a86f97001cdc60946bacf45802143d7a215ce36e349ae7fd3a4b50"
     },
     "life-changes/retirement/can-i-use-my-home-equity-to-fund-my-retirement.html": {
-      "size": 52124,
-      "sha256": "b7bbbdd929d7b6dad99061ee402b02062adfedfdfa36c15d7325cebc7d8c4531"
+      "size": 52088,
+      "sha256": "3c6862d72ad20f03f4dd4979ced8d58d342c5c77802b1287ea88488aac68dda0"
     },
     "life-changes/retirement/should-i-move-closer-to-my-kids-or-grandkids-when-i-retire.html": {
-      "size": 52316,
-      "sha256": "31ec9a500bd08267a76091aead4a8425ef462d9a4d12aa75b2f6de986dac0759"
+      "size": 52280,
+      "sha256": "6a2bc7d58c66890623a171694e7291e7fdfe828d89b70fe6b987be216cbaf540"
     },
     "life-changes/retirement/what-is-a-reverse-mortgage-and-is-it-a-good-idea-for-retirees.html": {
-      "size": 52841,
-      "sha256": "609a0c4471f22094e6476e965fffc1428448e3641e7835c29aa9e24368c05d52"
+      "size": 52809,
+      "sha256": "4a6f69e9bcd5716bc939e9613a91e5d4251c0352e89ec7bf8da02110c86d12bc"
     },
     "life-changes/retirement/should-i-sell-my-california-house-and-move-somewhere-cheaper.html": {
-      "size": 51840,
-      "sha256": "7d54d5a3303d0d1a1ac4a2dde050467a1cc224d054c31aa99ab75ee0da7caa0e"
+      "size": 51804,
+      "sha256": "208e9c222623e24c7ab37d029f0bc0195aaf020622b180971a1b8ac87c9335fa"
     },
     "life-changes/retirement/i-m-retired-and-still-have-a-mortgage-is-that-a-bad-idea.html": {
-      "size": 52032,
-      "sha256": "f9b1b56e1ebe26aa4c750b910d5a25240b188e2dc4690480653466c2ac97a140"
+      "size": 52000,
+      "sha256": "d1ece6afca4a96be74ad14d578673061aa8b24b18b3d014147c8d80e721eab2d"
     },
     "life-changes/retirement/should-i-downsize-when-i-retire.html": {
-      "size": 51420,
-      "sha256": "7d6af287fa1cf4ae8324ecea20084928a98c762191d743332e15fe42bc2a0695"
+      "size": 51384,
+      "sha256": "2d77543a5d0ce6a0f1d786217eeeadd84ffb846ea11881bf45587e9fd30ee51c"
     },
     "life-changes/retirement/can-i-use-the-equity-in-my-house-to-buy-another-home.html": {
-      "size": 52222,
-      "sha256": "b677fa67f4c649628fe2c3978af7d7df02954f04c6d7decf6704c2c36d1965f8"
+      "size": 52186,
+      "sha256": "99bd2c6d2b3b825d2006be397694ad2e7ed3b131904260fb53eaa4ebedbda024"
     },
     "life-changes/retirement/what-if-i-retire-and-then-realize-i-can-t-afford-my-house-anymore.html": {
-      "size": 52367,
-      "sha256": "294f371642f1d6886eadfdc3668ae418aa69e57180bcc8d56f98e982dab4c7b5"
+      "size": 52331,
+      "sha256": "f0b9a833ff6eff2c75dd27065f636123055a7c179cd2a7e6f9c3d16a76ed4416"
     },
     "life-changes/retirement/is-it-cheaper-to-rent-after-retirement.html": {
-      "size": 52013,
-      "sha256": "ad0b5ad838d225aa01a651701e6dbed6b733c1bac52b331d26363defe5cdb163"
+      "size": 51977,
+      "sha256": "49e782ffdb21669908499d03b104d486565233fdfbddbfeb2467d1383904a25f"
     },
     "life-changes/retirement/should-i-pay-off-my-mortgage-before-i-retire.html": {
-      "size": 52159,
-      "sha256": "8d7564e073cec5b08596b1cc063295e0652b3f49dcc45da8d448ca22e6189218"
+      "size": 52127,
+      "sha256": "37b4a38d3ee051eb730f61853403195703a5a71a97f25459f7f845f778012c8f"
     },
     "life-changes/retirement/what-kind-of-house-makes-sense-as-i-get-older.html": {
-      "size": 51779,
-      "sha256": "9f6a9b57191a0d6e8b2fa18aebb7b8eea1baf563760d879ec31ef4ec305494a9"
+      "size": 51743,
+      "sha256": "59e9c7835c64ea11c0bb04c8e05f844c6ae75c5754d418c37f5ea4a513bbc927"
     },
     "life-changes/retirement/what-are-the-best-low-maintenance-homes-for-retirees.html": {
-      "size": 52462,
-      "sha256": "fcf30535640c0054a8330d8f2733ab3e4707ca49b6f02a283dabbe885e06a8b7"
+      "size": 52426,
+      "sha256": "610eb2718da704a9baf6853e7ab90d1de756ffe6ac799a393524388bc9d1944e"
     },
     "life-changes/retirement/can-i-afford-to-keep-my-house-after-i-stop-working.html": {
-      "size": 51559,
-      "sha256": "20b66ba3fc8d3bd8d7392322723dfb6b1f80919f10a4935730ffc44e1751e195"
+      "size": 51523,
+      "sha256": "8f4d31405f5d10f842d2c44d58cad6c2292da475a2f226f4e20911257cf068e5"
     },
     "life-changes/retirement/i-want-to-move-closer-to-my-kids-when-i-retire-how-do-i-plan-that.html": {
-      "size": 52036,
-      "sha256": "cc5892259b51167c8c087521fef24d6e4194c6f3d8c254fe0bccaaff67a77062"
+      "size": 52000,
+      "sha256": "809160eb988b8a86d47b243647e8d4f3697174b3a084d3a1e96d62c858361747"
     },
     "life-changes/retirement/should-i-buy-a-one-story-home-before-i-get-older.html": {
-      "size": 52155,
-      "sha256": "49f773cdc726cbd6acb6338659a03a8ff2f20c195e17b044582a3e8365bd77f1"
+      "size": 52119,
+      "sha256": "e6e0ff2c462e7ae03a2e0e2a7dcb73158ea90768b9b8af8ec776ee0d912c3c60"
     },
     "life-changes/retirement/should-i-sell-my-house-and-rent-instead-once-im-retired.html": {
-      "size": 52455,
-      "sha256": "fe45b907e4efdcc7f000cea7ed71db1ac2d0b32c5f80fa8f3eacd652d9a4f0f0"
+      "size": 52419,
+      "sha256": "d761f2ca6b4230cd8b6925809554f977d67b3dfff0e4b4d3ae4ce013ebbdf3dd"
     },
     "life-changes/retirement/i-don-t-want-to-deal-with-a-big-house-anymore-what-are-my-options.html": {
-      "size": 52075,
-      "sha256": "e6e501b8b62d2adf7471b364b1018257823f000c5e4743cdf5226c7fe60574c3"
+      "size": 52039,
+      "sha256": "50a0f2896bbb12031b5c0e9790ae8291ca07af91d8aa1277cf3632f2f0397765"
     },
     "life-changes/retirement/should-i-pay-off-my-house-before-i-retire.html": {
-      "size": 51601,
-      "sha256": "0d1a16fb21d32378353379b942a01ccaf8bf91c48cbfb1dad3aa977c6c28737b"
+      "size": 51565,
+      "sha256": "095fdb00be82919006b1f49f5d0bb4fffe445359611c2f3016287721e6bcd3af"
     },
     "life-changes/retirement/can-i-afford-to-stay-in-my-house-on-a-fixed-retirement-income.html": {
-      "size": 52714,
-      "sha256": "464610bbedccff2e06c42ae61ed3757a6c64181ba544c9c33c7646edd20a0cc7"
+      "size": 52678,
+      "sha256": "691d2c85e2d875bb372d1b9b51c11dc522e6e04222cfa95223ea264d93cb924d"
     },
     "life-changes/retirement/i-m-retiring-soon-should-i-sell-my-house.html": {
-      "size": 51766,
-      "sha256": "08d5097ecaa842f345fb78160199573a041e366facb7f81401941212368a23b2"
+      "size": 51730,
+      "sha256": "d1e604efd2472c84382235657c58ab70e458b3efbb085d3eff8236e5e73d9a52"
     },
     "life-changes/retirement/is-it-better-to-retire-in-california-or-move-somewhere-cheaper.html": {
-      "size": 52587,
-      "sha256": "96eba400bf93868acf5bad08d9e5572f65c9eb03d52d409a4b8de0cf7ba94879"
+      "size": 52551,
+      "sha256": "1de2ebf866f2cef0d127d7e46bc9592e0ca730802594afa360798e01029e7376"
     },
     "life-changes/retirement/i-m-retired-can-i-still-qualify-for-a-mortgage.html": {
-      "size": 52166,
-      "sha256": "f9ece2ed48fcdba1b467eb3f1cb1bab591f816d531a8a23c1aa853b652b63f2f"
+      "size": 52134,
+      "sha256": "755f11bb4d835848ebf697050bbe747791cfcfa221900b1b8a823b3dc8ff4a09"
     },
     "life-changes/retirement/is-it-smart-to-downsize-right-when-i-retire.html": {
-      "size": 52257,
-      "sha256": "17a40382a875c15716e7c142d477219de27be9db63a6a019a3778a4b380eac78"
+      "size": 52221,
+      "sha256": "aca9221ba81f6db98da09eb1209f001c7a3898e9fdd93a7cf8178af9f112586c"
     },
     "life-changes/retirement/i-have-a-lot-of-money-tied-up-in-my-house-what-should-i-do-with-it.html": {
-      "size": 52029,
-      "sha256": "1f00f50e2c4042c35c9270bee9930edf9bbc465aa10a1efac8c9a7806c3bdb4a"
+      "size": 51993,
+      "sha256": "cfe00583f98028d2156a460b98f60d2e04a13bbcdbea849c2e8d3eb1d1f2c5a2"
     },
     "life-changes/retirement/how-much-equity-should-i-have-in-my-home-before-retiring.html": {
-      "size": 52671,
-      "sha256": "5052fc1c628518e92b4ae293c2944c4a870e5c72c846a52c5144a783447f2f42"
+      "size": 52635,
+      "sha256": "4e9a71bf8c5aca19d846719dbad7f931462d8cb7f12e4bc395a72693d7162dd2"
     },
     "life-changes/relocation/i-just-got-a-job-in-california-how-do-i-figure-out-where-to-live.html": {
-      "size": 52835,
-      "sha256": "8f27205b6a958cb825005a152105024f24749a2ffc544764a34ab67c252c4ff0"
+      "size": 52788,
+      "sha256": "0ca53cd0bf511f23b65245d5dc2fdfd757d7c1665499c0849173588b65cddb68"
     },
     "life-changes/relocation/can-i-buy-a-new-house-before-my-current-house-sells.html": {
-      "size": 52650,
-      "sha256": "c7de2e06aa478a6819faa05bfe2b4d220baeb6cf5123b1e7ee76fa96a56c44c7"
+      "size": 52603,
+      "sha256": "9e2a1aa955cd5f3be85fed466d7ad1fd571b6bc605a89e698315e51e82071f6c"
     },
     "life-changes/relocation/how-do-i-find-a-good-neighborhood-in-a-city-ive-never-lived-in.html": {
-      "size": 52674,
-      "sha256": "d4526c7a4a54e10a580c65c559638fd85b2e79c9ad22606daa69b2febd09d4f5"
+      "size": 52627,
+      "sha256": "f3b5b60d8a73d6680db40132a6bd7324bd282b027a2319e7383ade529accaf1f"
     },
     "life-changes/relocation/how-do-i-sell-my-house-and-buy-a-new-one-in-a-different-city-at-the-same-time.html": {
-      "size": 52879,
-      "sha256": "7f9be4c57c6de5e001b4ab67eefc45b9fadfb1157e00e51733b1ac40547ded5b"
+      "size": 52832,
+      "sha256": "b957fede4fc00b47b0e29b8ec9bf0c841baff3b5da13394c0a3ce5831f5031e4"
     },
     "life-changes/relocation/should-i-use-the-same-agent-to-sell-my-old-house-and-buy-my-new-one.html": {
-      "size": 53064,
-      "sha256": "757db24a6413719622e1a664aaf7e16db362712a9806c1d15e22ea71237c7c88"
+      "size": 53017,
+      "sha256": "b033e2b8cef35e349c4ddeb6120c3324378cb88e6df46a1ccd5c3bb00968af9f"
     },
     "life-changes/relocation/how-long-does-it-typically-take-to-sell-a-house-when-relocating-for-work.html": {
-      "size": 52927,
-      "sha256": "1adc559ef0f913eb91402aa1e6fc2733be5b2f26c7f58d655e022df3b4369e7c"
+      "size": 52880,
+      "sha256": "0751fd9043066dd6bd5e09a41001b4eb64e341b204be072c2ccea4a638948f54"
     },
     "life-changes/relocation/i-m-moving-to-the-san-fernando-valley-what-areas-should-i-look-at.html": {
-      "size": 52307,
-      "sha256": "05aba680df8274e367b30396317124f2a13083ab3ce86580a1463c2eef78db1c"
+      "size": 52260,
+      "sha256": "c751ac08f873780d0ae8638674e3b2f78d2b7ea0706206a05845fb4a941d7328"
     },
     "life-changes/relocation/what-should-i-know-about-moving-to-the-san-fernando-valley-from-out-of-state.html": {
-      "size": 53099,
-      "sha256": "787fe549188900d589baa51f217ae2fa54f46d2bf84d627a003d8e73a11e701c"
+      "size": 53052,
+      "sha256": "82ff9f416dfb6978eb254e8746b571ab7eba238805327b71f79cd8fac320e5b1"
     },
     "life-changes/relocation/my-job-is-moving-me-and-i-have-no-idea-what-to-do-with-my-house.html": {
-      "size": 52331,
-      "sha256": "1f9847e3bd3835552376149912f65e86711247e6f24493bba500488d72a7123c"
+      "size": 52284,
+      "sha256": "cf5890047c973d1a38d00b8b0ea36cb4142fdb06b4487802c1665eb85cfd76d7"
     },
     "life-changes/relocation/i-already-moved-and-my-old-house-still-hasn-t-sold-what-do-i-do.html": {
-      "size": 52244,
-      "sha256": "d05626b9246df32c46574dd5bd6f44a6bbc1f1d38f5893b9e400f2d6b447ab63"
+      "size": 52197,
+      "sha256": "708e66b3648308d6eb390944d01309b3b591bd8a357fecf3d843c668a8d39427"
     },
     "life-changes/relocation/my-company-gave-me-a-relocation-package-how-do-i-use-it-to-buy-a-house.html": {
-      "size": 52295,
-      "sha256": "95eea56d076f3f2f7914478777af81cd8ff1fbba9cb23a557f74c955f16a062c"
+      "size": 52248,
+      "sha256": "b070fa27b461f7f07904cf1be3f60d887b49cc4d5e34b80e414edbf4ba191327"
     },
     "life-changes/relocation/can-i-buy-a-house-in-a-new-city-before-selling-my-current-one.html": {
-      "size": 52816,
-      "sha256": "4d6a3bf7eebe56832229f5d86231fb049d23981ff3726976a4cd7701220ef6e0"
+      "size": 52769,
+      "sha256": "f8e49beac2659c30fa2c99155ecfa8b3b86154cba94403194d188c94442149a3"
     },
     "life-changes/relocation/i-have-to-move-in-a-few-months-should-i-sell-my-house-now.html": {
-      "size": 52602,
-      "sha256": "c0a92fd273bb6c08ec7bb6d31ede52ebc4d4b15e12bc90cb4279911b00ce36ee"
+      "size": 52555,
+      "sha256": "e5583311e1de40d83e3a19875b7ddb1f079be6654ee0de5880f0f546b5e25b6a"
     },
     "life-changes/relocation/how-much-does-it-cost-to-move-across-the-country-with-a-house-full-of-furniture.html": {
-      "size": 52877,
-      "sha256": "8adc60a583d6d287f8e91207828b0506a1ea5cf02267eb0e3172230ae0a0919d"
+      "size": 52830,
+      "sha256": "0706f17de2f94926a23195ab39add205f5228791a8624fcf05881ff3ccfaf542"
     },
     "life-changes/relocation/what-if-i-need-the-money-from-my-current-house-to-buy-the-next-one.html": {
-      "size": 52737,
-      "sha256": "de65d81a627023818e11ebe81a2459beef2088f6e37aed9b1ac347a06ba42a90"
+      "size": 52690,
+      "sha256": "7662051823d765f9dcadc251aba4fa0d9fe3c07add8ba433ca378943e6c71ead"
     },
     "life-changes/relocation/whats-a-bridge-loan-and-do-i-need-one-to-relocate.html": {
-      "size": 52739,
-      "sha256": "59b13aac90c591dc6238b8ebadcbc653d419a710c2709e9dd87e14ecf5bc1586"
+      "size": 52692,
+      "sha256": "9e14db60b62bb12da2f32114af293f50978502ce90cae98b3b24ccc90ac43ca3"
     },
     "life-changes/relocation/can-a-real-estate-agent-handle-everything-while-i-m-still-out-of-state.html": {
-      "size": 52613,
-      "sha256": "e0b6e0bc85e78c892332e632cc8abfe48b075d666e430a70bd8834f46bc0fe5f"
+      "size": 52566,
+      "sha256": "add9e69dfe887119ae5a64827a819bbbb2d439ac0ef119b3e428f78c7ad3c346"
     },
     "life-changes/relocation/is-it-better-to-rent-or-buy-right-away-after-relocating-for-a-job.html": {
-      "size": 52543,
-      "sha256": "440370d34ca604767094eaa9edac1a59ae6f943ae0083f86714101fd27e688ff"
+      "size": 52496,
+      "sha256": "839e3121eb504fa8f4d6e914769f0310069ac45f2993d927a471b9f741bf710a"
     },
     "life-changes/relocation/i-need-to-move-fast-for-work-how-quickly-can-i-buy-a-house.html": {
-      "size": 52258,
-      "sha256": "bd6bbf9d0cdfa7af5abe54e29036c46114ad9071091078fda35359c2e4937392"
+      "size": 52211,
+      "sha256": "da5779c2a1ecfda0eb6c071458d18904e77ce0aa464fc3ec6a6a5ed2d8fd0c16"
     },
     "life-changes/relocation/should-i-sell-my-house-before-i-find-a-new-one-out-of-state.html": {
-      "size": 52322,
-      "sha256": "55c29e3cf619a5cedf6b0b5591603d5ba9843d5ebf49a30ec5fe68a07bfb5e34"
+      "size": 52275,
+      "sha256": "65e257ff55d1fcb8398ae6f0ae81b1addbd005116b18daf4b72a384a3638c153"
     },
     "life-changes/relocation/how-do-i-house-hunt-if-i-live-in-another-state.html": {
-      "size": 52141,
-      "sha256": "43ac35c1606e763471f897667ee1320d1e856b16449e4c119ca0b3d2d7396644"
+      "size": 52094,
+      "sha256": "4f9bd48e1bf32cebd7fd6458ed81809f6a56b5ad3db3a8d030d65e3d99d7137e"
     },
     "life-changes/relocation/what-happens-if-i-have-to-move-before-my-house-is-ready-to-sell.html": {
-      "size": 52172,
-      "sha256": "7ed1edd543ed344b7d12189437f7f713611537f905d16df6e9581f4f67248b70"
+      "size": 52125,
+      "sha256": "21ed37c134e49b3975abd4f6391156c6b4e91864bb760ae1a35cdd93267df933"
     },
     "life-changes/relocation/should-i-rent-first-when-i-move-or-just-buy.html": {
-      "size": 51931,
-      "sha256": "4e0b5559a3b39a621d97cd49a066d1867002c260369ea996b04612963e3c43de"
+      "size": 51884,
+      "sha256": "5a8b5df7ef72ea1e6d36a0aa91c1d7ac161d2b7199127714d681c31f91a56eab"
     },
     "life-changes/relocation/i-don-t-know-anything-about-the-area-i-m-moving-to-where-do-i-even-start.html": {
-      "size": 52470,
-      "sha256": "5735e4be2be64027855c05f17e548b83a88c3d5655b0fd0968a610dbd52aef0d"
+      "size": 52423,
+      "sha256": "dfeb1bdf1821017fdc87855c9193dc1195d33af12407a4f721a089eb34d03f1d"
     },
     "life-changes/relocation/can-i-buy-a-house-in-california-before-i-actually-move-there.html": {
-      "size": 52236,
-      "sha256": "4d3de2f11e77f61b22356286cfa4abf962da6c016c647b1485754820244a50cc"
+      "size": 52189,
+      "sha256": "9eb10949e77d9c301eb1129912ea28095e44945c968161602c7ca36a50a88b9b"
     },
     "life-changes/divorce/i-don-t-want-the-house-anymore-i-just-want-out-what-are-my-options.html": {
-      "size": 52184,
-      "sha256": "c03cc5f98892e7ae29ad2dc5871f36a3f89299d7496946efbaf79566ae00d337"
+      "size": 52137,
+      "sha256": "6a5ebc05867cc7b87ed82c305112d19b311c5516dd21d23d899ae8fb47daa566"
     },
     "life-changes/divorce/i-want-to-keep-the-house-can-i.html": {
-      "size": 51544,
-      "sha256": "1725b2a6823fa4891333be2a05a577a85625c67ceccdca625f72d3c88b709265"
+      "size": 51497,
+      "sha256": "0ef5646fea07697f03ee782b5a4da90a8aed2747e7b00452c65111f180dfc02b"
     },
     "life-changes/divorce/can-i-sell-the-house-if-my-spouse-refuses.html": {
-      "size": 51789,
-      "sha256": "091c12504a25524d7ff7fc8c02940ead406e5d462887b3976848447f0e589b6d"
+      "size": 51745,
+      "sha256": "aea4f22520dc02767c1bb80754c18f499d2340d40c90e4f6b1a72f4fa5e64adf"
     },
     "life-changes/divorce/my-husband-wants-to-sell-the-house-and-i-don-t-what-happens.html": {
-      "size": 52086,
-      "sha256": "e959678c5ac64ca2d6d530021d8823af177c9acf2706847d7582c15c4a18b46b"
+      "size": 52042,
+      "sha256": "ea0583b35e72006223999ab9c63e1ebf249328e3471eb0b7aef2eec9092cf624"
     },
     "life-changes/divorce/should-we-wait-until-after-the-divorce-to-sell.html": {
-      "size": 51803,
-      "sha256": "dc26c9464e641a66a21bc2fe0787b3650463c6a88a60b502588911b6199af114"
+      "size": 51756,
+      "sha256": "5cda5cb9d0260604f0446d2ceb07bbe828064c1f9940b40e81ab3e3fe4b1d3d4"
     },
     "life-changes/divorce/can-my-spouse-force-me-to-sell-the-house.html": {
-      "size": 51754,
-      "sha256": "bba3f4addf72c4ff6890762d22db827ba5524bffef95ecd0995391c1aae323f0"
+      "size": 51710,
+      "sha256": "cb53bf9b680f8fbdba21f4cc7570e8ee4af3431da473fde0044d764efe3e6983"
     },
     "life-changes/divorce/can-i-buy-my-spouse-out-of-the-house.html": {
-      "size": 51840,
-      "sha256": "31810e69bdebea1fb53a3d0036265edfd7480133db746c589f8dbd2bce3400b3"
+      "size": 51793,
+      "sha256": "addf86b5c898b5ccc8617132b8ce2ba94e101815bee6768ab361a5301836fbbe"
     },
     "life-changes/divorce/will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html": {
-      "size": 52780,
-      "sha256": "4dad63b0afcfc5900c719af629b4722b2c6bfa605511c56b55ea47c7ac5a69ae"
+      "size": 52733,
+      "sha256": "62ba00bccb788a28b9edc8f33aa1e433a2716937008ec602e3df29b611ecc43d"
     },
     "life-changes/divorce/how-do-i-get-my-ex-off-the-title.html": {
-      "size": 51805,
-      "sha256": "81fa3008aa4622ef27222781a8ec393c4d975091889fae6cfca12cddfda21072"
+      "size": 51758,
+      "sha256": "6eb003ed54ac97e2c2c48d7304c859527b7a24161b875a9618ac2ec58b63de56"
     },
     "life-changes/divorce/who-gets-the-house-in-a-divorce-if-both-names-are-on-the-mortgage.html": {
-      "size": 52870,
-      "sha256": "80e178ff3fc873af1a2beb9ff0092383ff30d8181234be23426ffb8435ed6e4f"
+      "size": 52823,
+      "sha256": "1b0155085c2da6330e5e3ae9abc4d6c9f91f0bc09957d8407b015f3fb7c5ade4"
     },
     "life-changes/divorce/can-i-buy-another-house-while-i-m-still-going-through-a-divorce.html": {
-      "size": 52142,
-      "sha256": "e765e3418102a3a0f1fe6e10347f03c8804bdb9ac0bdb58e35f7d93f0680fd18"
+      "size": 52095,
+      "sha256": "40081cf05d235ce5cd2e5a0ca1a11d0b9712b1a1242bec6d07a511e645b9a65e"
     },
     "life-changes/divorce/my-wife-wants-to-keep-the-house-and-i-want-my-share-of-the-money.html": {
-      "size": 52225,
-      "sha256": "67b983f6213da4c16871793a0251c9e9539bfc220f86d02f065fd45b3db2f775"
+      "size": 52178,
+      "sha256": "19b9788c3c62197ea9ea1282d3072c423871c5f1ee42ff5770cca7bc32637648"
     },
     "life-changes/divorce/who-gets-the-house-in-a-divorce.html": {
-      "size": 51858,
-      "sha256": "33cb1a664d9d80c3bda1d3a75ab10e8618894bd256d05ab1126edd903a9ff61d"
+      "size": 51811,
+      "sha256": "7e2028efaefcfa425f0e5db7ca6b0f2b2ba6bcccf1fe7fc39340a1772c992612"
     },
     "life-changes/divorce/can-i-afford-my-house-on-one-income-after-a-divorce.html": {
-      "size": 52573,
-      "sha256": "e0b60ea07f0f0aba7e4175baf77e4a82de677ccef73740fb4c343f91363c5114"
+      "size": 52526,
+      "sha256": "efd38c94bb30c57755a20c44a32f32a43791325e1e343c44d111cf093f476f43"
     },
     "life-changes/divorce/do-i-have-to-sell-my-house-if-im-getting-divorced.html": {
-      "size": 52583,
-      "sha256": "cd35b92766357bb4c1924f845f8c024698945536c8e436d77ae8321668273cff"
+      "size": 52536,
+      "sha256": "208cd870018cb4cd29f75dff0574bad876d661cb677458c4b5ea4a411e52f062"
     },
     "life-changes/divorce/do-we-have-to-sell-the-house-before-the-divorce-is-final.html": {
-      "size": 52038,
-      "sha256": "abdd845e9142ab40e3ed7d470d6e7a5cf15cf38df2894ccde1a9a9373880d780"
+      "size": 51991,
+      "sha256": "bd8d42cc5c65b6cb9fcac0da158a3f2b773741bc22e47a71837b3716abdc8a59"
     },
     "life-changes/divorce/what-credit-score-do-i-need-to-refinance-after-a-divorce.html": {
-      "size": 52060,
-      "sha256": "4169bb28bda780f8f7de58557f068c87168a0231186beff255ee9877567bf861"
+      "size": 52013,
+      "sha256": "674e4110b86946ad252011c182dba58f197e7ff22a130164b65dbc2716e30bcf"
     },
     "life-changes/divorce/how-is-home-equity-split-in-a-divorce.html": {
-      "size": 52486,
-      "sha256": "630cec98c2c7f5b87f6c3c1d9aa8ee57cd9770c63e4b2845fdd74a4443c8395a"
+      "size": 52439,
+      "sha256": "b1c2dbbebae692c8adee9d05faf4cc19b4b7f08127620b46ec11302616e55ba4"
     },
     "life-changes/divorce/how-long-do-i-have-to-sell-the-house-after-a-divorce-settlement.html": {
-      "size": 52548,
-      "sha256": "9eaa0e7ed705faaaf0d982ac385a3ff4add55cd05bf07ba3afdaadc6c0373743"
+      "size": 52501,
+      "sha256": "ae3208571d2e0a76d18859573e73639824b47d5e2b5379a80c6f022d15ed1995"
     },
     "life-changes/divorce/what-happens-if-we-owe-more-on-the-house-than-it-s-worth.html": {
-      "size": 52017,
-      "sha256": "848a7111642a487cef4f4f5f5a4e75de0e29ed2d5599883708de5fd67359eada"
+      "size": 51970,
+      "sha256": "eff5ff377d2955e16bb1b57819a129ac5d20ce836e356d2fbda73066f598cfad"
     },
     "life-changes/divorce/what-happens-to-the-mortgage-after-we-divorce.html": {
-      "size": 52324,
-      "sha256": "2664bfe95bceb602b17171b9126a1b30284b5b75e9eeb20cd68a0ebc021cab18"
+      "size": 52277,
+      "sha256": "39da83917eada9ad2a3fea130e5f2aa035bbfca2577b072321d6b8ad81345ca7"
     },
     "life-changes/divorce/i-moved-out-but-my-spouse-is-still-living-in-the-house-what-happens-now.html": {
-      "size": 52191,
-      "sha256": "3302ae9277fa9883fb5aa3c59409b0dc6ab9258e4759a1207927a9e44a6637a2"
+      "size": 52144,
+      "sha256": "4f7027aa5dc074c3dba4ca4cf8f789cb5e7fde316bad312c0280a36352e95e19"
     },
     "life-changes/divorce/my-divorce-is-messy-can-the-house-still-be-sold-without-making-things-worse.html": {
-      "size": 52112,
-      "sha256": "03d2e952ac5dbd39dd35a80964703c8481627eb1558948cfaf6d7372d7774c58"
+      "size": 52068,
+      "sha256": "68ace8740916299a5bbd67a5b600578d9bb9b88389228156635fc19d38f01481"
     },
     "life-changes/divorce/we-agree-to-sell-the-house-but-we-don-t-agree-on-anything-else-what-do-we-do.html": {
-      "size": 52232,
-      "sha256": "6a92897b7575eb80c278dad7929347f0da509e60d3b97f82c1a284ba9d64d9fd"
+      "size": 52188,
+      "sha256": "83071b2651addc0a81242b33922278225d52e44bee87d43b848813888d51cbca"
     },
     "life-changes/divorce/how-do-we-figure-out-how-much-equity-we-have.html": {
-      "size": 51909,
-      "sha256": "210375654cc52277e0559ad2dde5d28618565b8c056198900347fab399637f8d"
+      "size": 51862,
+      "sha256": "c930894c5057d3719cb390340d58c1694ebe102816e3893a3d16185fd31c84de"
     },
     "life-changes/divorce/i-m-getting-divorced-what-happens-to-the-house.html": {
-      "size": 51895,
-      "sha256": "6cdc8b447f390929037e9ff64777cee8312eee95323e3908d1161355eb52cbe0"
+      "size": 51848,
+      "sha256": "0590530370384818771d04b9c16662e9c169c83329adffc53bd69e74be528c56"
     },
     "life-changes/divorce/we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html": {
-      "size": 52288,
-      "sha256": "d32987f5fd9dbea9887843eb82f0b71677aec40a8914176b50c8cd9299097a28"
+      "size": 52241,
+      "sha256": "8ecae6a9f6f21423fa2027671d6d0fcbfd6009ec145bdb870531bd18a7197ca0"
     },
     "life-changes/divorce/can-i-refinance-the-house-to-buy-out-my-ex-spouse.html": {
-      "size": 52473,
-      "sha256": "0b6a6a13774809b2d49e6b6030e92563006025d37d53c9210e5e2d4395dff4da"
+      "size": 52426,
+      "sha256": "8ae2302cb89cf67d01e875b638b150a3c86e942ecd2d8fd833348126f552236c"
     },
     "life-changes/divorce/can-my-spouse-buy-me-out-of-the-house.html": {
-      "size": 51704,
-      "sha256": "f11e471c04c9f3909ec2cb2f29e35280979a4b81cb8a0e2e8824ae53a6658fa9"
+      "size": 51657,
+      "sha256": "b3c968e97814f42388bcbba1cb79d25927721c6fa78173d73db2fc9c98a57ab0"
     },
     "life-changes/divorce/should-i-sell-the-house-or-keep-it-during-a-divorce.html": {
-      "size": 52545,
-      "sha256": "9d19ba285fa66a243212aa6ee2dce9dca0ae3331a5e762365ad3fc24f838c7fa"
+      "size": 52498,
+      "sha256": "52a17ee36e49b0dd87fd52728cd16d74d087a10cf9aa11e73b749171c51140db"
     },
     "life-changes/divorce/what-happens-to-the-mortgage-if-my-ex-spouse-moves-out.html": {
-      "size": 52724,
-      "sha256": "9d649685e29d408be312f0503ee707541e31e01e17cdf63d82ea313a2939905e"
+      "size": 52677,
+      "sha256": "671d6b125506b21bfce9b978aab33f4edbf3c7472d97cc5365945d8e5ab4c411"
     },
     "life-changes/divorce/is-it-better-to-sell-the-house-before-or-after-the-divorce-is-final.html": {
-      "size": 52892,
-      "sha256": "aae2cd202b3dd7829af73dc65f6588551d0e5af1ec4ff66b57ed19c9b41a5dd5"
+      "size": 52845,
+      "sha256": "f5becc28ee23a922863257dfef895c74cb23db305a5df32578588c1e86188a22"
     },
     "life-changes/divorce/how-do-i-get-my-ex-off-the-mortgage.html": {
-      "size": 51863,
-      "sha256": "4e68628a3ce1a7f4e48d8ca34cf55e7c6d1788f1839e5a64364af652f77dc217"
+      "size": 51816,
+      "sha256": "1de2a542d4c4d361baa7adfcb5a419ba448eaebf76d8cdf38c2df15cfcac4a6d"
     },
     "life-changes/death/can-i-live-in-a-house-i-inherited.html": {
-      "size": 51683,
-      "sha256": "af87f5fb455bb11bb82409f0053eb0dabe651e3af292b6eebc72aced72c605ee"
+      "size": 51628,
+      "sha256": "eb02f62429693ec71df6156b64bb6be615ae33c6f2479645022e42bca9d5a415"
     },
     "life-changes/death/do-i-owe-taxes-on-a-house-i-inherited.html": {
-      "size": 52613,
-      "sha256": "eee360389b6c57caa4af925237651483513f3ddc4f0742a3ec2878f7b53c3cb2"
+      "size": 52573,
+      "sha256": "e58e1bc18b64051b9436bec10606ed1cd989c70196e1156c30e3eb3c1a7ff993"
     },
     "life-changes/death/can-siblings-force-the-sale-of-an-inherited-house.html": {
-      "size": 52528,
-      "sha256": "83be7eb5549e27320d2e318a30eb08be5904d2f97abc6d602f3d3d0a1832b673"
+      "size": 52473,
+      "sha256": "9670ddec4a460d826ebf25e073015043a7272f36316193b2c3f5b30f06f51620"
     },
     "life-changes/death/i-inherited-a-house-with-my-brothers-and-sisters-what-do-we-do.html": {
-      "size": 52167,
-      "sha256": "3ddfdf2d64efa71a62ec9ede57faea024d03baa0039ad3ad0d1b594e09759cc0"
+      "size": 52112,
+      "sha256": "c838b4c1d003e287e64ad058d7b1de72f0acbd8b417059faf929bd31587afdf9"
     },
     "life-changes/death/can-i-sell-a-house-thats-still-in-probate.html": {
-      "size": 52284,
-      "sha256": "1ab1fe35e61e10e5d3be117ebbd6bbb2dc88f34fa7405d0e918fc398373470cf"
+      "size": 52244,
+      "sha256": "044a0e3e1eb1b9c83c561b36ab0c8fbdebf7b431dd8c74d29ab86540287f6965"
     },
     "life-changes/death/how-soon-can-you-sell-a-house-after-someone-dies.html": {
-      "size": 52011,
-      "sha256": "f6ce70169602ae6dc60cbb50466cf49709dc6fa3ced0072ce9f583934c8e802a"
+      "size": 51971,
+      "sha256": "4528c2c3c25f89f4bb38c91368aa1a550e97ca597876c98b09064f402335340e"
     },
     "life-changes/death/how-do-i-clean-out-and-sell-a-house-full-of-someones-belongings.html": {
-      "size": 52789,
-      "sha256": "702a701c1dd083158412efab4f0a5afc692d5461beba77cc379d309d84563564"
+      "size": 52734,
+      "sha256": "4ea1be7edf6da3f76be11ec6d458f194b65485af9d5d8d00d926db441525f599"
     },
     "life-changes/death/my-mom-died-and-i-don-t-know-if-i-should-keep-or-sell-her-house.html": {
-      "size": 52002,
-      "sha256": "2883c9bd6d5beebebd4f6e2a1d6f7cfc9db0542802db24b2f3f42ccaf805791d"
+      "size": 51947,
+      "sha256": "0cd58971ffcde0cd269e9f33dc9a571d4410d69f42d410270706d7e073447c9e"
     },
     "life-changes/death/there-s-an-entire-house-full-of-belongings-after-someone-died-where-do-i-even-.html": {
-      "size": 52499,
-      "sha256": "04ad0c77b76104efa19cedf14f8dd0b253827f7f73f9952044ea20b2901b93fd"
+      "size": 52444,
+      "sha256": "4147447e944b6476441187cfac36619ff9cbb9471094155867fbcba0fccf8799"
     },
     "life-changes/death/what-is-a-probate-sale-and-how-is-it-different-from-a-regular-home-sale.html": {
-      "size": 52924,
-      "sha256": "7b4878a841f6e98a853969678fedd5aed06e5689b334c97f1ae91398003efa49"
+      "size": 52884,
+      "sha256": "d768e9b270204ad6347172d5657f8bb1db6112ff30af59d7567395367b495ae1"
     },
     "life-changes/death/who-is-actually-allowed-to-sell-the-house-after-someone-dies.html": {
-      "size": 51943,
-      "sha256": "a804ed250ed8188f140b112581433a8f2853ad9199bac415997cc0dfa00a3457"
+      "size": 51903,
+      "sha256": "329551d908e8bb4854bbc0df776bbc5cb895a1d5bd09087053fd2815ab3b51bf"
     },
     "life-changes/death/my-spouse-died-and-i-don-t-want-to-leave-the-house-what-are-my-options.html": {
-      "size": 52321,
-      "sha256": "f818a3868527a4781a48b49b86add4c494fceaa372dcf62e12438b3c9a9bc409"
+      "size": 52266,
+      "sha256": "b602e0a0fe66c06ea158bc08227a7c5e2bd23d2520b72ebf01ec6c645561d1f6"
     },
     "life-changes/death/what-do-i-do-with-my-parents-house-after-they-pass-away.html": {
-      "size": 52716,
-      "sha256": "57e10f2329369507cda1d56e4cb578a3770081f0cd69d29fcfd721e9e9faed65"
+      "size": 52661,
+      "sha256": "049c645a5f6b5b87ef97a248e115ca72a13d0de84a01fee83ca76ed481b2574d"
     },
     "life-changes/death/is-my-name-automatically-added-to-the-house-if-my-husband-or-wife-dies.html": {
-      "size": 52925,
-      "sha256": "b2960eb0111086aa0718b7f2594c7c900a76e8b0f98127371d3978ff9d1ee7e4"
+      "size": 52885,
+      "sha256": "25085b2da302ccbdf8cf2161f3bcbc5cc0f2950d3bebcdb2479ea952abe6a9af"
     },
     "life-changes/death/there-s-no-will-what-happens-to-the-house.html": {
-      "size": 51955,
-      "sha256": "3ac3ae92bdbe49499e6621653e58f3b28b4d256edd831434c3d8f553605fcb29"
+      "size": 51915,
+      "sha256": "8d3f85a26cdc8870ce2e9409894cf574d4ea8389e542a5f55c7c291e25768164"
     },
     "life-changes/death/my-spouse-died-and-i-can-t-afford-the-house-by-myself-what-can-i-do.html": {
-      "size": 52138,
-      "sha256": "1aee66e3f5b53d068777f07a968971689deed57b25d04a9b8bc15097b72e8181"
+      "size": 52083,
+      "sha256": "803895bbda5f6982df0b9017aa175981f5a830d40a790c086f8381e97fa83f53"
     },
     "life-changes/death/my-parent-died-and-left-me-a-house-what-am-i-supposed-to-do-first.html": {
-      "size": 52059,
-      "sha256": "a414f89a9363c105e385faea6dedc00146cb6d6ce0d4062d0aa1f2fa0d5ffc72"
+      "size": 52004,
+      "sha256": "3db250b8080b41cbc824824342ade8deb86b6a139a627aaf285a82301dd9ee80"
     },
     "life-changes/death/what-happens-to-a-house-if-the-owner-dies-without-a-will.html": {
-      "size": 52909,
-      "sha256": "24eac6bcd46f6fe5d9e4d4f8d2af954d00d95576fb31b5e903208ee038df6356"
+      "size": 52869,
+      "sha256": "3a9a8b3c49ea77970df2f893af1da9fd1429a592cba69b3da4ab5bf03b41e9a3"
     },
     "life-changes/death/should-i-sell-the-house-right-away-after-losing-my-spouse-or-wait.html": {
-      "size": 52833,
-      "sha256": "28d09b79b404dbf6d97692f7defb8c529a7e7e4e99cf31877750cda8d4fd567e"
+      "size": 52778,
+      "sha256": "c8d02dd1ecc8503040171b90ad5d3a632cef2b90d277f2a13d8263d299b6d0f2"
     },
     "life-changes/death/someone-died-and-there-s-still-a-mortgage-on-the-house-what-happens.html": {
-      "size": 52150,
-      "sha256": "bd54e89b4146879e750f0b2823bc79f5a05cbf5c2bc0566e92d760a2db3d8c88"
+      "size": 52110,
+      "sha256": "0d05acce86bed19e97b6167ca36225cb678063d86607f5a1e328fb6c27fb9c24"
     },
     "life-changes/death/i-inherited-a-house-but-i-don-t-live-anywhere-near-it.html": {
-      "size": 52079,
-      "sha256": "c0d8de7e7c95f5cee1fad9505bc1b96a0c43653f61eca18f648ae957831fd8b8"
+      "size": 52024,
+      "sha256": "f29d2de3bec58c388d6cc0b08936b21fab87277a5b3f412f298e1fe677d44155"
     },
     "life-changes/death/my-husband-died-what-happens-to-our-house-now.html": {
-      "size": 51745,
-      "sha256": "7eb415610f3943f27c0d241460e825ab59d25dd00568b398f12d0dc40df2be1d"
+      "size": 51690,
+      "sha256": "9141753585f6df6e2f4427a3165c99ad89f8735bb77c4f283fb6424930367d6e"
     },
     "life-changes/death/should-i-sell-my-parents-house-or-rent-it-out.html": {
-      "size": 52188,
-      "sha256": "4adcbd606a418baa8ad86f8039a7d3dc1616855f5bb86e27e33b19d752965cff"
+      "size": 52133,
+      "sha256": "ae3ef36e774c16992395472e35a87161bdab2b28752f86d1e301890389fad593"
     },
     "life-changes/death/do-i-have-to-pay-off-my-parents-mortgage-if-they-die.html": {
-      "size": 52787,
-      "sha256": "6020fbe46c86fcb1f410d742e537963fee79a9ed8c4b89f915110a285bffcec2"
+      "size": 52747,
+      "sha256": "e221582d974a68a7a97557db0b40fc2fa740c72c4797813c49c84a4ccc322f7a"
     },
     "life-changes/death/i-inherited-a-house-that-needs-a-lot-of-work-should-i-fix-it-or-sell-it-as-is.html": {
-      "size": 52342,
-      "sha256": "965ad4bbe8576f9f8dbc23853742c90d9cd6ed19ffbb094e1800fb110f08929c"
+      "size": 52287,
+      "sha256": "62315356025d5c898b6f7e344b37e8a0230974bdb69b6a95c505166da9f278cc"
     },
     "life-changes/death/should-i-rent-out-the-house-i-inherited-or-sell-it.html": {
-      "size": 51813,
-      "sha256": "e9d30ef3071c21662c6e3ab4e121a0cdce6314cf68f84f3b06e31af9b469129d"
+      "size": 51758,
+      "sha256": "16a877bd321d35602ede0eb986ee1acb1f949291ce48e476906f3b70de1f306e"
     },
     "life-changes/death/my-dad-died-and-his-name-is-still-on-the-house-can-we-sell-it.html": {
-      "size": 52158,
-      "sha256": "b1521d2175d580f71585c36ed9d2ecf7959c4e93dfa92c4e386fb9a857911e25"
+      "size": 52118,
+      "sha256": "916ba47d5e419f6fa6d476d6796e8396994b840a17c7133933f1dd6f7f5aeaa3"
     },
     "life-changes/death/what-happens-to-our-house-if-my-spouse-dies-and-only-their-name-is-on-the-mortgage.html": {
-      "size": 52937,
-      "sha256": "2824806f47ad8678881d9b667bb9f2fdab3e61c662d957f917b3af0848cf58e9"
+      "size": 52897,
+      "sha256": "39f997f2edbd59dce2b523545982c55d9b34428661f5822ae998d0b27b179a3e"
     },
     "life-changes/death/can-i-keep-the-house-if-my-spouse-dies-and-i-cant-afford-the-mortgage-alone.html": {
-      "size": 52754,
-      "sha256": "febc381855aea151eeaab32c90317c374cbfa67548428b2442e08c498d70b586"
+      "size": 52699,
+      "sha256": "405578a7e94df9da53a585a76657517b83c6843db528ae662ceb6ba8475cc033"
     },
     "life-changes/death/my-sibling-wants-to-keep-the-house-but-i-want-to-sell-what-happens.html": {
-      "size": 52150,
-      "sha256": "921820f44a244b37360fce3c0b88855bcd67d1ad2e00258a9dd93e88d37ccd5e"
+      "size": 52095,
+      "sha256": "1e0858e7edea726ded345143bfb29e2dbb22dae0f8d5ab710957e95e4386fa71"
     },
     "life-changes/death/my-wife-died-and-the-house-is-in-both-of-our-names-what-do-i-do.html": {
-      "size": 51992,
-      "sha256": "4efaa4815fe40554468de0cfb2db0585b5552cbe65f11f4b21c264f20a8d9fc9"
+      "size": 51937,
+      "sha256": "27aaf3766d861f597e9a8da6db07c63ceca21a707ec6dcc6664f630366185b8d"
     },
     "life-changes/death/do-i-have-to-refinance-the-house-after-my-spouse-passes-away.html": {
-      "size": 52613,
-      "sha256": "51050955f5051de94d5fa68953bfe52ac7d4731c9819d185fd04fe4a1550db25"
+      "size": 52573,
+      "sha256": "4684140b9d0d895515e9e284fb763c7ac3607a34f7dc02d96d2da3c0d2bd97de"
     },
     "life-changes/death/how-long-does-it-take-to-sell-an-inherited-house.html": {
-      "size": 52370,
-      "sha256": "245f47e667257e056fb13da5b6655d82a112bec67fff21a6e0ed0d2c340380ed"
+      "size": 52330,
+      "sha256": "4ea26e22f4412156b13161bb2a8fc9a14c98f0241796d0078f18517aa7433750"
     },
     "life-changes/death/do-we-have-to-go-through-probate-before-we-can-sell-the-house.html": {
-      "size": 51880,
-      "sha256": "9cb37b604833a9fddb33ff4d1c6fad2dce5ff872c72d7e8e9bced465519f2cba"
+      "size": 51840,
+      "sha256": "291689999e35fb8eb8a84d4a9eb7bf47d40424aae486b2b99a6c9e870ca65cb4"
     },
     "life-changes/empty-nest/can-we-afford-to-buy-a-smaller-home-outright-by-selling-our-current-one.html": {
-      "size": 52501,
-      "sha256": "c02528c98a991c20bf3364417ca679edd9cd4d555fd6d0f7717cb50acca71dc5"
+      "size": 52465,
+      "sha256": "1fb2d5b26a10d6e1601dc8561ebf2f0e71211d5b7ca850d9490cb6dc2406c013"
     },
     "life-changes/empty-nest/should-we-move-somewhere-with-less-yard-work-and-maintenance.html": {
-      "size": 52504,
-      "sha256": "8c8f294d1631b469f10bd0a86c8a6dc3f9758d9bb104a8dd1a3e2bf00e4699d4"
+      "size": 52468,
+      "sha256": "df2085db5bd7e037d1ce233ffe037650f7723ff6c0eec23f714e2e973365c727"
     },
     "life-changes/empty-nest/what-size-house-makes-sense-for-an-empty-nester-couple.html": {
-      "size": 52146,
-      "sha256": "9192f5eea24a26a5bfcb7fd3093f2272a93227618de622b79d08de34cfd39468"
+      "size": 52110,
+      "sha256": "c2b297ed97bb07c68bccdecd8f21b0f2964728353f1861dd96f226d17382857f"
     },
     "life-changes/empty-nest/should-we-rent-out-our-kids-old-rooms-or-sell-the-house-entirely.html": {
-      "size": 52414,
-      "sha256": "cf7acc1576c080fc66c74dd98b0033534b0fb3a4f9b7e06ecca2f2b5fd34e6c5"
+      "size": 52378,
+      "sha256": "c6ef533a8a4e7b63ce5e3f6497704e4c83aafc4199de9ace3bf5f3b7675a2493"
     },
     "life-changes/empty-nest/should-i-buy-a-condo-now-that-my-kids-are-out-of-the-house.html": {
-      "size": 52903,
-      "sha256": "9b5116afc5cdf76027c25c1e9e8efa80fcdc0f5da2a9b259b1edee353df489f1"
+      "size": 52867,
+      "sha256": "36ce90204a2884978ecb2937fd81767d68df310e5858e0daee0d6f473211e9aa"
     },
     "life-changes/empty-nest/my-kids-live-far-away-should-i-move-closer-to-them.html": {
-      "size": 52951,
-      "sha256": "fa792938a8282d97a19cb7cc32c7a9f65437c7e529e76db1d36091fdf6d58457"
+      "size": 52915,
+      "sha256": "767de00da0a1c97bf5044ac14c21dd15caf30dd2f8485d806420a1b3353d944d"
     },
     "life-changes/empty-nest/is-it-actually-cheaper-to-move-to-a-smaller-house.html": {
-      "size": 52611,
-      "sha256": "4bdb49174fedbd2dc412bb4eda14ca085c9ab8a90db754465c5e9da2233f8ce5"
+      "size": 52575,
+      "sha256": "4ac9548b2a477fc84d68eaac5d6862e827fae0a4e05bdda8413592a92813b786"
     },
     "life-changes/empty-nest/is-now-a-good-time-to-sell-before-home-prices-change.html": {
-      "size": 52533,
-      "sha256": "346dc99b1c82baab5261e45b3bb648c9cb040af06fd3d108944435e6beb696eb"
+      "size": 52497,
+      "sha256": "aa90b5ce969a6617b7cfcaf2c00c76f66380bd7bbc5eaccfd85b6fbba39f4cf5"
     },
     "life-changes/empty-nest/i-love-my-house-but-it-s-too-much-to-take-care-of-now.html": {
-      "size": 52976,
-      "sha256": "abb4a6b2029d7f539a99abb1f5909d05427046d45586373fd009d10bccfc106e"
+      "size": 52940,
+      "sha256": "715025c3b13ac63531ccb0cc25d5941a0544aac79cf897e0eedf76b72532b4d2"
     },
     "life-changes/empty-nest/is-it-worth-selling-a-big-house-just-for-two-people.html": {
-      "size": 52214,
-      "sha256": "3f9729a2f54d9a54198ad54fefa66f4fef9093c2e4d275121e9d9066b339339d"
+      "size": 52178,
+      "sha256": "982ecad113c5460fb52ce50ab8cb3deb08215654bacf3b3bd54d053a299d5cf2"
     },
     "life-changes/empty-nest/should-i-downsize-now-or-wait-a-few-years.html": {
-      "size": 53185,
-      "sha256": "effa7c868ca09d7bdce4cbdc5b0c312eef511c8db994060467ca384550a1cc08"
+      "size": 53149,
+      "sha256": "9fcbe73fb4d75582330fd9b8b0a8ced03917a7dbbf42038d6dc07c8127cc61ee"
     },
     "life-changes/empty-nest/my-kids-are-gone-should-i-sell-the-family-house.html": {
-      "size": 52836,
-      "sha256": "7bed330517dcdb5b34bc70001914c9991f63b4d85f3e0021685c5c6a7456e09a"
+      "size": 52800,
+      "sha256": "82572e52d7437561629c60c5193039b4b8f96fa80203e4269ac908bae57b30ea"
     },
     "life-changes/empty-nest/should-i-sell-now-or-wait-until-i-retire.html": {
-      "size": 52877,
-      "sha256": "682d0aa39bbc8a150db93bcf10c34a08f8a8dcf6bbb9b62a014653967f418859"
+      "size": 52841,
+      "sha256": "a585d82ba54512bb78e98907bd140c33c2d53337111d9c0239e85a34e6786e90"
     },
     "life-changes/empty-nest/i-don-t-need-all-this-space-anymore-what-should-i-do.html": {
-      "size": 51813,
-      "sha256": "a088c35a729c61d3765b655b875d0b9f8e30f651979e79d0899ff04932285e3a"
+      "size": 51777,
+      "sha256": "b01fbb37398690176a83f94e7ab5e11fcb0728c1599ea193e2ca1aa8e7e437f5"
     },
     "life-changes/empty-nest/how-much-money-can-we-save-by-downsizing-after-the-kids-leave.html": {
-      "size": 52348,
-      "sha256": "23d3a87d35dcf46d0e3527c59ec4b9cf822e83a314652c7f66308a6a125d83dc"
+      "size": 52312,
+      "sha256": "30aa3a0b568e9f63486e53673ffffcb71240eafee3ceab75d7004c0f3d5d9967"
     },
     "life-changes/empty-nest/my-kids-moved-out-and-now-this-house-feels-way-too-big.html": {
-      "size": 52803,
-      "sha256": "3069194841f131a861f777e15ca5b1784c43900cf0539777d029be6bdb4a35b7"
+      "size": 52767,
+      "sha256": "5a162bac3c98d7b48210d61a50dd1a48100f8ba2fb93e8610f2b96eea169dcbe"
     },
     "life-changes/empty-nest/how-do-i-know-when-it-s-time-to-leave-the-family-home.html": {
-      "size": 53511,
-      "sha256": "d99d92e5cd5be324bc715083891332eda752f7daa0692eb23bcc69c509f865a9"
+      "size": 53475,
+      "sha256": "61ccd25c99de861d98de5d37bf7096d5419df9099eda2d9ed0e26acbe541d40d"
     },
     "life-changes/empty-nest/i-have-a-lot-of-equity-in-my-house-should-i-use-it-to-buy-something-smaller.html": {
-      "size": 53452,
-      "sha256": "6377584bcbb12bd5522910d4268dc8de6f7e1c17a6384a72186dc9de3e0ac6c4"
+      "size": 53416,
+      "sha256": "96b01215b40af28d2cde3aaa990fd1a1ef54174a3a641c3dd83982a6d9fa0b28"
     },
     "life-changes/empty-nest/should-we-downsize-now-that-our-kids-moved-out.html": {
-      "size": 52096,
-      "sha256": "b6a7978f291a9d7eeb6399c631b752e7396d091fd3a334b6679d91b2def18634"
+      "size": 52060,
+      "sha256": "cedd03db3f5b2793b87d3f19e7d5d18b1985d107206969bbe769934e2fe9449f"
     },
     "life-changes/empty-nest/i-don-t-want-stairs-anymore-what-type-of-house-should-i-look-for.html": {
-      "size": 52915,
-      "sha256": "b9935e24ffba32fdf1c5be4ab4b5ac8e60fa1037c50b918ad3285ab48c7beda2"
+      "size": 52879,
+      "sha256": "3065a3a1d33f73ea375818d09dde4768a98f9418d6249b8b2939541ff4bde5b9"
     },
     "life-changes/empty-nest/my-house-is-paid-off-does-it-still-make-sense-to-move.html": {
-      "size": 53052,
-      "sha256": "399e6cfe2b5e6b9b11a7fe5f1d29866bad7cacc81fe8141c3c271a19177af3a5"
+      "size": 53016,
+      "sha256": "135571ab355283531aef8ec2bb8f557ce22da600d6e080b7241e9236a3ef4762"
     },
     "life-changes/empty-nest/what-are-good-empty-nester-neighborhoods-in-the-san-fernando-valley.html": {
-      "size": 52580,
-      "sha256": "4cbe229f9867a0625bf9fedb49ab43c03fd8bdebb8daab4cf565816ce3ec6cdb"
+      "size": 52544,
+      "sha256": "7731faa44073e2243310a54740937aff82bba92ea65aa80b5b61629af0031468"
     },
     "life-changes/empty-nest/should-i-stay-in-the-house-my-kids-grew-up-in-or-move.html": {
-      "size": 52835,
-      "sha256": "4874e847c4ffb50e671779aa5bf188db137fcf5eefa9a388230e184a9e6078cb"
+      "size": 52799,
+      "sha256": "cf62809988504d93d80f803b2408a7a9d93ed602607ce5af52cef44dfc91076a"
     },
     "life-changes/empty-nest/what-should-we-do-with-all-the-extra-space-now-that-the-kids-are-gone.html": {
-      "size": 52632,
-      "sha256": "cdd05842d09962a59957a79e36d178834a453f05631fe2574b2b51a25c13efc4"
+      "size": 52596,
+      "sha256": "907fb029d7deb6784be4c3db31eb5637e7011244824aae1f70ca8e6ad80ed36f"
     },
     "life-changes/growing-family/should-we-buy-a-fixer-upper-or-a-move-in-ready-home-with-a-new-baby-coming.html": {
-      "size": 52741,
-      "sha256": "a0e6de8717e06f69fdfd12338ec082db73afad374293deb39d6cfd12ba88e133"
+      "size": 52705,
+      "sha256": "409a5cf8f194563b41825d4dded5d92d57b6aef322bb1a7901df09ed00dda3e0"
     },
     "life-changes/growing-family/is-it-worth-buying-a-house-with-a-yard-if-we-have-small-kids.html": {
-      "size": 52261,
-      "sha256": "0ad6e28ad7d5c0441f2a851b4a19d8cbd3afa9826844a53659f9af181de3ed39"
+      "size": 52225,
+      "sha256": "c2994c9f885e4f41801e535d7121f112d4a3ec665e05a371534efa216124511b"
     },
     "life-changes/growing-family/can-we-afford-a-bigger-house-on-one-income-if-i-stay-home-with-the-baby.html": {
-      "size": 52792,
-      "sha256": "ffd9f4936f089713ae51d8a2eda83eb0ab8f1b4feeb09e56fd0e086c492995af"
+      "size": 52738,
+      "sha256": "3b9371b39dec43b982450f4f706d3b8529a6317d52cb029da48278b7b69dce41"
     },
     "life-changes/growing-family/is-it-cheaper-to-add-on-to-our-house-or-move-to-a-bigger-one.html": {
-      "size": 52695,
-      "sha256": "849278b56df010995dafdab59296fa7133bd92987493f9f0141167b7ddae61f4"
+      "size": 52654,
+      "sha256": "822513d6223194bf1369b0f3096fac72bd111586fc788419a3af2513021ac886"
     },
     "life-changes/growing-family/how-many-bedrooms-do-i-actually-need-for-two-kids.html": {
-      "size": 51948,
-      "sha256": "510527d1c082862b3e013c76c05eeec930bd848db15dc23026dc5c9202ded189"
+      "size": 51912,
+      "sha256": "7487e491cbe41912b47bc852c438a75b4adce1e955546f75d4782fb9ea77d04a"
     },
     "life-changes/growing-family/how-do-i-know-when-weve-outgrown-our-house.html": {
-      "size": 52281,
-      "sha256": "f9e31f26d57182ff185e2e937b6b578a55b5e653caf973d87946abeb44672fa6"
+      "size": 52245,
+      "sha256": "997dc63130029310895158f446e5734978a68f0846b5d5a2fcc9ff97103392cc"
     },
     "life-changes/growing-family/what-neighborhoods-are-safest-for-families-with-young-children.html": {
-      "size": 51965,
-      "sha256": "470ae75914fe590c2c997cc71d28917bc55e91967a7802d9b590998d0e634858"
+      "size": 51929,
+      "sha256": "84f2b6f3d8c9bbf57a554d2d7f309ee2ad49d1973c082820df76e2b0f350f315"
     },
     "life-changes/growing-family/how-much-does-it-cost-to-convert-a-garage-into-a-nursery-or-playroom.html": {
-      "size": 52723,
-      "sha256": "025fa723524a770bdbe991ebc6c7eb7a4274796616fe08e64704fe6bd4fcb710"
+      "size": 52676,
+      "sha256": "c543ea03524c1251233fad2d54733eebcd93b2bfec6f6bbca66dbe8fa6f34929"
     },
     "life-changes/growing-family/should-we-move-before-or-after-the-baby-is-born.html": {
-      "size": 52139,
-      "sha256": "77ebe4ca3295facbf9090faa4a35f6b2002e431c572132c07368cb1f7856d9ab"
+      "size": 52103,
+      "sha256": "0b4a34da31fb9cff75fe59fd59b33d291564f9909fe3ffe2496cd4238a0a71c4"
     },
     "life-changes/growing-family/whats-the-best-school-district-for-young-kids-in-the-san-fernando-valley.html": {
-      "size": 52857,
-      "sha256": "830a9e25358f388d2f286ce145375812ae3070750aee3a176c280fb80bfb94fd"
+      "size": 52821,
+      "sha256": "a302eee5cfed2fe6c0ec2c48f84966226a731fd20957f87c917510bfdf60709f"
     },
     "life-changes/marriage/should-you-buy-a-bigger-home-before-starting-a-family.html": {
-      "size": 51877,
-      "sha256": "4c2199254865a3f2c99b13043864289ebaacb314dac8741942364b08b87f0058"
+      "size": 51841,
+      "sha256": "474d8526aeb2a14c25e44270c16eb5c95944c73cbed7abf56526fc174552333f"
     },
     "life-changes/marriage/should-we-buy-a-house-after-getting-married.html": {
-      "size": 51753,
-      "sha256": "66aa4aaa5a293ccdf59f4790fef6b3256e4bbf37b40fff88f43df317a4e985e1"
+      "size": 51717,
+      "sha256": "ae76232eebd289fdfa9ef332fcef68a0c07fb075886b8a8e07d6fdea835c57bc"
     },
     "life-changes/marriage/getting-married-and-need-more-space-should-you-move.html": {
-      "size": 51957,
-      "sha256": "5441aed9a894f37557ba502929a04791ec4c34c17abdac455a29ce0346c4a907"
+      "size": 51921,
+      "sha256": "c2e58803d90a61110e108b9eba15c2448de08501d704ed6093eb0ff673cc1f6d"
     },
     "life-changes/marriage/should-we-buy-a-house-before-or-after-getting-married.html": {
-      "size": 53701,
-      "sha256": "b27a8caf2f6b0044128591d1f51b150a5039955b3da43251e8d3f1c51761ddd7"
+      "size": 53665,
+      "sha256": "d8f7f940e4ad04bd049c0394ca41f15585e7607d477658a5b28cb3c65740a395"
     },
     "life-changes/marriage/should-we-sell-both-homes-and-buy-one-together.html": {
-      "size": 51762,
-      "sha256": "55a6807ab4337d004fcf4c050aa72e41ddaedc379b70c53b4a7627aa9d845c36"
+      "size": 51726,
+      "sha256": "e486a9575dd3fcb346a3ed20a0e769e5671ae78a46f663fa1cba7b548774bf00"
     },
     "life-changes/marriage/what-happens-to-the-house-if-we-get-divorced-later.html": {
-      "size": 53847,
-      "sha256": "a63e60ea60f3fc3d7389eaf1059d10d2ca33d6d1a981c994abb0780afd7d59a5"
+      "size": 53811,
+      "sha256": "0c4b238de8b2c79261a531d29c98c3d899b2b55bf0dfee698bb2dc245551a18b"
     },
     "life-changes/marriage/how-do-newlyweds-afford-a-house-with-student-loan-debt.html": {
-      "size": 53600,
-      "sha256": "cc03903f0feed4446804c8fa47444da463268c757c3ecac5f0a04d79ae10d20a"
+      "size": 53568,
+      "sha256": "ed80538e5ef2eba18e31050d7baae18906d598ad873c9c8f3f38dcd325a287d8"
     },
     "life-changes/marriage/do-we-need-to-be-married-to-qualify-for-a-joint-mortgage.html": {
-      "size": 53898,
-      "sha256": "20816e9b4c2be9d62aaef254a4a938b91218f93a5e3b3d922110d265038a7754"
+      "size": 53866,
+      "sha256": "35cb8d9e95e694481f7b5761c05fb10534476cdebc1fe37126eff59ccf71acac"
     },
     "life-changes/marriage/what-price-range-can-we-afford-together.html": {
-      "size": 51580,
-      "sha256": "311772deced71615d6fa5aba08ca352bcaf736695dd1ac7920516b0ac6a4b421"
+      "size": 51548,
+      "sha256": "eb35308bd15c634b33a52c5b828ddf935201cb8b95450d2e87ce5cf1da041108"
     },
     "life-changes/marriage/buying-a-home-together-when-one-spouse-already-owns-property.html": {
-      "size": 52248,
-      "sha256": "cbb6cc2ad3eb98a6d47e76e3e294e816cc788e3cd1914dbd695f43c2d90612a0"
+      "size": 52212,
+      "sha256": "87bd54994b59b072f80da88e513dd4567e00372a8c212bf33ab78870defae7e5"
     },
     "life-changes/marriage/whats-a-good-starter-home-for-a-newly-married-couple.html": {
-      "size": 53153,
-      "sha256": "18d2a9f9801063306af8dcee4011c5b1c6a75b0be348dc8e232b140a75a86094"
+      "size": 53117,
+      "sha256": "499d7a6dfbf2e48710f8312377b651038f6efded9499efe9294b588f0bf96310"
     },
     "life-changes/marriage/can-married-couples-use-both-incomes-to-buy-a-house.html": {
-      "size": 51652,
-      "sha256": "09527ef5806435ff16384d09915911d53c6abccf2b622613379683ac58941c0a"
+      "size": 51616,
+      "sha256": "2094dc93a1d999cbca04fba5f3e1108234333e18397ed9de9be5b86393c333cc"
     },
     "life-changes/marriage/buying-a-house-together-when-one-spouse-has-better-credit.html": {
-      "size": 51952,
-      "sha256": "bd122e79c24c539eb6853b3556a8e9c28c0997abe2b57c0cf0f9e36cf2f87193"
+      "size": 51916,
+      "sha256": "dcf4d68d70470c55366e44e209015bff3750a844ac2970b31fdb149bc5c460ef"
     },
     "life-changes/marriage/is-it-better-to-buy-a-home-together-or-keep-renting-until-were-more-settled.html": {
-      "size": 53265,
-      "sha256": "5858a2928fae4bbd88c8a8562064a2db9f40e81dcde5e5aaa4f6f7b8966a0387"
+      "size": 53229,
+      "sha256": "d156da5c62432150e088fb5f9b08a431a6a17290a24cf5ace594bffde8d51297"
     },
     "life-changes/marriage/buy-a-house-before-or-after-the-wedding.html": {
-      "size": 51725,
-      "sha256": "d91aaddc9e800bda8c851e2ad6e0700e2b8e325119c32aa29638e4f1507befa0"
+      "size": 51689,
+      "sha256": "dd5730fe7fe68a41677972bc099d14455a29d4eaba7f1e7c3ee28fba6e97e4bf"
     },
     "life-changes/marriage/should-we-get-a-prenup-if-were-buying-a-house-together.html": {
-      "size": 53538,
-      "sha256": "cad66bfa9c1db3122444e705ed4c3d995357db24ee2eb591abf16741ff147c1a"
+      "size": 53502,
+      "sha256": "59b20dec5cbc313aefde465b7cd11c0ab62a2ab5323524a1f33dacb62d6542ac"
     },
     "life-changes/marriage/what-happens-to-a-house-you-owned-before-marriage.html": {
-      "size": 51895,
-      "sha256": "a4734a52165f19a8cf9ea3bc07f2b93a959e4441aeb0cf5706561a31d2c8bdea"
+      "size": 51859,
+      "sha256": "dcd2bbb4a6282ea6e4b91b047eae5e1bf571b0b8458473d17f738ce433c1d723"
     },
     "life-changes/marriage/having-a-baby-and-need-more-space-should-you-move.html": {
-      "size": 51792,
-      "sha256": "f42917ce75b26a27e2de4bd078c117cff36870bac5034f1a0b7a2cccb2f3984e"
+      "size": 51756,
+      "sha256": "acce89280b367797c4ad7e7c114fc384128ab3ad807707da86dd8e996b6ee194"
     },
     "life-changes/marriage/do-we-need-to-combine-finances-before-buying-a-home-together.html": {
-      "size": 53562,
-      "sha256": "3c34dc2bbd077bdde787e4ad10c3cc128fc650a50912f6f9f2e5cc829fbaec11"
+      "size": 53530,
+      "sha256": "73af9fc9dffeecb7b3ed1e23212771ddd8edee23b37eb30fd86b98e34dae8eb4"
     },
     "life-changes/marriage/can-two-people-buy-a-house-together-if-only-one-has-good-credit.html": {
-      "size": 53937,
-      "sha256": "cc4c7ab06b6998fcb45185154e913ac9acbd091ab49abe5f9c2922e32ff99eac"
+      "size": 53901,
+      "sha256": "d38382cb54f50def13dc3b61a59652202ebaddf96dc342a204014c3e96189088"
     },
     "life-changes/marriage/should-newlyweds-rent-or-buy-a-home.html": {
-      "size": 51579,
-      "sha256": "96778baf592db82c2a7555327acbeef0d849ec66d2b6d84dd2ffe4222876f70b"
+      "size": 51543,
+      "sha256": "035e9aa4f4d2758e8e14f8c7f488eb323f0b6bc1d9815e2e53e7cb726fc92cdc"
     },
     "life-changes/marriage/what-if-my-husband-already-owns-a-house-before-marriage.html": {
-      "size": 52098,
-      "sha256": "30339667a665fbf0646545eb8806eef612dd554fcee3c3f0441f2f5b769dc9d3"
+      "size": 52062,
+      "sha256": "aeedd269c42d68a35b37544f6e748c4e35a17fcfdf28cd3cb134dc966201e5d4"
     },
     "life-changes/marriage/on-title-but-not-mortgage-what-does-it-mean.html": {
-      "size": 55189,
-      "sha256": "36bd92a820d85a47cd701b451746757437a54195d10599783925fd7a4c3725a2"
+      "size": 55157,
+      "sha256": "cebdc2a1420f0a280e08bba2caa4d6f44cfe346ba7d140a084de79146ebeaaf9"
     },
     "life-changes/marriage/whose-name-should-go-on-the-house-title-if-were-not-married-yet.html": {
-      "size": 53853,
-      "sha256": "89329bc863ad81860d449b2091994c0dadeedc17d47fb095cb0dc89ef64845e4"
+      "size": 53817,
+      "sha256": "48dcfb7ebf566cd1c7b5ceab607135f36a09e3e8edf1d47d520528951c56f86b"
     },
     "life-changes/marriage/should-i-add-my-spouse-to-the-title-of-my-house.html": {
-      "size": 52095,
-      "sha256": "0c76a6053a332e7e39c5b008c3a5a57a53ceeb718bef1d51a27940175744bda7"
+      "size": 52059,
+      "sha256": "3fd1b2ef20553d5cd08ab60acbe417eebc5880b728faa5c7bcad1bebb7523651"
     },
     "assets/platform-circles-v34/booking.lossless.webp": {
       "size": 12546,
@@ -6620,6 +6620,62 @@
     "assets/approved-property-search.css": {
       "size": 4118,
       "sha256": "f6582da7a558501ab0dccd6c63371929d00cfdd440a9ed0b5abdd77c154ac74f"
+    },
+    "assets/blog-oct12-dia-de-los-muertos.webp": {
+      "size": 2017694,
+      "sha256": "1e75bee97d63c6d263a0850d0cd44df9ab590187e72f28aa1b7109b4a8fff6bc"
+    },
+    "blog-dia-de-los-muertos-san-fernando-valley-2026.html": {
+      "size": 19193,
+      "sha256": "a76aa9c2866c336c009145d56fd368c3c62fc6d1d2b56245bd46849a2d0e6ecd"
+    },
+    "assets/blog-oct12-chatsworth-living.webp": {
+      "size": 2131734,
+      "sha256": "10a0469532a4f5e6d2947220963d9a808810b41c7ae8f7281018d75085ed5674"
+    },
+    "blog-living-in-chatsworth.html": {
+      "size": 20232,
+      "sha256": "28c5472343d32266f13a377379f1276a3546e5fcc5d6a95c3622336e01448f85"
+    },
+    "assets/blog-oct12-farmers-markets.webp": {
+      "size": 2215764,
+      "sha256": "a30e61a09458316d0799f9c8235e512ae63c22220fd1c8424e140dba0b9ce45d"
+    },
+    "blog-fall-farmers-markets-san-fernando-valley-2026.html": {
+      "size": 20990,
+      "sha256": "e1de5a4016299a4f8c5cfface311001c46240526351c3fe390e7e1820961eb19"
+    },
+    "assets/blog-full-photo-20261012.css": {
+      "size": 1483,
+      "sha256": "3581053783a05ed2f2a620ccb4df6094ef7cc58f70ffc19788658297b3ba04dc"
+    },
+    "assets/blog-oct12-northridge-market.webp": {
+      "size": 2459602,
+      "sha256": "7c1fe2548f5c76d92cca8fa5f181df3729291cc53c3d1155476c61fd5fca3a91"
+    },
+    "blog-northridge-housing-market-2026.html": {
+      "size": 19400,
+      "sha256": "82abe6449f6b439d7de179e60721bec781f07d2d7676083a09ae5f15fa44f395"
+    },
+    "assets/blog-oct12-proposition19.webp": {
+      "size": 2000910,
+      "sha256": "150a50583cb0f359dbd559d4db42a7181fa3e153f0957aad914ae784ee8a90b6"
+    },
+    "blog-california-proposition-19-homeowners.html": {
+      "size": 19505,
+      "sha256": "a566c9e5389d6103ddda9cf40895307f65c21ebd578593eb79503845e2b2a88a"
+    },
+    "assets/blog-oct12-staging-presentation.webp": {
+      "size": 1977098,
+      "sha256": "bf80f820895a0795d5662274007e4228d83a7558f7ae38e085f334dd65b2f6e6"
+    },
+    "blog-thoughtful-home-staging-presentation.html": {
+      "size": 19386,
+      "sha256": "31fdd119f541bacc3f4129a7316f704f774962ceadaa57ff77db768a4b537fb0"
+    },
+    "assets/blog-oct12-proposition19-guide.webp": {
+      "size": 1494416,
+      "sha256": "ba44dd991e43c07cae8e55da1493328a1edcd46abb773002fc0ffd06409e3cc0"
     }
   }
 }

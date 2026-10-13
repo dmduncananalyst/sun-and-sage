@@ -86,11 +86,12 @@
 
   const dialog = document.createElement(cfg.inline ? 'section' : 'dialog');
   dialog.id = 'sun-conversation';
+  dialog.hidden = !cfg.inline;
   dialog.className = 'sunConversation' + (cfg.inline ? ' sunConversation--inline' : '');
   dialog.setAttribute('aria-labelledby','sunConversationTitle');
   const brandLogoUrl = new URL('dominique-key-script-transparent.svg', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'dominique-conversation.js', document.baseURI)).href;
   const isSensitivePage = /\/life-changes\/(death|divorce)\//.test(location.pathname);
-  const conversationTitle = cfg.title || (isSensitivePage ? 'Share Your Plans' : (cfg.button || 'Work With Dominique'));
+  const conversationTitle = cfg.title || cfg.button || 'Contact Dominique';
   dialog.innerHTML = `
     <div class="sunConversation__inner">
       <div class="sunConversation__top">
@@ -110,10 +111,16 @@
   const history = [];
   let entryDetails = [];
   let activeCTA = cfg.button;
+  let lastTrigger = null;
   let index = 0;
   function closeConversation(){
     if(cfg.inline){Object.keys(answers).forEach(k=>delete answers[k]);history.splice(0);index=0;render();}
-    else dialog.close();
+    else {
+      if (typeof dialog.close === 'function') dialog.close();
+      else dialog.removeAttribute('open');
+      dialog.hidden = true;
+      if (lastTrigger?.isConnected) lastTrigger.focus({preventScroll:true});
+    }
   }
   function advance(step, value){
     const stepPos=cfg.steps.indexOf(step);
@@ -206,7 +213,7 @@
       <label class="sunConversation__label">What’s your first name?<input class="sunConversation__input" name="firstName" autocomplete="given-name" required></label>
       <label class="sunConversation__label">${cfg.emailLabel || 'What’s the best email for Dominique to reach you?'}<input class="sunConversation__input" name="email" type="email" autocomplete="email" required></label>
       <label class="sunConversation__label">Phone number, if you want Dominique to call or text you.<input class="sunConversation__input" name="phone" type="tel" autocomplete="tel"></label>
-      <button class="sunConversation__submit" type="submit">${cfg.submitText || 'Send This to Dominique'}</button>
+      <button class="sunConversation__submit" type="submit">${cfg.submitText || 'Send Message'}</button>
       <p class="sunConversation__status" role="status" aria-live="polite"></p>`;
     stage.appendChild(form);
     if (history.length) {
@@ -250,19 +257,26 @@
       stage.querySelector('.sunConversation__return').textContent=cfg.inline?'Send Another Message':'Back to the page';
       stage.querySelector('.sunConversation__return').addEventListener('click',closeConversation);
     }catch(e){
-      button.disabled=false; button.textContent=cfg.submitText || 'Send This to Dominique';
+      button.disabled=false; button.textContent=cfg.submitText || 'Send Message';
       status.textContent='That did not go through. Please try again.';
     }
   }
 
   function openConversation(trigger, details = []) {
     entryDetails = details;
+    lastTrigger = trigger;
     activeCTA = trigger?.dataset.sunConversationLabel || normalizedText(trigger) || cfg.button;
     Object.keys(answers).forEach(k=>delete answers[k]); history.splice(0); index=0; render();
     if (cfg.inline) {
       dialog.scrollIntoView({block:'center'});
       dialog.querySelector('.sunConversation__choice,.sunConversation__input')?.focus({preventScroll:true});
-    } else if (typeof dialog.showModal === 'function') dialog.showModal();
+    } else {
+      dialog.hidden = false;
+      if (!dialog.open) {
+        if (typeof dialog.showModal === 'function') dialog.showModal();
+        else dialog.setAttribute('open','');
+      }
+    }
   }
   // Explicit chat triggers take precedence over older contact-form handlers.
   document.addEventListener('click', e => {
@@ -284,6 +298,10 @@
     openConversation(e.submitter || form.querySelector('button[type="submit"],button'), details);
   }, true);
   close.addEventListener('click',closeConversation);
-  if(!cfg.inline) dialog.addEventListener('click',e=>{if(e.target===dialog)closeConversation()});
+  if(!cfg.inline) {
+    dialog.addEventListener('click',e=>{if(e.target===dialog)closeConversation()});
+    dialog.addEventListener('cancel',e=>{e.preventDefault();closeConversation()});
+    dialog.addEventListener('close',()=>{dialog.hidden=true;if(lastTrigger?.isConnected)lastTrigger.focus({preventScroll:true})});
+  }
   if(cfg.inline) render();
 })();
