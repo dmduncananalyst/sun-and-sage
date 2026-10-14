@@ -1,0 +1,107 @@
+DOMMYDOM BLOG UPDATE VERIFICATION
+Review date: October 14, 2026
+Status: Local changes only. No commit, push, or publication performed.
+
+SOURCE
+Used DommyDom-Nine-Articles-Copilot-Source (1).md, the source file present in the project.
+The user requested October 14, 2026 for all three new publication dates, overriding October 13 in the source.
+Imported Markdown retained locally and excluded through .gitignore.
+
+ARTICLE FILES AND DATES
+blog/halloween-san-fernando-valley-2026.html
+  Halloween Activities in and Around the San Fernando Valley
+  Published: 2026-09-24; modified: 2026-10-14
+blog/trick-or-treating-san-fernando-valley-2026.html
+  Trick or Treating in the San Fernando Valley
+  Published: 2026-09-23; modified: 2026-10-14
+blog-thoughtful-home-staging-presentation.html
+  How Thoughtful Staging Helps Your Home Make a Strong First Impression
+  Published: 2026-10-12; modified: 2026-10-14
+blog-how-to-stage-a-living-room.html
+  Living Room Staging That Shows the Space Clearly
+  Published: 2026-10-10; modified: 2026-10-14
+blog-los-angeles-short-term-rental-rules-2026.html
+  Los Angeles Short Term Rental Rules for Valley Homeowners
+  Published: 2026-10-09; modified: 2026-10-14
+blog/is-my-property-a-good-fit-for-airbnb.html
+  Evaluating Your Property’s Fit for Airbnb
+  Published: 2026-10-01; modified: 2026-10-14
+blog-what-its-like-to-live-in-granada-hills.html
+  Living in Granada Hills, Historic Streets and Foothill Life
+  Published: 2026-10-14; modified: 2026-10-14
+blog-lake-balboa-park-japanese-garden-fall-guide.html
+  A Fall Morning at Lake Balboa Park and The Japanese Garden
+  Published: 2026-10-14; modified: 2026-10-14
+blog-porter-ranch-housing-market.html
+  Understanding the Porter Ranch Housing Market
+  Published: 2026-10-14; modified: 2026-10-14
+
+OTHER FILES MODIFIED OR CREATED
+blog.html: Added three October 14 cards at the beginning, replaced six revised excerpts/titles, corrected the three additional excerpts, and updated first-row image preloads.
+sitemap.xml: Added all three new URLs and set all nine article entries and the blog listing to lastmod 2026-10-14.
+.gitignore: Excludes the imported editorial Markdown without deleting the local original.
+BLOG_UPDATE_VERIFICATION_20261014.txt: This report.
+
+NEW PHOTOGRAPH MATCHES
+blog-what-its-like-to-live-in-granada-hills.html -> assets/blog-2026/Old Granada Village Street Clock.png
+blog-lake-balboa-park-japanese-garden-fall-guide.html -> assets/blog-2026/Lake Balboa Park Morning Reflections.png
+blog-porter-ranch-housing-market.html -> assets/blog-2026/The Vineyards at Porter Ranch entrance.png
+The three supplied PNG files were used unchanged. The six existing article photographs remain unchanged.
+
+CHANGES
+All nine supplied article bodies and source lists were installed in full. Two PDF page-boundary paragraph breaks were joined without losing words.
+Updated SEO titles, descriptions, social metadata, article dates, and BlogPosting structured data, a subtype of Article.
+Added Article structured data where missing and corrected the Airbnb structured data and social URL that previously pointed to an unrelated Dodgers article.
+Preserved original canonical URLs, publication dates, photographs, and all markup outside the head and main content on the six revised pages.
+Reused the existing staging article template for all three new root-level article pages.
+No stylesheets, scripts, navigation, unrelated pages, or original image files changed.
+
+CHECKS PASSED
+Compared every word of all nine rendered article bodies against the supplied source, with whitespace normalized.
+Verified no dashes or parentheses in article body prose and no added FAQ sections or editorial notes.
+Verified all original publication dates, all October 14 modification dates, and the new article publication dates against page metadata and cards.
+Parsed all JSON-LD and sitemap XML; verified all nine canonical URLs, article URLs, metadata, and sitemap entries.
+Verified the nine updated cards and three additional corrections each have one photo, one title, one excerpt, and one Read More link.
+Verified all 30 blog card destinations exist. Verified all local article links, stylesheet links, script links, and image references exist.
+Decoded all article photographs with Pillow and verified browser image loading.
+Tested the blog listing and all nine articles in installed Chrome at 1440 x 1000 and 390 x 844.
+Tested mobile menu opening, submenu opening and closing, and Escape dismissal on all ten pages.
+Checked article title/photo/body block separation and horizontal overflow.
+Final browser runs recorded zero script errors, zero HTTP response failures, and cumulative layout shift of 0 on all twenty page/viewport combinations.
+Heading font and size were stable during the sampled animation frames after DOMContentLoaded; no flashing unstyled text was observed.
+Chat remained closed by default on all tested pages.
+Reviewed desktop and mobile screenshots of the listing and three new pages. Photos are fully visible.
+git diff --check passed.
+
+VERIFICATION LIMITS
+Browser coverage is local Chrome desktop and mobile viewports, not physical mobile devices, other browsers, or live hosting.
+An early mobile overflow observation did not recur in comparison with the original listing or in the final complete run.
+External source checks were attempted for all supplied source URLs. Nine official City Planning / Parks URLs returned browser retrieval errors, so their direct availability and full content could not be verified. These source URLs were retained exactly as supplied:
+  Los Angeles home sharing
+  https://planning.lacity.gov/project-review/home-sharing
+  2026 home sharing administrative guidelines
+  https://planning.lacity.gov/odocument/9930e549-5f65-45d8-a0e1-986d7ea7c75a/Home_Sharing_Administrative_Guidelines_2026.pdf
+  Granada Hills Knollwood community background
+  https://planning.lacity.gov/odocument/da92d74a-58e0-4dfb-9757-39d1d4ab9941/Granada_Hills-Knollwood_Community_Plan_.pdf
+  Balboa Highlands
+  https://planning.lacity.gov/preservation-design/overlays/balboa-highlands
+  City park directory
+  https://www2.laparks.org/parks
+  Lake Balboa park information
+  https://recreation.parks.lacity.gov/aquatic/balboa
+  Universally accessible playgrounds
+  https://www.laparks.org/uap
+  Chatsworth and Porter Ranch community plan
+  https://planning.lacity.gov/plans-policies/community-plan-area/chatsworth-porter-ranch
+  Porter Ranch specific plan
+  https://planning.lacity.gov/odocument/db3771cf-d54c-4656-9069-0b18e6df5097/Porter_Ranch_Land_Use_Transportation_Specific_Plan.pdf
+
+The primary-residence and 120-day City home-sharing details were corroborated using the official City Planning FAQ:
+https://planning.lacity.gov/node/134625
+The Valley Charter October 24 event was present in the official school calendar search result; Hotel Transylvania and Hocus Pocus 2026 listings were found on the official ticketing site.
+https://www.valleycharterschool.org/apps/pages/vcescommunityevents
+https://tickets.myvalleypass.com/e/valleyween-hotel-transylvania-2026/tickets
+https://tickets.myvalleypass.com/e/valleyween-cinema-hocus-pocus-2026/tickets
+The Japanese Garden hours page contains both a general Friday-through-Sunday closure statement and a second-Sunday opening notice. The supplied copy directs readers to check their specific date and does not promise universal Sunday access.
+https://thejapanesegarden.com/visit/hours-and-admission/
+Schedules, visitor notices, and regulations should be rechecked if publication is delayed.
