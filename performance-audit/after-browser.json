@@ -1,0 +1,4366 @@
+[
+  {
+    "page": "index.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/index.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 3631.5,
+      "navigationId": 6165,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.8000001907348633,
+      "domainLookupStart": 2334.5999999046326,
+      "domainLookupEnd": 2334.5999999046326,
+      "connectStart": 2334.5999999046326,
+      "secureConnectionStart": 0,
+      "connectEnd": 2334.7000002861023,
+      "requestStart": 2335,
+      "responseStart": 2514.2000002861023,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 2514.2000002861023,
+      "responseEnd": 2521.2000002861023,
+      "transferSize": 364668,
+      "encodedBodySize": 364368,
+      "decodedBodySize": 364368,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 3571.5999999046326,
+      "domContentLoadedEventStart": 3610.5,
+      "domContentLoadedEventEnd": 3623.5999999046326,
+      "domComplete": 3627.7000002861023,
+      "loadEventStart": 3627.9000000953674,
+      "loadEventEnd": 3631.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 277
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/018131b8302f9ef5.css",
+        "bytes": 15168,
+        "duration": 88.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c3e61054b0e606e0.css",
+        "bytes": 30432,
+        "duration": 223.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/511b9378206d2560.css",
+        "bytes": 18754,
+        "duration": 239.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0c0d4c4d8b0816e7.css",
+        "bytes": 23482,
+        "duration": 339.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 223.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/753c4bffb9d7d6d5.css",
+        "bytes": 85577,
+        "duration": 323.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 258.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 218.60000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 219
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 225.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 225
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/713e677ad5e0ae284b8d.css",
+        "bytes": 2895,
+        "duration": 319.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 227.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 226.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/e0fdecb96cd25ae4.css",
+        "bytes": 320220,
+        "duration": 348.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 457.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/e61a4dd688f0cfd7.css",
+        "bytes": 46130,
+        "duration": 302.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 248.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 251.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/42ee99dbc4ce8e1f.css",
+        "bytes": 14004,
+        "duration": 288.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-hero-fit.js",
+        "bytes": 646,
+        "duration": 432.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-refinements.css?v=20261011-mobile-only",
+        "bytes": 7301,
+        "duration": 292.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 432.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c854f60380758f58.css",
+        "bytes": 8212,
+        "duration": 466.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 316.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 322.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/home-introduction.webp",
+        "bytes": 18290,
+        "duration": 420.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/refinement-v24/dominique-cream-suit.png",
+        "bytes": 1057327,
+        "duration": 414.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-buyers-side-approved-v2.webp",
+        "bytes": 124888,
+        "duration": 436.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/remodel-v18/scene-008.webp",
+        "bytes": 299374,
+        "duration": 401.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 423
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 335.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 340.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 345.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 348.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 351.3999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 356.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v83-review-carousel.js",
+        "bytes": 1647,
+        "duration": 423.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 400.3999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 417.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 419.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-playback-v23.js?v=20261014-preview-play",
+        "bytes": 3705,
+        "duration": 440
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-home-video-v36.js?v=36",
+        "bytes": 981,
+        "duration": 433
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 423
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 427.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 405.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 427.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-video-player.js",
+        "bytes": 1640,
+        "duration": 478
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/videos/home-introduction-web.mp4",
+        "bytes": 1014933,
+        "duration": 463.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/suburban-living-room/photo-01.webp",
+        "bytes": 66978,
+        "duration": 323.3999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 85
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss22-home v27-review",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":4816.59375,\"top\":150,\"right\":1440,\"bottom\":4966.59375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "ddn-restored-story-heading",
+        "rect": "{\"x\":240,\"y\":1046,\"width\":960,\"height\":150,\"top\":1046,\"right\":1200,\"bottom\":1196,\"left\":240}",
+        "font": "40px / 50px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":170,\"y\":2724.625,\"width\":356,\"height\":200.25,\"top\":2724.625,\"right\":526,\"bottom\":2924.875,\"left\":170}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":542,\"y\":2724.625,\"width\":356,\"height\":200.25,\"top\":2724.625,\"right\":898,\"bottom\":2924.875,\"left\":542}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":914,\"y\":2724.625,\"width\":356,\"height\":200.25,\"top\":2724.625,\"right\":1270,\"bottom\":2924.875,\"left\":914}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "",
+        "rect": "{\"x\":100,\"y\":4085.09375,\"width\":1240,\"height\":78,\"top\":4085.09375,\"right\":1340,\"bottom\":4163.09375,\"left\":100}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":340,\"y\":4600.59375,\"width\":760,\"height\":67,\"top\":4600.59375,\"right\":1100,\"bottom\":4667.59375,\"left\":340}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":4966.59375,\"width\":1440,\"height\":758.5,\"top\":4966.59375,\"right\":1440,\"bottom\":5725.09375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "first-time-your-offer.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/first-time-your-offer.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 375.90000009536743,
+      "navigationId": 4030,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.6000003814697266,
+      "domainLookupStart": 0.6000003814697266,
+      "domainLookupEnd": 0.6000003814697266,
+      "connectStart": 0.6000003814697266,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.6000003814697266,
+      "requestStart": 4.700000286102295,
+      "responseStart": 6.300000190734863,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.300000190734863,
+      "responseEnd": 7.800000190734863,
+      "transferSize": 53099,
+      "encodedBodySize": 52799,
+      "decodedBodySize": 52799,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 362.80000019073486,
+      "domContentLoadedEventStart": 371.6000003814697,
+      "domContentLoadedEventEnd": 374.1000003814697,
+      "domComplete": 374.40000009536743,
+      "loadEventStart": 374.40000009536743,
+      "loadEventEnd": 375.90000009536743,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 43.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/1da5f3f214370f63.css",
+        "bytes": 257449,
+        "duration": 50.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/b849357c3420d79b.css",
+        "bytes": 103670,
+        "duration": 52.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/fd85f4743a26156a.css",
+        "bytes": 114223,
+        "duration": 57.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 52.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 55.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 55.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/68d051449b7a27bc.css",
+        "bytes": 7579,
+        "duration": 61.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce6bd11ccfedc609.css",
+        "bytes": 8408,
+        "duration": 66.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 60.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 79.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 80.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 75.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4c7f895d29d4513e.css",
+        "bytes": 42315,
+        "duration": 81.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/75e3427875dcf211.css",
+        "bytes": 40649,
+        "duration": 79.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/first-buyer-offer-home.jpg",
+        "bytes": 1854391,
+        "duration": 287.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css",
+        "bytes": 3959,
+        "duration": 81.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 214.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/source-reference-links.css",
+        "bytes": 1121,
+        "duration": 82.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 100.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 103.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 124
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 124.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 125.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 159
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 160.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 180.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 182.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 183.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 214.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 223.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 227.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 248.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 212
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 248.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 242
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 5.5
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":2406.15625,\"top\":150,\"right\":1440,\"bottom\":2556.15625,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":44.921875,\"top\":190,\"right\":1170,\"bottom\":234.921875,\"left\":270}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":44.921875,\"top\":190,\"right\":1170,\"bottom\":234.921875,\"left\":270}",
+        "font": "37.44px / 44.928px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":340,\"y\":266.921875,\"width\":760,\"height\":506.65625,\"top\":266.921875,\"right\":1100,\"bottom\":773.578125,\"left\":340}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":2556.15625,\"width\":1440,\"height\":758.5,\"top\":2556.15625,\"right\":1440,\"bottom\":3314.65625,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "blog.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/blog.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 1561.5,
+      "navigationId": 1492,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999046325684,
+      "domainLookupStart": 0.5999999046325684,
+      "domainLookupEnd": 0.5999999046325684,
+      "connectStart": 0.5999999046325684,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999046325684,
+      "requestStart": 13.099999904632568,
+      "responseStart": 580.6999998092651,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 580.6999998092651,
+      "responseEnd": 581.4000000953674,
+      "transferSize": 79406,
+      "encodedBodySize": 79106,
+      "decodedBodySize": 79106,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 1169.1999998092651,
+      "domContentLoadedEventStart": 1235.9000000953674,
+      "domContentLoadedEventEnd": 1237,
+      "domComplete": 1555.6999998092651,
+      "loadEventStart": 1555.6999998092651,
+      "loadEventEnd": 1561.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 45.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4f2b6be86d5f92f5e3b7.css",
+        "bytes": 231749,
+        "duration": 52.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1dae5407a321a81293e5.css",
+        "bytes": 4972,
+        "duration": 50.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/b6f81c77a557d0661ac4.css",
+        "bytes": 10357,
+        "duration": 50.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6a30c7fdafa3477d2a39.css",
+        "bytes": 5903,
+        "duration": 67.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/646f6185f23410e09a00.css",
+        "bytes": 4673,
+        "duration": 67.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a539f9c040f510f5f778.css",
+        "bytes": 2684,
+        "duration": 65.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a3038779550ca4cc6d41.css",
+        "bytes": 2586,
+        "duration": 66.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/17c2652b1738d4e809c5.css",
+        "bytes": 4806,
+        "duration": 66.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/09b68a3a9ae86a379272.css",
+        "bytes": 8985,
+        "duration": 67
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/8322f87f0dfb27906326.css",
+        "bytes": 12218,
+        "duration": 74.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3237f02aae226f8fb35b.css",
+        "bytes": 11003,
+        "duration": 98
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6cb7d0dce7db3f7186c1.css",
+        "bytes": 7356,
+        "duration": 102
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/48e7b347b01eb5e71298.css",
+        "bytes": 11508,
+        "duration": 101.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a8798c13299b5401ed8f.css",
+        "bytes": 6970,
+        "duration": 86
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/45152c4a4f639de27f36.css",
+        "bytes": 8032,
+        "duration": 98
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e0fb60776480dda146ed.css",
+        "bytes": 5000,
+        "duration": 97.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/088d9ad82b23206abed7.css",
+        "bytes": 2272,
+        "duration": 105.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/578c47d62143c7db4221.css",
+        "bytes": 2362,
+        "duration": 118.10000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ad5fdc97d68b5a5e9040.css",
+        "bytes": 2212,
+        "duration": 119.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ecb8c9e06babecabda95.css",
+        "bytes": 1637,
+        "duration": 120.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/379a0f1e559ad1c76b6d.css",
+        "bytes": 3228,
+        "duration": 129.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 130.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/88fae9c03e2ee218.css",
+        "bytes": 81526,
+        "duration": 135.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/863ecaed15b52216de7e.css",
+        "bytes": 6319,
+        "duration": 145.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 149
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 149.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 153.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 154
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/382daeec118ae882337d.css",
+        "bytes": 1642,
+        "duration": 161.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 168.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 178.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f68007d25032b49c45c2.css",
+        "bytes": 1678,
+        "duration": 179.60000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3d5e33d35fffd07c589c.css",
+        "bytes": 3441,
+        "duration": 186.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 186.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/290b8bca5baaf4203847.css",
+        "bytes": 2349,
+        "duration": 195
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 198.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 206.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 206.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 208.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/62aaf734166ae034.css",
+        "bytes": 36919,
+        "duration": 207.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/9195f1c44dd009211848.css",
+        "bytes": 1789,
+        "duration": 209.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 209.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/77b1f83ebd3e33b3eb48.css",
+        "bytes": 3729,
+        "duration": 227.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/163f755cc194d510.css",
+        "bytes": 8584,
+        "duration": 229
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce554ea76b6ff872.css",
+        "bytes": 10191,
+        "duration": 232
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 232
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/f558c3663e98d039.css",
+        "bytes": 19416,
+        "duration": 232.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/Old%20Granada%20Village%20Street%20Clock.performance.webp",
+        "bytes": 2011044,
+        "duration": 245.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/Lake%20Balboa%20Park%20Morning%20Reflections.performance.webp",
+        "bytes": 2131726,
+        "duration": 522.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/The%20Vineyards%20at%20Porter%20Ranch%20entrance.performance.webp",
+        "bytes": 2315476,
+        "duration": 516
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 424.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/633f35dd9ce5c45d.css",
+        "bytes": 5564,
+        "duration": 230.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 276.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 279.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 428.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 277.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 430.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 437.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 462.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 463.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 284
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 463.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 454.1000003814697
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-northridge-market.webp",
+        "bytes": 2459902,
+        "duration": 435.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-proposition19-guide.webp",
+        "bytes": 1494716,
+        "duration": 351.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-staging-presentation.webp",
+        "bytes": 1977398,
+        "duration": 174.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-dia-de-los-muertos.webp",
+        "bytes": 2017994,
+        "duration": 268.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-chatsworth-living.webp",
+        "bytes": 2132034,
+        "duration": 369.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-farmers-markets.webp",
+        "bytes": 2216064,
+        "duration": 273.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 80
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "loanHubPage ss24-financing-questions v27-review blog-mobile-summaries",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":7372.984375,\"top\":150,\"right\":1440,\"bottom\":7522.984375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":268,\"y\":188,\"width\":904,\"height\":56.0625,\"top\":188,\"right\":1172,\"bottom\":244.0625,\"left\":268}",
+        "font": "47.52px / 56.0736px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":7522.984375,\"width\":1440,\"height\":758.5,\"top\":7522.984375,\"right\":1440,\"bottom\":8281.484375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "blog-california-proposition-19-homeowners.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/blog-california-proposition-19-homeowners.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 409.09999990463257,
+      "navigationId": 1061,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999046325684,
+      "domainLookupStart": 0.5999999046325684,
+      "domainLookupEnd": 0.5999999046325684,
+      "connectStart": 0.5999999046325684,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999046325684,
+      "requestStart": 14.800000190734863,
+      "responseStart": 15.900000095367432,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 15.900000095367432,
+      "responseEnd": 16.5,
+      "transferSize": 17746,
+      "encodedBodySize": 17446,
+      "decodedBodySize": 17446,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 41.200000286102295,
+      "domContentLoadedEventStart": 400.2000002861023,
+      "domContentLoadedEventEnd": 400.40000009536743,
+      "domComplete": 409,
+      "loadEventStart": 409,
+      "loadEventEnd": 409.09999990463257,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:62340/assets/editorial.css",
+        "bytes": 39607,
+        "duration": 47.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/5f796bdd905a9ec4.css",
+        "bytes": 394133,
+        "duration": 52.299999713897705
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c59788856fa26df7.css",
+        "bytes": 42146,
+        "duration": 56
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635.css",
+        "bytes": 6874,
+        "duration": 61.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635-FINAL.css",
+        "bytes": 6321,
+        "duration": 62.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/440e6371c5ef3443.css",
+        "bytes": 59328,
+        "duration": 63.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-brand-20261010.css",
+        "bytes": 2368,
+        "duration": 68.10000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/f558c3663e98d039.css",
+        "bytes": 19416,
+        "duration": 71.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-proposition19-guide.webp",
+        "bytes": 1494716,
+        "duration": 78.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 189
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/603ef63354762e32.css",
+        "bytes": 7438,
+        "duration": 179.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 184.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 186.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 190.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/editorial.js",
+        "bytes": 2668,
+        "duration": 199.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 218.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 217.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 218.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 208.19999980926514
+      },
+      {
+        "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap",
+        "bytes": 0,
+        "duration": 114.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 21.199999809265137
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article oct12-blog-article",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":2915.78125,\"top\":150,\"right\":1440,\"bottom\":3065.78125,\"left\":0}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":124.234375,\"top\":190,\"right\":1170,\"bottom\":314.234375,\"left\":270}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":89.84375,\"top\":190,\"right\":1170,\"bottom\":279.84375,\"left\":270}",
+        "font": "37.44px / 44.928px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":340,\"y\":346.234375,\"width\":760,\"height\":506.65625,\"top\":346.234375,\"right\":1100,\"bottom\":852.890625,\"left\":340}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "footer",
+        "rect": "{\"x\":0,\"y\":3065.78125,\"width\":1440,\"height\":376.375,\"top\":3065.78125,\"right\":1440,\"bottom\":3442.15625,\"left\":0}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "portfolio.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/portfolio.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 591.6999998092651,
+      "navigationId": 8306,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999046325684,
+      "domainLookupStart": 0.5999999046325684,
+      "domainLookupEnd": 0.5999999046325684,
+      "connectStart": 0.5999999046325684,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999046325684,
+      "requestStart": 6.599999904632568,
+      "responseStart": 7.899999618530273,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7.899999618530273,
+      "responseEnd": 9.099999904632568,
+      "transferSize": 47912,
+      "encodedBodySize": 47612,
+      "decodedBodySize": 47612,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 371.7999997138977,
+      "domContentLoadedEventStart": 399,
+      "domContentLoadedEventEnd": 400.19999980926514,
+      "domComplete": 590.8999996185303,
+      "loadEventStart": 591,
+      "loadEventEnd": 591.6999998092651,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 17.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/1da5f3f214370f63.css",
+        "bytes": 257449,
+        "duration": 38.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/9ec00505b3d65ec3.css",
+        "bytes": 89592,
+        "duration": 57.799999713897705
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7d1893c76ce53543.css",
+        "bytes": 119407,
+        "duration": 44.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 41.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 41.200000286102295
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 41
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/68d051449b7a27bc.css",
+        "bytes": 7579,
+        "duration": 43.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce6bd11ccfedc609.css",
+        "bytes": 8408,
+        "duration": 51.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 51.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 50.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 54.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 56.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4c7f895d29d4513e.css",
+        "bytes": 42315,
+        "duration": 63
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 63.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4cdb0b4628c63780.css",
+        "bytes": 24515,
+        "duration": 91
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 106
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css?v=20261011-videoplayer",
+        "bytes": 3959,
+        "duration": 67.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 78.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 76.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/sun-lit-bungalow.jpg",
+        "bytes": 68300,
+        "duration": 109
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/sun-lit-modern.jpg",
+        "bytes": 154727,
+        "duration": 121.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/the-red-door.jpg",
+        "bytes": 120879,
+        "duration": 100.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 106.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 88.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 90.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 94.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 94.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 94.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 99.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 102.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 110.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 111.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 115.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 117.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 101.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 118.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-video-player.js",
+        "bytes": 1640,
+        "duration": 121.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 114.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-reference/2ee42c_0cea1ff1dc4944a68432d9e6fc02d12f~mv2.jpg",
+        "bytes": 4286863,
+        "duration": 241.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-restored/sunlit-room3-036.webp",
+        "bytes": 159712,
+        "duration": 107.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/projects/hosea/photo-48.jpg",
+        "bytes": 575917,
+        "duration": 97.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/a-record-retreat/photo-02.webp",
+        "bytes": 98746,
+        "duration": 135.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/a-luxurious-touch/photo-01.webp",
+        "bytes": 50278,
+        "duration": 188.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-restored/sunlit-room2-020.webp",
+        "bytes": 164138,
+        "duration": 141.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/suburban-living-room/photo-01.webp",
+        "bytes": 66978,
+        "duration": 123.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/guest-bedroom/photo-01.webp",
+        "bytes": 34686,
+        "duration": 163
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 17.40000009536743
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "quietLuxury qDesign portfolioPageV46 v27-review",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":3372.25,\"top\":150,\"right\":1440,\"bottom\":3522.25,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss24-page-title v27-title-block",
+        "rect": "{\"x\":100,\"y\":150,\"width\":1240,\"height\":142.0625,\"top\":150,\"right\":1340,\"bottom\":292.0625,\"left\":100}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":220,\"y\":188,\"width\":1000,\"height\":56.0625,\"top\":188,\"right\":1220,\"bottom\":244.0625,\"left\":220}",
+        "font": "47.52px / 56.0736px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":170,\"y\":292.0625,\"width\":356,\"height\":200.25,\"top\":292.0625,\"right\":526,\"bottom\":492.3125,\"left\":170}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":542,\"y\":292.0625,\"width\":356,\"height\":200.25,\"top\":292.0625,\"right\":898,\"bottom\":492.3125,\"left\":542}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":914,\"y\":292.0625,\"width\":356,\"height\":200.25,\"top\":292.0625,\"right\":1270,\"bottom\":492.3125,\"left\":914}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":3522.25,\"width\":1440,\"height\":758.5,\"top\":3522.25,\"right\":1440,\"bottom\":4280.75,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "life-changes/retirement/should-i-downsize-when-i-retire.html",
+    "width": 1440,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/life-changes/retirement/should-i-downsize-when-i-retire.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 687.9000000953674,
+      "navigationId": 4804,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999046325684,
+      "domainLookupStart": 0.5999999046325684,
+      "domainLookupEnd": 0.5999999046325684,
+      "connectStart": 0.5999999046325684,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999046325684,
+      "requestStart": 13.300000190734863,
+      "responseStart": 18,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 18,
+      "responseEnd": 19.09999990463257,
+      "transferSize": 51022,
+      "encodedBodySize": 50722,
+      "decodedBodySize": 50722,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 672.8000001907349,
+      "domContentLoadedEventStart": 685.2000002861023,
+      "domContentLoadedEventEnd": 686,
+      "domComplete": 686.7000002861023,
+      "loadEventStart": 686.7000002861023,
+      "loadEventEnd": 687.9000000953674,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 34.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/question-seo-aeo-v1.js",
+        "bytes": 1393,
+        "duration": 50.200000286102295
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4f2b6be86d5f92f5e3b7.css",
+        "bytes": 231749,
+        "duration": 47.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1dae5407a321a81293e5.css",
+        "bytes": 4972,
+        "duration": 46.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/b6f81c77a557d0661ac4.css",
+        "bytes": 10357,
+        "duration": 49.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/646f6185f23410e09a00.css",
+        "bytes": 4673,
+        "duration": 48.200000286102295
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6a30c7fdafa3477d2a39.css",
+        "bytes": 5903,
+        "duration": 48
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a539f9c040f510f5f778.css",
+        "bytes": 2684,
+        "duration": 74.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a3038779550ca4cc6d41.css",
+        "bytes": 2586,
+        "duration": 74.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/17c2652b1738d4e809c5.css",
+        "bytes": 4806,
+        "duration": 73.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/09b68a3a9ae86a379272.css",
+        "bytes": 8985,
+        "duration": 121.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/8322f87f0dfb27906326.css",
+        "bytes": 12218,
+        "duration": 121.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3237f02aae226f8fb35b.css",
+        "bytes": 11003,
+        "duration": 121.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6cb7d0dce7db3f7186c1.css",
+        "bytes": 7356,
+        "duration": 121.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/48e7b347b01eb5e71298.css",
+        "bytes": 11508,
+        "duration": 132.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a8798c13299b5401ed8f.css",
+        "bytes": 6970,
+        "duration": 130.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/45152c4a4f639de27f36.css",
+        "bytes": 8032,
+        "duration": 171
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e0fb60776480dda146ed.css",
+        "bytes": 5000,
+        "duration": 169
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/088d9ad82b23206abed7.css",
+        "bytes": 2272,
+        "duration": 167.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/578c47d62143c7db4221.css",
+        "bytes": 2362,
+        "duration": 158
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ecb8c9e06babecabda95.css",
+        "bytes": 1637,
+        "duration": 154.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ad5fdc97d68b5a5e9040.css",
+        "bytes": 2212,
+        "duration": 156.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/379a0f1e559ad1c76b6d.css",
+        "bytes": 3228,
+        "duration": 186.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 190.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/88fae9c03e2ee218.css",
+        "bytes": 81526,
+        "duration": 198.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/863ecaed15b52216de7e.css",
+        "bytes": 6319,
+        "duration": 204.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 212
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 217.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 217.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 222.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/382daeec118ae882337d.css",
+        "bytes": 1642,
+        "duration": 231.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 234.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 237.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f68007d25032b49c45c2.css",
+        "bytes": 1678,
+        "duration": 248.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3d5e33d35fffd07c589c.css",
+        "bytes": 3441,
+        "duration": 249.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 254.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/290b8bca5baaf4203847.css",
+        "bytes": 2349,
+        "duration": 261.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 264.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1aa3587e003e48fec7a.css",
+        "bytes": 4263,
+        "duration": 265.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/832f0354e1dfecb1b907.css",
+        "bytes": 3225,
+        "duration": 268.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/79eabe0a9323f9e18229.css",
+        "bytes": 3326,
+        "duration": 268.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/af0d1f3adacdb7fc70ed.css",
+        "bytes": 3613,
+        "duration": 269.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 269.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 271.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 274.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c59788856fa26df7.css",
+        "bytes": 42146,
+        "duration": 277.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/9195f1c44dd009211848.css",
+        "bytes": 1789,
+        "duration": 278.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 280.1000003814697
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635-FINAL.css",
+        "bytes": 6321,
+        "duration": 280.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635.css",
+        "bytes": 6874,
+        "duration": 283.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-final-enforced.css",
+        "bytes": 14299,
+        "duration": 282
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/732429faf6da2b446786.css",
+        "bytes": 3624,
+        "duration": 285.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1586a7810d2bded7ba40.css",
+        "bytes": 2641,
+        "duration": 284.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/dc4299cf5a3ad837cfe9.css",
+        "bytes": 2585,
+        "duration": 288.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/163f755cc194d510.css",
+        "bytes": 8584,
+        "duration": 287.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/77b1f83ebd3e33b3eb48.css",
+        "bytes": 3729,
+        "duration": 325.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a362b6833a3dff6e31b7.css",
+        "bytes": 3538,
+        "duration": 325.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce554ea76b6ff872.css",
+        "bytes": 10191,
+        "duration": 330.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/883c85bc305e8d33fae6.css",
+        "bytes": 3794,
+        "duration": 311.1000003814697
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7b59885d74b0bd506ab7.css",
+        "bytes": 1972,
+        "duration": 342.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/75e3427875dcf211.css",
+        "bytes": 40649,
+        "duration": 329.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/article-batch-01/retirement-07.webp",
+        "bytes": 111874,
+        "duration": 352.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 402
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css",
+        "bytes": 3959,
+        "duration": 344.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/source-reference-links.css",
+        "bytes": 1121,
+        "duration": 347.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 387.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 393
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 395.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 396.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 424.6000003814697
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 425.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 427.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 428.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 399.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 429.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 416.1000003814697
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 16
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":1440,\"height\":150,\"top\":0,\"right\":1440,\"bottom\":150,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article",
+        "rect": "{\"x\":0,\"y\":150,\"width\":1440,\"height\":2649.90625,\"top\":150,\"right\":1440,\"bottom\":2799.90625,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":44.921875,\"top\":190,\"right\":1170,\"bottom\":234.921875,\"left\":270}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":270,\"y\":190,\"width\":900,\"height\":44.921875,\"top\":190,\"right\":1170,\"bottom\":234.921875,\"left\":270}",
+        "font": "37.44px / 44.928px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":340,\"y\":266.921875,\"width\":760,\"height\":506.65625,\"top\":266.921875,\"right\":1100,\"bottom\":773.578125,\"left\":340}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":2799.90625,\"width\":1440,\"height\":761.9375,\"top\":2799.90625,\"right\":1440,\"bottom\":3561.84375,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "navigation": "offer to blog",
+    "width": 1440,
+    "milliseconds": 811.9999999180436
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/index.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 869.4000000953674,
+      "navigationId": 9979,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 1.4000000953674316,
+      "domainLookupStart": 1.4000000953674316,
+      "domainLookupEnd": 1.4000000953674316,
+      "connectStart": 1.4000000953674316,
+      "secureConnectionStart": 0,
+      "connectEnd": 1.4000000953674316,
+      "requestStart": 7.799999713897705,
+      "responseStart": 8.799999713897705,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 8.799999713897705,
+      "responseEnd": 43.09999990463257,
+      "transferSize": 364668,
+      "encodedBodySize": 364368,
+      "decodedBodySize": 364368,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 828.5999999046326,
+      "domContentLoadedEventStart": 857.0999999046326,
+      "domContentLoadedEventEnd": 862.5,
+      "domComplete": 867.5999999046326,
+      "loadEventStart": 867.6999998092651,
+      "loadEventEnd": 869.4000000953674,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 67.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/018131b8302f9ef5.css",
+        "bytes": 15168,
+        "duration": 72.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c3e61054b0e606e0.css",
+        "bytes": 30432,
+        "duration": 228.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/511b9378206d2560.css",
+        "bytes": 18754,
+        "duration": 83.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0c0d4c4d8b0816e7.css",
+        "bytes": 23482,
+        "duration": 103
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 362.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/753c4bffb9d7d6d5.css",
+        "bytes": 85577,
+        "duration": 383
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 396.8999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 101.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 415.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 102.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 102.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/713e677ad5e0ae284b8d.css",
+        "bytes": 2895,
+        "duration": 103.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 104.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 108.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/e0fdecb96cd25ae4.css",
+        "bytes": 320220,
+        "duration": 110.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 112.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/e61a4dd688f0cfd7.css",
+        "bytes": 46130,
+        "duration": 111.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 117.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 119.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/42ee99dbc4ce8e1f.css",
+        "bytes": 14004,
+        "duration": 122.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-hero-fit.js",
+        "bytes": 646,
+        "duration": 152.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-refinements.css?v=20261011-mobile-only",
+        "bytes": 7301,
+        "duration": 144.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c854f60380758f58.css",
+        "bytes": 8212,
+        "duration": 149.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 155
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 157.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 171.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/home-introduction.webp",
+        "bytes": 18290,
+        "duration": 194.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/refinement-v24/dominique-cream-suit.png",
+        "bytes": 1057327,
+        "duration": 179.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-buyers-side-approved-v2.webp",
+        "bytes": 124888,
+        "duration": 185
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/remodel-v18/scene-008.webp",
+        "bytes": 299374,
+        "duration": 187.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 225
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 190.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 199.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 245.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 201.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 204
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 206.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v83-review-carousel.js",
+        "bytes": 1647,
+        "duration": 209.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 213
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 221.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 223.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/home-playback-v23.js?v=20261014-preview-play",
+        "bytes": 3705,
+        "duration": 225.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-home-video-v36.js?v=36",
+        "bytes": 981,
+        "duration": 228.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 235.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 238.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 212.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 243.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-video-player.js",
+        "bytes": 1640,
+        "duration": 257.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/videos/home-introduction-mobile.mp4",
+        "bytes": 344449,
+        "duration": 276.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 29.100000381469727
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss22-home v27-review",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":6388.40625,\"top\":170,\"right\":390,\"bottom\":6558.40625,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "ddn-restored-story-heading",
+        "rect": "{\"x\":22,\"y\":874,\"width\":346,\"height\":130,\"top\":874,\"right\":368,\"bottom\":1004,\"left\":22}",
+        "font": "26px / 32.5px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":38,\"y\":3945.46875,\"width\":99.328125,\"height\":55.859375,\"top\":3945.46875,\"right\":137.328125,\"bottom\":4001.328125,\"left\":38}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":145.328125,\"y\":3945.46875,\"width\":99.328125,\"height\":55.859375,\"top\":3945.46875,\"right\":244.65625,\"bottom\":4001.328125,\"left\":145.328125}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":252.65625,\"y\":3945.46875,\"width\":99.34375,\"height\":55.875,\"top\":3945.46875,\"right\":352,\"bottom\":4001.34375,\"left\":252.65625}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "",
+        "rect": "{\"x\":15.59375,\"y\":5668.65625,\"width\":358.8125,\"height\":48.5,\"top\":5668.65625,\"right\":374.40625,\"bottom\":5717.15625,\"left\":15.59375}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":45.59375,\"y\":6259.40625,\"width\":298.8125,\"height\":32,\"top\":6259.40625,\"right\":344.40625,\"bottom\":6291.40625,\"left\":45.59375}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "",
+        "rect": "{\"x\":0,\"y\":0,\"width\":0,\"height\":0,\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":6558.40625,\"width\":390,\"height\":1380.453125,\"top\":6558.40625,\"right\":390,\"bottom\":7938.859375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "first-time-your-offer.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/first-time-your-offer.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 434,
+      "navigationId": 1402,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 25.5,
+      "responseStart": 27.600000381469727,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 27.600000381469727,
+      "responseEnd": 28.200000286102295,
+      "transferSize": 53099,
+      "encodedBodySize": 52799,
+      "decodedBodySize": 52799,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 419.80000019073486,
+      "domContentLoadedEventStart": 431,
+      "domContentLoadedEventEnd": 432.6000003814697,
+      "domComplete": 432.80000019073486,
+      "loadEventStart": 432.80000019073486,
+      "loadEventEnd": 434,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 50.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/1da5f3f214370f63.css",
+        "bytes": 257449,
+        "duration": 49
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/b849357c3420d79b.css",
+        "bytes": 103670,
+        "duration": 59.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/fd85f4743a26156a.css",
+        "bytes": 114223,
+        "duration": 59.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 62.299999713897705
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 62.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 71.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/68d051449b7a27bc.css",
+        "bytes": 7579,
+        "duration": 67.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce6bd11ccfedc609.css",
+        "bytes": 8408,
+        "duration": 67.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 82.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 69.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 78.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 96.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 87.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4c7f895d29d4513e.css",
+        "bytes": 42315,
+        "duration": 85.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/75e3427875dcf211.css",
+        "bytes": 40649,
+        "duration": 98.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/first-buyer-offer-home.jpg",
+        "bytes": 1854391,
+        "duration": 112.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 194.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css",
+        "bytes": 3959,
+        "duration": 99.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/source-reference-links.css",
+        "bytes": 1121,
+        "duration": 100.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 126.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 163
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 163.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 165
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 165.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 170
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 182.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 185.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 189.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 191.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 210.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 211.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 212.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 190.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 213.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 214.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 8.099999904632568
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":3082.4375,\"top\":170,\"right\":390,\"bottom\":3252.4375,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":67.1875,\"top\":198,\"right\":368,\"bottom\":265.1875,\"left\":22}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":67.1875,\"top\":198,\"right\":368,\"bottom\":265.1875,\"left\":22}",
+        "font": "28px / 33.6px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":22,\"y\":289.1875,\"width\":346,\"height\":230.65625,\"top\":289.1875,\"right\":368,\"bottom\":519.84375,\"left\":22}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":3252.4375,\"width\":390,\"height\":1380.453125,\"top\":3252.4375,\"right\":390,\"bottom\":4632.890625,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "blog.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/blog.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 640.0999999046326,
+      "navigationId": 6434,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 51.59999990463257,
+      "responseStart": 55.40000009536743,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 55.40000009536743,
+      "responseEnd": 57.69999980926514,
+      "transferSize": 79406,
+      "encodedBodySize": 79106,
+      "decodedBodySize": 79106,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 595.9000000953674,
+      "domContentLoadedEventStart": 632.1999998092651,
+      "domContentLoadedEventEnd": 633,
+      "domComplete": 633.4000000953674,
+      "loadEventStart": 633.4000000953674,
+      "loadEventEnd": 640.0999999046326,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 77.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4f2b6be86d5f92f5e3b7.css",
+        "bytes": 231749,
+        "duration": 109.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1dae5407a321a81293e5.css",
+        "bytes": 4972,
+        "duration": 120.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/b6f81c77a557d0661ac4.css",
+        "bytes": 10357,
+        "duration": 124.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/646f6185f23410e09a00.css",
+        "bytes": 4673,
+        "duration": 125.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6a30c7fdafa3477d2a39.css",
+        "bytes": 5903,
+        "duration": 126.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a539f9c040f510f5f778.css",
+        "bytes": 2684,
+        "duration": 127.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a3038779550ca4cc6d41.css",
+        "bytes": 2586,
+        "duration": 128.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/17c2652b1738d4e809c5.css",
+        "bytes": 4806,
+        "duration": 132.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/09b68a3a9ae86a379272.css",
+        "bytes": 8985,
+        "duration": 136.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/8322f87f0dfb27906326.css",
+        "bytes": 12218,
+        "duration": 137.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3237f02aae226f8fb35b.css",
+        "bytes": 11003,
+        "duration": 141.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6cb7d0dce7db3f7186c1.css",
+        "bytes": 7356,
+        "duration": 142.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/48e7b347b01eb5e71298.css",
+        "bytes": 11508,
+        "duration": 143.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a8798c13299b5401ed8f.css",
+        "bytes": 6970,
+        "duration": 145.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/45152c4a4f639de27f36.css",
+        "bytes": 8032,
+        "duration": 150.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e0fb60776480dda146ed.css",
+        "bytes": 5000,
+        "duration": 152.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/088d9ad82b23206abed7.css",
+        "bytes": 2272,
+        "duration": 154.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/578c47d62143c7db4221.css",
+        "bytes": 2362,
+        "duration": 156.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ad5fdc97d68b5a5e9040.css",
+        "bytes": 2212,
+        "duration": 158
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ecb8c9e06babecabda95.css",
+        "bytes": 1637,
+        "duration": 159.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/379a0f1e559ad1c76b6d.css",
+        "bytes": 3228,
+        "duration": 168.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 170.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/88fae9c03e2ee218.css",
+        "bytes": 81526,
+        "duration": 173.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/863ecaed15b52216de7e.css",
+        "bytes": 6319,
+        "duration": 175
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 176.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 177.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 178.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 179.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/382daeec118ae882337d.css",
+        "bytes": 1642,
+        "duration": 181.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 185
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 184
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f68007d25032b49c45c2.css",
+        "bytes": 1678,
+        "duration": 187.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3d5e33d35fffd07c589c.css",
+        "bytes": 3441,
+        "duration": 192.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 189.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/290b8bca5baaf4203847.css",
+        "bytes": 2349,
+        "duration": 188.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 195.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 190
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 200.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 206
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 207.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/62aaf734166ae034.css",
+        "bytes": 36919,
+        "duration": 216.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/9195f1c44dd009211848.css",
+        "bytes": 1789,
+        "duration": 204.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 214.89999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/77b1f83ebd3e33b3eb48.css",
+        "bytes": 3729,
+        "duration": 219
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/163f755cc194d510.css",
+        "bytes": 8584,
+        "duration": 221.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce554ea76b6ff872.css",
+        "bytes": 10191,
+        "duration": 221.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 221.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/f558c3663e98d039.css",
+        "bytes": 19416,
+        "duration": 232
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/Old%20Granada%20Village%20Street%20Clock.performance.webp",
+        "bytes": 2011044,
+        "duration": 248.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/Lake%20Balboa%20Park%20Morning%20Reflections.performance.webp",
+        "bytes": 2131726,
+        "duration": 296.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-2026/The%20Vineyards%20at%20Porter%20Ranch%20entrance.performance.webp",
+        "bytes": 2315476,
+        "duration": 306.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 290.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/633f35dd9ce5c45d.css",
+        "bytes": 5564,
+        "duration": 232.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 276.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 283.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 300.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 284
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 299.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 298.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 298.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 284.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 310.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 310.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 7.099999904632568
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "loanHubPage ss24-financing-questions v27-review blog-mobile-summaries",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":22391.0625,\"top\":170,\"right\":390,\"bottom\":22561.0625,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":22,\"y\":208,\"width\":346,\"height\":36,\"top\":208,\"right\":368,\"bottom\":244,\"left\":22}",
+        "font": "30px / 36px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":22561.0625,\"width\":390,\"height\":1380.453125,\"top\":22561.0625,\"right\":390,\"bottom\":23941.515625,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "blog-california-proposition-19-homeowners.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/blog-california-proposition-19-homeowners.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 423.2999997138977,
+      "navigationId": 7881,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999046325684,
+      "domainLookupStart": 0.5999999046325684,
+      "domainLookupEnd": 0.5999999046325684,
+      "connectStart": 0.5999999046325684,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999046325684,
+      "requestStart": 8.5,
+      "responseStart": 9.5,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 9.5,
+      "responseEnd": 12.299999713897705,
+      "transferSize": 17746,
+      "encodedBodySize": 17446,
+      "decodedBodySize": 17446,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 38.5,
+      "domContentLoadedEventStart": 415.3999996185303,
+      "domContentLoadedEventEnd": 415.69999980926514,
+      "domComplete": 423.19999980926514,
+      "loadEventStart": 423.19999980926514,
+      "loadEventEnd": 423.2999997138977,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:62340/assets/editorial.css",
+        "bytes": 39607,
+        "duration": 45
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/5f796bdd905a9ec4.css",
+        "bytes": 394133,
+        "duration": 116.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 114.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c59788856fa26df7.css",
+        "bytes": 42146,
+        "duration": 130
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635.css",
+        "bytes": 6874,
+        "duration": 113.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635-FINAL.css",
+        "bytes": 6321,
+        "duration": 104.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/440e6371c5ef3443.css",
+        "bytes": 59328,
+        "duration": 128.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-brand-20261010.css",
+        "bytes": 2368,
+        "duration": 131.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/f558c3663e98d039.css",
+        "bytes": 19416,
+        "duration": 134.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/blog-oct12-proposition19-guide.webp",
+        "bytes": 1494716,
+        "duration": 150.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/603ef63354762e32.css",
+        "bytes": 7438,
+        "duration": 143.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 178.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 174.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 175.60000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/editorial.js",
+        "bytes": 2668,
+        "duration": 178.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 179.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 180
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 191
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 190.69999980926514
+      },
+      {
+        "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap",
+        "bytes": 0,
+        "duration": 74.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 37.09999990463257
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article oct12-blog-article",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":4203.421875,\"top\":170,\"right\":390,\"bottom\":4373.421875,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":168.765625,\"top\":198,\"right\":368,\"bottom\":366.765625,\"left\":22}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":134.375,\"top\":198,\"right\":368,\"bottom\":332.375,\"left\":22}",
+        "font": "28px / 33.6px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":22,\"y\":390.765625,\"width\":346,\"height\":230.65625,\"top\":390.765625,\"right\":368,\"bottom\":621.421875,\"left\":22}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "footer",
+        "rect": "{\"x\":0,\"y\":4373.421875,\"width\":390,\"height\":702.375,\"top\":4373.421875,\"right\":390,\"bottom\":5075.796875,\"left\":0}",
+        "font": "16px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "portfolio.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/portfolio.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 502,
+      "navigationId": 1344,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.6999998092651367,
+      "domainLookupStart": 0.6999998092651367,
+      "domainLookupEnd": 0.6999998092651367,
+      "connectStart": 0.6999998092651367,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.6999998092651367,
+      "requestStart": 6.799999713897705,
+      "responseStart": 8.299999713897705,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 8.299999713897705,
+      "responseEnd": 9.899999618530273,
+      "transferSize": 47912,
+      "encodedBodySize": 47612,
+      "decodedBodySize": 47612,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 383.8999996185303,
+      "domContentLoadedEventStart": 415.2999997138977,
+      "domContentLoadedEventEnd": 416.7999997138977,
+      "domComplete": 500.8999996185303,
+      "loadEventStart": 500.8999996185303,
+      "loadEventEnd": 502,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 42.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/1da5f3f214370f63.css",
+        "bytes": 257449,
+        "duration": 49.10000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/9ec00505b3d65ec3.css",
+        "bytes": 89592,
+        "duration": 47.799999713897705
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7d1893c76ce53543.css",
+        "bytes": 119407,
+        "duration": 47.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 46.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 46.700000286102295
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 61.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/68d051449b7a27bc.css",
+        "bytes": 7579,
+        "duration": 61.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce6bd11ccfedc609.css",
+        "bytes": 8408,
+        "duration": 59.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 66.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 68.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 67.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 91.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 94.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4c7f895d29d4513e.css",
+        "bytes": 42315,
+        "duration": 95.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/295473f8529b44f9.css",
+        "bytes": 21531,
+        "duration": 101.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/4cdb0b4628c63780.css",
+        "bytes": 24515,
+        "duration": 103.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css?v=20261011-videoplayer",
+        "bytes": 3959,
+        "duration": 104.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 237.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 126
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 128.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/sun-lit-bungalow.jpg",
+        "bytes": 68300,
+        "duration": 137.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/sun-lit-modern.jpg",
+        "bytes": 154727,
+        "duration": 151.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/video-posters/the-red-door.jpg",
+        "bytes": 120879,
+        "duration": 153.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 238.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v55-hubspot-contact.js",
+        "bytes": 6448,
+        "duration": 154.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v48-interactions.js",
+        "bytes": 3769,
+        "duration": 189.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v58-mobile-only.js",
+        "bytes": 3314,
+        "duration": 190.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v80-requested-fixes.js",
+        "bytes": 2944,
+        "duration": 193.10000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v81-mobile-followups.js",
+        "bytes": 2136,
+        "duration": 194
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v70-confirmations.js",
+        "bytes": 3301,
+        "duration": 200.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 202.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 239
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 242.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 274.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 235.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 302.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 305.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-video-player.js",
+        "bytes": 1640,
+        "duration": 306.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-reference/2ee42c_0cea1ff1dc4944a68432d9e6fc02d12f~mv2.jpg",
+        "bytes": 4286863,
+        "duration": 180.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-restored/sunlit-room3-036.webp",
+        "bytes": 159712,
+        "duration": 63.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/projects/hosea/photo-48.jpg",
+        "bytes": 575917,
+        "duration": 83
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/a-record-retreat/photo-02.webp",
+        "bytes": 98746,
+        "duration": 84.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/portfolio-jobs/a-luxurious-touch/photo-01.webp",
+        "bytes": 50278,
+        "duration": 84.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 66.09999990463257
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "quietLuxury qDesign portfolioPageV46 v27-review",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":4759.90625,\"top\":170,\"right\":390,\"bottom\":4929.90625,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss24-page-title v27-title-block",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":120,\"top\":170,\"right\":390,\"bottom\":290,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":22,\"y\":208,\"width\":346,\"height\":36,\"top\":208,\"right\":368,\"bottom\":244,\"left\":22}",
+        "font": "30px / 36px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":15.59375,\"y\":290,\"width\":114.265625,\"height\":64.265625,\"top\":290,\"right\":129.859375,\"bottom\":354.265625,\"left\":15.59375}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":137.859375,\"y\":290,\"width\":114.265625,\"height\":64.265625,\"top\":290,\"right\":252.125,\"bottom\":354.265625,\"left\":137.859375}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "",
+        "rect": "{\"x\":260.125,\"y\":290,\"width\":114.28125,\"height\":64.28125,\"top\":290,\"right\":374.40625,\"bottom\":354.28125,\"left\":260.125}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":4929.90625,\"width\":390,\"height\":1380.453125,\"top\":4929.90625,\"right\":390,\"bottom\":6310.359375,\"left\":0}",
+        "font": "16px / 24px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "page": "life-changes/retirement/should-i-downsize-when-i-retire.html",
+    "width": 390,
+    "errors": [],
+    "cls": 0,
+    "timing": {
+      "name": "http://127.0.0.1:62340/life-changes/retirement/should-i-downsize-when-i-retire.html",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 485.69999980926514,
+      "navigationId": 4312,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.8000001907348633,
+      "domainLookupStart": 0.8000001907348633,
+      "domainLookupEnd": 0.8000001907348633,
+      "connectStart": 0.8000001907348633,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.8000001907348633,
+      "requestStart": 15.199999809265137,
+      "responseStart": 16.40000009536743,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 16.40000009536743,
+      "responseEnd": 17.5,
+      "transferSize": 51022,
+      "encodedBodySize": 50722,
+      "decodedBodySize": 50722,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 476.19999980926514,
+      "domContentLoadedEventStart": 483.59999990463257,
+      "domContentLoadedEventEnd": 484.30000019073486,
+      "domComplete": 484.5,
+      "loadEventStart": 484.5,
+      "loadEventEnd": 485.69999980926514,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js?id=G-YBJ6S36CRP",
+        "bytes": 0,
+        "duration": 38
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/question-seo-aeo-v1.js",
+        "bytes": 1393,
+        "duration": 68.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4f2b6be86d5f92f5e3b7.css",
+        "bytes": 231749,
+        "duration": 104.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1dae5407a321a81293e5.css",
+        "bytes": 4972,
+        "duration": 103.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/b6f81c77a557d0661ac4.css",
+        "bytes": 10357,
+        "duration": 103.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/646f6185f23410e09a00.css",
+        "bytes": 4673,
+        "duration": 114.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6a30c7fdafa3477d2a39.css",
+        "bytes": 5903,
+        "duration": 116.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a539f9c040f510f5f778.css",
+        "bytes": 2684,
+        "duration": 123.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a3038779550ca4cc6d41.css",
+        "bytes": 2586,
+        "duration": 129.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/17c2652b1738d4e809c5.css",
+        "bytes": 4806,
+        "duration": 129.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/09b68a3a9ae86a379272.css",
+        "bytes": 8985,
+        "duration": 130.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/8322f87f0dfb27906326.css",
+        "bytes": 12218,
+        "duration": 133.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3237f02aae226f8fb35b.css",
+        "bytes": 11003,
+        "duration": 136.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/6cb7d0dce7db3f7186c1.css",
+        "bytes": 7356,
+        "duration": 137.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/48e7b347b01eb5e71298.css",
+        "bytes": 11508,
+        "duration": 142.2000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a8798c13299b5401ed8f.css",
+        "bytes": 6970,
+        "duration": 143.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/45152c4a4f639de27f36.css",
+        "bytes": 8032,
+        "duration": 144.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e0fb60776480dda146ed.css",
+        "bytes": 5000,
+        "duration": 150
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/088d9ad82b23206abed7.css",
+        "bytes": 2272,
+        "duration": 154
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/578c47d62143c7db4221.css",
+        "bytes": 2362,
+        "duration": 155.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ad5fdc97d68b5a5e9040.css",
+        "bytes": 2212,
+        "duration": 160.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ecb8c9e06babecabda95.css",
+        "bytes": 1637,
+        "duration": 163.60000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/379a0f1e559ad1c76b6d.css",
+        "bytes": 3228,
+        "duration": 163.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+        "bytes": 1400,
+        "duration": 165.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/88fae9c03e2ee218.css",
+        "bytes": 81526,
+        "duration": 170.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/863ecaed15b52216de7e.css",
+        "bytes": 6319,
+        "duration": 170.7000002861023
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/0e97e4d312bb6b65.css",
+        "bytes": 25723,
+        "duration": 179.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1b45cc8d02e495f19ea.css",
+        "bytes": 1867,
+        "duration": 182.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/e7ee7e1f628dcff69d24.css",
+        "bytes": 2154,
+        "duration": 183.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/ee52bf790f77400eaf64.css",
+        "bytes": 2127,
+        "duration": 185.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/382daeec118ae882337d.css",
+        "bytes": 1642,
+        "duration": 191.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+        "bytes": 2992,
+        "duration": 192.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c761538160beb5d87d27.css",
+        "bytes": 3132,
+        "duration": 195.10000038146973
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f68007d25032b49c45c2.css",
+        "bytes": 1678,
+        "duration": 198.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/3d5e33d35fffd07c589c.css",
+        "bytes": 3441,
+        "duration": 199
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/f60b12246b1d9bfcf959.css",
+        "bytes": 3408,
+        "duration": 201.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/290b8bca5baaf4203847.css",
+        "bytes": 2349,
+        "duration": 204.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+        "bytes": 4946,
+        "duration": 208
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/c1aa3587e003e48fec7a.css",
+        "bytes": 4263,
+        "duration": 209.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/832f0354e1dfecb1b907.css",
+        "bytes": 3225,
+        "duration": 211.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/79eabe0a9323f9e18229.css",
+        "bytes": 3326,
+        "duration": 212.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/af0d1f3adacdb7fc70ed.css",
+        "bytes": 3613,
+        "duration": 215.39999961853027
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/926d386486351778207a.css",
+        "bytes": 1448,
+        "duration": 219.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.css",
+        "bytes": 8235,
+        "duration": 221
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/7a492d4f616ff3b5.css",
+        "bytes": 360910,
+        "duration": 226.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/mobile-text-v38.css",
+        "bytes": 9483,
+        "duration": 228.80000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/c59788856fa26df7.css",
+        "bytes": 42146,
+        "duration": 230
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/9195f1c44dd009211848.css",
+        "bytes": 1789,
+        "duration": 232.69999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/0f465f6ea557b47f48d9.css",
+        "bytes": 5485,
+        "duration": 237.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635.css",
+        "bytes": 6874,
+        "duration": 237.19999980926514
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-layout-4635-FINAL.css",
+        "bytes": 6321,
+        "duration": 242.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/reading-final-enforced.css",
+        "bytes": 14299,
+        "duration": 245.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/732429faf6da2b446786.css",
+        "bytes": 3624,
+        "duration": 246.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/dc4299cf5a3ad837cfe9.css",
+        "bytes": 2585,
+        "duration": 248.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/1586a7810d2bded7ba40.css",
+        "bytes": 2641,
+        "duration": 251.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/77b1f83ebd3e33b3eb48.css",
+        "bytes": 3729,
+        "duration": 252.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/163f755cc194d510.css",
+        "bytes": 8584,
+        "duration": 255.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/a362b6833a3dff6e31b7.css",
+        "bytes": 3538,
+        "duration": 258.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/ce554ea76b6ff872.css",
+        "bytes": 10191,
+        "duration": 258.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/883c85bc305e8d33fae6.css",
+        "bytes": 3794,
+        "duration": 258.3999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/shared-styles/7b59885d74b0bd506ab7.css",
+        "bytes": 1972,
+        "duration": 260.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/performance-css/75e3427875dcf211.css",
+        "bytes": 40649,
+        "duration": 260.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/article-batch-01/retirement-07.webp",
+        "bytes": 111874,
+        "duration": 267.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/photo-navigation-ready.js",
+        "bytes": 1668,
+        "duration": 284
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/oct11-portfolio-brand.css",
+        "bytes": 3959,
+        "duration": 261.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/source-reference-links.css",
+        "bytes": 1121,
+        "duration": 268
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-script-transparent.svg",
+        "bytes": 573680,
+        "duration": 274.30000019073486
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/rise-logo.lossless.webp",
+        "bytes": 9692,
+        "duration": 277
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/equal-housing-realtor.lossless.webp",
+        "bytes": 39726,
+        "duration": 278
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-conversation.js?v=20261010-ddn-logo",
+        "bytes": 15998,
+        "duration": 278.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/navigation-v22.js",
+        "bytes": 4780,
+        "duration": 293.5
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/studio-v21.js",
+        "bytes": 717,
+        "duration": 296.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/final-cta-audit.js",
+        "bytes": 403,
+        "duration": 296.8999996185303
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/review-v27.js",
+        "bytes": 3118,
+        "duration": 297.7999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/v46-mobile-menu.js",
+        "bytes": 643,
+        "duration": 281.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-rebrand.js",
+        "bytes": 670,
+        "duration": 299.2999997138977
+      },
+      {
+        "name": "http://127.0.0.1:62340/assets/dominique-key-icon.svg",
+        "bytes": 326689,
+        "duration": 13.600000381469727
+      }
+    ],
+    "overflow": false,
+    "geometry": [
+      {
+        "tag": "HEADER",
+        "cls": "ss22-header",
+        "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":170,\"top\":0,\"right\":390,\"bottom\":170,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "ss4711-article",
+        "rect": "{\"x\":0,\"y\":170,\"width\":390,\"height\":3839.84375,\"top\":170,\"right\":390,\"bottom\":4009.84375,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "ss4711-title",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":67.1875,\"top\":198,\"right\":368,\"bottom\":265.1875,\"left\":22}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "rect": "{\"x\":22,\"y\":198,\"width\":346,\"height\":67.1875,\"top\":198,\"right\":368,\"bottom\":265.1875,\"left\":22}",
+        "font": "28px / 33.6px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FIGURE",
+        "cls": "ss4711-photo",
+        "rect": "{\"x\":22,\"y\":289.1875,\"width\":346,\"height\":230.65625,\"top\":289.1875,\"right\":368,\"bottom\":519.84375,\"left\":22}",
+        "font": "16px / 0px Arial, Helvetica, sans-serif"
+      },
+      {
+        "tag": "FOOTER",
+        "cls": "ss22-footer",
+        "rect": "{\"x\":0,\"y\":4009.84375,\"width\":390,\"height\":1380.453125,\"top\":4009.84375,\"right\":390,\"bottom\":5390.296875,\"left\":0}",
+        "font": "16px / 26.4px Arial, Helvetica, sans-serif"
+      }
+    ],
+    "refs": []
+  },
+  {
+    "navigation": "offer to blog",
+    "width": 390,
+    "milliseconds": 686.9999999180436
+  }
+]

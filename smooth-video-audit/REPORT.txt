@@ -1,0 +1,22 @@
+DOMMYDOM CONTINUOUS HOMEPAGE INTRODUCTION
+October 14, 2026. Local changes only; not committed, pushed, or published.
+
+Correction
+Removed the deliberate 450 ms first-frame hold, video.pause() calls, currentTime reset/seek, and automatic retry/restart handlers from the previous timing adjustment. There are no video pauses, seeks, playback-rate changes, or timed playback retries in the controller.
+The controller makes one startup play request and triggers the existing doors from the video's playing event. A pending-request guard prevents duplicate requests. A rejected autoplay attempt exposes the existing Play video button; another attempt occurs only on an explicit click. Buffering/playing events do not restart or rewind the clip. Native looping remains enabled.
+The original door motion, artwork, and animation-completion fallback remain unchanged. The completion fallback affects door visibility only, never playback. Reduced-motion behavior and the existing poster/Open video error fallback are retained. No loading screen, page-visibility delay, video-start hold, re-encoding, or altered starting position was added.
+Smooth motion takes priority over the pose. The short opening camera-facing shot passes naturally while the doors move; Dominique can be turning by full reveal. No frame is held to enforce her pose.
+
+Website files changed for this request
+assets/home-playback-v23.js: continuous single-start playback lifecycle and synchronized door trigger.
+index.html: only the controller cache version changed from 20261014-door-sync to 20261014-continuous-video.
+Before/after hashes confirm the original, desktop, and mobile video files, door CSS, other checked website assets, and root HTML pages are unchanged. The remainder of index.html is byte-identical. Prior performance/source-link edits were left untouched. Audit scripts and evidence are under smooth-video-audit/.
+
+Testing
+Twelve fresh-context checks passed in desktop Chrome (1440x1000) and mobile Chrome emulation (390x844 with touch), covering a full native video loop, three-second media delay, rejected autoplay followed by an explicit Play click, failed media with poster/Open video fallback, reduced motion, and a manual pause remaining paused without an automatic restart.
+Normal, slow-media, and reduced-motion cases recorded one play request, zero pause calls, zero scripted seeks, and zero playback-rate writes. Native playback remains at 1x. A full loop completed without a controller restart. Rejected autoplay had exactly two calls: startup rejection and explicit user click. Failed media had no play request. Manual-pause tests had one pause made by the test itself and no restart. No JavaScript errors occurred.
+Exact events, media-time samples, source selection, and frame-quality counters are retained in browser-checks.json. Playing-event handling triggers the doors immediately in the code. Event timestamps can reflect main-thread delivery delays, and short native waiting events were observed; there are no artificial pause/hold/restart operations. Browser/network buffering remains native rather than being hidden or counteracted with seeks or retries.
+Scope preservation checks are in scope-checks.json. Git diff whitespace validation passes. No video or stylesheet files were changed.
+
+Limits
+Testing used local headless Chrome with mobile viewport/touch emulation, not physical devices or Safari/Firefox. External scripts/fonts were blocked to isolate the introduction. Real network buffering and browser/device policy can affect playback; this controller adds no deliberate interruption. No live deployment was tested. Temporary test packages were removed after testing.

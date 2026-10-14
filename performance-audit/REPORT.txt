@@ -1,0 +1,49 @@
+DOMMYDOM PERFORMANCE AND SOURCE-LINK AUDIT
+October 14, 2026 — local changes only; no commit, push, or publication.
+
+What caused the loading delays
+The shared photo-navigation-ready.js intercepted normal link clicks, fetched the destination HTML, and waited for all selected destination/card images to download and decode before navigating. There was no timeout. A slow image could hold visitors on the old page indefinitely. Hovering also downloaded many destination photos, competing with current-page resources.
+Pages referenced between 32 and 97 separate stylesheets. Many successive local stylesheets could be combined without changing their cascade. Galleries and category pages eagerly loaded dozens of photos, and some offscreen photos were preloaded at high priority. Several large PNGs could be compressed losslessly. Missing intrinsic image dimensions also provided an avoidable layout-stability risk, although the baseline sample pages measured zero CLS.
+
+Corrections
+Normal navigation now proceeds immediately. Optional document-only prefetching is capped at four destinations, uses deliberate mouse hover/keyboard focus, and is disabled for reduced-data/2G connections. It does not preload destination photos or intercept clicks.
+Combined successive compatible local stylesheets into 72 reusable, content-hashed bundles. Inline-style boundaries, stylesheet attributes, imports, and rule order are preserved. Relative CSS asset URLs are rebased. Original CSS files remain available. HTML base URLs on nested articles are respected. Total stylesheet references across 351 pages fell from 28,798 to 15,801, about 45%. Source CSS is loaded synchronously to avoid an unstyled link flash.
+Images beyond the first three main-content images use native lazy loading. Removed high-priority preloads for later photos and homepage photos below the video. Added absent intrinsic dimensions and asynchronous decoding. Existing responsive crops, layouts, photographs, video sources/posters, autoplay, animations, and interactive features are retained. Existing script ordering and font families/loading behavior are preserved.
+Added six lossless WebP candidates using srcset; original src URLs/files remain as fallbacks. Dimensions, ICC profiles, and every decoded RGBA pixel were verified against the original PNGs. Combined savings: 5,101,452 bytes. No resizing or lossy recompression was used.
+Added shared source-reference-links.css and a scoped class to the existing reference sections. The changes provide subdued brand colors, a visible underline, subtle hover treatment, and visible keyboard focus. Source names, wording, typography, section layouts, and destinations are unchanged. No buttons or decorative panels were added.
+
+Sources and resources
+All 269 reference sections and all 635 reference entries already contained functioning HTML anchors with href attributes; the primary presentation problem was absent visible link treatment. There were no unlinked entries requiring invented or replacement URLs.
+There are 100 distinct external destinations and four distinct internal neighborhood-guide destinations. Direct HTTP checks retrieved 70 external destinations. Web retrieval confirmed another 25 after direct requests encountered access, certificate, or timeout failures. Five destinations remain incompletely verified: the California legislative Civil Code 5551 page; California Courts divorce, property/debts, and probate pages; and the old www2.laparks.org park directory. Courts/directory destinations have supporting official search-index or PDF evidence, but direct retrieval did not succeed. The old park-directory request has a certificate/hostname mismatch. Their existing href values were retained rather than guessing replacements. See UNVERIFIED-SOURCES.txt for every affected page and source-verification.json for all results. A direct 404 for consumer.gov's budget article was contradicted by successful exact-URL web retrieval, so its existing official URL was correctly retained.
+
+Testing completed
+Full static preservation check: 351 pages; article text, navigation markup, titles, meta tags, and structured SEO data unchanged; all local stylesheet/script references, internal reference links, and new image candidates resolve. No failures.
+Rendered source-link checks: all 269 reference pages at 1440px and 390px, 538 page/viewport checks. Every reference link was visible, had nonzero click geometry, and was underlined. Each page's first source link had a visible keyboard-focus outline. Scripts/media were excluded in this focused CSS check; full scripts/media were exercised separately on representative pages. No failures.
+Full rendering comparison: home, offer article, blog index, Proposition 19 article, portfolio, and nested retirement article at desktop/mobile widths. Header/main/title/figure/footer geometry and sampled computed fonts match the baseline. No horizontal overflow, measured CLS, or JavaScript errors. Screenshots are retained. Animated video frames can differ between captures; static article screenshots matched exactly in the initial comparison.
+Interaction checks: source clicks request the exact two CFPB URLs in the example article and open the expected popup destinations; hover underlines thicken; navigation among offer/blog/home/portfolio works; desktop hover and mobile dropdowns work; portfolio video dialogs open and close; home video plays; chat opens and closes. All 24 checks passed. External popup content was intercepted to isolate destination behavior; real source content was verified separately by HTTP/web retrieval. No forms or chat messages were submitted.
+Controlled loading comparison: fresh Chrome contexts, simulated 80 ms latency and 3 MB/s download bandwidth. Initial comparison covered four page types at both widths. The offer page was repeated three additional times after a slower desktop observation. Its reported value below is the median of all four runs; other pages have one run per version. Initial-paint and final sampled title fonts matched in all 28 page/version/viewport observations; measured CLS remained zero. Raw FCP/LCP/load data and every individual result are retained.
+
+Controlled page loadEventEnd timings (seconds)
+Page | Viewport | Before | After | Runs per version
+index.html | 1440px | 4.44 | 1.97 | 1
+first-time-your-offer.html | 1440px | 2.62 | 1.80 | 4
+blog.html | 1440px | 16.95 | 7.93 | 1
+portfolio.html | 1440px | 4.26 | 3.18 | 1
+index.html | 390px | 4.35 | 1.60 | 1
+first-time-your-offer.html | 390px | 2.50 | 2.10 | 4
+blog.html | 390px | 13.31 | 4.27 | 1
+portfolio.html | 390px | 4.06 | 3.07 | 1
+
+Isolated navigation test with destination image responses delayed three seconds: time until the next document committed fell from 4.39 seconds to 0.14 seconds. Repeat: 4.73 to 0.27 seconds. This specifically verifies removal of the image-wait navigation gate.
+
+Checks not completed / practical limits
+This is a local laboratory comparison, not a deployed speed guarantee, Lighthouse score, or field Core Web Vitals measurement. Individual timing observations varied. Baseline HTML was supplied from the unchanged Git HEAD while baseline assets used the local server; the optimized HTML/assets used the local server. No remote hosting/cache/compression configuration was changed or tested.
+External scripts and fonts were blocked during local rendering/performance tests. Live Google font behavior, analytics delivery, HubSpot/backend submissions, and chat submission delivery were not exercised. Existing script/font code was preserved; local chat opening/closing was tested. No claim is made that all external services were verified.
+Mobile tests used a 390px Chrome viewport rather than a physical phone. Safari, Firefox, other browsers, and every possible viewport were not tested. Six representative pages received full visual comparisons; every reference page received focused desktop/mobile CSS checks, and all 351 pages received static preservation checks.
+Five external source destinations remain incompletely verified, as detailed above. No inaccurate replacement links were created.
+
+Files and maintenance
+FILES-MODIFIED.txt lists every existing file changed and every new website/audit file. The website changes comprise all 351 HTML pages, assets/photo-navigation-ready.js, assets/source-reference-links.css, 72 files in assets/performance-css/, and six .performance.webp image files listed in lossless-images.json. Audit scripts, evidence JSON, screenshots, and this report are under performance-audit/.
+The original stylesheets are retained. After editing an original stylesheet included in a generated bundle, run performance-audit/rebuild-css.py to regenerate the content-hashed bundle and update HTML references, then rerun visual checks. css-bundles.json records ordered original source files. Reference link styling can be edited directly in assets/source-reference-links.css.
+Browser audit scripts require the packages in requirements.txt and a local Chrome executable. Temporary testing packages installed for this task are removed during cleanup; they are not website dependencies. The before snapshots are evidence from the original site and should be retained rather than overwritten by a new baseline run.
+Automatic approval review rejected a broad permission change for the temporary dependency directory. Testing continued without that permission change. No requested website work remains blocked by that rejection.

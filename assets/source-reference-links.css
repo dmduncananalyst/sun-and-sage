@@ -1,0 +1,22 @@
+﻿/* Understated source links; retain the established section layout and typography. */
+html body main .source-reference-links a[href] {
+  color: #46583f !important;
+  text-decoration-line: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: .2em;
+  text-decoration-color: currentColor;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+  overflow-wrap: anywhere;
+}
+html body main .source-reference-links a[href]:hover {
+  color: #41372b !important;
+  text-decoration-thickness: 2px !important;
+}
+html body main .source-reference-links a[href]:focus-visible {
+  outline: 2px solid #ad8660 !important;
+  outline-offset: 4px;
+  border-radius: 1px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html body main .source-reference-links a[href] { transition: none; }
+}

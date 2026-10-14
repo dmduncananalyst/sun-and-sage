@@ -1,0 +1,128 @@
+[
+  {
+    "width": 1440,
+    "test": "source click",
+    "url": "https://www.consumerfinance.gov/owning-a-home/",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "source click",
+    "url": "https://www.consumerfinance.gov/owning-a-home/loan-estimate/",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "source hover",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "navigation blog.html",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "navigation index.html",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "dropdown",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "portfolio video dialog",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "portfolio video close",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "home video playback",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "chat opens",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "chat closes",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "test": "runtime errors",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "source click",
+    "url": "https://www.consumerfinance.gov/owning-a-home/",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "source click",
+    "url": "https://www.consumerfinance.gov/owning-a-home/loan-estimate/",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "source hover",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "navigation blog.html",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "navigation index.html",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "dropdown",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "portfolio video dialog",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "portfolio video close",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "home video playback",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "chat opens",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "chat closes",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "test": "runtime errors",
+    "pass": true,
+    "errors": []
+  }
+]

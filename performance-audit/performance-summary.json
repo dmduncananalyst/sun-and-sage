@@ -1,0 +1,58 @@
+[
+  {
+    "page": "index.html",
+    "width": 1440,
+    "runs_per_version": 1,
+    "before_ms": 4442,
+    "after_ms": 1970.9000000953674
+  },
+  {
+    "page": "first-time-your-offer.html",
+    "width": 1440,
+    "runs_per_version": 4,
+    "before_ms": 2622.149999856949,
+    "after_ms": 1804.6500000953674
+  },
+  {
+    "page": "blog.html",
+    "width": 1440,
+    "runs_per_version": 1,
+    "before_ms": 16950.900000095367,
+    "after_ms": 7933.900000095367
+  },
+  {
+    "page": "portfolio.html",
+    "width": 1440,
+    "runs_per_version": 1,
+    "before_ms": 4257.299999713898,
+    "after_ms": 3177.4000000953674
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "runs_per_version": 1,
+    "before_ms": 4349.699999809265,
+    "after_ms": 1595.7999997138977
+  },
+  {
+    "page": "first-time-your-offer.html",
+    "width": 390,
+    "runs_per_version": 4,
+    "before_ms": 2503.5499997138977,
+    "after_ms": 2101.699999809265
+  },
+  {
+    "page": "blog.html",
+    "width": 390,
+    "runs_per_version": 1,
+    "before_ms": 13307.199999809265,
+    "after_ms": 4274.10000038147
+  },
+  {
+    "page": "portfolio.html",
+    "width": 390,
+    "runs_per_version": 1,
+    "before_ms": 4055.7000002861023,
+    "after_ms": 3065.5
+  }
+]

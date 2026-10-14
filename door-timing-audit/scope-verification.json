@@ -1,0 +1,10 @@
+{
+  "website_files_changed_this_task": [
+    "index.html",
+    "assets/home-playback-v23.js"
+  ],
+  "homepage_changes_limited_to_video_autoplay_and_controller_version": true,
+  "all_other_checked_assets_and_root_pages_unchanged": true,
+  "original_desktop_and_mobile_video_files_unchanged": true,
+  "door_css_unchanged": true
+}

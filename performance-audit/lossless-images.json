@@ -1,0 +1,49 @@
+{
+  "modified_pages": [
+    "blog-chatsworth-home-prices-2026.html",
+    "blog-film-crew-rental.html",
+    "blog-lake-balboa-park-japanese-garden-fall-guide.html",
+    "blog-porter-ranch-housing-market.html",
+    "blog-two-one-rate-buydown.html",
+    "blog-what-its-like-to-live-in-granada-hills.html",
+    "blog.html"
+  ],
+  "verified_pixel_identical_images": [
+    {
+      "original": "assets\\blog-oct11-chatsworth.png",
+      "candidate": "assets\\blog-oct11-chatsworth.performance.webp",
+      "original_bytes": 3303687,
+      "optimized_bytes": 2381372
+    },
+    {
+      "original": "assets\\blog-oct11-filmcrew.png",
+      "candidate": "assets\\blog-oct11-filmcrew.performance.webp",
+      "original_bytes": 2346050,
+      "optimized_bytes": 1635778
+    },
+    {
+      "original": "assets\\blog-2026\\Lake Balboa Park Morning Reflections.png",
+      "candidate": "assets\\blog-2026\\Lake Balboa Park Morning Reflections.performance.webp",
+      "original_bytes": 2856270,
+      "optimized_bytes": 2131426
+    },
+    {
+      "original": "assets\\blog-2026\\The Vineyards at Porter Ranch entrance.png",
+      "candidate": "assets\\blog-2026\\The Vineyards at Porter Ranch entrance.performance.webp",
+      "original_bytes": 3384972,
+      "optimized_bytes": 2315176
+    },
+    {
+      "original": "assets\\blog-oct11-buydown.png",
+      "candidate": "assets\\blog-oct11-buydown.performance.webp",
+      "original_bytes": 2360951,
+      "optimized_bytes": 1590884
+    },
+    {
+      "original": "assets\\blog-2026\\Old Granada Village Street Clock.png",
+      "candidate": "assets\\blog-2026\\Old Granada Village Street Clock.performance.webp",
+      "original_bytes": 2914902,
+      "optimized_bytes": 2010744
+    }
+  ]
+}

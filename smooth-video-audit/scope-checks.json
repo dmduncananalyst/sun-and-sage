@@ -1,0 +1,10 @@
+{
+  "website_files_changed": [
+    "index.html",
+    "assets/home-playback-v23.js"
+  ],
+  "homepage_only_changes_controller_cache_version": true,
+  "video_files_and_door_styles_unchanged": true,
+  "no_controller_pause_seek_hold_or_playback_rate_changes": true,
+  "other_checked_website_files_unchanged": true
+}

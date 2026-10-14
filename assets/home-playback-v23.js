@@ -5,13 +5,18 @@
   if (!hero) return;
   let opening = false;
   let finished = false;
+  let started = false;
+  let playPending = false;
+  let needsGesture = false;
+  let mediaFailed = false;
   document.documentElement.classList.remove('preview-loading');
   document.documentElement.style.visibility = 'visible';
   video.defaultMuted = true;
   video.muted = true;
   video.loop = true;
   video.playsInline = true;
-  video.autoplay = true;
+  // A single controller-owned start coordinates the doors with actual playback.
+  video.autoplay = false;
   const playButton = document.createElement('button');
   playButton.type = 'button';
   playButton.textContent = 'Play video';
@@ -19,18 +24,6 @@
   playButton.hidden = true;
   playButton.style.cssText = 'position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:20;padding:14px 22px;border:1px solid #fff;background:#41372b;color:#fff;font:16px Arial,sans-serif;cursor:pointer;';
   hero.append(playButton);
-  function showPlayButton() {
-    if (!video.paused && video.readyState >= 2) return;
-    playButton.hidden = false;
-    video.controls = true;
-    if (video.error) playButton.textContent = 'Open video';
-  }
-  playButton.addEventListener('click', () => {
-    if (video.error) {
-      const source = video.currentSrc || video.querySelector('source:not([media])')?.src;
-      if (source) window.open(source, '_blank', 'noopener');
-    } else requestPlayback();
-  });
 
   function finish() {
     if (finished) return;
@@ -42,45 +35,70 @@
     opening = true;
     hero.classList.add('ss23-opening');
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) finish();
-    else setTimeout(finish, 1250);
+    else setTimeout(finish, 1250); // Retained animation-event fallback only.
   }
-  function requestPlayback() {
-    if (!video.paused || video.error) return;
+  function showPlayButton() {
+    playButton.hidden = false;
+    video.controls = true;
+    if (video.error || mediaFailed) playButton.textContent = 'Open video';
+    // Keep the existing poster and manual control accessible if autoplay fails.
+    reveal();
+  }
+  function mediaError() {
+    mediaFailed = true;
+    showPlayButton();
+  }
+  function requestPlayback(userGesture = false) {
+    if (video.networkState === video.NETWORK_NO_SOURCE) mediaFailed = true;
+    if (video.error || mediaFailed) {
+      mediaError();
+      return;
+    }
+    if (started || playPending || (needsGesture && !userGesture)) return;
+    if (!video.paused) {
+      started = true;
+      reveal();
+      return;
+    }
+    playPending = true;
+    const rejected = () => {
+      playPending = false;
+      needsGesture = true;
+      showPlayButton();
+    };
     try {
       const playing = video.play();
-      playing?.catch(() => {
-        // A browser that requires a user gesture still needs a working Play button.
-        if (video.paused) showPlayButton();
-      });
+      if (playing?.then) playing.then(() => { playPending = false; }, rejected);
+      else playPending = false;
     } catch (_) {
-      showPlayButton();
+      rejected();
     }
   }
+  playButton.addEventListener('click', () => {
+    if (video.error || mediaFailed) {
+      const source = video.currentSrc || video.querySelector('source:not([media])')?.src;
+      if (source) window.open(source, '_blank', 'noopener');
+    } else requestPlayback(true);
+  });
   video.addEventListener('playing', () => {
+    started = true;
+    playPending = false;
+    needsGesture = false;
     video.controls = false;
     playButton.hidden = true;
     reveal();
   });
-  video.addEventListener('loadeddata', requestPlayback);
-  video.addEventListener('canplay', requestPlayback);
-  video.addEventListener('pause', () => {
-    if (!video.controls) requestPlayback();
-  });
-  video.addEventListener('error', showPlayButton);
-  document.addEventListener('visibilitychange', requestPlayback);
-  window.addEventListener('pageshow', requestPlayback);
-  // Retry within a real gesture when browser autoplay policy blocked the first attempt.
-  document.addEventListener('pointerdown', requestPlayback, {passive: true});
-  document.addEventListener('keydown', requestPlayback);
+  video.addEventListener('error', mediaError);
+  const failedSources = new Set();
+  const sources = [...video.querySelectorAll('source[src]')];
+  sources.forEach(source => source.addEventListener('error', () => {
+    failedSources.add(source);
+    const eligible = sources.filter(item => !item.media || matchMedia(item.media).matches);
+    if (eligible.every(item => failedSources.has(item))) mediaError();
+  }));
   hero.querySelector('.doors > div:last-child')?.addEventListener('animationend', event => {
     if (event.animationName === 'rightOpen') finish();
   });
-
-  // Start now. Reloading the media here would abort the native autoplay request.
+  // No pause, seek, reveal hold, playback-rate change, or automatic restart.
   requestPlayback();
-  // Door timing is independent of buffering and an unresolved play promise.
-  setTimeout(reveal, 150);
-  setTimeout(requestPlayback, 1000);
-  // Embedded previews may leave play() pending without rejecting it.
-  setTimeout(showPlayButton, 1800);
 })();

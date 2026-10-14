@@ -1,0 +1,694 @@
+/* assets/reading-final-enforced.css */
+/* Enforced article reading layout - only pages marked reading-final-layout */
+main.reading-final-layout{display:block!important;grid-template-columns:none!important;columns:auto!important;width:100%!important;max-width:none!important;min-width:0!important;margin:0 auto!important;padding:30px 18px 70px!important;background:white!important;box-sizing:border-box!important}
+main.reading-final-layout>.ss23-guide-opening,
+main.reading-final-layout>.desktop-article-lead,
+main.reading-final-layout>.reading-final-lead{
+ display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:center!important;position:static!important;float:none!important;grid-template-columns:none!important;grid-template-rows:none!important;columns:auto!important;width:min(100%,820px)!important;max-width:820px!important;min-width:0!important;margin:0 auto!important;padding:0 18px 25px!important;gap:0!important;box-sizing:border-box!important;background:#fff!important;border:1px solid #dadbd3!important;height:auto!important;min-height:0!important;overflow:visible!important}
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading{display:block!important;order:0!important;position:static!important;float:none!important;grid-area:auto!important;grid-column:auto!important;width:calc(100% + 38px)!important;max-width:none!important;margin:-1px -19px 22px!important;padding:0 6px 14px!important;background:#fff!important;border:0!important;text-align:center!important;box-sizing:border-box!important;transform:none!important}
+main.reading-final-layout .ss23-guide-title h1,
+main.reading-final-layout .ss21-article-heading h1,
+main.reading-final-layout .reading-final-heading h1{display:block!important;position:static!important;float:none!important;max-width:100%!important;width:100%!important;margin:0 auto!important;padding:0!important;font:400 clamp(27px,2.4vw,40px)/1.23 Arial,Helvetica,sans-serif!important;letter-spacing:-.025em!important;text-transform:none!important;text-align:center!important;color:#21342e!important}
+main.reading-final-layout .ss23-guide-opening>figure,
+main.reading-final-layout .desktop-article-lead>figure,
+main.reading-final-layout .reading-final-lead>figure{display:block!important;position:static!important;float:none!important;order:1!important;grid-area:auto!important;grid-column:auto!important;width:100%!important;max-width:760px!important;min-width:0!important;height:auto!important;max-height:none!important;margin:0 auto 22px!important;padding:0!important;border:0!important;aspect-ratio:auto!important;overflow:visible!important;transform:none!important}
+main.reading-final-layout .ss23-guide-opening>figure>img,
+main.reading-final-layout .desktop-article-lead>figure>img,
+main.reading-final-layout .reading-final-lead>figure>img{display:block!important;position:static!important;width:100%!important;min-width:0!important;max-width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;margin:0 auto!important;clip-path:none!important}
+main.reading-final-layout .ss23-guide-opening>p,
+main.reading-final-layout .desktop-article-lead>.ss21-opening,
+main.reading-final-layout .reading-final-lead>p,
+main.reading-final-layout .reading-final-lead>.ss21-opening{display:block!important;order:2!important;position:static!important;float:none!important;grid-area:auto!important;grid-column:auto!important;width:min(100%,670px)!important;max-width:670px!important;min-width:0!important;margin:0 auto 18px!important;padding:0!important;text-align:left!important;background:transparent!important;border:0!important;column-count:1!important;box-sizing:border-box!important}
+main.reading-final-layout .ss23-guide-opening>p,
+main.reading-final-layout .ss21-opening p,
+main.reading-final-layout .reading-final-lead>p{font:400 16px/1.78 Arial,Helvetica,sans-serif!important;text-align:left!important;letter-spacing:0!important;white-space:normal!important}
+main.reading-final-layout>.ss23-guide-body,
+main.reading-final-layout>.ss21-paper{display:block!important;position:static!important;float:none!important;grid-area:auto!important;grid-template-columns:none!important;columns:auto!important;width:min(100%,820px)!important;max-width:820px!important;min-width:0!important;margin:0 auto!important;padding:24px 28px 42px!important;border:1px solid #dadbd3!important;border-top:0!important;background:#fff!important;box-sizing:border-box!important;height:auto!important;transform:none!important}
+main.reading-final-layout .ss23-guide-copy,
+main.reading-final-layout .ss21-body,
+main.reading-final-layout .ss21-reading,
+main.reading-final-layout .article-content-box{display:block!important;position:static!important;float:none!important;grid-area:auto!important;grid-template-columns:none!important;columns:auto!important;width:min(100%,670px)!important;max-width:670px!important;min-width:0!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;transform:none!important}
+@media(max-width:750px){main.reading-final-layout{padding:18px 8px 42px!important}main.reading-final-layout>.ss23-guide-opening,main.reading-final-layout>.desktop-article-lead,main.reading-final-layout>.reading-final-lead{width:100%!important;padding:0 12px 18px!important}main.reading-final-layout>.ss23-guide-body,main.reading-final-layout>.ss21-paper{width:100%!important;padding:18px 15px 32px!important}main.reading-final-layout .ss23-guide-title,main.reading-final-layout .ss21-article-heading,main.reading-final-layout .reading-final-heading{width:calc(100% + 26px)!important;margin:0 -13px 18px!important;padding:0 8px 10px!important}}
+
+
+/* 2026-10-09 reading layout cleanup: remove awkward top border lines and start the reading box below the image */
+main.reading-final-layout>.ss23-guide-opening,
+main.reading-final-layout>.desktop-article-lead,
+main.reading-final-layout>.reading-final-lead{
+  border:0!important;
+  background:transparent!important;
+  padding:0 0 0!important;
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+}
+
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading{
+  width:100%!important;
+  max-width:820px!important;
+  margin:0 auto 26px!important;
+  padding:0!important;
+  background:transparent!important;
+}
+
+main.reading-final-layout .ss23-guide-title h1,
+main.reading-final-layout .ss21-article-heading h1,
+main.reading-final-layout .reading-final-heading h1{
+  margin:0 auto!important;
+}
+
+main.reading-final-layout .v27-photo-frame,
+main.reading-final-layout .ss21-article-photo,
+main.reading-final-layout .reading-final-photo{
+  width:100%!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+main.reading-final-layout .v27-photo-frame img,
+main.reading-final-layout .ss21-article-photo img,
+main.reading-final-layout .reading-final-photo img,
+main.reading-final-layout .v27-natural-photo{
+  display:block!important;
+  width:100%!important;
+  max-width:100%!important;
+  height:auto!important;
+  object-fit:cover!important;
+}
+
+/* finance / question pages: start the bordered reading box after the image */
+main.reading-final-layout>.ss23-guide-opening>p,
+main.reading-final-layout>.desktop-article-lead>p,
+main.reading-final-layout>.reading-final-lead>p,
+main.reading-final-layout>.ss23-guide-opening>.f4-answer{
+  display:block!important;
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  padding:24px 28px 10px!important;
+  border:1px solid #dadbd3!important;
+  border-bottom:0!important;
+  background:#fff!important;
+  box-sizing:border-box!important;
+}
+
+main.reading-final-layout>.ss23-guide-body,
+main.reading-final-layout>.ss21-paper{
+  width:min(100%,820px)!important;
+  max-width:820px!important;
+  margin:0 auto!important;
+  border:1px solid #dadbd3!important;
+  border-top:0!important;
+  background:#fff!important;
+  box-sizing:border-box!important;
+}
+
+/* if a page has no intro paragraph in the lead, let the body box stand alone as a full square */
+main.reading-final-layout>.reading-final-lead + .ss21-paper,
+main.reading-final-layout>.desktop-article-lead + .ss21-paper{
+  border-top:1px solid #dadbd3!important;
+}
+
+@media(max-width:750px){
+  main.reading-final-layout .ss23-guide-title,
+  main.reading-final-layout .ss21-article-heading,
+  main.reading-final-layout .reading-final-heading{margin:0 auto 20px!important;}
+  main.reading-final-layout>.ss23-guide-opening>p,
+  main.reading-final-layout>.desktop-article-lead>p,
+  main.reading-final-layout>.reading-final-lead>p,
+  main.reading-final-layout>.ss23-guide-opening>.f4-answer,
+  main.reading-final-layout>.ss23-guide-body,
+  main.reading-final-layout>.ss21-paper{width:100%!important;}
+  main.reading-final-layout>.ss23-guide-opening>p,
+  main.reading-final-layout>.desktop-article-lead>p,
+  main.reading-final-layout>.reading-final-lead>p,
+  main.reading-final-layout>.ss23-guide-opening>.f4-answer{padding:18px 18px 8px!important;}
+  main.reading-final-layout>.ss23-guide-body,
+  main.reading-final-layout>.ss21-paper{padding:20px 18px 34px!important;}
+}
+
+/* Final article/blog audit: remove decorative image strips and stray border corners. */
+main.reading-final-layout .ss23-guide-opening::before,
+main.reading-final-layout .ss23-guide-opening::after,
+main.reading-final-layout .ss23-guide-title::before,
+main.reading-final-layout .ss23-guide-title::after,
+main.reading-final-layout .v27-photo-frame::before,
+main.reading-final-layout .v27-photo-frame::after,
+main.reading-final-layout .ss21-article-heading::before,
+main.reading-final-layout .ss21-article-heading::after,
+main.reading-final-layout .ss21-article-photo::before,
+main.reading-final-layout .ss21-article-photo::after,
+main.reading-final-layout .reading-final-lead::before,
+main.reading-final-layout .reading-final-lead::after {
+ content:none!important;
+ display:none!important;
+}
+main.reading-final-layout .ss23-guide-opening,
+main.reading-final-layout .reading-final-lead,
+main.reading-final-layout .desktop-article-lead {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ padding-top:0!important;
+}
+main.reading-final-layout .ss23-guide-title,
+main.reading-final-layout .ss21-article-heading,
+main.reading-final-layout .reading-final-heading {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ margin:0 auto 18px!important;
+ padding:0!important;
+}
+main.reading-final-layout .v27-photo-frame,
+main.reading-final-layout .ss21-article-photo,
+main.reading-final-layout .reading-final-photo {
+ border:0!important;
+ outline:0!important;
+ box-shadow:none!important;
+ background-image:none!important;
+ padding:0!important;
+ margin:0 auto!important;
+ overflow:hidden!important;
+}
+main.reading-final-layout figure.v27-photo-frame img,
+main.reading-final-layout figure.ss21-article-photo img {
+ border:0!important;
+ box-shadow:none!important;
+ clip-path:none!important;
+ margin:0!important;
+ vertical-align:middle!important;
+}
+main.reading-final-layout .ss23-guide-opening .ss23-guide-title > p {
+ margin:8px auto 0!important;
+ padding:0!important;
+ border:0!important;
+ text-align:center!important;
+}
+main.reading-final-layout .ss23-guide-opening > figure {
+ margin-top:0!important;
+ margin-bottom:0!important;
+}
+
+
+/* Final single rectangle layout: guarantee clear space between photo and prose. */
+html body.ss18 main.reading-final-layout > .ss23-guide-opening {
+  margin-bottom:0!important; padding-bottom:0!important;
+  display:flex!important; flex-direction:column!important;
+  align-items:center!important; border:0!important; overflow:visible!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > figure,
+html body.ss18 main.reading-final-layout > .ss23-guide-opening > .v27-photo-frame {
+  display:block!important;float:none!important;position:relative!important;
+  width:100%!important;max-width:820px!important;
+  margin:0 auto!important;padding:0!important;
+  transform:none!important; border:0!important;box-shadow:none!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body {
+  display:block!important;position:relative!important;float:none!important;
+  clear:both!important;transform:none!important;top:auto!important;
+  margin:50px auto 56px!important;
+  width:min(820px,calc(100% - 36px))!important;
+  max-width:820px!important;min-height:0!important;
+  border:1px solid #d8d7d0!important;
+  padding:42px 42px 48px!important;
+  background:#fff!important; box-sizing:border-box!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body::before,
+html body.ss18 main.reading-final-layout > .ss23-guide-body::after{
+ content:none!important;display:none!important;
+}
+html body.ss18 main.reading-final-layout > .ss23-guide-body .ss23-guide-copy.article-content-box,
+html body.ss18 main.reading-final-layout > .ss23-guide-body .article-content-box{
+ border:0!important;outline:0!important;box-shadow:none!important;
+ margin:0 auto!important;padding:0!important;
+ width:100%!important;max-width:none!important;
+ background:transparent!important;
+}
+html body.ss18 main.reading-final-layout > .reading-final-lead + .ss21-paper,
+html body.ss18 main.reading-final-layout > .desktop-article-lead + .ss21-paper {
+  margin-top:50px!important;
+  border:1px solid #d8d7d0!important;
+}
+@media(max-width:800px){
+ html body.ss18 main.reading-final-layout > .ss23-guide-body,
+ html body.ss18 main.reading-final-layout > .reading-final-lead + .ss21-paper,
+ html body.ss18 main.reading-final-layout > .desktop-article-lead + .ss21-paper {
+  margin-top:34px!important;padding:24px 19px 32px!important;
+ }
+}
+
+
+/* assets/first-time-large-photo-match.css */
+/* First-time buyer guide: match the approved centered heading / large photograph article layout. */
+main.final-buyer-guide {display:block!important;width:100%!important;max-width:none!important;padding:30px 18px 65px!important;box-sizing:border-box!important;background:#fff!important;}
+main.final-buyer-guide .final-buyer-hero {display:flex!important;flex-direction:column!important;align-items:center!important;gap:0!important;grid-template-columns:none!important;columns:auto!important;width:min(100%,820px)!important;max-width:820px!important;height:auto!important;min-height:0!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;}
+main.final-buyer-guide .final-buyer-hero > div {order:0!important;display:block!important;width:100%!important;max-width:820px!important;padding:0!important;margin:0 auto 22px!important;text-align:center!important;border:0!important;box-shadow:none!important;background:transparent!important;}
+main.final-buyer-guide .final-buyer-hero h1 {text-align:center!important;margin:0 auto 12px!important;width:100%!important;max-width:820px!important;}
+main.final-buyer-guide .final-buyer-hero > div > p {margin:10px auto 0!important;max-width:720px!important;text-align:center!important;line-height:1.75!important;}
+main.final-buyer-guide .final-buyer-hero figure {order:1!important;display:block!important;width:100%!important;max-width:820px!important;margin:0 auto!important;padding:0!important;border:0!important;box-shadow:none!important;background:transparent!important;overflow:hidden!important;}
+main.final-buyer-guide .final-buyer-hero figure img {display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center center!important;}
+main.final-buyer-guide .final-buyer-hero::before,main.final-buyer-guide .final-buyer-hero::after,main.final-buyer-guide .final-buyer-hero figure::before,main.final-buyer-guide .final-buyer-hero figure::after {content:none!important;display:none!important;}
+main.final-buyer-guide .final-buyer-steps {display:grid!important;width:min(100%,820px)!important;max-width:820px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:22px!important;margin:0 auto!important;padding:30px 24px!important;border:1px solid #dadbd3!important;border-top:0!important;box-sizing:border-box!important;}
+main.final-buyer-guide .final-buyer-steps article {min-width:0!important;margin:0!important;}
+main.final-buyer-guide .final-single-cta {width:min(100%,820px)!important;max-width:820px!important;margin:0 auto!important;}
+@media(max-width:700px){main.final-buyer-guide{padding:20px 12px 45px!important}main.final-buyer-guide .final-buyer-steps{grid-template-columns:1fr!important;gap:16px!important;padding:20px 15px!important}}
+/* Preapproval: make its existing article layout obey the exact large photo / centered headline treatment. */
+main.reading-final-layout>.ss23-guide-opening,main.reading-final-layout>.ss23-guide-opening>.ss23-guide-title,main.reading-final-layout>.ss23-guide-opening>figure {border:0!important;box-shadow:none!important;}
+main.reading-final-layout>.ss23-guide-opening>figure {display:block!important;width:100%!important;max-width:820px!important;margin:0 auto!important;padding:0!important;}
+main.reading-final-layout>.ss23-guide-opening>figure>img {display:block!important;width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important;object-position:center!important;}
+
+
+/* assets/sitewide-repair-20261009.css */
+
+/* Site-wide editorial QA fixes: no colored strips, one outlined reading box */
+html body .siteHeader img,html body header.siteHeader img{max-width:190px!important;max-height:68px!important;object-fit:contain!important}
+html body .siteHeader a img[src*="dominique-key"],html body header img[src*="dominique-key"]{width:auto!important;max-width:72px!important;max-height:66px!important}
+html body .article-blog-repaired header img{max-width:160px!important;max-height:70px!important}
+/* Consistent grid: preserve complete photographs and keep controls aligned */
+html body .loanHubGrid,html body .blogGrid,html body .journalGrid{align-items:stretch!important;grid-auto-rows:auto!important}
+html body .loanHubGrid > .loanHubItem,html body .loanHubGrid > article,html body .blogGrid > article,html body .journalGrid > article{display:flex!important;flex-direction:column!important;height:100%!important;min-height:470px!important;overflow:hidden!important;background:#fff!important;border:1px solid #dadbd7!important}
+html body .loanHubGrid .ss18-card-photo,html body .loanHubGrid .v27-photo-frame,html body .loanHubGrid .loanHubItem>a:first-child{display:flex!important;align-items:center!important;justify-content:center!important;height:235px!important;min-height:235px!important;max-height:235px!important;overflow:hidden!important;background:#fff!important}
+html body .loanHubGrid .ss18-card-photo img,html body .loanHubGrid .v27-photo-frame img,html body .loanHubGrid .loanHubItem>a:first-child img{width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important}
+html body .loanHubGrid .loanHubItem .loanHubTitle,html body .loanHubGrid .loanHubItem h2,html body .loanHubGrid .loanHubItem h3{overflow:visible!important;display:block!important}
+html body .loanHubGrid .loanHubItem .loanHubExcerpt,html body .loanHubGrid .loanHubItem .loanHubSummary{overflow:hidden!important;display:-webkit-box!important;-webkit-line-clamp:3!important;-webkit-box-orient:vertical!important}
+html body .loanHubGrid .loanHubItem>a:last-child,html body .loanHubGrid .loanHubItem .loanHubLearnMore,html body .loanHubGrid .loanHubItem .loanHubButton{margin-top:auto!important}
+/* Restore the approved article flow: title, large photo, breathing space, a SINGLE closed prose border */
+html body main.reading-final-layout .ss23-guide-opening,html body main.ss-reading-4635 .ss23-guide-opening{border:0!important;box-shadow:none!important;outline:0!important}
+html body main.reading-final-layout .ss23-guide-body,html body main.ss-reading-4635 .ss23-guide-body{border:1px solid #d9dcd8!important;outline:0!important;box-shadow:none!important;margin:34px auto 55px!important;background:white!important}
+html body main.reading-final-layout .ss23-guide-body *,html body main.ss-reading-4635 .ss23-guide-body *{box-shadow:none!important}
+html body main.reading-final-layout .ss23-guide-body>*,html body main.ss-reading-4635 .ss23-guide-body>*{border-left:0!important;border-right:0!important}
+html body main.reading-final-layout .v27-photo-frame,html body main.ss-reading-4635 .v27-photo-frame{border:0!important;box-shadow:none!important;margin-bottom:0!important}
+html body main.reading-final-layout .v27-photo-frame img,html body main.ss-reading-4635 .v27-photo-frame img{object-fit:contain!important;max-width:100%!important;height:auto!important}
+/* Life Changes articles use their own class; keep a large article photograph followed by one reading rectangle */
+html body main.ss21-article .ss21-article-photo{border:0!important;box-shadow:none!important}
+html body main.ss21-article .ss21-article-photo img{object-fit:contain!important;height:auto!important;max-height:none!important}
+/* October 9 journal articles: never expose unstyled oversized logos; no colored block strips */
+html body.article-blog-repaired .article-hero{width:min(850px,92vw)!important;max-width:850px!important;margin:35px auto 0!important;display:flex!important;flex-direction:column!important;gap:20px!important;background:#fff!important}
+html body.article-blog-repaired .article-hero-copy{text-align:center!important;width:100%!important;max-width:100%!important;order:0!important}
+html body.article-blog-repaired .article-hero-image{order:1!important;width:100%!important;max-width:100%!important}
+html body.article-blog-repaired .article-hero-image img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:560px!important;object-fit:contain!important}
+html body.article-blog-repaired main>.article-lede{max-width:850px!important;width:min(850px,92vw)!important;margin:34px auto 0!important;padding:48px 40px 20px!important;border:1px solid #dadbd7!important;border-bottom:0!important;background:#fff!important}
+html body.article-blog-repaired main>.article-layout,html body.article-blog-repaired main>.article-layout.after-planner{max-width:850px!important;width:min(850px,92vw)!important;margin:0 auto!important;padding:25px 40px 55px!important;border-left:1px solid #dadbd7!important;border-right:1px solid #dadbd7!important;background:#fff!important}
+html body.article-blog-repaired main>.article-layout.after-planner{border-bottom:1px solid #dadbd7!important}
+html body.article-blog-repaired .care-strip,html body.article-blog-repaired .quote-feature{background:#fff!important;border:0!important;box-shadow:none!important}
+@media(max-width:720px){html body.article-blog-repaired main>.article-lede,html body.article-blog-repaired main>.article-layout{padding-left:20px!important;padding-right:20px!important}html body .loanHubGrid .ss18-card-photo{height:220px!important;min-height:220px!important}}
+
+
+/* assets/sitewide-final-photo-reading-fix.css */
+
+/* 2026-10-09: preserve approved article reading layout. A single rectangular content box starts AFTER the large hero photo. */
+html body main.ss-reading-4635 .ss21-article-photo img,html body main.ss-reading-4635 .ss23-guide-opening figure img,html body main.reading-final-layout .ss21-article-photo img,html body main.reading-final-layout .ss23-guide-opening figure img{object-fit:contain!important;height:auto!important;aspect-ratio:auto!important;max-height:none!important}
+html body main.ss-reading-4635 .ss21-article-photo,html body main.reading-final-layout .ss21-article-photo{border:none!important;margin-bottom:32px!important}
+html body main.ss-reading-4635 .ss21-body,html body main.reading-final-layout .ss21-body{border:1px solid #dadbd7!important;padding:38px 44px!important;margin:32px auto 56px!important;box-sizing:border-box!important;box-shadow:none!important;background:#fff!important}
+html body main.ss-reading-4635 .ss21-body .article-content-box,html body main.reading-final-layout .ss21-body .article-content-box{border:none!important;box-shadow:none!important}
+/* Life-change question cards: equal images, no cropping, readable unclipped summaries, aligned learn more. */
+html body .loanHubGrid>.loanHubItem{height:100%!important;min-height:495px!important;display:flex!important;flex-direction:column!important;overflow:visible!important}
+html body .loanHubGrid .ss18-card-photo,html body .loanHubGrid .v27-photo-frame{height:225px!important;min-height:225px!important;max-height:225px!important;background:white!important}
+html body .loanHubGrid .ss18-card-photo img,html body .loanHubGrid .v27-photo-frame img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important}
+html body .loanHubGrid .loanHubItem>a:last-child{margin-top:auto!important}
+@media(max-width:740px){html body main.ss-reading-4635 .ss21-body{padding:24px 20px!important}}
+/* 2026-10-09: keep journal header icons from scaling to intrinsic PNG size. */
+body .ss22-header .ss22-brand{display:inline-flex;align-items:center;gap:8px;min-width:0}
+body .ss22-header .ss22-brand>img{display:block!important;width:33px!important;height:33px!important;max-width:33px!important;max-height:33px!important;min-width:33px!important;object-fit:contain!important;flex:0 0 33px!important}
+body .ss22-header .ss22-rise>img{max-height:34px!important;width:auto!important;object-fit:contain!important}
+
+
+/* assets/plain-blog-approved.css */
+/* October 9 posts: same quiet article treatment as the approved site articles. */
+body.ss-approved-blog main.ss-simple-blog{display:block!important;position:static!important;width:min(92%,900px)!important;max-width:900px!important;margin:36px auto 90px!important;padding:0!important;background:transparent!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero{display:block!important;width:100%!important;max-width:820px!important;height:auto!important;min-height:0!important;margin:0 auto 42px!important;padding:0!important;position:static!important;background:transparent!important;border:0!important;box-shadow:none!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero>.article-hero-copy{display:block!important;width:100%!important;max-width:760px!important;margin:0 auto 24px!important;padding:0!important;background:transparent!important;text-align:center!important;position:static!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero h1{font:400 clamp(27px,3vw,42px)/1.2 Arial,sans-serif!important;letter-spacing:-.025em!important;text-align:center!important;margin:0 auto 16px!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero .article-hero-copy p{max-width:680px!important;text-align:center!important;margin:0 auto 20px!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero>.article-hero-image{display:block!important;position:static!important;float:none!important;width:100%!important;max-width:760px!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;margin:28px auto 0!important;padding:0!important;background:transparent!important;border:0!important;overflow:visible!important;}
+body.ss-approved-blog main.ss-simple-blog>.article-hero>.article-hero-image img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;clip-path:none!important;transform:none!important;}
+body.ss-approved-blog main.ss-simple-blog>.ss-approved-article-box{display:block!important;position:static!important;float:none!important;width:100%!important;max-width:820px!important;margin:42px auto 0!important;padding:48px 54px!important;border:1px solid #d8d9d2!important;border-top:1px solid #d8d9d2!important;box-sizing:border-box!important;background:#fff!important;box-shadow:none!important;overflow:visible!important;}
+body.ss-approved-blog main.ss-simple-blog>.ss-approved-article-box>.plain-blog-section{display:block!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important;position:static!important;float:none!important;padding:0!important;margin:0 0 29px!important;background:transparent!important;border:0!important;min-height:0!important;}
+body.ss-approved-blog main.ss-simple-blog .plain-blog-section h2{font:400 clamp(22px,2.4vw,30px)/1.25 Arial,sans-serif!important;letter-spacing:-.025em!important;margin:0 0 16px!important;color:#203c30!important;}
+body.ss-approved-blog main.ss-simple-blog .plain-blog-section p,body.ss-approved-blog main.ss-simple-blog .plain-blog-section li{font:400 16px/1.85 Arial,sans-serif!important;letter-spacing:normal!important;color:#36423c!important;margin:0 0 15px!important;}
+body.ss-approved-blog main.ss-simple-blog .plain-blog-section ul{padding-left:24px!important;margin:0 0 20px!important;}
+body.ss-approved-blog main.ss-simple-blog .plain-blog-section:last-child{margin-bottom:0!important;}
+@media(max-width:650px){body.ss-approved-blog main.ss-simple-blog{width:calc(100% - 24px)!important;margin-top:28px!important}body.ss-approved-blog main.ss-simple-blog>.ss-approved-article-box{padding:26px 22px!important;margin-top:32px!important}}
+
+
+/* assets/locked-approved-reading-layout.css */
+
+/* Dominique Duncan-Nelson — screenshot-approved 4709 editorial layout; do not redesign. */
+html body main.reading-final-layout {display:block!important;max-width:100%!important;}
+html body main.reading-final-layout > .ss23-guide-opening {display:block!important;max-width:100%!important;}
+html body main.reading-final-layout > .ss-visible-reading-gap {display:block!important;height:44px!important;min-height:44px!important;max-height:44px!important;clear:both!important;width:100%!important;background:transparent!important;border:0!important;box-shadow:none!important;}
+html body main.reading-final-layout > .ss23-guide-body {display:block!important;box-sizing:border-box!important;width:min(850px,calc(100% - 40px))!important;max-width:850px!important;margin:0 auto 70px!important;padding:62px 60px!important;border:1px solid #d9d9d2!important;outline:0!important;border-radius:0!important;background:#fff!important;box-shadow:none!important;overflow:visible!important;}
+html body main.reading-final-layout > .ss23-guide-body:before,html body main.reading-final-layout > .ss23-guide-body:after {display:none!important;content:none!important;}
+html body main.reading-final-layout .ss23-guide-opening img {object-fit:contain!important;object-position:center!important;transform:none!important;max-width:100%!important;}
+/* Normal standalone posts use exactly the same width, gap, and border as articles. */
+html body main.ss-simple-blog {display:block!important;max-width:100%!important;width:100%!important;margin:0 auto!important;padding:25px 20px 65px!important;background:#fff!important;}
+html body main.ss-simple-blog .article-hero {display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;max-width:850px!important;width:100%!important;margin:0 auto!important;padding:0!important;background:transparent!important;min-height:0!important;height:auto!important;border:0!important;box-shadow:none!important;}
+html body main.ss-simple-blog .article-hero-copy {display:block!important;text-align:center!important;order:0!important;width:100%!important;max-width:850px!important;padding:0!important;margin:0 auto 34px!important;background:transparent!important;}
+html body main.ss-simple-blog .article-hero-copy h1 {text-align:center!important;margin:0 auto!important;max-width:850px!important;font-weight:400!important;font-size:clamp(29px,3vw,42px)!important;line-height:1.16!important;letter-spacing:-.025em!important;}
+html body main.ss-simple-blog .article-hero-copy > p,html body main.ss-simple-blog .article-hero-copy .overline,html body main.ss-simple-blog .article-hero-copy .byline,html body main.ss-simple-blog .article-hero-copy .article-navline {display:none!important;}
+html body main.ss-simple-blog .article-hero-image {display:block!important;order:1!important;width:min(705px,100%)!important;max-width:705px!important;margin:0 auto!important;padding:0!important;position:static!important;min-height:0!important;height:auto!important;aspect-ratio:auto!important;background:transparent!important;border:0!important;overflow:visible!important;}
+html body main.ss-simple-blog .article-hero-image img {display:block!important;position:static!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;border:0!important;}
+html body main.ss-simple-blog > .ss-approved-article-box {box-sizing:border-box!important;display:block!important;width:min(730px,100%)!important;max-width:730px!important;min-height:0!important;margin:44px auto 50px!important;padding:65px 80px!important;border:1px solid #d9d9d2!important;border-radius:0!important;outline:0!important;background:#fff!important;box-shadow:none!important;overflow:visible!important;column-count:1!important;}
+html body main.ss-simple-blog > .ss-approved-article-box:before,html body main.ss-simple-blog > .ss-approved-article-box:after {display:none!important;content:none!important;}
+html body main.ss-simple-blog .plain-blog-section {display:block!important;position:static!important;width:100%!important;padding:0!important;margin:0 0 27px!important;background:transparent!important;border:0!important;box-shadow:none!important;}
+html body main.ss-simple-blog .plain-blog-section h2 {font-size:clamp(23px,2.1vw,30px)!important;line-height:1.3!important;margin:28px 0 18px!important;}
+html body main.ss-simple-blog .plain-blog-section p {font-size:16px!important;line-height:1.8!important;max-width:100%!important;}
+/* Equal cards with complete photo subjects instead of cropping heads. */
+html body .loanHubItem .loanFront .v27-natural-photo,html body .loanHubItem > a.ss18-card-photo img,html body .loanHubGrid img,html body .questionHubGrid img,html body .ss18-card-photo img,html body .life-question-card img,html body .question-card img {object-fit:contain!important;object-position:center!important;transform:none!important;}
+html body .loanHubItem > a.ss18-card-photo,html body .loanHubGrid .loanFront>a,html body .questionHubGrid .question-card-image {background:#f4f2ed!important;overflow:hidden!important;}
+@media(max-width:700px){html body main.reading-final-layout > .ss23-guide-body {padding:33px 23px!important;width:calc(100% - 30px)!important;}html body main.ss-simple-blog > .ss-approved-article-box{padding:35px 24px!important;}html body main.ss-simple-blog{padding:20px 15px 35px!important;}}
+
+
+/* assets/card-entire-photo-visible.css */
+/* Dominique Duncan-Nelson — card photograph shows 100% of original frame; screenshot 4711 rule.
+   Do not apply fixed 4:3 image heights or object-fit:cover to card photography. */
+html body.ss18 #main.v27-review .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame,
+html body.ss18 #main.questionHubPage .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame,
+html body .loanHubGrid .loanHubItem > a.ss18-card-photo,
+html body .loanHubGrid .loanHubItem > a.v27-photo-frame {
+  display:block!important; width:100%!important; height:auto!important;
+  min-height:0!important; max-height:none!important;
+  aspect-ratio:auto!important; overflow:visible!important;
+  padding:0!important; line-height:0!important;
+  background:transparent!important;
+}
+html body.ss18 #main.v27-review .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame img.v27-natural-photo,
+html body.ss18 #main.questionHubPage .loanHubGrid .loanHubItem > a.ss18-card-photo.v27-photo-frame img.v27-natural-photo,
+html body .loanHubGrid .loanHubItem > a.ss18-card-photo img,
+html body .loanHubGrid .loanHubItem > a.v27-photo-frame img {
+  display:block!important; position:static!important;
+  width:100%!important; height:auto!important;
+  min-height:0!important; max-height:none!important;
+  aspect-ratio:auto!important; object-fit:contain!important;
+  object-position:center center!important; transform:none!important;
+  clip-path:none!important; inset:auto!important;
+}
+/* Do not put a fixed photo-height ceiling on other story grids. */
+html body .questionHubGrid .question-card-image,
+html body .questionHubGrid .question-card-image img,
+html body .life-question-card .card-image,
+html body .life-question-card .card-image img {
+ height:auto!important;max-height:none!important;aspect-ratio:auto!important;
+ object-fit:contain!important;transform:none!important;
+}
+
+
+/* assets/photo-card-fix-verified.css */
+/* Approved photo treatment: preserve entire photograph; never use clipped cover crops. */
+html body .loanHubGrid .loanHubItem{display:flex!important;flex-direction:column!important;height:auto!important;min-height:0!important;overflow:visible!important;}
+html body .loanHubGrid .loanHubItem>a.ss18-card-photo,
+html body .loanHubGrid .loanHubItem>a.v27-photo-frame,
+html body .loanHubGrid .loanHubItem .ss18-card-photo,
+html body .loanHubGrid .loanHubItem .v27-photo-frame{display:block!important;position:relative!important;flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important;line-height:0!important;background:transparent!important;padding:0!important;margin:0!important;}
+html body .loanHubGrid .loanHubItem>a.ss18-card-photo>img,
+html body .loanHubGrid .loanHubItem>a.v27-photo-frame>img,
+html body .loanHubGrid .loanHubItem .ss18-card-photo img,
+html body .loanHubGrid .loanHubItem .v27-photo-frame img{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important;}
+html body .loanHubGrid .loanHubItem .loanHubBtn,
+html body .loanHubGrid .loanHubItem .loanHubLink{margin-top:auto!important;}
+html body .loanHubGrid{align-items:stretch!important;}
+/* Extend same rule to standard image-first question-card types. */
+html body .questionHubGrid .question-card-image,
+html body .questionHubGrid .question-card-image img,
+html body .life-question-card .card-image,
+html body .life-question-card .card-image img{height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;overflow:visible!important;transform:none!important;clip-path:none!important;}
+/* Full original photo on story pages, matching approved screenshot 4711. */
+html body .article-hero-image img,
+html body .articleHero img,
+html body .reading-photo img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;}
+
+
+/* assets/site-audit-4711.css */
+/* Screenshot 4711: one full photograph, then one closed rectangular reading box.
+   This is the authoritative shared layout for every article and standalone blog. */
+html body.ss4711-reading-page { background:#f8f7f3!important; }
+html body main#main#main#main.ss4711-article {
+ display:block!important; width:100%!important; max-width:none!important;
+ margin:0!important; padding:40px 20px 70px!important; box-sizing:border-box!important;
+ background:#f8f7f3!important; color:#30382e!important; font-family:Arial,Helvetica,sans-serif!important;
+}
+html body main#main#main#main.ss4711-article > .ss4711-title {
+ display:block!important; position:static!important; width:min(100%,900px)!important;
+ margin:0 auto 32px!important; padding:0!important; border:0!important; background:transparent!important; text-align:center!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-title h1 {
+ font:400 clamp(28px,2.6vw,44px)/1.2 Arial,Helvetica,sans-serif!important;
+ letter-spacing:-.025em!important; color:#30382e!important; max-width:900px!important;
+ margin:0 auto!important; padding:0!important; text-align:center!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-date {
+ display:block!important; font:400 12px/1.7 Arial,Helvetica,sans-serif!important; letter-spacing:.06em!important;
+ margin:14px auto 0!important; text-align:center!important; color:#626957!important;
+}
+html body main#main#main#main.ss4711-article > .ss4711-photo {
+ display:block!important; position:static!important; width:min(100%,760px)!important; max-width:760px!important;
+ height:auto!important; min-height:0!important; max-height:none!important; aspect-ratio:auto!important;
+ margin:0 auto!important; padding:0!important; background:transparent!important; border:0!important;
+ border-radius:0!important; overflow:visible!important; box-shadow:none!important;
+}
+html body main#main#main#main.ss4711-article > .ss4711-photo img { display:block!important; width:100%!important; height:auto!important; }
+html body main#main#main#main.ss4711-article > .ss4711-copy {
+ display:block!important; position:static!important; box-sizing:border-box!important;
+ width:min(100%,820px)!important; max-width:820px!important; margin:40px auto 0!important;
+ padding:46px 53px 50px!important; border:1px solid #d8d9d2!important; border-radius:0!important;
+ background:#fff!important; color:#30382e!important; box-shadow:none!important; overflow:visible!important;
+ font:400 16px/1.85 Arial,Helvetica,sans-serif!important; text-align:left!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-copy:before,
+html body main#main#main#main.ss4711-article .ss4711-copy:after { display:none!important; content:none!important; }
+html body main#main#main#main.ss4711-article .ss4711-copy :is(section,article,header,aside,.ss4711-section) {
+ display:block!important; position:static!important; width:auto!important; max-width:100%!important;
+ min-height:0!important; margin:0 0 28px!important; padding:0!important; border:0!important;
+ border-radius:0!important; background:transparent!important; box-shadow:none!important; text-align:left!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-copy :is(p,li) {
+ font:400 16px/1.85 Arial,Helvetica,sans-serif!important; color:#30382e!important;
+ max-width:none!important; padding:0!important; border:0!important; background:transparent!important;
+ letter-spacing:normal!important; text-align:left!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-copy p {margin:0 0 18px!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy :is(h2,h3) {
+ font:400 clamp(23px,2vw,29px)/1.3 Arial,Helvetica,sans-serif!important; color:#30382e!important;
+ letter-spacing:-.02em!important; text-align:left!important; margin:28px 0 15px!important;
+ padding:0!important; max-width:none!important; background:transparent!important;
+}
+html body main#main#main#main.ss4711-article .ss4711-copy h3 {font-size:21px!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy strong {font-weight:600!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy > :first-child {margin-top:0!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy > :last-child {margin-bottom:0!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy .ss24-related-links {display:flex!important;flex-wrap:wrap!important;gap:12px!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy .qseo-cta,
+html body main#main#main#main.ss4711-article .ss4711-copy .final-single-cta {border-top:1px solid #d8d9d2!important;padding-top:24px!important;margin-top:30px!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy .f4-matrix-wrap {width:100%!important;overflow-x:auto!important;}
+html body main#main#main#main.ss4711-article .ss4711-copy table {width:100%!important;max-width:100%!important;}
+/* Full source image, no cropping and no zoom on hover. Image-only frames use its natural ratio. */
+html body main#main#main#main [data-full-photo], html body main [data-full-photo] {
+ object-fit:contain!important; object-position:center center!important; transform:none!important;
+ clip-path:none!important; filter:none!important;
+}
+html body main#main#main#main [data-full-photo-frame], html body main [data-full-photo-frame] {
+ display:block!important; position:relative!important; width:100%!important;
+ height:auto!important; min-height:0!important; max-height:none!important; aspect-ratio:auto!important;
+ padding:0!important; overflow:visible!important; flex:0 0 auto!important;
+ line-height:0!important; background:transparent!important; transform:none!important;
+}
+html body main#main#main#main [data-full-photo-frame] > [data-full-photo], html body main [data-full-photo-frame] > [data-full-photo] {
+ display:block!important; position:static!important; inset:auto!important;
+ width:100%!important; height:auto!important; min-height:0!important; max-height:none!important;
+ aspect-ratio:auto!important; margin:0!important; padding:0!important; border-radius:0!important;
+}
+html body main#main#main#main .loanHubGrid .loanHubItem {
+ display:flex!important; flex-direction:column!important; height:auto!important; min-height:0!important;
+ overflow:visible!important;
+}
+html body main#main#main#main .loanHubGrid .loanLearn {margin-top:auto!important;}
+
+/* Remove legacy white mattes around the staging photographs and floor plan. */
+html body main#main#main#main .ss22-plan-gallery img[data-full-photo] {
+ border:0!important; box-shadow:none!important;
+}
+html body main#main#main#main .loanHubGrid .final-static-answer {height:auto!important;min-height:0!important;}
+html body main#main#main#main .loanHubGrid .final-static-answer-copy {height:auto!important;max-height:none!important;overflow:visible!important;}
+/* Photo wrappers must not impose a second crop above the immediate image frame. */
+html body main#main#main#main .ss22-service-card > img[data-full-photo],
+html body main#main#main#main .ss22-project > img[data-full-photo],
+html body main#main#main#main .portfolioParentCard > img[data-full-photo],
+html body main#main#main#main .ss-city-card > img[data-full-photo] {
+ display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;
+}
+@media(max-width:700px) {
+ html body main#main#main#main.ss4711-article {padding:28px 16px 44px!important;}
+ html body main#main#main#main.ss4711-article > .ss4711-title {margin-bottom:24px!important;}
+ html body main#main#main#main.ss4711-article > .ss4711-copy {margin-top:28px!important;padding:26px 22px 30px!important;}
+ html body main#main#main#main.ss4711-article .ss4711-copy :is(p,li) {font-size:16px!important;line-height:1.8!important;}
+}
+
+/* Release old line clamps and fixed text rows as well as the photo frame. */
+html body main#main#main#main .loanHubGrid .loanHubItem :is(.final-static-answer,.final-static-answer-copy,h2,h3,p) {
+ height:auto!important; min-height:0!important; max-height:none!important;
+ overflow:visible!important; -webkit-line-clamp:unset!important; line-clamp:unset!important;
+ display:block!important; flex:0 0 auto!important;
+}
+html body main#main#main#main .loanHubGrid .final-static-answer {padding:22px 20px!important;}
+html body main#main#main#main .loanHubGrid .final-static-answer h2 {margin:12px 0!important;}
+html body main#main#main#main .loanHubGrid .final-static-answer-copy {padding:14px 0 0!important;}
+html body main#main#main#main .loanHubGrid .final-static-answer-copy p {margin:0!important;}
+html body main#main#main#main .loanHubGrid {grid-auto-rows:auto!important;grid-template-rows:none!important;align-items:stretch!important;}
+html body main#main#main#main .loanHubGrid > .loanHubItem {height:auto!important;max-height:none!important;min-height:0!important;align-self:stretch!important;}
+html body main#main#main#main .loanHubGrid .loanLearn {position:static!important;flex:0 0 auto!important;height:auto!important;max-height:none!important;min-height:52px!important;display:flex!important;}
+
+/* 4718 revision: identical photo dimensions and equal cards across every row.
+   Fill maps every source edge into the frame without cropping or filler strips.
+   Article photos retain their natural proportions above. */
+html body main#main#main#main .loanHubGrid {
+ grid-auto-rows:1fr!important; grid-template-rows:none!important;
+ align-items:stretch!important;
+}
+html body main#main#main#main .loanHubGrid > .loanHubItem {
+ box-sizing:border-box!important; height:100%!important; min-height:0!important;
+ display:flex!important; flex-direction:column!important;
+}
+html body main#main#main#main [data-uniform-photo-frame] {
+ aspect-ratio:4 / 3!important; height:auto!important; width:100%!important;
+ min-height:0!important; max-height:none!important; padding:0!important;
+ border:0!important; border-radius:0!important; overflow:visible!important;
+ background:none!important; flex:0 0 auto!important;
+}
+html body main#main#main#main img[data-full-photo][data-uniform-photo][data-uniform-photo] {
+ display:block!important; width:100%!important; height:auto!important;
+ aspect-ratio:4 / 3!important; object-fit:fill!important;
+ object-position:center!important; position:static!important;
+ min-height:0!important; max-height:none!important; margin:0!important;
+ padding:0!important; border:0!important; border-radius:0!important;
+ transform:none!important; clip-path:none!important; filter:none!important;
+}
+html body main#main#main#main [data-uniform-photo-frame]::before,
+html body main#main#main#main [data-uniform-photo-frame]::after {content:none!important;display:none!important;}
+html body main#main#main#main .loanHubGrid .final-static-answer {flex:1 0 auto!important;}
+html body main#main#main#main .loanHubGrid .loanLearn {margin-top:auto!important;}
+
+/* Keep all cards equal across rows, including home, portfolio, and platform grids. */
+/* Keep the collage captions in the exposed outer edges beside the title card. */
+html body main#main#main#main .propertyCollageHero {
+ background:transparent!important; padding:0!important; gap:12px!important;
+}
+html body main#main#main#main .propertyCollageHero > figure {
+ margin:0!important; align-self:start!important;
+}
+@media (min-width:821px) {
+ html body main#main#main#main .propertyCollageHero {
+  width:min(1240px,calc(100% - 48px),calc((100svh - 230px) * 4 / 3))!important;
+  margin:18px auto!important; display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ }
+ html body main#main#main#main .propertyCollageTitle {
+  width:min(500px,44%)!important; min-height:0!important;
+  box-sizing:border-box!important; padding:28px 24px!important;
+ }
+ html body main#main#main#main .propertyCollageTitle h1 {
+  font-size:clamp(28px,3.2vw,48px)!important; line-height:1.05!important;
+  margin:14px 0!important;
+ }
+ html body main#main#main#main .propertyCollageTitle p {
+  font-size:14px!important; line-height:1.5!important; margin:0!important;
+ }
+ html body main#main#main#main .propertyCollageHero > figure > figcaption {
+  padding:10px 14px!important; box-sizing:border-box!important;
+  min-height:40px!important; font-size:9px!important; letter-spacing:.08em!important;
+ }
+ html body main#main#main#main .propertyCollageHero > figure:nth-of-type(odd) > figcaption {
+  text-align:left!important; justify-content:flex-start!important;
+ }
+ html body main#main#main#main .propertyCollageHero > figure:nth-of-type(even) > figcaption {
+  text-align:right!important; justify-content:flex-end!important;
+ }
+}
+@media (max-width:820px) {
+ html body main#main#main#main .propertyCollageHero {
+  width:min(calc(100% - 28px),calc((100svh - 360px) * 4 / 3))!important;
+  display:grid!important; grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  grid-template-rows:auto auto auto!important; gap:8px!important;
+  margin:12px auto 20px!important; height:auto!important; min-height:0!important;
+ }
+ html body main#main#main#main .propertyCollageTitle {
+  grid-column:1 / -1!important; grid-row:1!important; order:0!important;
+  position:relative!important; inset:auto!important; transform:none!important;
+  width:100%!important; min-height:0!important; padding:12px 14px!important;
+  box-sizing:border-box!important;
+ }
+ html body main#main#main#main .propertyCollageTitle span {
+  font-size:9px!important; line-height:1.4!important; letter-spacing:.12em!important;
+ }
+ html body main#main#main#main .propertyCollageTitle h1 {
+  font-size:32px!important; line-height:1.05!important; margin:8px 0!important;
+ }
+ html body main#main#main#main .propertyCollageTitle p {
+  font-size:12px!important; line-height:1.45!important; margin:0!important;
+ }
+ html body main#main#main#main .propertyCollageHero > figure > figcaption {
+  display:flex!important; align-items:center!important; justify-content:center!important;
+  height:32px!important; min-height:32px!important; flex:0 0 32px!important;
+  padding:4px!important; font-size:8px!important; line-height:1.35!important;
+  letter-spacing:.04em!important; text-align:center!important; box-sizing:border-box!important;
+ }
+}
+html body main#main#main#main :is(.ss22-services-grid,.portfolioParentGrid,.ss34-platform-grid) {
+ grid-auto-rows:1fr!important; align-items:stretch!important;
+}
+html body main#main#main#main :is(.ss22-services-grid > .ss90-home-card,.portfolioParentGrid > .portfolioParentCard,.ss34-platform-grid > .ss34-platform-card) {
+ box-sizing:border-box!important; height:100%!important; min-height:0!important;
+ align-self:stretch!important; display:flex!important; flex-direction:column!important;
+}
+
+/* Keep loading image descriptions from flashing as blue text in photo links. */
+html body img[data-full-photo]{color:transparent!important;font-size:0!important;}
+
+/* Page content is present immediately, without entrance or reveal delays. */
+html body main#main > section:not(.videoHero):not(.heroDominique),
+html body main#main > .ctPage > section {animation:none!important;}
+html body main#main.final-about > section {opacity:1!important;visibility:visible!important;transform:none!important;animation:none!important;}
+html body main#main :is(.cityReveal,.reveal,[data-reveal]) {opacity:1!important;transform:none!important;transition:none!important;}
+
+/* Preserve the existing property hero and title; expose all numbered captions. */
+html body main#main#main#main .propertyCollageHero > figure {aspect-ratio:auto!important;}
+html body main#main#main#main .propertyCollageHero > figure > img{flex:0 0 auto!important;}
+html body main#main#main#main .propertyCollageHero > figure > figcaption{position:relative!important;inset:auto!important;z-index:5!important;transform:none!important;width:fit-content!important;max-width:56%!important;margin:0!important;box-shadow:none!important;background:#30382ebf!important;color:#fff!important;}
+html body main#main#main#main :is(.f4-matrix-wrap,.f4-matrix-wrap){width:100%!important;overflow-x:auto!important;}
+
+@media(min-width:821px){
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(odd) > figcaption{align-self:flex-start!important;margin-left:0!important;margin-right:auto!important;}
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(even) > figcaption{align-self:flex-end!important;margin-left:auto!important;margin-right:0!important;}
+}
+@media(max-width:820px){html body main#main#main#main .propertyCollageHero > figure > figcaption{width:100%!important;max-width:100%!important;}}
+
+/* Reserve the source photo ratio before lazy images arrive. */
+html body main#main#main#main img[data-full-photo]:not([data-uniform-photo]){aspect-ratio:var(--ss-photo-ratio,auto)!important;}
+
+/* Room collections reuse the portfolio cards; individual galleries stay fully visible. */
+html body main#main#main#main .portfolioRoomCards {padding-top:36px!important;padding-bottom:48px!important;}
+html body main#main#main#main.portfolioRoomPage .portfolioRoomGallery {width:min(1240px,calc(100% - 40px));margin:0 auto;padding:24px 0 36px;}
+html body main#main#main#main .portfolioBackLink {display:inline-block;margin-bottom:18px;font-size:13px;}
+html body main#main#main#main .portfolioBottomBack {margin:0 20px 40px;}
+/* Number boxes sit on the photographs at the exposed outer corners. */
+html body main#main#main#main .propertyCollageHero > figure {position:relative!important;}
+html body main#main#main#main .propertyCollageHero > figure > figcaption {position:absolute!important;top:auto!important;bottom:12px!important;max-width:52%!important;}
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(odd) > figcaption {left:12px!important;right:auto!important;}
+html body main#main#main#main .propertyCollageHero > figure:nth-of-type(even) > figcaption {right:12px!important;left:auto!important;}
+@media(max-width:820px){html body main#main#main#main .propertyCollageHero > figure > figcaption {left:4px!important;right:4px!important;bottom:4px!important;width:calc(100% - 8px)!important;max-width:100%!important;}}
+
+@media(max-width:820px){html body main#main#main#main .propertyCollageHero > figure:nth-of-type(n) > figcaption {left:4px!important;right:auto!important;}}
+
+/* Room photos keep their full card frame; captions expand without squeezing the photo. */
+html body main#main#main#main .portfolioRoomCards > .portfolioParentCard {aspect-ratio:auto!important;height:100%!important;}
+html body main#main#main#main .portfolioRoomCards > .portfolioParentCard > img[data-full-photo][data-uniform-photo] {flex:0 0 auto!important;aspect-ratio:4 / 3!important;height:auto!important;}
+html body main#main#main#main .portfolioRoomCards .portfolioParentCardContent {height:auto!important;min-height:0!important;max-height:none!important;flex:1 0 auto!important;}
+

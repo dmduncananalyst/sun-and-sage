@@ -1,0 +1,120 @@
+Source destinations requiring follow-up (existing links retained; no guessed URLs)
+
+https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5551.
+Official California legislative URL; HTTP 403 and web retrieval blocked. No replacement invented.
+Used on:
+  blog-california-condo-crisis-sb326-2026.html
+
+https://selfhelp.courts.ca.gov/divorce-california
+Official page found in current search index (www hostname); direct retrieval failed. Existing href retained.
+Used on:
+  blog-is-it-time-for-divorce.html
+
+https://selfhelp.courts.ca.gov/divorce/property-debts
+Destination corroborated by official California Courts PDFs, but direct retrieval failed. Existing href retained.
+Used on:
+  blog-is-it-time-for-divorce.html
+  life-changes/divorce/can-i-afford-my-house-on-one-income-after-a-divorce.html
+  life-changes/divorce/can-i-buy-another-house-while-i-m-still-going-through-a-divorce.html
+  life-changes/divorce/can-i-buy-my-spouse-out-of-the-house.html
+  life-changes/divorce/can-i-refinance-the-house-to-buy-out-my-ex-spouse.html
+  life-changes/divorce/can-i-sell-the-house-if-my-spouse-refuses.html
+  life-changes/divorce/can-my-spouse-buy-me-out-of-the-house.html
+  life-changes/divorce/can-my-spouse-force-me-to-sell-the-house.html
+  life-changes/divorce/do-i-have-to-sell-my-house-if-im-getting-divorced.html
+  life-changes/divorce/do-we-have-to-sell-the-house-before-the-divorce-is-final.html
+  life-changes/divorce/how-do-i-get-my-ex-off-the-mortgage.html
+  life-changes/divorce/how-do-i-get-my-ex-off-the-title.html
+  life-changes/divorce/how-do-we-figure-out-how-much-equity-we-have.html
+  life-changes/divorce/how-is-home-equity-split-in-a-divorce.html
+  life-changes/divorce/how-long-do-i-have-to-sell-the-house-after-a-divorce-settlement.html
+  life-changes/divorce/i-don-t-want-the-house-anymore-i-just-want-out-what-are-my-options.html
+  life-changes/divorce/i-m-getting-divorced-what-happens-to-the-house.html
+  life-changes/divorce/i-moved-out-but-my-spouse-is-still-living-in-the-house-what-happens-now.html
+  life-changes/divorce/i-want-to-keep-the-house-can-i.html
+  life-changes/divorce/is-it-better-to-sell-the-house-before-or-after-the-divorce-is-final.html
+  life-changes/divorce/my-divorce-is-messy-can-the-house-still-be-sold-without-making-things-worse.html
+  life-changes/divorce/my-husband-wants-to-sell-the-house-and-i-don-t-what-happens.html
+  life-changes/divorce/my-wife-wants-to-keep-the-house-and-i-want-my-share-of-the-money.html
+  life-changes/divorce/should-i-sell-the-house-or-keep-it-during-a-divorce.html
+  life-changes/divorce/should-we-wait-until-after-the-divorce-to-sell.html
+  life-changes/divorce/we-agree-to-sell-the-house-but-we-don-t-agree-on-anything-else-what-do-we-do.html
+  life-changes/divorce/we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html
+  life-changes/divorce/what-credit-score-do-i-need-to-refinance-after-a-divorce.html
+  life-changes/divorce/what-happens-if-we-owe-more-on-the-house-than-it-s-worth.html
+  life-changes/divorce/what-happens-to-the-mortgage-after-we-divorce.html
+  life-changes/divorce/what-happens-to-the-mortgage-if-my-ex-spouse-moves-out.html
+  life-changes/divorce/who-gets-the-house-in-a-divorce-if-both-names-are-on-the-mortgage.html
+  life-changes/divorce/who-gets-the-house-in-a-divorce.html
+  life-changes/divorce/will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html
+  life-changes/marriage/buy-a-house-before-or-after-the-wedding.html
+  life-changes/marriage/buying-a-home-together-when-one-spouse-already-owns-property.html
+  life-changes/marriage/buying-a-house-together-when-one-spouse-has-better-credit.html
+  life-changes/marriage/can-married-couples-use-both-incomes-to-buy-a-house.html
+  life-changes/marriage/can-two-people-buy-a-house-together-if-only-one-has-good-credit.html
+  life-changes/marriage/do-we-need-to-be-married-to-qualify-for-a-joint-mortgage.html
+  life-changes/marriage/do-we-need-to-combine-finances-before-buying-a-home-together.html
+  life-changes/marriage/getting-married-and-need-more-space-should-you-move.html
+  life-changes/marriage/having-a-baby-and-need-more-space-should-you-move.html
+  life-changes/marriage/how-do-newlyweds-afford-a-house-with-student-loan-debt.html
+  life-changes/marriage/is-it-better-to-buy-a-home-together-or-keep-renting-until-were-more-settled.html
+  life-changes/marriage/on-title-but-not-mortgage-what-does-it-mean.html
+  life-changes/marriage/should-i-add-my-spouse-to-the-title-of-my-house.html
+  life-changes/marriage/should-newlyweds-rent-or-buy-a-home.html
+  life-changes/marriage/should-we-buy-a-house-after-getting-married.html
+  life-changes/marriage/should-we-buy-a-house-before-or-after-getting-married.html
+  life-changes/marriage/should-we-get-a-prenup-if-were-buying-a-house-together.html
+  life-changes/marriage/should-we-sell-both-homes-and-buy-one-together.html
+  life-changes/marriage/should-you-buy-a-bigger-home-before-starting-a-family.html
+  life-changes/marriage/what-happens-to-a-house-you-owned-before-marriage.html
+  life-changes/marriage/what-happens-to-the-house-if-we-get-divorced-later.html
+  life-changes/marriage/what-if-my-husband-already-owns-a-house-before-marriage.html
+  life-changes/marriage/what-price-range-can-we-afford-together.html
+  life-changes/marriage/whats-a-good-starter-home-for-a-newly-married-couple.html
+  life-changes/marriage/whose-name-should-go-on-the-house-title-if-were-not-married-yet.html
+
+https://selfhelp.courts.ca.gov/probate
+Exact official page found in current search index; direct retrieval failed. Existing href retained.
+Used on:
+  life-changes/death/can-i-keep-the-house-if-my-spouse-dies-and-i-cant-afford-the-mortgage-alone.html
+  life-changes/death/can-i-live-in-a-house-i-inherited.html
+  life-changes/death/can-i-sell-a-house-thats-still-in-probate.html
+  life-changes/death/can-siblings-force-the-sale-of-an-inherited-house.html
+  life-changes/death/do-i-have-to-pay-off-my-parents-mortgage-if-they-die.html
+  life-changes/death/do-i-have-to-refinance-the-house-after-my-spouse-passes-away.html
+  life-changes/death/do-i-owe-taxes-on-a-house-i-inherited.html
+  life-changes/death/do-we-have-to-go-through-probate-before-we-can-sell-the-house.html
+  life-changes/death/how-do-i-clean-out-and-sell-a-house-full-of-someones-belongings.html
+  life-changes/death/how-long-does-it-take-to-sell-an-inherited-house.html
+  life-changes/death/how-soon-can-you-sell-a-house-after-someone-dies.html
+  life-changes/death/i-inherited-a-house-but-i-don-t-live-anywhere-near-it.html
+  life-changes/death/i-inherited-a-house-that-needs-a-lot-of-work-should-i-fix-it-or-sell-it-as-is.html
+  life-changes/death/i-inherited-a-house-with-my-brothers-and-sisters-what-do-we-do.html
+  life-changes/death/is-my-name-automatically-added-to-the-house-if-my-husband-or-wife-dies.html
+  life-changes/death/my-dad-died-and-his-name-is-still-on-the-house-can-we-sell-it.html
+  life-changes/death/my-husband-died-what-happens-to-our-house-now.html
+  life-changes/death/my-mom-died-and-i-don-t-know-if-i-should-keep-or-sell-her-house.html
+  life-changes/death/my-parent-died-and-left-me-a-house-what-am-i-supposed-to-do-first.html
+  life-changes/death/my-sibling-wants-to-keep-the-house-but-i-want-to-sell-what-happens.html
+  life-changes/death/my-spouse-died-and-i-can-t-afford-the-house-by-myself-what-can-i-do.html
+  life-changes/death/my-spouse-died-and-i-don-t-want-to-leave-the-house-what-are-my-options.html
+  life-changes/death/my-wife-died-and-the-house-is-in-both-of-our-names-what-do-i-do.html
+  life-changes/death/should-i-rent-out-the-house-i-inherited-or-sell-it.html
+  life-changes/death/should-i-sell-my-parents-house-or-rent-it-out.html
+  life-changes/death/should-i-sell-the-house-right-away-after-losing-my-spouse-or-wait.html
+  life-changes/death/someone-died-and-there-s-still-a-mortgage-on-the-house-what-happens.html
+  life-changes/death/there-s-an-entire-house-full-of-belongings-after-someone-died-where-do-i-even-.html
+  life-changes/death/there-s-no-will-what-happens-to-the-house.html
+  life-changes/death/what-do-i-do-with-my-parents-house-after-they-pass-away.html
+  life-changes/death/what-happens-to-a-house-if-the-owner-dies-without-a-will.html
+  life-changes/death/what-happens-to-our-house-if-my-spouse-dies-and-only-their-name-is-on-the-mortgage.html
+  life-changes/death/what-is-a-probate-sale-and-how-is-it-different-from-a-regular-home-sale.html
+  life-changes/death/who-is-actually-allowed-to-sell-the-house-after-someone-dies.html
+
+https://www2.laparks.org/parks
+Official park directory found in search index, but direct request has hostname/certificate mismatch and web retrieval failed. Current replacement could not be verified; href retained.
+Used on:
+  blog-living-in-chatsworth.html
+  blog-porter-ranch-housing-market.html
+  blog-what-its-like-to-live-in-granada-hills.html
+

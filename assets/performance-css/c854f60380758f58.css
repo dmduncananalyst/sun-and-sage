@@ -1,0 +1,51 @@
+/* assets/oct11-portfolio-brand.css */
+/* October 11 requested updates; original layout and images retained. */
+@media(max-width:820px){
+ html body.ss18 main#main.ss22-home .ss22-project:is(:hover,:active,:focus,:focus-visible) :is(strong,em),html body.ss18 main#main.ss22-home .ss22-project :is(strong,em){color:#343c32!important;}
+}
+
+/* Homepage video section and portfolio spacing */
+html body.ss18 main#main.ss22-home .ss22-portfolio #home-portfolio-title{margin-bottom:18px!important;}
+html body.ss18 main#main.ss22-home .ss22-portfolio .homePortfolioVideos{padding:14px 4vw 24px!important;}
+html body.ss18 main#main.ss22-home .ss22-portfolio .home-video-portfolio-link{display:table!important;width:max-content!important;max-width:100%!important;margin:20px auto 0!important;}
+html body.ss18 main#main.ss22-home .ss22-portfolio .ss22-project-grid{margin-top:32px!important;}
+@media(max-width:760px){
+ html body.ss18 main#main.ss22-home .ss22-portfolio .homePortfolioVideos{padding:12px 16px 22px!important;}
+ html body.ss18 main#main.ss22-home .ss22-portfolio .home-video-portfolio-link{margin-top:18px!important;}
+ html body.ss18 main#main.ss22-home .ss22-portfolio .ss22-project-grid{margin-top:24px!important;}
+}
+
+/* Compact portfolio film previews; playback opens on click. */
+html body.ss18 main#main .homePortfolioVideosGrid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important;width:100%!important;max-width:1100px!important;margin:0 auto!important;}
+html body.ss18 main#main .homePortfolioVideosGrid figure{position:relative!important;margin:0!important;padding:0!important;width:100%!important;height:auto!important;min-height:0!important;aspect-ratio:16/9!important;overflow:hidden!important;}
+html body.ss18 main#main .portfolioVideoThumb{display:block!important;position:relative!important;width:100%!important;height:100%!important;aspect-ratio:16/9!important;background:#343c32!important;}
+html body.ss18 main#main .portfolioVideoThumb img{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;}
+html body.ss18 main#main .portfolioVideoPlay{position:absolute!important;left:50%!important;top:50%!important;transform:translate(-50%,-50%)!important;display:grid!important;place-items:center!important;width:48px!important;height:48px!important;border-radius:50%!important;background:rgba(0,0,0,.65)!important;color:white!important;font:20px/1 Arial!important;}
+html body.ss18 main#main .portfolioVideoThumb:focus-visible{outline:3px solid #4b6255!important;outline-offset:3px!important;}
+html body #portfolioVideoDialog{box-sizing:border-box!important;width:min(1100px,94vw)!important;max-width:94vw!important;max-height:92vh!important;padding:42px 12px 12px!important;border:0!important;background:#171b16!important;overflow:auto!important;}
+html body #portfolioVideoDialog::backdrop{background:rgba(0,0,0,.85);}
+html body #portfolioVideoDialog video{display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:78vh!important;object-fit:contain!important;background:#000!important;}
+html body #portfolioVideoDialog .portfolioVideoClose{position:absolute!important;top:4px!important;right:10px!important;width:34px!important;height:34px!important;padding:0!important;border:0!important;background:transparent!important;color:white!important;font:32px/1 Arial!important;cursor:pointer!important;}
+@media(max-width:760px){html body.ss18 main#main .homePortfolioVideosGrid{gap:8px!important;}html body.ss18 main#main .portfolioVideoPlay{width:30px!important;height:30px!important;font-size:13px!important;}}
+
+
+/* assets/approved-property-search.css */
+/* Approved property search: screenshots 4851 desktop and 4853 mobile. Keep this shared standard. */
+html body.ss18 main#main#main#main#main .heroSearch:has(>.searchBar){display:block!important;position:static!important;inset:auto!important;transform:none!important;width:100%!important;max-width:1120px!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important}
+html body.ss18 main#main#main#main#main .searchBar{display:grid!important;grid-template-columns:minmax(180px,1.9fr) minmax(100px,1fr) minmax(100px,1fr) minmax(130px,1fr) minmax(155px,1fr)!important;gap:0!important;align-items:stretch!important;width:100%!important;max-width:1120px!important;height:auto!important;min-height:0!important;border:1px solid #cdd1c3!important;background:#fff!important;box-shadow:0 12px 24px rgba(48,56,46,.08)!important;border-radius:0!important;margin:0 auto!important;padding:0!important;overflow:hidden!important}
+html body.ss18 main#main#main#main#main .searchBar>label{position:relative!important;display:flex!important;flex-direction:column!important;justify-content:center!important;gap:4px!important;margin:0!important;padding:12px 14px!important;min-width:0!important;width:100%!important;min-height:72px!important;background:#fff!important;border:0!important;border-right:1px solid #dcded5!important;box-sizing:border-box!important;text-align:left!important}
+html body.ss18 main#main#main#main#main .searchBar>label>span{display:block!important;margin:0!important;padding:0!important;font:400 10px/1.3 Arial,Helvetica,sans-serif!important;letter-spacing:.1em!important;text-transform:uppercase!important;color:#30382e!important}
+html body.ss18 main#main#main#main#main .searchBar :is(input,select){display:block!important;visibility:visible!important;position:static!important;opacity:1!important;pointer-events:auto!important;clip:auto!important;box-sizing:border-box!important;width:100%!important;max-width:100%!important;min-width:0!important;height:26px!important;min-height:26px!important;line-height:1.4!important;font-size:14px!important;font-weight:400!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:#fff!important;color:#30382e!important;box-shadow:none!important;appearance:auto!important}
+html body.ss18 main#main#main#main#main .searchBar input::placeholder{color:#666d5f!important;opacity:1!important}
+html body.ss18 main#main#main#main#main .searchBar>button{display:flex!important;position:static!important;align-items:center!important;justify-content:center!important;grid-column:auto!important;justify-self:stretch!important;width:100%!important;min-width:0!important;height:100%!important;min-height:72px!important;padding:14px 18px!important;margin:0!important;border:0!important;border-radius:0!important;box-sizing:border-box!important;background:#48533e!important;color:#fff!important;font:600 11px/1.2 Arial,Helvetica,sans-serif!important;letter-spacing:.09em!important;text-transform:uppercase!important;white-space:normal!important;cursor:pointer!important}
+html body.ss18 main#main#main#main#main .searchBar label:has(select)::before,html body.ss18 main#main#main#main#main .searchBar label:has(select)::after{content:none!important;display:none!important}
+@media(max-width:800px){
+html body.ss18 main#main#main#main#main .searchBar{grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:520px!important}
+html body.ss18 main#main#main#main#main .searchBar>label{min-height:68px!important;border-bottom:1px solid #cdd1c3!important}
+html body.ss18 main#main#main#main#main .searchBar>label:nth-of-type(even){border-right:0!important}
+html body.ss18 main#main#main#main#main .searchBar>label>span{font-weight:600!important}
+html body.ss18 main#main#main#main#main .searchBar :is(input,select){height:32px!important;min-height:32px!important}
+html body.ss18 main#main#main#main#main .searchBar>button{grid-column:1/-1!important;height:52px!important;min-height:52px!important}
+html body.ss18 main#main#main#main#main .heroSearch:has(>.searchBar){max-width:520px!important}
+}
+

@@ -1,0 +1,136 @@
+{
+  "fresh_load_scenarios": [
+    {
+      "width": 1440,
+      "mode": "normal",
+      "pass": true,
+      "media_at_reveal": 0,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 23,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    },
+    {
+      "width": 390,
+      "mode": "normal",
+      "pass": true,
+      "media_at_reveal": 0,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 24,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    },
+    {
+      "width": 1440,
+      "mode": "slow-media",
+      "pass": true,
+      "media_at_reveal": 0,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 13,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    },
+    {
+      "width": 390,
+      "mode": "slow-media",
+      "pass": true,
+      "media_at_reveal": 0,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 27,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    },
+    {
+      "width": 1440,
+      "mode": "reduced-motion",
+      "pass": true,
+      "media_at_reveal": 0.012408,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 0,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    },
+    {
+      "width": 390,
+      "mode": "reduced-motion",
+      "pass": true,
+      "media_at_reveal": 0.005115,
+      "max_media_behind_doors": 0,
+      "sampled_door_transforms": 0,
+      "playback_rate": 1,
+      "dropped_video_frames": 0
+    }
+  ],
+  "fallback_checks": [
+    {
+      "width": 1440,
+      "test": "reveal-preview",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "test": "blocked-playback",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "test": "animation-event-fallback",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "test": "media-error",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "test": "loop",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "test": "reveal-preview",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "test": "blocked-playback",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "test": "animation-event-fallback",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "test": "media-error",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "test": "loop",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "scope": {
+    "website_files_changed_this_task": [
+      "index.html",
+      "assets/home-playback-v23.js"
+    ],
+    "homepage_changes_limited_to_video_autoplay_and_controller_version": true,
+    "all_other_checked_assets_and_root_pages_unchanged": true,
+    "original_desktop_and_mobile_video_files_unchanged": true,
+    "door_css_unchanged": true
+  }
+}

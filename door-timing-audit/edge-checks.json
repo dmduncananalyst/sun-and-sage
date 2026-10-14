@@ -1,0 +1,62 @@
+[
+  {
+    "width": 1440,
+    "test": "reveal-preview",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "test": "blocked-playback",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "test": "animation-event-fallback",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "test": "media-error",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "test": "loop",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "reveal-preview",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "blocked-playback",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "animation-event-fallback",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "media-error",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "test": "loop",
+    "pass": true,
+    "errors": []
+  }
+]

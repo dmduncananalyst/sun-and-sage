@@ -1,0 +1,742 @@
+[
+  {
+    "url": "https://coastalpacificmarkets.com/northridge-farmers%E2%80%99-mark",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://collegefootballplayoff.com/news/2026/8/6/sc-aug-2627",
+    "status": 200,
+    "destination": "https://collegefootballplayoff.com/news/2026/8/6/sc-aug-2627",
+    "title": "CFP Selection Committee Prepares for 2026-27 Season - College Football Playoff",
+    "content_type": "text/html;charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://consumer.gov/your-money/making-budget",
+    "error": "HTTP Error 404: Not Found",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://dre.ca.gov/Newsroom/DRE_Updates/2026_08_21_Common_Interest_Dev.html",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://filmla.com/get-a-film-permit/",
+    "status": 200,
+    "destination": "https://filmla.com/get-a-film-permit/",
+    "title": "Get a Film Permit &#8211; FilmLA",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://fornerisfarms.com/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://info.filmla.com/area-requirements/area-requirements-city-of-los-angeles",
+    "status": 200,
+    "destination": "https://info.filmla.com/area-requirements/area-requirements-city-of-los-angeles",
+    "title": "Area Requirements: City of Los Angeles - FilmLA",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://la.eater.com/maps/san-fernando-valley-best-restaurants-los-angeles-studio-city-sherman-oaks-encino-northridge-reseda",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://lafd.org/safety",
+    "status": 200,
+    "destination": "https://lafd.org/safety",
+    "title": "Safety | Los Angeles Fire Department",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5551.",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "incomplete",
+    "note": "Official California legislative URL; HTTP 403 and web retrieval blocked. No replacement invented."
+  },
+  {
+    "url": "https://metrolinktrains.com/rider-info/general-info/stations/chatsworth/",
+    "status": 200,
+    "destination": "https://metrolinktrains.com/rider-info/general-info/stations/chatsworth/",
+    "title": "Chatsworth Train Station | Metrolink",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://nces.ed.gov/learn/press-release/higher-percentage-k-12-students-are-receiving-academic-instruction-home",
+    "status": 200,
+    "destination": "https://nces.ed.gov/learn/press-release/higher-percentage-k-12-students-are-receiving-academic-instruction-home",
+    "title": "A Higher Percentage of K\u201312 Students are Receiving Academic Instruction at Home | IES",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://nces.ed.gov/nhes/homeschooling.asp",
+    "status": 200,
+    "destination": "https://nces.ed.gov/nhes/homeschooling.asp",
+    "title": "National Household Education Surveys Program (NHES) - Homeschooling",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://nightofthejack.com/schedule/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://pac-12.com/news/2026/2/9/general-the-new-pac-12-announces-its-2026-football-schedule.aspx",
+    "status": 200,
+    "destination": "https://pac-12.com/news/2026/2/9/general-the-new-pac-12-announces-its-2026-football-schedule.aspx",
+    "title": "The new Pac-12 announces its 2026 football schedule - Pac-12 Conference",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/odocument/9930e549-5f65-45d8-a0e1-986d7ea7c75a/Home_Sharing_Administrative_Guidelines_2026.pdf",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/odocument/9930e549-5f65-45d8-a0e1-986d7ea7c75a/Home_Sharing_Administrative_Guidelines_2026.pdf",
+    "title": "",
+    "content_type": "application/pdf",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/odocument/da92d74a-58e0-4dfb-9757-39d1d4ab9941/Granada_Hills-Knollwood_Community_Plan_.pdf",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/odocument/da92d74a-58e0-4dfb-9757-39d1d4ab9941/Granada_Hills-Knollwood_Community_Plan_.pdf",
+    "title": "",
+    "content_type": "application/pdf",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/odocument/db3771cf-d54c-4656-9069-0b18e6df5097/Porter_Ranch_Land_Use_Transportation_Specific_Plan.pdf",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/odocument/db3771cf-d54c-4656-9069-0b18e6df5097/Porter_Ranch_Land_Use_Transportation_Specific_Plan.pdf",
+    "title": "",
+    "content_type": "application/pdf",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/plans-policies/community-plan-area/chatsworth-porter-ranch",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/plans-policies/community-plan-area/chatsworth-porter-ranch",
+    "title": "Chatsworth - Porter Ranch Community Plan | Los Angeles City Planning",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/preservation-design/overlays/balboa-highlands",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/preservation-design/overlays/balboa-highlands",
+    "title": "Balboa Highlands | Los Angeles City Planning",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://planning.lacity.gov/project-review/home-sharing",
+    "status": 200,
+    "destination": "https://planning.lacity.gov/project-review/home-sharing",
+    "title": "Home-Sharing | Los Angeles City Planning",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://rawinspiration.org/locations/",
+    "status": 200,
+    "destination": "https://rawinspiration.org/locations/",
+    "title": "Locations - Raw Inspiration",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://recreation.parks.lacity.gov/aquatic/balboa",
+    "status": 200,
+    "destination": "https://recreation.parks.lacity.gov/aquatic/balboa",
+    "title": "LAKE BALBOA / ANTHONY C. BEILENSON PARKCity of Los Angeles Department of Recreation and Parks",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://selfhelp.courts.ca.gov/divorce-california",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "incomplete",
+    "note": "Official page found in current search index (www hostname); direct retrieval failed. Existing href retained."
+  },
+  {
+    "url": "https://selfhelp.courts.ca.gov/divorce/property-debts",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "incomplete",
+    "note": "Destination corroborated by official California Courts PDFs, but direct retrieval failed. Existing href retained."
+  },
+  {
+    "url": "https://selfhelp.courts.ca.gov/probate",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "incomplete",
+    "note": "Exact official page found in current search index; direct retrieval failed. Existing href retained."
+  },
+  {
+    "url": "https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns",
+    "status": 200,
+    "destination": "https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns",
+    "title": "Temporary Interest Rate Buydowns | Fannie Mae",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process",
+    "status": 200,
+    "destination": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process",
+    "title": "Full Review Process | Fannie Mae",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://sfcity.org/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements",
+    "status": 200,
+    "destination": "https://singlefamily.fanniemae.com/media/44986/display",
+    "title": "",
+    "content_type": "application/pdf",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://thejapanesegarden.com/",
+    "status": 200,
+    "destination": "https://thejapanesegarden.com/",
+    "title": "Home - The Japanese Garden",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://thejapanesegarden.com/about-us/about-the-garden/",
+    "status": 200,
+    "destination": "https://thejapanesegarden.com/about-us/about-the-garden/",
+    "title": "About the Garden - The Japanese Garden",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://thejapanesegarden.com/visit/garden-etiquette/",
+    "status": 200,
+    "destination": "https://thejapanesegarden.com/visit/garden-etiquette/",
+    "title": "Garden Etiquette - The Japanese Garden",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://thejapanesegarden.com/visit/hours-and-admission/",
+    "status": 200,
+    "destination": "https://thejapanesegarden.com/visit/hours-and-admission/",
+    "title": "Hours and Admission - The Japanese Garden",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://tickets.myvalleypass.com/e/valleyween-hotel-transylvania-2026/tickets",
+    "status": 200,
+    "destination": "https://tickets.myvalleypass.com/e/valleyween-hotel-transylvania-2026/tickets",
+    "title": "Valleyween Cinema - Hotel Transylvania Experience | My Valley Pass",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://ttc.lacounty.gov/str/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://w2.csun.edu/as/departments/productions/events/farmers-market",
+    "status": 200,
+    "destination": "https://w2.csun.edu/as/departments/productions/events/farmers-market",
+    "title": "Farmers Market | CSU Northridge",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.49ers.com/news/49ers-reveal-team-captains-ahead-of-2026-season-opener-in-melbourne",
+    "status": 200,
+    "destination": "https://www.49ers.com/news/49ers-reveal-team-captains-ahead-of-2026-season-opener-in-melbourne",
+    "title": "49ers Reveal Team Captains Ahead of 2026 Season Opener in Melbourne",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2022/08/pregnancy-at-age-35-years-or-older",
+    "status": 200,
+    "destination": "https://www.acog.org/clinical/guidance/obstetric-care-consensus/2022/08/pregnancy-at-age-35-years-or-older",
+    "title": "Pregnancy at Age 35 Years or Older | ACOG - College",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.acog.org/womens-health/faqs/having-a-baby-after-age-35-how-aging-affects-fertility-and-pregnancy",
+    "status": 200,
+    "destination": "https://www.acog.org/womens-health/faqs/having-a-baby-after-age-35-how-aging-affects-fertility-and-pregnancy",
+    "title": "value is what Coveo indexes and uses as the title in Search Results.--> <title>Having a Baby After Age 35: How Aging Affects Fertility and Pregnancy | ACOG",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.azcardinals.com/team/stats/2026/reg",
+    "status": 200,
+    "destination": "https://www.azcardinals.com/team/stats/2026/reg",
+    "title": "Arizona Cardinals Team",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.boe.ca.gov/pdf/pub801.pdf",
+    "status": 200,
+    "destination": "https://www.boe.ca.gov/pdf/pub801.pdf",
+    "title": "",
+    "content_type": "application/pdf",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.boe.ca.gov/prop19/",
+    "status": 200,
+    "destination": "https://www.boe.ca.gov/prop19/",
+    "title": "Proposition 19 &ndash; Board of Equalization",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.buffalobills.com/news/position-by-position-look-at-bills-initial-53-man-roster-2026",
+    "status": 200,
+    "destination": "https://www.buffalobills.com/news/position-by-position-look-at-bills-initial-53-man-roster-2026",
+    "title": "Position-by-Position look at Bills initial 53-man roster 2026",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.calhfa.ca.gov/homebuyer/programs/index.htm",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.catholiccm.org/dia-de-los-muertos-2026-a-time-to-remember-celebrate-and-pray",
+    "status": 200,
+    "destination": "https://www.catholiccm.org/dia-de-los-muertos-2026-a-time-to-remember-celebrate-and-pray",
+    "title": "D\u00eda de los Muertos 2026",
+    "content_type": "text/html;charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.catholiccm.org/diadelosmuertos",
+    "status": 200,
+    "destination": "https://www.catholiccm.org/diadelosmuertos",
+    "title": "D\u00eda de los Muertos Celebrations Catholic Cemeteries LA",
+    "content_type": "text/html;charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.chargers.com/schedule/",
+    "status": 200,
+    "destination": "https://www.chargers.com/schedule/",
+    "title": "Chargers 2026 Schedule | Los Angeles Chargers - chargers.com",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.chatsworthhistory.com/timeline.html",
+    "status": 200,
+    "destination": "https://www.chatsworthhistory.com/timeline.html",
+    "title": "CHS Digital Archives - Timeline",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.chiefs.com/news/here-s-a-look-at-the-chiefs-initial-53-man-roster-x9897",
+    "status": 200,
+    "destination": "https://www.chiefs.com/news/here-s-a-look-at-the-chiefs-initial-53-man-roster-x9897",
+    "title": "Here&#x2019;s a Look at the Chiefs Initial 53-Man Roster",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-debt-collector-contact-me-about-a-debt-after-a-divorce-en-1413/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-mortgage-information-about-a-home-i-inherited-en-217/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-some-of-the-financial-considerations-of-buying-a-home-en-119/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-reverse-mortgage-en-224/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/owning-a-home/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/owning-a-home/loan-estimate/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.consumerfinance.gov/owning-a-home/prepare/assess-your-spending/",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
+    "status": 200,
+    "destination": "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
+    "title": "Hire a Licensed Contractor - CSLB",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.dallascowboys.com/news/cowboys-release-initial-53-man-roster-for-2026-season",
+    "status": 200,
+    "destination": "https://www.dallascowboys.com/news/cowboys-release-initial-53-man-roster-for-2026-season",
+    "title": "Cowboys release initial 53-man roster for 2026 season",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.denverbroncos.com/team/rosters",
+    "status": 200,
+    "destination": "https://www.denverbroncos.com/team/rosters",
+    "title": "Denver Broncos Rosters | Denver Broncos &#x2013; denverbroncos.com",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/what-you-should-know-about-your-retirement-plan",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.dre.ca.gov/consumers/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.dre.ca.gov/consumers/informationforhomebuyers.html",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.epa.gov/lead/lead-renovation-repair-and-painting-program",
+    "status": 200,
+    "destination": "https://www.epa.gov/lead/lead-renovation-repair-and-painting-program",
+    "title": "Lead Renovation, Repair and Painting Program | US EPA",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.fhfa.gov/data/conforming-loan-limit",
+    "status": 200,
+    "destination": "https://www.fhfa.gov/data/conforming-loan-limit",
+    "title": "FHFA Conforming Loan Limits | FHFA",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.fmcsa.dot.gov/protect-your-move",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.granadachamber.com/56292-2/",
+    "status": 200,
+    "destination": "https://www.granadachamber.com/56292-2/",
+    "title": "Farmers Market - Granada Hills Chamber of Commerce",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.houstontexans.com/team/players-roster/c-j-stroud/",
+    "status": 200,
+    "destination": "https://www.houstontexans.com/team/players-roster/c-j-stroud/",
+    "title": "C.J. Stroud",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.houstontexans.com/team/players-roster/will-anderson-jr/",
+    "status": 200,
+    "destination": "https://www.houstontexans.com/team/players-roster/will-anderson-jr/",
+    "title": "Will Anderson Jr.",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.irs.gov/publications/p551",
+    "status": 200,
+    "destination": "https://www.irs.gov/publications/p551",
+    "title": "Publication 551 (12/2025), Basis of Assets | Internal Revenue Service",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-designated-roth-account",
+    "status": 200,
+    "destination": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-designated-roth-account",
+    "title": "Retirement topics - Designated Roth account | Internal Revenue Service",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.irs.gov/taxtopics/tc424",
+    "status": 200,
+    "destination": "https://www.irs.gov/taxtopics/tc424",
+    "title": "Topic no. 424, 401(k) plans | Internal Revenue Service",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.laparks.org/uap",
+    "status": 200,
+    "destination": "https://recreation.parks.lacity.gov:443/uap",
+    "title": "UNIVERSALLY ACCESSIBLE PLAYGROUNDS | City of Los Angeles Department of Recreation and Parks",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.lscarlsonlaw.com/articles/hoa-legal-trends-to-watch-in-2026-and-beyond",
+    "status": 200,
+    "destination": "https://www.lscarlsonlaw.com/articles/hoa-legal-trends-to-watch-in-2026-and-beyond",
+    "title": "California HOA Legal Trends to Watch in 2026 and Beyond | LS Carlson Law",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.mlb.com/dodgers/news/dodgers-2026-nl-division-series-roster",
+    "status": 200,
+    "destination": "https://www.mlb.com/dodgers/news/dodgers-2026-nl-division-series-roster",
+    "title": "Dodgers 2026 NL Division Series roster",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.mlb.com/dodgers/news/mlb-2026-top-potential-postseason-rotations",
+    "status": 200,
+    "destination": "https://www.mlb.com/dodgers/news/mlb-2026-top-potential-postseason-rotations",
+    "title": "MLB 2026 top potential postseason rotations",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.mlb.com/dodgers/roster/starting-lineups",
+    "status": 200,
+    "destination": "https://www.mlb.com/dodgers/roster/starting-lineups",
+    "title": "MLB Starting Lineups Today | Los Angeles Dodgers",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.mlb.com/news/dodgers-2026-postseason-faq",
+    "status": 200,
+    "destination": "https://www.mlb.com/news/dodgers-2026-postseason-faq",
+    "title": "Dodgers 2026 postseason FAQ",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.nar.realtor/research-and-statistics/research-reports/profile-of-home-staging",
+    "status": 200,
+    "destination": "https://www.nar.realtor/research-and-statistics/research-reports/profile-of-home-staging",
+    "title": "Profile of Home Staging",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.nar.realtor/the-facts/consumer-guide-preparing-to-sell-your-home",
+    "status": 200,
+    "destination": "https://www.nar.realtor/the-facts/consumer-guide-preparing-to-sell-your-home",
+    "title": "Consumer Guide: Preparing to Sell Your Home",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.ncaa.com/news/football/article/2026-08-11/how-college-football-playoff-works-schedule-selections-rankings-byes-and-more",
+    "status": 200,
+    "destination": "https://www.ncaa.com/news/football/article/2026-08-11/how-college-football-playoff-works-schedule-selections-rankings-byes-and-more",
+    "title": "How the College Football Playoff works: Schedule, selections, rankings, byes and more | NCAA.com",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.newyorkjets.com/team/stats/2026/REG",
+    "status": 200,
+    "destination": "https://www.newyorkjets.com/team/stats/2026/REG",
+    "title": "Official Site of the New York Jets",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.nhtsa.gov/halloween-safety-tips",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.osha.gov/etools/computer-workstations",
+    "status": 200,
+    "destination": "https://www.osha.gov/etools/computer-workstations",
+    "title": "eTools : Computer Workstations | Occupational Safety and Health Administration",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.patriots.com/team/players-roster/",
+    "status": 200,
+    "destination": "https://www.patriots.com/team/players-roster/",
+    "title": "Patriots Roster | New England Patriots - Patriots.com",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.pnc.com/insights/personal-finance/borrow/how-to-buy-down-mortgage-rate.html",
+    "error": "The read operation timed out",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program",
+    "error": "HTTP Error 403: Forbidden",
+    "verification": "retrieved through web tool",
+    "note": "Exact URL retrieved as the named official/publisher source through web browsing after direct HTTP failed."
+  },
+  {
+    "url": "https://www.redfin.com/neighborhood/460/CA/Los-Angeles/Chatsworth/housing-market",
+    "status": 200,
+    "destination": "https://www.redfin.com/neighborhood/460/CA/Los-Angeles/Chatsworth/housing-market",
+    "title": "2026 Chatsworth, Los Angeles Housing Market: House Prices & Trends as of September | Redfin",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.redfin.com/neighborhood/481131/CA/Los-Angeles/Northridge/housing-market",
+    "status": 200,
+    "destination": "https://www.redfin.com/neighborhood/481131/CA/Los-Angeles/Northridge/housing-market",
+    "title": "2026 Northridge, Los Angeles Housing Market: House Prices & Trends as of September | Redfin",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.seahawks.com/team/players-roster/",
+    "status": 200,
+    "destination": "https://www.seahawks.com/team/players-roster/",
+    "title": "Seahawks Roster | Seattle Seahawks &#x2013; seahawks.com",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.studiocityfarmersmarket.com/",
+    "status": 200,
+    "destination": "https://www.studiocityfarmersmarket.com/",
+    "title": "Welcome | Studio City Farmers Market",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.thehotline.org/",
+    "status": 200,
+    "destination": "https://www.thehotline.org/",
+    "title": "Domestic Violence Support | National Domestic Violence Hotline",
+    "content_type": "text/html; charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.theodysseyrestaurant.com/",
+    "status": 200,
+    "destination": "https://www.theodysseyrestaurant.com/",
+    "title": "Home | Classic American Dining with Unmatched Views in Los Angeles - Odyssey Restaurant",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.therams.com/schedule/2026/",
+    "status": 200,
+    "destination": "https://www.therams.com/schedule/2026/",
+    "title": "Rams 2026 Schedule | Los Angeles Rams - Therams.com",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.thevineyards.com/visit",
+    "status": 200,
+    "destination": "https://www.thevineyards.com/visit",
+    "title": "Visit The Vineyards at Porter Ranch",
+    "content_type": "text/html; charset=utf-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+    "status": 200,
+    "destination": "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+    "title": "Purchase Loan | Veterans Affairs",
+    "content_type": "text/html",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www.valleycharterschool.org/apps/pages/vcescommunityevents",
+    "status": 200,
+    "destination": "https://www.valleycharterschool.org/apps/pages/vcescommunityevents",
+    "title": "Community Events | Valley Charter Elementary, San Fernando Valley",
+    "content_type": "text/html;charset=UTF-8",
+    "verification": "retrieved directly"
+  },
+  {
+    "url": "https://www2.laparks.org/parks",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www2.laparks.org'. (_ssl.c:1000)>",
+    "verification": "incomplete",
+    "note": "Official park directory found in search index, but direct request has hostname/certificate mismatch and web retrieval failed. Current replacement could not be verified; href retained."
+  }
+]
