@@ -1,0 +1,5222 @@
+[
+  {
+    "page": "blog.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 552,
+        "scroll": 552
+      }
+    ]
+  },
+  {
+    "page": "blog.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "blog.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "blog.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "blog.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "buy-a-home.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "dd-buy-benefits",
+        "columns": 2,
+        "width": 352,
+        "scroll": 388
+      },
+      {
+        "cls": "dd-buy-reach-grid",
+        "columns": 2,
+        "width": 352,
+        "scroll": 352
+      }
+    ]
+  },
+  {
+    "page": "buy-a-home.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "dd-buy-benefits",
+        "columns": 2,
+        "width": 511,
+        "scroll": 511
+      },
+      {
+        "cls": "dd-buy-reach-grid",
+        "columns": 2,
+        "width": 494,
+        "scroll": 494
+      }
+    ]
+  },
+  {
+    "page": "buy-a-home.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "dd-buy-benefits",
+        "columns": 2,
+        "width": 558,
+        "scroll": 558
+      },
+      {
+        "cls": "dd-buy-reach-grid",
+        "columns": 2,
+        "width": 539,
+        "scroll": 539
+      }
+    ]
+  },
+  {
+    "page": "buy-a-home.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "dd-buy-benefits",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      },
+      {
+        "cls": "dd-buy-reach-grid",
+        "columns": 2,
+        "width": 717,
+        "scroll": 717
+      }
+    ]
+  },
+  {
+    "page": "buy-a-home.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "dd-buy-benefits",
+        "columns": 2,
+        "width": 853,
+        "scroll": 853
+      },
+      {
+        "cls": "dd-buy-reach-grid",
+        "columns": 2,
+        "width": 853,
+        "scroll": 853
+      }
+    ]
+  },
+  {
+    "page": "buy-burbank.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-burbank.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-burbank.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-burbank.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-burbank.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-canoga-park.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-canoga-park.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-canoga-park.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-canoga-park.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-canoga-park.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-chatsworth.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-chatsworth.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-chatsworth.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-chatsworth.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-chatsworth.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-encino.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-encino.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-encino.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-encino.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-encino.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-granada-hills.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-granada-hills.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-granada-hills.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-granada-hills.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-granada-hills.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-mission-hills.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-mission-hills.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-mission-hills.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-mission-hills.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-mission-hills.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-north-hollywood.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-north-hollywood.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-north-hollywood.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-north-hollywood.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-north-hollywood.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-northridge.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-northridge.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-northridge.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-northridge.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-northridge.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-pacoima.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-pacoima.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-pacoima.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-pacoima.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-pacoima.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-porter-ranch.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-porter-ranch.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-porter-ranch.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-porter-ranch.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-porter-ranch.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-reseda.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-reseda.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-reseda.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-reseda.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-reseda.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-san-fernando.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-san-fernando.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-san-fernando.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-san-fernando.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-san-fernando.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-sherman-oaks.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-sherman-oaks.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-sherman-oaks.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-sherman-oaks.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-sherman-oaks.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-studio-city.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-studio-city.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-studio-city.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-studio-city.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-studio-city.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-sun-valley.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-sun-valley.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-sun-valley.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-sun-valley.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-sun-valley.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-sunland.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-sunland.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-sunland.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-sunland.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-sunland.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-sylmar.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-sylmar.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-sylmar.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-sylmar.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-sylmar.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-tarzana.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-tarzana.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-tarzana.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-tarzana.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-tarzana.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-toluca-lake.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-toluca-lake.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-toluca-lake.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-toluca-lake.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-toluca-lake.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-tujunga.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-tujunga.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-tujunga.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-tujunga.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-tujunga.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-glen.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-glen.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-glen.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-glen.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-glen.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-village.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-village.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-village.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-village.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-valley-village.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-van-nuys.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-van-nuys.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-van-nuys.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-van-nuys.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-van-nuys.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-west-hills.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-west-hills.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-west-hills.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-west-hills.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-west-hills.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-winnetka.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-winnetka.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-winnetka.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-winnetka.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-winnetka.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buy-woodland-hills.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "buy-woodland-hills.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "buy-woodland-hills.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 580,
+        "scroll": 580
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "buy-woodland-hills.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "buy-woodland-hills.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-city-highlights",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss21-fact-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "buyer-closing-costs.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "buyer-closing-costs.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "buyer-closing-costs.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "buyer-closing-costs.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "buyer-closing-costs.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "buyer-consultation.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "buyer-consultation.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 522,
+        "scroll": 522
+      }
+    ]
+  },
+  {
+    "page": "buyer-consultation.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 571,
+        "scroll": 571
+      }
+    ]
+  },
+  {
+    "page": "buyer-consultation.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 763,
+        "scroll": 763
+      }
+    ]
+  },
+  {
+    "page": "buyer-consultation.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 909,
+        "scroll": 909
+      }
+    ]
+  },
+  {
+    "page": "buyer-questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "buyer-questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "buyer-questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "buyer-questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "buyer-questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "buying-with-student-loan-debt.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "buying-with-student-loan-debt.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "buying-with-student-loan-debt.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "buying-with-student-loan-debt.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "buying-with-student-loan-debt.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "f4-breakdown",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "considerations.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "considerations.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "considerations.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "considerations.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "considerations.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 352,
+        "scroll": 352
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 520,
+        "scroll": 520
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "considerations-grid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "design-questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "design-questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "design-questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "design-questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "design-questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "down-payment-assistance.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "down-payment-assistance.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "down-payment-assistance.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "down-payment-assistance.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "down-payment-assistance.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "first-time-pre-approval.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "first-time-pre-approval.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "first-time-pre-approval.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "first-time-pre-approval.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "first-time-pre-approval.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "homebuyer-financing-questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "homebuyer-financing-questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "homebuyer-financing-questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "homebuyer-financing-questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "homebuyer-financing-questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-services-grid",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      },
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 324,
+        "scroll": 324
+      },
+      {
+        "cls": "ss22-project-grid",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-services-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      },
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 445,
+        "scroll": 445
+      },
+      {
+        "cls": "ss22-project-grid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-services-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      },
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 489,
+        "scroll": 489
+      },
+      {
+        "cls": "ss22-project-grid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-services-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      },
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 660,
+        "scroll": 660
+      },
+      {
+        "cls": "ss22-project-grid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-services-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      },
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 791,
+        "scroll": 791
+      },
+      {
+        "cls": "ss22-project-grid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      }
+    ]
+  },
+  {
+    "page": "interior-design.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "dd-design-paths",
+        "columns": 2,
+        "width": 400,
+        "scroll": 400
+      },
+      {
+        "cls": "ss43-detail-grid",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss43-process-grid",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "dd-design-editorial",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      }
+    ]
+  },
+  {
+    "page": "interior-design.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "dd-design-paths",
+        "columns": 2,
+        "width": 568,
+        "scroll": 568
+      },
+      {
+        "cls": "ss43-detail-grid",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "ss43-process-grid",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      },
+      {
+        "cls": "dd-design-editorial",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      }
+    ]
+  },
+  {
+    "page": "interior-design.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "dd-design-paths",
+        "columns": 2,
+        "width": 620,
+        "scroll": 620
+      },
+      {
+        "cls": "ss43-detail-grid",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      },
+      {
+        "cls": "ss43-process-grid",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      },
+      {
+        "cls": "dd-design-editorial",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      }
+    ]
+  },
+  {
+    "page": "interior-design.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "dd-design-paths",
+        "columns": 2,
+        "width": 824,
+        "scroll": 824
+      },
+      {
+        "cls": "ss43-detail-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss43-process-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "dd-design-editorial",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "interior-design.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "dd-design-paths",
+        "columns": 2,
+        "width": 980,
+        "scroll": 980
+      },
+      {
+        "cls": "ss43-detail-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss43-process-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "dd-design-editorial",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "life-changes.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "loan-homebuyer-programs.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "loan-homebuyer-programs.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "loan-homebuyer-programs.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "loan-homebuyer-programs.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "loan-homebuyer-programs.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "portfolio.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 352,
+        "scroll": 352
+      },
+      {
+        "cls": "portfolioParentGrid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "portfolio.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      },
+      {
+        "cls": "portfolioParentGrid",
+        "columns": 2,
+        "width": 491,
+        "scroll": 491
+      }
+    ]
+  },
+  {
+    "page": "portfolio.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      },
+      {
+        "cls": "portfolioParentGrid",
+        "columns": 2,
+        "width": 538,
+        "scroll": 538
+      }
+    ]
+  },
+  {
+    "page": "portfolio.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      },
+      {
+        "cls": "portfolioParentGrid",
+        "columns": 2,
+        "width": 722,
+        "scroll": 722
+      }
+    ]
+  },
+  {
+    "page": "portfolio.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "homePortfolioVideosGrid",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      },
+      {
+        "cls": "portfolioParentGrid",
+        "columns": 2,
+        "width": 862,
+        "scroll": 862
+      }
+    ]
+  },
+  {
+    "page": "property-management.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss34-platform-grid",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      },
+      {
+        "cls": "v12-pm-service-list",
+        "columns": 2,
+        "width": 312,
+        "scroll": 312
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "property-management.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss34-platform-grid",
+        "columns": 2,
+        "width": 512,
+        "scroll": 512
+      },
+      {
+        "cls": "v12-pm-service-list",
+        "columns": 2,
+        "width": 432,
+        "scroll": 432
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      }
+    ]
+  },
+  {
+    "page": "property-management.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss34-platform-grid",
+        "columns": 2,
+        "width": 564,
+        "scroll": 564
+      },
+      {
+        "cls": "v12-pm-service-list",
+        "columns": 2,
+        "width": 484,
+        "scroll": 484
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      }
+    ]
+  },
+  {
+    "page": "property-management.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss34-platform-grid",
+        "columns": 2,
+        "width": 768,
+        "scroll": 768
+      },
+      {
+        "cls": "v12-pm-service-list",
+        "columns": 2,
+        "width": 688,
+        "scroll": 688
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "property-management.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss34-platform-grid",
+        "columns": 2,
+        "width": 924,
+        "scroll": 924
+      },
+      {
+        "cls": "v12-pm-service-list",
+        "columns": 2,
+        "width": 370,
+        "scroll": 370
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "real-estate.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "estateRoutes reveal in",
+        "columns": 2,
+        "width": 400,
+        "scroll": 400
+      },
+      {
+        "cls": "sageStatRail",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "real-estate.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "estateRoutes reveal in",
+        "columns": 2,
+        "width": 568,
+        "scroll": 568
+      },
+      {
+        "cls": "sageStatRail",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      }
+    ]
+  },
+  {
+    "page": "real-estate.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "estateRoutes reveal in",
+        "columns": 2,
+        "width": 620,
+        "scroll": 620
+      },
+      {
+        "cls": "sageStatRail",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      }
+    ]
+  },
+  {
+    "page": "real-estate.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "estateRoutes reveal in",
+        "columns": 2,
+        "width": 824,
+        "scroll": 824
+      },
+      {
+        "cls": "sageStatRail",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "real-estate.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "estateRoutes reveal in",
+        "columns": 2,
+        "width": 980,
+        "scroll": 980
+      },
+      {
+        "cls": "sageStatRail",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "renovation-loans.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "renovation-loans.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "renovation-loans.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "renovation-loans.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "renovation-loans.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-roadmap",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "search.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss23-regions",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "search.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss23-regions",
+        "columns": 2,
+        "width": 520,
+        "scroll": 520
+      }
+    ]
+  },
+  {
+    "page": "search.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss23-regions",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "search.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss23-regions",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "search.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss23-regions",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "sell-a-home.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "v4-stats",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      },
+      {
+        "cls": "v4-ranks",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      },
+      {
+        "cls": "",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "sell-a-home.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "v4-stats",
+        "columns": 2,
+        "width": 507,
+        "scroll": 507
+      },
+      {
+        "cls": "v4-ranks",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      },
+      {
+        "cls": "",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 504,
+        "scroll": 504
+      }
+    ]
+  },
+  {
+    "page": "sell-a-home.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "v4-stats",
+        "columns": 2,
+        "width": 554,
+        "scroll": 554
+      },
+      {
+        "cls": "v4-ranks",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      },
+      {
+        "cls": "",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 556,
+        "scroll": 556
+      }
+    ]
+  },
+  {
+    "page": "sell-a-home.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "v4-stats",
+        "columns": 2,
+        "width": 742,
+        "scroll": 742
+      },
+      {
+        "cls": "v4-ranks",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "sell-a-home.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "v4-stats",
+        "columns": 2,
+        "width": 886,
+        "scroll": 886
+      },
+      {
+        "cls": "v4-ranks",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      },
+      {
+        "cls": "ss24-review-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "sell-free-home-valuation.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss90-eval-grid",
+        "columns": 2,
+        "width": 352,
+        "scroll": 352
+      }
+    ]
+  },
+  {
+    "page": "sell-free-home-valuation.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss90-eval-grid",
+        "columns": 2,
+        "width": 520,
+        "scroll": 520
+      }
+    ]
+  },
+  {
+    "page": "sell-free-home-valuation.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss90-eval-grid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "sell-free-home-valuation.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss90-eval-grid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "sell-free-home-valuation.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss90-eval-grid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "sell-marketing-your-property.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss22-print-gallery",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      },
+      {
+        "cls": "ss22-platform-stats",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "sell-marketing-your-property.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss22-print-gallery",
+        "columns": 2,
+        "width": 512,
+        "scroll": 512
+      },
+      {
+        "cls": "ss22-platform-stats",
+        "columns": 2,
+        "width": 512,
+        "scroll": 512
+      }
+    ]
+  },
+  {
+    "page": "sell-marketing-your-property.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss22-print-gallery",
+        "columns": 2,
+        "width": 564,
+        "scroll": 564
+      },
+      {
+        "cls": "ss22-platform-stats",
+        "columns": 2,
+        "width": 564,
+        "scroll": 564
+      }
+    ]
+  },
+  {
+    "page": "sell-marketing-your-property.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss22-print-gallery",
+        "columns": 2,
+        "width": 768,
+        "scroll": 768
+      },
+      {
+        "cls": "ss22-platform-stats",
+        "columns": 2,
+        "width": 768,
+        "scroll": 768
+      }
+    ]
+  },
+  {
+    "page": "sell-marketing-your-property.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss22-print-gallery",
+        "columns": 2,
+        "width": 909,
+        "scroll": 909
+      },
+      {
+        "cls": "ss22-platform-stats",
+        "columns": 2,
+        "width": 909,
+        "scroll": 909
+      }
+    ]
+  },
+  {
+    "page": "seller-consultation.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 356,
+        "scroll": 356
+      }
+    ]
+  },
+  {
+    "page": "seller-consultation.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 522,
+        "scroll": 522
+      }
+    ]
+  },
+  {
+    "page": "seller-consultation.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 571,
+        "scroll": 571
+      }
+    ]
+  },
+  {
+    "page": "seller-consultation.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 763,
+        "scroll": 763
+      }
+    ]
+  },
+  {
+    "page": "seller-consultation.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-consultation-topics",
+        "columns": 2,
+        "width": 909,
+        "scroll": 909
+      }
+    ]
+  },
+  {
+    "page": "seller-questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "seller-questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "seller-questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "seller-questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "seller-questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "short-term-rental-questions.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 360,
+        "scroll": 360
+      }
+    ]
+  },
+  {
+    "page": "short-term-rental-questions.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "short-term-rental-questions.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 771,
+        "scroll": 771
+      }
+    ]
+  },
+  {
+    "page": "short-term-rental-questions.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 963,
+        "scroll": 963
+      }
+    ]
+  },
+  {
+    "page": "short-term-rental-questions.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 1109,
+        "scroll": 1109
+      }
+    ]
+  },
+  {
+    "page": "usda-loans.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "usda-loans.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "usda-loans.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "usda-loans.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "usda-loans.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "va-loans.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 308,
+        "scroll": 308
+      }
+    ]
+  },
+  {
+    "page": "va-loans.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 476,
+        "scroll": 476
+      }
+    ]
+  },
+  {
+    "page": "va-loans.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 528,
+        "scroll": 528
+      }
+    ]
+  },
+  {
+    "page": "va-loans.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 676,
+        "scroll": 676
+      }
+    ]
+  },
+  {
+    "page": "va-loans.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss24-eligibility",
+        "columns": 2,
+        "width": 712,
+        "scroll": 712
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-east.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-east.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 532,
+        "scroll": 532
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-east.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 584,
+        "scroll": 584
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-east.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-east.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-north.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-north.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 532,
+        "scroll": 532
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-north.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 584,
+        "scroll": 584
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-north.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-north.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-south.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-south.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 532,
+        "scroll": 532
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-south.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 584,
+        "scroll": 584
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-south.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-south.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-west.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 364,
+        "scroll": 364
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-west.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 532,
+        "scroll": 532
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-west.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 584,
+        "scroll": 584
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-west.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 760,
+        "scroll": 760
+      }
+    ]
+  },
+  {
+    "page": "valley-guide-west.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "ss-city-card-grid",
+        "columns": 2,
+        "width": 916,
+        "scroll": 916
+      }
+    ]
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/divorce.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/divorce.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/divorce.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/divorce.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/divorce.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  },
+  {
+    "page": "life-changes/retirement.html",
+    "width": 600,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 368,
+        "scroll": 368
+      }
+    ]
+  },
+  {
+    "page": "life-changes/retirement.html",
+    "width": 768,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 536,
+        "scroll": 536
+      }
+    ]
+  },
+  {
+    "page": "life-changes/retirement.html",
+    "width": 820,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 572,
+        "scroll": 572
+      }
+    ]
+  },
+  {
+    "page": "life-changes/retirement.html",
+    "width": 1024,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 776,
+        "scroll": 776
+      }
+    ]
+  },
+  {
+    "page": "life-changes/retirement.html",
+    "width": 1180,
+    "grids": [
+      {
+        "cls": "loanHubGrid",
+        "columns": 2,
+        "width": 932,
+        "scroll": 932
+      }
+    ]
+  }
+]

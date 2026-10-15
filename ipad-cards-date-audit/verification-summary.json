@@ -1,0 +1,19 @@
+{
+  "tabletPagesChecked": 67,
+  "tabletWidths": [
+    600,
+    768,
+    820,
+    1024,
+    1180
+  ],
+  "pageWidthChecks": 335,
+  "allCardGridsHaveTwoColumns": true,
+  "followup": "The only remaining overflow in the full run was Buying at 600px. Fixed by stacking icons above the copy, then verified Buying at 600, 650, 744, 767, 768, 820, 1024, 1180px.",
+  "phoneAndDesktop": "Selling, Life Changes, Considerations checked at 390px and 1440px; no page overflow.",
+  "dateAudit": {
+    "pagesAudited": 352,
+    "nonBlogPages": 319,
+    "visibleDatesOutsideBlog": []
+  }
+}

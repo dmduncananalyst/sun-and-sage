@@ -1,3 +1,47 @@
+/* All card collections use two columns in the tablet layout, including
+   collections whose legacy mobile rules otherwise switch to one column. */
+@media(min-width:600px) and (max-width:1199px){
+ html:root body.ss18 :is(main#main#main#main#main#main#main,main#top#top#top#top#top#top) :is(
+  .loanHubGrid,.considerations-grid,.ss22-services-grid,.ss22-project-grid,
+  .homePortfolioVideosGrid,.portfolioParentGrid,.dd-design-paths,
+  .dd-design-editorial,.ss43-detail-grid,.ss43-process-grid,
+  .ss34-platform-grid,.ss24-review-grid,.ss24-consultation-topics,
+  .ss21-fact-grid,.ss-city-card-grid,.ss23-regions,.estateRoutes,
+  .f4-breakdown,.ss24-roadmap,.ss24-eligibility,.ss90-eval-grid,
+  .dd-buy-benefits,.dd-buy-reach-grid,.v12-pm-service-list,
+  .v4-stats,.v4-ranks,.sageStatRail,.ss22-city-highlights,
+  .ss22-platform-stats,.ss22-print-gallery,.ss23-awards>div
+ ){
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ }
+ /* Featured desktop spans must not create an implicit third tablet column. */
+ html:root body.ss18 :is(main#main#main#main#main#main#main,main#top#top#top#top#top#top) :is(
+  .considerations-grid,.dd-design-editorial,.v4-stats,.v4-ranks,
+  .dd-buy-benefits,.dd-buy-reach-grid
+ )>*{
+  grid-column:auto!important;
+  min-width:0!important;
+  max-width:100%!important;
+ }
+ html:root body.ss18 main#main#main#main#main#main#main .v4-rank-map svg{
+  max-width:100%!important;
+ }
+}
+
+/* Stack icons above copy when two cards share the narrow tablet content area. */
+@media(min-width:600px) and (max-width:767px){
+ html:root body.ss18 main#top#top#top#top#top#top .dd-buy-benefits article{
+  grid-template-columns:minmax(0,1fr)!important;
+  grid-template-rows:auto auto auto!important;
+ }
+ html:root body.ss18 main#top#top#top#top#top#top .dd-buy-benefits article :is(svg,h3,p){
+  grid-column:1!important;
+  grid-row:auto!important;
+  min-height:0!important;
+ }
+}
+
 /* Preserved approved navigation styling. English-only. */
 @media(min-width:600px) and (max-width:1199px){
 html:root body.ss18 #dd-header.is-tablet #dd-navigation{background:linear-gradient(90deg,#f1eee6,#f8f7f3)!important;padding:23px 12px 20px!important;border-right:1px solid #d6d8cc!important;box-shadow:none!important;}
