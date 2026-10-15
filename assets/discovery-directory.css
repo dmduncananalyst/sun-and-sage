@@ -1,0 +1,8 @@
+.discovery-directory{box-sizing:border-box;width:100%;max-width:1200px;margin:0 auto;padding:44px 24px;color:#41372b;text-align:left}
+.discovery-directory h2{margin:0 0 16px;font-size:clamp(24px,3vw,36px);line-height:1.25}
+.discovery-directory p{margin:0 0 24px;line-height:1.6}
+.discovery-directory ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:0 28px;list-style:none;margin:0;padding:0}
+.discovery-directory li{margin:0;border-bottom:1px solid #d8d0c4}
+.discovery-directory a{display:block;padding:12px 0;color:inherit;line-height:1.5;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.discovery-directory a:hover,.discovery-directory a:focus-visible{color:#6b5945}
+.discovery-directory a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
