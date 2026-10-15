@@ -1,6 +1,7 @@
 (()=>{'use strict';
 const header=document.querySelector('#dd-header');if(!header)return;
 const nav=header.querySelector('#dd-navigation'),toggle=header.querySelector('.dd-menu-toggle');if(!nav||!toggle)return;
+nav.querySelectorAll('.dd-group').forEach(group=>{if(group.querySelector(':scope > a')?.textContent.trim()==='Sell')group.querySelectorAll('.dd-panel-content > a').forEach(link=>{if(link.textContent.trim()==='Selling')link.remove();});});
 const contacts=header.querySelector('.dd-contact-strip'),tools=header.querySelector('.dd-header-tools');tools.append(toggle);
 const items=[...nav.children],primary=items.filter(e=>e.matches('.dd-group')),features=[...header.querySelectorAll('.dd-feature')],groups=[...primary,...features],flyouts=[...nav.querySelectorAll('.dd-flyout')],fine=matchMedia('(hover:hover) and (pointer:fine)'),inertState=new Map();
 let compact=false,pointer='mouse',lastWidth=innerWidth,suppressFocus=false;const timers=new Map();
