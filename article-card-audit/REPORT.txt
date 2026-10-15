@@ -1,0 +1,50 @@
+ARTICLE CARD SPACING REVIEW - 2026-10-14
+
+Root cause
+The final photo/layout bundles forced loanHubGrid rows to 1fr, so the longest preview determined every row's height, including single-column mobile cards. Older rules also imposed fixed card/body heights and line clamps. Blog's mobile summaries separately forced align-items/align-self:start.
+
+Change
+Modified only these existing CSS bundles:
+assets/performance-css/75e3427875dcf211.css
+assets/performance-css/295473f8529b44f9.css
+assets/performance-css/ad2a85f2e8cb67b7.css
+
+The new scoped selectors target loanHubGrid containing a direct loanHubItem > final-static-answer, the corresponding card/body, and loanLearn footer. They use auto row sizing, stretch cards within each row, natural body height with flex-column flow, and margin-top:auto on the action footer. Specificity follows the site's existing repeated #main pattern to beat legacy !important rules, including blog mobile summaries. No photo sizing, imagery, typography, palette, borders, columns, navigation, article bodies, metadata, or visible excerpts were changed. Row heights may vary with content; no text is cut to force matching heights.
+
+Browser checks
+Used installed Google Chrome, headless, against an owned temporary local HTTP server. Checked all 16 pages at widths 1920, 1440, 1366, 1024, 768, 390, and 320: 112 page/width combinations. Final results: card bottoms and Read More links align within each row; no horizontal page overflow; no text clipping detected. Blog tablet and one transient relocation mobile measurement were rechecked; final measurements are saved in results.json. Marriage Read More passed Playwright trial-click actionability at 1440 and 390. Reviewed the corresponding desktop/mobile viewport screenshots visually. git diff --check passed.
+
+Grids checked
+blog.html
+buyer-questions.html
+design-questions.html
+homebuyer-financing-questions.html
+life-changes.html
+loan-homebuyer-programs.html
+questions.html
+seller-questions.html
+short-term-rental-questions.html
+life-changes/death.html
+life-changes/divorce.html
+life-changes/empty-nest.html
+life-changes/growing-family.html
+life-changes/marriage.html
+life-changes/relocation.html
+life-changes/retirement.html
+
+Screenshots
+marriage-viewport-1440.png and marriage-viewport-390.png: final visible desktop/mobile cards.
+marriage-1440.png and marriage-390.png: full final grids.
+marriage-before-1440.png and marriage-before-390.png: comparison using the original CSS from Git, without modifying source files.
+
+Limitations
+Seven existing image files are zero bytes, including assets/article-batch-02/article-09.webp on Marriage. Their references and approved images were preserved. See empty-image-files.json for the list. Some additional image checks timed out during the bounded image loading wait; these are recorded in results.json and are not claimed as successful image loads. Image placeholder dimensions remain consistent.
+320px Chrome emulates a narrow integrated preview; the actual VS Code integrated preview and physical mobile devices were not available. External requests were blocked during browser checks. No dedicated layout-shift trace was collected.
+
+Preview locally
+From the repository root run:
+& 'C:/Users/its old/AppData/Local/Programs/Python/Python312/python.exe' -m http.server 8000 --bind 127.0.0.1
+Open http://127.0.0.1:8000/life-changes/marriage.html and use responsive device mode.
+Stop the server with Ctrl+C. Test-owned servers were stopped when their scripts completed.
+
+No commit, push, or publication performed.

@@ -1,0 +1,1 @@
+(()=>{const h=document.querySelector('#ss22-header'),t=h?.querySelector('.ss22-menu-toggle');if(!h||!t)return;const sync=()=>{document.body.style.overflow=h.classList.contains('menu-is-open')?'hidden':''};t.addEventListener('click',()=>setTimeout(sync,0));new MutationObserver(sync).observe(h,{attributes:true,attributeFilter:['class']});})();

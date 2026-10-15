@@ -1,0 +1,16 @@
+[
+  {
+    "width": 1440,
+    "openedBeforeLoadCompleted": true,
+    "openInitially": true,
+    "stillOpenAfterLoad": true,
+    "passed": true
+  },
+  {
+    "width": 390,
+    "openedBeforeLoadCompleted": true,
+    "openInitially": true,
+    "stillOpenAfterLoad": true,
+    "passed": true
+  }
+]

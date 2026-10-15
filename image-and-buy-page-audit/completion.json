@@ -1,0 +1,15 @@
+{
+  "buyOutsideMainUnchanged": true,
+  "restoredOriginalImages": 12,
+  "initialBrokenImageFiles": 12,
+  "finalBrokenImageFiles": 0,
+  "browserDecodedImages": {
+    "count": 524,
+    "failed": []
+  },
+  "cssImages": {
+    "stylesheets": 159,
+    "cssImageFiles": 17,
+    "bad": []
+  }
+}

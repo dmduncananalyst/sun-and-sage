@@ -9,6 +9,20 @@
   let playPending = false;
   let needsGesture = false;
   let mediaFailed = false;
+  const videoCandidates = [...new Set([
+    ...[...video.querySelectorAll('source[src]')].filter(s => !s.media || matchMedia(s.media).matches).map(s => s.src),
+    new URL('assets/videos/home-introduction.mp4', document.baseURI).href
+  ])];
+  let candidateIndex = 0;
+  function loadCandidate() {
+    mediaFailed = false;
+    started = false;
+    playPending = false;
+    needsGesture = false;
+    video.src = videoCandidates[candidateIndex];
+    video.load();
+    requestPlayback();
+  }
   document.documentElement.classList.remove('preview-loading');
   document.documentElement.style.visibility = 'visible';
   video.defaultMuted = true;
@@ -40,16 +54,20 @@
   function showPlayButton() {
     playButton.hidden = false;
     video.controls = true;
-    if (video.error || mediaFailed) playButton.textContent = 'Open video';
+    playButton.textContent = 'Play video';
     // Keep the existing poster and manual control accessible if autoplay fails.
     reveal();
   }
   function mediaError() {
+    if (candidateIndex < videoCandidates.length - 1) {
+      candidateIndex++;
+      loadCandidate();
+      return;
+    }
     mediaFailed = true;
     showPlayButton();
   }
   function requestPlayback(userGesture = false) {
-    if (video.networkState === video.NETWORK_NO_SOURCE) mediaFailed = true;
     if (video.error || mediaFailed) {
       mediaError();
       return;
@@ -76,8 +94,8 @@
   }
   playButton.addEventListener('click', () => {
     if (video.error || mediaFailed) {
-      const source = video.currentSrc || video.querySelector('source:not([media])')?.src;
-      if (source) window.open(source, '_blank', 'noopener');
+      candidateIndex = 0;
+      loadCandidate();
     } else requestPlayback(true);
   });
   video.addEventListener('playing', () => {
@@ -89,16 +107,12 @@
     reveal();
   });
   video.addEventListener('error', mediaError);
-  const failedSources = new Set();
-  const sources = [...video.querySelectorAll('source[src]')];
-  sources.forEach(source => source.addEventListener('error', () => {
-    failedSources.add(source);
-    const eligible = sources.filter(item => !item.media || matchMedia(item.media).matches);
-    if (eligible.every(item => failedSources.has(item))) mediaError();
-  }));
   hero.querySelector('.doors > div:last-child')?.addEventListener('animationend', event => {
     if (event.animationName === 'rightOpen') finish();
   });
   // No pause, seek, reveal hold, playback-rate change, or automatic restart.
-  requestPlayback();
+  window.addEventListener('pageshow', event => {
+    if (event.persisted && video.paused) { started = false; requestPlayback(); }
+  });
+  loadCandidate();
 })();

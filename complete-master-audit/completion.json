@@ -1,0 +1,32 @@
+{
+  "responsiveCases": 64,
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    600,
+    650,
+    744,
+    768,
+    820,
+    834,
+    1024,
+    1180,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "headers": 352,
+  "genuineDropdownCases": 28,
+  "directLinks": [
+    "Life Changes",
+    "Considerations"
+  ],
+  "newSuppliedPhotos": 5,
+  "buyMainUnchanged": true,
+  "sitemapUrls": 352,
+  "unresolvedIssues": [],
+  "publication": "Not committed, pushed, deployed or published"
+}

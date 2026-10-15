@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1440,
+    "searchPageWorks": true,
+    "formerBuyingReachable": true,
+    "keyboardFocusOpens": true,
+    "escapeCloses": true,
+    "primaryCategoryNavigates": true,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "searchPageWorks": true,
+    "formerBuyingReachable": true,
+    "keyboardFocusOpens": true,
+    "escapeCloses": true,
+    "primaryCategoryNavigates": true,
+    "passed": true
+  },
+  {
+    "width": 768,
+    "searchPageWorks": true,
+    "formerBuyingReachable": true,
+    "focusTrapBack": true,
+    "focusTrapForward": true,
+    "backdropCloses": true,
+    "backgroundDoesNotScroll": true,
+    "resizeUnlocks": true,
+    "passed": true
+  },
+  {
+    "width": 390,
+    "searchPageWorks": true,
+    "formerBuyingReachable": true,
+    "focusTrapBack": true,
+    "focusTrapForward": true,
+    "backdropCloses": true,
+    "backgroundDoesNotScroll": true,
+    "resizeUnlocks": true,
+    "passed": true
+  }
+]

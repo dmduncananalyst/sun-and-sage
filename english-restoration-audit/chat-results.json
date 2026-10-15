@@ -1,0 +1,1770 @@
+{
+  "pages": [
+    {
+      "page": "about.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "bank-statement-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-401k-matters.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-california-condo-crisis-sb326-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-california-proposition-19-homeowners.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-chatsworth-home-prices-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-dia-de-los-muertos-san-fernando-valley-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-fall-farmers-markets-san-fernando-valley-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-film-crew-rental.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-having-children-in-your-40s.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-how-to-stage-a-living-room.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-is-it-time-for-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-lake-balboa-park-japanese-garden-fall-guide.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-living-in-chatsworth.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-los-angeles-short-term-rental-rules-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-northridge-housing-market-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-porter-ranch-housing-market.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-thoughtful-home-staging-presentation.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-two-one-rate-buydown.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-what-its-like-to-live-in-granada-hills.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog-why-budgeting-matters.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-a-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-burbank.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-canoga-park.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-chatsworth.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-encino.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-granada-hills.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-mission-hills.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-north-hollywood.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-northridge.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-pacoima.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-porter-ranch.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-reseda.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-san-fernando.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-sherman-oaks.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-studio-city.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-sun-valley.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-sunland.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-sylmar.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-tarzana.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-toluca-lake.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-tujunga.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-valley-glen.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-valley-village.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-van-nuys.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-west-hills.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-winnetka.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buy-woodland-hills.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-closing-costs.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-consultation.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-before-you-commit.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-budget-by-valley-area.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-fast-market-offer-or-walk.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-fixer-upper-worth-it.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-high-hoa-value.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-long-time-on-market.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-monthly-affordability.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-neighborhood-fit.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-other-ownership-costs.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-porter-ranch-newer-vs-established.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-porter-ranch-view-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-same-price-different-neighborhoods.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-south-of-ventura-boulevard.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-question-upfront-costs.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buyer-questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "buying-with-student-loan-debt.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "closing-cost-assistance.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "commercial-design.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "contact.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "conventional-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "credit-score-to-buy-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "do-i-need-20-percent-down.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "down-payment-assistance.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "down-payment-needed.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "fha-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-buyers.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-closing.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-homebuyer-programs.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-negotiations.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-pre-approval.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-touring.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "first-time-your-offer.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "homebuyer-financing-questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "index.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "interior-design.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "jumbo-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "lenders.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "loan-homebuyer-programs.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-a-comfy-rodeo.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-a-luxurious-touch.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-a-record-retreat.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-before-afters.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-bungalow-blues-bedrooms.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-bungalow-blues-living.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-guest-bedroom.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-suburban-kitchen-update.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-suburban-living-room.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-sun-lit-modern-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-the-red-door.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio-warm-desert-bedrooms.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "portfolio.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "preapproval-documents.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "preapproval-vs-prequalification.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "project-hosea.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "project-parker.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "project-sun-lit-modern-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "project-the-red-door.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "property-management.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "real-estate.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "renovation-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "residential-design.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "reviews.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "search.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "sell-a-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "sell-free-home-valuation.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "sell-home-staging-prep.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "sell-marketing-your-property.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-consultation.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-downsizing-before-listing.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-downsizing-how-long-to-sell.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-hoa-documents-before-listing.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-move-up-now-or-wait.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-net-proceeds.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-preparing-to-sell-next-year.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-sell-and-buy-avoid-two-homes.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-question-updates-worth-doing.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "seller-questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "usda-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "va-loans.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "valley-guide-east.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "valley-guide-north.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "valley-guide-south.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "valley-guide-west.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "what-price-range-can-i-afford.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\can-the-dodgers-do-a-threepeat-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\can-the-dodgers-do-a-threepeat.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\coffee-or-tea.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\football-season-is-back-does-your-team-play-at-sofi-this-year.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\football-season-sofi-stadium-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\halloween-san-fernando-valley-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\homeschool-or-public-school.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\is-my-property-a-good-fit-for-airbnb.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\places-to-eat-san-fernando-valley.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\studio-city-or-valley-village-which-one-should-i-choose.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\the-different-leagues-of-college-football.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\trick-or-treating-san-fernando-valley-2026.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "blog\\van-nuys-or-reseda-which-one-should-i-choose.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\best-accent-wall-colors.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\best-bathroom-floor-tile.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\best-flooring-for-kids-and-pets.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\budget-friendly-redesign-materials.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\easiest-flooring-to-clean.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\home-office-redesign-cost.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\where-to-find-paintings-and-wall-art.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\where-to-shop-for-home-decor.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "design-questions\\where-to-shop-for-office-furniture.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\airbnb-listing-not-getting-bookings.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\find-local-oversight-for-distant-rental.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\how-to-find-a-property-manager.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\protect-home-and-belongings-with-guests.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\rent-occasionally-and-stay-yourself.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\someone-to-look-after-house-while-away.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "short-term-rental-questions\\where-to-post-room-for-rent.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\can-i-keep-the-house-if-my-spouse-dies-and-i-cant-afford-the-mortgage-alone.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\can-i-live-in-a-house-i-inherited.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\can-i-sell-a-house-thats-still-in-probate.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\can-siblings-force-the-sale-of-an-inherited-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\do-i-have-to-pay-off-my-parents-mortgage-if-they-die.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\do-i-have-to-refinance-the-house-after-my-spouse-passes-away.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\do-i-owe-taxes-on-a-house-i-inherited.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\do-we-have-to-go-through-probate-before-we-can-sell-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\how-do-i-clean-out-and-sell-a-house-full-of-someones-belongings.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\how-long-does-it-take-to-sell-an-inherited-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\how-soon-can-you-sell-a-house-after-someone-dies.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\i-inherited-a-house-but-i-don-t-live-anywhere-near-it.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\i-inherited-a-house-that-needs-a-lot-of-work-should-i-fix-it-or-sell-it-as-is.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\i-inherited-a-house-with-my-brothers-and-sisters-what-do-we-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\is-my-name-automatically-added-to-the-house-if-my-husband-or-wife-dies.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-dad-died-and-his-name-is-still-on-the-house-can-we-sell-it.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-husband-died-what-happens-to-our-house-now.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-mom-died-and-i-don-t-know-if-i-should-keep-or-sell-her-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-parent-died-and-left-me-a-house-what-am-i-supposed-to-do-first.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-sibling-wants-to-keep-the-house-but-i-want-to-sell-what-happens.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-spouse-died-and-i-can-t-afford-the-house-by-myself-what-can-i-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-spouse-died-and-i-don-t-want-to-leave-the-house-what-are-my-options.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\my-wife-died-and-the-house-is-in-both-of-our-names-what-do-i-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\should-i-rent-out-the-house-i-inherited-or-sell-it.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\should-i-sell-my-parents-house-or-rent-it-out.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\should-i-sell-the-house-right-away-after-losing-my-spouse-or-wait.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\someone-died-and-there-s-still-a-mortgage-on-the-house-what-happens.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\there-s-an-entire-house-full-of-belongings-after-someone-died-where-do-i-even-.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\there-s-no-will-what-happens-to-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\what-do-i-do-with-my-parents-house-after-they-pass-away.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\what-happens-to-a-house-if-the-owner-dies-without-a-will.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\what-happens-to-our-house-if-my-spouse-dies-and-only-their-name-is-on-the-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\what-is-a-probate-sale-and-how-is-it-different-from-a-regular-home-sale.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\death\\who-is-actually-allowed-to-sell-the-house-after-someone-dies.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-i-afford-my-house-on-one-income-after-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-i-buy-another-house-while-i-m-still-going-through-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-i-buy-my-spouse-out-of-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-i-refinance-the-house-to-buy-out-my-ex-spouse.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-i-sell-the-house-if-my-spouse-refuses.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-my-spouse-buy-me-out-of-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\can-my-spouse-force-me-to-sell-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\do-i-have-to-sell-my-house-if-im-getting-divorced.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\do-we-have-to-sell-the-house-before-the-divorce-is-final.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\how-do-i-get-my-ex-off-the-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\how-do-i-get-my-ex-off-the-title.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\how-do-we-figure-out-how-much-equity-we-have.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\how-is-home-equity-split-in-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\how-long-do-i-have-to-sell-the-house-after-a-divorce-settlement.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\i-don-t-want-the-house-anymore-i-just-want-out-what-are-my-options.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\i-m-getting-divorced-what-happens-to-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\i-moved-out-but-my-spouse-is-still-living-in-the-house-what-happens-now.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\i-want-to-keep-the-house-can-i.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\is-it-better-to-sell-the-house-before-or-after-the-divorce-is-final.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\my-divorce-is-messy-can-the-house-still-be-sold-without-making-things-worse.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\my-husband-wants-to-sell-the-house-and-i-don-t-what-happens.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\my-wife-wants-to-keep-the-house-and-i-want-my-share-of-the-money.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\should-i-sell-the-house-or-keep-it-during-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\should-we-wait-until-after-the-divorce-to-sell.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\we-agree-to-sell-the-house-but-we-don-t-agree-on-anything-else-what-do-we-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\what-credit-score-do-i-need-to-refinance-after-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\what-happens-if-we-owe-more-on-the-house-than-it-s-worth.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\what-happens-to-the-mortgage-after-we-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\what-happens-to-the-mortgage-if-my-ex-spouse-moves-out.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\who-gets-the-house-in-a-divorce-if-both-names-are-on-the-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\who-gets-the-house-in-a-divorce.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\divorce\\will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\can-we-afford-to-buy-a-smaller-home-outright-by-selling-our-current-one.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\how-do-i-know-when-it-s-time-to-leave-the-family-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\how-much-money-can-we-save-by-downsizing-after-the-kids-leave.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\i-don-t-need-all-this-space-anymore-what-should-i-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\i-don-t-want-stairs-anymore-what-type-of-house-should-i-look-for.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\i-have-a-lot-of-equity-in-my-house-should-i-use-it-to-buy-something-smaller.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\i-love-my-house-but-it-s-too-much-to-take-care-of-now.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\is-it-actually-cheaper-to-move-to-a-smaller-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\is-it-worth-selling-a-big-house-just-for-two-people.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\is-now-a-good-time-to-sell-before-home-prices-change.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\my-house-is-paid-off-does-it-still-make-sense-to-move.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\my-kids-are-gone-should-i-sell-the-family-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\my-kids-live-far-away-should-i-move-closer-to-them.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\my-kids-moved-out-and-now-this-house-feels-way-too-big.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-i-buy-a-condo-now-that-my-kids-are-out-of-the-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-i-downsize-now-or-wait-a-few-years.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-i-sell-now-or-wait-until-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-i-stay-in-the-house-my-kids-grew-up-in-or-move.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-we-downsize-now-that-our-kids-moved-out.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-we-move-somewhere-with-less-yard-work-and-maintenance.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\should-we-rent-out-our-kids-old-rooms-or-sell-the-house-entirely.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\what-are-good-empty-nester-neighborhoods-in-the-san-fernando-valley.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\what-should-we-do-with-all-the-extra-space-now-that-the-kids-are-gone.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\empty-nest\\what-size-house-makes-sense-for-an-empty-nester-couple.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\can-we-afford-a-bigger-house-on-one-income-if-i-stay-home-with-the-baby.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\how-do-i-know-when-weve-outgrown-our-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\how-many-bedrooms-do-i-actually-need-for-two-kids.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\how-much-does-it-cost-to-convert-a-garage-into-a-nursery-or-playroom.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\is-it-cheaper-to-add-on-to-our-house-or-move-to-a-bigger-one.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\is-it-worth-buying-a-house-with-a-yard-if-we-have-small-kids.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\should-we-buy-a-fixer-upper-or-a-move-in-ready-home-with-a-new-baby-coming.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\should-we-move-before-or-after-the-baby-is-born.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\what-neighborhoods-are-safest-for-families-with-young-children.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\growing-family\\whats-the-best-school-district-for-young-kids-in-the-san-fernando-valley.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\buy-a-house-before-or-after-the-wedding.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\buying-a-home-together-when-one-spouse-already-owns-property.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\buying-a-house-together-when-one-spouse-has-better-credit.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\can-married-couples-use-both-incomes-to-buy-a-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\can-two-people-buy-a-house-together-if-only-one-has-good-credit.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\do-we-need-to-be-married-to-qualify-for-a-joint-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\do-we-need-to-combine-finances-before-buying-a-home-together.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\getting-married-and-need-more-space-should-you-move.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\having-a-baby-and-need-more-space-should-you-move.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\how-do-newlyweds-afford-a-house-with-student-loan-debt.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\is-it-better-to-buy-a-home-together-or-keep-renting-until-were-more-settled.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\on-title-but-not-mortgage-what-does-it-mean.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-i-add-my-spouse-to-the-title-of-my-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-newlyweds-rent-or-buy-a-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-we-buy-a-house-after-getting-married.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-we-buy-a-house-before-or-after-getting-married.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-we-get-a-prenup-if-were-buying-a-house-together.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-we-sell-both-homes-and-buy-one-together.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\should-you-buy-a-bigger-home-before-starting-a-family.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\what-happens-to-a-house-you-owned-before-marriage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\what-happens-to-the-house-if-we-get-divorced-later.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\what-if-my-husband-already-owns-a-house-before-marriage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\what-price-range-can-we-afford-together.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\whats-a-good-starter-home-for-a-newly-married-couple.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\marriage\\whose-name-should-go-on-the-house-title-if-were-not-married-yet.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\can-a-real-estate-agent-handle-everything-while-i-m-still-out-of-state.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\can-i-buy-a-house-in-a-new-city-before-selling-my-current-one.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\can-i-buy-a-house-in-california-before-i-actually-move-there.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\can-i-buy-a-new-house-before-my-current-house-sells.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\how-do-i-find-a-good-neighborhood-in-a-city-ive-never-lived-in.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\how-do-i-house-hunt-if-i-live-in-another-state.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\how-do-i-sell-my-house-and-buy-a-new-one-in-a-different-city-at-the-same-time.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\how-long-does-it-typically-take-to-sell-a-house-when-relocating-for-work.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\how-much-does-it-cost-to-move-across-the-country-with-a-house-full-of-furniture.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-already-moved-and-my-old-house-still-hasn-t-sold-what-do-i-do.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-don-t-know-anything-about-the-area-i-m-moving-to-where-do-i-even-start.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-have-to-move-in-a-few-months-should-i-sell-my-house-now.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-just-got-a-job-in-california-how-do-i-figure-out-where-to-live.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-m-moving-to-the-san-fernando-valley-what-areas-should-i-look-at.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\i-need-to-move-fast-for-work-how-quickly-can-i-buy-a-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\is-it-better-to-rent-or-buy-right-away-after-relocating-for-a-job.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\my-company-gave-me-a-relocation-package-how-do-i-use-it-to-buy-a-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\my-job-is-moving-me-and-i-have-no-idea-what-to-do-with-my-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\should-i-rent-first-when-i-move-or-just-buy.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\should-i-sell-my-house-before-i-find-a-new-one-out-of-state.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\should-i-use-the-same-agent-to-sell-my-old-house-and-buy-my-new-one.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\what-happens-if-i-have-to-move-before-my-house-is-ready-to-sell.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\what-if-i-need-the-money-from-my-current-house-to-buy-the-next-one.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\what-should-i-know-about-moving-to-the-san-fernando-valley-from-out-of-state.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\relocation\\whats-a-bridge-loan-and-do-i-need-one-to-relocate.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\can-i-afford-to-keep-my-house-after-i-stop-working.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\can-i-afford-to-stay-in-my-house-on-a-fixed-retirement-income.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\can-i-use-my-home-equity-to-fund-my-retirement.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\can-i-use-the-equity-in-my-house-to-buy-another-home.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\how-much-equity-should-i-have-in-my-home-before-retiring.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-don-t-want-to-deal-with-a-big-house-anymore-what-are-my-options.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-have-a-lot-of-money-tied-up-in-my-house-what-should-i-do-with-it.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-m-retired-and-still-have-a-mortgage-is-that-a-bad-idea.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-m-retired-can-i-still-qualify-for-a-mortgage.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-m-retiring-soon-should-i-sell-my-house.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\i-want-to-move-closer-to-my-kids-when-i-retire-how-do-i-plan-that.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\is-it-better-to-retire-in-california-or-move-somewhere-cheaper.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\is-it-cheaper-to-rent-after-retirement.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\is-it-smart-to-downsize-right-when-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-buy-a-one-story-home-before-i-get-older.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-downsize-when-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-move-closer-to-my-kids-or-grandkids-when-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-pay-off-my-house-before-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-pay-off-my-mortgage-before-i-retire.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-sell-my-california-house-and-move-somewhere-cheaper.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\should-i-sell-my-house-and-rent-instead-once-im-retired.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\what-are-the-best-low-maintenance-homes-for-retirees.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\what-if-i-retire-and-then-realize-i-can-t-afford-my-house-anymore.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\what-is-a-reverse-mortgage-and-is-it-a-good-idea-for-retirees.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "life-changes\\retirement\\what-kind-of-house-makes-sense-as-i-get-older.html",
+      "triggers": 1,
+      "status": "pass"
+    },
+    {
+      "page": "considerations.html",
+      "triggers": 1,
+      "status": "pass"
+    }
+  ],
+  "failures": [],
+  "uniqueConfigurations": 90,
+  "optionPaths": 811,
+  "interceptedSubmissions": 1161,
+  "failureAndRetry": "pass",
+  "realLeadsSent": 0
+}

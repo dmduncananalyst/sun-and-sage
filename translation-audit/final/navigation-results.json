@@ -1,0 +1,263 @@
+[
+  {
+    "width": 768,
+    "overflow": false,
+    "height": 138,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 23.03125,
+        "right": 139.75
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 153.75,
+        "right": 222.125
+      },
+      {
+        "class": "dd-language",
+        "left": 236.125,
+        "right": 360.59375
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 199,
+    "navScroll": 199
+  },
+  {
+    "width": 820,
+    "overflow": false,
+    "height": 138,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 24.59375,
+        "right": 141.3125
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 155.3125,
+        "right": 223.6875
+      },
+      {
+        "class": "dd-language",
+        "left": 237.6875,
+        "right": 362.15625
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 199,
+    "navScroll": 199
+  },
+  {
+    "width": 834,
+    "overflow": false,
+    "height": 138,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 25.015625,
+        "right": 141.734375
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 155.734375,
+        "right": 224.109375
+      },
+      {
+        "class": "dd-language",
+        "left": 238.109375,
+        "right": 362.578125
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 199,
+    "navScroll": 199
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "height": 138,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 30.71875,
+        "right": 147.4375
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 161.4375,
+        "right": 229.8125
+      },
+      {
+        "class": "dd-language",
+        "left": 243.8125,
+        "right": 368.28125
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 199,
+    "navScroll": 199
+  },
+  {
+    "width": 1180,
+    "overflow": false,
+    "height": 138,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 32,
+        "right": 148.71875
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 162.71875,
+        "right": 231.09375
+      },
+      {
+        "class": "dd-language",
+        "left": 245.09375,
+        "right": 369.5625
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 199,
+    "navScroll": 199
+  },
+  {
+    "width": 1280,
+    "overflow": false,
+    "height": 137,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 541.609375,
+        "right": 658.328125
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 677.515625,
+        "right": 745.890625
+      },
+      {
+        "class": "dd-language",
+        "left": 765.078125,
+        "right": 901.046875
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 1232,
+    "navScroll": 1232
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "height": 137,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 619.203125,
+        "right": 735.921875
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 757.515625,
+        "right": 825.890625
+      },
+      {
+        "class": "dd-language",
+        "left": 847.484375,
+        "right": 983.453125
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 0,
+        "right": 0
+      }
+    ],
+    "navWidth": 1392,
+    "navScroll": 1392
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "height": 132,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 16,
+        "right": 112.625
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 125.796875,
+        "right": 182.65625
+      },
+      {
+        "class": "dd-language",
+        "left": 195.84375,
+        "right": 306.828125
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 320,
+        "right": 374
+      }
+    ],
+    "navWidth": 0,
+    "navScroll": 0
+  },
+  {
+    "width": 430,
+    "overflow": false,
+    "height": 132,
+    "tools": [
+      {
+        "class": "dd-feature dd-neighborhoods",
+        "left": 16,
+        "right": 112.625
+      },
+      {
+        "class": "dd-search dd-feature-trigger",
+        "left": 139.140625,
+        "right": 196
+      },
+      {
+        "class": "dd-language",
+        "left": 222.5,
+        "right": 333.484375
+      },
+      {
+        "class": "dd-menu-toggle",
+        "left": 360,
+        "right": 414
+      }
+    ],
+    "navWidth": 0,
+    "navScroll": 0
+  }
+]

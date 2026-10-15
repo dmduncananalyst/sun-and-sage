@@ -1,0 +1,8 @@
+*
+!requirements.txt
+!app.py
+!core.py
+!public-text.json
+!Dockerfile
+
+!project-titles.json

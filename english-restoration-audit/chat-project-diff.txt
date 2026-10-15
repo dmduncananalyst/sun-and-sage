@@ -1,0 +1,19 @@
+--- 
++++ 
+@@ -264,7 +264,15 @@
+     entryDetails = details;
+     lastTrigger = trigger;
+     activeCTA = trigger?.dataset.sunConversationLabel || normalizedText(trigger) || cfg.button;
+-    Object.keys(answers).forEach(k=>delete answers[k]); history.splice(0); index=0; render();
++    Object.keys(answers).forEach(k=>delete answers[k]); history.splice(0); index=0;
++    dialog.querySelector('.sunConversation__title').textContent=conversationTitle;
++    close.setAttribute('aria-label','Close');
++    if(window.DommyDomAI?.open({dialog,stage,intro,trigger,details,activeCTA})){
++      dialog.hidden=false;
++      if(!dialog.open)dialog.showModal();
++      return;
++    }
++    render();
+     if (cfg.inline) {
+       dialog.scrollIntoView({block:'center'});
+       dialog.querySelector('.sunConversation__choice,.sunConversation__input')?.focus({preventScroll:true});

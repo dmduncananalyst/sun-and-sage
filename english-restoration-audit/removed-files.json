@@ -1,0 +1,11 @@
+[
+  "assets/tablet-language.css",
+  "assets/google-translation.js",
+  "assets/translation-config.json",
+  "assets/google-translate-attribution.png",
+  "assets/homepage-chat-ui.json",
+  "assets/homepage-ai-chat.js",
+  "assets/homepage-locales",
+  "homepage-service",
+  "translation-service"
+]

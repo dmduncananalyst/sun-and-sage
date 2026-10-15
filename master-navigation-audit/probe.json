@@ -1,0 +1,1438 @@
+[
+  {
+    "height": 187,
+    "compact": false,
+    "rail": true,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 18,
+          "y": 133.65625,
+          "width": 40.3125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 58.3125,
+          "bottom": 177.65625,
+          "left": 18
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 76.3125,
+          "y": 133.65625,
+          "width": 46.421875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 122.734375,
+          "bottom": 177.65625,
+          "left": 76.3125
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 140.734375,
+          "y": 133.65625,
+          "width": 27.71875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 168.453125,
+          "bottom": 177.65625,
+          "left": 140.734375
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 186.453125,
+          "y": 133.65625,
+          "width": 33.109375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 219.5625,
+          "bottom": 177.65625,
+          "left": 186.453125
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 237.5625,
+          "y": 133.65625,
+          "width": 174.015625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 411.578125,
+          "bottom": 177.65625,
+          "left": 237.5625
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 429.578125,
+          "y": 133.65625,
+          "width": 120.453125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 550.03125,
+          "bottom": 177.65625,
+          "left": 429.578125
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 568.03125,
+          "y": 133.65625,
+          "width": 99.265625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 667.296875,
+          "bottom": 177.65625,
+          "left": 568.03125
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 685.296875,
+          "y": 133.65625,
+          "width": 120.609375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 805.90625,
+          "bottom": 177.65625,
+          "left": 685.296875
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 823.90625,
+          "y": 133.65625,
+          "width": 37.4375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 861.34375,
+          "bottom": 177.65625,
+          "left": 823.90625
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 879.34375,
+          "y": 133.65625,
+          "width": 64.140625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 943.484375,
+          "bottom": 177.65625,
+          "left": 879.34375
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 389.15625,
+          "y": 80.65625,
+          "width": 192.84375,
+          "height": 48,
+          "top": 80.65625,
+          "right": 582,
+          "bottom": 128.65625,
+          "left": 389.15625
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 18,
+          "y": 6,
+          "width": 224,
+          "height": 74.65625,
+          "top": 6,
+          "right": 242,
+          "bottom": 80.65625,
+          "left": 18
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 18,
+          "y": 128.65625,
+          "width": 564,
+          "height": 57,
+          "top": 128.65625,
+          "right": 582,
+          "bottom": 185.65625,
+          "left": 18
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 468,
+          "y": 25.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 25.40625,
+          "right": 582,
+          "bottom": 61.234375,
+          "left": 468
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 18,
+          "y": 82.65625,
+          "width": 213.09375,
+          "height": 44,
+          "top": 82.65625,
+          "right": 231.09375,
+          "bottom": 126.65625,
+          "left": 18
+        }
+      }
+    ],
+    "width": 600,
+    "errors": []
+  },
+  {
+    "height": 187,
+    "compact": false,
+    "rail": true,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 22.3125,
+          "y": 133.65625,
+          "width": 40.3125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 62.625,
+          "bottom": 177.65625,
+          "left": 22.3125
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 80.625,
+          "y": 133.65625,
+          "width": 46.421875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 127.046875,
+          "bottom": 177.65625,
+          "left": 80.625
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 145.046875,
+          "y": 133.65625,
+          "width": 27.71875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 172.765625,
+          "bottom": 177.65625,
+          "left": 145.046875
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 190.765625,
+          "y": 133.65625,
+          "width": 33.109375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 223.875,
+          "bottom": 177.65625,
+          "left": 190.765625
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 241.875,
+          "y": 133.65625,
+          "width": 174.015625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 415.890625,
+          "bottom": 177.65625,
+          "left": 241.875
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 433.890625,
+          "y": 133.65625,
+          "width": 120.453125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 554.34375,
+          "bottom": 177.65625,
+          "left": 433.890625
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 572.34375,
+          "y": 133.65625,
+          "width": 99.265625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 671.609375,
+          "bottom": 177.65625,
+          "left": 572.34375
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 689.609375,
+          "y": 133.65625,
+          "width": 120.609375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 810.21875,
+          "bottom": 177.65625,
+          "left": 689.609375
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 828.21875,
+          "y": 133.65625,
+          "width": 37.4375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 865.65625,
+          "bottom": 177.65625,
+          "left": 828.21875
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 883.65625,
+          "y": 133.65625,
+          "width": 64.140625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 947.796875,
+          "bottom": 177.65625,
+          "left": 883.65625
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 528.84375,
+          "y": 80.65625,
+          "width": 192.84375,
+          "height": 48,
+          "top": 80.65625,
+          "right": 721.6875,
+          "bottom": 128.65625,
+          "left": 528.84375
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 22.3125,
+          "y": 6,
+          "width": 224,
+          "height": 74.65625,
+          "top": 6,
+          "right": 246.3125,
+          "bottom": 80.65625,
+          "left": 22.3125
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 22.3125,
+          "y": 128.65625,
+          "width": 699.375,
+          "height": 57,
+          "top": 128.65625,
+          "right": 721.6875,
+          "bottom": 185.65625,
+          "left": 22.3125
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 607.6875,
+          "y": 25.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 25.40625,
+          "right": 721.6875,
+          "bottom": 61.234375,
+          "left": 607.6875
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 22.3125,
+          "y": 82.65625,
+          "width": 213.09375,
+          "height": 44,
+          "top": 82.65625,
+          "right": 235.40625,
+          "bottom": 126.65625,
+          "left": 22.3125
+        }
+      }
+    ],
+    "width": 744,
+    "errors": []
+  },
+  {
+    "height": 187,
+    "compact": false,
+    "rail": true,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 23.03125,
+          "y": 133.65625,
+          "width": 40.3125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 63.34375,
+          "bottom": 177.65625,
+          "left": 23.03125
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 81.34375,
+          "y": 133.65625,
+          "width": 46.421875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 127.765625,
+          "bottom": 177.65625,
+          "left": 81.34375
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 145.765625,
+          "y": 133.65625,
+          "width": 27.71875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 173.484375,
+          "bottom": 177.65625,
+          "left": 145.765625
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 191.484375,
+          "y": 133.65625,
+          "width": 33.109375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 224.59375,
+          "bottom": 177.65625,
+          "left": 191.484375
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 242.59375,
+          "y": 133.65625,
+          "width": 174.015625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 416.609375,
+          "bottom": 177.65625,
+          "left": 242.59375
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 434.609375,
+          "y": 133.65625,
+          "width": 120.453125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 555.0625,
+          "bottom": 177.65625,
+          "left": 434.609375
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 573.0625,
+          "y": 133.65625,
+          "width": 99.265625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 672.328125,
+          "bottom": 177.65625,
+          "left": 573.0625
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 690.328125,
+          "y": 133.65625,
+          "width": 120.609375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 810.9375,
+          "bottom": 177.65625,
+          "left": 690.328125
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 828.9375,
+          "y": 133.65625,
+          "width": 37.4375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 866.375,
+          "bottom": 177.65625,
+          "left": 828.9375
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 884.375,
+          "y": 133.65625,
+          "width": 64.140625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 948.515625,
+          "bottom": 177.65625,
+          "left": 884.375
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 552.125,
+          "y": 80.65625,
+          "width": 192.84375,
+          "height": 48,
+          "top": 80.65625,
+          "right": 744.96875,
+          "bottom": 128.65625,
+          "left": 552.125
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 23.03125,
+          "y": 6,
+          "width": 224,
+          "height": 74.65625,
+          "top": 6,
+          "right": 247.03125,
+          "bottom": 80.65625,
+          "left": 23.03125
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 23.03125,
+          "y": 128.65625,
+          "width": 721.9375,
+          "height": 57,
+          "top": 128.65625,
+          "right": 744.96875,
+          "bottom": 185.65625,
+          "left": 23.03125
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 630.96875,
+          "y": 25.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 25.40625,
+          "right": 744.96875,
+          "bottom": 61.234375,
+          "left": 630.96875
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 23.03125,
+          "y": 82.65625,
+          "width": 213.09375,
+          "height": 44,
+          "top": 82.65625,
+          "right": 236.125,
+          "bottom": 126.65625,
+          "left": 23.03125
+        }
+      }
+    ],
+    "width": 768,
+    "errors": []
+  },
+  {
+    "height": 183,
+    "compact": false,
+    "rail": false,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 47.359375,
+          "y": 133.65625,
+          "width": 40.3125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 87.671875,
+          "bottom": 177.65625,
+          "left": 47.359375
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 106.09375,
+          "y": 133.65625,
+          "width": 46.421875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 152.515625,
+          "bottom": 177.65625,
+          "left": 106.09375
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 170.9375,
+          "y": 133.65625,
+          "width": 27.71875,
+          "height": 44,
+          "top": 133.65625,
+          "right": 198.65625,
+          "bottom": 177.65625,
+          "left": 170.9375
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 217.078125,
+          "y": 133.65625,
+          "width": 33.109375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 250.1875,
+          "bottom": 177.65625,
+          "left": 217.078125
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 268.609375,
+          "y": 133.65625,
+          "width": 174.015625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 442.625,
+          "bottom": 177.65625,
+          "left": 268.609375
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 461.046875,
+          "y": 133.65625,
+          "width": 120.453125,
+          "height": 44,
+          "top": 133.65625,
+          "right": 581.5,
+          "bottom": 177.65625,
+          "left": 461.046875
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 599.921875,
+          "y": 133.65625,
+          "width": 99.265625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 699.1875,
+          "bottom": 177.65625,
+          "left": 599.921875
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 717.609375,
+          "y": 133.65625,
+          "width": 120.609375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 838.21875,
+          "bottom": 177.65625,
+          "left": 717.609375
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 856.640625,
+          "y": 133.65625,
+          "width": 37.4375,
+          "height": 44,
+          "top": 133.65625,
+          "right": 894.078125,
+          "bottom": 177.65625,
+          "left": 856.640625
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 912.5,
+          "y": 133.65625,
+          "width": 64.140625,
+          "height": 44,
+          "top": 133.65625,
+          "right": 976.640625,
+          "bottom": 177.65625,
+          "left": 912.5
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 800.4375,
+          "y": 80.65625,
+          "width": 192.84375,
+          "height": 48,
+          "top": 80.65625,
+          "right": 993.28125,
+          "bottom": 128.65625,
+          "left": 800.4375
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 30.71875,
+          "y": 6,
+          "width": 224,
+          "height": 74.65625,
+          "top": 6,
+          "right": 254.71875,
+          "bottom": 80.65625,
+          "left": 30.71875
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 30.71875,
+          "y": 128.65625,
+          "width": 962.5625,
+          "height": 53,
+          "top": 128.65625,
+          "right": 993.28125,
+          "bottom": 181.65625,
+          "left": 30.71875
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 879.28125,
+          "y": 25.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 25.40625,
+          "right": 993.28125,
+          "bottom": 61.234375,
+          "left": 879.28125
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 30.71875,
+          "y": 82.65625,
+          "width": 213.09375,
+          "height": 44,
+          "top": 82.65625,
+          "right": 243.8125,
+          "bottom": 126.65625,
+          "left": 30.71875
+        }
+      }
+    ],
+    "width": 1024,
+    "errors": []
+  },
+  {
+    "height": 137,
+    "compact": false,
+    "rail": false,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 134.859375,
+          "y": 87.65625,
+          "width": 42.125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 176.984375,
+          "bottom": 131.65625,
+          "left": 134.859375
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 200.015625,
+          "y": 87.65625,
+          "width": 48.6875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 248.703125,
+          "bottom": 131.65625,
+          "left": 200.015625
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 271.734375,
+          "y": 87.65625,
+          "width": 29.078125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 300.8125,
+          "bottom": 131.65625,
+          "left": 271.734375
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 323.84375,
+          "y": 87.65625,
+          "width": 34.921875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 358.765625,
+          "bottom": 131.65625,
+          "left": 323.84375
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 381.796875,
+          "y": 87.65625,
+          "width": 182.65625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 564.453125,
+          "bottom": 131.65625,
+          "left": 381.796875
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 587.484375,
+          "y": 87.65625,
+          "width": 127.265625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 714.75,
+          "bottom": 131.65625,
+          "left": 587.484375
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 737.78125,
+          "y": 87.65625,
+          "width": 104.71875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 842.5,
+          "bottom": 131.65625,
+          "left": 737.78125
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 865.53125,
+          "y": 87.65625,
+          "width": 126.96875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 992.5,
+          "bottom": 131.65625,
+          "left": 865.53125
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 1015.53125,
+          "y": 87.65625,
+          "width": 39.25,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1054.78125,
+          "bottom": 131.65625,
+          "left": 1015.53125
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 1077.8125,
+          "y": 87.65625,
+          "width": 67.328125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1145.140625,
+          "bottom": 131.65625,
+          "left": 1077.8125
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 1046.671875,
+          "y": 20.328125,
+          "width": 209.328125,
+          "height": 48,
+          "top": 20.328125,
+          "right": 1256,
+          "bottom": 68.328125,
+          "left": 1046.671875
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 24,
+          "y": 6,
+          "width": 230,
+          "height": 76.65625,
+          "top": 6,
+          "right": 254,
+          "bottom": 82.65625,
+          "left": 24
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 24,
+          "y": 82.65625,
+          "width": 1232,
+          "height": 53,
+          "top": 82.65625,
+          "right": 1256,
+          "bottom": 135.65625,
+          "left": 24
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 282,
+          "y": 26.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 26.40625,
+          "right": 396,
+          "bottom": 62.234375,
+          "left": 282
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 614.78125,
+          "y": 22.328125,
+          "width": 213.09375,
+          "height": 44,
+          "top": 22.328125,
+          "right": 827.875,
+          "bottom": 66.328125,
+          "left": 614.78125
+        }
+      }
+    ],
+    "width": 1280,
+    "errors": []
+  },
+  {
+    "height": 137,
+    "compact": false,
+    "rail": false,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 201.921875,
+          "y": 87.65625,
+          "width": 42.125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 244.046875,
+          "bottom": 131.65625,
+          "left": 201.921875
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 269.953125,
+          "y": 87.65625,
+          "width": 48.6875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 318.640625,
+          "bottom": 131.65625,
+          "left": 269.953125
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 344.546875,
+          "y": 87.65625,
+          "width": 29.078125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 373.625,
+          "bottom": 131.65625,
+          "left": 344.546875
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 399.53125,
+          "y": 87.65625,
+          "width": 34.921875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 434.453125,
+          "bottom": 131.65625,
+          "left": 399.53125
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 460.359375,
+          "y": 87.65625,
+          "width": 182.65625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 643.015625,
+          "bottom": 131.65625,
+          "left": 460.359375
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 668.921875,
+          "y": 87.65625,
+          "width": 127.265625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 796.1875,
+          "bottom": 131.65625,
+          "left": 668.921875
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 822.09375,
+          "y": 87.65625,
+          "width": 104.71875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 926.8125,
+          "bottom": 131.65625,
+          "left": 822.09375
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 952.71875,
+          "y": 87.65625,
+          "width": 126.96875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1079.6875,
+          "bottom": 131.65625,
+          "left": 952.71875
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 1105.59375,
+          "y": 87.65625,
+          "width": 39.25,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1144.84375,
+          "bottom": 131.65625,
+          "left": 1105.59375
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 1170.75,
+          "y": 87.65625,
+          "width": 67.328125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1238.078125,
+          "bottom": 131.65625,
+          "left": 1170.75
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-contact-strip",
+        "rect": {
+          "x": 1206.671875,
+          "y": 20.328125,
+          "width": 209.328125,
+          "height": 48,
+          "top": 20.328125,
+          "right": 1416,
+          "bottom": 68.328125,
+          "left": 1206.671875
+        }
+      },
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 24,
+          "y": 6,
+          "width": 230,
+          "height": 76.65625,
+          "top": 6,
+          "right": 254,
+          "bottom": 82.65625,
+          "left": 24
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 24,
+          "y": 82.65625,
+          "width": 1392,
+          "height": 53,
+          "top": 82.65625,
+          "right": 1416,
+          "bottom": 135.65625,
+          "left": 24
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 282,
+          "y": 26.40625,
+          "width": 114,
+          "height": 35.828125,
+          "top": 26.40625,
+          "right": 396,
+          "bottom": 62.234375,
+          "left": 282
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 694.78125,
+          "y": 22.328125,
+          "width": 213.09375,
+          "height": 44,
+          "top": 22.328125,
+          "right": 907.875,
+          "bottom": 66.328125,
+          "left": 694.78125
+        }
+      }
+    ],
+    "width": 1440,
+    "errors": []
+  },
+  {
+    "height": 132,
+    "compact": true,
+    "rail": false,
+    "overflow": false,
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "zones": [
+      {
+        "class": "dd-brand",
+        "rect": {
+          "x": 16,
+          "y": 6,
+          "width": 224,
+          "height": 74.65625,
+          "top": 6,
+          "right": 240,
+          "bottom": 80.65625,
+          "left": 16
+        }
+      },
+      {
+        "class": "dd-nav",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "class": "dd-rise",
+        "rect": {
+          "x": 282,
+          "y": 28.875,
+          "width": 92,
+          "height": 28.90625,
+          "top": 28.875,
+          "right": 374,
+          "bottom": 57.78125,
+          "left": 282
+        }
+      },
+      {
+        "class": "dd-header-tools",
+        "rect": {
+          "x": 16,
+          "y": 80.65625,
+          "width": 358,
+          "height": 44,
+          "top": 80.65625,
+          "right": 374,
+          "bottom": 124.65625,
+          "left": 16
+        }
+      }
+    ],
+    "width": 390,
+    "errors": []
+  }
+]

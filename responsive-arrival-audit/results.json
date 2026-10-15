@@ -1,0 +1,107 @@
+[
+  {
+    "width": 390,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 390,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 390,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 768,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 768,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 768,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 820,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 820,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 820,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 834,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 834,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 834,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1024,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1024,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1024,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1180,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1180,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1180,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1440,
+    "page": "index.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1440,
+    "page": "contact.html",
+    "stableHeaderAndMenu": true
+  },
+  {
+    "width": 1440,
+    "page": "interior-design.html",
+    "stableHeaderAndMenu": true
+  }
+]

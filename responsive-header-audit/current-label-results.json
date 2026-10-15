@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Blog",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 1440,
+    "page": "blog"
+  },
+  {
+    "text": "Blog",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 768,
+    "page": "blog"
+  },
+  {
+    "text": "Blog",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 390,
+    "page": "blog"
+  },
+  {
+    "text": "About",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 1440,
+    "page": "about"
+  },
+  {
+    "text": "About",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 768,
+    "page": "about"
+  },
+  {
+    "text": "About",
+    "color": "rgb(72, 83, 62)",
+    "opacity": "1",
+    "visibility": "visible",
+    "width": 390,
+    "page": "about"
+  }
+]

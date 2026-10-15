@@ -1,0 +1,436 @@
+[
+  {
+    "width": 320,
+    "size": 272,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 94.5,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 81.5
+      },
+      {
+        "text": "Preapproval",
+        "distance": 94.49819282539548,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 109.171875
+      },
+      {
+        "text": "Wish List",
+        "distance": 94.5,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 176
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 94.48714363605242,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 242.8125
+      },
+      {
+        "text": "Tours",
+        "distance": 94.5,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 270.5
+      },
+      {
+        "text": "Offer",
+        "distance": 94.49819282539548,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 242.8125
+      },
+      {
+        "text": "Escrow",
+        "distance": 94.5,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 176
+      },
+      {
+        "text": "Keys",
+        "distance": 94.50924072296449,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 109.171875
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "size": 342,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 119,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 92
+      },
+      {
+        "text": "Preapproval",
+        "distance": 119.00386207788858,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 126.84375
+      },
+      {
+        "text": "Wish List",
+        "distance": 119,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 211
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 118.99281302154871,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 295.140625
+      },
+      {
+        "text": "Tours",
+        "distance": 119,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 330
+      },
+      {
+        "text": "Offer",
+        "distance": 119.00386207788858,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 295.140625
+      },
+      {
+        "text": "Escrow",
+        "distance": 119,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 211
+      },
+      {
+        "text": "Keys",
+        "distance": 119.01491010846078,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 126.84375
+      }
+    ]
+  },
+  {
+    "width": 650,
+    "size": 480,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 167.31253051757812,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 112.6875
+      },
+      {
+        "text": "Preapproval",
+        "distance": 167.30811550023054,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 161.6875
+      },
+      {
+        "text": "Wish List",
+        "distance": 167.29687500000279,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 280
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 167.29702343216968,
+        "gap": 10.00006103515625,
+        "centerOffset": 0.0078125,
+        "bottom": 398.29693603515625
+      },
+      {
+        "text": "Tours",
+        "distance": 167.29690551757812,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 447.29693603515625
+      },
+      {
+        "text": "Offer",
+        "distance": 167.30807234185775,
+        "gap": 10.00006103515625,
+        "centerOffset": 0.0078125,
+        "bottom": 398.29693603515625
+      },
+      {
+        "text": "Escrow",
+        "distance": 167.31250000000279,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 280
+      },
+      {
+        "text": "Keys",
+        "distance": 167.31916367745464,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 161.6875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "size": 480,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 191.203125,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 94.296875
+      },
+      {
+        "text": "Preapproval",
+        "distance": 191.19504482599862,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 150.296875
+      },
+      {
+        "text": "Wish List",
+        "distance": 191.1875,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 285.5
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 191.1839959633128,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 420.6875
+      },
+      {
+        "text": "Tours",
+        "distance": 191.1875,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 476.6875
+      },
+      {
+        "text": "Offer",
+        "distance": 191.19504482599862,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 420.6875
+      },
+      {
+        "text": "Escrow",
+        "distance": 191.203125,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 285.5
+      },
+      {
+        "text": "Keys",
+        "distance": 191.2060930502249,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 150.296875
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "size": 467.4375,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 186.18750016390777,
+        "gap": 10,
+        "centerOffset": -0.0078125,
+        "bottom": 87.03125
+      },
+      {
+        "text": "Preapproval",
+        "distance": 186.17348224363923,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 141.5625
+      },
+      {
+        "text": "Wish List",
+        "distance": 186.1640625,
+        "gap": 10,
+        "centerOffset": -0.0078125,
+        "bottom": 273.21875
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 186.16243304450762,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 404.859375
+      },
+      {
+        "text": "Tours",
+        "distance": 186.1718751639215,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 459.390625
+      },
+      {
+        "text": "Offer",
+        "distance": 186.1845307870515,
+        "gap": 10,
+        "centerOffset": -0.0078125,
+        "bottom": 404.859375
+      },
+      {
+        "text": "Escrow",
+        "distance": 186.1953125,
+        "gap": 10,
+        "centerOffset": -0.0078125,
+        "bottom": 273.21875
+      },
+      {
+        "text": "Keys",
+        "distance": 186.19557867486114,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 141.5625
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "size": 646.28125,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 257.71875762939453,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 112.92185974121094
+      },
+      {
+        "text": "Preapproval",
+        "distance": 257.70728713902355,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 188.40623474121094
+      },
+      {
+        "text": "Wish List",
+        "distance": 257.70312500000045,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 370.64060974121094
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 257.6962167790794,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 552.8593597412109
+      },
+      {
+        "text": "Tours",
+        "distance": 257.70310974121094,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 628.3437347412109
+      },
+      {
+        "text": "Offer",
+        "distance": 257.70726555983714,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 552.8593597412109
+      },
+      {
+        "text": "Escrow",
+        "distance": 257.71875000000045,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 370.64060974121094
+      },
+      {
+        "text": "Keys",
+        "distance": 257.71833544517796,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 188.40623474121094
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "size": 650.046875,
+    "steps": [
+      {
+        "text": "Budget",
+        "distance": 259.22654735893644,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 113.29690551757812
+      },
+      {
+        "text": "Preapproval",
+        "distance": 259.22090522095675,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 189.21878051757812
+      },
+      {
+        "text": "Wish List",
+        "distance": 259.21093761727315,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 372.5156555175781
+      },
+      {
+        "text": "Neighborhoods",
+        "distance": 259.20989960133716,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 555.8125305175781
+      },
+      {
+        "text": "Tours",
+        "distance": 259.21096813531074,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 631.7344055175781
+      },
+      {
+        "text": "Offer",
+        "distance": 259.2209483793296,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 555.8125305175781
+      },
+      {
+        "text": "Escrow",
+        "distance": 259.2265626172661,
+        "gap": 10,
+        "centerOffset": 0,
+        "bottom": 372.5156555175781
+      },
+      {
+        "text": "Keys",
+        "distance": 259.2319535298764,
+        "gap": 10,
+        "centerOffset": 0.0078125,
+        "bottom": 189.21878051757812
+      }
+    ]
+  }
+]

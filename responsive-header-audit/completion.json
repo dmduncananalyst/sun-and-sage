@@ -1,0 +1,26 @@
+{
+  "layoutCases": 78,
+  "representativePages": 6,
+  "viewportWidths": [
+    320,
+    375,
+    390,
+    430,
+    650,
+    680,
+    768,
+    900,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "navigationInteractionSuites": 6,
+  "keyboardAndMouseSuites": 2,
+  "finalHoverStates": 32,
+  "finalFlyouts": 12,
+  "liveHeadersAudited": 351,
+  "allURLAndContentAuditsPassed": true,
+  "nothingPublished": true
+}

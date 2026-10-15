@@ -1,0 +1,84 @@
+{
+  "pages": 351,
+  "allPageContentOutsideHeaderPreserved": true,
+  "distinctHeaderDestinations": 68,
+  "originalBrokenURLs": [],
+  "issues": [],
+  "formerConsiderations": {
+    "Buying": {
+      "landing": "buyer-questions.html",
+      "category": "Buy",
+      "articles": [
+        "buyer-question-before-you-commit.html",
+        "buyer-question-budget-by-valley-area.html",
+        "buyer-question-fast-market-offer-or-walk.html",
+        "buyer-question-fixer-upper-worth-it.html",
+        "buyer-question-high-hoa-value.html",
+        "buyer-question-long-time-on-market.html",
+        "buyer-question-monthly-affordability.html",
+        "buyer-question-neighborhood-fit.html",
+        "buyer-question-other-ownership-costs.html",
+        "buyer-question-porter-ranch-newer-vs-established.html",
+        "buyer-question-same-price-different-neighborhoods.html",
+        "buyer-question-south-of-ventura-boulevard.html",
+        "buyer-question-upfront-costs.html"
+      ]
+    },
+    "Selling": {
+      "landing": "seller-questions.html",
+      "category": "Sell",
+      "articles": [
+        "seller-question-downsizing-before-listing.html",
+        "seller-question-downsizing-how-long-to-sell.html",
+        "seller-question-hoa-documents-before-listing.html",
+        "seller-question-move-up-now-or-wait.html",
+        "seller-question-net-proceeds.html",
+        "seller-question-preparing-to-sell-next-year.html",
+        "seller-question-sell-and-buy-avoid-two-homes.html",
+        "seller-question-updates-worth-doing.html"
+      ]
+    },
+    "Financing": {
+      "landing": "homebuyer-financing-questions.html",
+      "category": "Buy",
+      "articles": [
+        "buyer-closing-costs.html",
+        "buying-with-student-loan-debt.html",
+        "credit-score-to-buy-home.html",
+        "do-i-need-20-percent-down.html",
+        "down-payment-needed.html",
+        "preapproval-documents.html",
+        "preapproval-vs-prequalification.html",
+        "what-price-range-can-i-afford.html"
+      ]
+    },
+    "Design": {
+      "landing": "design-questions.html",
+      "category": "Interior Design",
+      "articles": [
+        "design-questions/best-accent-wall-colors.html",
+        "design-questions/best-bathroom-floor-tile.html",
+        "design-questions/best-flooring-for-kids-and-pets.html",
+        "design-questions/budget-friendly-redesign-materials.html",
+        "design-questions/easiest-flooring-to-clean.html",
+        "design-questions/home-office-redesign-cost.html",
+        "design-questions/where-to-find-paintings-and-wall-art.html",
+        "design-questions/where-to-shop-for-home-decor.html",
+        "design-questions/where-to-shop-for-office-furniture.html"
+      ]
+    },
+    "Rental Ownership": {
+      "landing": "short-term-rental-questions.html",
+      "category": "Property Management",
+      "articles": [
+        "short-term-rental-questions/airbnb-listing-not-getting-bookings.html",
+        "short-term-rental-questions/find-local-oversight-for-distant-rental.html",
+        "short-term-rental-questions/how-to-find-a-property-manager.html",
+        "short-term-rental-questions/protect-home-and-belongings-with-guests.html",
+        "short-term-rental-questions/rent-occasionally-and-stay-yourself.html",
+        "short-term-rental-questions/someone-to-look-after-house-while-away.html",
+        "short-term-rental-questions/where-to-post-room-for-rent.html"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1331 @@
+[
+  {
+    "width": 768,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 820,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 834,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 1024,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 1180,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 1440,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "About",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "500",
+        "line": "18.2px",
+        "spacing": "1.3px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "12px",
+        "weight": "500",
+        "line": "19.2px",
+        "spacing": "2.16px",
+        "case": "uppercase"
+      }
+    ],
+    "status": "pass"
+  },
+  {
+    "width": 390,
+    "labels": [
+      {
+        "label": "Home",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "About",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Buy",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Buy With Dominique",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "First-Time Homebuyers",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Sell",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Sell With Dominique",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Concierge Services",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Marketing",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Selling",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Property Management",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Interior Design",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Portfolio",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Life Changes",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Considerations",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Blog",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "15px",
+        "weight": "500",
+        "line": "22.5px",
+        "spacing": "0.375px",
+        "case": "none"
+      },
+      {
+        "label": "Contact",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "Reviews",
+        "font": "Arial, Helvetica, sans-serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "18.85px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "818-296-6896",
+        "font": "Georgia, \"Times New Roman\", serif",
+        "size": "14px",
+        "weight": "400",
+        "line": "21px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "818-873-5128",
+        "font": "Georgia, \"Times New Roman\", serif",
+        "size": "14px",
+        "weight": "400",
+        "line": "21px",
+        "spacing": "normal",
+        "case": "none"
+      },
+      {
+        "label": "dominique@therise.group",
+        "font": "Georgia, \"Times New Roman\", serif",
+        "size": "13px",
+        "weight": "400",
+        "line": "19.5px",
+        "spacing": "normal",
+        "case": "none"
+      }
+    ],
+    "status": "pass"
+  }
+]

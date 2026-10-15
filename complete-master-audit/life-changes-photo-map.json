@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Relocation",
+    "source": "Relocation.png",
+    "image": "assets/images/life-changes/relocation-family.webp",
+    "url": "life-changes/relocation.html",
+    "alt": "Younger family arriving in their new home with moving boxes",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "title": "Empty Nest",
+    "source": "empty-nest.png",
+    "image": "assets/images/life-changes/empty-nest-dining-table.webp",
+    "url": "life-changes/empty-nest.html",
+    "alt": "Two adults sitting together at a large dining table surrounded by empty chairs",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "title": "Retirement",
+    "source": "Retirement.png",
+    "image": "assets/images/life-changes/retirement-couple.webp",
+    "url": "life-changes/retirement.html",
+    "alt": "Older couple relaxing together at home beside a window",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "title": "Divorce",
+    "source": "Divorce.png",
+    "image": "assets/images/life-changes/divorce-home.webp",
+    "url": "life-changes/divorce.html",
+    "alt": "Two adults taking time apart in a quiet living room",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "title": "Death of a Loved One",
+    "source": "death-of-a-loved-one.png",
+    "image": "assets/images/life-changes/remembering-loved-one.webp",
+    "url": "life-changes/death.html",
+    "alt": "Couple comforting each other at home beside a family photograph",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  }
+]

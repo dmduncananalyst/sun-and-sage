@@ -1,0 +1,15 @@
+﻿{
+ "title":"Contact Dominique",
+ "welcome":"Hello. I’m Dominique’s assistant. What would you like help with?",
+ "message":"Your message",
+ "placeholder":"Write your question or consultation request…",
+ "send":"Send",
+ "close":"Close",
+ "thinking":"One moment…",
+ "required":"Please enter a message.",
+ "unavailable":"The assistant is temporarily unavailable. Please try again or use the contact links on this page.",
+ "sendInquiry":"Send my inquiry to Dominique",
+ "leadSent":"Your inquiry was received. This does not book an appointment.",
+ "leadFailed":"The inquiry was not sent. Please try again; your messages are still here.",
+ "consent":"Send the name, contact details and original conversation you shared to Dominique."
+}

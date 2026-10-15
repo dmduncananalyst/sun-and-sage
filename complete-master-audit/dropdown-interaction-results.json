@@ -1,0 +1,506 @@
+[
+  {
+    "width": 1280,
+    "label": "Buy",
+    "trigger": {
+      "x": 271.734375,
+      "y": 87.65625,
+      "width": 29.078125,
+      "height": 44
+    },
+    "panel": {
+      "x": 160.265625,
+      "y": 131.65625,
+      "width": 252,
+      "height": 131
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Sell",
+    "trigger": {
+      "x": 323.84375,
+      "y": 87.65625,
+      "width": 34.921875,
+      "height": 44
+    },
+    "panel": {
+      "x": 205.296875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 167
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Property Management",
+    "trigger": {
+      "x": 381.796875,
+      "y": 87.65625,
+      "width": 182.65625,
+      "height": 44
+    },
+    "panel": {
+      "x": 337.125,
+      "y": 131.65625,
+      "width": 272,
+      "height": 95
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Interior Design",
+    "trigger": {
+      "x": 587.484375,
+      "y": 87.65625,
+      "width": 127.265625,
+      "height": 44
+    },
+    "panel": {
+      "x": 515.109375,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Contact",
+    "trigger": {
+      "x": 1077.8125,
+      "y": 87.65625,
+      "width": 67.328125,
+      "height": 44
+    },
+    "panel": {
+      "x": 975.46875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Neighborhoods",
+    "trigger": {
+      "x": 614.78125,
+      "y": 22.328125,
+      "width": 116.71875,
+      "height": 44
+    },
+    "panel": {
+      "x": 313.140625,
+      "y": 66.328125,
+      "width": 720,
+      "height": 311
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1280,
+    "label": "Search",
+    "trigger": {
+      "x": 759.5,
+      "y": 22.328125,
+      "width": 68.375,
+      "height": 44
+    },
+    "panel": {
+      "x": 670.6875,
+      "y": 66.328125,
+      "width": 246,
+      "height": 59
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Buy",
+    "trigger": {
+      "x": 310.859375,
+      "y": 87.65625,
+      "width": 29.078125,
+      "height": 44
+    },
+    "panel": {
+      "x": 199.390625,
+      "y": 131.65625,
+      "width": 252,
+      "height": 131
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Sell",
+    "trigger": {
+      "x": 364.515625,
+      "y": 87.65625,
+      "width": 34.921875,
+      "height": 44
+    },
+    "panel": {
+      "x": 245.96875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 167
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Property Management",
+    "trigger": {
+      "x": 424.015625,
+      "y": 87.65625,
+      "width": 182.65625,
+      "height": 44
+    },
+    "panel": {
+      "x": 379.34375,
+      "y": 131.65625,
+      "width": 272,
+      "height": 95
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Interior Design",
+    "trigger": {
+      "x": 631.25,
+      "y": 87.65625,
+      "width": 127.265625,
+      "height": 44
+    },
+    "panel": {
+      "x": 558.875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Contact",
+    "trigger": {
+      "x": 1127.765625,
+      "y": 87.65625,
+      "width": 67.328125,
+      "height": 44
+    },
+    "panel": {
+      "x": 1025.421875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Neighborhoods",
+    "trigger": {
+      "x": 657.78125,
+      "y": 22.328125,
+      "width": 116.71875,
+      "height": 44
+    },
+    "panel": {
+      "x": 356.140625,
+      "y": 66.328125,
+      "width": 720,
+      "height": 311
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1366,
+    "label": "Search",
+    "trigger": {
+      "x": 802.5,
+      "y": 22.328125,
+      "width": 68.375,
+      "height": 44
+    },
+    "panel": {
+      "x": 713.6875,
+      "y": 66.328125,
+      "width": 246,
+      "height": 59
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Buy",
+    "trigger": {
+      "x": 344.546875,
+      "y": 87.65625,
+      "width": 29.078125,
+      "height": 44
+    },
+    "panel": {
+      "x": 233.078125,
+      "y": 131.65625,
+      "width": 252,
+      "height": 131
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Sell",
+    "trigger": {
+      "x": 399.53125,
+      "y": 87.65625,
+      "width": 34.921875,
+      "height": 44
+    },
+    "panel": {
+      "x": 280.984375,
+      "y": 131.65625,
+      "width": 272,
+      "height": 167
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Property Management",
+    "trigger": {
+      "x": 460.359375,
+      "y": 87.65625,
+      "width": 182.65625,
+      "height": 44
+    },
+    "panel": {
+      "x": 415.6875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 95
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Interior Design",
+    "trigger": {
+      "x": 668.921875,
+      "y": 87.65625,
+      "width": 127.265625,
+      "height": 44
+    },
+    "panel": {
+      "x": 596.546875,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Contact",
+    "trigger": {
+      "x": 1170.75,
+      "y": 87.65625,
+      "width": 67.328125,
+      "height": 44
+    },
+    "panel": {
+      "x": 1068.40625,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Neighborhoods",
+    "trigger": {
+      "x": 694.78125,
+      "y": 22.328125,
+      "width": 116.71875,
+      "height": 44
+    },
+    "panel": {
+      "x": 393.140625,
+      "y": 66.328125,
+      "width": 720,
+      "height": 311
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1440,
+    "label": "Search",
+    "trigger": {
+      "x": 839.5,
+      "y": 22.328125,
+      "width": 68.375,
+      "height": 44
+    },
+    "panel": {
+      "x": 750.6875,
+      "y": 66.328125,
+      "width": 246,
+      "height": 59
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Buy",
+    "trigger": {
+      "x": 579.3125,
+      "y": 87.65625,
+      "width": 29.078125,
+      "height": 44
+    },
+    "panel": {
+      "x": 467.84375,
+      "y": 131.65625,
+      "width": 252,
+      "height": 131
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Sell",
+    "trigger": {
+      "x": 636.390625,
+      "y": 87.65625,
+      "width": 34.921875,
+      "height": 44
+    },
+    "panel": {
+      "x": 517.84375,
+      "y": 131.65625,
+      "width": 272,
+      "height": 167
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Property Management",
+    "trigger": {
+      "x": 699.3125,
+      "y": 87.65625,
+      "width": 182.65625,
+      "height": 44
+    },
+    "panel": {
+      "x": 654.640625,
+      "y": 131.65625,
+      "width": 272,
+      "height": 95
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Interior Design",
+    "trigger": {
+      "x": 909.96875,
+      "y": 87.65625,
+      "width": 127.265625,
+      "height": 44
+    },
+    "panel": {
+      "x": 837.59375,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Contact",
+    "trigger": {
+      "x": 1420.171875,
+      "y": 87.65625,
+      "width": 67.328125,
+      "height": 44
+    },
+    "panel": {
+      "x": 1317.828125,
+      "y": 131.65625,
+      "width": 272,
+      "height": 203
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Neighborhoods",
+    "trigger": {
+      "x": 934.78125,
+      "y": 22.328125,
+      "width": 116.71875,
+      "height": 44
+    },
+    "panel": {
+      "x": 633.140625,
+      "y": 66.328125,
+      "width": 720,
+      "height": 311
+    },
+    "centered": true,
+    "edgeClamped": false
+  },
+  {
+    "width": 1920,
+    "label": "Search",
+    "trigger": {
+      "x": 1079.5,
+      "y": 22.328125,
+      "width": 68.375,
+      "height": 44
+    },
+    "panel": {
+      "x": 990.6875,
+      "y": 66.328125,
+      "width": 246,
+      "height": 59
+    },
+    "centered": true,
+    "edgeClamped": false
+  }
+]

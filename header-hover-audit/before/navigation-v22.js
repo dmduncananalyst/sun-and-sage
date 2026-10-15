@@ -1,0 +1,32 @@
+﻿(()=>{'use strict';
+const header=document.querySelector('#ss22-header');if(!header)return;
+const nav=header.querySelector('#ss22-navigation'),toggle=header.querySelector('.ss22-menu-toggle');if(!nav||!toggle)return;
+const items=[...nav.children],groups=items.filter(e=>e.classList.contains('ss22-group')),search=header.querySelector('.ss22-header-search');
+let compact=false,closeTimer,suppressFocus=false,lastWidth=innerWidth,pointer='mouse';
+const fine=matchMedia('(hover:hover) and (pointer:fine)'),inertState=new Map();
+const backdrop=document.createElement('div');backdrop.className='ss22-menu-backdrop';backdrop.hidden=true;backdrop.setAttribute('aria-hidden','true');document.body.appendChild(backdrop);
+const back=document.createElement('button');back.type='button';back.className='ss22-nav-back';back.textContent='Back';back.setAttribute('aria-label','Back to main navigation');nav.prepend(back);
+function position(){document.documentElement.style.setProperty('--ss-nav-top',Math.max(0,header.getBoundingClientRect().bottom)+'px');}
+function closeGroup(g){g.classList.remove('is-open');g.querySelector(':scope>a').setAttribute('aria-expanded','false');}
+function closeGroups(){clearTimeout(closeTimer);groups.forEach(closeGroup);nav.classList.remove('submenu-is-open');}
+function place(g){if(compact)return;const panel=g.querySelector('.ss22-panel'),r=g.querySelector(':scope>a').getBoundingClientRect(),width=Math.min(g.classList.contains('ss22-buyers')?1000:340,document.documentElement.clientWidth-48);panel.style.setProperty('--ss-dropdown-width',width+'px');panel.style.setProperty('--ss-dropdown-left',Math.max(24,Math.min(r.left,document.documentElement.clientWidth-width-24))+'px');panel.style.setProperty('--ss-dropdown-top',r.bottom+'px');}
+function openGroup(g){closeGroups();g.classList.add('is-open');g.querySelector(':scope>a').setAttribute('aria-expanded','true');if(compact){nav.classList.add('submenu-is-open');nav.scrollTop=0;}else place(g);}
+function closeMenu(restore=false){const wasOpen=header.classList.contains('menu-is-open');header.classList.remove('menu-is-open');toggle.setAttribute('aria-expanded','false');toggle.textContent='Menu';backdrop.hidden=true;inertState.forEach((v,e)=>e.inert=v);inertState.clear();closeGroups();if(restore&&wasOpen)toggle.focus({preventScroll:true});}
+function openMenu(){if(!compact)return;position();closeGroups();header.classList.add('menu-is-open');toggle.setAttribute('aria-expanded','true');toggle.textContent='Close';backdrop.hidden=false;nav.scrollTop=0;document.querySelectorAll('body>main,body>footer').forEach(e=>{inertState.set(e,e.inert);e.inert=true;});}
+function fits(){const r=nav.getBoundingClientRect(),rs=items.map(e=>(e.matches('a')?e:e.querySelector(':scope>a')).getBoundingClientRect());return nav.scrollWidth<=nav.clientWidth+1&&rs.every(a=>a.left>=r.left-1&&a.right<=r.right+1&&Math.abs(a.top-rs[0].top)<2);}
+function layout(){header.classList.remove('ss22-compact-nav');const next=!fits();if(next!==compact)closeMenu();compact=next;header.classList.toggle('ss22-compact-nav',compact);position();}
+toggle.addEventListener('click',()=>header.classList.contains('menu-is-open')?closeMenu(true):openMenu());
+back.addEventListener('click',()=>{const g=groups.find(g=>g.classList.contains('is-open'));closeGroups();nav.scrollTop=0;g?.querySelector(':scope>a').focus({preventScroll:true});});
+header.addEventListener('pointerdown',e=>pointer=e.pointerType);
+groups.forEach((g,i)=>{const a=g.querySelector(':scope>a'),panel=g.querySelector('.ss22-panel');panel.id='ss22-dropdown-'+i;a.setAttribute('aria-controls',panel.id);a.setAttribute('aria-haspopup','true');a.setAttribute('aria-expanded','false');
+a.addEventListener('click',e=>{if((compact||pointer==='touch'||!fine.matches)&&!g.classList.contains('is-open')){e.preventDefault();openGroup(g);}});
+a.addEventListener('keydown',e=>{if(e.key===' '||e.key==='ArrowDown'){e.preventDefault();openGroup(g);panel.querySelector('a')?.focus();}});
+g.addEventListener('pointerenter',e=>{if(!compact&&e.pointerType!=='touch')openGroup(g);});g.addEventListener('pointerleave',e=>{if(!compact&&e.pointerType!=='touch')closeTimer=setTimeout(()=>{if(!g.matches(':hover')&&!g.contains(document.activeElement))closeGroup(g);},320);});panel.addEventListener('pointerenter',()=>clearTimeout(closeTimer));
+g.addEventListener('focusin',()=>{if(!compact&&!suppressFocus&&pointer!=='touch')openGroup(g);});g.addEventListener('focusout',()=>setTimeout(()=>{if(!compact&&!g.contains(document.activeElement)&&!g.matches(':hover'))closeGroup(g);},0));});
+items.filter(e=>e.matches('a')).forEach(a=>a.addEventListener('pointerenter',()=>{if(!compact)closeGroups();}));
+nav.addEventListener('click',e=>{if(!e.defaultPrevented&&e.target.closest('a[href]'))closeMenu();});search?.addEventListener('click',()=>closeMenu());
+backdrop.addEventListener('click',()=>closeMenu(true));document.addEventListener('click',e=>{if(!header.contains(e.target)){closeGroups();closeMenu();}});
+document.addEventListener('keydown',e=>{pointer='keyboard';if(e.key==='Escape'){const g=groups.find(g=>g.classList.contains('is-open')),opened=header.classList.contains('menu-is-open');closeMenu(opened);if(!compact&&g){suppressFocus=true;g.querySelector(':scope>a').focus({preventScroll:true});queueMicrotask(()=>suppressFocus=false);}return;}if(e.key==='Tab'&&compact&&header.classList.contains('menu-is-open')){const els=[toggle,...nav.querySelectorAll('a[href],button'),search].filter(el=>el&&el.getClientRects().length&&!el.disabled),first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+window.addEventListener('resize',()=>{if(innerWidth!==lastWidth){lastWidth=innerWidth;closeMenu();layout();}else position();});window.addEventListener('scroll',()=>{position();groups.filter(g=>g.classList.contains('is-open')).forEach(place);},{passive:true});window.addEventListener('pageshow',()=>{closeMenu();layout();});document.querySelector('link[data-dommydom-navigation]')?.addEventListener('load',layout);document.fonts.ready.then(layout);new ResizeObserver(position).observe(header);
+const current=location.pathname.split('/').pop()||'index.html';nav.querySelectorAll('a[href]').forEach(a=>{if(a.getAttribute('href').split('/').pop()===current)a.setAttribute('aria-current','page');});layout();
+})();

@@ -1,0 +1,37 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "benefitsColumns": "306px"
+  },
+  {
+    "width": 744,
+    "overflow": false,
+    "benefitsColumns": "621.625px"
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "benefitsColumns": "643.219px"
+  },
+  {
+    "width": 820,
+    "overflow": false,
+    "benefitsColumns": "690px"
+  },
+  {
+    "width": 834,
+    "overflow": false,
+    "benefitsColumns": "702.625px"
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "benefitsColumns": "275.203px 275.203px 275.219px"
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "benefitsColumns": "385.594px 385.609px 385.594px"
+  }
+]

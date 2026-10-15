@@ -89,13 +89,11 @@
   dialog.hidden = !cfg.inline;
   dialog.className = 'sunConversation' + (cfg.inline ? ' sunConversation--inline' : '');
   dialog.setAttribute('aria-labelledby','sunConversationTitle');
-  const brandLogoUrl = new URL('dominique-key-script-transparent.svg', document.currentScript?.src || new URL((cfg.assetPrefix || 'assets/') + 'dominique-conversation.js', document.baseURI)).href;
   const isSensitivePage = /\/life-changes\/(death|divorce)\//.test(location.pathname);
   const conversationTitle = cfg.title || cfg.button || 'Contact Dominique';
   dialog.innerHTML = `
     <div class="sunConversation__inner">
       <div class="sunConversation__top">
-        <div class="sunConversation__brand"><img src="${brandLogoUrl}" alt="Dominique Duncan-Nelson" width="2048" height="683"></div>
         <button class="sunConversation__close" type="button" aria-label="Close">×</button>
       </div>
       <h2 class="sunConversation__title" id="sunConversationTitle">${conversationTitle}</h2>

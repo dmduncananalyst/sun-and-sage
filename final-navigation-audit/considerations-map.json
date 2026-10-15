@@ -1,0 +1,22 @@
+{
+  "Buying": {
+    "url": "buyer-questions.html",
+    "newCategory": "Buy"
+  },
+  "Selling": {
+    "url": "seller-questions.html",
+    "newCategory": "Sell"
+  },
+  "Financing": {
+    "url": "homebuyer-financing-questions.html",
+    "newCategory": "Buy"
+  },
+  "Design": {
+    "url": "design-questions.html",
+    "newCategory": "Interior Design"
+  },
+  "Rental Ownership": {
+    "url": "short-term-rental-questions.html",
+    "newCategory": "Property Management"
+  }
+}

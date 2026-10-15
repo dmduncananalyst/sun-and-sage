@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "page": "blog.html",
+      "width": 1440,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true
+    },
+    {
+      "page": "blog.html",
+      "width": 390,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/marriage.html",
+      "width": 1440,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/marriage.html",
+      "width": 390,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/growing-family.html",
+      "width": 1440,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/growing-family.html",
+      "width": 390,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/empty-nest.html",
+      "width": 1440,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "life-changes/empty-nest.html",
+      "width": 390,
+      "focusVisible": true,
+      "readMoreNavigation": true,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": false,
+      "chatCloses": true
+    },
+    {
+      "page": "buy-winnetka.html",
+      "width": 1440,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true,
+      "searchFieldsPreserved": true,
+      "citySelected": "Winnetka"
+    },
+    {
+      "page": "buy-winnetka.html",
+      "width": 390,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true,
+      "searchFieldsPreserved": true,
+      "citySelected": "Winnetka"
+    },
+    {
+      "page": "buy-sun-valley.html",
+      "width": 1440,
+      "desktopDropdownVisible": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true,
+      "searchFieldsPreserved": true,
+      "citySelected": "Sun Valley"
+    },
+    {
+      "page": "buy-sun-valley.html",
+      "width": 390,
+      "mobileMenuOpens": true,
+      "mobileMenuCloses": true,
+      "chatOpens": true,
+      "chatChoicesVisible": true,
+      "chatCloses": true,
+      "searchFieldsPreserved": true,
+      "citySelected": "Sun Valley"
+    }
+  ],
+  "changedHTML": [],
+  "htmlFilesVerified": 353
+}

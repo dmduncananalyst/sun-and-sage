@@ -1,0 +1,2866 @@
+[
+  {
+    "compact": true,
+    "rail": false,
+    "height": 116,
+    "navVisible": false,
+    "menuVisible": true,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 16,
+      "y": 64.65625,
+      "width": 288,
+      "height": 44,
+      "top": 64.65625,
+      "right": 304,
+      "bottom": 108.65625,
+      "left": 16
+    },
+    "contacts": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "width": 320,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 235.65625,
+          "width": 288,
+          "height": 512.453125,
+          "top": 235.65625,
+          "right": 304,
+          "bottom": 748.109375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 238.65625,
+          "width": 282,
+          "height": 188,
+          "top": 238.65625,
+          "right": 301,
+          "bottom": 426.65625,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 772.109375,
+          "width": 288,
+          "height": 512.453125,
+          "top": 772.109375,
+          "right": 304,
+          "bottom": 1284.5625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 775.109375,
+          "width": 282,
+          "height": 188,
+          "top": 775.109375,
+          "right": 301,
+          "bottom": 963.109375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1308.5625,
+          "width": 288,
+          "height": 486.0625,
+          "top": 1308.5625,
+          "right": 304,
+          "bottom": 1794.625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1311.5625,
+          "width": 282,
+          "height": 188,
+          "top": 1311.5625,
+          "right": 301,
+          "bottom": 1499.5625,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1818.625,
+          "width": 288,
+          "height": 486.0625,
+          "top": 1818.625,
+          "right": 304,
+          "bottom": 2304.6875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1821.625,
+          "width": 282,
+          "height": 188,
+          "top": 1821.625,
+          "right": 301,
+          "bottom": 2009.625,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2328.6875,
+          "width": 288,
+          "height": 512.453125,
+          "top": 2328.6875,
+          "right": 304,
+          "bottom": 2841.140625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2331.6875,
+          "width": 282,
+          "height": 188,
+          "top": 2331.6875,
+          "right": 301,
+          "bottom": 2519.6875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": true,
+    "rail": false,
+    "height": 132,
+    "navVisible": false,
+    "menuVisible": true,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 16,
+      "y": 80.65625,
+      "width": 343,
+      "height": 44,
+      "top": 80.65625,
+      "right": 359,
+      "bottom": 124.65625,
+      "left": 16
+    },
+    "contacts": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "width": 375,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 251.65625,
+          "width": 343,
+          "height": 522.71875,
+          "top": 251.65625,
+          "right": 359,
+          "bottom": 774.375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 254.65625,
+          "width": 337,
+          "height": 224.65625,
+          "top": 254.65625,
+          "right": 356,
+          "bottom": 479.3125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 798.375,
+          "width": 343,
+          "height": 522.71875,
+          "top": 798.375,
+          "right": 359,
+          "bottom": 1321.09375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 801.375,
+          "width": 337,
+          "height": 224.65625,
+          "top": 801.375,
+          "right": 356,
+          "bottom": 1026.03125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1345.09375,
+          "width": 343,
+          "height": 522.71875,
+          "top": 1345.09375,
+          "right": 359,
+          "bottom": 1867.8125,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1348.09375,
+          "width": 337,
+          "height": 224.65625,
+          "top": 1348.09375,
+          "right": 356,
+          "bottom": 1572.75,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1891.8125,
+          "width": 343,
+          "height": 522.71875,
+          "top": 1891.8125,
+          "right": 359,
+          "bottom": 2414.53125,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1894.8125,
+          "width": 337,
+          "height": 224.65625,
+          "top": 1894.8125,
+          "right": 356,
+          "bottom": 2119.46875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2438.53125,
+          "width": 343,
+          "height": 522.71875,
+          "top": 2438.53125,
+          "right": 359,
+          "bottom": 2961.25,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2441.53125,
+          "width": 337,
+          "height": 224.65625,
+          "top": 2441.53125,
+          "right": 356,
+          "bottom": 2666.1875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": true,
+    "rail": false,
+    "height": 132,
+    "navVisible": false,
+    "menuVisible": true,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 16,
+      "y": 80.65625,
+      "width": 358,
+      "height": 44,
+      "top": 80.65625,
+      "right": 374,
+      "bottom": 124.65625,
+      "left": 16
+    },
+    "contacts": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "width": 390,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 251.65625,
+          "width": 358,
+          "height": 532.71875,
+          "top": 251.65625,
+          "right": 374,
+          "bottom": 784.375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 254.65625,
+          "width": 352,
+          "height": 234.65625,
+          "top": 254.65625,
+          "right": 371,
+          "bottom": 489.3125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 808.375,
+          "width": 358,
+          "height": 532.71875,
+          "top": 808.375,
+          "right": 374,
+          "bottom": 1341.09375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 811.375,
+          "width": 352,
+          "height": 234.65625,
+          "top": 811.375,
+          "right": 371,
+          "bottom": 1046.03125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1365.09375,
+          "width": 358,
+          "height": 532.71875,
+          "top": 1365.09375,
+          "right": 374,
+          "bottom": 1897.8125,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1368.09375,
+          "width": 352,
+          "height": 234.65625,
+          "top": 1368.09375,
+          "right": 371,
+          "bottom": 1602.75,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1921.8125,
+          "width": 358,
+          "height": 506.328125,
+          "top": 1921.8125,
+          "right": 374,
+          "bottom": 2428.140625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1924.8125,
+          "width": 352,
+          "height": 234.65625,
+          "top": 1924.8125,
+          "right": 371,
+          "bottom": 2159.46875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2452.140625,
+          "width": 358,
+          "height": 532.71875,
+          "top": 2452.140625,
+          "right": 374,
+          "bottom": 2984.859375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2455.140625,
+          "width": 352,
+          "height": 234.65625,
+          "top": 2455.140625,
+          "right": 371,
+          "bottom": 2689.796875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": true,
+    "rail": false,
+    "height": 132,
+    "navVisible": false,
+    "menuVisible": true,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 16,
+      "y": 80.65625,
+      "width": 398,
+      "height": 44,
+      "top": 80.65625,
+      "right": 414,
+      "bottom": 124.65625,
+      "left": 16
+    },
+    "contacts": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "width": 430,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 251.65625,
+          "width": 398,
+          "height": 533,
+          "top": 251.65625,
+          "right": 414,
+          "bottom": 784.65625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 254.65625,
+          "width": 392,
+          "height": 261.328125,
+          "top": 254.65625,
+          "right": 411,
+          "bottom": 515.984375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 808.65625,
+          "width": 398,
+          "height": 559.390625,
+          "top": 808.65625,
+          "right": 414,
+          "bottom": 1368.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 811.65625,
+          "width": 392,
+          "height": 261.328125,
+          "top": 811.65625,
+          "right": 411,
+          "bottom": 1072.984375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1392.046875,
+          "width": 398,
+          "height": 533,
+          "top": 1392.046875,
+          "right": 414,
+          "bottom": 1925.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1395.046875,
+          "width": 392,
+          "height": 261.328125,
+          "top": 1395.046875,
+          "right": 411,
+          "bottom": 1656.375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1949.046875,
+          "width": 398,
+          "height": 533,
+          "top": 1949.046875,
+          "right": 414,
+          "bottom": 2482.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1952.046875,
+          "width": 392,
+          "height": 261.328125,
+          "top": 1952.046875,
+          "right": 411,
+          "bottom": 2213.375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2506.046875,
+          "width": 398,
+          "height": 533,
+          "top": 2506.046875,
+          "right": 414,
+          "bottom": 3039.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2509.046875,
+          "width": 392,
+          "height": 261.328125,
+          "top": 2509.046875,
+          "right": 411,
+          "bottom": 2770.375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 18,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 231.09375,
+      "bottom": 126.65625,
+      "left": 18
+    },
+    "contacts": {
+      "x": 389.15625,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 582,
+      "bottom": 128.65625,
+      "left": 389.15625
+    },
+    "width": 600,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 306.65625,
+          "width": 568,
+          "height": 619.9375,
+          "top": 306.65625,
+          "right": 584,
+          "bottom": 926.59375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 309.65625,
+          "width": 562,
+          "height": 374.65625,
+          "top": 309.65625,
+          "right": 581,
+          "bottom": 684.3125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 950.59375,
+          "width": 568,
+          "height": 619.9375,
+          "top": 950.59375,
+          "right": 584,
+          "bottom": 1570.53125,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 953.59375,
+          "width": 562,
+          "height": 374.65625,
+          "top": 953.59375,
+          "right": 581,
+          "bottom": 1328.25,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 1594.53125,
+          "width": 568,
+          "height": 619.9375,
+          "top": 1594.53125,
+          "right": 584,
+          "bottom": 2214.46875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 1597.53125,
+          "width": 562,
+          "height": 374.65625,
+          "top": 1597.53125,
+          "right": 581,
+          "bottom": 1972.1875,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2238.46875,
+          "width": 568,
+          "height": 619.9375,
+          "top": 2238.46875,
+          "right": 584,
+          "bottom": 2858.40625,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2241.46875,
+          "width": 562,
+          "height": 374.65625,
+          "top": 2241.46875,
+          "right": 581,
+          "bottom": 2616.125,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 2882.40625,
+          "width": 568,
+          "height": 619.9375,
+          "top": 2882.40625,
+          "right": 584,
+          "bottom": 3502.34375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 2885.40625,
+          "width": 562,
+          "height": 374.65625,
+          "top": 2885.40625,
+          "right": 581,
+          "bottom": 3260.0625,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 19.5,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 232.59375,
+      "bottom": 126.65625,
+      "left": 19.5
+    },
+    "contacts": {
+      "x": 437.65625,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 630.5,
+      "bottom": 128.65625,
+      "left": 437.65625
+    },
+    "width": 650,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 306.65625,
+          "width": 297,
+          "height": 518.453125,
+          "top": 306.65625,
+          "right": 313,
+          "bottom": 825.109375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 309.65625,
+          "width": 291,
+          "height": 194,
+          "top": 309.65625,
+          "right": 310,
+          "bottom": 503.65625,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 337,
+          "y": 306.65625,
+          "width": 297,
+          "height": 518.453125,
+          "top": 306.65625,
+          "right": 634,
+          "bottom": 825.109375,
+          "left": 337
+        },
+        "border": "3px",
+        "photo": {
+          "x": 340,
+          "y": 309.65625,
+          "width": 291,
+          "height": 194,
+          "top": 309.65625,
+          "right": 631,
+          "bottom": 503.65625,
+          "left": 340
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 849.109375,
+          "width": 297,
+          "height": 492.0625,
+          "top": 849.109375,
+          "right": 313,
+          "bottom": 1341.171875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 852.109375,
+          "width": 291,
+          "height": 194,
+          "top": 852.109375,
+          "right": 310,
+          "bottom": 1046.109375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 337,
+          "y": 849.109375,
+          "width": 297,
+          "height": 492.0625,
+          "top": 849.109375,
+          "right": 634,
+          "bottom": 1341.171875,
+          "left": 337
+        },
+        "border": "3px",
+        "photo": {
+          "x": 340,
+          "y": 852.109375,
+          "width": 291,
+          "height": 194,
+          "top": 852.109375,
+          "right": 631,
+          "bottom": 1046.109375,
+          "left": 340
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 176.5,
+          "y": 1365.171875,
+          "width": 297,
+          "height": 518.453125,
+          "top": 1365.171875,
+          "right": 473.5,
+          "bottom": 1883.625,
+          "left": 176.5
+        },
+        "border": "3px",
+        "photo": {
+          "x": 179.5,
+          "y": 1368.171875,
+          "width": 291,
+          "height": 194,
+          "top": 1368.171875,
+          "right": 470.5,
+          "bottom": 1562.171875,
+          "left": 179.5
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 22.3125,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 235.40625,
+      "bottom": 126.65625,
+      "left": 22.3125
+    },
+    "contacts": {
+      "x": 528.84375,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 721.6875,
+      "bottom": 128.65625,
+      "left": 528.84375
+    },
+    "width": 744,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 306.65625,
+          "width": 344,
+          "height": 523.390625,
+          "top": 306.65625,
+          "right": 360,
+          "bottom": 830.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 309.65625,
+          "width": 338,
+          "height": 225.328125,
+          "top": 309.65625,
+          "right": 357,
+          "bottom": 534.984375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 384,
+          "y": 306.65625,
+          "width": 344,
+          "height": 523.390625,
+          "top": 306.65625,
+          "right": 728,
+          "bottom": 830.046875,
+          "left": 384
+        },
+        "border": "3px",
+        "photo": {
+          "x": 387,
+          "y": 309.65625,
+          "width": 338,
+          "height": 225.328125,
+          "top": 309.65625,
+          "right": 725,
+          "bottom": 534.984375,
+          "left": 387
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 854.046875,
+          "width": 344,
+          "height": 523.390625,
+          "top": 854.046875,
+          "right": 360,
+          "bottom": 1377.4375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 857.046875,
+          "width": 338,
+          "height": 225.328125,
+          "top": 857.046875,
+          "right": 357,
+          "bottom": 1082.375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 384,
+          "y": 854.046875,
+          "width": 344,
+          "height": 523.390625,
+          "top": 854.046875,
+          "right": 728,
+          "bottom": 1377.4375,
+          "left": 384
+        },
+        "border": "3px",
+        "photo": {
+          "x": 387,
+          "y": 857.046875,
+          "width": 338,
+          "height": 225.328125,
+          "top": 857.046875,
+          "right": 725,
+          "bottom": 1082.375,
+          "left": 387
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 200,
+          "y": 1401.4375,
+          "width": 344,
+          "height": 523.390625,
+          "top": 1401.4375,
+          "right": 544,
+          "bottom": 1924.828125,
+          "left": 200
+        },
+        "border": "3px",
+        "photo": {
+          "x": 203,
+          "y": 1404.4375,
+          "width": 338,
+          "height": 225.328125,
+          "top": 1404.4375,
+          "right": 541,
+          "bottom": 1629.765625,
+          "left": 203
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 23.03125,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 236.125,
+      "bottom": 126.65625,
+      "left": 23.03125
+    },
+    "contacts": {
+      "x": 552.125,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 744.96875,
+      "bottom": 128.65625,
+      "left": 552.125
+    },
+    "width": 768,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 306.65625,
+          "width": 356,
+          "height": 531.390625,
+          "top": 306.65625,
+          "right": 372,
+          "bottom": 838.046875,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 309.65625,
+          "width": 350,
+          "height": 233.328125,
+          "top": 309.65625,
+          "right": 369,
+          "bottom": 542.984375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 396,
+          "y": 306.65625,
+          "width": 356,
+          "height": 531.390625,
+          "top": 306.65625,
+          "right": 752,
+          "bottom": 838.046875,
+          "left": 396
+        },
+        "border": "3px",
+        "photo": {
+          "x": 399,
+          "y": 309.65625,
+          "width": 350,
+          "height": 233.328125,
+          "top": 309.65625,
+          "right": 749,
+          "bottom": 542.984375,
+          "left": 399
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 16,
+          "y": 862.046875,
+          "width": 356,
+          "height": 531.390625,
+          "top": 862.046875,
+          "right": 372,
+          "bottom": 1393.4375,
+          "left": 16
+        },
+        "border": "3px",
+        "photo": {
+          "x": 19,
+          "y": 865.046875,
+          "width": 350,
+          "height": 233.328125,
+          "top": 865.046875,
+          "right": 369,
+          "bottom": 1098.375,
+          "left": 19
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 396,
+          "y": 862.046875,
+          "width": 356,
+          "height": 531.390625,
+          "top": 862.046875,
+          "right": 752,
+          "bottom": 1393.4375,
+          "left": 396
+        },
+        "border": "3px",
+        "photo": {
+          "x": 399,
+          "y": 865.046875,
+          "width": 350,
+          "height": 233.328125,
+          "top": 865.046875,
+          "right": 749,
+          "bottom": 1098.375,
+          "left": 399
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 206,
+          "y": 1417.4375,
+          "width": 356,
+          "height": 531.390625,
+          "top": 1417.4375,
+          "right": 562,
+          "bottom": 1948.828125,
+          "left": 206
+        },
+        "border": "3px",
+        "photo": {
+          "x": 209,
+          "y": 1420.4375,
+          "width": 350,
+          "height": 233.328125,
+          "top": 1420.4375,
+          "right": 559,
+          "bottom": 1653.765625,
+          "left": 209
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 24.59375,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 237.6875,
+      "bottom": 126.65625,
+      "left": 24.59375
+    },
+    "contacts": {
+      "x": 602.5625,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 795.40625,
+      "bottom": 128.65625,
+      "left": 602.5625
+    },
+    "width": 820,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 310.40625,
+          "width": 374,
+          "height": 525.515625,
+          "top": 310.40625,
+          "right": 398,
+          "bottom": 835.921875,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 313.40625,
+          "width": 368,
+          "height": 245.328125,
+          "top": 313.40625,
+          "right": 395,
+          "bottom": 558.734375,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 422,
+          "y": 310.40625,
+          "width": 374,
+          "height": 525.515625,
+          "top": 310.40625,
+          "right": 796,
+          "bottom": 835.921875,
+          "left": 422
+        },
+        "border": "3px",
+        "photo": {
+          "x": 425,
+          "y": 313.40625,
+          "width": 368,
+          "height": 245.328125,
+          "top": 313.40625,
+          "right": 793,
+          "bottom": 558.734375,
+          "left": 425
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 859.921875,
+          "width": 374,
+          "height": 496.71875,
+          "top": 859.921875,
+          "right": 398,
+          "bottom": 1356.640625,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 862.921875,
+          "width": 368,
+          "height": 245.328125,
+          "top": 862.921875,
+          "right": 395,
+          "bottom": 1108.25,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 422,
+          "y": 859.921875,
+          "width": 374,
+          "height": 496.71875,
+          "top": 859.921875,
+          "right": 796,
+          "bottom": 1356.640625,
+          "left": 422
+        },
+        "border": "3px",
+        "photo": {
+          "x": 425,
+          "y": 862.921875,
+          "width": 368,
+          "height": 245.328125,
+          "top": 862.921875,
+          "right": 793,
+          "bottom": 1108.25,
+          "left": 425
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 223,
+          "y": 1380.640625,
+          "width": 374,
+          "height": 525.515625,
+          "top": 1380.640625,
+          "right": 597,
+          "bottom": 1906.15625,
+          "left": 223
+        },
+        "border": "3px",
+        "photo": {
+          "x": 226,
+          "y": 1383.640625,
+          "width": 368,
+          "height": 245.328125,
+          "top": 1383.640625,
+          "right": 594,
+          "bottom": 1628.96875,
+          "left": 226
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": true,
+    "height": 187,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 25.015625,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 238.109375,
+      "bottom": 126.65625,
+      "left": 25.015625
+    },
+    "contacts": {
+      "x": 616.140625,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 808.984375,
+      "bottom": 128.65625,
+      "left": 616.140625
+    },
+    "width": 834,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 310.40625,
+          "width": 381,
+          "height": 530.1875,
+          "top": 310.40625,
+          "right": 405,
+          "bottom": 840.59375,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 313.40625,
+          "width": 375,
+          "height": 250,
+          "top": 313.40625,
+          "right": 402,
+          "bottom": 563.40625,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 429,
+          "y": 310.40625,
+          "width": 381,
+          "height": 530.1875,
+          "top": 310.40625,
+          "right": 810,
+          "bottom": 840.59375,
+          "left": 429
+        },
+        "border": "3px",
+        "photo": {
+          "x": 432,
+          "y": 313.40625,
+          "width": 375,
+          "height": 250,
+          "top": 313.40625,
+          "right": 807,
+          "bottom": 563.40625,
+          "left": 432
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 864.59375,
+          "width": 381,
+          "height": 501.390625,
+          "top": 864.59375,
+          "right": 405,
+          "bottom": 1365.984375,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 867.59375,
+          "width": 375,
+          "height": 250,
+          "top": 867.59375,
+          "right": 402,
+          "bottom": 1117.59375,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 429,
+          "y": 864.59375,
+          "width": 381,
+          "height": 501.390625,
+          "top": 864.59375,
+          "right": 810,
+          "bottom": 1365.984375,
+          "left": 429
+        },
+        "border": "3px",
+        "photo": {
+          "x": 432,
+          "y": 867.59375,
+          "width": 375,
+          "height": 250,
+          "top": 867.59375,
+          "right": 807,
+          "bottom": 1117.59375,
+          "left": 432
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 226.5,
+          "y": 1389.984375,
+          "width": 381,
+          "height": 530.1875,
+          "top": 1389.984375,
+          "right": 607.5,
+          "bottom": 1920.171875,
+          "left": 226.5
+        },
+        "border": "3px",
+        "photo": {
+          "x": 229.5,
+          "y": 1392.984375,
+          "width": 375,
+          "height": 250,
+          "top": 1392.984375,
+          "right": 604.5,
+          "bottom": 1642.984375,
+          "left": 229.5
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 183,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 30.71875,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 243.8125,
+      "bottom": 126.65625,
+      "left": 30.71875
+    },
+    "contacts": {
+      "x": 800.4375,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 993.28125,
+      "bottom": 128.65625,
+      "left": 800.4375
+    },
+    "width": 1024,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 308.53125,
+          "width": 476,
+          "height": 565.546875,
+          "top": 308.53125,
+          "right": 500,
+          "bottom": 874.078125,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 311.53125,
+          "width": 470,
+          "height": 313.328125,
+          "top": 311.53125,
+          "right": 497,
+          "bottom": 624.859375,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 524,
+          "y": 308.53125,
+          "width": 476,
+          "height": 565.546875,
+          "top": 308.53125,
+          "right": 1000,
+          "bottom": 874.078125,
+          "left": 524
+        },
+        "border": "3px",
+        "photo": {
+          "x": 527,
+          "y": 311.53125,
+          "width": 470,
+          "height": 313.328125,
+          "top": 311.53125,
+          "right": 997,
+          "bottom": 624.859375,
+          "left": 527
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 898.078125,
+          "width": 476,
+          "height": 565.546875,
+          "top": 898.078125,
+          "right": 500,
+          "bottom": 1463.625,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 901.078125,
+          "width": 470,
+          "height": 313.328125,
+          "top": 901.078125,
+          "right": 497,
+          "bottom": 1214.40625,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 524,
+          "y": 898.078125,
+          "width": 476,
+          "height": 565.546875,
+          "top": 898.078125,
+          "right": 1000,
+          "bottom": 1463.625,
+          "left": 524
+        },
+        "border": "3px",
+        "photo": {
+          "x": 527,
+          "y": 901.078125,
+          "width": 470,
+          "height": 313.328125,
+          "top": 901.078125,
+          "right": 997,
+          "bottom": 1214.40625,
+          "left": 527
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 274,
+          "y": 1487.625,
+          "width": 476,
+          "height": 565.546875,
+          "top": 1487.625,
+          "right": 750,
+          "bottom": 2053.171875,
+          "left": 274
+        },
+        "border": "3px",
+        "photo": {
+          "x": 277,
+          "y": 1490.625,
+          "width": 470,
+          "height": 313.328125,
+          "top": 1490.625,
+          "right": 747,
+          "bottom": 1803.953125,
+          "left": 277
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 183,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 32,
+      "y": 82.65625,
+      "width": 213.09375,
+      "height": 44,
+      "top": 82.65625,
+      "right": 245.09375,
+      "bottom": 126.65625,
+      "left": 32
+    },
+    "contacts": {
+      "x": 955.15625,
+      "y": 80.65625,
+      "width": 192.84375,
+      "height": 48,
+      "top": 80.65625,
+      "right": 1148,
+      "bottom": 128.65625,
+      "left": 955.15625
+    },
+    "width": 1180,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 314.59375,
+          "width": 361.328125,
+          "height": 523.375,
+          "top": 314.59375,
+          "right": 385.328125,
+          "bottom": 837.96875,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 317.59375,
+          "width": 355.328125,
+          "height": 236.875,
+          "top": 317.59375,
+          "right": 382.328125,
+          "bottom": 554.46875,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 409.328125,
+          "y": 314.59375,
+          "width": 361.328125,
+          "height": 523.375,
+          "top": 314.59375,
+          "right": 770.65625,
+          "bottom": 837.96875,
+          "left": 409.328125
+        },
+        "border": "3px",
+        "photo": {
+          "x": 412.328125,
+          "y": 317.59375,
+          "width": 355.328125,
+          "height": 236.875,
+          "top": 317.59375,
+          "right": 767.65625,
+          "bottom": 554.46875,
+          "left": 412.328125
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 794.65625,
+          "y": 314.59375,
+          "width": 361.34375,
+          "height": 523.375,
+          "top": 314.59375,
+          "right": 1156,
+          "bottom": 837.96875,
+          "left": 794.65625
+        },
+        "border": "3px",
+        "photo": {
+          "x": 797.65625,
+          "y": 317.59375,
+          "width": 355.34375,
+          "height": 236.890625,
+          "top": 317.59375,
+          "right": 1153,
+          "bottom": 554.484375,
+          "left": 797.65625
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 216.65625,
+          "y": 861.96875,
+          "width": 361.34375,
+          "height": 523.359375,
+          "top": 861.96875,
+          "right": 578,
+          "bottom": 1385.328125,
+          "left": 216.65625
+        },
+        "border": "3px",
+        "photo": {
+          "x": 219.65625,
+          "y": 864.96875,
+          "width": 355.34375,
+          "height": 236.890625,
+          "top": 864.96875,
+          "right": 575,
+          "bottom": 1101.859375,
+          "left": 219.65625
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 602,
+          "y": 861.96875,
+          "width": 361.328125,
+          "height": 523.359375,
+          "top": 861.96875,
+          "right": 963.328125,
+          "bottom": 1385.328125,
+          "left": 602
+        },
+        "border": "3px",
+        "photo": {
+          "x": 605,
+          "y": 864.96875,
+          "width": 355.328125,
+          "height": 236.875,
+          "top": 864.96875,
+          "right": 960.328125,
+          "bottom": 1101.84375,
+          "left": 605
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 137,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 614.78125,
+      "y": 22.328125,
+      "width": 213.09375,
+      "height": 44,
+      "top": 22.328125,
+      "right": 827.875,
+      "bottom": 66.328125,
+      "left": 614.78125
+    },
+    "contacts": {
+      "x": 1046.671875,
+      "y": 20.328125,
+      "width": 209.328125,
+      "height": 48,
+      "top": 20.328125,
+      "right": 1256,
+      "bottom": 68.328125,
+      "left": 1046.671875
+    },
+    "width": 1280,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 272.484375,
+          "width": 394.65625,
+          "height": 549.09375,
+          "top": 272.484375,
+          "right": 418.65625,
+          "bottom": 821.578125,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 275.484375,
+          "width": 388.65625,
+          "height": 259.09375,
+          "top": 275.484375,
+          "right": 415.65625,
+          "bottom": 534.578125,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 442.65625,
+          "y": 272.484375,
+          "width": 394.671875,
+          "height": 549.09375,
+          "top": 272.484375,
+          "right": 837.328125,
+          "bottom": 821.578125,
+          "left": 442.65625
+        },
+        "border": "3px",
+        "photo": {
+          "x": 445.65625,
+          "y": 275.484375,
+          "width": 388.671875,
+          "height": 259.109375,
+          "top": 275.484375,
+          "right": 834.328125,
+          "bottom": 534.59375,
+          "left": 445.65625
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 861.328125,
+          "y": 272.484375,
+          "width": 394.65625,
+          "height": 549.09375,
+          "top": 272.484375,
+          "right": 1255.984375,
+          "bottom": 821.578125,
+          "left": 861.328125
+        },
+        "border": "3px",
+        "photo": {
+          "x": 864.328125,
+          "y": 275.484375,
+          "width": 388.65625,
+          "height": 259.09375,
+          "top": 275.484375,
+          "right": 1252.984375,
+          "bottom": 534.578125,
+          "left": 864.328125
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 233.328125,
+          "y": 845.578125,
+          "width": 394.65625,
+          "height": 520.296875,
+          "top": 845.578125,
+          "right": 627.984375,
+          "bottom": 1365.875,
+          "left": 233.328125
+        },
+        "border": "3px",
+        "photo": {
+          "x": 236.328125,
+          "y": 848.578125,
+          "width": 388.65625,
+          "height": 259.09375,
+          "top": 848.578125,
+          "right": 624.984375,
+          "bottom": 1107.671875,
+          "left": 236.328125
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 651.984375,
+          "y": 845.578125,
+          "width": 394.671875,
+          "height": 520.296875,
+          "top": 845.578125,
+          "right": 1046.65625,
+          "bottom": 1365.875,
+          "left": 651.984375
+        },
+        "border": "3px",
+        "photo": {
+          "x": 654.984375,
+          "y": 848.578125,
+          "width": 388.671875,
+          "height": 259.109375,
+          "top": 848.578125,
+          "right": 1043.65625,
+          "bottom": 1107.6875,
+          "left": 654.984375
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 137,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 657.78125,
+      "y": 22.328125,
+      "width": 213.09375,
+      "height": 44,
+      "top": 22.328125,
+      "right": 870.875,
+      "bottom": 66.328125,
+      "left": 657.78125
+    },
+    "contacts": {
+      "x": 1132.671875,
+      "y": 20.328125,
+      "width": 209.328125,
+      "height": 48,
+      "top": 20.328125,
+      "right": 1342,
+      "bottom": 68.328125,
+      "left": 1132.671875
+    },
+    "width": 1366,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 275.84375,
+          "width": 423.328125,
+          "height": 542.421875,
+          "top": 275.84375,
+          "right": 447.328125,
+          "bottom": 818.265625,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 278.84375,
+          "width": 417.328125,
+          "height": 278.21875,
+          "top": 278.84375,
+          "right": 444.328125,
+          "bottom": 557.0625,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 471.328125,
+          "y": 275.84375,
+          "width": 423.328125,
+          "height": 542.421875,
+          "top": 275.84375,
+          "right": 894.65625,
+          "bottom": 818.265625,
+          "left": 471.328125
+        },
+        "border": "3px",
+        "photo": {
+          "x": 474.328125,
+          "y": 278.84375,
+          "width": 417.328125,
+          "height": 278.21875,
+          "top": 278.84375,
+          "right": 891.65625,
+          "bottom": 557.0625,
+          "left": 474.328125
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 918.65625,
+          "y": 275.84375,
+          "width": 423.34375,
+          "height": 542.421875,
+          "top": 275.84375,
+          "right": 1342,
+          "bottom": 818.265625,
+          "left": 918.65625
+        },
+        "border": "3px",
+        "photo": {
+          "x": 921.65625,
+          "y": 278.84375,
+          "width": 417.34375,
+          "height": 278.21875,
+          "top": 278.84375,
+          "right": 1339,
+          "bottom": 557.0625,
+          "left": 921.65625
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 247.65625,
+          "y": 842.265625,
+          "width": 423.34375,
+          "height": 542.421875,
+          "top": 842.265625,
+          "right": 671,
+          "bottom": 1384.6875,
+          "left": 247.65625
+        },
+        "border": "3px",
+        "photo": {
+          "x": 250.65625,
+          "y": 845.265625,
+          "width": 417.34375,
+          "height": 278.21875,
+          "top": 845.265625,
+          "right": 668,
+          "bottom": 1123.484375,
+          "left": 250.65625
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 695,
+          "y": 842.265625,
+          "width": 423.328125,
+          "height": 542.421875,
+          "top": 842.265625,
+          "right": 1118.328125,
+          "bottom": 1384.6875,
+          "left": 695
+        },
+        "border": "3px",
+        "photo": {
+          "x": 698,
+          "y": 845.265625,
+          "width": 417.328125,
+          "height": 278.21875,
+          "top": 845.265625,
+          "right": 1115.328125,
+          "bottom": 1123.484375,
+          "left": 698
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 137,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 694.78125,
+      "y": 22.328125,
+      "width": 213.09375,
+      "height": 44,
+      "top": 22.328125,
+      "right": 907.875,
+      "bottom": 66.328125,
+      "left": 694.78125
+    },
+    "contacts": {
+      "x": 1206.671875,
+      "y": 20.328125,
+      "width": 209.328125,
+      "height": 48,
+      "top": 20.328125,
+      "right": 1416,
+      "bottom": 68.328125,
+      "left": 1206.671875
+    },
+    "width": 1440,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 24,
+          "y": 278.71875,
+          "width": 448,
+          "height": 561.046875,
+          "top": 278.71875,
+          "right": 472,
+          "bottom": 839.765625,
+          "left": 24
+        },
+        "border": "3px",
+        "photo": {
+          "x": 27,
+          "y": 281.71875,
+          "width": 442,
+          "height": 294.65625,
+          "top": 281.71875,
+          "right": 469,
+          "bottom": 576.375,
+          "left": 27
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 496,
+          "y": 278.71875,
+          "width": 448,
+          "height": 561.046875,
+          "top": 278.71875,
+          "right": 944,
+          "bottom": 839.765625,
+          "left": 496
+        },
+        "border": "3px",
+        "photo": {
+          "x": 499,
+          "y": 281.71875,
+          "width": 442,
+          "height": 294.65625,
+          "top": 281.71875,
+          "right": 941,
+          "bottom": 576.375,
+          "left": 499
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 968,
+          "y": 278.71875,
+          "width": 448,
+          "height": 561.046875,
+          "top": 278.71875,
+          "right": 1416,
+          "bottom": 839.765625,
+          "left": 968
+        },
+        "border": "3px",
+        "photo": {
+          "x": 971,
+          "y": 281.71875,
+          "width": 442,
+          "height": 294.65625,
+          "top": 281.71875,
+          "right": 1413,
+          "bottom": 576.375,
+          "left": 971
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 260,
+          "y": 863.765625,
+          "width": 448,
+          "height": 561.046875,
+          "top": 863.765625,
+          "right": 708,
+          "bottom": 1424.8125,
+          "left": 260
+        },
+        "border": "3px",
+        "photo": {
+          "x": 263,
+          "y": 866.765625,
+          "width": 442,
+          "height": 294.65625,
+          "top": 866.765625,
+          "right": 705,
+          "bottom": 1161.421875,
+          "left": 263
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 732,
+          "y": 863.765625,
+          "width": 448,
+          "height": 561.046875,
+          "top": 863.765625,
+          "right": 1180,
+          "bottom": 1424.8125,
+          "left": 732
+        },
+        "border": "3px",
+        "photo": {
+          "x": 735,
+          "y": 866.765625,
+          "width": 442,
+          "height": 294.65625,
+          "top": 866.765625,
+          "right": 1177,
+          "bottom": 1161.421875,
+          "left": 735
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "compact": false,
+    "rail": false,
+    "height": 137,
+    "navVisible": true,
+    "menuVisible": false,
+    "overflow": false,
+    "labels": [
+      "Home",
+      "About",
+      "Buy",
+      "Sell",
+      "Property Management",
+      "Interior Design",
+      "Life Changes",
+      "Considerations",
+      "Blog",
+      "Contact"
+    ],
+    "tools": {
+      "x": 934.78125,
+      "y": 22.328125,
+      "width": 213.09375,
+      "height": 44,
+      "top": 22.328125,
+      "right": 1147.875,
+      "bottom": 66.328125,
+      "left": 934.78125
+    },
+    "contacts": {
+      "x": 1470.671875,
+      "y": 20.328125,
+      "width": 209.328125,
+      "height": 48,
+      "top": 20.328125,
+      "right": 1680,
+      "bottom": 68.328125,
+      "left": 1470.671875
+    },
+    "width": 1920,
+    "cards": [
+      {
+        "title": "Buying",
+        "href": "buyer-questions.html",
+        "rect": {
+          "x": 210,
+          "y": 279.28125,
+          "width": 484,
+          "height": 585.046875,
+          "top": 279.28125,
+          "right": 694,
+          "bottom": 864.328125,
+          "left": 210
+        },
+        "border": "3px",
+        "photo": {
+          "x": 213,
+          "y": 282.28125,
+          "width": 478,
+          "height": 318.65625,
+          "top": 282.28125,
+          "right": 691,
+          "bottom": 600.9375,
+          "left": 213
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Selling",
+        "href": "seller-questions.html",
+        "rect": {
+          "x": 718,
+          "y": 279.28125,
+          "width": 484,
+          "height": 585.046875,
+          "top": 279.28125,
+          "right": 1202,
+          "bottom": 864.328125,
+          "left": 718
+        },
+        "border": "3px",
+        "photo": {
+          "x": 721,
+          "y": 282.28125,
+          "width": 478,
+          "height": 318.65625,
+          "top": 282.28125,
+          "right": 1199,
+          "bottom": 600.9375,
+          "left": 721
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Financing",
+        "href": "homebuyer-financing-questions.html",
+        "rect": {
+          "x": 1226,
+          "y": 279.28125,
+          "width": 484,
+          "height": 585.046875,
+          "top": 279.28125,
+          "right": 1710,
+          "bottom": 864.328125,
+          "left": 1226
+        },
+        "border": "3px",
+        "photo": {
+          "x": 1229,
+          "y": 282.28125,
+          "width": 478,
+          "height": 318.65625,
+          "top": 282.28125,
+          "right": 1707,
+          "bottom": 600.9375,
+          "left": 1229
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Design",
+        "href": "design-questions.html",
+        "rect": {
+          "x": 464,
+          "y": 888.328125,
+          "width": 484,
+          "height": 585.046875,
+          "top": 888.328125,
+          "right": 948,
+          "bottom": 1473.375,
+          "left": 464
+        },
+        "border": "3px",
+        "photo": {
+          "x": 467,
+          "y": 891.328125,
+          "width": 478,
+          "height": 318.65625,
+          "top": 891.328125,
+          "right": 945,
+          "bottom": 1209.984375,
+          "left": 467
+        },
+        "fit": "cover",
+        "loaded": true
+      },
+      {
+        "title": "Rental Ownership",
+        "href": "short-term-rental-questions.html",
+        "rect": {
+          "x": 972,
+          "y": 888.328125,
+          "width": 484,
+          "height": 585.046875,
+          "top": 888.328125,
+          "right": 1456,
+          "bottom": 1473.375,
+          "left": 972
+        },
+        "border": "3px",
+        "photo": {
+          "x": 975,
+          "y": 891.328125,
+          "width": 478,
+          "height": 318.65625,
+          "top": 891.328125,
+          "right": 1453,
+          "bottom": 1209.984375,
+          "left": 975
+        },
+        "fit": "cover",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  }
+]

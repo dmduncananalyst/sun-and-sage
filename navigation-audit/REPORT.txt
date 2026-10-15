@@ -1,0 +1,58 @@
+RESPONSIVE NAVIGATION - LOCAL REVIEW
+
+Implemented in three production files:
+assets/navigation-v22.js
+assets/responsive-navigation.css (new shared navigation stylesheet)
+assets/v46-mobile-menu.js
+
+The existing shared controller loads the scoped stylesheet, so all 353 pages receive the same behavior without editing any HTML. All 353 HTML files remain byte-for-byte unchanged. Earlier card/city edits and editorial handoff files were preserved.
+
+DESIGN AND BEHAVIOR
+Desktop/laptop navigation remains horizontal, one row, with the existing dropdown appearance wherever the measured navigation fits. Fine-pointer 1366px, 1440px and 1920px tests retain the full row. At 1280px it falls back to MENU because the existing full navigation is too tight; labels are not shrunk or wrapped to force a fit.
+Compact navigation applies below 1280px, on primary-coarse-pointer/no-hover tablets through 1366px, or when the desktop row would collide with the branding. This includes the tested iPad Pro landscape while preserving horizontal navigation on a similarly sized fine-pointer laptop.
+Tablets: spacious two-column ivory panel with sage typography and rules, positioned below the existing header. Each column has its own stack of categories. Panel height follows its content up to the available viewport height. Phones at 600px and below: one column, including submenus.
+All original categories and 68 link instances are retained, in order, with original labels/URLs. Nodes are moved into temporary column wrappers, never cloned; the original direct-child layout is restored in desktop mode. Expandable categories use touch-friendly accordion controls and plus/minus indicators. Only one category expands at a time. The existing Life Changes overview link remains inside its submenu.
+Primary targets are at least 56px high; submenu links at least 44px. Long Buyers/city submenus scroll inside the bounded panel. The page behind it stays stationary. Close remains in the header, with Escape and backdrop dismissal also available. Keyboard focus cycles within the menu and returns to MENU on dismissal. Background main/footer content is temporarily inert and restored on close. Orientation changes close/reset the menu cleanly.
+The scroll-lock helper preserves the prior inline overflow value and priority, and defeats the legacy !important overflow rule only while the menu is open. Chat remains usable after navigation.
+No logo artwork, contact details, page copy, card styling, city sections, homepage video, metadata, or link destinations were edited.
+
+ACTUAL BROWSER CHECKS
+Local installed Chrome, headless, on city (buy-winnetka.html), Blog and homepage templates:
+1920x1080 desktop
+1440x1000 desktop
+1366x768 fine-pointer laptop
+1280x800 smaller laptop
+768x1024 touch iPad portrait
+820x1180 touch iPad Air portrait
+1024x768 touch iPad landscape
+1180x820 touch iPad Air landscape
+1366x1024 touch iPad Pro landscape
+390x844 phone
+320x720 smaller phone
+
+33 page/device combinations passed link preservation, no horizontal overflow, correct column counts, category expansion, touch targets, menu close, focus return and restored body/main state. Desktop cases passed single-row fit and dropdown checks; no page errors were recorded. Final representative smoke checks were repeated after the scroll-lock fix.
+A third navigation markup variant on blog/can-the-dodgers-do-a-threepeat-2026.html also passed desktop, iPad portrait/landscape and phone checks (4 more combinations). The three source markup variants cover all 353 pages; relative URL differences are preserved.
+Additional interaction checks passed: forward/backward keyboard focus wrap, backdrop close/focus return, background wheel-scroll lock, rotation reset, actual keyboard navigation to Sun Valley through Buyers, submenu target sizing, and chat open/close afterward. No forms were sent.
+Visual inspection covered desktop, iPad portrait, expanded landscape submenu, iPad Pro landscape, phone overview and expanded phone menu. git diff --check passed.
+
+PREVIEWS
+ipad-portrait-menu.png
+ipad-landscape-menu.png
+ipad-landscape-buyers.png
+ipad-pro-landscape-menu.png
+phone-menu.png
+phone-buyers.png
+desktop-header.png
+
+RECORDS
+results.json: 33 main page/device checks.
+variant-results.json: 4 additional deep-article checks.
+quick.json: final representative checks after scroll-lock correction.
+interaction-checks.json: keyboard, scroll, resize, navigation, chat and preservation checks.
+nav-variants.json / html-before.json: shared markup coverage and HTML fingerprints.
+verify.py / interactions.py: reproducible browser scripts, requiring the temporary Playwright installation used in this session.
+
+LIMITS
+Device sizes and touch pointers were emulated in desktop Chrome; physical iPads and Safari were not available. All 353 pages share the controller, but browser checks were performed on representative markup/templates, not every page. Expanded menus with many existing destinations still require internal panel scrolling, especially on phones. No external requests or contact submissions were made. Test-owned preview servers were stopped on completion.
+
+No commit, push, deployment or publication. Ready for visual review.

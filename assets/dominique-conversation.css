@@ -143,3 +143,6 @@ main .sunInlineAction__button, main a.sunInlineAction__button{float:none!importa
 html body dialog#sun-conversation[hidden],
 html body dialog#sun-conversation:not([open]) { display:none!important; }
 html body dialog#sun-conversation[open]:not([hidden]) { display:block!important; }
+
+/* Keep the existing close control aligned after removing dialog logos. */
+.sunConversation .sunConversation__top{justify-content:flex-end;}

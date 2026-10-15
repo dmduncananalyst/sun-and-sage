@@ -1,0 +1,142 @@
+{
+  "livePages": 351,
+  "allPageBodiesAndHeadMetadataBytePreserved": true,
+  "allOriginalHeaderLinksAndNamesPreserved": true,
+  "neighborhoods": 30,
+  "distinctHeaderPageDestinations": 89,
+  "brokenRoutes": [],
+  "heroAlgorithmUnchangedOnlyHeaderSelectorUpdated": true,
+  "mobileBuyerLandingCoverage": [
+    {
+      "group": "Buying Process",
+      "article": "first-time-pre-approval.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buying Process",
+      "article": "first-time-touring.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buying Process",
+      "article": "first-time-your-offer.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buying Process",
+      "article": "first-time-negotiations.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buying Process",
+      "article": "first-time-closing.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "preapproval-vs-prequalification.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "down-payment-needed.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "credit-score-to-buy-home.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "what-price-range-can-i-afford.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "do-i-need-20-percent-down.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "buyer-closing-costs.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "buying-with-student-loan-debt.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Financing",
+      "article": "preapproval-documents.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-neighborhood-fit.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-budget-by-valley-area.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-south-of-ventura-boulevard.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-porter-ranch-newer-vs-established.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-same-price-different-neighborhoods.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-long-time-on-market.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-high-hoa-value.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-monthly-affordability.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-upfront-costs.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-fixer-upper-worth-it.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-fast-market-offer-or-walk.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-other-ownership-costs.html",
+      "linkedFromExistingLanding": true
+    },
+    {
+      "group": "Buyer Resources",
+      "article": "buyer-question-before-you-commit.html",
+      "linkedFromExistingLanding": true
+    }
+  ],
+  "issues": []
+}

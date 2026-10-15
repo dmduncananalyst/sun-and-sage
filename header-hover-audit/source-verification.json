@@ -1,0 +1,26 @@
+{
+  "pages": 351,
+  "neighborhoodLinks": 30,
+  "cities": 26,
+  "regionalGuides": 4,
+  "allOriginalHeaderURLsPreserved": true,
+  "distinctCurrentHeaderURLs": 89,
+  "allPageContentOutsideHeaderUnchanged": true,
+  "allNeighborhoodAndConsiderationsMappingsVerified": true,
+  "missingOrBrokenRoutes": [],
+  "issues": [],
+  "considerationsMap": {
+    "buyer-questions.html": "Buyer Resources",
+    "homebuyer-financing-questions.html": "Financing",
+    "seller-questions.html": "Sell",
+    "design-questions.html": "Interior Design",
+    "short-term-rental-questions.html": "Property Management"
+  },
+  "searchOptions": [
+    {
+      "label": "Personalized Home Search",
+      "url": "search.html",
+      "experience": "Existing city/price/property-type search request form; regional guides live under Neighborhoods."
+    }
+  ]
+}

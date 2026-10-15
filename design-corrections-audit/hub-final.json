@@ -1,0 +1,3390 @@
+[
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 321.421875,
+        "bottom": 915.78125,
+        "height": 594.359375,
+        "width": 481.328125,
+        "left": 210,
+        "right": 691.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 680.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 769.1875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 858.78125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 714.59375,
+        "titleBottom": 769.1875,
+        "categoryTop": 682.921875,
+        "excerptTop": 769.1875,
+        "footerTop": 858.78125,
+        "linkBottom": 900.78125,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.333377164146395,
+          "top": 324.421875,
+          "bottom": 680.90625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 321.421875,
+        "bottom": 915.78125,
+        "height": 594.359375,
+        "width": 481.328125,
+        "left": 719.328125,
+        "right": 1200.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 680.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 769.1875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 858.78125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 714.59375,
+        "titleBottom": 769.1875,
+        "categoryTop": 682.921875,
+        "excerptTop": 769.1875,
+        "footerTop": 858.78125,
+        "linkBottom": 900.78125,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.333377164146395,
+          "top": 324.421875,
+          "bottom": 680.90625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 321.421875,
+        "bottom": 915.78125,
+        "height": 594.359375,
+        "width": 481.34375,
+        "left": 1228.65625,
+        "right": 1710,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 680.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 769.1875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 858.78125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 714.59375,
+        "titleBottom": 769.1875,
+        "categoryTop": 682.921875,
+        "excerptTop": 769.1875,
+        "footerTop": 858.78125,
+        "linkBottom": 900.78125,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333625525946704,
+          "top": 324.421875,
+          "bottom": 680.921875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 939.78125,
+        "bottom": 1534.140625,
+        "height": 594.359375,
+        "width": 481.328125,
+        "left": 210,
+        "right": 691.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 1299.28125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 1387.546875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 1477.140625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1332.953125,
+        "titleBottom": 1387.546875,
+        "categoryTop": 1301.28125,
+        "excerptTop": 1387.546875,
+        "footerTop": 1477.140625,
+        "linkBottom": 1519.140625,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.333377164146395,
+          "top": 942.78125,
+          "bottom": 1299.265625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 939.78125,
+        "bottom": 1534.140625,
+        "height": 594.359375,
+        "width": 481.328125,
+        "left": 719.328125,
+        "right": 1200.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 1299.28125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 1387.546875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 722.328125,
+            "right": 1197.65625,
+            "top": 1477.140625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1332.953125,
+        "titleBottom": 1387.546875,
+        "categoryTop": 1301.28125,
+        "excerptTop": 1387.546875,
+        "footerTop": 1477.140625,
+        "linkBottom": 1519.140625,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.333377164146395,
+          "top": 942.78125,
+          "bottom": 1299.265625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 939.78125,
+        "bottom": 1534.140625,
+        "height": 594.359375,
+        "width": 481.34375,
+        "left": 1228.65625,
+        "right": 1710,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 1299.28125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 1387.546875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 1231.65625,
+            "right": 1707,
+            "top": 1477.140625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1332.953125,
+        "titleBottom": 1387.546875,
+        "categoryTop": 1301.28125,
+        "excerptTop": 1387.546875,
+        "footerTop": 1477.140625,
+        "linkBottom": 1519.140625,
+        "gap": 44.796875,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333625525946704,
+          "top": 942.78125,
+          "bottom": 1299.28125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1558.140625,
+        "bottom": 2123.6875,
+        "height": 565.546875,
+        "width": 481.328125,
+        "left": 210,
+        "right": 691.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 1917.625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 2005.890625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 213,
+            "right": 688.328125,
+            "top": 2066.6875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1951.296875,
+        "titleBottom": 2005.890625,
+        "categoryTop": 1919.625,
+        "excerptTop": 2005.890625,
+        "footerTop": 2066.6875,
+        "linkBottom": 2108.6875,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.333377164146395,
+          "top": 1561.140625,
+          "bottom": 1917.625,
+          "loaded": true
+        }
+      }
+    ],
+    "columns": 3,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 1920
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 320.859375,
+        "bottom": 888.21875,
+        "height": 567.359375,
+        "width": 445.328125,
+        "left": 24,
+        "right": 469.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 653.359375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 741.625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 831.21875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 687.03125,
+        "titleBottom": 741.625,
+        "categoryTop": 655.359375,
+        "excerptTop": 741.625,
+        "footerTop": 831.21875,
+        "linkBottom": 873.21875,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333807559159672,
+          "top": 323.859375,
+          "bottom": 653.34375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 320.859375,
+        "bottom": 888.21875,
+        "height": 567.359375,
+        "width": 445.328125,
+        "left": 497.328125,
+        "right": 942.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 653.359375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 741.625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 831.21875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 687.03125,
+        "titleBottom": 741.625,
+        "categoryTop": 655.359375,
+        "excerptTop": 741.625,
+        "footerTop": 831.21875,
+        "linkBottom": 873.21875,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333807559159672,
+          "top": 323.859375,
+          "bottom": 653.34375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 320.859375,
+        "bottom": 888.21875,
+        "height": 567.359375,
+        "width": 445.34375,
+        "left": 970.65625,
+        "right": 1416,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 653.359375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 741.625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 831.21875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 687.03125,
+        "titleBottom": 741.625,
+        "categoryTop": 655.359375,
+        "excerptTop": 741.625,
+        "footerTop": 831.21875,
+        "linkBottom": 873.21875,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333649468892261,
+          "top": 323.859375,
+          "bottom": 653.359375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 912.21875,
+        "bottom": 1479.578125,
+        "height": 567.359375,
+        "width": 445.328125,
+        "left": 24,
+        "right": 469.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 1244.71875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 1332.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 1422.578125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1278.390625,
+        "titleBottom": 1332.984375,
+        "categoryTop": 1246.71875,
+        "excerptTop": 1332.984375,
+        "footerTop": 1422.578125,
+        "linkBottom": 1464.578125,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333807559159672,
+          "top": 915.21875,
+          "bottom": 1244.703125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 912.21875,
+        "bottom": 1479.578125,
+        "height": 567.359375,
+        "width": 445.328125,
+        "left": 497.328125,
+        "right": 942.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 1244.71875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 1332.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 500.328125,
+            "right": 939.65625,
+            "top": 1422.578125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1278.390625,
+        "titleBottom": 1332.984375,
+        "categoryTop": 1246.71875,
+        "excerptTop": 1332.984375,
+        "footerTop": 1422.578125,
+        "linkBottom": 1464.578125,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333807559159672,
+          "top": 915.21875,
+          "bottom": 1244.703125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 912.21875,
+        "bottom": 1479.578125,
+        "height": 567.359375,
+        "width": 445.34375,
+        "left": 970.65625,
+        "right": 1416,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 1244.71875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 1332.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 973.65625,
+            "right": 1413,
+            "top": 1422.578125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1278.390625,
+        "titleBottom": 1332.984375,
+        "categoryTop": 1246.71875,
+        "excerptTop": 1332.984375,
+        "footerTop": 1422.578125,
+        "linkBottom": 1464.578125,
+        "gap": 16,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333649468892261,
+          "top": 915.21875,
+          "bottom": 1244.71875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1503.578125,
+        "bottom": 2070.921875,
+        "height": 567.34375,
+        "width": 445.328125,
+        "left": 24,
+        "right": 469.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 1836.0625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 1924.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 466.328125,
+            "top": 2013.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1869.734375,
+        "titleBottom": 1924.328125,
+        "categoryTop": 1838.0625,
+        "excerptTop": 1924.328125,
+        "footerTop": 2013.921875,
+        "linkBottom": 2055.921875,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333807559159672,
+          "top": 1506.578125,
+          "bottom": 1836.0625,
+          "loaded": true
+        }
+      }
+    ],
+    "columns": 3,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 1440
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 314.625,
+        "bottom": 841.984375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 24,
+        "right": 416,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 413,
+            "top": 607.125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 695.390625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 784.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 640.796875,
+        "titleBottom": 695.390625,
+        "categoryTop": 609.125,
+        "excerptTop": 695.390625,
+        "footerTop": 784.984375,
+        "linkBottom": 826.984375,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 317.625,
+          "bottom": 607.125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 314.625,
+        "bottom": 841.984375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 444,
+        "right": 836,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 447,
+            "right": 833,
+            "top": 607.125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 447,
+            "right": 833,
+            "top": 695.390625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 447,
+            "right": 833,
+            "top": 784.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 640.796875,
+        "titleBottom": 695.390625,
+        "categoryTop": 609.125,
+        "excerptTop": 695.390625,
+        "footerTop": 784.984375,
+        "linkBottom": 826.984375,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 317.625,
+          "bottom": 607.125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 314.625,
+        "bottom": 841.984375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 864,
+        "right": 1256,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 607.125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 695.390625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 784.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 640.796875,
+        "titleBottom": 695.390625,
+        "categoryTop": 609.125,
+        "excerptTop": 695.390625,
+        "footerTop": 784.984375,
+        "linkBottom": 826.984375,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 317.625,
+          "bottom": 607.125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 865.984375,
+        "bottom": 1393.34375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 24,
+        "right": 416,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1158.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1246.75,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1336.34375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1192.15625,
+        "titleBottom": 1246.75,
+        "categoryTop": 1160.484375,
+        "excerptTop": 1246.75,
+        "footerTop": 1336.34375,
+        "linkBottom": 1378.34375,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 868.984375,
+          "bottom": 1158.484375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 865.984375,
+        "bottom": 1393.34375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 444,
+        "right": 836,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 447,
+            "right": 833,
+            "top": 1158.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 447,
+            "right": 833,
+            "top": 1246.75,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 447,
+            "right": 833,
+            "top": 1336.34375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1192.15625,
+        "titleBottom": 1246.75,
+        "categoryTop": 1160.484375,
+        "excerptTop": 1246.75,
+        "footerTop": 1336.34375,
+        "linkBottom": 1378.34375,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 868.984375,
+          "bottom": 1158.484375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 865.984375,
+        "bottom": 1393.34375,
+        "height": 527.359375,
+        "width": 392,
+        "left": 864,
+        "right": 1256,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 1158.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 1246.75,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 867,
+            "right": 1253,
+            "top": 1336.34375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1192.15625,
+        "titleBottom": 1246.75,
+        "categoryTop": 1160.484375,
+        "excerptTop": 1246.75,
+        "footerTop": 1336.34375,
+        "linkBottom": 1378.34375,
+        "gap": 16,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 868.984375,
+          "bottom": 1158.484375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1417.34375,
+        "bottom": 1944.703125,
+        "height": 527.359375,
+        "width": 392,
+        "left": 24,
+        "right": 416,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1709.84375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1798.109375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 413,
+            "top": 1887.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1743.515625,
+        "titleBottom": 1798.109375,
+        "categoryTop": 1711.84375,
+        "excerptTop": 1798.109375,
+        "footerTop": 1887.703125,
+        "linkBottom": 1929.703125,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1420.34375,
+          "bottom": 1709.84375,
+          "loaded": true
+        }
+      }
+    ],
+    "columns": 3,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 1280
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 304.671875,
+        "bottom": 796.828125,
+        "height": 492.15625,
+        "width": 306.65625,
+        "left": 24,
+        "right": 330.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 533.171875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 621.4375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 739.828125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 566.84375,
+        "titleBottom": 621.4375,
+        "categoryTop": 535.171875,
+        "excerptTop": 621.4375,
+        "footerTop": 739.828125,
+        "linkBottom": 781.828125,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333795301780889,
+          "top": 307.671875,
+          "bottom": 533.15625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 304.671875,
+        "bottom": 796.828125,
+        "height": 492.15625,
+        "width": 306.671875,
+        "left": 358.65625,
+        "right": 665.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 533.171875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 621.4375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 739.828125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 566.84375,
+        "titleBottom": 621.4375,
+        "categoryTop": 535.171875,
+        "excerptTop": 621.4375,
+        "footerTop": 739.828125,
+        "linkBottom": 781.828125,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333564301552105,
+          "top": 307.671875,
+          "bottom": 533.171875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 304.671875,
+        "bottom": 796.828125,
+        "height": 492.15625,
+        "width": 306.65625,
+        "left": 693.328125,
+        "right": 999.984375,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 533.171875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 621.4375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 739.828125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 566.84375,
+        "titleBottom": 621.4375,
+        "categoryTop": 535.171875,
+        "excerptTop": 621.4375,
+        "footerTop": 739.828125,
+        "linkBottom": 781.828125,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333795301780889,
+          "top": 307.671875,
+          "bottom": 533.15625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 820.828125,
+        "bottom": 1312.984375,
+        "height": 492.15625,
+        "width": 306.65625,
+        "left": 24,
+        "right": 330.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1049.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1137.59375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1255.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1083,
+        "titleBottom": 1137.59375,
+        "categoryTop": 1051.328125,
+        "excerptTop": 1137.59375,
+        "footerTop": 1255.984375,
+        "linkBottom": 1297.984375,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333795301780889,
+          "top": 823.828125,
+          "bottom": 1049.3125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 820.828125,
+        "bottom": 1312.984375,
+        "height": 492.15625,
+        "width": 306.671875,
+        "left": 358.65625,
+        "right": 665.328125,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 1049.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 1137.59375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 361.65625,
+            "right": 662.328125,
+            "top": 1255.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1083,
+        "titleBottom": 1137.59375,
+        "categoryTop": 1051.328125,
+        "excerptTop": 1137.59375,
+        "footerTop": 1255.984375,
+        "linkBottom": 1297.984375,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333564301552105,
+          "top": 823.828125,
+          "bottom": 1049.328125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 820.828125,
+        "bottom": 1312.984375,
+        "height": 492.15625,
+        "width": 306.65625,
+        "left": 693.328125,
+        "right": 999.984375,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 1049.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 1137.59375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 696.328125,
+            "right": 996.984375,
+            "top": 1255.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1083,
+        "titleBottom": 1137.59375,
+        "categoryTop": 1051.328125,
+        "excerptTop": 1137.59375,
+        "footerTop": 1255.984375,
+        "linkBottom": 1297.984375,
+        "gap": 44.796875,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333795301780889,
+          "top": 823.828125,
+          "bottom": 1049.3125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1336.984375,
+        "bottom": 1800.328125,
+        "height": 463.34375,
+        "width": 306.65625,
+        "left": 24,
+        "right": 330.65625,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1565.46875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1653.734375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 27,
+            "right": 327.65625,
+            "top": 1743.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1599.140625,
+        "titleBottom": 1653.734375,
+        "categoryTop": 1567.46875,
+        "excerptTop": 1653.734375,
+        "footerTop": 1743.328125,
+        "linkBottom": 1785.328125,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333795301780889,
+          "top": 1339.984375,
+          "bottom": 1565.46875,
+          "loaded": true
+        }
+      }
+    ],
+    "columns": 3,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 1024
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 316.390625,
+        "bottom": 810.703125,
+        "height": 494.3125,
+        "width": 354,
+        "left": 16,
+        "right": 370,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 367,
+            "top": 580.390625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 668.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 753.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 614.328125,
+        "titleBottom": 668.921875,
+        "categoryTop": 582.390625,
+        "excerptTop": 668.921875,
+        "footerTop": 753.703125,
+        "linkBottom": 795.703125,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 319.390625,
+          "bottom": 580.390625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 316.390625,
+        "bottom": 810.703125,
+        "height": 494.3125,
+        "width": 354,
+        "left": 398,
+        "right": 752,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 401,
+            "right": 749,
+            "top": 580.390625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 668.921875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 753.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 614.328125,
+        "titleBottom": 668.921875,
+        "categoryTop": 582.390625,
+        "excerptTop": 668.921875,
+        "footerTop": 753.703125,
+        "linkBottom": 795.703125,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 319.390625,
+          "bottom": 580.390625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 834.703125,
+        "bottom": 1329.015625,
+        "height": 494.3125,
+        "width": 354,
+        "left": 16,
+        "right": 370,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1098.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1187.234375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1272.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1132.640625,
+        "titleBottom": 1187.234375,
+        "categoryTop": 1100.703125,
+        "excerptTop": 1187.234375,
+        "footerTop": 1272.015625,
+        "linkBottom": 1314.015625,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 837.703125,
+          "bottom": 1098.703125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 834.703125,
+        "bottom": 1329.015625,
+        "height": 494.3125,
+        "width": 354,
+        "left": 398,
+        "right": 752,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1098.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1187.234375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1272.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1132.640625,
+        "titleBottom": 1187.234375,
+        "categoryTop": 1100.703125,
+        "excerptTop": 1187.234375,
+        "footerTop": 1272.015625,
+        "linkBottom": 1314.015625,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 837.703125,
+          "bottom": 1098.703125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1353.015625,
+        "bottom": 1847.328125,
+        "height": 494.3125,
+        "width": 354,
+        "left": 16,
+        "right": 370,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1617.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1705.546875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 1790.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1650.953125,
+        "titleBottom": 1705.546875,
+        "categoryTop": 1619.015625,
+        "excerptTop": 1705.546875,
+        "footerTop": 1790.328125,
+        "linkBottom": 1832.328125,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1356.015625,
+          "bottom": 1617.015625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1353.015625,
+        "bottom": 1847.328125,
+        "height": 494.3125,
+        "width": 354,
+        "left": 398,
+        "right": 752,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1617.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1705.546875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 401,
+            "right": 749,
+            "top": 1790.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1650.953125,
+        "titleBottom": 1705.546875,
+        "categoryTop": 1619.015625,
+        "excerptTop": 1705.546875,
+        "footerTop": 1790.328125,
+        "linkBottom": 1832.328125,
+        "gap": 16,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1356.015625,
+          "bottom": 1617.015625,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1871.328125,
+        "bottom": 2365.640625,
+        "height": 494.3125,
+        "width": 354,
+        "left": 16,
+        "right": 370,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 367,
+            "top": 2135.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 2223.859375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 367,
+            "top": 2308.640625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 2169.265625,
+        "titleBottom": 2223.859375,
+        "categoryTop": 2137.328125,
+        "excerptTop": 2223.859375,
+        "footerTop": 2308.640625,
+        "linkBottom": 2350.640625,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1874.328125,
+          "bottom": 2135.328125,
+          "loaded": true
+        }
+      }
+    ],
+    "columns": 2,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 768
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 369.171875,
+        "bottom": 866.484375,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 636.171875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 724.703125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 809.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 670.109375,
+        "titleBottom": 724.703125,
+        "categoryTop": 638.171875,
+        "excerptTop": 724.703125,
+        "footerTop": 809.484375,
+        "linkBottom": 851.484375,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 372.171875,
+          "bottom": 636.171875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 890.484375,
+        "bottom": 1387.796875,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1157.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1246.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1330.796875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1191.421875,
+        "titleBottom": 1246.015625,
+        "categoryTop": 1159.484375,
+        "excerptTop": 1246.015625,
+        "footerTop": 1330.796875,
+        "linkBottom": 1372.796875,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 893.484375,
+          "bottom": 1157.484375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1411.796875,
+        "bottom": 1909.109375,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1678.796875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1767.328125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 1852.109375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1712.734375,
+        "titleBottom": 1767.328125,
+        "categoryTop": 1680.796875,
+        "excerptTop": 1767.328125,
+        "footerTop": 1852.109375,
+        "linkBottom": 1894.109375,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1414.796875,
+          "bottom": 1678.796875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1933.109375,
+        "bottom": 2430.421875,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2200.109375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2288.640625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2373.421875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 2234.046875,
+        "titleBottom": 2288.640625,
+        "categoryTop": 2202.109375,
+        "excerptTop": 2288.640625,
+        "footerTop": 2373.421875,
+        "linkBottom": 2415.421875,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1936.109375,
+          "bottom": 2200.109375,
+          "loaded": true
+        }
+      },
+      {
+        "top": 2454.421875,
+        "bottom": 2951.734375,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2721.421875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2809.953125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 2894.734375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 2755.359375,
+        "titleBottom": 2809.953125,
+        "categoryTop": 2723.421875,
+        "excerptTop": 2809.953125,
+        "footerTop": 2894.734375,
+        "linkBottom": 2936.734375,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 2457.421875,
+          "bottom": 2721.421875,
+          "loaded": false
+        }
+      },
+      {
+        "top": 2975.734375,
+        "bottom": 3473.046875,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3242.734375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3331.265625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3416.046875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 3276.671875,
+        "titleBottom": 3331.265625,
+        "categoryTop": 3244.734375,
+        "excerptTop": 3331.265625,
+        "footerTop": 3416.046875,
+        "linkBottom": 3458.046875,
+        "gap": 16,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 2978.734375,
+          "bottom": 3242.734375,
+          "loaded": false
+        }
+      },
+      {
+        "top": 3497.046875,
+        "bottom": 3994.359375,
+        "height": 497.3125,
+        "width": 358,
+        "left": 16,
+        "right": 374,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3764.046875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3852.578125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 371,
+            "top": 3937.359375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 3797.984375,
+        "titleBottom": 3852.578125,
+        "categoryTop": 3766.046875,
+        "excerptTop": 3852.578125,
+        "footerTop": 3937.359375,
+        "linkBottom": 3979.359375,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 3500.046875,
+          "bottom": 3764.046875,
+          "loaded": false
+        }
+      }
+    ],
+    "columns": 1,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 390
+  },
+  {
+    "kind": "cards",
+    "cards": [
+      {
+        "top": 369.171875,
+        "bottom": 840.375,
+        "height": 471.203125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 583.671875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 672.203125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 783.375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 617.609375,
+        "titleBottom": 672.203125,
+        "categoryTop": 585.671875,
+        "excerptTop": 672.203125,
+        "footerTop": 783.375,
+        "linkBottom": 825.375,
+        "gap": 16,
+        "text": "Housing information for couples preparing to buy, own, or combine homes.",
+        "title": "Marriage",
+        "href": "life-changes/marriage.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-020.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 372.171875,
+          "bottom": 583.671875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 864.375,
+        "bottom": 1335.578125,
+        "height": 471.203125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1078.875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1167.40625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1278.578125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1112.8125,
+        "titleBottom": 1167.40625,
+        "categoryTop": 1080.875,
+        "excerptTop": 1167.40625,
+        "footerTop": 1278.578125,
+        "linkBottom": 1320.578125,
+        "gap": 16,
+        "text": "Housing information for families whose space, routines, and needs are changing.",
+        "title": "Growing Family",
+        "href": "life-changes/growing-family.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-099.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 867.375,
+          "bottom": 1078.875,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1359.578125,
+        "bottom": 1830.78125,
+        "height": 471.203125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1574.078125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1662.609375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 1773.78125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 1608.015625,
+        "titleBottom": 1662.609375,
+        "categoryTop": 1576.078125,
+        "excerptTop": 1662.609375,
+        "footerTop": 1773.78125,
+        "linkBottom": 1815.78125,
+        "gap": 16,
+        "text": "Housing information for moving to, from, or within the San Fernando Valley.",
+        "title": "Relocation",
+        "href": "life-changes/relocation.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-008.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1362.578125,
+          "bottom": 1574.078125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 1854.78125,
+        "bottom": 2325.984375,
+        "height": 471.203125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2069.28125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2157.8125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2268.984375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 2103.21875,
+        "titleBottom": 2157.8125,
+        "categoryTop": 2071.28125,
+        "excerptTop": 2157.8125,
+        "footerTop": 2268.984375,
+        "linkBottom": 2310.984375,
+        "gap": 16,
+        "text": "Housing information for homeowners whose household needs have changed.",
+        "title": "Empty Nest",
+        "href": "life-changes/empty-nest.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-002.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 1857.78125,
+          "bottom": 2069.28125,
+          "loaded": true
+        }
+      },
+      {
+        "top": 2349.984375,
+        "bottom": 2821.1875,
+        "height": 471.203125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2564.484375,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2653.015625,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 2764.1875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 2598.421875,
+        "titleBottom": 2653.015625,
+        "categoryTop": 2566.484375,
+        "excerptTop": 2653.015625,
+        "footerTop": 2764.1875,
+        "linkBottom": 2806.1875,
+        "gap": 16,
+        "text": "Housing information for the next stage of homeownership and retirement.",
+        "title": "Retirement",
+        "href": "life-changes/retirement.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-004.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 2352.984375,
+          "bottom": 2564.484375,
+          "loaded": false
+        }
+      },
+      {
+        "top": 2845.1875,
+        "bottom": 3290,
+        "height": 444.8125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3059.6875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3148.21875,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3233,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 3093.625,
+        "titleBottom": 3148.21875,
+        "categoryTop": 3061.6875,
+        "excerptTop": 3148.21875,
+        "footerTop": 3233,
+        "linkBottom": 3275,
+        "gap": 16,
+        "text": "Housing information for property decisions during divorce.",
+        "title": "Divorce",
+        "href": "life-changes/divorce.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-012.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 2848.1875,
+          "bottom": 3059.6875,
+          "loaded": false
+        }
+      },
+      {
+        "top": 3314,
+        "bottom": 3758.8125,
+        "height": 444.8125,
+        "width": 288,
+        "left": 16,
+        "right": 304,
+        "frame": [
+          "3px",
+          "3px",
+          "3px",
+          "3px"
+        ],
+        "color": "rgb(72, 83, 62)",
+        "rules": [
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3528.5,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3617.03125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          },
+          {
+            "left": 19,
+            "right": 301,
+            "top": 3701.8125,
+            "width": "2px",
+            "color": "rgb(72, 83, 62)"
+          }
+        ],
+        "titleTop": 3562.4375,
+        "titleBottom": 3617.03125,
+        "categoryTop": 3530.5,
+        "excerptTop": 3617.03125,
+        "footerTop": 3701.8125,
+        "linkBottom": 3743.8125,
+        "gap": 16,
+        "text": "Housing information for a home after the loss of a loved one.",
+        "title": "Death of a Loved One",
+        "href": "life-changes/death.html",
+        "clipped": false,
+        "clamp": "none",
+        "linkVisible": true,
+        "bodyFlex": "0",
+        "rowRule": "auto",
+        "image": {
+          "src": "assets/remodel-v18/scene-030.webp",
+          "srcset": null,
+          "fit": "fill",
+          "ratio": 1.3333333333333333,
+          "top": 3317,
+          "bottom": 3528.5,
+          "loaded": false
+        }
+      }
+    ],
+    "columns": 1,
+    "aligned": true,
+    "fullWidthRules": true,
+    "overflow": false,
+    "pageText": "Life ChangesClear real estate information for the housing questions that can come with major changes at home.Life ChangesMarriageHousing information for couples preparing to buy, own, or combine homes.Learn More \u2192Life ChangesGrowing FamilyHousing information for families whose space, routines, and needs are changing.Learn More \u2192Life ChangesRelocationHousing information for moving to, from, or within the San Fernando Valley.Learn More \u2192Life ChangesEmpty NestHousing information for homeowners whose household needs have changed.Learn More \u2192Life ChangesRetirementHousing information for the next stage of homeownership and retirement.Learn More \u2192Life ChangesDivorceHousing information for property decisions during divorce.Learn More \u2192Life ChangesDeath of a Loved OneHousing information for a home after the loss of a loved one.Learn More \u2192Contact Dominique",
+    "metadata": [
+      "<meta charset=\"utf-8\">",
+      "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"description\">",
+      "<link href=\"https://dommydom.com/life-changes.html\" rel=\"canonical\">",
+      "<meta content=\"Life Changes\" property=\"og:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" property=\"og:description\">",
+      "<meta content=\"https://dommydom.com/life-changes.html\" property=\"og:url\">",
+      "<meta content=\"website\" property=\"og:type\">",
+      "<meta content=\"summary\" name=\"twitter:card\">",
+      "<meta content=\"Life Changes\" name=\"twitter:title\">",
+      "<meta content=\"Clear real estate information for the housing questions that can come with major changes at home.\" name=\"twitter:description\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" name=\"twitter:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" name=\"twitter:image:alt\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:site_name\">",
+      "<meta content=\"en_US\" property=\"og:locale\">",
+      "<meta content=\"https://dommydom.com/assets/dominique-key-script-approved.png\" property=\"og:image\">",
+      "<meta content=\"Dominique Duncan-Nelson\" property=\"og:image:alt\">",
+      "<meta content=\"405\" property=\"og:image:width\">",
+      "<meta content=\"930\" property=\"og:image:height\">",
+      "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"CollectionPage\", \"@id\": \"https://dommydom.com/life-changes.html#webpage\", \"url\": \"https://dommydom.com/life-changes.html\", \"name\": \"Life Changes\", \"description\": \"Clear real estate information for the housing questions that can come with major changes at home.\", \"isPartOf\": {\"@id\": \"https://dommydom.com/#website\"}}, {\"@context\": \"https://schema.org\", \"@type\": \"RealEstateAgent\", \"@id\": \"https://dommydom.com/#dominique-duncan-nelson\", \"name\": \"Dominique Duncan-Nelson\", \"description\": \"Dominique Duncan-Nelson (CA DRE #02248338) is a San Fernando Valley Realtor with The Rise Team at Real Brokerage.\", \"url\": \"https://dommydom.com/\", \"logo\": \"https://dommydom.com/assets/dominique-key-script-transparent.png\", \"telephone\": \"+1-818-296-6896\", \"email\": \"dominique@therise.group\", \"identifier\": \"CA DRE #02248338\", \"memberOf\": {\"@type\": \"Organization\", \"name\": \"The Rise Team at Real Brokerage\"}, \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Chatsworth\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [\"San Fernando Valley\", \"Porter Ranch\", \"Granada Hills\", \"Northridge\", \"Sylmar\", \"San Fernando\", \"Mission Hills\", \"Encino\", \"Sherman Oaks\", \"Studio City\", \"Tarzana\", \"Woodland Hills\", \"Burbank\"], \"sameAs\": [\"https://www.zillow.com/profile/Dom%20Duncan\"], \"contactPoint\": {\"@type\": \"ContactPoint\", \"telephone\": \"+1-818-873-5128\", \"contactType\": \"secondary contact\"}}]}</script>"
+    ],
+    "links": [
+      "life-changes/marriage.html",
+      "life-changes/marriage.html",
+      "life-changes/growing-family.html",
+      "life-changes/growing-family.html",
+      "life-changes/relocation.html",
+      "life-changes/relocation.html",
+      "life-changes/empty-nest.html",
+      "life-changes/empty-nest.html",
+      "life-changes/retirement.html",
+      "life-changes/retirement.html",
+      "life-changes/divorce.html",
+      "life-changes/divorce.html",
+      "life-changes/death.html",
+      "life-changes/death.html"
+    ],
+    "page": "life-changes.html",
+    "width": 320
+  }
+]

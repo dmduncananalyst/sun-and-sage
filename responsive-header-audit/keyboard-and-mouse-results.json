@@ -1,0 +1,28 @@
+[
+  {
+    "width": 650,
+    "mouseViewport": true,
+    "menuTabStartsAtHome": true,
+    "reverseReturnsToClose": true,
+    "reverseWrapsToContact": true,
+    "forwardWrapsToClose": true,
+    "enterExpandsInline": true,
+    "escapeClosesAndRestoresFocus": true,
+    "neighborhoodsOpensWithoutMouseClick": true,
+    "searchOpensWithoutMouseClick": true,
+    "passed": true
+  },
+  {
+    "width": 390,
+    "mouseViewport": false,
+    "menuTabStartsAtHome": true,
+    "reverseReturnsToClose": true,
+    "reverseWrapsToContact": true,
+    "forwardWrapsToClose": true,
+    "enterExpandsInline": true,
+    "escapeClosesAndRestoresFocus": true,
+    "neighborhoodsOpensWithoutMouseClick": true,
+    "searchOpensWithoutMouseClick": true,
+    "passed": true
+  }
+]

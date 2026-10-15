@@ -1,0 +1,206 @@
+{
+  "pages": 352,
+  "uniqueAssets": 539,
+  "references": 2309,
+  "bad": [
+    {
+      "file": "assets\\photo-audit-4720\\city-sunland.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "buy-sunland.html",
+          "src": "assets/photo-audit-4720/city-sunland.lossless.webp",
+          "alt": "Sunland neighborhood view",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\photo-audit-4720\\city-toluca-lake.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "buy-toluca-lake.html",
+          "src": "assets/photo-audit-4720/city-toluca-lake.lossless.webp",
+          "alt": "Toluca Lake neighborhood view",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\photo-audit-4720\\preapproval-comparison.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "fha-loans.html",
+          "src": "assets/photo-audit-4720/preapproval-comparison.lossless.webp",
+          "alt": "First home financing documents and keys on a polished kitchen counter",
+          "kind": "img"
+        },
+        {
+          "page": "loan-homebuyer-programs.html",
+          "src": "assets/photo-audit-4720/preapproval-comparison.lossless.webp",
+          "alt": "First home financing documents and keys on a polished kitchen counter",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\portfolio-restored\\hosea-direct2-119.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "portfolio-bungalow-blues-bedrooms.html",
+          "src": "assets/portfolio-restored/hosea-direct2-119.webp",
+          "alt": "Bungalow Blues Bedrooms photograph",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\portfolio-restored\\sunlit-room2-025.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "portfolio-sun-lit-modern-home.html",
+          "src": "assets/portfolio-restored/sunlit-room2-025.webp",
+          "alt": "Sun Lit Modern Home photograph",
+          "kind": "img"
+        },
+        {
+          "page": "project-sun-lit-modern-home.html",
+          "src": "assets/portfolio-restored/sunlit-room2-025.webp",
+          "alt": "Sun Lit Modern Home photograph",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\portfolio-reference\\2ee42c_55a70b9e27634d1f94914c17d44682e9~mv2.jpg",
+      "error": "empty",
+      "references": [
+        {
+          "page": "portfolio-the-red-door.html",
+          "src": "assets/portfolio-reference/2ee42c_55a70b9e27634d1f94914c17d44682e9~mv2.jpg",
+          "alt": "The Red Door photograph",
+          "kind": "img"
+        },
+        {
+          "page": "project-the-red-door.html",
+          "src": "assets/portfolio-reference/2ee42c_55a70b9e27634d1f94914c17d44682e9~mv2.jpg",
+          "alt": "The Red Door photograph",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\full-frame-4718\\photo-3.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "short-term-rental-questions.html",
+          "src": "assets/full-frame-4718/photo-3.lossless.webp",
+          "alt": "A trusted person with a dog and packed luggage outside the home before a trip",
+          "kind": "img"
+        },
+        {
+          "page": "short-term-rental-questions\\someone-to-look-after-house-while-away.html",
+          "src": "assets/full-frame-4718/photo-3.lossless.webp",
+          "alt": "A trusted person with a dog and packed luggage outside the home before a trip",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\aeo-unique-photos\\aeo-019.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "life-changes\\divorce.html",
+          "src": "assets/aeo-unique-photos/aeo-019.lossless.webp",
+          "alt": "A Black woman seated in Dominique, the same real estate agent shown in the supplied identity reference office reviewing printed 'LOAN RELEASE REVIEW' documents with typed paragraphs and example entries; Dominique, the same real es",
+          "kind": "img"
+        },
+        {
+          "page": "life-changes\\divorce\\how-do-i-get-my-ex-off-the-mortgage.html",
+          "src": "assets/aeo-unique-photos/aeo-019.lossless.webp",
+          "alt": "A Black woman seated in Dominique, the same real estate agent shown in the supplied identity reference office reviewing printed 'LOAN RELEASE REVIEW' documents with typed paragraphs and example entries; Dominique, the same real es",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\aeo-unique-photos\\aeo-026.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "life-changes\\divorce.html",
+          "src": "assets/aeo-unique-photos/aeo-026.lossless.webp",
+          "alt": "A straight overhead editorial still life illustrating Neither of Us Can Afford the House Alone After Divorce",
+          "kind": "img"
+        },
+        {
+          "page": "life-changes\\divorce\\we-re-getting-divorced-and-neither-one-of-us-can-afford-the-house-alone.html",
+          "src": "assets/aeo-unique-photos/aeo-026.lossless.webp",
+          "alt": "A straight overhead editorial still life illustrating Neither of Us Can Afford the House Alone After Divorce",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\aeo-unique-photos\\aeo-021.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "life-changes\\divorce.html",
+          "src": "assets/aeo-unique-photos/aeo-021.lossless.webp",
+          "alt": "A Middle Eastern woman at a sunlit table reading a printed loan qualification comparison with actual rows and figures, notebook contains handwritten notes about housing plans, no devices",
+          "kind": "img"
+        },
+        {
+          "page": "life-changes\\divorce\\will-getting-divorced-affect-whether-i-can-qualify-for-another-mortgage.html",
+          "src": "assets/aeo-unique-photos/aeo-021.lossless.webp",
+          "alt": "A Middle Eastern woman at a sunlit table reading a printed loan qualification comparison with actual rows and figures, notebook contains handwritten notes about housing plans, no devices",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\article-batch-02\\article-09.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "life-changes\\marriage.html",
+          "src": "assets/article-batch-02/article-09.webp",
+          "alt": "Couple combining their belongings in a shared home",
+          "kind": "img"
+        },
+        {
+          "page": "life-changes\\marriage\\what-if-my-husband-already-owns-a-house-before-marriage.html",
+          "src": "assets/article-batch-02/article-09.webp",
+          "alt": "Couple combining their belongings in a shared home",
+          "kind": "img"
+        }
+      ]
+    },
+    {
+      "file": "assets\\aeo-unique-photos\\aeo-040.lossless.webp",
+      "error": "empty",
+      "references": [
+        {
+          "page": "life-changes\\retirement.html",
+          "src": "assets/aeo-unique-photos/aeo-040.lossless.webp",
+          "alt": "An older Black man at a quiet breakfast table reading a printed retirement home equity review with clearly typed rows, realistic sample numbers and small house photograph, no devices",
+          "kind": "img"
+        },
+        {
+          "page": "life-changes\\retirement\\how-much-equity-should-i-have-in-my-home-before-retiring.html",
+          "src": "assets/aeo-unique-photos/aeo-040.lossless.webp",
+          "alt": "An older Black man at a quiet breakfast table reading a printed retirement home equity review with clearly typed rows, realistic sample numbers and small house photograph, no devices",
+          "kind": "img"
+        }
+      ]
+    }
+  ],
+  "external": []
+}

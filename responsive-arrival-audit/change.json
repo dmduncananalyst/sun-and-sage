@@ -1,0 +1,4 @@
+{
+  "pages": 352,
+  "change": "Initialize responsive header classes and control placement synchronously during parsing, before deferred navigation setup. Desktop path is a no-op."
+}

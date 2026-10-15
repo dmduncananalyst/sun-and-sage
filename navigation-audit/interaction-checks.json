@@ -1,0 +1,17 @@
+{
+  "focusWrapsBack": true,
+  "focusWrapsForward": true,
+  "outsideClickCloses": true,
+  "outsideRestoresFocus": true,
+  "openBodyOverflow": "hidden",
+  "pageDoesNotScrollBehindMenu": true,
+  "rotationClearsOpenState": true,
+  "submenuTouchTargets": true,
+  "submenuLinkNavigates": true,
+  "destinationMenuClosed": true,
+  "chatStillOpens": true,
+  "ipad-pro-landscape-brandingFits": true,
+  "small-laptop-brandingFits": true,
+  "allHTMLUnchanged": true,
+  "htmlCount": 353
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/marriage.html",
+    "width": 1440
+  },
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/marriage.html",
+    "width": 390
+  },
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/growing-family.html",
+    "width": 1440
+  },
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/growing-family.html",
+    "width": 390
+  },
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/empty-nest.html",
+    "width": 1440
+  },
+  {
+    "interactive": true,
+    "fields": [
+      "goal"
+    ],
+    "text": "What would you like Dominique to know about your housing plans?Continue",
+    "page": "life-changes/empty-nest.html",
+    "width": 390
+  }
+]

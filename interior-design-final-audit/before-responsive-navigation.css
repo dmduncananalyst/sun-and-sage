@@ -1,0 +1,148 @@
+/* Isolated header component. Legacy .ss22-* restoration rules do not target it. */
+#dd-header{--dd-sage:#48533e;--dd-ink:#343c32;--dd-ivory:#f8f7f3;--dd-rule:#d8dbd0;--dd-gutter:clamp(16px,3vw,32px);box-sizing:border-box;display:grid;grid-template-areas:'brand rise tools contacts' 'nav nav nav nav';grid-template-columns:230px 114px minmax(200px,1fr) auto;gap:0 28px;align-items:center;width:100%;padding:6px max(24px,calc((100% - 1440px)/2)) 0;margin:0;position:relative;z-index:10000;background:#fff;color:var(--dd-ink);border-bottom:1px solid var(--dd-rule);font-family:Arial,Helvetica,sans-serif;}
+#dd-header *,#dd-header *::before,#dd-header *::after{box-sizing:border-box;}
+#dd-header .dd-brand{grid-area:brand;display:block;width:230px;max-width:100%;margin:0;padding:0;}
+/* A legacy filename-based key-icon rule must not shrink the signature wordmark. */
+#dd-header .dd-brand img{display:block;width:100%!important;max-width:100%!important;max-height:none!important;height:auto;margin:0;object-fit:contain;}
+#dd-header .dd-rise{grid-area:rise;display:block;width:114px;margin:0;padding:0;}
+#dd-header .dd-rise img{display:block;width:100%;height:auto;margin:0;object-fit:contain;}
+#dd-header .dd-contact-strip{grid-area:contacts;display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;justify-self:center;align-items:center;column-gap:22px;row-gap:0;width:max-content;margin:0;padding:0;color:var(--dd-sage);font:400 15px/1.5 Georgia,'Times New Roman',serif;}
+#dd-header .dd-contact-strip a{display:flex;align-items:center;justify-content:center;min-height:24px;color:inherit;font:inherit;font-family:inherit!important;letter-spacing:0;text-decoration:none;white-space:nowrap;}
+#dd-header .dd-contact-strip a:last-child{grid-column:1/-1;font-size:14px;}
+#dd-header .dd-header-tools{grid-area:tools;display:flex;align-items:center;justify-content:flex-end;gap:28px;width:max-content;}
+#dd-header .dd-feature{position:static;flex:none;}
+/* Keep global call-to-action link hover skins out of navigation and logos. */
+#dd-header a{background:transparent!important;box-shadow:none!important;transform:none!important;}
+/* Keep current-page labels readable against the header and open menu. */
+#dd-header a[aria-current="page"]{color:var(--dd-sage)!important;background:transparent!important;}
+#dd-header a:is(:hover,:focus-visible){color:var(--dd-sage)!important;}
+/* The sitewide button skin and font reset use !important; contain those two resets here. */
+#dd-header button{color:var(--dd-sage)!important;background:transparent!important;box-shadow:none!important;transform:none;transition:color .15s ease;appearance:none;border:0;border-radius:0;box-shadow:none;margin:0;font:inherit;cursor:pointer;}
+#dd-header .dd-feature-trigger{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0;background:transparent;color:var(--dd-sage);font:500 13px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.015em;white-space:nowrap;}
+#dd-header .dd-feature-trigger svg{display:block;flex:none;width:18px;height:18px;color:inherit;}
+#dd-header .dd-menu-toggle{display:none;}
+#dd-navigation{grid-area:nav;display:flex;align-items:center;justify-content:center;flex-wrap:nowrap;gap:clamp(22px,2vw,30px);width:100%;min-width:0;padding:4px 0;margin:0;border-top:1px solid #e9ebe4;}
+#dd-navigation>.dd-group{flex:none;position:static;margin:0;padding:0;}
+#dd-navigation>a,#dd-navigation>.dd-group>a{display:flex;flex:none;align-items:center;min-height:44px;padding:0;margin:0;color:var(--dd-sage);font:500 13px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;text-decoration:none;}
+#dd-header :is(a,button)::before,#dd-header :is(a,button)::after{content:none;}
+#dd-header .dd-sub-toggle{display:none;}
+#dd-header .dd-panel,#dd-header .dd-flyout-panel{display:none;position:fixed;left:var(--dd-panel-left,16px);top:var(--dd-panel-top,130px);width:var(--dd-panel-width,272px);max-width:calc(100vw - 32px);height:auto;max-height:var(--dd-panel-height,calc(100dvh - var(--dd-panel-top,130px) - 16px));margin:0;padding:10px 16px;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;background:var(--dd-ivory);border:1px solid var(--dd-rule);border-top:2px solid var(--dd-sage);box-shadow:0 8px 24px #343c3218;z-index:10002;}
+#dd-header :is(.dd-group,.dd-feature).is-open>.dd-panel,#dd-header .dd-flyout.is-open>.dd-flyout-panel{display:block;}
+#dd-header .dd-panel-content{display:block;width:100%;margin:0;padding:0;}
+#dd-header .dd-panel a{display:flex;align-items:center;min-height:36px;padding:7px 0;margin:0;color:var(--dd-ink);font:400 13px/1.45 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;white-space:normal;text-decoration:none;}
+#dd-header .dd-buyers>.dd-panel{overflow:visible;}
+#dd-header .dd-flyout{margin:0;padding:0;}
+#dd-header .dd-flyout-panel{z-index:10003;}
+#dd-header .dd-flyout.is-open>.dd-flyout-trigger{text-decoration:underline;text-underline-offset:4px;}
+#dd-header .dd-neighborhoods .dd-panel-content{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 20px;align-content:start;}
+#dd-header :is(a,button):focus-visible{outline:2px solid var(--dd-sage);outline-offset:3px;}
+#dd-header :is(a,button):hover{color:var(--dd-sage);text-decoration:underline;text-underline-offset:4px;}
+#dd-header .dd-feature-close{display:none;}
+#dd-header.feature-is-open .dd-feature.is-open .dd-feature-close{display:flex;align-items:center;justify-content:flex-end;min-height:44px;margin:0 0 4px auto;padding:0;background:transparent;color:var(--dd-sage);font:500 11px/1.4 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;}
+.dd-menu-backdrop{position:fixed;inset:var(--dd-header-bottom,130px) 0 0;background:#343c322c;z-index:9999;}
+.dd-menu-backdrop[hidden]{display:none;}
+html.dd-navigation-open,html.dd-navigation-open body.ss18{overflow:hidden!important;overscroll-behavior:none!important;}
+#dd-header .dd-panel .dd-mobile-program,#dd-header .dd-panel .dd-parent-link{display:none;}
+/* A full composition needs utility breathing room as well as a single nav row. */
+
+#dd-header.is-compact{grid-template-areas:'brand rise' 'tools tools';grid-template-columns:minmax(0,1fr) auto;gap:0 20px;padding:6px var(--dd-gutter);}
+#dd-header.is-compact .dd-brand{width:224px;}
+#dd-header.is-compact .dd-rise{justify-self:end;width:114px;}
+#dd-header.is-compact .dd-header-tools{width:100%;justify-content:space-between;gap:16px;}
+#dd-header.is-compact .dd-feature-trigger{font-size:13px;}
+#dd-header.is-compact .dd-menu-toggle{display:flex;align-items:center;justify-content:center;flex:none;min-height:44px;width:80px;padding:8px 12px;border:1px solid var(--dd-sage);background:#fff;color:var(--dd-sage);font:500 11px/1.4 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;}
+#dd-header.is-compact #dd-navigation{display:none;position:fixed;left:var(--dd-menu-left,16px);top:var(--dd-header-bottom,130px);width:var(--dd-menu-width,calc(100% - 32px));max-height:calc(100dvh - var(--dd-header-bottom,130px) - 12px);height:auto;margin:0;padding:14px 20px 12px;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;background:var(--dd-ivory);border:1px solid var(--dd-rule);border-top:2px solid var(--dd-sage);box-shadow:0 10px 28px #343c321a;z-index:10001;}
+#dd-header.is-compact.menu-is-open #dd-navigation{display:block;}
+#dd-header.is-compact #dd-navigation>a,#dd-header.is-compact #dd-navigation>.dd-group>a{width:100%;min-height:44px;padding:9px 0;font-size:15px;font-weight:500;line-height:1.5;letter-spacing:.025em;text-transform:none;white-space:normal;}
+#dd-header.is-compact #dd-navigation>.dd-group.is-open>a{font-weight:600;color:var(--dd-sage);}
+#dd-header.is-compact #dd-navigation .dd-panel{position:static;width:100%;max-width:none;max-height:none;padding:2px 0 10px 16px;margin:0 0 8px;border:0;border-left:1px solid #cdd1c3;background:transparent;box-shadow:none;overflow:visible;}
+#dd-header.is-compact #dd-navigation .dd-panel a{min-height:44px;font-size:13px;padding:9px 0;}
+#dd-header.is-compact #dd-navigation .dd-flyout-panel{display:none;}
+#dd-header.is-compact #dd-navigation :is(.dd-mobile-program,.dd-parent-link){display:flex;}
+#dd-header.is-compact .dd-contact-strip{display:grid;grid-area:auto;grid-template-columns:repeat(2,minmax(0,1fr));justify-content:stretch;justify-self:auto;gap:0 14px;width:100%;margin:12px 0 0;padding:12px 0 0;border-top:1px solid var(--dd-rule);font-size:14px;}
+#dd-header.is-compact .dd-contact-strip a{min-height:44px;justify-content:flex-start;}
+#dd-header.is-compact .dd-contact-strip a:last-child{justify-content:center;font-size:13px;}
+#dd-header.feature-is-open .dd-panel a{min-height:44px;}
+@media(max-width:600px){
+ #dd-header.is-compact .dd-brand{width:clamp(180px,calc(100vw - 142px),224px);}
+ #dd-header.is-compact .dd-rise{width:92px;}
+ #dd-header.is-compact .dd-header-tools{gap:12px;}
+ #dd-header.is-compact .dd-feature-trigger{gap:6px;font-size:12px;letter-spacing:0;}
+ #dd-header.is-compact .dd-menu-toggle{width:70px;padding:8px;}
+ #dd-header.is-compact #dd-navigation{padding:12px 16px;}
+ #dd-header .dd-neighborhoods .dd-panel-content{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px;}
+}
+@media(min-width:601px) and (max-width:1100px){#dd-header .dd-neighborhoods .dd-panel-content{grid-template-columns:repeat(3,minmax(0,1fr));}}
+
+/* Search is a direct destination, with the same utility-link appearance. */
+#dd-header a.dd-search{color:var(--dd-sage)!important;text-decoration:none;flex:none;}
+
+/* Tablets keep visible navigation. Only phones use the existing MENU panel. */
+#dd-header:not(.is-compact) .dd-header-tools{justify-self:center;}
+#dd-header:not(.is-compact) .dd-contact-strip{justify-self:end;}
+@media(min-width:600px) and (max-width:1199px){
+ #dd-header{grid-template-areas:'brand rise' 'tools contacts' 'nav nav';grid-template-columns:minmax(0,1fr) auto;gap:0 20px;padding:6px var(--dd-gutter) 0;}
+ #dd-header .dd-brand{width:224px;}
+ #dd-header .dd-rise{justify-self:end;}
+ #dd-header:not(.is-compact) .dd-header-tools{justify-self:start;justify-content:flex-start;gap:28px;min-height:44px;}
+ #dd-header .dd-contact-strip{font-size:14px;column-gap:18px;}
+ #dd-header .dd-contact-strip a:last-child{font-size:13px;}
+}
+#dd-header:not(.is-compact) #dd-navigation{justify-content:safe center;gap:clamp(18px,1.8vw,28px);overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#89927e #f0f1eb;}
+#dd-header.has-nav-rail #dd-navigation{justify-content:flex-start;padding-bottom:8px;}
+#dd-header.has-nav-rail:not(.nav-at-end)::after{content:'';position:absolute;bottom:7px;right:var(--dd-gutter);width:24px;height:44px;background:linear-gradient(90deg,#ffffff00,#fff);pointer-events:none;}
+@media(min-width:600px) and (max-width:1279px){#dd-navigation>a,#dd-navigation>.dd-group>a{font-size:13px;letter-spacing:.025em;}#dd-header .dd-panel a{min-height:44px;}}
+
+/* These ordinary page links have no disclosure treatment. */
+#dd-navigation>a:is([href$="life-changes.html"],[href$="considerations.html"]):hover{text-decoration:none;}
+
+/* A sage phone menu uses the established brand palette. */
+#dd-header.is-compact #dd-navigation{background:#48533e;color:#f8f7f3;border-color:#48533e;}
+#dd-header.is-compact #dd-navigation a,#dd-header.is-compact #dd-navigation a:is(:hover,:focus-visible){color:#f8f7f3!important;}
+#dd-header.is-compact #dd-navigation .dd-contact-strip{color:#f8f7f3;border-color:#adb5a2;}
+#dd-header.is-compact #dd-navigation .dd-panel{border-color:#adb5a2;}
+#dd-header.is-compact #dd-navigation a:focus-visible{outline-color:#fff;}
+
+/* Preserve Neighborhoods behavior and layout, using sage with warm ivory text. */
+#dd-header .dd-neighborhoods>.dd-panel{background:#48533e;color:#f3eadc;border-color:#48533e;}
+#dd-header .dd-neighborhoods .dd-panel a,#dd-header .dd-neighborhoods .dd-panel a:is(:hover,:focus-visible),#dd-header .dd-neighborhoods .dd-feature-close{color:#f3eadc!important;}
+#dd-header .dd-neighborhoods .dd-panel :is(a,button):focus-visible{outline-color:#f3eadc;}
+
+/* Primary dropdowns form a quiet, full-width band beneath the navigation. */
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel{left:0;width:var(--dd-panel-width,100vw);max-width:none;padding:16px 0;background:#747568;border:0;box-shadow:0 8px 18px #343c3212;overflow-y:auto;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel>.dd-panel-content{width:var(--dd-band-content-width,390px);margin-left:var(--dd-band-content-left,24px);}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a{min-height:40px;padding:10px 0;color:#f8f4eb!important;font-size:12px;font-weight:500;line-height:1.6;letter-spacing:.18em;text-transform:uppercase;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a:is(:hover,:focus-visible){color:#fff!important;text-decoration:underline;text-underline-offset:5px;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a:focus-visible{outline-color:#f8f4eb;outline-offset:2px;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group.is-open>a{ text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:7px;}
+@media(min-width:1280px){#dd-navigation>a,#dd-navigation>.dd-group>a{letter-spacing:.1em;}}
+@media(min-width:600px) and (max-width:1199px){#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a{min-height:44px;}}
+
+/* Cooler dark sage follows the signature branding across open menus. */
+#dd-header{--dd-menu-sage:#526b60;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel,
+#dd-header .dd-neighborhoods>.dd-panel,
+#dd-header.is-compact #dd-navigation{background:var(--dd-menu-sage);border-color:var(--dd-menu-sage);}
+
+/* Approved site tan and sage replace the experimental menu colors. */
+#dd-header{--dd-menu-tan:#f4f1eb;--dd-menu-text:#68705e;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel,
+#dd-header .dd-neighborhoods>.dd-panel,
+#dd-header.is-compact #dd-navigation{background:var(--dd-menu-tan);border-color:#d9d3c8;color:var(--dd-menu-text);}
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a,
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a:is(:hover,:focus-visible),
+#dd-header .dd-neighborhoods .dd-panel a,
+#dd-header .dd-neighborhoods .dd-panel a:is(:hover,:focus-visible),
+#dd-header .dd-neighborhoods .dd-feature-close,
+#dd-header.is-compact #dd-navigation a,
+#dd-header.is-compact #dd-navigation a:is(:hover,:focus-visible){color:var(--dd-menu-text)!important;}
+#dd-header .dd-neighborhoods .dd-panel :is(a,button):focus-visible,
+#dd-header:not(.is-compact) #dd-navigation>.dd-group>.dd-panel a:focus-visible,
+#dd-header.is-compact #dd-navigation a:focus-visible{outline-color:var(--dd-menu-text);}
+#dd-header.is-compact #dd-navigation .dd-contact-strip,
+#dd-header.is-compact #dd-navigation .dd-panel{border-color:#c8c3b7;}
+
+/* Contact has two compact destinations, centered beneath its own label. */
+#dd-header:not(.is-compact) #dd-navigation>.dd-contact>.dd-panel{left:var(--dd-panel-left);width:var(--dd-panel-width);max-width:calc(100vw - 32px);padding:12px 20px;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-contact>.dd-panel>.dd-panel-content{width:100%;margin:0;}
+#dd-header:not(.is-compact) #dd-navigation>.dd-contact>.dd-panel a{justify-content:center;text-align:center;}

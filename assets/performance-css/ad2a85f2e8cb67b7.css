@@ -1,3 +1,4 @@
+@import url("../editorial-layout.css");
 /* assets/site-audit-4711.css */
 /* Screenshot 4711: one full photograph, then one closed rectangular reading box.
    This is the authoritative shared layout for every article and standalone blog. */
@@ -452,3 +453,19 @@ html body #portfolioVideoDialog video{display:block!important;position:static!im
 html body #portfolioVideoDialog .portfolioVideoClose{position:absolute!important;top:4px!important;right:10px!important;width:34px!important;height:34px!important;padding:0!important;border:0!important;background:transparent!important;color:white!important;font:32px/1 Arial!important;cursor:pointer!important;}
 @media(max-width:760px){html body.ss18 main#main .homePortfolioVideosGrid{gap:8px!important;}html body.ss18 main#main .portfolioVideoPlay{width:30px!important;height:30px!important;font-size:13px!important;}}
 
+
+/* Preserve existing informational-panel spacing; article styling is imported. */
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)):has(> .loanHubItem > .final-static-answer) {
+ grid-auto-rows:auto!important; align-items:stretch!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem:has(> .final-static-answer) {
+ height:auto!important; min-height:0!important; max-height:none!important; align-self:stretch!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem > .final-static-answer {
+ display:flex!important; flex-direction:column!important; flex:0 0 auto!important;
+ height:auto!important; min-height:0!important; max-height:none!important; align-self:stretch!important;
+ justify-content:flex-start!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem:has(> .final-static-answer) > .loanLearn {
+ margin-top:auto!important;
+}

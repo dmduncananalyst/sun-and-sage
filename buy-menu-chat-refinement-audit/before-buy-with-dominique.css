@@ -1,0 +1,169 @@
+/* Live, responsive rendering of the approved Buy With Dominique composition. */
+html body.ss18 main#top.dd-buy-page{--buy-ivory:#f8f7f2;--buy-sage:#8d927c;--buy-ink:#343c32;display:block!important;width:100%!important;max-width:1448px!important;margin:0 auto!important;padding:0!important;background:var(--buy-ivory)!important;color:var(--buy-ink);}
+#top.dd-buy-page *{box-sizing:border-box;min-width:0;}
+#top.dd-buy-page :is(h1,h2,h3,p,figure,ol){margin:0;}
+#top.dd-buy-page :is(h1,h2,h3,p,span,strong,figcaption){color:inherit;font-family:Arial,Helvetica,sans-serif!important;}
+#top.dd-buy-page .dd-buy-overview{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:60px 56px;align-items:center;padding:80px 6.5% 60px;}
+#top.dd-buy-page .dd-buy-eyebrow{display:block;font-size:13px!important;line-height:1.6!important;letter-spacing:.24em;text-transform:uppercase;font-weight:400;}
+#top.dd-buy-page .dd-buy-intro h1{font-size:clamp(56px,6.8vw,100px)!important;line-height:1.05!important;font-weight:400!important;letter-spacing:-.045em!important;margin:40px 0 30px!important;text-align:left!important;}
+#top.dd-buy-page .dd-buy-intro h1 span{color:#777d6d;}
+#top.dd-buy-page .dd-buy-intro p{font-size:20px!important;line-height:1.65!important;margin:0!important;text-align:left!important;}
+#top.dd-buy-page .dd-buy-intro .dd-buy-subhead{font-size:13px!important;letter-spacing:.22em;line-height:1.9!important;text-transform:uppercase;margin-bottom:28px!important;}
+#top.dd-buy-page .dd-buy-wheel{position:relative;width:100%;aspect-ratio:1;border:1px solid #e7e7dd;border-radius:50%;}
+#top.dd-buy-page .dd-buy-wheel::before{content:'';position:absolute;inset:10%;border:1px solid #9ba18e;border-radius:50%;}
+#top.dd-buy-page .dd-buy-wheel-center{position:absolute;inset:26%;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#eeeee5;text-align:center;}
+#top.dd-buy-page .dd-buy-wheel-center span{font:400 clamp(14px,1.5vw,22px)/1.6 Georgia,serif!important;letter-spacing:.2em;text-transform:uppercase;}
+#top.dd-buy-page .dd-buy-wheel ol{list-style:none;padding:0;}
+#top.dd-buy-page .dd-buy-step{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:25%;padding:8px 0;background:var(--buy-ivory);text-align:center;}
+#top.dd-buy-page .dd-buy-step svg{display:block;width:42px;height:42px;}
+#top.dd-buy-page .dd-buy-step span{font-size:11px!important;letter-spacing:.15em;text-transform:uppercase;line-height:1.5;}
+#top.dd-buy-page .dd-buy-benefits{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #b9bdaf;padding-top:32px;gap:24px;}
+#top.dd-buy-page .dd-buy-benefits article{display:flex;align-items:center;gap:22px;padding-right:24px;border-right:1px solid #b9bdaf;}
+#top.dd-buy-page .dd-buy-benefits article:last-child{border:0;}
+#top.dd-buy-page .dd-buy-benefits svg{flex:none;width:60px;height:60px;padding:16px;border-radius:50%;background:var(--buy-sage);color:#fff;}
+#top.dd-buy-page .dd-buy-benefits h3{font-size:13px!important;line-height:1.6!important;letter-spacing:.2em;text-transform:uppercase;font-weight:400!important;margin-bottom:8px;}
+#top.dd-buy-page .dd-buy-benefits p{font-size:11px!important;line-height:1.8!important;letter-spacing:.18em;text-transform:uppercase;}
+#top.dd-buy-page .dd-buy-statistics{display:grid;grid-template-columns:1fr 1fr .85fr;gap:48px 40px;padding:100px 5% 70px;}
+#top.dd-buy-page .dd-buy-chart{display:block!important;overflow:visible!important;}
+#top.dd-buy-page .dd-buy-chart figcaption{font-size:14px!important;letter-spacing:.2em;text-transform:uppercase;text-align:center;padding-bottom:42px;}
+#top.dd-buy-page .dd-buy-chart-plot{position:relative;height:360px;margin:18px 0 75px 45px;}
+#top.dd-buy-page .dd-buy-axis{position:absolute;left:-45px;top:0;bottom:0;width:40px;display:flex;flex-direction:column;justify-content:space-between;text-align:right;font-size:12px;}
+#top.dd-buy-page .dd-buy-bars{display:flex;align-items:flex-end;gap:20px;height:100%;border-bottom:1px solid #777d6d;border-left:1px solid #b9bdaf;padding:0 12px;}
+#top.dd-buy-page .dd-buy-bar{position:relative;flex:1;height:100%;display:flex;align-items:center;justify-content:flex-end;flex-direction:column;}
+#top.dd-buy-page .dd-buy-bar-fill{display:block;width:100%;background:linear-gradient(#b0b39e,#949b82);}
+#top.dd-buy-page .dd-buy-bar strong{font-size:21px!important;line-height:1.5;font-weight:400;}
+#top.dd-buy-page .dd-buy-bar-label{position:absolute;top:100%;padding-top:18px;font-size:10px!important;line-height:1.8;letter-spacing:.18em;text-transform:uppercase;text-align:center;width:125%;}
+#top.dd-buy-page .dd-buy-location{padding:0 0 0 20px;}
+#top.dd-buy-page .dd-buy-location .dd-buy-eyebrow{text-align:center;margin-bottom:56px;}
+#top.dd-buy-page .dd-buy-location h2{font-size:clamp(36px,3.6vw,56px)!important;line-height:1.15!important;font-weight:400!important;letter-spacing:-.025em;}
+#top.dd-buy-page .dd-buy-location p{font-size:clamp(32px,3.2vw,50px)!important;line-height:1.2!important;font-weight:300!important;color:#858a7a;margin-top:24px;}
+#top.dd-buy-page .dd-buy-stat-footer{grid-column:1/-1;border-top:1px solid #b9bdaf;padding-top:30px;font-size:12px!important;letter-spacing:.2em;text-transform:uppercase;}
+#top.dd-buy-page .dd-buy-reach{padding:80px 6.5%;}
+#top.dd-buy-page .dd-buy-reach-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:70px;}
+#top.dd-buy-page .dd-buy-reach-heading h2{font-size:clamp(36px,4.5vw,66px)!important;line-height:1.2!important;font-weight:400!important;letter-spacing:-.025em;margin-top:16px;}
+#top.dd-buy-page .dd-buy-reach-heading>p{padding-bottom:20px;border-bottom:1px solid #b9bdaf;white-space:nowrap;}
+#top.dd-buy-page .dd-buy-reach-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;}
+#top.dd-buy-page .dd-buy-reach-grid article{text-align:center;}
+#top.dd-buy-page .dd-buy-map-name{display:block;min-height:40px;font-size:11px!important;letter-spacing:.2em;text-transform:uppercase;}
+#top.dd-buy-page .dd-buy-map{position:relative;height:200px;color:var(--buy-sage);display:flex;align-items:center;justify-content:center;}
+#top.dd-buy-page .dd-buy-map svg{width:100%;height:100%;}
+#top.dd-buy-page .dd-buy-map strong{position:absolute;color:#fff;font-size:clamp(23px,2.6vw,40px)!important;font-weight:400;}
+#top.dd-buy-page .dd-buy-reach-grid h3{font-size:12px!important;line-height:1.8!important;letter-spacing:.2em;text-transform:uppercase;font-weight:400!important;margin-top:24px;}
+#top.dd-buy-page .dd-buy-reach-grid h3::after{content:'';display:block;width:60px;height:1px;background:#9ba18e;margin:24px auto 0;}
+@media(max-width:1100px){
+ #top.dd-buy-page .dd-buy-overview{gap:45px 32px;padding:60px 5%;}
+ #top.dd-buy-page .dd-buy-intro h1{font-size:clamp(44px,6.8vw,76px)!important;}
+ #top.dd-buy-page .dd-buy-intro p{font-size:17px!important;}
+ #top.dd-buy-page .dd-buy-step svg{width:32px;height:32px;}
+ #top.dd-buy-page .dd-buy-step span{font-size:9px!important;letter-spacing:.08em;}
+ #top.dd-buy-page .dd-buy-benefits article{gap:12px;padding-right:12px;}
+ #top.dd-buy-page .dd-buy-benefits svg{width:44px;height:44px;padding:11px;}
+ #top.dd-buy-page .dd-buy-statistics{grid-template-columns:1fr 1fr;gap:48px 32px;padding:60px 5%;}
+ #top.dd-buy-page .dd-buy-location{grid-column:1/-1;display:flex;align-items:center;justify-content:center;gap:40px;padding:0;}
+ #top.dd-buy-page .dd-buy-location .dd-buy-eyebrow{margin:0;}
+ #top.dd-buy-page .dd-buy-location p{font-size:32px!important;margin:0;}
+ #top.dd-buy-page .dd-buy-reach-heading{display:block;}
+ #top.dd-buy-page .dd-buy-reach-heading>p{white-space:normal;margin-top:24px;}
+ #top.dd-buy-page .dd-buy-reach-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;}
+}
+@media(max-width:650px){
+ #top.dd-buy-page .dd-buy-overview{grid-template-columns:minmax(0,1fr);padding:44px 24px;gap:44px;}
+ #top.dd-buy-page .dd-buy-intro h1{font-size:58px!important;margin:24px 0!important;}
+ #top.dd-buy-page .dd-buy-wheel{max-width:440px;margin:auto;}
+ #top.dd-buy-page .dd-buy-wheel-center span{font-size:13px!important;}
+ #top.dd-buy-page .dd-buy-benefits{grid-template-columns:minmax(0,1fr);gap:20px;}
+ #top.dd-buy-page .dd-buy-benefits article{border:0;}
+ #top.dd-buy-page .dd-buy-statistics{grid-template-columns:minmax(0,1fr);padding:44px 24px;gap:44px;}
+ #top.dd-buy-page .dd-buy-chart-plot{height:300px;}
+ #top.dd-buy-page .dd-buy-location{display:block;text-align:center;}
+ #top.dd-buy-page .dd-buy-location .dd-buy-eyebrow{margin-bottom:20px;}
+ #top.dd-buy-page .dd-buy-location p{margin-top:20px;}
+ #top.dd-buy-page .dd-buy-stat-footer{line-height:2!important;}
+ #top.dd-buy-page .dd-buy-reach{padding:44px 24px;}
+ #top.dd-buy-page .dd-buy-reach-heading{margin-bottom:40px;}
+ #top.dd-buy-page .dd-buy-reach-grid{gap:36px 20px;}
+ #top.dd-buy-page .dd-buy-map{height:140px;}
+ #top.dd-buy-page .dd-buy-reach-grid h3{font-size:10px!important;letter-spacing:.08em;}
+}
+
+#top.dd-buy-page .ss49-button-row{padding:40px 24px 56px;text-align:center;}
+#top.dd-buy-page .bottom-cta h2{font-size:32px!important;line-height:1.3!important;font-weight:400!important;}
+#top.dd-buy-page .bottom-cta p{max-width:680px;margin:14px auto 24px;font-size:17px!important;line-height:1.7!important;}
+#top.dd-buy-page .bottom-cta a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;background:#48533e!important;color:#fff!important;font:500 14px/1.5 Arial,sans-serif;text-decoration:none;}
+@media(max-width:650px){#top.dd-buy-page .dd-buy-step span{white-space:nowrap;font-size:8.5px!important;letter-spacing:.06em;}}
+
+/* Editorial web sections: all approved DOM content and diagrams remain intact. */
+html body.ss18 main#top.dd-buy-page{background:#fff!important;}
+#top.dd-buy-page .dd-buy-overview{background:#fff;padding-top:64px;padding-bottom:48px;gap:48px 56px;}
+#top.dd-buy-page .dd-buy-wheel{background:var(--buy-ivory);border-color:#d9ddcf;}
+#top.dd-buy-page .dd-buy-benefits{background:var(--buy-ivory);border-top:1px solid #cdd2c3;padding:28px 24px;}
+#top.dd-buy-page .dd-buy-statistics{background:var(--buy-ivory);border-top:1px solid #d8dcce;grid-template-columns:repeat(2,minmax(0,1fr));padding:64px 6.5%;gap:40px;}
+#top.dd-buy-page .dd-buy-location{grid-column:1/-1;grid-row:1;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:0 0 28px;border-bottom:1px solid #cdd2c3;}
+#top.dd-buy-page .dd-buy-location .dd-buy-eyebrow{margin:0;}
+#top.dd-buy-page .dd-buy-location h2{font-size:40px!important;line-height:1.15!important;}
+#top.dd-buy-page .dd-buy-location p{font-size:32px!important;line-height:1.3!important;margin:0;}
+#top.dd-buy-page .dd-buy-chart{background:#fff;border-top:2px solid #8d927c;padding:28px 24px 20px;}
+#top.dd-buy-page .dd-buy-chart figcaption{font-size:15px!important;padding-bottom:24px;}
+#top.dd-buy-page .dd-buy-chart-plot{height:300px;margin-top:20px;margin-bottom:70px;}
+#top.dd-buy-page .dd-buy-axis{font-size:13px;}
+#top.dd-buy-page .dd-buy-bar-label{font-size:11px!important;letter-spacing:.12em;}
+#top.dd-buy-page .dd-buy-bar strong{position:absolute;bottom:calc(var(--buy-bar-height) + 8px);font-size:22px!important;}
+#top.dd-buy-page .dd-buy-bar-fill{flex:none;background:#a4aa94;}
+#top.dd-buy-page .dd-buy-stat-footer{padding-top:24px;line-height:1.8!important;}
+#top.dd-buy-page .dd-buy-reach{background:#fff;border-top:1px solid #d8dcce;padding:64px 6.5%;}
+#top.dd-buy-page .dd-buy-reach-heading{margin-bottom:40px;}
+#top.dd-buy-page .dd-buy-reach-heading h2{font-size:clamp(36px,4vw,56px)!important;}
+#top.dd-buy-page .dd-buy-map{height:190px;}
+#top.dd-buy-page .dd-buy-reach-grid article{padding-top:24px;border-top:1px solid #cdd2c3;}
+#top.dd-buy-page .ss49-button-row{background:var(--buy-ivory);border-top:1px solid #d8dcce;padding-top:44px;}
+@media(max-width:1100px){
+ #top.dd-buy-page .dd-buy-statistics{gap:32px;padding:48px 5%;}
+ #top.dd-buy-page .dd-buy-chart{padding:24px 16px 16px;}
+ #top.dd-buy-page .dd-buy-bar-label{font-size:10px!important;letter-spacing:.07em;}
+ #top.dd-buy-page .dd-buy-bars{gap:14px;}
+ #top.dd-buy-page .dd-buy-location h2{font-size:34px!important;}
+ #top.dd-buy-page .dd-buy-location p{font-size:28px!important;}
+}
+@media(max-width:900px){
+ #top.dd-buy-page .dd-buy-overview{grid-template-columns:minmax(0,1fr);gap:40px;padding:48px 5%;}
+ #top.dd-buy-page .dd-buy-intro{max-width:660px;}
+ #top.dd-buy-page .dd-buy-intro h1{font-size:clamp(58px,8vw,76px)!important;margin:28px 0!important;}
+ #top.dd-buy-page .dd-buy-intro p{font-size:18px!important;}
+ #top.dd-buy-page .dd-buy-wheel{max-width:480px;margin:0 auto;}
+ #top.dd-buy-page .dd-buy-step svg{width:38px;height:38px;}
+ #top.dd-buy-page .dd-buy-step span{font-size:11px!important;white-space:nowrap;letter-spacing:.06em;}
+}
+@media(max-width:650px){
+ #top.dd-buy-page .dd-buy-overview{padding:40px 24px;}
+ #top.dd-buy-page .dd-buy-intro h1{font-size:clamp(48px,14vw,60px)!important;}
+ #top.dd-buy-page .dd-buy-step svg{width:30px;height:30px;}
+ #top.dd-buy-page .dd-buy-step span{font-size:10px!important;letter-spacing:0;}
+ #top.dd-buy-page .dd-buy-wheel-center span{font-size:12px!important;letter-spacing:.13em;}
+ #top.dd-buy-page .dd-buy-benefits{padding:24px 18px;}
+ #top.dd-buy-page .dd-buy-statistics{grid-template-columns:minmax(0,1fr);padding:40px 24px;}
+ #top.dd-buy-page .dd-buy-location{display:block;text-align:left;padding-bottom:24px;}
+ #top.dd-buy-page .dd-buy-location h2{font-size:34px!important;margin-top:16px;}
+ #top.dd-buy-page .dd-buy-location p{font-size:26px!important;margin-top:20px;}
+ #top.dd-buy-page .dd-buy-chart{padding:24px 12px 16px;}
+ #top.dd-buy-page .dd-buy-chart-plot{height:280px;}
+ #top.dd-buy-page .dd-buy-bar strong{font-size:19px!important;}
+ #top.dd-buy-page .dd-buy-reach{padding:40px 24px;}
+ #top.dd-buy-page .dd-buy-reach-grid{grid-template-columns:minmax(0,1fr);gap:32px;max-width:400px;margin:0 auto;}
+ #top.dd-buy-page .dd-buy-map{height:190px;}
+ #top.dd-buy-page .dd-buy-map strong{font-size:30px!important;}
+ #top.dd-buy-page .dd-buy-reach-grid h3{font-size:12px!important;letter-spacing:.12em;}
+}
+
+#top.dd-buy-page .dd-buy-chart:nth-of-type(1) .dd-buy-bar:nth-child(1){--buy-bar-height:21.43%;}
+#top.dd-buy-page .dd-buy-chart:nth-of-type(1) .dd-buy-bar:nth-child(2){--buy-bar-height:28.86%;}
+#top.dd-buy-page .dd-buy-chart:nth-of-type(1) .dd-buy-bar:nth-child(3){--buy-bar-height:95.21%;}
+#top.dd-buy-page .dd-buy-chart:nth-of-type(2) .dd-buy-bar:nth-child(1){--buy-bar-height:50.00%;}
+#top.dd-buy-page .dd-buy-chart:nth-of-type(2) .dd-buy-bar:nth-child(2){--buy-bar-height:84.67%;}
+#top.dd-buy-page .dd-buy-chart:nth-of-type(2) .dd-buy-bar:nth-child(3){--buy-bar-height:75.25%;}
+#top.dd-buy-page .dd-buy-step{background:transparent;}
+#top.dd-buy-page .dd-buy-step svg{background:var(--buy-ivory);border-radius:50%;}
+
+@media(min-width:651px) and (max-width:900px){
+ #top.dd-buy-page .dd-buy-benefits{grid-template-columns:minmax(0,1fr);gap:20px;}
+ #top.dd-buy-page .dd-buy-benefits article{border:0;padding-right:0;gap:20px;}
+}

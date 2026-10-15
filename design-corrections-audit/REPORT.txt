@@ -1,0 +1,128 @@
+COMPLETE CARD AND CITY-PAGE CORRECTIONS - LOCAL REVIEW
+2026-10-14. No commit, push, deployment, or publication.
+
+SPECIFICATION
+Read the complete combined brief, the earlier spacing brief, and the v2 brief present under its '(1)' filename. The separate DommyDom-City-Pages-Editorial-Layout-Codex.md is not present. The combined brief takes precedence: complete excerpts are shown, with no line clamps or mid-sentence ellipses added.
+
+PRODUCTION FILES CHANGED
+assets/editorial-layout.css (new canonical shared component stylesheet)
+assets/performance-css/295473f8529b44f9.css
+assets/performance-css/75e3427875dcf211.css
+assets/performance-css/ad2a85f2e8cb67b7.css
+
+The three existing bundles import the canonical stylesheet. The prior task's duplicated card overrides were replaced rather than supplemented with another competing patch. Existing informational-panel spacing is preserved separately. No HTML, JavaScript, images, factual copy, dates, URLs, metadata, structured data, contact information, navigation, homepage animations, or chat implementation changed. All 353 existing HTML files retain their exact SHA-256 hashes. Editorial handoff files and unrelated worktree items were retained.
+
+TASK 1 - COORDINATED FRAMES
+Reused --ss22-sage, resolving to #48533e / rgb(72,83,62), from the approved direction-v22 palette.
+Outer frame: 3px solid on every side.
+Image/copy transition, title/excerpt divider, footer separator: 2px solid, all the same sage.
+The earlier light inset footer rule was removed. The existing Read More link underline is preserved as a separate decorative link detail.
+
+Full-width construction: the body wrapper has zero padding and one explicit full-width grid column. Padding belongs to the topic, heading and excerpt wrappers; the borders belong to the complete body/excerpt/footer wrappers. These boxes stretch from inside left frame to inside right frame. This avoids inset decorative rules, negative-margin hacks and double borders. Explicit grid columns also eliminate an inherited centered intrinsic track that shortened two Life Changes hub rules at 1920px. Every measured structural rule reaches both inner edges within subpixel tolerance.
+
+Key selectors: .loanHubGrid with direct photo/action cards; .loanHubItem containing .ss18-card-photo and .loanLearn; its direct .final-static-answer, .topic, h2, .final-static-answer-copy and .loanLearn. Existing #main specificity conventions are required to beat legacy !important styles. New rules do not match unrelated panels.
+
+TASK 2 - NATURAL ROWS, COMPLETE COPY
+Legacy layers imposed global 1fr tracks, 495/570px card minimums, fixed 238/251px bodies, flex growth and line clamps. The previous v2 patch then visually cut complete previews to four lines and still allowed independent title heights to create inconsistent internal alignment.
+The winning shared component now uses automatic intrinsic tracks, no card/body minimum or fixed height, and no text clamp. CSS subgrid shares photo/category/title/excerpt/footer tracks only among cards in the same row. Complete title areas, excerpt dividers, card bottoms and footer positions align. Different rows size independently. The fallback flex composition keeps footers anchored in browsers without subgrid. Row gaps are 24px.
+The blog uses a centered single reading column at 820px and below, where its existing supplementary mobile paragraphs become visible. This prevents short previews from stretching beside long mobile prose. Other article grids retain three desktop columns, two from 601-950px and one below that.
+Mobile cards have natural individual heights; measured final-paragraph-to-footer spacing is 16px. No source excerpt was edited or deleted, and the existing mobile supplementary prose remains intact.
+
+CONTENT-DRIVEN LIMITATIONS (EXACT CARDS)
+A few existing excerpts are substantially longer than their neighbors. Equal row bottoms plus complete text necessarily leave some space below the shorter previews. This is intrinsic content difference, not a forced shared page height. Rows above the 130px review threshold are listed here; maximum measured space is 189px at 1024px. No filler, silent shortening, hidden overflow or excerpt reordering was used:
+- Understanding Homes South of Ventura Boulevard (buyer-questions.html; 1024px; up to 131px on shorter neighbors). Neighbors: Matching Your Budget With San Fernando Valley Neighborhoods.
+- Establishing When a Home Can Be Sold After a Death (life-changes/death.html; 1440px, 1280px, 1024px, 768px; up to 189px on shorter neighbors). Neighbors: Determining Whether Probate Is Needed Before a Home Sale; Living in a Home You Inherited.
+- A Home With a Mortgage in a Deceased Spouse’s Name (life-changes/death.html; 1024px; up to 189px on shorter neighbors). Neighbors: Evaluating Your Parents’ House After Their Death; Understanding a Parent’s Mortgage After Their Death.
+- Evaluating Potential Savings From Downsizing (life-changes/empty-nest.html; 1280px, 1024px; up to 160px on shorter neighbors). Neighbors: Choosing a Practical Home Size for an Empty Nest.
+- Recognizing When Your Family Has Outgrown Its Home (life-changes/growing-family.html; 1024px; up to 131px on shorter neighbors). Neighbors: Planning Bedroom Space for Two Children.
+- Comparing a Fixer Upper and a Move In Ready Home Before a Baby Arrives (life-changes/growing-family.html; 1024px; up to 131px on shorter neighbors). Neighbors: Evaluating a Yard for a Home With Young Children.
+- Using Equity From a Home Owned Before Marriage (life-changes/marriage.html; 1280px, 1024px; up to 160px on shorter neighbors). Neighbors: Considering a Partner’s Existing Home and a Joint Purchase; Planning a Home Purchase for a Growing Family.
+- Understanding Real Estate Support During an Out of State Move (life-changes/relocation.html; 1280px, 1024px; up to 131px on shorter neighbors). Neighbors: Buying a California Home Before Moving to the State.
+- Buying a Replacement Home Before Your Current Home Sells (life-changes/relocation.html; 1024px; up to 131px on shorter neighbors). Neighbors: Managing a Home That Has Not Sold After You Relocate; Searching for a Home From Another State.
+
+See long-preview-rows.json for every affected page/width and long-excerpts-death-1024.png for a concrete long-row example.
+
+TASK 3 - CITY INFORMATION EDITORIAL PANELS
+All 26 city pages use main.ss21-city[data-city-page] > .ss21-facts > .ss21-fact-grid. Each has eight panels. The shared design applies only here: warm cream #f7f3ed (already used by the city palette), 2px sage top accents, restrained Georgia headings, readable Arial copy, and consistently left-aligned labels/headings/paragraphs. Panels have natural heights, balanced row surfaces and a 24px x 28px gutter. Desktop/tablet: two columns; mobile at 700px and below: one column. Padding reduces appropriately on mobile. The city hero, statistics, FAQ, source links and search form remain intact. Winnetka and Sun Valley were the rendered visual benchmarks.
+
+AFFECTED ARTICLE GRIDS (15)
+blog.html
+buyer-questions.html
+design-questions.html
+homebuyer-financing-questions.html
+life-changes.html
+life-changes/death.html
+life-changes/divorce.html
+life-changes/empty-nest.html
+life-changes/growing-family.html
+life-changes/marriage.html
+life-changes/relocation.html
+life-changes/retirement.html
+loan-homebuyer-programs.html
+seller-questions.html
+short-term-rental-questions.html
+
+CITY PAGES RECEIVING THE SHARED DESIGN (26)
+buy-burbank.html
+buy-canoga-park.html
+buy-chatsworth.html
+buy-encino.html
+buy-granada-hills.html
+buy-mission-hills.html
+buy-north-hollywood.html
+buy-northridge.html
+buy-pacoima.html
+buy-porter-ranch.html
+buy-reseda.html
+buy-san-fernando.html
+buy-sherman-oaks.html
+buy-studio-city.html
+buy-sun-valley.html
+buy-sunland.html
+buy-sylmar.html
+buy-tarzana.html
+buy-toluca-lake.html
+buy-tujunga.html
+buy-valley-glen.html
+buy-valley-village.html
+buy-van-nuys.html
+buy-west-hills.html
+buy-winnetka.html
+buy-woodland-hills.html
+
+ACTUAL QA
+Google Chrome headless via local HTTP preview. Widths: 1920, 1440, 1280, 1024, 768, 390 and 320px.
+41 pages x 7 widths = 287 final page/width measurements: 105 article-grid cases plus 182 city cases. Follow-up measurements replace the earlier divider-width cases in final-results.json.
+All final card cases: 3px outer borders; 2px sage full-width internal rules; aligned category/title/excerpt/footer tracks and card bottoms; complete uncut visible text; no horizontal page overflow; visible Read More controls. City cases: eight cream panels, consistent left alignment, no clipped text or horizontal overflow; two columns at 768px and above and one at 390/320px.
+Visual inspection covered Blog, Marriage, Growing Family, Empty Nest, Winnetka and Sun Valley desktop/mobile screenshots, including narrow 320px and tablet cases and a long-excerpt example. Before captures use the exact pre-task CSS snapshots, not a mockup.
+All 268 distinct preview destinations exist locally. Keyboard Enter and trial pointer actionability were tested on Blog, Marriage, Growing Family and Empty Nest at 1440/390. Desktop dropdowns, mobile menu open/Escape close and chat open/close were checked on those pages and Winnetka/Sun Valley. Chat choices work on Blog/city pages; Life Changes uses an existing goal-input stage, verified separately on all three categories at both widths. No forms or messages were submitted. City search fields and selected cities remain intact.
+Before/after rendered main text, links and SEO metadata match on Blog, Marriage, Winnetka and Sun Valley at 1440/390. Every HTML file also passed the byte-for-byte preservation check. git diff --check passed.
+
+SCREENSHOTS
+blog-after-1440.png / blog-after-390.png
+marriage-after-1440.png / marriage-after-390.png
+growing-family-after-1440.png / growing-family-after-390.png
+empty-nest-after-1440.png / empty-nest-after-390.png
+buy-winnetka-after-1440.png / buy-winnetka-after-390.png
+buy-sun-valley-after-1440.png / buy-sun-valley-after-390.png
+Additional Blog/Winnetka screenshots cover all seven widths. Before desktop/mobile captures and the named long-row screenshot are in this directory.
+
+RECORDS
+final-results.json: merged final 287 cases.
+preservation.json / html-sha256-before.json: rendered and source preservation evidence.
+functionality.json / chat-stages.json / link-targets.json: functional checks.
+verify.py / functionality.py: browser verification scripts; temporary Playwright tooling is required to rerun.
+
+REMAINING LIMITS
+The named long-excerpt rows retain necessary row-balancing space. Seven pre-existing zero-byte photograph files remain untouched (listed in ../article-card-audit/empty-image-files.json); this work does not claim every offscreen lazy image loads. Browser measurements use desktop Chrome responsive viewports, not physical devices or Safari/Firefox, and no actual VS Code integrated pane was controlled. External requests were blocked; no live contact delivery was tested. The legacy full article and city facts were preserved without independent factual edits.
+
+LOCAL PREVIEW
+From the repository root run:
+& 'C:/Users/its old/AppData/Local/Programs/Python/Python312/python.exe' -m http.server 8000 --bind 127.0.0.1
+Open http://127.0.0.1:8000/blog.html and http://127.0.0.1:8000/buy-winnetka.html.
+Stop the server with Ctrl+C. The test-owned servers shut down when their scripts finish.
+
+STOPPED BEFORE PUBLICATION FOR VISUAL REVIEW.
+
+FOLLOW-UP - READ MORE UNDERLINE
+Changed the short link underline to --ss22-sage (#48533e), retaining its existing 1px thickness. Chrome verified all 30 Blog and 25 Marriage link underlines at 1440px and 390px. Changes remain local and unpublished.

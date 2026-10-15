@@ -1,0 +1,82 @@
+{
+  "pages": 351,
+  "outsideHeadersUnchanged": true,
+  "headerLinksValid": true,
+  "originalCategoryContentUnchanged": true,
+  "sitemapOriginalUrls": 351,
+  "sitemapNewUrls": 352,
+  "categories": [
+    {
+      "title": "Buying",
+      "url": "buyer-questions.html",
+      "description": "Explore neighborhood fit, property condition, ownership responsibilities, and the decisions involved in buying a San Fernando Valley home.",
+      "source": "ChatGPT Image Oct 14, 2026, 06_46_57 PM-5.png",
+      "image": "assets/images/considerations/family-viewing-home.webp",
+      "alt": "Family exploring a bright living room together"
+    },
+    {
+      "title": "Selling",
+      "url": "seller-questions.html",
+      "description": "Explore home sale preparation, timing, documents, net proceeds, and the practical considerations involved in moving to another home.",
+      "source": "ChatGPT Image Oct 14, 2026, 06_46_56 PM-4.png",
+      "image": "assets/images/considerations/preparing-home.webp",
+      "alt": "Woman reviewing materials in a furnished living room"
+    },
+    {
+      "title": "Financing",
+      "url": "homebuyer-financing-questions.html",
+      "description": "Explore mortgage eligibility, down payments, credit, assistance, and the written loan terms that shape a home purchase.",
+      "source": "ChatGPT Image Oct 14, 2026, 06_46_51 PM-1.png",
+      "image": "assets/images/considerations/home-financing.webp",
+      "alt": "Couple reviewing financial documents at home"
+    },
+    {
+      "title": "Design",
+      "url": "design-questions.html",
+      "description": "Explore flooring, color, furniture, materials, decor, and artwork, with practical context for choices in your own space.",
+      "source": "ChatGPT Image Oct 14, 2026, 06_46_52 PM-2.png",
+      "image": "assets/images/considerations/interior-design-planning.webp",
+      "alt": "Couple considering interior plans and material samples"
+    },
+    {
+      "title": "Rental Ownership",
+      "url": "short-term-rental-questions.html",
+      "description": "Explore rental ownership, occasional stays, room rentals, property care, and the responsibilities involved in offering a home to others.",
+      "source": "ChatGPT Image Oct 14, 2026, 06_46_54 PM-3.png",
+      "image": "assets/images/considerations/rental-travel.webp",
+      "alt": "Couple exploring a neighborhood while traveling"
+    }
+  ],
+  "brokenHeaderLinks": [],
+  "removedMenuDestinationsStillLinked": {
+    "buyer-question-porter-ranch-newer-vs-established.html": 2,
+    "buying-with-student-loan-debt.html": 2,
+    "buyer-question-upfront-costs.html": 2,
+    "preapproval-documents.html": 2,
+    "buyer-question-high-hoa-value.html": 2,
+    "homebuyer-financing-questions.html": 1,
+    "buyer-closing-costs.html": 2,
+    "buyer-question-south-of-ventura-boulevard.html": 2,
+    "first-time-closing.html": 1,
+    "first-time-touring.html": 1,
+    "what-price-range-can-i-afford.html": 4,
+    "buyer-question-other-ownership-costs.html": 2,
+    "credit-score-to-buy-home.html": 2,
+    "buyer-question-fast-market-offer-or-walk.html": 2,
+    "buyer-question-budget-by-valley-area.html": 2,
+    "do-i-need-20-percent-down.html": 2,
+    "buyer-question-fixer-upper-worth-it.html": 2,
+    "buyer-question-long-time-on-market.html": 2,
+    "down-payment-needed.html": 2,
+    "preapproval-vs-prequalification.html": 2,
+    "buyer-question-before-you-commit.html": 2,
+    "buyer-question-monthly-affordability.html": 2,
+    "buyer-questions.html": 4,
+    "buyer-question-neighborhood-fit.html": 2,
+    "first-time-homebuyer-programs.html": 2,
+    "first-time-your-offer.html": 1,
+    "buyer-question-same-price-different-neighborhoods.html": 2,
+    "first-time-negotiations.html": 1,
+    "first-time-pre-approval.html": 2
+  }
+}

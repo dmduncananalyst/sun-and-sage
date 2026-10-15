@@ -1,0 +1,141 @@
+[
+  {
+    "page": "buyer-questions.html",
+    "width": 1024,
+    "longestExcerpt": "Understanding Homes South of Ventura Boulevard",
+    "shorterNeighbors": [
+      "Matching Your Budget With San Fernando Valley Neighborhoods"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1440,
+    "longestExcerpt": "Establishing When a Home Can Be Sold After a Death",
+    "shorterNeighbors": [
+      "Determining Whether Probate Is Needed Before a Home Sale"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1280,
+    "longestExcerpt": "Establishing When a Home Can Be Sold After a Death",
+    "shorterNeighbors": [
+      "Determining Whether Probate Is Needed Before a Home Sale"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1024,
+    "longestExcerpt": "A Home With a Mortgage in a Deceased Spouse\u2019s Name",
+    "shorterNeighbors": [
+      "Evaluating Your Parents\u2019 House After Their Death",
+      "Understanding a Parent\u2019s Mortgage After Their Death"
+    ],
+    "maximumGap": 189
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 1024,
+    "longestExcerpt": "Establishing When a Home Can Be Sold After a Death",
+    "shorterNeighbors": [
+      "Living in a Home You Inherited",
+      "Determining Whether Probate Is Needed Before a Home Sale"
+    ],
+    "maximumGap": 189
+  },
+  {
+    "page": "life-changes/death.html",
+    "width": 768,
+    "longestExcerpt": "Establishing When a Home Can Be Sold After a Death",
+    "shorterNeighbors": [
+      "Determining Whether Probate Is Needed Before a Home Sale"
+    ],
+    "maximumGap": 148
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 1280,
+    "longestExcerpt": "Evaluating Potential Savings From Downsizing",
+    "shorterNeighbors": [
+      "Choosing a Practical Home Size for an Empty Nest"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/empty-nest.html",
+    "width": 1024,
+    "longestExcerpt": "Evaluating Potential Savings From Downsizing",
+    "shorterNeighbors": [
+      "Choosing a Practical Home Size for an Empty Nest"
+    ],
+    "maximumGap": 160
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 1024,
+    "longestExcerpt": "Recognizing When Your Family Has Outgrown Its Home",
+    "shorterNeighbors": [
+      "Planning Bedroom Space for Two Children"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/growing-family.html",
+    "width": 1024,
+    "longestExcerpt": "Comparing a Fixer Upper and a Move In Ready Home Before a Baby Arrives",
+    "shorterNeighbors": [
+      "Evaluating a Yard for a Home With Young Children"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 1280,
+    "longestExcerpt": "Using Equity From a Home Owned Before Marriage",
+    "shorterNeighbors": [
+      "Considering a Partner\u2019s Existing Home and a Joint Purchase"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/marriage.html",
+    "width": 1024,
+    "longestExcerpt": "Using Equity From a Home Owned Before Marriage",
+    "shorterNeighbors": [
+      "Planning a Home Purchase for a Growing Family",
+      "Considering a Partner\u2019s Existing Home and a Joint Purchase"
+    ],
+    "maximumGap": 160
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 1280,
+    "longestExcerpt": "Understanding Real Estate Support During an Out of State Move",
+    "shorterNeighbors": [
+      "Buying a California Home Before Moving to the State"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 1024,
+    "longestExcerpt": "Understanding Real Estate Support During an Out of State Move",
+    "shorterNeighbors": [
+      "Buying a California Home Before Moving to the State"
+    ],
+    "maximumGap": 131
+  },
+  {
+    "page": "life-changes/relocation.html",
+    "width": 1024,
+    "longestExcerpt": "Buying a Replacement Home Before Your Current Home Sells",
+    "shorterNeighbors": [
+      "Searching for a Home From Another State",
+      "Managing a Home That Has Not Sold After You Relocate"
+    ],
+    "maximumGap": 131
+  }
+]

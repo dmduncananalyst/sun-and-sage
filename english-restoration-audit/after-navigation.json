@@ -1,0 +1,1913 @@
+[
+  {
+    "width": 768,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 17,
+          "y": 170.65625,
+          "width": 166,
+          "height": 44,
+          "top": 170.65625,
+          "right": 183,
+          "bottom": 214.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 17,
+          "y": 214.65625,
+          "width": 166,
+          "height": 40,
+          "top": 214.65625,
+          "right": 183,
+          "bottom": 254.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "padding": "10px 6px 10px 0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "1.54px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 17,
+          "y": 254.65625,
+          "width": 166,
+          "height": 44,
+          "top": 254.65625,
+          "right": 183,
+          "bottom": 298.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 17,
+          "y": 298.65625,
+          "width": 166,
+          "height": 44,
+          "top": 298.65625,
+          "right": 183,
+          "bottom": 342.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "25px",
+          "lineHeight": "32.5px",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 17,
+          "y": 342.65625,
+          "width": 166,
+          "height": 44,
+          "top": 342.65625,
+          "right": 183,
+          "bottom": 386.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(255, 255, 255, 0.52) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 17,
+          "y": 386.65625,
+          "width": 166,
+          "height": 44,
+          "top": 386.65625,
+          "right": 183,
+          "bottom": 430.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 17,
+          "y": 446.65625,
+          "width": 166,
+          "height": 44,
+          "top": 446.65625,
+          "right": 183,
+          "bottom": 490.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "9px 6px 10px",
+          "margin": "16px 0px 0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 17,
+          "y": 490.65625,
+          "width": 166,
+          "height": 44,
+          "top": 490.65625,
+          "right": 183,
+          "bottom": 534.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 17,
+          "y": 534.65625,
+          "width": 166,
+          "height": 44,
+          "top": 534.65625,
+          "right": 183,
+          "bottom": 578.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 17,
+          "y": 578.65625,
+          "width": 166,
+          "height": 44,
+          "top": 578.65625,
+          "right": 183,
+          "bottom": 622.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 820,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 17,
+          "y": 170.65625,
+          "width": 166,
+          "height": 44,
+          "top": 170.65625,
+          "right": 183,
+          "bottom": 214.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 17,
+          "y": 214.65625,
+          "width": 166,
+          "height": 40,
+          "top": 214.65625,
+          "right": 183,
+          "bottom": 254.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "padding": "10px 6px 10px 0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "1.54px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 17,
+          "y": 254.65625,
+          "width": 166,
+          "height": 44,
+          "top": 254.65625,
+          "right": 183,
+          "bottom": 298.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 17,
+          "y": 298.65625,
+          "width": 166,
+          "height": 44,
+          "top": 298.65625,
+          "right": 183,
+          "bottom": 342.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "25px",
+          "lineHeight": "32.5px",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 17,
+          "y": 342.65625,
+          "width": 166,
+          "height": 44,
+          "top": 342.65625,
+          "right": 183,
+          "bottom": 386.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(255, 255, 255, 0.52) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 17,
+          "y": 386.65625,
+          "width": 166,
+          "height": 44,
+          "top": 386.65625,
+          "right": 183,
+          "bottom": 430.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 17,
+          "y": 446.65625,
+          "width": 166,
+          "height": 44,
+          "top": 446.65625,
+          "right": 183,
+          "bottom": 490.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "9px 6px 10px",
+          "margin": "16px 0px 0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 17,
+          "y": 490.65625,
+          "width": 166,
+          "height": 44,
+          "top": 490.65625,
+          "right": 183,
+          "bottom": 534.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 17,
+          "y": 534.65625,
+          "width": 166,
+          "height": 44,
+          "top": 534.65625,
+          "right": 183,
+          "bottom": 578.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 17,
+          "y": 578.65625,
+          "width": 166,
+          "height": 44,
+          "top": 578.65625,
+          "right": 183,
+          "bottom": 622.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 834,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 17,
+          "y": 170.65625,
+          "width": 166,
+          "height": 44,
+          "top": 170.65625,
+          "right": 183,
+          "bottom": 214.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 17,
+          "y": 214.65625,
+          "width": 166,
+          "height": 40,
+          "top": 214.65625,
+          "right": 183,
+          "bottom": 254.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "padding": "10px 6px 10px 0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "1.54px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 17,
+          "y": 254.65625,
+          "width": 166,
+          "height": 44,
+          "top": 254.65625,
+          "right": 183,
+          "bottom": 298.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 17,
+          "y": 298.65625,
+          "width": 166,
+          "height": 44,
+          "top": 298.65625,
+          "right": 183,
+          "bottom": 342.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "25px",
+          "lineHeight": "32.5px",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 17,
+          "y": 342.65625,
+          "width": 166,
+          "height": 44,
+          "top": 342.65625,
+          "right": 183,
+          "bottom": 386.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(255, 255, 255, 0.52) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 17,
+          "y": 386.65625,
+          "width": 166,
+          "height": 44,
+          "top": 386.65625,
+          "right": 183,
+          "bottom": 430.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 17,
+          "y": 446.65625,
+          "width": 166,
+          "height": 44,
+          "top": 446.65625,
+          "right": 183,
+          "bottom": 490.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "9px 6px 10px",
+          "margin": "16px 0px 0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 17,
+          "y": 490.65625,
+          "width": 166,
+          "height": 44,
+          "top": 490.65625,
+          "right": 183,
+          "bottom": 534.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 17,
+          "y": 534.65625,
+          "width": 166,
+          "height": 44,
+          "top": 534.65625,
+          "right": 183,
+          "bottom": 578.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 17,
+          "y": 578.65625,
+          "width": 166,
+          "height": 44,
+          "top": 578.65625,
+          "right": 183,
+          "bottom": 622.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 1024,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 17,
+          "y": 170.65625,
+          "width": 166,
+          "height": 44,
+          "top": 170.65625,
+          "right": 183,
+          "bottom": 214.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 17,
+          "y": 214.65625,
+          "width": 166,
+          "height": 40,
+          "top": 214.65625,
+          "right": 183,
+          "bottom": 254.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "padding": "10px 6px 10px 0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "1.54px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 17,
+          "y": 254.65625,
+          "width": 166,
+          "height": 44,
+          "top": 254.65625,
+          "right": 183,
+          "bottom": 298.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 17,
+          "y": 298.65625,
+          "width": 166,
+          "height": 44,
+          "top": 298.65625,
+          "right": 183,
+          "bottom": 342.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "25px",
+          "lineHeight": "32.5px",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 17,
+          "y": 342.65625,
+          "width": 166,
+          "height": 44,
+          "top": 342.65625,
+          "right": 183,
+          "bottom": 386.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(255, 255, 255, 0.52) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 17,
+          "y": 386.65625,
+          "width": 166,
+          "height": 44,
+          "top": 386.65625,
+          "right": 183,
+          "bottom": 430.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 17,
+          "y": 446.65625,
+          "width": 166,
+          "height": 44,
+          "top": 446.65625,
+          "right": 183,
+          "bottom": 490.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "9px 6px 10px",
+          "margin": "16px 0px 0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 17,
+          "y": 490.65625,
+          "width": 166,
+          "height": 44,
+          "top": 490.65625,
+          "right": 183,
+          "bottom": 534.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 17,
+          "y": 534.65625,
+          "width": 166,
+          "height": 44,
+          "top": 534.65625,
+          "right": 183,
+          "bottom": 578.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 17,
+          "y": 578.65625,
+          "width": 166,
+          "height": 44,
+          "top": 578.65625,
+          "right": 183,
+          "bottom": 622.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 1180,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 17,
+          "y": 170.65625,
+          "width": 166,
+          "height": 44,
+          "top": 170.65625,
+          "right": 183,
+          "bottom": 214.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 17,
+          "y": 214.65625,
+          "width": 166,
+          "height": 40,
+          "top": 214.65625,
+          "right": 183,
+          "bottom": 254.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "padding": "10px 6px 10px 0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "1.54px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 17,
+          "y": 254.65625,
+          "width": 166,
+          "height": 44,
+          "top": 254.65625,
+          "right": 183,
+          "bottom": 298.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 17,
+          "y": 298.65625,
+          "width": 166,
+          "height": 44,
+          "top": 298.65625,
+          "right": 183,
+          "bottom": 342.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "25px",
+          "lineHeight": "32.5px",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 17,
+          "y": 342.65625,
+          "width": 166,
+          "height": 44,
+          "top": 342.65625,
+          "right": 183,
+          "bottom": 386.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(255, 255, 255, 0.52) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 17,
+          "y": 386.65625,
+          "width": 166,
+          "height": 44,
+          "top": 386.65625,
+          "right": 183,
+          "bottom": 430.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 17,
+          "y": 446.65625,
+          "width": 166,
+          "height": 44,
+          "top": 446.65625,
+          "right": 183,
+          "bottom": 490.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "9px 6px 10px",
+          "margin": "16px 0px 0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 17,
+          "y": 490.65625,
+          "width": 166,
+          "height": 44,
+          "top": 490.65625,
+          "right": 183,
+          "bottom": 534.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 17,
+          "y": 534.65625,
+          "width": 166,
+          "height": 44,
+          "top": 534.65625,
+          "right": 183,
+          "bottom": 578.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 17,
+          "y": 578.65625,
+          "width": 166,
+          "height": 44,
+          "top": 578.65625,
+          "right": 183,
+          "bottom": 622.65625,
+          "left": 17
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "22.4px",
+          "padding": "10px 6px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px none rgb(72, 83, 62)",
+          "letterSpacing": "normal"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 1440,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 179.28125,
+          "y": 87.65625,
+          "width": 44.203125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 223.484375,
+          "bottom": 131.65625,
+          "left": 179.28125
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 249.390625,
+          "y": 87.65625,
+          "width": 51.296875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 300.6875,
+          "bottom": 131.65625,
+          "left": 249.390625
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 326.59375,
+          "y": 87.65625,
+          "width": 30.640625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 357.234375,
+          "bottom": 131.65625,
+          "left": 326.59375
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(72, 83, 62)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 383.140625,
+          "y": 87.65625,
+          "width": 37.015625,
+          "height": 44,
+          "top": 87.65625,
+          "right": 420.15625,
+          "bottom": 131.65625,
+          "left": 383.140625
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(72, 83, 62)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 446.0625,
+          "y": 87.65625,
+          "width": 192.53125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 638.59375,
+          "bottom": 131.65625,
+          "left": 446.0625
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 664.5,
+          "y": 87.65625,
+          "width": 135.078125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 799.578125,
+          "bottom": 131.65625,
+          "left": 664.5
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 825.484375,
+          "y": 87.65625,
+          "width": 110.96875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 936.453125,
+          "bottom": 131.65625,
+          "left": 825.484375
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 962.359375,
+          "y": 87.65625,
+          "width": 134.25,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1096.609375,
+          "bottom": 131.65625,
+          "left": 962.359375
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 1122.515625,
+          "y": 87.65625,
+          "width": 41.328125,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1163.84375,
+          "bottom": 131.65625,
+          "left": 1122.515625
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(65, 55, 43)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(65, 55, 43)",
+          "letterSpacing": "1.3px"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 1189.75,
+          "y": 87.65625,
+          "width": 70.96875,
+          "height": 44,
+          "top": 87.65625,
+          "right": 1260.71875,
+          "bottom": 131.65625,
+          "left": 1189.75
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "13px",
+          "lineHeight": "18.2px",
+          "padding": "0px",
+          "margin": "0px",
+          "color": "rgb(72, 83, 62)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(72, 83, 62)",
+          "letterSpacing": "1.3px"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  },
+  {
+    "width": 390,
+    "styles": [
+      "http://127.0.0.1:63464/assets/performance-css/018131b8302f9ef5.css",
+      "http://127.0.0.1:63464/assets/performance-css/c3e61054b0e606e0.css",
+      "http://127.0.0.1:63464/assets/performance-css/511b9378206d2560.css",
+      "http://127.0.0.1:63464/assets/performance-css/0c0d4c4d8b0816e7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/7310c9b8bb54a9315fdf.css",
+      "http://127.0.0.1:63464/assets/performance-css/753c4bffb9d7d6d5.css",
+      "http://127.0.0.1:63464/assets/performance-css/0e97e4d312bb6b65.css",
+      "http://127.0.0.1:63464/assets/shared-styles/4bc9fa8c8cb5ff1a2b8f.css",
+      "http://127.0.0.1:63464/assets/shared-styles/c761538160beb5d87d27.css",
+      "http://127.0.0.1:63464/assets/shared-styles/f60b12246b1d9bfcf959.css",
+      "http://127.0.0.1:63464/assets/shared-styles/994cdb9a0c754a0bdacd.css",
+      "http://127.0.0.1:63464/assets/shared-styles/713e677ad5e0ae284b8d.css",
+      "http://127.0.0.1:63464/assets/shared-styles/926d386486351778207a.css",
+      "http://127.0.0.1:63464/assets/dominique-conversation.css",
+      "http://127.0.0.1:63464/assets/performance-css/e0fdecb96cd25ae4.css",
+      "http://127.0.0.1:63464/assets/mobile-text-v38.css",
+      "http://127.0.0.1:63464/assets/performance-css/e61a4dd688f0cfd7.css",
+      "http://127.0.0.1:63464/assets/shared-styles/0f465f6ea557b47f48d9.css",
+      "http://127.0.0.1:63464/assets/performance-css/295473f8529b44f9.css",
+      "http://127.0.0.1:63464/assets/performance-css/42ee99dbc4ce8e1f.css",
+      "http://127.0.0.1:63464/assets/mobile-refinements.css?v=20261011-mobile-only",
+      "http://127.0.0.1:63464/assets/performance-css/c854f60380758f58.css",
+      "http://127.0.0.1:63464/assets/responsive-navigation.css",
+      "http://127.0.0.1:63464/assets/tablet-navigation.css?v=20261015-english"
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "About",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Buy",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Sell",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Property Management",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Interior Design",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Life Changes",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Considerations",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Blog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      },
+      {
+        "text": "Contact",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "padding": "9px 0px",
+          "margin": "0px",
+          "color": "rgb(104, 112, 94)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "border": "0px solid rgb(104, 112, 94)",
+          "letterSpacing": "0.375px"
+        }
+      }
+    ],
+    "neighborhoodFont": "Arial, Helvetica, sans-serif",
+    "language": false
+  }
+]

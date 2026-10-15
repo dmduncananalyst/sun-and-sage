@@ -1,0 +1,5826 @@
+[
+  {
+    "width": 320,
+    "pages": {
+      "home": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 238.65625,
+              "width": 282,
+              "height": 188,
+              "top": 238.65625,
+              "right": 301,
+              "bottom": 426.65625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 775,
+              "width": 282,
+              "height": 188,
+              "top": 775,
+              "right": 301,
+              "bottom": 963,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1311.34375,
+              "width": 282,
+              "height": 188,
+              "top": 1311.34375,
+              "right": 301,
+              "bottom": 1499.34375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1821.296875,
+              "width": 282,
+              "height": 188,
+              "top": 1821.296875,
+              "right": 301,
+              "bottom": 2009.296875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2331.25,
+              "width": 282,
+              "height": 188,
+              "top": 2331.25,
+              "right": 301,
+              "bottom": 2519.25,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 317.828125,
+              "width": 282,
+              "height": 188,
+              "top": 317.828125,
+              "right": 301,
+              "bottom": 505.828125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 789.53125,
+              "width": 282,
+              "height": 188,
+              "top": 789.53125,
+              "right": 301,
+              "bottom": 977.53125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1261.234375,
+              "width": 282,
+              "height": 188,
+              "top": 1261.234375,
+              "right": 301,
+              "bottom": 1449.234375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1732.9375,
+              "width": 282,
+              "height": 188,
+              "top": 1732.9375,
+              "right": 301,
+              "bottom": 1920.9375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2204.640625,
+              "width": 282,
+              "height": 188,
+              "top": 2204.640625,
+              "right": 301,
+              "bottom": 2392.640625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2676.34375,
+              "width": 282,
+              "height": 188,
+              "top": 2676.34375,
+              "right": 301,
+              "bottom": 2864.34375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 3121.65625,
+              "width": 282,
+              "height": 188,
+              "top": 3121.65625,
+              "right": 301,
+              "bottom": 3309.65625,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "pages": {
+      "home": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 254.65625,
+              "width": 337,
+              "height": 224.65625,
+              "top": 254.65625,
+              "right": 356,
+              "bottom": 479.3125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 801.265625,
+              "width": 337,
+              "height": 224.65625,
+              "top": 801.265625,
+              "right": 356,
+              "bottom": 1025.921875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1347.875,
+              "width": 337,
+              "height": 224.65625,
+              "top": 1347.875,
+              "right": 356,
+              "bottom": 1572.53125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1894.484375,
+              "width": 337,
+              "height": 224.65625,
+              "top": 1894.484375,
+              "right": 356,
+              "bottom": 2119.140625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2441.09375,
+              "width": 337,
+              "height": 224.65625,
+              "top": 2441.09375,
+              "right": 356,
+              "bottom": 2665.75,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 333.828125,
+              "width": 337,
+              "height": 224.65625,
+              "top": 333.828125,
+              "right": 356,
+              "bottom": 558.484375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 842.1875,
+              "width": 337,
+              "height": 224.65625,
+              "top": 842.1875,
+              "right": 356,
+              "bottom": 1066.84375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1324.15625,
+              "width": 337,
+              "height": 224.65625,
+              "top": 1324.15625,
+              "right": 356,
+              "bottom": 1548.8125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1806.125,
+              "width": 337,
+              "height": 224.65625,
+              "top": 1806.125,
+              "right": 356,
+              "bottom": 2030.78125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2288.09375,
+              "width": 337,
+              "height": 224.65625,
+              "top": 2288.09375,
+              "right": 356,
+              "bottom": 2512.75,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2770.0625,
+              "width": 337,
+              "height": 224.65625,
+              "top": 2770.0625,
+              "right": 356,
+              "bottom": 2994.71875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 3252.03125,
+              "width": 337,
+              "height": 224.65625,
+              "top": 3252.03125,
+              "right": 356,
+              "bottom": 3476.6875,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "pages": {
+      "home": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 254.65625,
+              "width": 352,
+              "height": 234.65625,
+              "top": 254.65625,
+              "right": 371,
+              "bottom": 489.3125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 811.265625,
+              "width": 352,
+              "height": 234.65625,
+              "top": 811.265625,
+              "right": 371,
+              "bottom": 1045.921875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1367.875,
+              "width": 352,
+              "height": 234.65625,
+              "top": 1367.875,
+              "right": 371,
+              "bottom": 1602.53125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1924.484375,
+              "width": 352,
+              "height": 234.65625,
+              "top": 1924.484375,
+              "right": 371,
+              "bottom": 2159.140625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2454.703125,
+              "width": 352,
+              "height": 234.65625,
+              "top": 2454.703125,
+              "right": 371,
+              "bottom": 2689.359375,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 333.828125,
+              "width": 352,
+              "height": 234.65625,
+              "top": 333.828125,
+              "right": 371,
+              "bottom": 568.484375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 825.796875,
+              "width": 352,
+              "height": 234.65625,
+              "top": 825.796875,
+              "right": 371,
+              "bottom": 1060.453125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1317.765625,
+              "width": 352,
+              "height": 234.65625,
+              "top": 1317.765625,
+              "right": 371,
+              "bottom": 1552.421875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1809.734375,
+              "width": 352,
+              "height": 234.65625,
+              "top": 1809.734375,
+              "right": 371,
+              "bottom": 2044.390625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2301.703125,
+              "width": 352,
+              "height": 234.65625,
+              "top": 2301.703125,
+              "right": 371,
+              "bottom": 2536.359375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2793.671875,
+              "width": 352,
+              "height": 234.65625,
+              "top": 2793.671875,
+              "right": 371,
+              "bottom": 3028.328125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 3285.640625,
+              "width": 352,
+              "height": 234.65625,
+              "top": 3285.640625,
+              "right": 371,
+              "bottom": 3520.296875,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 430,
+    "pages": {
+      "home": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 254.65625,
+              "width": 392,
+              "height": 261.328125,
+              "top": 254.65625,
+              "right": 411,
+              "bottom": 515.984375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 811.546875,
+              "width": 392,
+              "height": 261.328125,
+              "top": 811.546875,
+              "right": 411,
+              "bottom": 1072.875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1394.828125,
+              "width": 392,
+              "height": 261.328125,
+              "top": 1394.828125,
+              "right": 411,
+              "bottom": 1656.15625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1951.71875,
+              "width": 392,
+              "height": 261.328125,
+              "top": 1951.71875,
+              "right": 411,
+              "bottom": 2213.046875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2508.609375,
+              "width": 392,
+              "height": 261.328125,
+              "top": 2508.609375,
+              "right": 411,
+              "bottom": 2769.9375,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 307.4375,
+              "width": 392,
+              "height": 261.328125,
+              "top": 307.4375,
+              "right": 411,
+              "bottom": 568.765625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 826.078125,
+              "width": 392,
+              "height": 261.328125,
+              "top": 826.078125,
+              "right": 411,
+              "bottom": 1087.40625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1344.71875,
+              "width": 392,
+              "height": 261.328125,
+              "top": 1344.71875,
+              "right": 411,
+              "bottom": 1606.046875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1863.359375,
+              "width": 392,
+              "height": 261.328125,
+              "top": 1863.359375,
+              "right": 411,
+              "bottom": 2124.6875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2382,
+              "width": 392,
+              "height": 261.328125,
+              "top": 2382,
+              "right": 411,
+              "bottom": 2643.328125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2900.640625,
+              "width": 392,
+              "height": 261.328125,
+              "top": 2900.640625,
+              "right": 411,
+              "bottom": 3161.96875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 3419.28125,
+              "width": 392,
+              "height": 261.328125,
+              "top": 3419.28125,
+              "right": 411,
+              "bottom": 3680.609375,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": true,
+        "rail": false,
+        "navVisible": false,
+        "menuVisible": true,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 600,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 309.65625,
+              "width": 562,
+              "height": 374.65625,
+              "top": 309.65625,
+              "right": 581,
+              "bottom": 684.3125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 953.484375,
+              "width": 562,
+              "height": 374.65625,
+              "top": 953.484375,
+              "right": 581,
+              "bottom": 1328.140625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1597.3125,
+              "width": 562,
+              "height": 374.65625,
+              "top": 1597.3125,
+              "right": 581,
+              "bottom": 1971.96875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2241.140625,
+              "width": 562,
+              "height": 374.65625,
+              "top": 2241.140625,
+              "right": 581,
+              "bottom": 2615.796875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2884.96875,
+              "width": 562,
+              "height": 374.65625,
+              "top": 2884.96875,
+              "right": 581,
+              "bottom": 3259.625,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 362.4375,
+              "width": 562,
+              "height": 374.65625,
+              "top": 362.4375,
+              "right": 581,
+              "bottom": 737.09375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 994.40625,
+              "width": 562,
+              "height": 374.65625,
+              "top": 994.40625,
+              "right": 581,
+              "bottom": 1369.0625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1626.375,
+              "width": 562,
+              "height": 374.65625,
+              "top": 1626.375,
+              "right": 581,
+              "bottom": 2001.03125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2258.34375,
+              "width": 562,
+              "height": 374.65625,
+              "top": 2258.34375,
+              "right": 581,
+              "bottom": 2633,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 2890.3125,
+              "width": 562,
+              "height": 374.65625,
+              "top": 2890.3125,
+              "right": 581,
+              "bottom": 3264.96875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 3495.890625,
+              "width": 562,
+              "height": 374.65625,
+              "top": 3495.890625,
+              "right": 581,
+              "bottom": 3870.546875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 4101.46875,
+              "width": 562,
+              "height": 374.65625,
+              "top": 4101.46875,
+              "right": 581,
+              "bottom": 4476.125,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 650,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 309.65625,
+              "width": 291,
+              "height": 194,
+              "top": 309.65625,
+              "right": 310,
+              "bottom": 503.65625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 340,
+              "y": 309.65625,
+              "width": 291,
+              "height": 194,
+              "top": 309.65625,
+              "right": 631,
+              "bottom": 503.65625,
+              "left": 340
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 852,
+              "width": 291,
+              "height": 194,
+              "top": 852,
+              "right": 310,
+              "bottom": 1046,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 340,
+              "y": 852,
+              "width": 291,
+              "height": 194,
+              "top": 852,
+              "right": 631,
+              "bottom": 1046,
+              "left": 340
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 179.5,
+              "y": 1367.953125,
+              "width": 291,
+              "height": 194,
+              "top": 1367.953125,
+              "right": 470.5,
+              "bottom": 1561.953125,
+              "left": 179.5
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 362.4375,
+              "width": 289,
+              "height": 192.65625,
+              "top": 362.4375,
+              "right": 308,
+              "bottom": 555.09375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 342,
+              "y": 362.4375,
+              "width": 289,
+              "height": 192.65625,
+              "top": 362.4375,
+              "right": 631,
+              "bottom": 555.09375,
+              "left": 342
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 838.796875,
+              "width": 289,
+              "height": 192.65625,
+              "top": 838.796875,
+              "right": 308,
+              "bottom": 1031.453125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 342,
+              "y": 838.796875,
+              "width": 289,
+              "height": 192.65625,
+              "top": 838.796875,
+              "right": 631,
+              "bottom": 1031.453125,
+              "left": 342
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1315.15625,
+              "width": 289,
+              "height": 192.65625,
+              "top": 1315.15625,
+              "right": 308,
+              "bottom": 1507.8125,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 342,
+              "y": 1315.15625,
+              "width": 289,
+              "height": 192.65625,
+              "top": 1315.15625,
+              "right": 631,
+              "bottom": 1507.8125,
+              "left": 342
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1791.515625,
+              "width": 289,
+              "height": 192.65625,
+              "top": 1791.515625,
+              "right": 308,
+              "bottom": 1984.171875,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.21505376344086022
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.2903225806451613
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.953405017921147
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5017921146953405
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8458781362007168
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7526881720430108
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 744,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 309.65625,
+              "width": 338,
+              "height": 225.328125,
+              "top": 309.65625,
+              "right": 357,
+              "bottom": 534.984375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 387,
+              "y": 309.65625,
+              "width": 338,
+              "height": 225.328125,
+              "top": 309.65625,
+              "right": 725,
+              "bottom": 534.984375,
+              "left": 387
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 856.9375,
+              "width": 338,
+              "height": 225.328125,
+              "top": 856.9375,
+              "right": 357,
+              "bottom": 1082.265625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 387,
+              "y": 856.9375,
+              "width": 338,
+              "height": 225.328125,
+              "top": 856.9375,
+              "right": 725,
+              "bottom": 1082.265625,
+              "left": 387
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 203,
+              "y": 1404.21875,
+              "width": 338,
+              "height": 225.328125,
+              "top": 1404.21875,
+              "right": 541,
+              "bottom": 1629.546875,
+              "left": 203
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 336.046875,
+              "width": 336,
+              "height": 224,
+              "top": 336.046875,
+              "right": 355,
+              "bottom": 560.046875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 389,
+              "y": 336.046875,
+              "width": 336,
+              "height": 224,
+              "top": 336.046875,
+              "right": 725,
+              "bottom": 560.046875,
+              "left": 389
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 843.75,
+              "width": 336,
+              "height": 224,
+              "top": 843.75,
+              "right": 355,
+              "bottom": 1067.75,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 389,
+              "y": 843.75,
+              "width": 336,
+              "height": 224,
+              "top": 843.75,
+              "right": 725,
+              "bottom": 1067.75,
+              "left": 389
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1325.0625,
+              "width": 336,
+              "height": 224,
+              "top": 1325.0625,
+              "right": 355,
+              "bottom": 1549.0625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 389,
+              "y": 1325.0625,
+              "width": 336,
+              "height": 224,
+              "top": 1325.0625,
+              "right": 725,
+              "bottom": 1549.0625,
+              "left": 389
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1806.375,
+              "width": 336,
+              "height": 224,
+              "top": 1806.375,
+              "right": 355,
+              "bottom": 2030.375,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 309.65625,
+              "width": 350,
+              "height": 233.328125,
+              "top": 309.65625,
+              "right": 369,
+              "bottom": 542.984375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 399,
+              "y": 309.65625,
+              "width": 350,
+              "height": 233.328125,
+              "top": 309.65625,
+              "right": 749,
+              "bottom": 542.984375,
+              "left": 399
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 864.9375,
+              "width": 350,
+              "height": 233.328125,
+              "top": 864.9375,
+              "right": 369,
+              "bottom": 1098.265625,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 399,
+              "y": 864.9375,
+              "width": 350,
+              "height": 233.328125,
+              "top": 864.9375,
+              "right": 749,
+              "bottom": 1098.265625,
+              "left": 399
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 209,
+              "y": 1420.21875,
+              "width": 350,
+              "height": 233.328125,
+              "top": 1420.21875,
+              "right": 559,
+              "bottom": 1653.546875,
+              "left": 209
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 336.046875,
+              "width": 348,
+              "height": 232,
+              "top": 336.046875,
+              "right": 367,
+              "bottom": 568.046875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 401,
+              "y": 336.046875,
+              "width": 348,
+              "height": 232,
+              "top": 336.046875,
+              "right": 749,
+              "bottom": 568.046875,
+              "left": 401
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 825.359375,
+              "width": 348,
+              "height": 232,
+              "top": 825.359375,
+              "right": 367,
+              "bottom": 1057.359375,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 401,
+              "y": 825.359375,
+              "width": 348,
+              "height": 232,
+              "top": 825.359375,
+              "right": 749,
+              "bottom": 1057.359375,
+              "left": 401
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1314.671875,
+              "width": 348,
+              "height": 232,
+              "top": 1314.671875,
+              "right": 367,
+              "bottom": 1546.671875,
+              "left": 19
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 401,
+              "y": 1314.671875,
+              "width": 348,
+              "height": 232,
+              "top": 1314.671875,
+              "right": 749,
+              "bottom": 1546.671875,
+              "left": 401
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 19,
+              "y": 1803.984375,
+              "width": 348,
+              "height": 232,
+              "top": 1803.984375,
+              "right": 367,
+              "bottom": 2035.984375,
+              "left": 19
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 820,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 313.40625,
+              "width": 368,
+              "height": 245.328125,
+              "top": 313.40625,
+              "right": 395,
+              "bottom": 558.734375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 425,
+              "y": 313.40625,
+              "width": 368,
+              "height": 245.328125,
+              "top": 313.40625,
+              "right": 793,
+              "bottom": 558.734375,
+              "left": 425
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 860.3125,
+              "width": 368,
+              "height": 245.328125,
+              "top": 860.3125,
+              "right": 395,
+              "bottom": 1105.640625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 425,
+              "y": 860.3125,
+              "width": 368,
+              "height": 245.328125,
+              "top": 860.3125,
+              "right": 793,
+              "bottom": 1105.640625,
+              "left": 425
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 226,
+              "y": 1378.421875,
+              "width": 368,
+              "height": 245.328125,
+              "top": 1378.421875,
+              "right": 594,
+              "bottom": 1623.75,
+              "left": 226
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 342.203125,
+              "width": 366,
+              "height": 244,
+              "top": 342.203125,
+              "right": 393,
+              "bottom": 586.203125,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 427,
+              "y": 342.203125,
+              "width": 366,
+              "height": 244,
+              "top": 342.203125,
+              "right": 793,
+              "bottom": 586.203125,
+              "left": 427
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 848.0625,
+              "width": 366,
+              "height": 244,
+              "top": 848.0625,
+              "right": 393,
+              "bottom": 1092.0625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 427,
+              "y": 848.0625,
+              "width": 366,
+              "height": 244,
+              "top": 848.0625,
+              "right": 793,
+              "bottom": 1092.0625,
+              "left": 427
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1353.921875,
+              "width": 366,
+              "height": 244,
+              "top": 1353.921875,
+              "right": 393,
+              "bottom": 1597.921875,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 427,
+              "y": 1353.921875,
+              "width": 366,
+              "height": 244,
+              "top": 1353.921875,
+              "right": 793,
+              "bottom": 1597.921875,
+              "left": 427
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1859.78125,
+              "width": 366,
+              "height": 244,
+              "top": 1859.78125,
+              "right": 393,
+              "bottom": 2103.78125,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 834,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 313.40625,
+              "width": 375,
+              "height": 250,
+              "top": 313.40625,
+              "right": 402,
+              "bottom": 563.40625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 432,
+              "y": 313.40625,
+              "width": 375,
+              "height": 250,
+              "top": 313.40625,
+              "right": 807,
+              "bottom": 563.40625,
+              "left": 432
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 864.984375,
+              "width": 375,
+              "height": 250,
+              "top": 864.984375,
+              "right": 402,
+              "bottom": 1114.984375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 432,
+              "y": 864.984375,
+              "width": 375,
+              "height": 250,
+              "top": 864.984375,
+              "right": 807,
+              "bottom": 1114.984375,
+              "left": 432
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 229.5,
+              "y": 1387.765625,
+              "width": 375,
+              "height": 250,
+              "top": 1387.765625,
+              "right": 604.5,
+              "bottom": 1637.765625,
+              "left": 229.5
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 342.203125,
+              "width": 373,
+              "height": 248.65625,
+              "top": 342.203125,
+              "right": 400,
+              "bottom": 590.859375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 434,
+              "y": 342.203125,
+              "width": 373,
+              "height": 248.65625,
+              "top": 342.203125,
+              "right": 807,
+              "bottom": 590.859375,
+              "left": 434
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 852.71875,
+              "width": 373,
+              "height": 248.65625,
+              "top": 852.71875,
+              "right": 400,
+              "bottom": 1101.375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 434,
+              "y": 852.71875,
+              "width": 373,
+              "height": 248.65625,
+              "top": 852.71875,
+              "right": 807,
+              "bottom": 1101.375,
+              "left": 434
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1363.234375,
+              "width": 373,
+              "height": 248.65625,
+              "top": 1363.234375,
+              "right": 400,
+              "bottom": 1611.890625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 434,
+              "y": 1363.234375,
+              "width": 373,
+              "height": 248.65625,
+              "top": 1363.234375,
+              "right": 807,
+              "bottom": 1611.890625,
+              "left": 434
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1873.75,
+              "width": 373,
+              "height": 248.65625,
+              "top": 1873.75,
+              "right": 400,
+              "bottom": 2122.40625,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": true,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 311.53125,
+              "width": 470,
+              "height": 313.328125,
+              "top": 311.53125,
+              "right": 497,
+              "bottom": 624.859375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 527,
+              "y": 311.53125,
+              "width": 470,
+              "height": 313.328125,
+              "top": 311.53125,
+              "right": 997,
+              "bottom": 624.859375,
+              "left": 527
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 897.640625,
+              "width": 470,
+              "height": 313.328125,
+              "top": 897.640625,
+              "right": 497,
+              "bottom": 1210.96875,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 527,
+              "y": 897.640625,
+              "width": 470,
+              "height": 313.328125,
+              "top": 897.640625,
+              "right": 997,
+              "bottom": 1210.96875,
+              "left": 527
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 277,
+              "y": 1483.75,
+              "width": 470,
+              "height": 313.328125,
+              "top": 1483.75,
+              "right": 747,
+              "bottom": 1797.078125,
+              "left": 277
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 340.328125,
+              "width": 300.65625,
+              "height": 200.4375,
+              "top": 340.328125,
+              "right": 327.65625,
+              "bottom": 540.765625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 361.65625,
+              "y": 340.328125,
+              "width": 300.671875,
+              "height": 200.4375,
+              "top": 340.328125,
+              "right": 662.328125,
+              "bottom": 540.765625,
+              "left": 361.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 696.328125,
+              "y": 340.328125,
+              "width": 300.65625,
+              "height": 200.4375,
+              "top": 340.328125,
+              "right": 996.984375,
+              "bottom": 540.765625,
+              "left": 696.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 831.421875,
+              "width": 300.65625,
+              "height": 200.4375,
+              "top": 831.421875,
+              "right": 327.65625,
+              "bottom": 1031.859375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 361.65625,
+              "y": 831.421875,
+              "width": 300.671875,
+              "height": 200.4375,
+              "top": 831.421875,
+              "right": 662.328125,
+              "bottom": 1031.859375,
+              "left": 361.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 696.328125,
+              "y": 831.421875,
+              "width": 300.65625,
+              "height": 200.4375,
+              "top": 831.421875,
+              "right": 996.984375,
+              "bottom": 1031.859375,
+              "left": 696.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1322.515625,
+              "width": 300.65625,
+              "height": 200.4375,
+              "top": 1322.515625,
+              "right": 327.65625,
+              "bottom": 1522.953125,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1180,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 317.59375,
+              "width": 355.328125,
+              "height": 236.875,
+              "top": 317.59375,
+              "right": 382.328125,
+              "bottom": 554.46875,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 412.328125,
+              "y": 317.59375,
+              "width": 355.328125,
+              "height": 236.875,
+              "top": 317.59375,
+              "right": 767.65625,
+              "bottom": 554.46875,
+              "left": 412.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 797.65625,
+              "y": 317.59375,
+              "width": 355.34375,
+              "height": 236.890625,
+              "top": 317.59375,
+              "right": 1153,
+              "bottom": 554.484375,
+              "left": 797.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 219.65625,
+              "y": 856.0625,
+              "width": 355.34375,
+              "height": 236.890625,
+              "top": 856.0625,
+              "right": 575,
+              "bottom": 1092.953125,
+              "left": 219.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 605,
+              "y": 856.0625,
+              "width": 355.328125,
+              "height": 236.875,
+              "top": 856.0625,
+              "right": 960.328125,
+              "bottom": 1092.9375,
+              "left": 605
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 346.390625,
+              "width": 352.65625,
+              "height": 235.09375,
+              "top": 346.390625,
+              "right": 379.65625,
+              "bottom": 581.484375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 413.65625,
+              "y": 346.390625,
+              "width": 352.671875,
+              "height": 235.109375,
+              "top": 346.390625,
+              "right": 766.328125,
+              "bottom": 581.5,
+              "left": 413.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 800.328125,
+              "y": 346.390625,
+              "width": 352.65625,
+              "height": 235.09375,
+              "top": 346.390625,
+              "right": 1152.984375,
+              "bottom": 581.484375,
+              "left": 800.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 843.359375,
+              "width": 352.65625,
+              "height": 235.09375,
+              "top": 843.359375,
+              "right": 379.65625,
+              "bottom": 1078.453125,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 413.65625,
+              "y": 843.359375,
+              "width": 352.671875,
+              "height": 235.109375,
+              "top": 843.359375,
+              "right": 766.328125,
+              "bottom": 1078.46875,
+              "left": 413.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 800.328125,
+              "y": 843.359375,
+              "width": 352.65625,
+              "height": 235.09375,
+              "top": 843.359375,
+              "right": 1152.984375,
+              "bottom": 1078.453125,
+              "left": 800.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1340.328125,
+              "width": 352.65625,
+              "height": 235.09375,
+              "top": 1340.328125,
+              "right": 379.65625,
+              "bottom": 1575.421875,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 275.484375,
+              "width": 388.65625,
+              "height": 259.09375,
+              "top": 275.484375,
+              "right": 415.65625,
+              "bottom": 534.578125,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 445.65625,
+              "y": 275.484375,
+              "width": 388.671875,
+              "height": 259.109375,
+              "top": 275.484375,
+              "right": 834.328125,
+              "bottom": 534.59375,
+              "left": 445.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 864.328125,
+              "y": 275.484375,
+              "width": 388.65625,
+              "height": 259.09375,
+              "top": 275.484375,
+              "right": 1252.984375,
+              "bottom": 534.578125,
+              "left": 864.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 236.328125,
+              "y": 836.171875,
+              "width": 388.65625,
+              "height": 259.09375,
+              "top": 836.171875,
+              "right": 624.984375,
+              "bottom": 1095.265625,
+              "left": 236.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 654.984375,
+              "y": 836.171875,
+              "width": 388.671875,
+              "height": 259.109375,
+              "top": 836.171875,
+              "right": 1043.65625,
+              "bottom": 1095.28125,
+              "left": 654.984375
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 304.28125,
+              "width": 386,
+              "height": 257.328125,
+              "top": 304.28125,
+              "right": 413,
+              "bottom": 561.609375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 447,
+              "y": 304.28125,
+              "width": 386,
+              "height": 257.328125,
+              "top": 304.28125,
+              "right": 833,
+              "bottom": 561.609375,
+              "left": 447
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 867,
+              "y": 304.28125,
+              "width": 386,
+              "height": 257.328125,
+              "top": 304.28125,
+              "right": 1253,
+              "bottom": 561.609375,
+              "left": 867
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 823.46875,
+              "width": 386,
+              "height": 257.328125,
+              "top": 823.46875,
+              "right": 413,
+              "bottom": 1080.796875,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 447,
+              "y": 823.46875,
+              "width": 386,
+              "height": 257.328125,
+              "top": 823.46875,
+              "right": 833,
+              "bottom": 1080.796875,
+              "left": 447
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 867,
+              "y": 823.46875,
+              "width": 386,
+              "height": 257.328125,
+              "top": 823.46875,
+              "right": 1253,
+              "bottom": 1080.796875,
+              "left": 867
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1342.65625,
+              "width": 386,
+              "height": 257.328125,
+              "top": 1342.65625,
+              "right": 413,
+              "bottom": 1599.984375,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 278.84375,
+              "width": 417.328125,
+              "height": 278.21875,
+              "top": 278.84375,
+              "right": 444.328125,
+              "bottom": 557.0625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 474.328125,
+              "y": 278.84375,
+              "width": 417.328125,
+              "height": 278.21875,
+              "top": 278.84375,
+              "right": 891.65625,
+              "bottom": 557.0625,
+              "left": 474.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 921.65625,
+              "y": 278.84375,
+              "width": 417.34375,
+              "height": 278.21875,
+              "top": 278.84375,
+              "right": 1339,
+              "bottom": 557.0625,
+              "left": 921.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 250.65625,
+              "y": 829.84375,
+              "width": 417.34375,
+              "height": 278.21875,
+              "top": 829.84375,
+              "right": 668,
+              "bottom": 1108.0625,
+              "left": 250.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 698,
+              "y": 829.84375,
+              "width": 417.328125,
+              "height": 278.21875,
+              "top": 829.84375,
+              "right": 1115.328125,
+              "bottom": 1108.0625,
+              "left": 698
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 307.640625,
+              "width": 414.65625,
+              "height": 276.4375,
+              "top": 307.640625,
+              "right": 441.65625,
+              "bottom": 584.078125,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 475.65625,
+              "y": 307.640625,
+              "width": 414.671875,
+              "height": 276.4375,
+              "top": 307.640625,
+              "right": 890.328125,
+              "bottom": 584.078125,
+              "left": 475.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 924.328125,
+              "y": 307.640625,
+              "width": 414.65625,
+              "height": 276.4375,
+              "top": 307.640625,
+              "right": 1338.984375,
+              "bottom": 584.078125,
+              "left": 924.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 845.9375,
+              "width": 414.65625,
+              "height": 276.4375,
+              "top": 845.9375,
+              "right": 441.65625,
+              "bottom": 1122.375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 475.65625,
+              "y": 845.9375,
+              "width": 414.671875,
+              "height": 276.4375,
+              "top": 845.9375,
+              "right": 890.328125,
+              "bottom": 1122.375,
+              "left": 475.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 924.328125,
+              "y": 845.9375,
+              "width": 414.65625,
+              "height": 276.4375,
+              "top": 845.9375,
+              "right": 1338.984375,
+              "bottom": 1122.375,
+              "left": 924.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1384.234375,
+              "width": 414.65625,
+              "height": 276.4375,
+              "top": 1384.234375,
+              "right": 441.65625,
+              "bottom": 1660.671875,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 281.71875,
+              "width": 442,
+              "height": 294.65625,
+              "top": 281.71875,
+              "right": 469,
+              "bottom": 576.375,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 499,
+              "y": 281.71875,
+              "width": 442,
+              "height": 294.65625,
+              "top": 281.71875,
+              "right": 941,
+              "bottom": 576.375,
+              "left": 499
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 971,
+              "y": 281.71875,
+              "width": 442,
+              "height": 294.65625,
+              "top": 281.71875,
+              "right": 1413,
+              "bottom": 576.375,
+              "left": 971
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 263,
+              "y": 849.15625,
+              "width": 442,
+              "height": 294.65625,
+              "top": 849.15625,
+              "right": 705,
+              "bottom": 1143.8125,
+              "left": 263
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 735,
+              "y": 849.15625,
+              "width": 442,
+              "height": 294.65625,
+              "top": 849.15625,
+              "right": 1177,
+              "bottom": 1143.8125,
+              "left": 735
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 310.515625,
+              "width": 439.328125,
+              "height": 292.875,
+              "top": 310.515625,
+              "right": 466.328125,
+              "bottom": 603.390625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 500.328125,
+              "y": 310.515625,
+              "width": 439.328125,
+              "height": 292.875,
+              "top": 310.515625,
+              "right": 939.65625,
+              "bottom": 603.390625,
+              "left": 500.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 973.65625,
+              "y": 310.515625,
+              "width": 439.34375,
+              "height": 292.890625,
+              "top": 310.515625,
+              "right": 1413,
+              "bottom": 603.40625,
+              "left": 973.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 865.265625,
+              "width": 439.328125,
+              "height": 292.875,
+              "top": 865.265625,
+              "right": 466.328125,
+              "bottom": 1158.140625,
+              "left": 27
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 500.328125,
+              "y": 865.265625,
+              "width": 439.328125,
+              "height": 292.875,
+              "top": 865.265625,
+              "right": 939.65625,
+              "bottom": 1158.140625,
+              "left": 500.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 973.65625,
+              "y": 865.265625,
+              "width": 439.34375,
+              "height": 292.890625,
+              "top": 865.265625,
+              "right": 1413,
+              "bottom": 1158.15625,
+              "left": 973.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 27,
+              "y": 1420.015625,
+              "width": 439.328125,
+              "height": 292.875,
+              "top": 1420.015625,
+              "right": 466.328125,
+              "bottom": 1712.890625,
+              "left": 27
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "pages": {
+      "home": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ]
+      },
+      "considerations": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/images/considerations/family-viewing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 213,
+              "y": 282.28125,
+              "width": 478,
+              "height": 318.65625,
+              "top": 282.28125,
+              "right": 691,
+              "bottom": 600.9375,
+              "left": 213
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/preparing-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 721,
+              "y": 282.28125,
+              "width": 478,
+              "height": 318.65625,
+              "top": 282.28125,
+              "right": 1199,
+              "bottom": 600.9375,
+              "left": 721
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/home-financing.webp",
+            "loaded": true,
+            "rect": {
+              "x": 1229,
+              "y": 282.28125,
+              "width": 478,
+              "height": 318.65625,
+              "top": 282.28125,
+              "right": 1707,
+              "bottom": 600.9375,
+              "left": 1229
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/interior-design-planning.webp",
+            "loaded": true,
+            "rect": {
+              "x": 467,
+              "y": 873.71875,
+              "width": 478,
+              "height": 318.65625,
+              "top": 873.71875,
+              "right": 945,
+              "bottom": 1192.375,
+              "left": 467
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/considerations/rental-travel.webp",
+            "loaded": true,
+            "rect": {
+              "x": 975,
+              "y": 873.71875,
+              "width": 478,
+              "height": 318.65625,
+              "top": 873.71875,
+              "right": 1453,
+              "bottom": 1192.375,
+              "left": 975
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "life": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "photos": [
+          {
+            "src": "assets/remodel-v18/scene-020.webp",
+            "loaded": true,
+            "rect": {
+              "x": 213,
+              "y": 311.078125,
+              "width": 475.328125,
+              "height": 316.875,
+              "top": 311.078125,
+              "right": 688.328125,
+              "bottom": 627.953125,
+              "left": 213
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/remodel-v18/scene-099.webp",
+            "loaded": true,
+            "rect": {
+              "x": 722.328125,
+              "y": 311.078125,
+              "width": 475.328125,
+              "height": 316.875,
+              "top": 311.078125,
+              "right": 1197.65625,
+              "bottom": 627.953125,
+              "left": 722.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/relocation-family.webp",
+            "loaded": true,
+            "rect": {
+              "x": 1231.65625,
+              "y": 311.078125,
+              "width": 475.34375,
+              "height": 316.890625,
+              "top": 311.078125,
+              "right": 1707,
+              "bottom": 627.96875,
+              "left": 1231.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/empty-nest-dining-table.webp",
+            "loaded": true,
+            "rect": {
+              "x": 213,
+              "y": 889.828125,
+              "width": 475.328125,
+              "height": 316.875,
+              "top": 889.828125,
+              "right": 688.328125,
+              "bottom": 1206.703125,
+              "left": 213
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/retirement-couple.webp",
+            "loaded": true,
+            "rect": {
+              "x": 722.328125,
+              "y": 889.828125,
+              "width": 475.328125,
+              "height": 316.875,
+              "top": 889.828125,
+              "right": 1197.65625,
+              "bottom": 1206.703125,
+              "left": 722.328125
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/divorce-home.webp",
+            "loaded": true,
+            "rect": {
+              "x": 1231.65625,
+              "y": 889.828125,
+              "width": 475.34375,
+              "height": 316.890625,
+              "top": 889.828125,
+              "right": 1707,
+              "bottom": 1206.71875,
+              "left": 1231.65625
+            },
+            "fit": "cover"
+          },
+          {
+            "src": "assets/images/life-changes/remembering-loved-one.webp",
+            "loaded": true,
+            "rect": {
+              "x": 213,
+              "y": 1468.578125,
+              "width": 475.328125,
+              "height": 316.875,
+              "top": 1468.578125,
+              "right": 688.328125,
+              "bottom": 1785.453125,
+              "left": 213
+            },
+            "fit": "cover"
+          }
+        ]
+      },
+      "buy": {
+        "compact": false,
+        "rail": false,
+        "navVisible": true,
+        "menuVisible": false,
+        "overflow": false,
+        "labels": [
+          "Home",
+          "About",
+          "Buy",
+          "Sell",
+          "Property Management",
+          "Interior Design",
+          "Life Changes",
+          "Considerations",
+          "Blog",
+          "Contact"
+        ],
+        "direct": [
+          {
+            "text": "Life Changes",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          },
+          {
+            "text": "Considerations",
+            "hasPopup": false,
+            "expanded": false,
+            "controls": false
+          }
+        ],
+        "buy": {
+          "stages": [
+            "Budget",
+            "Preapproval",
+            "Wish List",
+            "Neighborhoods",
+            "Tours",
+            "Offer",
+            "Escrow",
+            "Keys"
+          ],
+          "charts": 2,
+          "maps": 4,
+          "bitmapImages": 0,
+          "barRatios": [
+            {
+              "expected": 0.2143,
+              "actual": 0.2140468227424749
+            },
+            {
+              "expected": 0.28859999999999997,
+              "actual": 0.28762541806020064
+            },
+            {
+              "expected": 0.9521,
+              "actual": 0.9531772575250836
+            },
+            {
+              "expected": 0.5,
+              "actual": 0.5016722408026756
+            },
+            {
+              "expected": 0.8467,
+              "actual": 0.8461538461538461
+            },
+            {
+              "expected": 0.7525,
+              "actual": 0.7525083612040134
+            }
+          ],
+          "text": "THE BUYING PROCESS\nBuy With\nDominique\n\nEXPERT GUIDANCE. A BRIGHTER NEXT CHAPTER.\n\nBuying a home is a big step \u2014 and you don\u2019t have to do it alone. Dominique guides you through each step of the process with local expertise and the support of Rise Real Estate, so you can move forward with confidence.\n\nA SMOOTHER\nPATH HOME\nBUDGET\nPREAPPROVAL\nWISH LIST\nNEIGHBORHOODS\nTOURS\nOFFER\nESCROW\nKEYS\nLOCAL EXPERTISE\n\nIN-DEPTH KNOWLEDGE OF OUR COMMUNITIES.\n\nCLEAR GUIDANCE\n\nSTRAIGHTFORWARD ADVICE AT EVERY STEP.\n\nTRUSTED NETWORK\n\nTHE STRENGTH OF RISE REAL ESTATE.\n\nRISE SALES ACTIVITY\n1,400\n700\n0\n300+\n2023 HOMES SOLD\n404\nSALES LAST 12 MONTHS\n1,333\nTOTAL SALES\nCLIENT TRUST\n1,200\n600\n0\n600+\nFIVE-STAR REVIEWS\n1,016\nTEAM REVIEWS\n$903K\nAVERAGE PRICE\n01\nBuy With\nDominique\n\nSan Fernando\nValley +\nLos Angeles\n\nLOCAL EXPERTISE / STRONGER OPPORTUNITIES / A BRIGHTER TOMORROW\n\n04\nRise Real Estate Reach\n\nBACKED BY A BROADER NETWORK\n\nThousands\nFAMILIES ASSISTED\nCALIFORNIA\nHQ\nLOS ANGELES HEADQUARTERS\nLOS ANGELES\n#1\nREAL ESTATE TEAM IN LOS ANGELES\nSAN FERNANDO VALLEY\nLocal\nSAN FERNANDO VALLEY BUYER GUIDANCE\nReady to start your search?\n\nWork one-on-one with Dominique for clear guidance, local perspective, and a smoother buying experience from planning to keys.\n\nBuy With Dominique"
+        }
+      }
+    },
+    "errors": []
+  }
+]

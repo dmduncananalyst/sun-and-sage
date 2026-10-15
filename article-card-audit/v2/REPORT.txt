@@ -1,0 +1,60 @@
+DOMMYDOM - LUXURY CARD FRAMING AND SPACING V2
+Local review, 2026-10-14. No commit, push, or publication.
+
+Read the complete brief saved as DommyDom-Luxury-Card-Framing-and-Spacing-v2 (1).md (the unsuffixed filename is absent). The numbered reference screenshots were not attached; comparisons use captures of the actual local site before this change.
+
+FINISHED TREATMENT
+Continuous 4px solid dark sage perimeter on all four sides of photo/copy/Read More cards, using the existing --ss22-sage brand token (#48533e). Coordinated sage photo-to-copy and footer rules, the existing paper surface, and a subtle sage inset base give the footer a framed finish. Square corners, flush photography, existing type, and neutral interiors remain intact. Focus-visible outlines remain visible.
+
+REMAINING SPACE: CAUSE AND CORRECTION
+The previous row-sizing correction left entire excerpts unbounded. Long previews, including supplementary blog mobile paragraphs, could still enlarge a row and leave its shorter neighbors empty. Three tablet columns also made full headlines wrap excessively.
+The complete preview-copy container now displays at most four lines; the original text remains in the HTML. Headlines stay complete and unclamped. Rows remain content-driven and cards stretch only within their own row, with margin-top:auto on Read More. Body padding is 18px vertically. Tablet grids use two columns from 601-950px; tested desktop widths retain three, and mobile retains one. Measured excerpt-to-link distance is 31-92px across the 75 cases, including normal body/footer padding and the modest space needed to align cards with different full-title lengths. Mobile distances are about 35px. No text or image assets were rewritten.
+
+FILES AND SELECTORS
+Only three production CSS files changed (including the earlier spacing work):
+assets/performance-css/75e3427875dcf211.css
+assets/performance-css/295473f8529b44f9.css
+assets/performance-css/ad2a85f2e8cb67b7.css
+
+The v2 rules are appended to these existing shared bundles. They target .loanHubGrid containing photo/action cards; direct .loanHubItem children must contain both .ss18-card-photo and .loanLearn. Descendant rules style .final-static-answer, its h2 and .final-static-answer-copy (including paragraphs), .loanLearn, and its a:focus-visible. Existing specificity conventions are followed to beat legacy !important rules. Supplementary mobile summaries retain their original desktop visibility. Informational cards without a photo and Read More are excluded. The pre-v2 styling is retained underneath to preserve unrelated panels.
+
+ACTUAL VERIFICATION
+Installed Google Chrome, headless, local HTTP preview at 1440, 1280, 1024, 768, 390px: 15 grids x 5 widths = 75 cases.
+All cards report 4px borders on all sides in rgb(72,83,62), four-line preview clamping, full readable headings, visible links, equal row bottoms and link positions, and no horizontal page overflow. Computed column counts: 3 / 3 / 3 / 2 / 1. git diff --check passed.
+Blog and Marriage screenshots were reviewed at normal pixel scale, including mixed-title-length rows and mobile. Actual first Read More navigation and keyboard Enter activation reached the expected article at 1440 and 390. Trial-click actionability and visible focus outlines were checked at all five widths on these two pages.
+Before/after DOM comparisons for Blog and Marriage at 1440 and 390 confirm identical full preview text, headlines, link URLs, metadata, image sources/srcsets, image fit, and aspect ratios. The homepage, Sun Valley city page, general Questions information panels, and representative full Blog/Marriage articles have zero matches for the new card-frame selectors.
+
+GRIDS CHECKED
+blog.html
+buyer-questions.html
+design-questions.html
+homebuyer-financing-questions.html
+life-changes.html
+loan-homebuyer-programs.html
+seller-questions.html
+short-term-rental-questions.html
+life-changes/death.html
+life-changes/divorce.html
+life-changes/empty-nest.html
+life-changes/growing-family.html
+life-changes/marriage.html
+life-changes/relocation.html
+life-changes/retirement.html
+
+SCREENSHOTS AND RECORDS
+blog-after-1440.png / blog-after-390.png: finished desktop and mobile.
+blog-after-1440-row2.png: complete row with differing title/excerpt lengths.
+marriage-after-1440.png / marriage-after-390.png: Life Changes examples.
+Additional 1280, 1024, 768 screenshots and before captures are in this directory.
+results.json: all 75 measurements.
+preservation.json: text, metadata, image, keyboard, and scope checks.
+verify.py / details.py: reproducible browser checks (require the temporary Playwright install used in this session).
+
+LIMITATIONS
+Seven existing zero-byte image assets remain untouched; their list is in ../empty-image-files.json. New screenshots show loaded representative images. Offscreen lazy images are not all forced to load, so this is not a claim that every photograph loaded successfully. Physical-device and Safari/Firefox testing were not performed; widths were tested in desktop Chrome responsive viewports. External requests were blocked during local checks. No deployment occurred.
+
+LOCAL PREVIEW
+From the repository root:
+& 'C:/Users/its old/AppData/Local/Programs/Python/Python312/python.exe' -m http.server 8000 --bind 127.0.0.1
+Open http://127.0.0.1:8000/blog.html or http://127.0.0.1:8000/life-changes/marriage.html.
+Stop with Ctrl+C. Test scripts close their own temporary servers.

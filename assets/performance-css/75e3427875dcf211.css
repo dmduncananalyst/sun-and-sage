@@ -1,3 +1,4 @@
+@import url("../editorial-layout.css");
 /* assets/site-audit-4711.css */
 /* Screenshot 4711: one full photograph, then one closed rectangular reading box.
    This is the authoritative shared layout for every article and standalone blog. */
@@ -146,6 +147,22 @@ html body main#main#main#main [data-uniform-photo-frame]::before,
 html body main#main#main#main [data-uniform-photo-frame]::after {content:none!important;display:none!important;}
 html body main#main#main#main .loanHubGrid .final-static-answer {flex:1 0 auto!important;}
 html body main#main#main#main .loanHubGrid .loanLearn {margin-top:auto!important;}
+
+/* Preserve existing informational-panel spacing; article styling is imported. */
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)):has(> .loanHubItem > .final-static-answer) {
+ grid-auto-rows:auto!important; align-items:stretch!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem:has(> .final-static-answer) {
+ height:auto!important; min-height:0!important; max-height:none!important; align-self:stretch!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem > .final-static-answer {
+ display:flex!important; flex-direction:column!important; flex:0 0 auto!important;
+ height:auto!important; min-height:0!important; max-height:none!important; align-self:stretch!important;
+ justify-content:flex-start!important;
+}
+html body.ss18 main#main#main#main#main .loanHubGrid:not(:has(> .loanHubItem > .loanLearn)) > .loanHubItem:has(> .final-static-answer) > .loanLearn {
+ margin-top:auto!important;
+}
 
 /* Keep all cards equal across rows, including home, portfolio, and platform grids. */
 /* Keep the collage captions in the exposed outer edges beside the title card. */
@@ -420,4 +437,3 @@ html body main#main#main#main#main#main.ss22-home .ddn-home-about-heading{displa
  html body main#main#main#main#main#main.ss4711-article .ss4711-copy .ss24-related-links{justify-content:center!important}
 }
 @media(max-width:820px){html body main#main#main#main#main#main.ss4711-article .ss4711-copy .f4-feature{padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important}html body main#main#main#main#main#main.ss4711-article .ss4711-copy .f4-feature>strong{display:block!important;font-size:32px!important;line-height:1.25!important;white-space:normal!important;overflow-wrap:anywhere!important;text-align:center!important}}
-

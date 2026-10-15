@@ -1,0 +1,163 @@
+[
+  {
+    "label": "Buy With Dominique",
+    "links": [
+      {
+        "label": "Buy With Dominique",
+        "url": "buy-a-home.html#top"
+      }
+    ]
+  },
+  {
+    "label": "First-Time Homebuyers",
+    "links": [
+      {
+        "label": "First-Time Homebuyers",
+        "url": "first-time-buyers.html"
+      }
+    ]
+  },
+  {
+    "label": "Buying Process",
+    "links": [
+      {
+        "label": "Buying Process",
+        "url": "first-time-buyers.html"
+      },
+      {
+        "label": "Getting Preapproved for Your First Home",
+        "url": "first-time-pre-approval.html"
+      },
+      {
+        "label": "Touring Homes as a First Time Buyer",
+        "url": "first-time-touring.html"
+      },
+      {
+        "label": "Making an Offer on Your First Home",
+        "url": "first-time-your-offer.html"
+      },
+      {
+        "label": "Understanding Home Purchase Negotiations",
+        "url": "first-time-negotiations.html"
+      },
+      {
+        "label": "Closing on Your First Home",
+        "url": "first-time-closing.html"
+      }
+    ]
+  },
+  {
+    "label": "Financing",
+    "links": [
+      {
+        "label": "Financing",
+        "url": "homebuyer-financing-questions.html"
+      },
+      {
+        "label": "Financing",
+        "url": "homebuyer-financing-questions.html"
+      },
+      {
+        "label": "First Time Homebuyer Programs in California",
+        "url": "first-time-homebuyer-programs.html"
+      },
+      {
+        "label": "Mortgage Preapproval and Prequalification Compared",
+        "url": "preapproval-vs-prequalification.html"
+      },
+      {
+        "label": "Planning Your Down Payment",
+        "url": "down-payment-needed.html"
+      },
+      {
+        "label": "Credit Scores and Mortgage Qualification",
+        "url": "credit-score-to-buy-home.html"
+      },
+      {
+        "label": "Finding a Comfortable Home Purchase Price Range",
+        "url": "what-price-range-can-i-afford.html"
+      },
+      {
+        "label": "Buying a Home With Less Than Twenty Percent Down",
+        "url": "do-i-need-20-percent-down.html"
+      },
+      {
+        "label": "Understanding Homebuyer Closing Costs",
+        "url": "buyer-closing-costs.html"
+      },
+      {
+        "label": "Buying a Home With Student Loan Debt",
+        "url": "buying-with-student-loan-debt.html"
+      },
+      {
+        "label": "Documents for Mortgage Preapproval",
+        "url": "preapproval-documents.html"
+      }
+    ]
+  },
+  {
+    "label": "Buyer Resources",
+    "links": [
+      {
+        "label": "Buyer Resources",
+        "url": "buyer-questions.html"
+      },
+      {
+        "label": "Buying",
+        "url": "buyer-questions.html"
+      },
+      {
+        "label": "Finding Your Neighborhood Fit in the San Fernando Valley",
+        "url": "buyer-question-neighborhood-fit.html"
+      },
+      {
+        "label": "Matching Your Budget With San Fernando Valley Neighborhoods",
+        "url": "buyer-question-budget-by-valley-area.html"
+      },
+      {
+        "label": "Understanding Homes South of Ventura Boulevard",
+        "url": "buyer-question-south-of-ventura-boulevard.html"
+      },
+      {
+        "label": "Comparing Newer and Established Porter Ranch Neighborhoods",
+        "url": "buyer-question-porter-ranch-newer-vs-established.html"
+      },
+      {
+        "label": "Comparing Similar Priced Homes in Different Valley Neighborhoods",
+        "url": "buyer-question-same-price-different-neighborhoods.html"
+      },
+      {
+        "label": "Understanding a Home With Extended Time on the Market",
+        "url": "buyer-question-long-time-on-market.html"
+      },
+      {
+        "label": "Evaluating HOA Dues and Community Value",
+        "url": "buyer-question-high-hoa-value.html"
+      },
+      {
+        "label": "Building a Comfortable Monthly Homeownership Budget",
+        "url": "buyer-question-monthly-affordability.html"
+      },
+      {
+        "label": "Preparing for the Upfront Expenses of Buying a Home",
+        "url": "buyer-question-upfront-costs.html"
+      },
+      {
+        "label": "Evaluating a Fixer Upper Before Buying",
+        "url": "buyer-question-fixer-upper-worth-it.html"
+      },
+      {
+        "label": "Making an Offer in a Fast Moving Housing Market",
+        "url": "buyer-question-fast-market-offer-or-walk.html"
+      },
+      {
+        "label": "Homeownership Expenses Beyond the Mortgage",
+        "url": "buyer-question-other-ownership-costs.html"
+      },
+      {
+        "label": "Reviewing a Home Before Committing to the Purchase",
+        "url": "buyer-question-before-you-commit.html"
+      }
+    ]
+  }
+]
