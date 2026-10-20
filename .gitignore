@@ -1,3 +1,15 @@
 
 # Imported editorial source, retained locally for review
 DommyDom-Nine-Articles-Copilot-Source*.md
+.tools/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+.translation-state/
+dist/
+debug.log

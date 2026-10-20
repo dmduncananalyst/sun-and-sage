@@ -1,0 +1,11 @@
+{
+  "origin": "https://dommydom.com",
+  "languages": {"en":"English","es":"Español","fa":"فارسی","hy":"Հայերեն","zh-CN":"简体中文","ko":"한국어","tl":"Tagalog","te":"తెలుగు","ru":"Русский","ar":"العربية"},
+  "rtl": ["fa", "ar"],
+  "google_project_id": "project-2e0d7d9d-d482-4fcf-b6d",
+  "translation_usd_per_million_characters": 20,
+  "warning_usd": 15,
+  "monthly_limit_usd": 20,
+  "speech_enabled": false,
+  "communications_api": null
+}

@@ -1,0 +1,26 @@
+{
+  "english_pages": 350,
+  "english_blogs": 30,
+  "unique_source_segments": 6376,
+  "source_characters_per_language": 653041,
+  "maximum_initial_nmt_usd_before_credits": 117.54738,
+  "real_saved_translation_segments": 0,
+  "missing_segments_by_language": {
+    "es": 6376,
+    "fa": 6376,
+    "hy": 6376,
+    "zh-CN": 6376,
+    "ko": 6376,
+    "tl": 6376,
+    "te": 6376,
+    "ru": 6376,
+    "ar": 6376
+  },
+  "synthetic_render_checks_passed": 3500,
+  "synthetic_text_saved": false,
+  "google_cloud_authenticated": false,
+  "real_translation_verified": false,
+  "end_to_end_call_verified": false,
+  "paid_requests_made": 0,
+  "monthly_translation_limit_usd": 20
+}

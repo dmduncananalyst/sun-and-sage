@@ -1,0 +1,59 @@
+name: Translate and publish DommyDom
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['**/*-audit/**', 'multilingual/translations.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  id-token: write
+  pages: write
+concurrency:
+  group: dommydom-multilingual-publishing
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r multilingual/requirements.txt
+      - run: python -m unittest discover -s multilingual/tests -v
+      - run: node multilingual/tests/test_browser.cjs
+      - name: Require existing cloud connection
+        env:
+          PROJECT: ${{ vars.GOOGLE_CLOUD_PROJECT }}
+          PROVIDER: ${{ vars.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
+          ACCOUNT: ${{ vars.GOOGLE_SERVICE_ACCOUNT }}
+        run: |
+          test -n "$PROJECT" && test -n "$PROVIDER" && test -n "$ACCOUNT" || { echo 'Existing Google project and GitHub OIDC connection are missing'; exit 1; }
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GOOGLE_SERVICE_ACCOUNT }}
+      - name: Generate only missing translations
+        env:
+          GOOGLE_CLOUD_PROJECT: ${{ vars.GOOGLE_CLOUD_PROJECT }}
+          DOMMYDOM_ALLOW_PAID_TRANSLATION: ${{ vars.DOMMYDOM_ALLOW_PAID_TRANSLATION }}
+        run: python -m multilingual.translate
+      - name: Save completed translations even if quota stops a batch
+        if: always()
+        run: |
+          git config user.name 'DommyDom translation automation'
+          git config user.email 'translation-bot@users.noreply.github.com'
+          git add multilingual/translations.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save permanent incremental translations [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Build complete static multilingual site
+        run: python -m multilingual.site build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
