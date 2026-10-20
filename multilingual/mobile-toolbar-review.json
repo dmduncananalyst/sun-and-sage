@@ -1,0 +1,455 @@
+{
+  "local_only": true,
+  "cases": [
+    {
+      "width": 280,
+      "language": "en",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "es",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "fa",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "hy",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "zh-CN",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "ko",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "tl",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "te",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "ru",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 280,
+      "language": "ar",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "en",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "es",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "fa",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "hy",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "zh-CN",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "ko",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "tl",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "te",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "ru",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 300,
+      "language": "ar",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "es",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "fa",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "hy",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "zh-CN",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "ko",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "tl",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "te",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "ru",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 320,
+      "language": "ar",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "es",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "fa",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "hy",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "zh-CN",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "ko",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "tl",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "te",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 390,
+      "language": "ar",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "en",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "es",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "fa",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "hy",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "zh-CN",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "ko",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "tl",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "te",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "ru",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    },
+    {
+      "width": 430,
+      "language": "ar",
+      "readable_14_to_16px_type": true,
+      "single_aligned_toolbar_row": true,
+      "touch_targets_at_least_44px": true,
+      "no_overflow": true,
+      "menu_works": true
+    }
+  ]
+}

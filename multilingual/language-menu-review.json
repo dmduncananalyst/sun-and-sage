@@ -1,0 +1,78 @@
+{
+  "local_only": true,
+  "popup_checks": [
+    {
+      "width": 280,
+      "page": "index.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 280,
+      "page": "search.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 280,
+      "page": "first-time-negotiations.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 303,
+      "page": "index.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 303,
+      "page": "search.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 303,
+      "page": "first-time-negotiations.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 390,
+      "page": "search.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 390,
+      "page": "first-time-negotiations.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 1440,
+      "page": "search.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    },
+    {
+      "width": 1440,
+      "page": "first-time-negotiations.html",
+      "all_ten_complete_names_visible": true,
+      "keyboard_and_outside_dismissal": true
+    }
+  ],
+  "all_nine_language_destinations_verified": true
+}
