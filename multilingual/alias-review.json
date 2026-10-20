@@ -1,0 +1,7 @@
+{
+  "local_only": true,
+  "canonical_articles": 36,
+  "legacy_routes_checked": 360,
+  "documented_19_broken_routes_repaired": true,
+  "relative_redirects_preserve_local_preview": true
+}

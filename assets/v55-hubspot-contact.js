@@ -18,7 +18,7 @@
         fields: fields.filter(field => String(field.value || '').trim()),
         context: {
           ...(hutk ? {hutk} : {}),
-          pageUri: location.href,
+          pageUri: location.protocol==='file:'?(document.querySelector('link[rel="canonical"]')?.href||'https://dommydom.com/'):location.href,
           pageName: document.title
         }
       })

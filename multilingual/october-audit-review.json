@@ -1,0 +1,1031 @@
+{
+  "local_only": true,
+  "checks": [
+    {
+      "protocol": "file",
+      "language": "en",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "REAL ESTATE + PROPERTY MANAGEMENT + INTERIOR DESIGN\n\nReal Estate, Property Management, and Interior Design\nUnder One Roof\nAbout Dominique\n\nDominique D"
+    },
+    {
+      "protocol": "file",
+      "language": "es",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "BIENES RAÍCES + ADMINISTRACIÓN DE PROPIEDADES + DISEÑO DE INTERIORES\n\nBienes raíces, administración de propiedades y diseño de interiores.\nBajo un mis"
+    },
+    {
+      "protocol": "file",
+      "language": "fa",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "املاک و مستغلات + مدیریت املاک + طراحی داخلی\n\nاملاک و مستغلات، مدیریت املاک و طراحی داخلی\nزیر یک سقف\nدرباره دومینیک\n\nدومینیک دانکن-نلسون یک مشاور املا"
+    },
+    {
+      "protocol": "file",
+      "language": "hy",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "ԱՆՇԱՐԺ ԳՈՒՅՔ + ԱՆՇԱՐԺ ԳՈՒՅՔԻ ԿԱՌԱՎԱՐՈՒՄ + ԻՆՏԵՐԻԵՐԻ ԴԻԶԱՅՆ\n\nԱնշարժ գույք, գույքի կառավարում և ինտերիերի դիզայն\nՄեկ տանիքի տակ\nԴոմինիկի մասին\n\nԴոմինիկ "
+    },
+    {
+      "protocol": "file",
+      "language": "zh-CN",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "房地产 + 物业管理 + 室内设计\n\n房地产、物业管理和室内设计\n同一屋檐下\n关于多米尼克\n\nDominique Duncan-Nelson 是 Real Brokerage 旗下 The Rise Team 的一名房地产经纪人，常驻查茨沃斯，指导客户完成圣费尔南多谷地区房产买卖、租赁和管理的每一个"
+    },
+    {
+      "protocol": "file",
+      "language": "ko",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "부동산 + 부동산 관리 + 인테리어 디자인\n\n부동산, 자산 관리 및 인테리어 디자인\n한 지붕 아래\n도미니크 소개\n\n도미니크 던컨-넬슨은 채츠워스에 기반을 둔 리얼 브로커리지의 라이즈 팀 소속 공인 부동산 중개인으로, 샌퍼난도 밸리 전역에서 부동산 매매, 임대 및 관리에"
+    },
+    {
+      "protocol": "file",
+      "language": "tl",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "REAL ESTATE + PAMAMAHALA NG ARI-ARIAN + DISENYO NG INTERYOR\n\nReal Estate, Pamamahala ng Ari-arian, at Disenyo ng Interyor\nSa Ilalim ng Isang Bubong\nTu"
+    },
+    {
+      "protocol": "file",
+      "language": "te",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "రియల్ ఎస్టేట్ + ఆస్తి నిర్వహణ + ఇంటీరియర్ డిజైన్\n\nరియల్ ఎస్టేట్, ఆస్తి నిర్వహణ మరియు ఇంటీరియర్ డిజైన్\nఒకే గొడుగు కింద\nడొమినిక్ గురించి\n\nడొమినిక్ డంకన్"
+    },
+    {
+      "protocol": "file",
+      "language": "ru",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "НЕДВИЖИМОСТЬ + УПРАВЛЕНИЕ НЕДВИЖИМОСТЬЮ + ДИЗАЙН ИНТЕРЬЕРА\n\nНедвижимость, управление недвижимостью и дизайн интерьеров.\nПод одной крышей\nО Доминике\n\nД"
+    },
+    {
+      "protocol": "file",
+      "language": "ar",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "العقارات + إدارة الممتلكات + التصميم الداخلي\n\nالعقارات، إدارة الممتلكات، والتصميم الداخلي\nتحت سقف واحد\nنبذة عن دومينيك\n\nدومينيك دنكان-نيلسون هي وسيطة "
+    },
+    {
+      "protocol": "http",
+      "language": "en",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "REAL ESTATE + PROPERTY MANAGEMENT + INTERIOR DESIGN\n\nReal Estate, Property Management, and Interior Design\nUnder One Roof\nAbout Dominique\n\nDominique D"
+    },
+    {
+      "protocol": "http",
+      "language": "es",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "BIENES RAÍCES + ADMINISTRACIÓN DE PROPIEDADES + DISEÑO DE INTERIORES\n\nBienes raíces, administración de propiedades y diseño de interiores.\nBajo un mis"
+    },
+    {
+      "protocol": "http",
+      "language": "fa",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "املاک و مستغلات + مدیریت املاک + طراحی داخلی\n\nاملاک و مستغلات، مدیریت املاک و طراحی داخلی\nزیر یک سقف\nدرباره دومینیک\n\nدومینیک دانکن-نلسون یک مشاور املا"
+    },
+    {
+      "protocol": "http",
+      "language": "hy",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "ԱՆՇԱՐԺ ԳՈՒՅՔ + ԱՆՇԱՐԺ ԳՈՒՅՔԻ ԿԱՌԱՎԱՐՈՒՄ + ԻՆՏԵՐԻԵՐԻ ԴԻԶԱՅՆ\n\nԱնշարժ գույք, գույքի կառավարում և ինտերիերի դիզայն\nՄեկ տանիքի տակ\nԴոմինիկի մասին\n\nԴոմինիկ "
+    },
+    {
+      "protocol": "http",
+      "language": "zh-CN",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "房地产 + 物业管理 + 室内设计\n\n房地产、物业管理和室内设计\n同一屋檐下\n关于多米尼克\n\nDominique Duncan-Nelson 是 Real Brokerage 旗下 The Rise Team 的一名房地产经纪人，常驻查茨沃斯，指导客户完成圣费尔南多谷地区房产买卖、租赁和管理的每一个"
+    },
+    {
+      "protocol": "http",
+      "language": "ko",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "부동산 + 부동산 관리 + 인테리어 디자인\n\n부동산, 자산 관리 및 인테리어 디자인\n한 지붕 아래\n도미니크 소개\n\n도미니크 던컨-넬슨은 채츠워스에 기반을 둔 리얼 브로커리지의 라이즈 팀 소속 공인 부동산 중개인으로, 샌퍼난도 밸리 전역에서 부동산 매매, 임대 및 관리에"
+    },
+    {
+      "protocol": "http",
+      "language": "tl",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "REAL ESTATE + PAMAMAHALA NG ARI-ARIAN + DISENYO NG INTERYOR\n\nReal Estate, Pamamahala ng Ari-arian, at Disenyo ng Interyor\nSa Ilalim ng Isang Bubong\nTu"
+    },
+    {
+      "protocol": "http",
+      "language": "te",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "రియల్ ఎస్టేట్ + ఆస్తి నిర్వహణ + ఇంటీరియర్ డిజైన్\n\nరియల్ ఎస్టేట్, ఆస్తి నిర్వహణ మరియు ఇంటీరియర్ డిజైన్\nఒకే గొడుగు కింద\nడొమినిక్ గురించి\n\nడొమినిక్ డంకన్"
+    },
+    {
+      "protocol": "http",
+      "language": "ru",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "НЕДВИЖИМОСТЬ + УПРАВЛЕНИЕ НЕДВИЖИМОСТЬЮ + ДИЗАЙН ИНТЕРЬЕРА\n\nНедвижимость, управление недвижимостью и дизайн интерьеров.\nПод одной крышей\nО Доминике\n\nД"
+    },
+    {
+      "protocol": "http",
+      "language": "ar",
+      "checks": {
+        "language": true,
+        "beside_search": true,
+        "globe": true,
+        "runtime_loaded": true,
+        "no_visible_language_label": true
+      },
+      "main_text": "العقارات + إدارة الممتلكات + التصميم الداخلي\n\nالعقارات، إدارة الممتلكات، والتصميم الداخلي\nتحت سقف واحد\nنبذة عن دومينيك\n\nدومينيك دنكان-نيلسون هي وسيطة "
+    },
+    {
+      "width": 320,
+      "page": "index.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": []
+    },
+    {
+      "width": 320,
+      "page": "blog.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-living-in-porter-ranch.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-living-in-valley-village.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-living-in-sylmar.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-encino-home-prices-2026.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-california-earnest-money-deposit.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": "blog-airbnb-aircover-rental-insurance.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": []
+    },
+    {
+      "width": 390,
+      "page": "blog.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-living-in-porter-ranch.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-living-in-valley-village.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-living-in-sylmar.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-encino-home-prices-2026.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-california-earnest-money-deposit.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": "blog-airbnb-aircover-rental-insurance.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": []
+    },
+    {
+      "width": 768,
+      "page": "blog.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-living-in-porter-ranch.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-living-in-valley-village.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-living-in-sylmar.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-encino-home-prices-2026.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-california-earnest-money-deposit.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "page": "blog-airbnb-aircover-rental-insurance.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "index.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": []
+    },
+    {
+      "width": 1024,
+      "page": "blog.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-living-in-porter-ranch.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-living-in-valley-village.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-living-in-sylmar.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-encino-home-prices-2026.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-california-earnest-money-deposit.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "page": "blog-airbnb-aircover-rental-insurance.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": []
+    },
+    {
+      "width": 1440,
+      "page": "blog.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-living-in-porter-ranch.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-living-in-valley-village.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-living-in-sylmar.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-encino-home-prices-2026.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-california-earnest-money-deposit.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "page": "blog-airbnb-aircover-rental-insurance.html",
+      "checks": {
+        "no_overflow": true,
+        "selector_visible": true,
+        "whole_quality_photos": true,
+        "existing_card_photos_uncropped": true
+      },
+      "image_states": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "filter": "none"
+        }
+      ]
+    }
+  ],
+  "missing_internal_files": [],
+  "original_photo_bytes_preserved": {
+    "assets/blogs/dommydom_porter_ranch.jpg": true,
+    "assets/blogs/dommydom_valley_village.jpg": true,
+    "assets/blogs/dommydom_sylmar.jpg": true,
+    "assets/blogs/dommydom_encino.jpg": true,
+    "assets/blogs/dommydom_earnest_money.jpg": true,
+    "assets/blogs/dommydom_airbnb_insurance.jpg": true
+  },
+  "paid_api_attempts": [],
+  "javascript_errors": []
+}

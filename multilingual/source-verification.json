@@ -1,0 +1,19 @@
+{
+  "actual_website_source": true,
+  "english_pages_with_visible_selector": 356,
+  "language_pages_checked": 3560,
+  "language_choices": 10,
+  "missing_saved_segments": {
+    "es": 0,
+    "fa": 0,
+    "hy": 0,
+    "zh-CN": 0,
+    "ko": 0,
+    "tl": 0,
+    "te": 0,
+    "ru": 0,
+    "ar": 0
+  },
+  "local_only": true,
+  "published": false
+}

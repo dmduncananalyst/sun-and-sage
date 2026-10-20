@@ -1,0 +1,186 @@
+{
+  "local_only": true,
+  "cases": [
+    {
+      "language": "en",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "es",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "fa",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "hy",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "zh-CN",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "ko",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "tl",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "te",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "ar",
+      "width": 390,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.005319148936170213
+      }
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "es",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "fa",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.00425531914893617
+      }
+    },
+    {
+      "language": "hy",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "zh-CN",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "ko",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "tl",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "te",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "ru",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0
+      }
+    },
+    {
+      "language": "ar",
+      "width": 1440,
+      "six_preview_photos_fill_frames": true,
+      "white_edge_pixel_checks": {
+        "dommydom_porter_ranch.jpg": 0,
+        "dommydom_encino.jpg": 0.00425531914893617
+      }
+    }
+  ],
+  "preview_images_checked": 120
+}

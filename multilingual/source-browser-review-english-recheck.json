@@ -1,0 +1,132 @@
+{
+  "local_only": true,
+  "actual_source_website": true,
+  "pages_checked": 8,
+  "checks": [
+    {
+      "width": 1440,
+      "language": "en",
+      "page": "index.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | Real Estate, Property Management, and Interior Design"
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "page": "blog.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | Blog"
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "page": "contact.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | Work With Dominique"
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "page": "blog-401k-matters.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | 401K Matters"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "page": "index.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true,
+        "mobile_menu_opens": true,
+        "mobile_menu_closes": true
+      },
+      "title": "Dominique Duncan-Nelson | Real Estate, Property Management, and Interior Design"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "page": "blog.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | Blog"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "page": "contact.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | Work With Dominique"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "page": "blog-401k-matters.html",
+      "checks": {
+        "status": true,
+        "language": true,
+        "direction": true,
+        "canonical": true,
+        "hreflang": true,
+        "selector": true,
+        "no_horizontal_overflow": true
+      },
+      "title": "Dominique Duncan-Nelson | 401K Matters"
+    }
+  ],
+  "paid_api_attempts": [],
+  "javascript_errors": [],
+  "screenshots_directory": ".translation-state\\source-browser-review"
+}

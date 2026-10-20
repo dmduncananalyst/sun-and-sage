@@ -1,0 +1,60 @@
+{
+  "project_id": "project-2e0d7d9d-d482-4fcf-b6d",
+  "authenticated": true,
+  "paid_translation_requests_in_diagnostic": 0,
+  "quotas_changed": false,
+  "project_status": "ACTIVE",
+  "services": {
+    "translate.googleapis.com": "ENABLED",
+    "speech.googleapis.com": "ENABLED",
+    "texttospeech.googleapis.com": "ENABLED",
+    "firestore.googleapis.com": "ENABLED",
+    "run.googleapis.com": "ENABLED",
+    "identitytoolkit.googleapis.com": "ENABLED"
+  },
+  "billing_enabled": true,
+  "quota_read_status": 200,
+  "daily_translation_quotas": [
+    {
+      "metric": "translate.googleapis.com/AutoML/concurrent_query_model_requests",
+      "unit": "1/d/{project}",
+      "limits": [
+        "20"
+      ]
+    },
+    {
+      "metric": "translate.googleapis.com/batch_automl_models_chars_text_translation",
+      "unit": "1/d/{project}",
+      "limits": [
+        "-1"
+      ]
+    },
+    {
+      "metric": "translate.googleapis.com/batch_general_models_chars_text_translation",
+      "unit": "1/d/{project}",
+      "limits": [
+        "-1"
+      ]
+    },
+    {
+      "metric": "translate.googleapis.com/default",
+      "unit": "1/d/{project}",
+      "limits": [
+        "-1"
+      ]
+    }
+  ],
+  "requested_language_support": {
+    "en": true,
+    "es": true,
+    "fa": true,
+    "hy": true,
+    "zh-CN": true,
+    "ko": true,
+    "tl": true,
+    "te": true,
+    "ru": true,
+    "ar": true
+  },
+  "supported_languages_http_status": 200
+}

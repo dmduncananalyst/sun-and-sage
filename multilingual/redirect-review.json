@@ -1,0 +1,196 @@
+{
+  "local_only": true,
+  "browser_routes_checked": 38,
+  "results": [
+    {
+      "protocol": "http",
+      "slug": "401k-matters",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "california-condo-crisis-sb326-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "california-proposition-19-homeowners",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "chatsworth-home-prices-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "dia-de-los-muertos-san-fernando-valley-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "fall-farmers-markets-san-fernando-valley-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "film-crew-rental",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "having-children-in-your-40s",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "how-to-stage-a-living-room",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "is-it-time-for-divorce",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "lake-balboa-park-japanese-garden-fall-guide",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "living-in-chatsworth",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "los-angeles-short-term-rental-rules-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "northridge-housing-market-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "porter-ranch-housing-market",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "thoughtful-home-staging-presentation",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "two-one-rate-buydown",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "what-its-like-to-live-in-granada-hills",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "http",
+      "slug": "why-budgeting-matters",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "401k-matters",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "california-condo-crisis-sb326-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "california-proposition-19-homeowners",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "chatsworth-home-prices-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "dia-de-los-muertos-san-fernando-valley-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "fall-farmers-markets-san-fernando-valley-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "film-crew-rental",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "having-children-in-your-40s",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "how-to-stage-a-living-room",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "is-it-time-for-divorce",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "lake-balboa-park-japanese-garden-fall-guide",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "living-in-chatsworth",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "los-angeles-short-term-rental-rules-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "northridge-housing-market-2026",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "porter-ranch-housing-market",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "thoughtful-home-staging-presentation",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "two-one-rate-buydown",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "what-its-like-to-live-in-granada-hills",
+      "local_redirect_and_query_fragment_preserved": true
+    },
+    {
+      "protocol": "file",
+      "slug": "why-budgeting-matters",
+      "local_redirect_and_query_fragment_preserved": true
+    }
+  ]
+}

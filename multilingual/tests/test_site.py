@@ -7,6 +7,15 @@ from multilingual import site
 from multilingual.cloud import cost_units,reserve_math
 
 class LocalizationTests(unittest.TestCase):
+    def test_sitemap_index_preserves_all_published_english_pages(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            (root/'index.html').write_text('<html><body>Home</body></html>')
+            (root/'old-page.html').write_text('<html><head><meta http-equiv="refresh" content="0;url=index.html"></head><body></body></html>')
+            (root/'sitemap.xml').write_text('<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://dommydom.com/sitemap-en.xml</loc></sitemap></sitemapindex>')
+            (root/'sitemap-en.xml').write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://dommydom.com/</loc></url><url><loc>https://dommydom.com/old-page.html</loc></url></urlset>')
+            self.assertEqual(site.pages(root),['index.html','old-page.html'])
+
     def test_html_preserves_code_and_translates_attributes(self):
         source='<html><head><title>Welcome home</title></head><body><style>.a{color:red}</style><script>const x="Do not modify";</script><input placeholder="Your name"><p>Hello world</p><p translate="no">Dominique Nelson</p></body></html>'
         document=site.Document(source)
@@ -27,15 +36,26 @@ class LocalizationTests(unittest.TestCase):
                 self.assertEqual(result.count('rel="canonical"'),1)
                 self.assertEqual(result.count('hreflang='),11)
                 self.assertIn('dir="'+('rtl' if lang in {'fa','ar'} else 'ltr')+'"',result)
-                self.assertIn('href="'+site.local_url('blog.html',lang)+'#latest"',result)
-                self.assertIn('src="/assets/app.js"',result)
-                self.assertIn('<base href="/">',result)
+                self.assertIn('href="'+site.local_url('blog.html',lang).lstrip('/')+'#latest"',result)
+                self.assertIn('src="assets/app.js"',result)
+                self.assertIn('<base href="'+('../' if lang=='en' else '../../')+'">',result)
 
     def test_changed_text_invalidates_only_that_segment(self):
         before=['Existing paragraph','Another paragraph']
         cache={site.key(t,'es'):'translation' for t in before}
         after=['Existing paragraph','Updated paragraph']
         self.assertEqual([t for t in after if site.key(t,'es') not in cache],['Updated paragraph'])
+
+    def test_nested_existing_base_and_toolbar_order_work_from_explorer(self):
+        source='<html><head><base href="../../"></head><body><header><div class="dd-header-tools"><a class="dd-home" href="index.html">Home</a><a class="dd-search" href="search.html">Search</a></div></header><img src="assets/photo.jpg"><a href="blog.html">Blog</a></body></html>'
+        cache={site.key(t,'es'):'Localized' for t in ['Home','Search','Blog']}
+        output=site.render(source,'life-changes/death/test.html','es',cache,['index.html','search.html','blog.html','life-changes/death/test.html'])
+        self.assertIn('<base href="../../../">',output)
+        self.assertIn('src="assets/photo.jpg"',output)
+        self.assertIn('href="es/blog.html"',output)
+        self.assertIn('href="es/search.html">Localized</a><!-- dommydom-i18n:selector:start -->',output)
+        self.assertIn('<svg aria-hidden="true"',output)
+        self.assertLess(output.index('<base '),output.index('<link '))
 
     def test_structured_seo_and_form_configuration_are_translated(self):
         source='<html><head><script type="application/ld+json">{"@type":"Article","headline":"My article","url":"https://dommydom.com/blog.html"}</script></head><body><script type="application/json">{"prompt":"Your goal","key":"goal"}</script></body></html>'
@@ -51,6 +71,28 @@ class LocalizationTests(unittest.TestCase):
         result=site.render('<html class="existing-theme" lang="en"><head></head><body></body></html>','index.html','fa',{},['index.html'])
         self.assertIn('class="existing-theme"',result)
         self.assertIn('lang="fa" dir="rtl"',result)
+
+    def test_legacy_title_listener_and_content_first_social_url_are_localized(self):
+        source='<html><head><meta content="https://dommydom.com/" property="og:url"><title>Home title</title><script>document.addEventListener("DOMContentLoaded",()=>{document.title="Home title";});</script></head><body></body></html>'
+        result=site.render(source,'index.html','es',{site.key('Home title','es'):'Titulo traducido'},['index.html'])
+        self.assertIn('document.title="Titulo traducido"',result)
+        self.assertIn('content="https://dommydom.com/es/" property="og:url"',result)
+        self.assertLess(result.index('<base '),result.index('<meta '))
+
+    def test_visible_source_selector_is_idempotent_and_regenerates_correct_locale(self):
+        source='<html><head><title>Home</title></head><body><header>Home</header><main>Home</main></body></html>'
+        english=site.render(source,'index.html','en',{},['index.html'])
+        self.assertEqual(english.count('id="dd-language"'),1)
+        self.assertIn('</header><!-- dommydom-i18n:selector:start -->',english)
+        self.assertEqual(site.render(english,'index.html','en',{},['index.html']).count('id="dommydom-locale"'),1)
+        cache={site.key('Home','es'):'Inicio',site.key('Language','es'):'Idioma'}
+        spanish=site.render(english,'index.html','es',cache,['index.html'])
+        self.assertEqual(spanish.count('id="dd-language"'),1)
+        self.assertEqual(spanish.count('id="dommydom-locale"'),1)
+        self.assertIn('"language": "es"',spanish)
+        self.assertIn('<option value="es" selected>',spanish)
+        self.assertIn('aria-label="Idioma"',spanish)
+        self.assertNotIn('</label>',spanish)
 
     def test_budget_limit_and_conservative_cost(self):
         self.assertEqual(cost_units(1_000_000),20_000_000)

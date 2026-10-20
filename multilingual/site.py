@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import html
+from functools import lru_cache
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -74,9 +75,17 @@ class Document(HTMLParser):
             a = self.pos() + len(data) - len(data.lstrip())
             self.spans.append((a, a + len(data.strip()), text, False))
 
+@lru_cache(maxsize=512)
+def document_spans(source):
+    return tuple(Document(source).spans)
+
 def pages(root=ROOT):
     # The existing sitemap is the publishing inventory, not audit copies or redirects.
     tree = ET.parse(root / 'sitemap.xml')
+    if tree.getroot().tag.endswith('sitemapindex'):
+        # After integration the root sitemap indexes all locales. Preserve the
+        # complete English publishing inventory, including retained URL aliases.
+        tree=ET.parse(root/'sitemap-en.xml')
     found = set()
     for node in tree.iter():
         if node.tag.endswith('}loc'):
@@ -92,6 +101,7 @@ def pages(root=ROOT):
 
 def dynamic_strings(root=ROOT):
     result = {'Language','Messages and voice','Your message','Communication unavailable. Please try again.','Original message','Listen','Voice translation unavailable.','Call segment ended. Select Start translated call to continue.','Language preference could not be saved.','Send message','Refresh messages','Record voice message','Send voice message','Start translated call','Stop','Sign in to view your messages.'}
+    result.update({'Please fill out this field.','Please enter a valid email address.','Please match the requested format.','Please enter a value in the allowed range.','Please check this value.'})
     for path in (root/'assets').glob('*.js'):
         if path.name.startswith('multilingual'):
             continue
@@ -122,19 +132,63 @@ def inventory(root=ROOT):
     texts = dynamic_strings(root)
     listing = pages(root)
     for path in listing:
-        texts.update(s[2] for s in Document((root/path).read_text(encoding='utf-8')).spans)
+        texts.update(s[2] for s in document_spans((root/path).read_text(encoding='utf-8')))
     return listing, sorted(texts)
 
 def translated(text, language, cache):
     return cache[key(text, language)]
 
+def copy_if_changed(source,destination):
+    """Avoid rewriting large unchanged photos/videos during incremental builds."""
+    source,destination=Path(source),Path(destination)
+    if destination.is_file():
+        a,b=source.stat(),destination.stat()
+        if a.st_size==b.st_size and a.st_mtime_ns==b.st_mtime_ns:return str(destination)
+    return shutil.copy2(source,destination)
+
 def local_url(path, language):
     return '/' + (language+'/' if language != 'en' else '') + ('' if path == 'index.html' else path)
 
+def strip_integration(source):
+    return re.sub(r'<!-- dommydom-i18n:(head|selector):start -->.*?<!-- dommydom-i18n:\1:end -->','',source,flags=re.S)
+
+def integration(path,language,cache):
+    origin=CONFIG['origin']
+    head=''.join(f'<link rel="alternate" hreflang="{lang}" href="{origin}{local_url(path,lang)}">' for lang in CONFIG['languages'])
+    head+=f'<link rel="alternate" hreflang="x-default" href="{origin}{local_url(path,"en")}">'
+    manifest={'language':language,'path':path,'rootPrefix':'../'*(path.count('/')+(language!='en')) or './','languages':CONFIG['languages'],'api':CONFIG['communications_api']}
+    head+='<link rel="stylesheet" href="assets/multilingual.css?v=header-globe-v3"><link rel="stylesheet" href="assets/audit-corrections.css"><script id="dommydom-locale" type="application/json">'+json.dumps(manifest,ensure_ascii=False).replace('<','\\u003c')+'</script>'
+    if language!='en':head+=f'<script src="assets/locales/{language}.js"></script>'
+    head+='<script defer src="assets/multilingual.js?v=header-globe-v3"></script>'
+    if CONFIG['communications_api']:head+='<script defer src="assets/multilingual-communications.js"></script>'
+    label='Language' if language=='en' else cache.get(key('Language',language),'Language')
+    options=''.join('<option value="'+code+'"'+(' selected' if code==language else '')+'>'+html.escape(name)+'</option>' for code,name in CONFIG['languages'].items())
+    globe='<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg>'
+    selector='<div class="dd-language-selector" translate="no">'+globe+'<select id="dd-language" name="website-language" aria-label="'+html.escape(label)+'">'+options+'</select></div>'
+    return '<!-- dommydom-i18n:head:start -->'+head+'<!-- dommydom-i18n:head:end -->','<!-- dommydom-i18n:selector:start -->'+selector+'<!-- dommydom-i18n:selector:end -->'
+
+def place_selector(source,selector):
+    search=re.search(r'<a\b[^>]*class=["\'][^"\']*\bdd-search\b[^"\']*["\'][^>]*>.*?</a>',source,re.S|re.I)
+    if search:return source[:search.end()]+selector+source[search.end():]
+    closing=re.search(r'</header\s*>',source,re.I)
+    if closing:return source[:closing.end()]+selector+source[closing.end():]
+    opening=re.search(r'<body\b[^>]*>',source,re.I)
+    if not opening:raise RuntimeError('Cannot place language selector: page has no body')
+    return source[:opening.end()]+selector+source[opening.end():]
+
+def set_html_language(source,language):
+    def replace(match):
+        tag=re.sub(r'''\s+(?:lang|dir)\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)''','',match[0][:-1],flags=re.I).rstrip()
+        return tag+f' lang="{language}" dir="{"rtl" if language in CONFIG["rtl"] else "ltr"}">'
+    return re.sub(r'<html\b[^>]*>',replace,source,count=1,flags=re.I)
+
 def render(source, path, language, cache, listing):
+    source=strip_integration(source)
     origin = CONFIG['origin']
+    original_base=re.search(r'<base\b[^>]*href=["\']([^"\']*)',source,re.I)
+    source_base=urljoin(origin+'/'+path,original_base[1]) if original_base else origin+'/'+path
     if language != 'en':
-        for a,b,text,attribute in reversed(Document(source).spans):
+        for a,b,text,attribute in reversed(document_spans(source)):
             source = source[:a] + html.escape(translated(text,language,cache), quote=attribute) + source[b:]
         def localize_json(match):
             try:obj=json.loads(match[2])
@@ -153,43 +207,52 @@ def render(source, path, language, cache, listing):
             localized=localized_urls(localized)
             return match[1]+json.dumps(localized,ensure_ascii=False).replace('<','\\u003c')+match[3]
         source=JSON_SCRIPT.sub(localize_json,source)
+        # A legacy homepage listener assigns its English title after load.
+        # Localize that literal as well as the static title element.
+        def title_literal(match):
+            value=match[3]
+            return match[1]+json.dumps(cache.get(key(value,language),value),ensure_ascii=False)
+        source=re.sub(r'''(document\.title\s*=\s*)(["'])(.*?)\2''',title_literal,source)
     source = re.sub(r'<link\b[^>]*\brel=["\'](?:canonical|alternate)["\'][^>]*>', '', source, flags=re.I)
-    def html_language(match):
-        tag=re.sub(r'''\s+(?:lang|dir)\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)''','',match[0][:-1],flags=re.I).rstrip()
-        return tag+f' lang="{language}" dir="{"rtl" if language in CONFIG["rtl"] else "ltr"}">'
-    source = re.sub(r'<html\b[^>]*>', html_language, source, count=1, flags=re.I)
+    source = set_html_language(source,language)
     # Root absolute resource paths keep CSS, JS, images and fetches correct in nested locales.
     def link(match):
         name, quote, value = match[1], match[2], html.unescape(match[3])
         if value.startswith(('#','mailto:','tel:','data:','javascript:','//')):
             return match[0]
-        resolved = urlsplit(urljoin(origin+'/'+path, value))
+        resolved = urlsplit(urljoin(source_base, value))
         if resolved.netloc != urlsplit(origin).netloc:
             return match[0]
         target = resolved.path.lstrip('/') or 'index.html'
         suffix = ('?'+resolved.query if resolved.query else '') + ('#'+resolved.fragment if resolved.fragment else '')
         if name.lower() == 'href' and target in listing:
-            value = local_url(target,language)+suffix
+            value = (language+'/' if language!='en' else '')+target+suffix
         else:
-            value = '/'+target+suffix
+            value = target+suffix
         return name+'='+quote+html.escape(value,quote=True)+quote
     # Restrict URL edits to actual tags, never inline JavaScript strings.
     source = re.sub(r'<(?:a|link|script|img|source|video|audio|form)\b[^>]*>', lambda m: re.sub(r'''\b(href|src|poster|action)\s*=\s*(["'])(.*?)\2''',link,m[0],flags=re.I), source,flags=re.I)
-    source = re.sub(r'\b(srcset|imagesrcset)="([^"]*)"',lambda m:m[1]+'="'+re.sub(r'(?<![\w/])assets/', '/assets/',m[2])+'"',source)
-    source = re.sub(r'url\((["\']?)assets/', r'url(\1/assets/',source)
-    source = re.sub(r'(<meta[^>]*(?:property|name)=["\'](?:og:url|twitter:url)["\'][^>]*content=)["\'][^"\']*["\']',lambda m:m[1]+'"'+origin+local_url(path,language)+'"',source)
+    def srcset(match):
+        items=[]
+        for part in match[2].split(','):
+            tokens=part.strip().split()
+            if not tokens:continue
+            resolved=urlsplit(urljoin(source_base,tokens[0]))
+            if resolved.netloc==urlsplit(origin).netloc:tokens[0]=resolved.path.lstrip('/')
+            items.append(' '.join(tokens))
+        return match[1]+'="'+', '.join(items)+'"'
+    source = re.sub(r'\b(srcset|imagesrcset)="([^"]*)"',srcset,source)
+    source = re.sub(r'url\((["\']?)/assets/', r'url(\1assets/',source)
+    def seo_url(match):
+        if not re.search(r'(?:property|name)=["\'](?:og:url|twitter:url)["\']',match[0],re.I):return match[0]
+        return re.sub(r'content=(["\']).*?\1',lambda _: 'content="'+origin+local_url(path,language)+'"',match[0],flags=re.S)
+    source=re.sub(r'<meta\b[^>]*>',seo_url,source,flags=re.I)
     source = re.sub(r'<base\b[^>]*>', '', source, flags=re.I)
-    seo = f'<base href="/"><link rel="canonical" href="{origin}{local_url(path,language)}">'
-    seo += ''.join(f'<link rel="alternate" hreflang="{lang}" href="{origin}{local_url(path,lang)}">' for lang in CONFIG['languages'])
-    seo += f'<link rel="alternate" hreflang="x-default" href="{origin}{local_url(path,"en")}">'
-    manifest = {'language':language,'path':path,'languages':CONFIG['languages'],'api':CONFIG['communications_api']}
-    seo += '<link rel="stylesheet" href="/assets/multilingual.css"><script id="dommydom-locale" type="application/json">'+json.dumps(manifest,ensure_ascii=False).replace('<','\\u003c')+'</script>'
-    if language != 'en':
-        seo += f'<script src="/assets/locales/{language}.js"></script>'
-    seo += '<script defer src="/assets/multilingual.js"></script>'
-    if CONFIG['communications_api']:
-        seo += '<script defer src="/assets/multilingual-communications.js"></script>'
-    return source.replace('</head>',seo+'</head>',1)
+    root_prefix='../'*(path.count('/')+(language!='en')) or './'
+    source=re.sub(r'<head\b[^>]*>',lambda m:m[0]+f'<base href="{root_prefix}">',source,count=1,flags=re.I)
+    seo = f'<link rel="canonical" href="{origin}{local_url(path,language)}">'
+    head,selector=integration(path,language,cache)
+    return place_selector(source.replace('</head>',seo+head+'</head>',1),selector)
 
 def build(root=ROOT, output=None):
     listing,texts = inventory(root)
@@ -199,10 +262,11 @@ def build(root=ROOT, output=None):
         raise RuntimeError(f'{len(missing)} translations missing; refusing partial multilingual publication')
     output = output or root/'dist'
     output.mkdir(exist_ok=True,parents=True)
-    shutil.copytree(root/'assets',output/'assets',dirs_exist_ok=True)
+    sources={path:(root/path).read_text(encoding='utf-8') for path in listing}
+    shutil.copytree(root/'assets',output/'assets',dirs_exist_ok=True,copy_function=copy_if_changed)
     for media in root.iterdir():
         if media.is_file() and media.suffix.lower() in {'.png','.jpg','.jpeg','.webp','.gif','.svg','.pdf','.mp4','.webm','.ico','.woff','.woff2'}:
-            shutil.copy2(media,output/media.name)
+            copy_if_changed(media,output/media.name)
     # Preserve published redirect aliases as well as canonical content.
     for folder in ['', 'blog', 'life-changes', 'design-questions', 'short-term-rental-questions']:
         for alias in (root/folder).glob('*.html'):
@@ -217,7 +281,7 @@ def build(root=ROOT, output=None):
         for path in listing:
             destination=output/(lang if lang!='en' else '')/path
             destination.parent.mkdir(parents=True,exist_ok=True)
-            destination.write_text(render((root/path).read_text(encoding='utf-8'),path,lang,cache,listing),encoding='utf-8')
+            destination.write_text(render(sources[path],path,lang,cache,listing),encoding='utf-8')
             urls.append(CONFIG['origin']+local_url(path,lang))
         sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
         for url in urls: ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
@@ -227,6 +291,8 @@ def build(root=ROOT, output=None):
             catalog={text:translated(text,lang,cache) for text in texts}
             (folder/f'{lang}.js').write_text('window.DOMMYDOM_TRANSLATIONS='+json.dumps(catalog,ensure_ascii=False).replace('<','\\u003c')+';',encoding='utf-8')
     index=ET.Element('sitemapindex',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    from .aliases import write_aliases
+    write_aliases(output,listing,CONFIG['languages'],CONFIG['origin'])
     for lang in CONFIG['languages']:
         ET.SubElement(ET.SubElement(index,'sitemap'),'loc').text=CONFIG['origin']+f'/sitemap-{lang}.xml'
     ET.ElementTree(index).write(output/'sitemap.xml',encoding='utf-8',xml_declaration=True)

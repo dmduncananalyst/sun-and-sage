@@ -1,8 +1,30 @@
 # DommyDom multilingual implementation status
 
+## Current local review instruction
+
+The user subsequently authorized generating every language without stopping at
+the earlier $20 threshold and instructed that all further work remain local.
+No additional budget confirmation is required for this initial generation.
+No commit, push, publish or deployment is authorized before the user's review.
+The previously created local commits remain unchanged.
+
+Google Cloud sign-in is now complete. The existing project is active, billing
+is enabled, all nine requested Translation languages are confirmed by the API,
+and the required service APIs have been enabled in that same project. The
+existing daily translation quota was read and left unchanged. Credentials are
+in the ignored local tools profile and are not included in the site output.
+
+`local_generate.py` now performs the explicitly authorized initial generation
+using batched Translation requests, a durable local SQLite deduplication cache,
+and permanent `translations.json` output. It makes no Firestore, publishing or
+deployment calls. Its initial-generation override is separate from future
+automated-workflow limits. `local-generation-report.json` records actual results.
+The release workflow is disabled unless `DOMMYDOM_RELEASE_APPROVED` is true.
+
 The repository now contains a static translation builder, incremental translation
 worker, GitHub Pages publishing workflow, and an authenticated communications
-service. This is implementation code, not a claim that cloud services are connected.
+service architecture. Translation is connected and used for saved local output;
+messaging and voice have not been deployed or tested end to end.
 
 ## Confirmed environment
 
@@ -10,17 +32,17 @@ The website is static HTML at `dommydom.com`, with GitHub origin
 `dmduncananalyst/sun-and-sage`. Existing contact submissions go directly to HubSpot.
 Telephone and email links remain intact. There was no chat, user identity system,
 voice storage, or calling backend to extend. The `.openai/hosting.json` identifier
-is a Sites identifier, not a Google Cloud project. No Google Cloud project or
-Application Default Credentials were found locally. The user subsequently supplied
-the existing project ID `project-2e0d7d9d-d482-4fcf-b6d`; it is saved in config.
-No paid requests were made.
+is a Sites identifier, not a Google Cloud project. The existing Google Cloud project
+`project-2e0d7d9d-d482-4fcf-b6d` is configured and authenticated. Actual NMT requests
+have generated the nine saved language sets; see `local-generation-report.json`.
 
 ## Saved website translations
 
 `site.py` inventories canonical sitemap pages and English content directories,
 extracts text and accessibility/SEO attributes, and preserves scripts and styles.
-`translate.py` requests only missing content hashes. Successful output is saved
-immediately in `translations.json` and durably cached in Firestore. Identical text
+`local_generate.py` requests only missing content hashes. Successful output is saved
+immediately in the local SQLite cache and `translations.json`. The future deployed
+`translate.py` adapter uses a Firestore cache. Identical text
 across pages shares a translation. Updated text gets a new hash; unchanged text
 incurs no translation request.
 
@@ -40,7 +62,7 @@ site. This repository setting has not yet been verified or changed.
 
 ## Cost enforcement
 
-Every translation request reserves its maximum estimated gross NMT cost in a
+The future automated translation workflow reserves estimated gross NMT cost in a
 Firestore transaction, shared between builds and communications. No free credits
 are assumed. A verified current-month baseline of existing project translation
 spend is mandatory in `dommydom_budget_baselines/YYYY-MM`, with `verified: true`
@@ -57,11 +79,11 @@ requests against provider logs before releasing them. Voice processing has a
 separate default-disabled budget and requires verified rates. Firestore/storage/
 hosting costs are separate from translation charges.
 
-The initial inventory is approximately 648,000 unique source characters per
-language, or about $117 for nine languages before credits at the configured
-$20/million rate. Full initial generation cannot fit a $20 monthly gross cap.
-Generation can continue across months after baseline reconciliation; no limit
-was raised to force completion.
+The initial local generation was explicitly authorized to proceed without the
+earlier monthly threshold stopping it. Its batch ledger is local and its source
+character totals are recorded in `local-generation-report.json`. That override
+does not automatically authorize a future unattended release or change existing
+Google Cloud daily quotas.
 
 ## Private messaging and voice architecture
 
@@ -116,12 +138,11 @@ Authoritative references reviewed:
 
 ## Exact external access still required
 
-The project ID is now configured, but an authenticated account authorized for
-that project is missing. Required permissions include Cloud Translation User,
-Service Usage Consumer and read-only service/billing status access. The private
-cache and cost ledger require an existing Firestore database plus Datastore User
-access. API enablement and current quota/billing state cannot be verified without
-this access. No project, billing account, database or bucket was created.
+Local Google Cloud authentication and Translation access are verified. The future
+private messaging cache and automated cost ledger require a Firestore database
+plus Datastore User access. API enablement, billing and existing daily quota were
+verified; `cloud-status.json` records the read results. No project, billing account,
+database or bucket was created. No release is authorized pending local review.
 
 GitHub automation requires a Workload Identity provider bound to this repository,
 a service account authorized for translation and Firestore, and GitHub variables

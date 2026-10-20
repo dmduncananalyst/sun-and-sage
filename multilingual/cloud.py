@@ -28,8 +28,9 @@ class Cloud:
         self.project=os.environ.get('GOOGLE_CLOUD_PROJECT') or CONFIG['google_project_id']
         if not self.project or self.project.startswith('appgprj_'):
             raise RuntimeError('Existing GOOGLE_CLOUD_PROJECT and authenticated Google Cloud identity are required')
-        credentials, _=google.auth.default(scopes=['https://www.googleapis.com/auth/cloud-platform'])
+        credentials, _=google.auth.default(scopes=['https://www.googleapis.com/auth/cloud-platform'],quota_project_id=self.project)
         self.http=AuthorizedSession(credentials)
+        self.admin_http=AuthorizedSession(credentials.with_quota_project(None))
         self.db=firestore.Client(project=self.project,credentials=credentials)
         self.firestore=firestore
 
@@ -40,7 +41,7 @@ class Cloud:
             r=self.http.get(f'https://serviceusage.googleapis.com/v1/projects/{self.project}/services/{service}',timeout=30)
             r.raise_for_status()
             if r.json().get('state')!='ENABLED': raise RuntimeError(service+' is not enabled')
-        r=self.http.get(f'https://cloudbilling.googleapis.com/v1/projects/{self.project}/billingInfo',timeout=30)
+        r=self.admin_http.get(f'https://cloudbilling.googleapis.com/v1/projects/{self.project}/billingInfo',timeout=30)
         r.raise_for_status()
         if not r.json().get('billingEnabled'): raise RuntimeError('Existing project billing is not enabled')
         supported=self.http.get(f'https://translation.googleapis.com/v3/projects/{self.project}/locations/global/supportedLanguages',timeout=30)

@@ -1,0 +1,13 @@
+/* October 18 audit: preserve existing card layouts while showing whole photos. */
+html body.ss18 :is(.blogCard,.blog-card) figure img,
+html body.ss18 :is(.ss18-card-photo,.v27-photo-frame,.loanHubItem>a.ss18-card-photo) img,
+html body.ss18 [data-full-photo-frame] img{object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important}
+html body.ss18 .dommydom-new-blog .ss4711-photo{height:auto!important;max-height:none!important;overflow:visible!important}
+html body.ss18 .dommydom-new-blog .ss4711-photo img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;filter:none!important;transform:none!important}
+html body.ss18 .loanHubGrid>.loanHubItem[data-editorial-batch="20261020"]>.ss18-card-photo{aspect-ratio:3/2!important;height:auto!important;background:#f8f7f3!important;overflow:hidden!important}
+/* Match the existing archive's repeated-ID specificity override. */
+html body.ss18 main#main#main#main#main#main.loanHubPage .loanHubItem[data-editorial-batch="20261020"]>a.ss18-card-photo>img,
+html body.ss18 .loanHubGrid>.loanHubItem[data-editorial-batch="20261020"]>.ss18-card-photo>img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important}
+/* These two source photos contain a white right edge; hide it inside the card. */
+html body.ss18 main#main#main#main#main#main.loanHubPage .loanHubItem[data-editorial-batch="20261020"]>a.ss18-card-photo{overflow:hidden!important}
+html body.ss18 main#main#main#main#main#main.loanHubPage .loanHubItem[data-editorial-batch="20261020"]>a.ss18-card-photo>img:is([src$="/dommydom_porter_ranch.jpg"],[src$="/dommydom_encino.jpg"]){transform:scale(1.04)!important;transform-origin:center!important;transition:none!important}

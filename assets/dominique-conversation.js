@@ -249,7 +249,7 @@
     ].filter(f=>f.value);
     try{
       const endpoint='https://api-na2.hsforms.com/submissions/v3/integration/submit/247079925/da6d1bd8-d7e9-4ff5-91a3-efa6c8abadfc';
-      const res=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields,context:{...(cookie?{hutk:cookie}:{}),pageUri:location.href,pageName:document.title}})});
+      const res=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields,context:{...(cookie?{hutk:cookie}:{}),pageUri:location.protocol==='file:'?(document.querySelector('link[rel="canonical"]')?.href||'https://dommydom.com/'):location.href,pageName:document.title}})});
       if(!res.ok) throw new Error('Submission failed');
       stage.innerHTML = `<div class="sunConversation__done"><h3>Thank you.</h3><p>Dominique will follow up with you shortly.</p><button type="button" class="sunConversation__return">Back to the page</button></div>`;
       stage.querySelector('.sunConversation__return').textContent=cfg.inline?'Send Another Message':'Back to the page';
@@ -284,11 +284,19 @@
     e.stopImmediatePropagation();
     openConversation(trigger);
   }, true);
+  document.addEventListener('input',e=>{if(e.target.matches?.('[name="minPrice"],[name="maxPrice"]'))e.target.form?.querySelector('[name="maxPrice"]')?.setCustomValidity('')},true);
   document.addEventListener('submit', e => {
     const form = e.target.closest?.('[data-sun-conversation-form]');
     if (!form) return;
     e.preventDefault();
     e.stopImmediatePropagation();
+    const city=form.querySelector('[name="city"]');
+    if(city){city.required=true;if(!city.value.trim()){city.reportValidity();city.focus();return;}}
+    const readPrice=name=>{const value=form.querySelector(`[name="${name}"]`)?.value.trim()||'';return value?Number(value.replace(/[$,\s]/g,'')):null};
+    const minimum=readPrice('minPrice'),maximum=readPrice('maxPrice');
+    const priceField=form.querySelector('[name="maxPrice"]');
+    if(priceField){priceField.setCustomValidity('');if((minimum!==null&&(!Number.isFinite(minimum)||minimum<0))||(maximum!==null&&(!Number.isFinite(maximum)||maximum<0))||(minimum!==null&&maximum!==null&&minimum>maximum)){priceField.setCustomValidity(window.dommydomTranslateSaved?.('Enter a valid price range with the minimum no greater than the maximum.')||'Enter a valid price range with the minimum no greater than the maximum.');priceField.reportValidity();return;}}
+    if(!form.reportValidity())return;
     const details = [...form.querySelectorAll('input,select,textarea')].map(field => {
       const label = field.closest('label')?.querySelector('span')?.textContent.trim() || field.name;
       return field.value.trim() ? `${label}: ${field.value.trim()}` : '';
