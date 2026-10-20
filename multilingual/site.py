@@ -132,6 +132,7 @@ def local_url(path, language):
     return '/' + (language+'/' if language != 'en' else '') + ('' if path == 'index.html' else path)
 
 def render(source, path, language, cache, listing):
+    origin = CONFIG['origin']
     if language != 'en':
         for a,b,text,attribute in reversed(Document(source).spans):
             source = source[:a] + html.escape(translated(text,language,cache), quote=attribute) + source[b:]
@@ -139,11 +140,24 @@ def render(source, path, language, cache, listing):
             try:obj=json.loads(match[2])
             except ValueError:return match[0]
             localized=json_strings(obj,lambda text:translated(text,language,cache))
+            def localized_urls(value):
+                if isinstance(value,list):return [localized_urls(v) for v in value]
+                if isinstance(value,dict):
+                    result={k:localized_urls(v) for k,v in value.items()}
+                    if 'inLanguage' in result:result['inLanguage']=language
+                    return result
+                if isinstance(value,str) and value.startswith(origin+'/'):
+                    parsed=urlsplit(value);target=parsed.path.lstrip('/') or 'index.html'
+                    if target in listing:return origin+local_url(target,language)+('#'+parsed.fragment if parsed.fragment else '')
+                return value
+            localized=localized_urls(localized)
             return match[1]+json.dumps(localized,ensure_ascii=False).replace('<','\\u003c')+match[3]
         source=JSON_SCRIPT.sub(localize_json,source)
-    origin = CONFIG['origin']
     source = re.sub(r'<link\b[^>]*\brel=["\'](?:canonical|alternate)["\'][^>]*>', '', source, flags=re.I)
-    source = re.sub(r'<html\b[^>]*>', f'<html lang="{language}" dir="{"rtl" if language in CONFIG["rtl"] else "ltr"}">', source, count=1, flags=re.I)
+    def html_language(match):
+        tag=re.sub(r'''\s+(?:lang|dir)\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)''','',match[0][:-1],flags=re.I).rstrip()
+        return tag+f' lang="{language}" dir="{"rtl" if language in CONFIG["rtl"] else "ltr"}">'
+    source = re.sub(r'<html\b[^>]*>', html_language, source, count=1, flags=re.I)
     # Root absolute resource paths keep CSS, JS, images and fetches correct in nested locales.
     def link(match):
         name, quote, value = match[1], match[2], html.unescape(match[3])

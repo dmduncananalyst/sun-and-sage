@@ -45,6 +45,12 @@ class LocalizationTests(unittest.TestCase):
         self.assertIn('Tu objetivo',result)
         self.assertIn('"key": "goal"',result)
         self.assertIn('"@type": "Article"',result)
+        self.assertIn('https://dommydom.com/es/blog.html',result)
+
+    def test_existing_html_classes_are_preserved(self):
+        result=site.render('<html class="existing-theme" lang="en"><head></head><body></body></html>','index.html','fa',{},['index.html'])
+        self.assertIn('class="existing-theme"',result)
+        self.assertIn('lang="fa" dir="rtl"',result)
 
     def test_budget_limit_and_conservative_cost(self):
         self.assertEqual(cost_units(1_000_000),20_000_000)
