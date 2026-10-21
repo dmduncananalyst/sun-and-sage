@@ -2,20 +2,20 @@
   "local_only": true,
   "published": false,
   "languages": {
-    "ar": 6520,
-    "es": 6520,
-    "fa": 6520,
-    "hy": 6520,
-    "ko": 6520,
-    "ru": 6520,
-    "te": 6520,
-    "tl": 6520,
-    "zh-CN": 6520
+    "ar": 6563,
+    "es": 6563,
+    "fa": 6563,
+    "hy": 6563,
+    "ko": 6563,
+    "ru": 6563,
+    "te": 6563,
+    "tl": 6563,
+    "zh-CN": 6563
   },
-  "source_segments": 6493,
-  "requests": 1260,
-  "source_characters_sent_or_reserved": 6094800,
-  "gross_reserved_usd": 121.896,
+  "source_segments": 6536,
+  "requests": 1278,
+  "source_characters_sent_or_reserved": 6152472,
+  "gross_reserved_usd": 123.04944,
   "failures": [],
   "initial_generation_override_authorized": true
 }

@@ -214,7 +214,7 @@ html:root body.ss18 #dd-site-footer .legal{flex-direction:row!important;flex-wra
  html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group.is-open>a{color:#343c32!important;font-weight:600!important;text-decoration:none!important;}
  html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group>.dd-panel{padding:0 0 8px 13px!important;margin:0 4px 6px!important;width:calc(100% - 8px)!important;border-left:1px solid #bfc4b4!important;}
  html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group>.dd-panel a{font:400 13px/1.45 Arial,sans-serif!important;letter-spacing:0!important;min-height:40px!important;padding:9px 0!important;}
- html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group.is-open>.dd-panel{animation:dd-submenu-reveal .16s ease-out;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group.is-open>.dd-panel{animation:none;}
  html:root body.ss18 #dd-header.is-tablet #dd-navigation>a[aria-current="page"]{font-weight:600!important;text-decoration:underline!important;text-underline-offset:5px!important;}
 }
 @keyframes dd-submenu-reveal{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
@@ -233,3 +233,8 @@ html:root body.ss18 main#main#main#main#main#main .portfolioParentCard .ddn-view
  html:root body.ss18 main#main#main#main#main#main .portfolioParentCard h2,html:root body.ss18 main#main#main#main#main#main .portfolioParentCard .ddn-portfolio-name,html:root body.ss18 main#main#main#main#main#main .ss22-project-grid .ss22-project strong{font:400 16px/1.25 Arial,sans-serif!important;}
 }
 
+
+/* Navigation opens immediately in place, with no sliding or swipe rail. */
+html:root body.ss18 #dd-header:not(.is-compact) #dd-navigation#dd-navigation#dd-navigation{flex-wrap:nowrap!important;overflow:visible!important;scroll-behavior:auto!important;}
+#dd-header.has-nav-rail::after{display:none!important;}
+html:root body.ss18 #dd-header :is(#dd-navigation,.dd-panel,.dd-flyout-panel),#dd-language-menu,.dd-menu-backdrop{animation:none!important;transition:none!important;transform:none!important;}

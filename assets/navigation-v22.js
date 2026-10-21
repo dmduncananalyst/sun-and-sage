@@ -35,8 +35,30 @@ function layout(){
  primary.forEach(g=>{const a=trigger(g);a.setAttribute('aria-haspopup','true');a.setAttribute('aria-expanded',String(g.classList.contains('is-open')));a.setAttribute('aria-controls',panel(g).id);});
  if(compact){if(contacts.parentElement!==nav)nav.append(contacts);}else if(contacts.parentElement!==header)header.insertBefore(contacts,nav);
  position();groups.filter(g=>g.classList.contains('is-open')).forEach(place);
- const rail=!compact&&nav.scrollWidth>nav.clientWidth+1;header.classList.toggle('has-nav-rail',rail);header.classList.toggle('nav-at-end',nav.scrollLeft+nav.clientWidth>=nav.scrollWidth-1);
- nav.setAttribute('aria-label',rail?'Main navigation — swipe or scroll horizontally for more links':'Main navigation');
+ header.classList.remove('has-nav-rail','nav-at-end');
+ nav.setAttribute('aria-label','Main navigation');
+ fitNavigation();
+}
+// Size the complete row in place, without scrolling, clipping, or moving it.
+function fitNavigation(){
+ if(compact)return;
+ const links=items.map(e=>e.matches('.dd-group')?trigger(e):e).filter(e=>e.matches('a'));
+ // Reserve separation first, then fit the text into the remaining width.
+ // Long translations must never consume the gaps between destinations.
+ const gap=innerWidth>=1200?24:12;
+ nav.style.setProperty('gap',gap+'px','important');
+ links.forEach(a=>{
+  a.style.removeProperty('font-size');
+  a.style.setProperty('letter-spacing','0','important');
+  a.style.setProperty('padding-left','0','important');
+  a.style.setProperty('padding-right','0','important');
+ });
+ const widths=()=>items.reduce((sum,e)=>sum+e.getBoundingClientRect().width,0);
+ const available=nav.clientWidth-gap*Math.max(0,items.length-1)-2;
+ for(let pass=0;pass<3&&widths()>available;pass++){
+  const factor=available/widths();
+  links.forEach(a=>a.style.setProperty('font-size',(parseFloat(getComputedStyle(a).fontSize)*factor)+'px','important'));
+ }
 }
 // Keep parent destinations explicit in inline menus, and avoid a second nested accordion.
 primary.forEach(g=>{const a=trigger(g),content=g.querySelector('.dd-panel-content');if(![...content.children].some(c=>c.matches('a')&&c.getAttribute('href')===a.getAttribute('href'))){const overview=a.cloneNode(true);overview.className='dd-parent-link';overview.removeAttribute('aria-haspopup');overview.removeAttribute('aria-expanded');content.prepend(overview);}});
@@ -56,6 +78,6 @@ document.addEventListener('keydown',e=>{pointer='keyboard';if(e.key==='Escape'){
  if(e.key==='Tab'&&!backdrop.hidden){const active=features.find(g=>g.classList.contains('is-open')),els=active?[trigger(active),...panel(active).querySelectorAll('a[href],button')]:[toggle,...nav.querySelectorAll('a[href],button')];const visible=els.filter(el=>el.getClientRects().length&&!el.disabled);if(visible.length){e.preventDefault();const current=visible.indexOf(document.activeElement),next=current<0?(e.shiftKey?visible.length-1:0):(current+(e.shiftKey?-1:1)+visible.length)%visible.length;visible[next].focus({preventScroll:true});}}});
 function reposition(){position();const active=groups.find(g=>g.classList.contains('is-open'));if(active&&!compact&&trigger(active).getBoundingClientRect().bottom<=0){closeAll();return;}groups.filter(g=>g.classList.contains('is-open')).forEach(place);flyouts.filter(g=>g.classList.contains('is-open')).forEach(placeFlyout);}
 window.addEventListener('resize',()=>{if(innerWidth!==lastWidth){lastWidth=innerWidth;closeAll();layout();}else reposition();});window.addEventListener('scroll',reposition,{passive:true});window.addEventListener('pageshow',e=>{if(e.persisted)closeAll();layout();});document.querySelector('link[data-dommydom-navigation]')?.addEventListener('load',layout);document.fonts.ready.then(layout);new ResizeObserver(position).observe(header);
-nav.addEventListener('scroll',()=>{header.classList.toggle('nav-at-end',nav.scrollLeft+nav.clientWidth>=nav.scrollWidth-1);if(!compact)groups.filter(g=>g.classList.contains('is-open')).forEach(place);},{passive:true});
+
 const current=new URL(location.href);header.querySelectorAll('a[href]').forEach(a=>{const url=new URL(a.href);if(url.pathname===current.pathname&&!url.hash)a.setAttribute('aria-current','page');});layout();
 })();
