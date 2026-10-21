@@ -1,4 +1,13 @@
 /* October 18 audit: preserve existing card layouts while showing whole photos. */
+/* Match the approved five-statistics row at every tablet width. */
+@media(min-width:600px) and (max-width:1199px){
+ html:root body.ss18 main#main#main#main#main#main#main#main .ss23-numbers .v4-stats{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:0!important}
+ html:root body.ss18 main#main#main#main#main#main#main#main .ss23-numbers .v4-stats>.v4-stat{grid-column:auto!important;grid-row:auto!important;min-width:0!important;border-bottom:0!important;border-right:1px solid #cbd0c3!important}
+ html:root body.ss18 main#main#main#main#main#main#main#main .ss23-numbers .v4-stats>.v4-stat:last-child{border-right:0!important}
+ html:root body.ss18 main#main#main#main#main#main#main#main .ss23-numbers .v4-stat strong{font-size:clamp(18px,2.7vw,34px)!important;white-space:nowrap!important}
+}
+/* A short preview window must not collapse the collage to a narrow column. */
+@media(min-width:821px){html body main#main#main#main#main#main#main#main .propertyCollageHero{width:min(1240px,calc(100% - 48px))!important}}
 html body.ss18 :is(.blogCard,.blog-card) figure img,
 html body.ss18 :is(.ss18-card-photo,.v27-photo-frame,.loanHubItem>a.ss18-card-photo) img,
 html body.ss18 [data-full-photo-frame] img{object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important}

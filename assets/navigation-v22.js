@@ -13,10 +13,6 @@ function syncOverlay(){const locked=header.classList.contains('menu-is-open')||h
 function closeAll(restore=false){const feature=features.find(g=>g.classList.contains('is-open')),menu=header.classList.contains('menu-is-open');groups.forEach(close);flyouts.forEach(close);header.classList.remove('menu-is-open','feature-is-open');toggle.setAttribute('aria-expanded','false');toggle.textContent='Menu';syncOverlay();if(restore){suppressFocus=true;(feature?trigger(feature):menu?toggle:null)?.focus({preventScroll:true});queueMicrotask(()=>suppressFocus=false);}}
 function position(){const root=document.documentElement,gutter=parseFloat(getComputedStyle(header).paddingLeft),width=Math.min(480,root.clientWidth-2*gutter);root.style.setProperty('--dd-header-bottom',Math.max(0,header.getBoundingClientRect().bottom)+'px');root.style.setProperty('--dd-menu-width',width+'px');root.style.setProperty('--dd-menu-left',Math.max(gutter,root.clientWidth-gutter-width)+'px');}
 function place(g){if(compact&&primary.includes(g))return;const p=panel(g),r=trigger(g).getBoundingClientRect(),vw=document.documentElement.clientWidth;
- if(header.classList.contains('is-tablet')&&primary.includes(g)){
-  const width=Math.min(360,vw-232),left=216,top=Math.max(140,Math.min(r.top,innerHeight-p.scrollHeight-16));
-  p.style.setProperty('--dd-panel-left',left+'px');p.style.setProperty('--dd-panel-top',top+'px');p.style.setProperty('--dd-panel-width',width+'px');p.style.setProperty('--dd-band-content-left','0px');p.style.setProperty('--dd-band-content-width','100%');return;
- }
 
  let width=g.matches('.dd-neighborhoods')?(vw>1100?720:vw>600?610:vw-32):g.matches('.dd-search')?246:g.matches('.dd-buyers')?252:272;
  // Anchor each dropdown to its own label; only constrain it at the viewport edge.
@@ -35,7 +31,8 @@ function openMenu(){if(!compact)return;closeAll();position();header.classList.ad
 // Fit the utility composition and the navigation, with space beyond their text widths.
 function layout(){
  const next=innerWidth<600;if(next!==compact)closeAll();compact=next;
- header.classList.toggle('is-compact',compact);header.classList.toggle('is-tablet',!compact&&innerWidth<1200);document.body.classList.toggle('dd-tablet-navigation',!compact&&innerWidth<1200);
+ header.classList.toggle('is-compact',compact);header.classList.toggle('is-tablet',!compact&&innerWidth<1200);document.body.classList.remove('dd-tablet-navigation');
+ primary.forEach(g=>{const a=trigger(g);a.setAttribute('aria-haspopup','true');a.setAttribute('aria-expanded',String(g.classList.contains('is-open')));a.setAttribute('aria-controls',panel(g).id);});
  if(compact){if(contacts.parentElement!==nav)nav.append(contacts);}else if(contacts.parentElement!==header)header.insertBefore(contacts,nav);
  position();groups.filter(g=>g.classList.contains('is-open')).forEach(place);
  const rail=!compact&&nav.scrollWidth>nav.clientWidth+1;header.classList.toggle('has-nav-rail',rail);header.classList.toggle('nav-at-end',nav.scrollLeft+nav.clientWidth>=nav.scrollWidth-1);

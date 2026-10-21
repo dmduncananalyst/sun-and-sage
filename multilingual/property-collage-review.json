@@ -1,0 +1,54 @@
+{
+  "local_only": true,
+  "cases": [
+    {
+      "width": 900,
+      "height": 535,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": true
+    },
+    {
+      "width": 1024,
+      "height": 535,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": true
+    },
+    {
+      "width": 1440,
+      "height": 600,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "four_original_photos_preserved": true,
+      "comfortable_title_width": false
+    }
+  ]
+}

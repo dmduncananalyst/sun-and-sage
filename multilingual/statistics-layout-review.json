@@ -1,0 +1,70 @@
+{
+  "local_only": true,
+  "cases": [
+    {
+      "width": 600,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 640,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 744,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 768,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 800,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 834,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 900,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 960,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 1024,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 1100,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 1199,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 1280,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    },
+    {
+      "width": 1440,
+      "all_five_statistics_in_one_row": true,
+      "numbers_fit_columns": true
+    }
+  ]
+}

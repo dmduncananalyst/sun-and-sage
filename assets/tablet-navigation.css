@@ -9,7 +9,7 @@
   .ss21-fact-grid,.ss-city-card-grid,.ss23-regions,.estateRoutes,
   .f4-breakdown,.ss24-roadmap,.ss24-eligibility,.ss90-eval-grid,
   .dd-buy-benefits,.dd-buy-reach-grid,.v12-pm-service-list,
-  .v4-stats,.v4-ranks,.sageStatRail,.ss22-city-highlights,
+  .v4-ranks,.sageStatRail,.ss22-city-highlights,
   .ss22-platform-stats,.ss22-print-gallery,.ss23-awards>div
  ){
   display:grid!important;
@@ -17,7 +17,7 @@
  }
  /* Featured desktop spans must not create an implicit third tablet column. */
  html:root body.ss18 :is(main#main#main#main#main#main#main,main#top#top#top#top#top#top) :is(
-  .considerations-grid,.dd-design-editorial,.v4-stats,.v4-ranks,
+  .considerations-grid,.dd-design-editorial,.v4-ranks,
   .dd-buy-benefits,.dd-buy-reach-grid
  )>*{
   grid-column:auto!important;
@@ -120,4 +120,22 @@ html:root body.ss18 #dd-header.is-tablet #dd-navigation>.dd-group>.dd-panel a{fo
   letter-spacing:0!important;
   text-transform:none!important;
  }
+}
+/* iPad: direct, visible navigation above the page instead of a side directory. */
+@media(min-width:600px) and (max-width:1199px){
+ html:root body.ss18 #dd-header.is-tablet{grid-template-areas:'brand rise' 'tools contacts' 'nav nav'!important;padding-bottom:0!important;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation{
+  grid-area:nav!important;display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;position:relative!important;inset:auto!important;bottom:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;margin:8px 0 0!important;padding:4px 0!important;gap:2px!important;align-items:center!important;justify-content:safe center!important;background:#fff!important;border:0!important;border-top:1px solid #d8dbd0!important;border-radius:0!important;box-shadow:none!important;overflow-x:auto!important;overflow-y:hidden!important;overscroll-behavior-x:contain;scrollbar-width:thin;
+ }
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation::before,
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>.dd-group::before{display:none!important;content:none!important;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>.dd-group{display:flex!important;flex:0 0 auto!important;align-items:stretch!important;width:auto!important;min-width:0!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>a,
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>.dd-group>a{
+  display:flex!important;flex:0 0 auto!important;align-items:center!important;justify-content:center!important;width:auto!important;min-height:48px!important;height:auto!important;margin:0!important;padding:8px clamp(4px,calc(3vw - 19px),12px)!important;border:0!important;background:transparent!important;box-shadow:none!important;font:400 14px/1.4 Arial,Helvetica,sans-serif!important;letter-spacing:0!important;text-transform:none!important;text-align:center!important;white-space:nowrap!important;overflow-wrap:normal!important;
+ }
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>.dd-group>.dd-panel{display:none!important;position:fixed!important;left:var(--dd-panel-left)!important;top:var(--dd-panel-top)!important;width:var(--dd-panel-width)!important;max-width:calc(100vw - 32px)!important;max-height:calc(100dvh - var(--dd-panel-top) - 12px)!important;height:auto!important;margin:0!important;padding:10px!important;background:#f8f7f3!important;border:1px solid #d8dbd0!important;border-radius:0!important;box-shadow:0 5px 18px #343c3220!important;overflow-y:auto!important;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation>.dd-group.is-open>.dd-panel{display:block!important;}
+ html:root body.ss18 #dd-header.is-tablet .dd-menu-toggle{display:none!important;}
+ html:root body.ss18 #dd-header.is-tablet #dd-navigation#dd-navigation#dd-navigation a[aria-current=page]{text-decoration:underline!important;text-underline-offset:5px!important;}
 }
