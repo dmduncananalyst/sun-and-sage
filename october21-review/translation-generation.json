@@ -1,0 +1,20 @@
+{
+  "local_only": true,
+  "translated_article_pages": 27,
+  "translated_archives": 9,
+  "new_translation_segments": 576,
+  "maximum_gross_usd": 4.48686,
+  "languages": [
+    "en",
+    "es",
+    "fa",
+    "hy",
+    "zh-CN",
+    "ko",
+    "tl",
+    "te",
+    "ru",
+    "ar"
+  ],
+  "published": false
+}

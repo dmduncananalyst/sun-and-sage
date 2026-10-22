@@ -2,6 +2,14 @@
 
 ## Current local review instruction
 
+October 21, 2026: The user explicitly approved paid translation of the three
+October 21 blogs and gave standing approval to translate future blogs into all
+nine existing languages through this workflow. Include complete article text,
+archive cards, metadata, language switching, and sitemaps. Keep all work local
+until publication is separately authorized. Reuse saved translations and the
+existing incremental generation safeguards; do not request routine translation
+approval again for new blogs within this scope.
+
 The user subsequently authorized generating every language without stopping at
 the earlier $20 threshold and instructed that all further work remain local.
 No additional budget confirmation is required for this initial generation.

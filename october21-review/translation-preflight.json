@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "es": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "fa": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "hy": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "zh-CN": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "ko": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "tl": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "te": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "ru": {
+      "missing_segments": 63,
+      "characters": 24904
+    },
+    "ar": {
+      "missing_segments": 63,
+      "characters": 24904
+    }
+  },
+  "total_characters": 224136,
+  "estimated_provider_usd": 4.48272
+}

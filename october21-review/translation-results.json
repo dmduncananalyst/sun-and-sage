@@ -1,0 +1,487 @@
+{
+  "cases": [
+    {
+      "language": "en",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 390,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 390,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 390,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "es",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "fa",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "hy",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "zh-CN",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ko",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "tl",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "te",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ru",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 1440,
+      "article": "blog-living-in-mission-hills.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 1440,
+      "article": "blog-living-in-panorama-city.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    },
+    {
+      "language": "ar",
+      "width": 1440,
+      "article": "blog-living-in-sun-valley.html",
+      "complete_saved_translation": true,
+      "photo": true,
+      "seo": true
+    }
+  ],
+  "javascript_errors": [],
+  "paid_browser_requests": [],
+  "local_only": true
+}
