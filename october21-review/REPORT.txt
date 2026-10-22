@@ -1,0 +1,62 @@
+October 21 blog implementation, local review report
+
+Read all 10 PDF pages and reviewed all three attached photographs before edits.
+Publication date for every article: October 21, 2026.
+
+Articles
+Mission Hills, Where the Valley Slows Down
+  blog-living-in-mission-hills.html, 1,322 words of article prose
+Panorama City, Built for the Heart of the Valley
+  blog-living-in-panorama-city.html, 1,317 words of article prose
+Sun Valley, Mountain Views and a Neighborhood of Contrasts
+  blog-living-in-sun-valley.html, 1,341 words of article prose
+
+Approved photos implemented
+User approved the descriptive PNG assignments after confirming the PDF filename discrepancy.
+Mission Hills: assets/blogs/Mission Hills Mission and Valley View.png
+Panorama City: assets/blogs/Plaza del Valle Fountain Plaza.png
+Sun Valley: assets/blogs/Theodore Payne Foundation Garden Entrance.png
+Each original PNG is used for its matching archive card and article featured image.
+Original filenames, bytes and resolution preserved, verified with SHA-256 comparisons.
+No missing or unapproved photographs. Added descriptive alt text, Open Graph/Twitter image metadata and ImageObject structured data. Article images show the full photo. Archive card images fill the existing frame with centered cover sizing, as requested, eliminating white strips without stretching.
+
+SEO and archive
+Added three individual cards to blog.html, linking to three new unique pages.
+Used approved article titles as SEO titles; PDF supplies descriptions but no separate SEO titles.
+Added supplied meta descriptions, matching Open Graph/Twitter text, canonical URLs, BlogPosting JSON-LD, publication dates, and H1/H2 hierarchy.
+Added links using existing article words to relevant neighborhood pages and the Lake Balboa article.
+Added three URLs and lastmod dates to sitemap-en.xml. sitemap.xml already indexes this file and required no change.
+Kept new articles English only and constrained their language selectors to English, avoiding nonexistent translated URLs or paid translation calls. Existing language catalogs and unrelated pages unchanged.
+
+Sources
+All four supplied references appear as clickable links at the end of each article.
+Separated the phone number 818-296-6896 from the final URL in each PDF article; it was printed against the URL. Preserved the source URL text otherwise, including the short Kaiser URL, which resolves successfully.
+External checks: 9 references fetched successfully, 2 returned 404, 1 timed out.
+https://www.apartments.com/local-guide/panorama-city-ca/ returned 404.
+https://www.apartments.com/local-guide/sun-valley-ca/ returned 404.
+The Los Angeles Planning report URL timed out, so availability is unverified.
+The supplied Wikipedia Mission_Hills and Sun_Valley URLs lead to disambiguation pages. Preserved supplied references rather than substituting destinations.
+
+Local testing
+Passed Chromium browser checks at widths 390, 768 and 1440 pixels.
+Compared every article paragraph and section heading with extracted PDF content, including paragraphs continuing across pages.
+Checked title, description, canonical, structured data and October 21 publication date.
+Verified one H1 per page, four reference links per article, existing internal link targets and no main-content horizontal overflow.
+Clicked each new archive card through to its correct article at every tested width.
+Verified every new sitemap URL occurs exactly once.
+Screenshots and machine-readable results saved in october21-review.
+All three original PNGs passed decoding, assignment, aspect ratio checks for full article images and cover sizing checks for archive cards at 390, 768 and 1440 pixels.
+Existing header, navigation, footer, forms and chat scripts were retained from the site's article template. External services were blocked during browser checks; live chat/integration behavior was not exercised.
+No commits, pushes, deployments, live changes or paid service calls.
+
+Review files
+pdf-extracted.txt: full PDF text for comparison
+articles.json: extracted structured article content and supplied source strings
+local-results.json: browser test results
+*.png: phone, tablet and desktop article/archive screenshots
+
+Reproduction
+.tools\python\python.exe october21-verify.py
+The implementation script is a one-time import and must not be rerun against the modified archive/sitemap.
+
+Follow-up: user requested no white strips in the three new archive photos. Applied centered cover sizing to those three card images only. Original files and full article images unchanged.

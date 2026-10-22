@@ -1,0 +1,74 @@
+[
+  {
+    "page": "blog-living-in-mission-hills.html",
+    "width": 390,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-panorama-city.html",
+    "width": 390,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-sun-valley.html",
+    "width": 390,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-mission-hills.html",
+    "width": 768,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-panorama-city.html",
+    "width": 768,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-sun-valley.html",
+    "width": 768,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-mission-hills.html",
+    "width": 1440,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-panorama-city.html",
+    "width": 1440,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  },
+  {
+    "page": "blog-living-in-sun-valley.html",
+    "width": 1440,
+    "content_exact": true,
+    "metadata": true,
+    "local_links": true,
+    "photo": true
+  }
+]
