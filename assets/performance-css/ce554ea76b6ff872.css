@@ -13,8 +13,8 @@ html body main.ss-simple-blog .article-hero {display:flex!important;flex-directi
 html body main.ss-simple-blog .article-hero-copy {display:block!important;text-align:center!important;order:0!important;width:100%!important;max-width:850px!important;padding:0!important;margin:0 auto 34px!important;background:transparent!important;}
 html body main.ss-simple-blog .article-hero-copy h1 {text-align:center!important;margin:0 auto!important;max-width:850px!important;font-weight:400!important;font-size:clamp(29px,3vw,42px)!important;line-height:1.16!important;letter-spacing:-.025em!important;}
 html body main.ss-simple-blog .article-hero-copy > p,html body main.ss-simple-blog .article-hero-copy .overline,html body main.ss-simple-blog .article-hero-copy .byline,html body main.ss-simple-blog .article-hero-copy .article-navline {display:none!important;}
-html body main.ss-simple-blog .article-hero-image {display:block!important;order:1!important;width:min(705px,100%)!important;max-width:705px!important;margin:0 auto!important;padding:0!important;position:static!important;min-height:0!important;height:auto!important;aspect-ratio:auto!important;background:transparent!important;border:0!important;overflow:visible!important;}
-html body main.ss-simple-blog .article-hero-image img {display:block!important;position:static!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;border:0!important;}
+html body main.ss-simple-blog .article-hero-image {display:block!important;order:1!important;width:min(705px,100%)!important;max-width:705px!important;margin:0 auto!important;padding:0!important;position:static!important;min-height:0!important;height:auto!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;background:transparent!important;border:0!important;overflow:visible!important;}
+html body main.ss-simple-blog .article-hero-image img {display:block!important;position:static!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:contain!important;object-position:center!important;transform:none!important;border:0!important;}
 html body main.ss-simple-blog > .ss-approved-article-box {box-sizing:border-box!important;display:block!important;width:min(730px,100%)!important;max-width:730px!important;min-height:0!important;margin:44px auto 50px!important;padding:65px 80px!important;border:1px solid #d9d9d2!important;border-radius:0!important;outline:0!important;background:#fff!important;box-shadow:none!important;overflow:visible!important;column-count:1!important;}
 html body main.ss-simple-blog > .ss-approved-article-box:before,html body main.ss-simple-blog > .ss-approved-article-box:after {display:none!important;content:none!important;}
 html body main.ss-simple-blog .plain-blog-section {display:block!important;position:static!important;width:100%!important;padding:0!important;margin:0 0 27px!important;background:transparent!important;border:0!important;box-shadow:none!important;}
@@ -35,7 +35,7 @@ html body .loanHubGrid .loanHubItem > a.ss18-card-photo,
 html body .loanHubGrid .loanHubItem > a.v27-photo-frame {
   display:block!important; width:100%!important; height:auto!important;
   min-height:0!important; max-height:none!important;
-  aspect-ratio:auto!important; overflow:visible!important;
+  aspect-ratio:var(--image-intrinsic-ratio,auto)!important; overflow:visible!important;
   padding:0!important; line-height:0!important;
   background:transparent!important;
 }
@@ -46,7 +46,7 @@ html body .loanHubGrid .loanHubItem > a.v27-photo-frame img {
   display:block!important; position:static!important;
   width:100%!important; height:auto!important;
   min-height:0!important; max-height:none!important;
-  aspect-ratio:auto!important; object-fit:contain!important;
+  aspect-ratio:var(--image-intrinsic-ratio,auto)!important; object-fit:contain!important;
   object-position:center center!important; transform:none!important;
   clip-path:none!important; inset:auto!important;
 }
@@ -55,7 +55,7 @@ html body .questionHubGrid .question-card-image,
 html body .questionHubGrid .question-card-image img,
 html body .life-question-card .card-image,
 html body .life-question-card .card-image img {
- height:auto!important;max-height:none!important;aspect-ratio:auto!important;
+ height:auto!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;
  object-fit:contain!important;transform:none!important;
 }
 
@@ -66,11 +66,11 @@ html body .loanHubGrid .loanHubItem{display:flex!important;flex-direction:column
 html body .loanHubGrid .loanHubItem>a.ss18-card-photo,
 html body .loanHubGrid .loanHubItem>a.v27-photo-frame,
 html body .loanHubGrid .loanHubItem .ss18-card-photo,
-html body .loanHubGrid .loanHubItem .v27-photo-frame{display:block!important;position:relative!important;flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important;line-height:0!important;background:transparent!important;padding:0!important;margin:0!important;}
+html body .loanHubGrid .loanHubItem .v27-photo-frame{display:block!important;position:relative!important;flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;overflow:visible!important;line-height:0!important;background:transparent!important;padding:0!important;margin:0!important;}
 html body .loanHubGrid .loanHubItem>a.ss18-card-photo>img,
 html body .loanHubGrid .loanHubItem>a.v27-photo-frame>img,
 html body .loanHubGrid .loanHubItem .ss18-card-photo img,
-html body .loanHubGrid .loanHubItem .v27-photo-frame img{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important;}
+html body .loanHubGrid .loanHubItem .v27-photo-frame img{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;filter:none!important;}
 html body .loanHubGrid .loanHubItem .loanHubBtn,
 html body .loanHubGrid .loanHubItem .loanHubLink{margin-top:auto!important;}
 html body .loanHubGrid{align-items:stretch!important;}
@@ -78,7 +78,7 @@ html body .loanHubGrid{align-items:stretch!important;}
 html body .questionHubGrid .question-card-image,
 html body .questionHubGrid .question-card-image img,
 html body .life-question-card .card-image,
-html body .life-question-card .card-image img{height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;overflow:visible!important;transform:none!important;clip-path:none!important;}
+html body .life-question-card .card-image img{height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:contain!important;overflow:visible!important;transform:none!important;clip-path:none!important;}
 /* Full original photo on story pages, matching approved screenshot 4711. */
 html body .article-hero-image img,
 html body .articleHero img,

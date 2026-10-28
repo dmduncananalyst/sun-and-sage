@@ -1,0 +1,3 @@
+/* Match navigation-v22.js before its first desktop/tablet fit. */
+@media(min-width:600px){html body #dd-header #dd-navigation{gap:12px!important}html body #dd-header #dd-navigation>a,html body #dd-header #dd-navigation>.dd-group>a{letter-spacing:0!important;padding-left:0!important;padding-right:0!important}}
+@media(min-width:1200px){html body #dd-header #dd-navigation{gap:24px!important}}

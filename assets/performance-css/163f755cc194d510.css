@@ -37,7 +37,7 @@ html body.article-blog-repaired .care-strip,html body.article-blog-repaired .quo
 /* assets/sitewide-final-photo-reading-fix.css */
 
 /* 2026-10-09: preserve approved article reading layout. A single rectangular content box starts AFTER the large hero photo. */
-html body main.ss-reading-4635 .ss21-article-photo img,html body main.ss-reading-4635 .ss23-guide-opening figure img,html body main.reading-final-layout .ss21-article-photo img,html body main.reading-final-layout .ss23-guide-opening figure img{object-fit:contain!important;height:auto!important;aspect-ratio:auto!important;max-height:none!important}
+html body main.ss-reading-4635 .ss21-article-photo img,html body main.ss-reading-4635 .ss23-guide-opening figure img,html body main.reading-final-layout .ss21-article-photo img,html body main.reading-final-layout .ss23-guide-opening figure img{object-fit:contain!important;height:auto!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;max-height:none!important}
 html body main.ss-reading-4635 .ss21-article-photo,html body main.reading-final-layout .ss21-article-photo{border:none!important;margin-bottom:32px!important}
 html body main.ss-reading-4635 .ss21-body,html body main.reading-final-layout .ss21-body{border:1px solid #dadbd7!important;padding:38px 44px!important;margin:32px auto 56px!important;box-sizing:border-box!important;box-shadow:none!important;background:#fff!important}
 html body main.ss-reading-4635 .ss21-body .article-content-box,html body main.reading-final-layout .ss21-body .article-content-box{border:none!important;box-shadow:none!important}

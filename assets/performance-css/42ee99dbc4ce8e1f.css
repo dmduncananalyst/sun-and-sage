@@ -84,7 +84,7 @@ html body main#main#main#main#main .portfolioParentCard:hover .ddn-portfolio-num
  html body main#main#main#main#main .portfolioParentCardContent .ddn-portfolio-name{font-size:24px!important}
 }
 html body main#main#main#main#main.ss22-home .ss22-project{aspect-ratio:1400 / 933!important}
-html body main#main#main#main#main.ss22-home .ss22-service-card.ss90-home-card{display:block!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important}
+html body main#main#main#main#main.ss22-home .ss22-service-card.ss90-home-card{display:block!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;overflow:visible!important}
 html body main#main#main#main#main.ss22-home .ss22-service-card>img{flex-shrink:0!important;flex:none!important}
 
 html body #ss22-header#ss22-header .ddn-contact-strip a{font-family:inherit!important;font-size:inherit!important;line-height:inherit!important;letter-spacing:inherit!important}

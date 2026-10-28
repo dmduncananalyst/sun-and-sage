@@ -13,7 +13,7 @@ html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-editorial{di
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project{display:flex;flex-direction:column;min-width:0;color:#343c32;text-decoration:none;background:transparent;box-shadow:none;transform:none;}
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project:first-child{grid-row:span 2;}
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project figure{position:relative;flex:1;min-height:0;aspect-ratio:2/1;margin:0!important;overflow:hidden;}
-html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project:first-child figure{aspect-ratio:auto;}
+html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project:first-child figure{aspect-ratio:var(--image-intrinsic-ratio,auto);}
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project img{position:absolute!important;inset:0!important;display:block!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center!important;margin:0!important;}
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project-caption{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0 0;font:400 20px/1.35 Arial;}
 html:root body.ss18 main#main#main.interior-overview-v43 .dd-design-project-action{font:500 11px/1.5 Arial;letter-spacing:.05em;white-space:nowrap;text-decoration:underline;text-underline-offset:4px;}

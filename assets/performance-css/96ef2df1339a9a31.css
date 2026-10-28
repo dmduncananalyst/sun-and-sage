@@ -84,7 +84,7 @@ html body main#main#main#main#main .portfolioParentCard:hover .ddn-portfolio-num
  html body main#main#main#main#main .portfolioParentCardContent .ddn-portfolio-name{font-size:24px!important}
 }
 html body main#main#main#main#main.ss22-home .ss22-project{aspect-ratio:1400 / 933!important}
-html body main#main#main#main#main.ss22-home .ss22-service-card.ss90-home-card{display:block!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important}
+html body main#main#main#main#main.ss22-home .ss22-service-card.ss90-home-card{display:block!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;overflow:visible!important}
 html body main#main#main#main#main.ss22-home .ss22-service-card>img{flex-shrink:0!important;flex:none!important}
 
 html body #ss22-header#ss22-header .ddn-contact-strip a{font-family:inherit!important;font-size:inherit!important;line-height:inherit!important;letter-spacing:inherit!important}
@@ -104,10 +104,10 @@ html body main#main#main#main#main .portfolioParentCardContent .ddn-portfolio-na
  html body main#main#main#main#main#main .propertyCollageTitle h1{font-size:32px!important;line-height:1.2!important;margin:16px 0!important}
  html body main#main#main#main#main#main .propertyCollageTitle p{font-size:13px!important;line-height:1.6!important;margin:0 auto!important;max-width:360px!important}
  html body main#main#main#main#main#main .propertyCollageHero>figure{width:min(100%,max(96px,calc((100svh - 480px) * .75)))!important;justify-self:center!important;min-height:0!important;height:auto!important}
- html body main#main#main#main#main#main .portfolioParentCard{display:flex!important;flex-direction:column!important;aspect-ratio:auto!important;height:100%!important;overflow:visible!important;background:#fff!important}
+ html body main#main#main#main#main#main .portfolioParentCard{display:flex!important;flex-direction:column!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;height:100%!important;overflow:visible!important;background:#fff!important}
  html body main#main#main#main#main#main .portfolioParentCardContent{position:relative!important;inset:auto!important;margin:0!important;width:100%!important;padding:18px 16px!important;min-height:110px!important;display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;background:#f8f8f5!important;border:0!important;box-sizing:border-box!important;flex:1!important}
  html body main#main#main#main#main#main .portfolioParentCardContent h2{font-size:22px!important;line-height:1.3!important;margin:0 0 8px!important}
- html body main#main#main#main#main#main.ss22-home .ss22-project{display:flex!important;flex-direction:column!important;aspect-ratio:auto!important;height:100%!important;background:#f8f8f5!important;overflow:visible!important}
+ html body main#main#main#main#main#main.ss22-home .ss22-project{display:flex!important;flex-direction:column!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;height:100%!important;background:#f8f8f5!important;overflow:visible!important}
  html body main#main#main#main#main#main.ss22-home .ss22-project>img{position:relative!important;inset:auto!important;flex:0 0 auto!important}
  html body main#main#main#main#main#main.ss22-home .ss22-project::after{display:none!important}
  html body main#main#main#main#main#main.ss22-home .ss22-project>span{position:relative!important;inset:auto!important;width:100%!important;box-sizing:border-box!important;margin:0!important;padding:18px 16px!important;min-height:110px!important;display:flex!important;flex-direction:column!important;justify-content:center!important;background:#f8f8f5!important;flex:1!important}

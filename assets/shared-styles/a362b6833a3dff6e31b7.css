@@ -7,7 +7,7 @@ html body.ss18 main.reading-final-layout > .ss21-head figure,
 html body.ss18 main.reading-final-layout > .ss23-guide-opening .v27-photo-frame,
 html body.ss18 main.reading-final-layout > .ss23-guide-opening .ss18-finance-photo {
  display:block!important;position:relative!important;overflow:visible!important;
- height:auto!important;max-height:none!important;aspect-ratio:auto!important;
+ height:auto!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;
  width:min(100% - 32px,740px)!important;max-width:740px!important;
  margin:28px auto 0!important;padding:0!important;border:0!important;background:transparent!important;
  box-shadow:none!important;transform:none!important;
@@ -17,7 +17,7 @@ html body.ss18 main.reading-final-layout > .ss21-head figure img,
 html body.ss18 main.reading-final-layout > .ss23-guide-opening .v27-photo-frame img {
  display:block!important;width:100%!important;max-width:100%!important;height:auto!important;
  min-height:0!important;max-height:none!important;object-fit:contain!important;object-position:center!important;
- aspect-ratio:auto!important;transform:none!important;clip-path:none!important;
+ aspect-ratio:var(--image-intrinsic-ratio,auto)!important;transform:none!important;clip-path:none!important;
 }
 html body.ss18 main.reading-final-layout > .ss23-guide-body,
 html body.ss18 main.reading-final-layout > .ss21-paper {
