@@ -2,7 +2,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
 const source=fs.readFileSync('assets/multilingual.js','utf8');
-function boot(language,catalog,preRendered=false){
+function boot(language,catalog,preRendered=false,stored={}){
   let observer,assignments=[],writes=0;
   const element=()=>({nodeType:1,childNodes:[],attributes:{},append(){},add(){},addEventListener(name,fn){this[name]=fn},matches(){return false},hasAttribute(name){return name in this.attributes},getAttribute(name){return this.attributes[name]},setAttribute(name,value){this.attributes[name]=value}});
   const text={nodeType:3,parentElement:{closest(){return false}},value:'Dominique',get textContent(){return this.value},set textContent(value){writes++;this.value=value}};
@@ -11,9 +11,9 @@ function boot(language,catalog,preRendered=false){
   const cfg={language,path:'blog-new.html',languages:{en:'English',es:'Español',fa:'فارسی',hy:'Հայերեն','zh-CN':'简体中文',ko:'한국어',tl:'Tagalog',te:'తెలుగు',ru:'Русский',ar:'العربية'}};
   const toolbar={append(){},contains(){return true}};
   const document={body,addEventListener(){},getElementById(id){return id==='dommydom-locale'?{textContent:JSON.stringify(cfg)}:id==='dd-language'?select||null:null},querySelector(){return toolbar},createElement(tag){if(preRendered&&tag==='select')throw new Error('Must reuse the source HTML selector');const el=element();if(tag==='select')select=el;return el}};
-  const context={document,window:{DOMMYDOM_TRANSLATIONS:catalog},Node:{TEXT_NODE:3,ELEMENT_NODE:1},Option:function(name,value){this.name=name;this.value=value},MutationObserver:class{constructor(fn){observer=fn}observe(){}},localStorage:{getItem(){return language},setItem(){}},location:{href:'https://dommydom.com/'+(language==='en'?'':language+'/')+'blog-new.html',protocol:'https:',search:'',hash:'',assign(value){assignments.push(value)},replace(value){assignments.push(value)}},URLSearchParams,URL};
+  const context={document,window:{DOMMYDOM_TRANSLATIONS:catalog},Node:{TEXT_NODE:3,ELEMENT_NODE:1},Option:function(name,value){this.name=name;this.value=value},MutationObserver:class{constructor(fn){observer=fn}observe(){}},localStorage:{getItem(key){return stored[key]||null},setItem(key,value){stored[key]=value}},location:{href:'https://dommydom.com/'+(language==='en'?'':language+'/')+'blog-new.html',protocol:'https:',search:'',hash:'',assign(value){assignments.push(value)},replace(value){assignments.push(value)}},URLSearchParams,URL};
   vm.runInNewContext(source,context);
-  return {text,select,get writes(){return writes},observer,assignments};
+  return {text,select,get writes(){return writes},observer,assignments,storage:stored};
 }
 const unchanged=boot('es',{Dominique:'Dominique'});
 assert.equal(unchanged.writes,0,'unchanged proper names must not trigger an observer loop');
@@ -28,6 +28,15 @@ for(const language of ['en','es','fa','hy','zh-CN','ko','tl','te','ru','ar']){
   const view=boot('es',{});view.select.value=language;view.select.change();
   assert.equal(view.assignments[0],'https://dommydom.com'+(language==='en'?'/':'/'+language+'/')+'blog-new.html');
 }
+// An automatic legacy value or a direct localized URL must not override default English.
+const legacy=boot('en',{},true,{'dommydom-language':'fa'});
+assert.deepEqual(legacy.assignments,[],'legacy auto-saved language must not redirect a fresh English visit');
+const direct=boot('fa',{},true,{});
+assert.deepEqual(boot('en',{},true,direct.storage).assignments,[],'visiting a locale URL does not save a preference');
+const chosen=boot('en',{},true,{});chosen.select.value='fa';chosen.select.change();
+assert.equal(boot('en',{},true,chosen.storage).assignments[0],'https://dommydom.com/fa/blog-new.html','an explicit selection must persist');
+const english=boot('fa',{},true,chosen.storage);english.select.value='en';english.select.change();
+assert.deepEqual(boot('en',{},true,english.storage).assignments,[],'explicit English selection must persist');
 assert(!source.includes('fetch('),'static locale runtime must not request translations');
 let Processor;
 vm.runInNewContext(fs.readFileSync('assets/multilingual-pcm.js','utf8'),{AudioWorkletProcessor:class{constructor(){this.port={postMessage:buffer=>{const samples=new Int16Array(buffer);assert.equal(samples[0],32767);assert.equal(samples[1],-32768)}}}},registerProcessor(name,type){Processor=type}});

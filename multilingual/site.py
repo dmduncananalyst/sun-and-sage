@@ -263,7 +263,11 @@ def build(root=ROOT, output=None):
     output = output or root/'dist'
     output.mkdir(exist_ok=True,parents=True)
     sources={path:(root/path).read_text(encoding='utf-8') for path in listing}
-    shutil.copytree(root/'assets',output/'assets',dirs_exist_ok=True,copy_function=copy_if_changed)
+    policy=root/'tools/photography-policy.json'
+    retired=set(json.loads(policy.read_text(encoding='utf-8'))['prohibited_references']) if policy.exists() else set()
+    def omit_retired(directory,names):
+        return [name for name in names if (Path(directory)/name).relative_to(root).as_posix() in retired]
+    shutil.copytree(root/'assets',output/'assets',dirs_exist_ok=True,copy_function=copy_if_changed,ignore=omit_retired)
     for media in root.iterdir():
         if media.is_file() and media.suffix.lower() in {'.png','.jpg','.jpeg','.webp','.gif','.svg','.pdf','.mp4','.webm','.ico','.woff','.woff2'}:
             copy_if_changed(media,output/media.name)

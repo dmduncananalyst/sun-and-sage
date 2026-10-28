@@ -28,10 +28,11 @@
   if(toolbar&&!toolbar.contains(select)){const search=toolbar.querySelector('.dd-search');if(search)search.insertAdjacentElement('afterend',select.parentElement);else toolbar.append(select.parentElement)}
   function destination(code){
     const root=new URL(cfg.rootPrefix||('../'.repeat(cfg.path.split('/').length-1+(cfg.language==='en'?0:1))||'./'),location.href);
-    const path=(code==='en'?'':code+'/')+(cfg.path==='index.html'&&location.protocol!=='file:'?'':cfg.path);
+    const page=cfg.englishOnly&&code!=='en'?'index.html':cfg.path;
+    const path=(code==='en'?'':code+'/')+(page==='index.html'&&location.protocol!=='file:'?'':page);
     return new URL(path||'./',root).href+location.search+location.hash;
   }
-  select.addEventListener('change',()=>{try{localStorage.setItem('dommydom-language',select.value)}catch{}location.assign(destination(select.value))});
+  select.addEventListener('change',()=>{try{localStorage.setItem('dommydom-language',select.value);localStorage.setItem('dommydom-language-selected','true')}catch{}location.assign(destination(select.value))});
   // The open list has its own width, independent of the compact closed label.
   // Native select popups in embedded browsers can clip the other language names.
   if(typeof HTMLSelectElement!=='undefined'&&select instanceof HTMLSelectElement){
@@ -78,10 +79,10 @@
   // Apply a saved preference on subsequent English visits. Explicit locale links win.
   try{
     const saved=localStorage.getItem('dommydom-language');
-    if(cfg.language==='en'&&saved&&saved!=='en'&&cfg.languages[saved]&&!new URLSearchParams(location.search).has('language')){
+    if(localStorage.getItem('dommydom-language-selected')==='true'&&!cfg.englishOnly&&cfg.language==='en'&&saved&&saved!=='en'&&cfg.languages[saved]&&!new URLSearchParams(location.search).has('language')){
       location.replace(destination(saved));return;
     }
-    localStorage.setItem('dommydom-language',cfg.language);
+    // Visiting a localized URL is not an explicit saved language selection.
   }catch{}
   function localize(root){
     if(root.nodeType===Node.TEXT_NODE){

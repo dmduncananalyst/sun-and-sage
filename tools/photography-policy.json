@@ -1,0 +1,62 @@
+{
+  "approved_identity_originals": [
+    "assets/dominique-about.jpeg",
+    "assets/dominique-standing.jpeg"
+  ],
+  "prohibited_references": [
+    "assets/buyer-seller-questions/Buyer_08_Porter_Ranch_View_Home.jpg",
+    "assets/editorial-v17/first-time-touring-11.webp",
+    "assets/approved/keys-new-beginning.webp",
+    "assets/aeo-unique-photos/aeo-098.lossless.webp",
+    "assets/aeo-unique-photos/aeo-097.lossless.webp",
+    "assets/aeo-unique-photos/aeo-063.lossless.webp",
+    "assets/aeo-unique-photos/aeo-100.lossless.webp",
+    "assets/aeo-unique-photos/aeo-101.lossless.webp",
+    "assets/aeo-unique-photos/aeo-060.lossless.webp",
+    "assets/aeo-unique-photos/aeo-061.lossless.webp",
+    "assets/aeo-unique-photos/aeo-075.lossless.webp",
+    "assets/aeo-unique-photos/aeo-016.lossless.webp",
+    "assets/aeo-unique-photos/aeo-045.lossless.webp",
+    "assets/aeo-unique-photos/aeo-093.lossless.webp",
+    "assets/aeo-unique-photos/aeo-091.lossless.webp",
+    "assets/aeo-unique-photos/aeo-019.lossless.webp",
+    "assets/aeo-unique-photos/aeo-094.lossless.webp",
+    "assets/aeo-unique-photos/aeo-078.lossless.webp",
+    "assets/aeo-unique-photos/aeo-080.lossless.webp",
+    "assets/aeo-unique-photos/aeo-057.lossless.webp",
+    "assets/aeo-unique-photos/aeo-049.lossless.webp",
+    "assets/aeo-unique-photos/aeo-052.lossless.webp",
+    "assets/aeo-unique-photos/aeo-051.lossless.webp",
+    "assets/aeo-unique-photos/aeo-042.lossless.webp",
+    "assets/aeo-unique-photos/aeo-027.lossless.webp",
+    "assets/aeo-unique-photos/aeo-090.lossless.webp",
+    "assets/aeo-unique-photos/aeo-009.lossless.webp",
+    "assets/aeo-unique-photos/aeo-004.lossless.webp",
+    "assets/aeo-unique-photos/aeo-023.lossless.webp",
+    "assets/aeo-unique-photos/aeo-087.lossless.webp",
+    "assets/relocation-real-photos/relocation-photo-03.webp",
+    "assets/aeo-unique-photos/aeo-106.lossless.webp",
+    "assets/aeo-unique-photos/aeo-124.lossless.webp",
+    "assets/aeo-unique-photos/aeo-056.lossless.webp",
+    "assets/aeo-unique-photos/aeo-071.lossless.webp",
+    "assets/aeo-unique-photos/aeo-054.lossless.webp",
+    "assets/approved/dominique-profile-3.webp",
+    "assets/refinement-v24/buyer-consultation-side.lossless.webp",
+    "assets/refinement-v24/seller-consultation-side.lossless.webp",
+    "assets/home-buyers-side-approved-v2.webp",
+    "assets/question-photos-v25/seller-question-measure-ula-home-sale-costs-20261027.webp",
+    "assets/refinement-v24/dominique-cream-suit.png",
+    "assets/refinement-v24/dominique-cream-suit.lossless.webp",
+    "assets/dominique-link-preview-v43.lossless.webp",
+    "assets/dominique-social-preview-v42.jpg"
+  ],
+  "rule": "Use approved original Dominique photos only. No generated Dominique likenesses or other real estate agents. Use property-only or homeowner scenes.",
+  "approved_hero_exception": {
+    "reason": "Owner explicitly requires exact pre-assignment homepage video and presentation; do not substitute or edit it.",
+    "assets": [
+      "assets/video-posters/home-introduction.webp",
+      "assets/videos/home-introduction-mobile.mp4",
+      "assets/videos/home-introduction-web.mp4"
+    ]
+  }
+}

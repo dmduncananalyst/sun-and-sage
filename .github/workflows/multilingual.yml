@@ -27,6 +27,7 @@ jobs:
       - run: python -m unittest discover -s multilingual/tests -v
       - run: node multilingual/tests/test_browser.cjs
       - name: Require existing cloud connection
+        if: vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED == 'true'
         env:
           PROJECT: ${{ vars.GOOGLE_CLOUD_PROJECT }}
           PROVIDER: ${{ vars.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
@@ -34,16 +35,18 @@ jobs:
         run: |
           test -n "$PROJECT" && test -n "$PROVIDER" && test -n "$ACCOUNT" || { echo 'Existing Google project and GitHub OIDC connection are missing'; exit 1; }
       - uses: google-github-actions/auth@v2
+        if: vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED == 'true'
         with:
           workload_identity_provider: ${{ vars.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ vars.GOOGLE_SERVICE_ACCOUNT }}
       - name: Generate only missing translations
+        if: vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED == 'true'
         env:
           GOOGLE_CLOUD_PROJECT: ${{ vars.GOOGLE_CLOUD_PROJECT }}
           DOMMYDOM_ALLOW_PAID_TRANSLATION: ${{ vars.DOMMYDOM_ALLOW_PAID_TRANSLATION }}
         run: python -m multilingual.translate
       - name: Save completed translations even if quota stops a batch
-        if: always()
+        if: always() && vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED == 'true'
         run: |
           git config user.name 'DommyDom translation automation'
           git config user.email 'translation-bot@users.noreply.github.com'
@@ -52,8 +55,14 @@ jobs:
             git commit -m 'Save permanent incremental translations [skip ci]'
             git push origin HEAD:main
           fi
-      - name: Build complete static multilingual site
+      - name: Build authorized translated release
+        if: vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED == 'true'
         run: python -m multilingual.site build
+      - name: Package existing English and saved translated pages
+        if: vars.DOMMYDOM_TRANSLATION_PHASE_APPROVED != 'true'
+        run: python -m multilingual.build_existing --output dist
+      - name: Verify saved production pages and citation policy
+        run: python tools/verify-public-pages.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
