@@ -53,48 +53,52 @@ def ancestors(node):
         yield node
         node = node['parent']
 
-def individual_article(source, route):
-    bits = route.split('/', 1)
-    if bits[0] in LANGUAGES and len(bits) == 2:
-        route = bits[1]
-    if route.startswith('blog-') or (route.startswith('blog/') and not route.endswith('/index.html')):
-        return True
-    if '/topics/' in route:
-        return False
-    if re.search(r'"@type"\s*:\s*"(?:Article|BlogPosting|NewsArticle|TechArticle)"', source):
-        return True
-    if re.search(r'class=["\'][^"\']*(?:loanHubGrid|resource-edition|topic-index|clean-question-grid|image-cards)', source):
-        return False
-    return bool(re.search(r'<article\b[^>]*class=["\'][^"\']*(?:reading-feature|financeArticle|article-body|aeo-article|\barticle\b)', source))
 
-def inappropriate_spans(source, route):
-    if individual_article(source, route):
-        return []
-    document = Document(source)
-    found = []
+BLOG_ROUTES=frozenset(['blog-2026-world-series-los-angeles.html', 'blog-401k-matters.html', 'blog-airbnb-aircover-rental-insurance.html', 'blog-california-condo-crisis-sb326-2026.html', 'blog-california-earnest-money-deposit.html', 'blog-california-proposition-19-homeowners.html', 'blog-can-the-dodgers-do-a-threepeat.html', 'blog-chatsworth-home-prices-2026.html', 'blog-coffee-or-tea.html', 'blog-dia-de-los-muertos-san-fernando-valley-2026.html', 'blog-encino-home-prices-2026.html', 'blog-fall-farmers-markets-san-fernando-valley-2026.html', 'blog-film-crew-rental.html', 'blog-football-season-is-back-does-your-team-play-at-sofi-this-year.html', 'blog-halloween-san-fernando-valley-2026.html', 'blog-having-children-in-your-40s.html', 'blog-homeschool-or-public-school.html', 'blog-how-to-stage-a-living-room.html', 'blog-is-it-time-for-divorce.html', 'blog-is-my-property-a-good-fit-for-airbnb.html', 'blog-lake-balboa-park-japanese-garden-fall-guide.html', 'blog-living-in-chatsworth.html', 'blog-living-in-mission-hills.html', 'blog-living-in-panorama-city.html', 'blog-living-in-porter-ranch.html', 'blog-living-in-sun-valley.html', 'blog-living-in-sylmar.html', 'blog-living-in-valley-village.html', 'blog-los-angeles-short-term-rental-rules-2026.html', 'blog-midterm-rentals-los-angeles.html', 'blog-northridge-housing-market-2026.html', 'blog-places-to-eat-san-fernando-valley.html', 'blog-porter-ranch-housing-market.html', 'blog-san-fernando-valley-home-down-payment.html', 'blog-san-fernando-valley-rental-income-short-long-term.html', 'blog-studio-city-home-prices-october-2026.html', 'blog-studio-city-or-valley-village-which-one-should-i-choose.html', 'blog-tapia-bros-pumpkin-patch-encino.html', 'blog-the-different-leagues-of-college-football.html', 'blog-thoughtful-home-staging-presentation.html', 'blog-trick-or-treating-san-fernando-valley-2026.html', 'blog-two-one-rate-buydown.html', 'blog-van-nuys-or-reseda-which-one-should-i-choose.html', 'blog-what-its-like-to-live-in-granada-hills.html', 'blog-what-its-like-to-live-in-north-hollywood.html', 'blog-what-its-like-to-live-in-pacoima.html', 'blog-what-its-like-to-live-in-winnetka.html', 'blog-why-budgeting-matters.html', 'blog.html'])
+
+# Blog membership is explicit: service/location pages cannot become citation
+# exceptions merely by using an <article> wrapper or Article structured data.
+def individual_article(source, route):
+    bits=route.split('/',1)
+    if bits[0] in LANGUAGES and len(bits)==2:route=bits[1]
+    if route.startswith(('locations/','services/','protection/')) or route in {'index.html','about.html','contact.html','services.html','pricing.html','packages.html','faq.html'}:return False
+    return route in BLOG_ROUTES or bool(re.search(r'"@type"\s*:\s*"BlogPosting"',source))
+
+ATTRIBUTION_CLASSES={'references','sources','source-reference-links','article-sources','source-notes','bibliography','citations','refs','ref-list','reference-list','reference-links','sources-list','source-list','sources-section','reference-section','references-section','research-attribution','citation-list'}
+ATTRIBUTION_LABEL=re.compile(r'^(?:(?:primary|official|additional|further|selected|key|trusted)\s+)*(?:sources?|references?|citations?|bibliography|sources? and references?|Fuentes(?: y referencias)?|Referencias|منابع(?: و مآخذ)?|مراجع|المصادر(?: والمراجع)?|المراجع|Աղբյուրներ|Հղումներ|参考资料|参考文献|参考|來源|来源|참고\s*문헌|출처|참고\s*자료|Mga\s+sanggunian|Sanggunian|మూలాలు|వనరులు|సూచనలు|Источники(?: и ссылки)?|Ссылки|Литература)\s*[:.]?$',re.I)
+
+def inappropriate_spans(source,route):
+    if individual_article(source,route):return []
+    document=Document(source);found=[]
+    def text(n):return ' '.join(html.unescape(''.join(n['text'])).split())
+    def inside_body(n):return any(a['tag']=='body' for a in ancestors(n)) and not any(a['tag'] in {'script','style','nav','header','footer'} for a in ancestors(n))
     for n in document.nodes:
-        chain = list(ancestors(n))
-        if not any(a['tag'] == 'main' for a in chain):
-            continue
-        if n['tag'] in {'section','aside','div'} and set(n['attrs'].get('class','').split()) & CITATION_CLASSES:
-            if n['end'] and any(c['tag'] in {'h1','h2','h3','h4','h5','h6','strong'} for c in n['children']):
-                found.append((n['start'], n['end']))
-        if n['tag'] not in {'h1','h2','h3','h4','h5','h6','strong'} or not LABEL.fullmatch(' '.join(html.unescape(''.join(n['text'])).split())):
-            continue
-        parent = n['parent']
-        siblings = parent['children']
-        following = siblings[siblings.index(n) + 1:]
-        if following and following[0]['tag'] in {'ul','ol'} and following[0]['end']:
-            found.append((n['start'], following[0]['end']))
-    merged = []
-    for start, end in sorted(set(found)):
-        if merged and start <= merged[-1][1]:
-            merged[-1] = (merged[-1][0], max(end, merged[-1][1]))
-        else:
-            merged.append((start, end))
+        if not n['end'] or not inside_body(n):continue
+        classes=set(n['attrs'].get('class','').split())
+        if n['tag'] in {'section','aside','div'} and (classes & ATTRIBUTION_CLASSES or 'data-article-references' in n['attrs']):
+            found.append((n['start'],n['end']));continue
+        label=text(n)
+        if n['tag'] in {'h1','h2','h3','h4','h5','h6','strong'} and ATTRIBUTION_LABEL.fullmatch(label):
+            parent=n['parent'];siblings=parent['children'] if parent else [];following=siblings[siblings.index(n)+1:];end=n['end']
+            # A design process step called Source is not a research citation.
+            if not any(c['tag'] in {'ul','ol'} for c in following) and not any(set(a['attrs'].get('class','').split()) & ATTRIBUTION_CLASSES or 'data-article-references' in a['attrs'] for a in ancestors(n)):
+                continue
+            if parent and parent['tag'] in {'div','section','aside'} and siblings and siblings[0] is n and all(c['tag'] in {'h1','h2','h3','h4','h5','h6','strong','p','ul','ol','div'} for c in siblings) and not any(c is not n and c['tag'] in {'h1','h2','h3','h4','h5','h6'} for c in siblings):
+                if parent['end'] and not re.search(r'©|all rights reserved|photo(?:graph)?\s+credit|licensed under|CC[- ]BY',text(parent),re.I):
+                    found.append((parent['start'],parent['end']));continue
+            for following_node in following:
+                if following_node['tag'] in {'ul','ol'} and following_node['end']:end=following_node['end'];break
+                if following_node['tag']=='p' and following_node['end'] and any(c['tag']=='a' for c in following_node['children']):end=following_node['end'];continue
+                break
+            found.append((n['start'],end))
+        if n['tag']=='p' and any(c['tag']=='a' for c in n['children']) and re.match(r'^(?:Sources?|References?|Citations?|Fuentes|منابع|المصادر|参考资料|출처|Источники)\s*:',label,re.I):found.append((n['start'],n['end']))
+        if n['tag'] in {'sup','a'} and (classes & {'citation','cite','reference-marker'} or re.match(r'^#(?:cite|ref|source|fn)[-_]?\d',n['attrs'].get('href',''),re.I)) and re.fullmatch(r'\[?\d+(?:[,–-]\d+)*\]?',label):found.append((n['start'],n['end']))
+    merged=[]
+    for start,end in sorted(set(found)):
+        if merged and start<=merged[-1][1]:merged[-1]=(merged[-1][0],max(end,merged[-1][1]))
+        else:merged.append((start,end))
     return merged
 
-def clean(source, route):
-    for start, end in reversed(inappropriate_spans(source, route)):
-        source = source[:start] + source[end:]
+def clean(source,route):
+    for start,end in reversed(inappropriate_spans(source,route)):source=source[:start]+source[end:]
     return source
