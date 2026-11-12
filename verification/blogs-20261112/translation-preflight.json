@@ -1,0 +1,49 @@
+{
+  "initial_read_only_preflight": {
+    "enabled_languages": [
+      "en",
+      "es",
+      "fa",
+      "hy",
+      "zh-CN",
+      "ko",
+      "tl",
+      "te",
+      "ru",
+      "ar"
+    ],
+    "new_article_segments_checked_per_language": 71,
+    "saved_segments": {
+      "es": 0,
+      "fa": 0,
+      "hy": 0,
+      "zh-CN": 0,
+      "ko": 0,
+      "tl": 0,
+      "te": 0,
+      "ru": 0,
+      "ar": 0
+    },
+    "paid_calls": 0,
+    "status": "blocked",
+    "reason": "All nine additional languages lack the new article copy. The existing workflow dispatches billed Google Translation requests. The current user request prohibits paid calls. No incomplete localized pages were generated. English work remains local and must not be published as a completed multilingual release."
+  },
+  "current_status": "passed",
+  "financial_authorization": "Owner explicitly authorized up to USD 7.55 before tax on November 12, 2026.",
+  "provider_requests_complete": 90,
+  "characters_sent": 377109,
+  "calculated_gross_usd": 7.54218,
+  "missing_saved_segments_by_language": {
+    "es": 0,
+    "fa": 0,
+    "hy": 0,
+    "zh-CN": 0,
+    "ko": 0,
+    "tl": 0,
+    "te": 0,
+    "ru": 0,
+    "ar": 0
+  },
+  "article_routes_complete": 30,
+  "accounting_safeguards": "Unchanged durable reservation and no uncertain-call retry protections. No baseline fabricated or financial records reset."
+}

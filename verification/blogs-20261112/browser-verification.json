@@ -1,0 +1,159 @@
+{
+  "repository": "sun-and-sage",
+  "article_viewport_cases": [
+    {
+      "page": "blog-valley-home-buyer-low-appraisal.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-valley-dining-room-long-dinner-comfort.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-san-fernando-valley-veterans-day-laurel-canyon-2026.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-valley-home-buyer-low-appraisal.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-valley-dining-room-long-dinner-comfort.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-san-fernando-valley-veterans-day-laurel-canyon-2026.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-valley-home-buyer-low-appraisal.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-valley-dining-room-long-dinner-comfort.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    },
+    {
+      "page": "blog-san-fernando-valley-veterans-day-laurel-canyon-2026.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": true,
+      "javascript_errors": []
+    }
+  ],
+  "index_viewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "errors": [],
+  "screenshots": "C:\\Users\\Owner\\AppData\\Local\\Temp\\sun-and-sage-blogs-20261112-fdrzb5hy",
+  "external_requests": "blocked using existing offline convention",
+  "forms_submitted": 0,
+  "live_production": false
+}

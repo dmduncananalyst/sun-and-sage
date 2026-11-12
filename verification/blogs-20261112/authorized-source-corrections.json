@@ -1,0 +1,14 @@
+[
+  {
+    "article": 10,
+    "original": "The National Association of Realtors Confidence Index for July 2026 found that about 6 percent of contracts were delayed specifically because of appraisal issues, within a broader picture where about 12 percent of closings were delayed overall.",
+    "replacement": "NAR’s July 2026 figures show that about 12 percent of contracts had delayed settlements, with appraisal issues reported for 6 percent of those delayed contracts.",
+    "authorization": "User explicitly approved these exact two replacement sentences."
+  },
+  {
+    "article": 10,
+    "original": "One widely cited estimate puts roughly one appraisal in ten coming in below the agreed price.",
+    "replacement": "FHFA analysis found annual rates of appraisals below contract price ranging from 7 to 9 percent from 2013 through 2020.",
+    "authorization": "User explicitly approved these exact two replacement sentences."
+  }
+]

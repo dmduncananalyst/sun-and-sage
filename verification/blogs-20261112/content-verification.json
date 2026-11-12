@@ -1,0 +1,37 @@
+{
+  "repository": "sun-and-sage",
+  "articles": [
+    {
+      "url": "https://dommydom.com/blog-valley-home-buyer-low-appraisal.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": false,
+      "authorized_numerical_corrections": true,
+      "body_characters": 9346,
+      "meta_characters": 159,
+      "image_bytes": 313124,
+      "missing_references": []
+    },
+    {
+      "url": "https://dommydom.com/blog-valley-dining-room-long-dinner-comfort.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": true,
+      "authorized_numerical_corrections": false,
+      "body_characters": 8604,
+      "meta_characters": 154,
+      "image_bytes": 403946,
+      "missing_references": []
+    },
+    {
+      "url": "https://dommydom.com/blog-san-fernando-valley-veterans-day-laurel-canyon-2026.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": true,
+      "authorized_numerical_corrections": false,
+      "body_characters": 2127,
+      "meta_characters": 150,
+      "image_bytes": 350216,
+      "missing_references": []
+    }
+  ],
+  "errors": [],
+  "publication": "not yet performed"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "article": 10,
+    "title": "National Association of Realtors, August 2026 report with July comparison",
+    "url": "https://cms.nar.realtor/sites/default/files/2026-09/2026-08-realtors-confidence-index-09-10-2026.pdf",
+    "status": 200,
+    "primary_source_review": "Page 3 defines 6 percent using delayed contracts as denominator; July comparison also shows 12 percent delayed settlements."
+  },
+  {
+    "article": 10,
+    "title": "Federal Housing Finance Agency, appraisal comparisons and time adjustments",
+    "url": "https://www.fhfa.gov/blog/insights/underutilization-of-appraisal-time-adjustments",
+    "status": 403,
+    "additional_verification": "Primary FHFA analysis read through the web tool; published January 8, 2024; annual below-contract appraisal range of 7 to 9 percent for 2013 through 2020 verified."
+  },
+  {
+    "article": 11,
+    "title": "LeisureMod, dining table heights and space per diner",
+    "url": "https://www.leisuremod.com/blogs/our-blog/how-to-choose-a-dining-table",
+    "status": 200,
+    "final_url": "https://www.leisuremod.com/blogs/our-blog/how-to-choose-a-dining-table"
+  },
+  {
+    "article": 11,
+    "title": "IKEA, dining chair size and comfort guide",
+    "url": "https://www.ikea.co.id/en/inspirations/dining-chair-size-guide-for-your-home",
+    "status": 200,
+    "final_url": "https://www.ikea.co.id/en/inspirations/dining-chair-size-guide-for-your-home"
+  },
+  {
+    "article": 11,
+    "title": "Oak and Loom, dining chair depth and clearance",
+    "url": "https://www.oakandloom.com/blogs/blog/how-to-choose-dining-chairs-solid-wood-table",
+    "status": 200,
+    "final_url": "https://www.oakandloom.com/blogs/blog/how-to-choose-dining-chairs-solid-wood-table"
+  },
+  {
+    "article": 12,
+    "title": "San Fernando Valley Veterans Day Parade, official 2026 event information",
+    "url": "https://www.sfvveteransdayparade.com/",
+    "status": 200,
+    "final_url": "https://www.sfvveteransdayparade.com/"
+  },
+  {
+    "article": 12,
+    "title": "City of Burbank, veterans and military service programs",
+    "url": "https://www.burbankca.gov/web/parks-recreation/veterans-and-military-service-programs",
+    "status": 403,
+    "final_url": "https://www.burbankca.gov/web/parks-recreation/veterans-and-military-service-programs",
+    "additional_verification": "Official City of Burbank 2026 Veterans Day program read through web tool."
+  }
+]

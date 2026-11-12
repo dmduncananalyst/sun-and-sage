@@ -1,0 +1,17 @@
+{
+  "security_selftest": "PASS, 26 blocked and 27 allowed synthetic path cases, unchanged hook",
+  "source_policy": "PASS, 12 checks",
+  "translation_safety": "PASS, 27 offline unit tests and browser runtime tests covering ten language routes",
+  "english_browser": "PASS, 9 article viewport cases and three index viewports",
+  "translation_preflight": "PASS: 381 canonical English pages, 3810 corresponding language pages; no missing saved translation segments; all 30 new article routes complete.",
+  "paid_translation_calls": 90,
+  "publication": "Complete English and nine-language source prepared for authorized release after final staged review and unchanged commit hook.",
+  "browser": "PASS: 90 article and 30 archive cases across ten languages and desktop/tablet/mobile viewports.",
+  "public_integrity": "PASS, 4182 approved English and saved localized routes",
+  "source_corrections": "The exact two owner-approved NAR and FHFA replacement sentences are integrated in the English article and structured data, with accurate saved translations and preserved primary source citations in all nine additional languages.",
+  "translation_characters": 377109,
+  "calculated_gross_translation_usd": 7.54218,
+  "authorized_pre_tax_ceiling_usd": 7.55,
+  "build": "PASS: existing build_existing packager includes 4182 approved public routes with zero provider calls.",
+  "preservation": "All previous article source pages, archive cards, existing catalog values and homepage heroes preserved. Only new article pages, three archive entries per language, required saved translation additions, inventories and sitemaps included."
+}

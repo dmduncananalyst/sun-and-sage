@@ -1,0 +1,26 @@
+[
+  {
+    "number": 10,
+    "repo": "sun-and-sage",
+    "name": "article-10",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-9e1f1426-2ed0-4e9e-9fb9-b4c89b149d7a.png",
+    "prompt": "Original professional photorealistic landscape editorial photograph, wide 3:2. Mexican couple who are home buyers at a kitchen table inside a modest San Fernando Valley California home, worried and thoughtful as they look at unmarked mortgage appraisal paperwork with a calculator, savings notebook and house keys. No real estate agent is present. No portrait or fictional depiction of Dominique. A leafy residential street and foothills softly visible through a window. Warm realistic daylight, restrained emotion, natural hands and anatomy. No logos, readable invented figures, text overlays or watermark.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "number": 11,
+    "repo": "sun-and-sage",
+    "name": "article-11",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-4a8cf29c-33cd-4644-838a-5319ad6e8765.png",
+    "prompt": "Original professional photorealistic landscape editorial interior photograph, wide 3:2. Beautiful dining room in an older San Fernando Valley California ranch home, elegant polished wood dining table with a tasteful understated Thanksgiving table setting and attractive narrow hard wooden dining chairs. Clearly visible chair seating and practical clearance around table, late afternoon golden light through broad windows, warm realistic upscale residential photography with honest room proportions. Property only, no people, no Dominique or other real estate agents. No text, logos or watermark.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "number": 12,
+    "repo": "sun-and-sage",
+    "name": "article-12",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-f2ba2b9f-17fc-4e02-8af1-677637b50133.png",
+    "prompt": "Original professional photorealistic editorial concept image, wide landscape 3:2. Clearly staged illustrative still life for a San Fernando Valley Veterans Day community reflection: respectfully displayed small United States flag on a table alongside a simple red white and blue remembrance ribbon and an unmarked flower bouquet on a sunlit California residential porch, distant palm trees and foothills softly visible. This is symbolic illustration, not documentary photography of any actual parade or 2026 event. No people, no Dominique, no real estate agents, no military medals or invented insignia, no captions, logos or watermark. Realistic warm November daylight.",
+    "tool": "built-in image_gen"
+  }
+]
