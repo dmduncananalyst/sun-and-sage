@@ -27,7 +27,25 @@
   border-radius: .375rem;
 }
 .guide-card small { display: block; margin-block-start: .625rem; }
-#guide-open { min-height: 44px; padding: .55rem 1.125rem; }
+html body #main.guide-page #guide-open {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  max-inline-size: 100%;
+  padding: .65rem 1.3rem !important;
+  border: 1px solid #48533e !important;
+  border-radius: .375rem !important;
+  background: #48533e !important;
+  color: #fff !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+html body #main.guide-page #guide-open:hover { background: #343c32 !important; }
+html body #main.guide-page #guide-open:focus-visible {
+  outline: 3px solid #48533e !important;
+  outline-offset: 3px;
+}
 #guide-request {
   position: fixed;
   inset: 0;
@@ -48,3 +66,7 @@
 #guide-request p { margin-block: 0 .75rem; }
 #guide-request .hs-form-frame { min-height: 14rem; }
 #guide-confirmation { padding: .75rem; background: #e4e9dc; border-inline-start: 3px solid #48533e; }
+
+html:root body.ss18:has(main.guide-page) footer#dd-site-footer#dd-site-footer {
+  margin-block-start: clamp(1.5rem, 4vw, 3rem) !important;
+}

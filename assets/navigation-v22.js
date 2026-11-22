@@ -7,7 +7,7 @@ if (localeNode && !nav.querySelector('[data-dd-guide]')) {
  const locale = JSON.parse(localeNode.textContent);
  const blog = nav.querySelector(':scope > a[href$="blog.html"]');
  if (blog && !locale.englishOnly && !/^blog(?:[./-])/.test(locale.path)) {
-  const labels = {"en":"Guide","es":"Guía","fa":"راهنما","hy":"Ուղեցույց","zh-CN":"指南","ko":"가이드","tl":"Gabay","te":"మార్గదర్శిని","ru":"Руководство","ar":"الدليل"};
+  const labels = {"en":"Guides","es":"Guías","fa":"راهنماها","hy":"Ուղեցույցներ","ko":"가이드","tl":"Mga Gabay","te":"మార్గదర్శినులు","ru":"Руководства","ar":"الأدلة","zh-CN":"指南"};
   const guide = document.createElement('a');
   const prefix = locale.language === 'en' ? '' : locale.language + '/';
   guide.href = new URL(prefix + 'guide.html', new URL(locale.rootPrefix, location.href));
