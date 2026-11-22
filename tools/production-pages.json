@@ -1,6 +1,7 @@
 {
   "english": [
     "about.html",
+    "guide.html",
     "bank-statement-loans.html",
     "blog-2026-world-series-los-angeles.html",
     "blog-401k-matters.html",
@@ -427,6 +428,7 @@
   "locales": {
     "es": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -850,6 +852,7 @@
     ],
     "fa": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -1273,6 +1276,7 @@
     ],
     "hy": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -1696,6 +1700,7 @@
     ],
     "zh-CN": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -2119,6 +2124,7 @@
     ],
     "ko": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -2542,6 +2548,7 @@
     ],
     "tl": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -2965,6 +2972,7 @@
     ],
     "te": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -3388,6 +3396,7 @@
     ],
     "ru": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",
@@ -3811,6 +3820,7 @@
     ],
     "ar": [
       "about.html",
+      "guide.html",
       "bank-statement-loans.html",
       "blog-2026-world-series-los-angeles.html",
       "blog-401k-matters.html",

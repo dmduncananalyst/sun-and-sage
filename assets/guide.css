@@ -1,0 +1,50 @@
+.guide-page {
+  padding: clamp(1.75rem, 4vw, 3.5rem) 1rem;
+  background: #f8f7f3;
+  color: #343c32;
+  text-align: center;
+}
+.guide-page h1, .guide-page h2, #guide-request h2 {
+  margin: 0 0 .85rem;
+  color: #343c32;
+}
+.guide-card {
+  max-inline-size: 32rem;
+  margin-inline: auto;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  background: #fff;
+  border: 1px solid #d9cbb7;
+  border-radius: .75rem;
+}
+.guide-card video {
+  display: block;
+  width: min(100%, 19rem);
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  margin: 0 auto 1rem;
+  background: #343c32;
+  border-radius: .375rem;
+}
+.guide-card small { display: block; margin-block-start: .625rem; }
+#guide-open { min-height: 44px; padding: .55rem 1.125rem; }
+#guide-request {
+  position: fixed;
+  inset: 0;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.75rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #d9cbb7;
+  border-radius: .75rem;
+  background: #faf7ef;
+  color: #343c32;
+}
+#guide-request::backdrop { background: rgb(36 45 34 / 65%); }
+.guide-dialog-header { display: flex; justify-content: space-between; align-items: start; gap: 1rem; }
+#guide-request .guide-close { min-width: 44px; min-height: 44px; padding: 0; flex: none; }
+#guide-request p { margin-block: 0 .75rem; }
+#guide-request .hs-form-frame { min-height: 14rem; }
+#guide-confirmation { padding: .75rem; background: #e4e9dc; border-inline-start: 3px solid #48533e; }

@@ -2,6 +2,20 @@
 const header=document.querySelector('#dd-header');if(!header)return;
 const nav=header.querySelector('#dd-navigation'),toggle=header.querySelector('.dd-menu-toggle');if(!nav||!toggle)return;
 nav.querySelectorAll('.dd-group').forEach(group=>{if(group.querySelector(':scope > a')?.getAttribute('href')?.split(/[?#]/)[0].endsWith('sell-a-home.html'))group.querySelectorAll('.dd-panel-content > a').forEach(link=>{if(link.getAttribute('href')?.split(/[?#]/)[0].endsWith('seller-questions.html'))link.remove();});});
+const localeNode = document.getElementById('dommydom-locale');
+if (localeNode && !nav.querySelector('[data-dd-guide]')) {
+ const locale = JSON.parse(localeNode.textContent);
+ const blog = nav.querySelector(':scope > a[href$="blog.html"]');
+ if (blog && !locale.englishOnly && !/^blog(?:[./-])/.test(locale.path)) {
+  const labels = {"en":"Guide","es":"Guía","fa":"راهنما","hy":"Ուղեցույց","zh-CN":"指南","ko":"가이드","tl":"Gabay","te":"మార్గదర్శిని","ru":"Руководство","ar":"الدليل"};
+  const guide = document.createElement('a');
+  const prefix = locale.language === 'en' ? '' : locale.language + '/';
+  guide.href = new URL(prefix + 'guide.html', new URL(locale.rootPrefix, location.href));
+  guide.textContent = labels[locale.language];
+  guide.dataset.ddGuide = '';
+  blog.after(guide);
+ }
+}
 const contacts=header.querySelector('.dd-contact-strip'),tools=header.querySelector('.dd-header-tools');tools.append(toggle);
 const items=[...nav.children],primary=items.filter(e=>e.matches('.dd-group')),features=[...header.querySelectorAll('.dd-feature')],groups=[...primary,...features],flyouts=[...nav.querySelectorAll('.dd-flyout')],fine=matchMedia('(hover:hover) and (pointer:fine)'),inertState=new Map();
 let compact=false,pointer='mouse',lastWidth=innerWidth,suppressFocus=false;const timers=new Map();
