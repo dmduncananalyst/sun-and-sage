@@ -31,3 +31,36 @@ html body.ss18 main#main#main#main#main#main#main#main.blog-mobile-summaries .lo
 :root:has(link[rel="canonical"][href*="/considerations/loan/"]) :is(.ss4711-copy, .consideration-card h2) {
   overflow-wrap: anywhere;
 }
+
+/* Keep the shared title block independent of the article's content gutters. */
+html body main#main#main#main#main#main.ss4711-article:has(> .loanHubHero) {
+  padding-top: 0 !important;
+}
+
+html body main#main.ss4711-article > .loanHubHero {
+  --article-inline-gutter: 20px;
+  --loan-hero-width: min(100% + 2 * var(--article-inline-gutter), 980px);
+  width: var(--loan-hero-width);
+  margin-inline: calc((100% - var(--loan-hero-width)) / 2) !important;
+}
+
+@media (max-width: 820px) {
+  html body main#main.ss4711-article > .loanHubHero {
+    --article-inline-gutter: 22px;
+  }
+}
+
+@media (min-width: 1101px) {
+  /* The Considerations overview now fills both rows of its six-track grid. */
+  html body.ss18 main#main#main#main#main .considerations-grid:has(> a[href$="considerations/loan/"]) {
+    grid-auto-rows: 1fr;
+  }
+
+  html body.ss18 main#main#main#main#main .considerations-grid:has(> a[href$="considerations/loan/"]) > .consideration-card:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  html body.ss18 main#main#main#main#main .considerations-grid:has(> a[href$="considerations/loan/"]) > .consideration-card > p {
+    flex-grow: 1;
+  }
+}
