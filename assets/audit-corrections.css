@@ -56,10 +56,6 @@ html body main#main.ss4711-article > .loanHubHero {
     grid-auto-rows: 1fr;
   }
 
-  html body.ss18 main#main#main#main#main .considerations-grid:has(> a[href$="considerations/loan/"]) > .consideration-card:nth-child(4) {
-    grid-column: span 2;
-  }
-
   html body.ss18 main#main#main#main#main .considerations-grid:has(> a[href$="considerations/loan/"]) > .consideration-card > p {
     flex-grow: 1;
   }
