@@ -28,3 +28,6 @@ html body.ss18 main#main#main#main#main#main#main#main.blog-mobile-summaries .lo
 html body.ss18 main#main#main#main#main#main#main#main.blog-mobile-summaries .loanHubItem>a.ss18-card-photo>img{
  display:block!important;width:100%!important;height:100%!important;min-width:100%!important;max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;object-fit:cover!important;object-position:center!important;
 }
+:root:has(link[rel="canonical"][href*="/considerations/loan/"]) :is(.ss4711-copy, .consideration-card h2) {
+  overflow-wrap: anywhere;
+}

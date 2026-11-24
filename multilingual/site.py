@@ -90,6 +90,8 @@ def pages(root=ROOT):
     for node in tree.iter():
         if node.tag.endswith('}loc'):
             path = urlsplit(node.text).path.lstrip('/') or 'index.html'
+            if path.startswith('considerations/loan/') and path.endswith('/'):
+                path += 'index.html'
             if (root/path).is_file() and path.endswith('.html'):
                 found.add(path)
     # New English pages/blogs enter automatically, including nested content folders.
@@ -147,6 +149,8 @@ def copy_if_changed(source,destination):
     return shutil.copy2(source,destination)
 
 def local_url(path, language):
+    if path.startswith('considerations/loan/') and path.endswith('/index.html'):
+        path = path.removesuffix('index.html')
     return '/' + (language+'/' if language != 'en' else '') + ('' if path == 'index.html' else path)
 
 def strip_integration(source):
@@ -224,9 +228,11 @@ def render(source, path, language, cache, listing):
         if resolved.netloc != urlsplit(origin).netloc:
             return match[0]
         target = resolved.path.lstrip('/') or 'index.html'
+        if target.startswith('considerations/loan/') and target.endswith('/'):
+            target += 'index.html'
         suffix = ('?'+resolved.query if resolved.query else '') + ('#'+resolved.fragment if resolved.fragment else '')
         if name.lower() == 'href' and target in listing:
-            value = (language+'/' if language!='en' else '')+target+suffix
+            value = (local_url(target, language).lstrip('/') if target.startswith('considerations/loan/') else (language+'/' if language!='en' else '')+target)+suffix
         else:
             value = target+suffix
         return name+'='+quote+html.escape(value,quote=True)+quote

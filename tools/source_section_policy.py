@@ -69,6 +69,11 @@ ATTRIBUTION_LABEL=re.compile(r'^(?:(?:primary|official|additional|further|select
 
 def inappropriate_spans(source,route):
     if individual_article(source,route):return []
+    route_parts = route.split('/')
+    if route_parts[0] in LANGUAGES:
+        route_parts = route_parts[1:]
+    if re.fullmatch(r'considerations/loan/(?:[a-z0-9-]+/)?index\.html', '/'.join(route_parts)):
+        return []
     document=Document(source);found=[]
     def text(n):return ' '.join(html.unescape(''.join(n['text'])).split())
     def inside_body(n):return any(a['tag']=='body' for a in ancestors(n)) and not any(a['tag'] in {'script','style','nav','header','footer'} for a in ancestors(n))

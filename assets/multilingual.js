@@ -29,7 +29,8 @@
   function destination(code){
     const root=new URL(cfg.rootPrefix||('../'.repeat(cfg.path.split('/').length-1+(cfg.language==='en'?0:1))||'./'),location.href);
     const page=cfg.englishOnly&&code!=='en'?'index.html':cfg.path;
-    const path=(code==='en'?'':code+'/')+(page==='index.html'&&location.protocol!=='file:'?'':page);
+    const directoryPage=page==='index.html'||(page.startsWith('considerations/loan/')&&page.endsWith('/index.html'));
+    const path=(code==='en'?'':code+'/')+(directoryPage&&location.protocol!=='file:'?page.slice(0,-'index.html'.length):page);
     return new URL(path||'./',root).href+location.search+location.hash;
   }
   select.addEventListener('change',()=>{try{localStorage.setItem('dommydom-language',select.value);localStorage.setItem('dommydom-language-selected','true')}catch{}location.assign(destination(select.value))});
