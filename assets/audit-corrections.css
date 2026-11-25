@@ -44,6 +44,30 @@ html body main#main.ss4711-article > .loanHubHero {
   margin-inline: calc((100% - var(--loan-hero-width)) / 2) !important;
 }
 
+/* Separate independent loan article panels with the site's responsive section spacing. */
+html body.ss18 main#main#main#main#main#main.ss4711-article > .loanHubHero + .ss4711-photo,
+html body.ss18 main#main#main#main#main#main.ss4711-article > .ss4711-copy + [data-loan-options],
+html body.ss18 main#main#main#main#main#main.ss4711-article > [data-loan-options] + [data-loan-options] {
+  margin-block-start: clamp(20px, 3vw, 40px) !important;
+}
+
+:root:has(link[rel="canonical"][href$="/considerations/loan/"])
+  main#main > .ss4711-copy + .loanHubGridWrap {
+  margin-block-start: clamp(20px, 3vw, 40px) !important;
+}
+
+@media (min-width: 601px) {
+  html body.ss18 main#main .ss21-life-heading + .ss21-facts {
+    margin-block-start: 20px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+  html body.ss18 main#main > .ss46-page-title + .v7-lender-hero {
+    margin-block-start: 20px !important;
+  }
+}
+
 /* Loan family cards reuse the Considerations grid inside an article page. */
 html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] {
   --loan-card-panel-width: min(1500px, calc(100vw - 48px));

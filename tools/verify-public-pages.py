@@ -3,6 +3,11 @@ from pathlib import Path
 import json,re
 from source_section_policy import inappropriate_spans
 ROOT=Path(__file__).resolve().parents[1]
+LOAN_CARD = re.compile(r'<a class="consideration-card" href="[^"]+">'
+                       r'<span class="consideration-photo"><img [^>]+></span>'
+                       r'<h2>[^<]+</h2><span class="consideration-more">[^<]+</span></a>')
+
+
 def verify():
     config=json.loads((ROOT/'tools/production-pages.json').read_text(encoding='utf-8'))
     routes=list(config['english'])+[language+'/'+route for language,entries in config['locales'].items() for route in entries]
@@ -14,6 +19,11 @@ def verify():
         f=ROOT/route
         if not f.is_file():errors.append('Missing approved page: '+route);continue
         source=f.read_text(encoding='utf-8-sig')
+        if 'data-loan-options' in source:
+            count = source.count('<a class="consideration-card"')
+            if (not count or len(LOAN_CARD.findall(source)) != count
+                    or not re.search(r'<link rel="stylesheet" href="assets/consideration-cards\.css(?:\?[^"]+)?"', source)):
+                errors.append('Unexpected photographic loan card component: '+route)
         if retired.search(source):errors.append('Retired agent imagery: '+route)
         runtime.update(re.findall(r'(?:src|href)=[\"\'](assets/[^\"\'?]+\.(?:js|css))',source))
         if len(re.findall(r'https://(?:www\.)?clarity\.ms/tag/',source))!=1 or ('"'+config['clarity_project']+'"') not in source:errors.append('Clarity initialization mismatch: '+route)
