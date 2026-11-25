@@ -1,4 +1,4 @@
-"""Regression checks for the owner's blog-only public citation rule. No network calls."""
+"""Regression checks for public citation and loan resource rules."""
 from pathlib import Path
 import sys,json
 sys.path.insert(0,str(Path(__file__).resolve().parent))
@@ -21,8 +21,17 @@ check('saved translated blog preserved',policy.clean(document(reference),'es/'+a
 check('loan landing page references removed',policy.clean(document(reference),'considerations/loan/index.html')==document(''))
 loan_navigation='<p><a href="considerations/loan/">Explore Loan Options</a></p>'
 loan_resources='<h2>Recursos</h2><ul><li><a href="https://example.gov">Source</a></li></ul>'
-check('localized loan resources removed and navigation preserved',
+check('unmarked loan attribution removed and navigation preserved',
       policy.clean(document(loan_resources+loan_navigation),'es/considerations/loan/fha-loan/index.html')==document(loan_navigation))
+approved_resources=loan_resources.replace('<ul>', '<ul data-loan-resources>')
+closing='<h2>Buying or selling real estate</h2><p>Closing information.</p>'
+guide=document('<article class="ss4711-copy">'+approved_resources+closing+'</article>')
+for prefix in ['', 'es/']:
+    check('approved loan resources preserved on '+(prefix or 'English')+' guide',
+          policy.clean(guide,prefix+'considerations/loan/fha-loan/index.html')==guide)
+for path in ['index.html','homebuyers/index.html','unlisted-loan/index.html']:
+    check('loan resource marker does not allow resources on '+path,
+          'example.gov' not in policy.clean(guide,'considerations/loan/'+path))
 check('internal resource navigation preserved',
       policy.clean(document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'),'about.html')==
       document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'))

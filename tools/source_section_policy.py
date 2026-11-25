@@ -1,4 +1,4 @@
-"""Keep citation/resource sections on blog posts.
+"""Keep citations on blog posts and approved resources on loan guides.
 
 Source spans are removed without reserializing approved page content. Ordinary
 uses of words such as income sources, source records, and a design sourcing step
@@ -67,13 +67,45 @@ def individual_article(source, route):
 ATTRIBUTION_CLASSES={'references','sources','source-reference-links','article-sources','source-notes','bibliography','citations','refs','ref-list','reference-list','reference-links','sources-list','source-list','sources-section','reference-section','references-section','research-attribution','citation-list'}
 ATTRIBUTION_LABEL=re.compile(r'^(?:(?:primary|official|additional|further|selected|key|trusted)\s+)*(?:sources?|references?|citations?|bibliography|sources? and references?|Fuentes(?: y referencias)?|Referencias|منابع(?: و مآخذ)?|مراجع|المصادر(?: والمراجع)?|المراجع|Աղբյուրներ|Հղումներ|参考资料|参考文献|参考|來源|来源|참고\s*문헌|출처|참고\s*자료|Mga\s+sanggunian|Sanggunian|మూలాలు|వనరులు|సూచనలు|Источники(?: и ссылки)?|Ссылки|Литература)\s*[:.]?$',re.I)
 
+LOAN_GUIDES = frozenset("""
+adjustable-rate-mortgage bridge-loan calhfa-loan cash-out-refinance
+commercial-real-estate-loan construction-loan conventional-loan down-payment-assistance
+dscr-loan fha-loan first-time-homebuyer-loans fixed-rate-mortgage hard-money-loan
+heloc home-equity-loan jumbo-loan land-loan multifamily-loan renovation-loan
+rental-property-loan reverse-mortgage sba-504-loan sba-7a-loan seller-financing
+usda-loan va-loan
+""".split())
+
+
+def approved_loan_resources(document, route):
+    parts = route.split('/')
+    if parts[0] in LANGUAGES:
+        parts = parts[1:]
+    if (len(parts) != 4 or parts[:2] != ['considerations', 'loan']
+            or parts[2] not in LOAN_GUIDES or parts[3] != 'index.html'):
+        return set()
+    for node in document.nodes:
+        if node['tag'] != 'article' or node['attrs'].get('class') != 'ss4711-copy':
+            continue
+        children = node['children']
+        closing = next((i for i in range(len(children) - 1, -1, -1)
+                        if children[i]['tag'] == 'h2'), -1)
+        if closing >= 2:
+            heading, listing = children[closing - 2:closing]
+            if (heading['tag'] == 'h2' and listing['tag'] == 'ul'
+                    and 'data-loan-resources' in listing['attrs']):
+                return {heading['start'], listing['start']}
+    return set()
+
+
 def inappropriate_spans(source,route):
     if individual_article(source,route):return []
     document=Document(source);found=[]
+    approved = approved_loan_resources(document, route)
     def text(n):return ' '.join(html.unescape(''.join(n['text'])).split())
     def inside_body(n):return any(a['tag']=='body' for a in ancestors(n)) and not any(a['tag'] in {'script','style','nav','header','footer'} for a in ancestors(n))
     for n in document.nodes:
-        if not n['end'] or not inside_body(n):continue
+        if not n['end'] or n['start'] in approved or not inside_body(n):continue
         classes=set(n['attrs'].get('class','').split())
         if n['tag'] in {'section','aside','div'} and (classes & ATTRIBUTION_CLASSES or 'data-article-references' in n['attrs']):
             found.append((n['start'],n['end']));continue
