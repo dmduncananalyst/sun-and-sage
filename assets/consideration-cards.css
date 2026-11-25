@@ -1,0 +1,22 @@
+/* Considerations reuses the editorial card palette, framing, and typography. */
+html body.ss18 main#main#main#main#main .considerations-grid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));gap:24px;align-items:stretch;}
+html body.ss18 main#main#main#main#main .consideration-card{grid-column:span 2;display:flex;flex-direction:column;min-width:0;margin:0;padding:0;border:3px solid #48533e;background:#fff;color:#343c32;text-decoration:none;box-shadow:none;transform:none;}
+html body.ss18 main#main#main#main#main:where(:not(.considerations-page)) .consideration-card:nth-child(4){grid-column:2/span 2;}
+@media (min-width:1101px) {
+  /* Center only the incomplete final row of the six-track card grid. */
+  html body.ss18 main#main#main#main#main.considerations-page .considerations-grid > .consideration-card:nth-child(3n+1):nth-last-child(2) {
+    grid-column: 2 / span 2;
+  }
+  html body.ss18 main#main#main#main#main.considerations-page .considerations-grid > .consideration-card:nth-child(3n+1):last-child {
+    grid-column: 3 / span 2;
+  }
+}
+html body.ss18 main#main#main#main#main .consideration-photo{display:block;position:relative;aspect-ratio:3/2;overflow:hidden;}
+html body.ss18 main#main#main#main#main .consideration-photo img{position:absolute!important;inset:0!important;display:block!important;width:100%!important;max-width:none!important;height:100%!important;max-height:none!important;margin:0!important;padding:0!important;object-fit:cover!important;}
+html body.ss18 main#main#main#main#main .consideration-card h2{margin:0;padding:18px 20px;border-top:2px solid #48533e;font:400 24px/1.35 Arial,sans-serif!important;text-align:center;color:#343c32;}
+html body.ss18 main#main#main#main#main .consideration-card p{margin:0;padding:16px 20px;border-top:2px solid #48533e;font:400 16px/1.8 Arial,sans-serif;text-align:center;color:#343c32;}
+html body.ss18 main#main#main#main#main .consideration-more{display:flex;justify-content:center;align-items:center;min-height:52px;margin-top:auto;padding:12px 20px;border-top:2px solid #48533e;font:500 12px/1.5 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#48533e;text-decoration:underline;text-underline-offset:5px;}
+html body.ss18 main#main#main#main#main .consideration-card:hover{color:#343c32;background:#fff;box-shadow:none;transform:none;}
+html body.ss18 main#main#main#main#main .consideration-card:focus-visible{outline:2px solid #48533e;outline-offset:4px;}
+@media(min-width:601px) and (max-width:1100px){html body.ss18 main#main#main#main#main .considerations-grid{grid-template-columns:repeat(4,minmax(0,1fr));}html body.ss18 main#main#main#main#main .consideration-card:nth-child(4){grid-column:span 2;}html body.ss18 main#main#main#main#main .consideration-card:last-child{grid-column:2/span 2;}}
+@media(max-width:600px){html body.ss18 main#main#main#main#main .considerations-grid{grid-template-columns:minmax(0,1fr);}html body.ss18 main#main#main#main#main .consideration-card,html body.ss18 main#main#main#main#main .consideration-card:nth-child(4){grid-column:auto;}}

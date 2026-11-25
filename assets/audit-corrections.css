@@ -45,6 +45,19 @@ html body main#main.ss4711-article > .loanHubHero {
 }
 
 /* Loan family cards reuse the Considerations grid inside an article page. */
+html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] {
+  --loan-card-panel-width: min(1500px, calc(100vw - 48px));
+  width: var(--loan-card-panel-width) !important;
+  max-width: 1500px !important;
+  margin-inline: calc((100% - var(--loan-card-panel-width)) / 2) !important;
+}
+
+@media (max-width: 800px) {
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] {
+    --loan-card-panel-width: calc(100vw - 32px);
+  }
+}
+
 html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid {
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) !important;
