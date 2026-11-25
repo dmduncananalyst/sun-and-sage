@@ -74,6 +74,22 @@ dscr-loan fha-loan first-time-homebuyer-loans fixed-rate-mortgage hard-money-loa
 heloc home-equity-loan jumbo-loan land-loan multifamily-loan renovation-loan
 rental-property-loan reverse-mortgage sba-504-loan sba-7a-loan seller-financing
 usda-loan va-loan
+10-6-arm 15-year-fixed-mortgage 30-year-fixed-mortgage 5-6-arm
+7-6-arm bank-commercial-mortgage bank-multifamily bank-statement-mortgage
+calhfa-conventional calhfa-fha calhfa-usda-loan calhfa-va-loan
+calplus-access-conventional choicerenovation construction-only construction-to-permanent
+conventional-2-to-4-unit conventional-97 conventional-cash-out conventional-investment-mortgage
+deferred-payment-assistance dream-for-all fannie-mae-multifamily fha-2-to-4-unit
+fha-203-b fha-203-k-limited fha-203-k-standard fha-221-d-4
+fha-223-a-7 fha-223-f fha-241-a fha-cash-out
+fha-streamline-refinance fix-and-flip forgivable-assistance freddie-mac-multifamily
+hecm hecm-for-purchase home-possible home-purchase-bridge
+homeone homeready homestyle-renovation improved-lot
+interest-only-mortgage investment-bridge jumbo-adjustable-rate jumbo-fixed-rate
+manufactured-home-loan myhome native-american-direct-loan private-ground-up-construction
+proprietary-reverse-mortgage rate-and-term-refinance raw-land shared-appreciation-assistance
+usda-direct usda-guaranteed usda-refinance usda-section-504-home-repair-loan
+va-2-to-4-unit va-cash-out-refinance va-irrrl va-purchase
 """.split())
 
 
@@ -88,6 +104,15 @@ def approved_loan_resources(document, route):
         if node['tag'] != 'article' or node['attrs'].get('class') != 'ss4711-copy':
             continue
         children = node['children']
+        if len(children) >= 2 and node['parent'] and node['parent']['tag'] == 'main':
+            siblings = node['parent']['children']
+            position = next(i for i, sibling in enumerate(siblings) if sibling is node)
+            heading, listing = children[-2:]
+            if (heading['tag'] == 'h2' and listing['tag'] == 'ul'
+                    and 'data-loan-resources' in listing['attrs']
+                    and position + 1 < len(siblings)
+                    and 'data-loan-options' in siblings[position + 1]['attrs']):
+                return {heading['start'], listing['start']}
         closing = next((i for i in range(len(children) - 1, -1, -1)
                         if children[i]['tag'] == 'h2'), -1)
         if closing >= 2:

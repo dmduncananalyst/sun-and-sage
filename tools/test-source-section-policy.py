@@ -32,6 +32,12 @@ for prefix in ['', 'es/']:
 for path in ['index.html','homebuyers/index.html','unlisted-loan/index.html']:
     check('loan resource marker does not allow resources on '+path,
           'example.gov' not in policy.clean(guide,'considerations/loan/'+path))
+family=document('<article class="ss4711-copy">'+approved_resources+'</article>'
+                '<section data-loan-options></section><div class="ss4711-copy">'+closing+'</div>')
+check('loan family resources stay above the loan options',
+      policy.clean(family,'considerations/loan/conventional-loan/index.html')==family)
+check('new individual loan guide keeps approved resources',
+      policy.clean(guide,'zh-CN/considerations/loan/conventional-97/index.html')==guide)
 check('internal resource navigation preserved',
       policy.clean(document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'),'about.html')==
       document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'))

@@ -44,6 +44,46 @@ html body main#main.ss4711-article > .loanHubHero {
   margin-inline: calc((100% - var(--loan-hero-width)) / 2) !important;
 }
 
+/* Loan family cards reuse the Considerations grid inside an article page. */
+html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid > .consideration-card {
+  grid-column: auto !important;
+}
+
+@media (min-width: 601px) {
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid > .consideration-card {
+    grid-column: span 2 !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid > .consideration-card:nth-child(odd):last-child {
+    grid-column: 2 / span 2 !important;
+  }
+}
+
+@media (min-width: 1101px) {
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
+
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid > .consideration-card:nth-child(3n+1):nth-last-child(2) {
+    grid-column: 2 / span 2 !important;
+  }
+
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .considerations-grid > .consideration-card:nth-child(3n+1):last-child {
+    grid-column: 3 / span 2 !important;
+  }
+}
+
 @media (max-width: 820px) {
   html body main#main.ss4711-article > .loanHubHero {
     --article-inline-gutter: 22px;
