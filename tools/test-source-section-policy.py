@@ -18,8 +18,14 @@ check('blog index preserved',policy.clean(document(reference),'blog.html')==docu
 article=next(route for route in sorted(policy.BLOG_ROUTES) if route!='blog.html')
 check('actual blog article preserved',policy.clean(document(reference),article)==document(reference))
 check('saved translated blog preserved',policy.clean(document(reference),'es/'+article)==document(reference))
-check('loan landing page resources preserved',policy.clean(document(reference),'considerations/loan/index.html')==document(reference))
-check('localized loan guide resources preserved',policy.clean(document(reference),'es/considerations/loan/fha-loan/index.html')==document(reference))
+check('loan landing page references removed',policy.clean(document(reference),'considerations/loan/index.html')==document(''))
+loan_navigation='<p><a href="considerations/loan/">Explore Loan Options</a></p>'
+loan_resources='<h2>Recursos</h2><ul><li><a href="https://example.gov">Source</a></li></ul>'
+check('localized loan resources removed and navigation preserved',
+      policy.clean(document(loan_resources+loan_navigation),'es/considerations/loan/fha-loan/index.html')==document(loan_navigation))
+check('internal resource navigation preserved',
+      policy.clean(document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'),'about.html')==
+      document('<h2>Resources</h2><ul><li><a href="guide.html">Guide</a></li></ul>'))
 check('considerations outside loan hub still follow citation policy',policy.clean(document(reference),'considerations.html')==document(''))
 check('translated standard page cleaned','references' not in policy.clean(document(reference.replace('References','Fuentes')),'es/locations/example.html'))
 ordinary=document('<h1>Source records</h1><p>Keep source documents for 3 years where appropriate.</p><a href="services.html">Services</a><a href="https://business.example/contact">Business contact</a>')

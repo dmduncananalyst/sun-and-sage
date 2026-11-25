@@ -1,4 +1,4 @@
-"""Keep citation/resource sections on individual articles and blog posts only.
+"""Keep citation/resource sections on blog posts.
 
 Source spans are removed without reserializing approved page content. Ordinary
 uses of words such as income sources, source records, and a design sourcing step
@@ -69,11 +69,6 @@ ATTRIBUTION_LABEL=re.compile(r'^(?:(?:primary|official|additional|further|select
 
 def inappropriate_spans(source,route):
     if individual_article(source,route):return []
-    route_parts = route.split('/')
-    if route_parts[0] in LANGUAGES:
-        route_parts = route_parts[1:]
-    if re.fullmatch(r'considerations/loan/(?:[a-z0-9-]+/)?index\.html', '/'.join(route_parts)):
-        return []
     document=Document(source);found=[]
     def text(n):return ' '.join(html.unescape(''.join(n['text'])).split())
     def inside_body(n):return any(a['tag']=='body' for a in ancestors(n)) and not any(a['tag'] in {'script','style','nav','header','footer'} for a in ancestors(n))
@@ -83,6 +78,21 @@ def inappropriate_spans(source,route):
         if n['tag'] in {'section','aside','div'} and (classes & ATTRIBUTION_CLASSES or 'data-article-references' in n['attrs']):
             found.append((n['start'],n['end']));continue
         label=text(n)
+        if n['tag'] in {'h2','h3','h4','h5','h6'} and (
+            LABEL.fullmatch(label) or label.casefold() in {
+                'recursos', 'منابع', 'ռեսուրսներ', '资源', '자원',
+                'mga mapagkukunan', 'వనరులు', 'ресурсы', 'موارد',
+            }
+        ):
+            parent=n['parent']
+            siblings=parent['children'] if parent else []
+            following=siblings[siblings.index(n)+1:]
+            if following and following[0]['tag'] in {'ul','ol'} and following[0]['end']:
+                listing=following[0]
+                links=[a for a in document.nodes if a['tag']=='a' and listing['start'] < a['start'] < listing['end']]
+                if links and all(re.match(r'https?://(?!((?:www\.)?dommydom\.com)(?:[/:?#]|$))', a['attrs'].get('href',''), re.I) for a in links):
+                    found.append((n['start'], listing['end']))
+                    continue
         if n['tag'] in {'h1','h2','h3','h4','h5','h6','strong'} and ATTRIBUTION_LABEL.fullmatch(label):
             parent=n['parent'];siblings=parent['children'] if parent else [];following=siblings[siblings.index(n)+1:];end=n['end']
             # A design process step called Source is not a research citation.
