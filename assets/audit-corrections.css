@@ -69,6 +69,24 @@ html body.ss18 main#main#main#main#main#main.ss4711-article > [data-loan-options
 }
 
 /* Loan family cards reuse the Considerations grid inside an article page. */
+html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .loan-card-section-title {
+  margin: 0 auto clamp(20px, 3vw, 40px) !important;
+  padding-inline: 16px;
+  font: 400 clamp(32px, 3.3vw, 48px)/1.18 Arial, Helvetica, sans-serif !important;
+  letter-spacing: -.025em !important;
+  color: #30382e !important;
+  text-align: center !important;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 820px) {
+  html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .loan-card-section-title {
+    font-size: 30px !important;
+    line-height: 1.2 !important;
+    letter-spacing: -.02em !important;
+  }
+}
+
 html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] {
   --loan-card-panel-width: min(1500px, calc(100vw - 48px));
   width: var(--loan-card-panel-width) !important;
