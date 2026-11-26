@@ -71,6 +71,7 @@ html body.ss18 main#main#main#main#main#main.ss4711-article > [data-loan-options
 /* Loan family cards reuse the Considerations grid inside an article page. */
 html body.ss18 main#main#main#main#main.ss4711-article > [data-loan-options] > .loan-card-section-title {
   margin: 0 auto clamp(20px, 3vw, 40px) !important;
+  padding-block-start: 38px;
   padding-inline: 16px;
   font: 400 clamp(32px, 3.3vw, 48px)/1.18 Arial, Helvetica, sans-serif !important;
   letter-spacing: -.025em !important;
