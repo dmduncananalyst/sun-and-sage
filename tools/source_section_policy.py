@@ -55,6 +55,17 @@ def ancestors(node):
 
 
 BLOG_ROUTES=frozenset(['blog-2026-world-series-los-angeles.html', 'blog-401k-matters.html', 'blog-airbnb-aircover-rental-insurance.html', 'blog-california-condo-crisis-sb326-2026.html', 'blog-california-earnest-money-deposit.html', 'blog-california-proposition-19-homeowners.html', 'blog-can-the-dodgers-do-a-threepeat.html', 'blog-chatsworth-home-prices-2026.html', 'blog-coffee-or-tea.html', 'blog-dia-de-los-muertos-san-fernando-valley-2026.html', 'blog-encino-home-prices-2026.html', 'blog-fall-farmers-markets-san-fernando-valley-2026.html', 'blog-film-crew-rental.html', 'blog-football-season-is-back-does-your-team-play-at-sofi-this-year.html', 'blog-halloween-san-fernando-valley-2026.html', 'blog-having-children-in-your-40s.html', 'blog-homeschool-or-public-school.html', 'blog-how-to-stage-a-living-room.html', 'blog-is-it-time-for-divorce.html', 'blog-is-my-property-a-good-fit-for-airbnb.html', 'blog-lake-balboa-park-japanese-garden-fall-guide.html', 'blog-living-in-chatsworth.html', 'blog-living-in-mission-hills.html', 'blog-living-in-panorama-city.html', 'blog-living-in-porter-ranch.html', 'blog-living-in-sun-valley.html', 'blog-living-in-sylmar.html', 'blog-living-in-valley-village.html', 'blog-los-angeles-short-term-rental-rules-2026.html', 'blog-midterm-rentals-los-angeles.html', 'blog-northridge-housing-market-2026.html', 'blog-places-to-eat-san-fernando-valley.html', 'blog-porter-ranch-housing-market.html', 'blog-san-fernando-valley-home-down-payment.html', 'blog-san-fernando-valley-rental-income-short-long-term.html', 'blog-studio-city-home-prices-october-2026.html', 'blog-studio-city-or-valley-village-which-one-should-i-choose.html', 'blog-tapia-bros-pumpkin-patch-encino.html', 'blog-the-different-leagues-of-college-football.html', 'blog-thoughtful-home-staging-presentation.html', 'blog-trick-or-treating-san-fernando-valley-2026.html', 'blog-two-one-rate-buydown.html', 'blog-van-nuys-or-reseda-which-one-should-i-choose.html', 'blog-what-its-like-to-live-in-granada-hills.html', 'blog-what-its-like-to-live-in-north-hollywood.html', 'blog-what-its-like-to-live-in-pacoima.html', 'blog-what-its-like-to-live-in-winnetka.html', 'blog-why-budgeting-matters.html', 'blog.html'])
+BLOG_ROUTES = BLOG_ROUTES.union({
+    'free-christmas-activities-families-los-angeles-2026.html',
+    'family-movies-theaters-holiday-season-2026.html',
+    'inherited-property-family-disagreement-selling.html',
+    'buying-a-home-in-2027-mortgage-rate-considerations.html',
+    '1031-exchanges-real-estate-investors.html',
+    'choosing-a-san-fernando-valley-neighborhood.html',
+    'interior-design-trends-for-2027.html',
+    'homeowners-insurance-california-home-purchase.html',
+})
+
 
 # Blog membership is explicit: service/location pages cannot become citation
 # exceptions merely by using an <article> wrapper or Article structured data.

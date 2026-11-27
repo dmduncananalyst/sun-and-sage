@@ -135,14 +135,17 @@ def append_sitemap(path, urls):
     atomic(path, ET.tostring(root, encoding='utf-8', xml_declaration=True))
 
 
-def integrate(work):
+def integrate(work, only_pages=None):
     listing, texts = site.inventory(ROOT)
+    selected = set(only_pages) if only_pages else set(listing)
+    if selected - set(listing):
+        raise ValueError('Unknown page in translation render scope: ' + ', '.join(sorted(selected - set(listing))))
     cache = json.loads((ROOT / 'multilingual/translations.json').read_text(encoding='utf-8'))
     missing = [(language, text) for language in site.CONFIG['languages'] if language != 'en'
                for text in texts if site.key(text, language) not in cache]
     if missing:
         raise RuntimeError('Refusing partial multilingual integration')
-    sources = {path: (ROOT / path).read_text(encoding='utf-8') for path in listing}
+    sources = {path: (ROOT / path).read_text(encoding='utf-8') for path in listing if path in selected}
     hero_pattern = r'<section\b[^>]*class="[^"]*videoHero.*?</section>'
     approved_heroes = {}
     for language in site.CONFIG['languages']:
@@ -174,9 +177,9 @@ def integrate(work):
                 (updated if existed else created).append(destination.relative_to(ROOT).as_posix())
         # Existing alias files remain intact, including their canonical redirects
         # and Clarity loaders. Only the actual canonical pages are rendered above.
-        manifest['locales'][language] = sorted(set(manifest['locales'][language]) | set(listing))
+        manifest['locales'][language] = sorted(set(manifest['locales'][language]) | selected)
         append_sitemap(ROOT / ('sitemap-' + language + '.xml'),
-                       [site.CONFIG['origin'] + site.local_url(path, language) for path in listing])
+                       [site.CONFIG['origin'] + site.local_url(path, language) for path in sources])
         catalog = {text: site.translated(text, language, cache) for text in texts}
         atomic(ROOT / 'assets/locales' / (language + '.js'),
                ('window.DOMMYDOM_TRANSLATIONS=' + json.dumps(catalog, ensure_ascii=False).replace('<', '\\u003c') + ';').encode('utf-8'))
@@ -197,9 +200,12 @@ if __name__ == '__main__':
     parser.add_argument('phase', choices=['generate', 'integrate'])
     parser.add_argument('--work', type=Path, required=True)
     parser.add_argument('--owner-authorized', action='store_true')
+    parser.add_argument('--only-pages', nargs='+', help='Render only the specified pages during integration.')
     args = parser.parse_args()
     if args.phase == 'generate' and not args.owner_authorized:
         raise SystemExit('Explicit owner authorization required for provider requests')
+    if args.phase == 'generate' and args.only_pages:
+        parser.error('--only-pages requires integrate')
     args.work.mkdir(parents=True, exist_ok=True)
     if args.phase == 'generate':
         lock = ROOT / '.translation-state/generation.lock'
@@ -212,4 +218,4 @@ if __name__ == '__main__':
         finally:
             lock.unlink()
     else:
-        integrate(args.work)
+        integrate(args.work, args.only_pages)

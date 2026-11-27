@@ -129,7 +129,7 @@ class LocalizationTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError,'9 translations missing'):site.build(root)
 
     def test_browser_has_no_translation_api_or_secrets(self):
-        browser=(site.ROOT/'assets/multilingual.js').read_text()
+        browser=(site.ROOT/'assets/multilingual.js').read_text(encoding='utf-8')
         self.assertNotIn('fetch(',browser)
         self.assertNotIn('googleapis.com',browser)
         self.assertNotIn('apiKey',browser)

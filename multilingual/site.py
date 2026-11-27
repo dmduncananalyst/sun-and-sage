@@ -50,7 +50,7 @@ class Document(HTMLParser):
         if not blocked:
             for match in re.finditer(r'''([\w:-]+)\s*=\s*(["'])(.*?)\2''', raw, re.S):
                 name, value = match[1].lower(), html.unescape(match[3])
-                meta = tag == 'meta' and name == 'content' and (attrs.get('name') in {'description','twitter:title','twitter:description'} or attrs.get('property') in {'og:title','og:description','og:site_name'})
+                meta = tag == 'meta' and name == 'content' and (attrs.get('name') in {'description','twitter:title','twitter:description','twitter:image:alt'} or attrs.get('property') in {'og:title','og:description','og:site_name','og:image:alt'})
                 if (name in ATTRS or meta or (tag == 'input' and attrs.get('type') in {'button','submit'} and name == 'value')) and words(value):
                     self.spans.append((start+match.start(3),start+match.end(3),value,True))
         if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:
